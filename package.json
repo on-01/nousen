@@ -1,0 +1,32 @@
+{
+	"name": "nousen-project",
+	"private": true,
+	"scripts": {
+		"build": "gridsome build",
+		"develop": "gridsome develop",
+		"explore": "gridsome explore"
+	},
+	"dependencies": {
+		"@gridsome/plugin-google-analytics": "^0.1.1",
+		"@gridsome/source-contentful": "^0.5.0",
+		"babel-polyfill": "^6.26.0",
+		"gridsome": "^0.7.23",
+		"gridsome-plugin-gtag": "^0.1.10",
+		"jquery": "^3.6.0",
+		"vue-gtag": "^1.10.0",
+		"vue-head": "^2.2.0",
+		"vue-smoothscroll": "^0.2.0",
+		"vue2-google-maps": "^0.10.7"
+	},
+	"devDependencies": {
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2"
+	},
+	"browserslist": [
+		"last 3 versions",
+		"ie 11"
+	],
+	"volta": {
+		"node": "12.16.1"
+	}
+}
