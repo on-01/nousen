@@ -277,7 +277,7 @@ export default {
   background: -moz-linear-gradient(to right, #f4b073 50%, transparent 50%);
   background: linear-gradient(to right, #f4b073 50%, transparent 50%);
   background-repeat: no-repeat;
-  background-size: 200% 1.5em;
+  background-size: 200% 1em;
   background-position: 100% 0.5em;
   transition: background-position 0.5s ease-in-out;
   &.is-show {
