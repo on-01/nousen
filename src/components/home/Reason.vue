@@ -273,23 +273,23 @@ export default {
 }
 
 .reason-explanation::v-deep i {
-    background: -webkit-linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background: -moz-linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background: linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background-repeat: no-repeat;
-    background-size: 200% 1em;
-    background-position: 100% 0.5em;
-    transition: background-position 0.5s ease-in-out;
-    &.is-show {
-      background-position: 0% 0;
-    }
+  background: -webkit-linear-gradient(to right, #f4b073 50%, transparent 50%);
+  background: -moz-linear-gradient(to right, #f4b073 50%, transparent 50%);
+  background: linear-gradient(to right, #f4b073 50%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 1.5em;
+  background-position: 100% 0.5em;
+  transition: background-position 0.5s ease-in-out;
+  &.is-show {
+    background-position: 0% 0;
+  }
 }
 
 .reason-explanation::v-deep span {
-    font-size: 13px;
-    color: #4d4d4d;
-    display: block;
-    line-height: 1.6;
+  font-size: 13px;
+  color: #4d4d4d;
+  display: block;
+  line-height: 1.6;
 }
 .reason-more {
   display: block;
