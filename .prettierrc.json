@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "*.vue",
+      "options": {
+        "htmlWhitespaceSensitivity": "ignore",
+        "vueIndentScriptAndStyle": true
+      }
+    }
+  ]
+}
