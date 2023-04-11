@@ -7,9 +7,11 @@
         title="講師を知る"
       />
       <div class="contents">
-        <div v-for="(teacher,index) in $page.allContentfulTeacher.edges" :key="index">
-          <div class="scroll-animation-item">
-          </div>
+        <div
+          v-for="(teacher, index) in $page.allContentfulTeacher.edges"
+          :key="index"
+        >
+          <div class="scroll-animation-item"></div>
           <Teacher
             :myCatch="teacher.node.catch"
             :name="teacher.node.name"
@@ -55,43 +57,48 @@ query {
 </static-query>
 
 <script>
-import { documentToHtmlString } from '../../node_modules/@contentful/rich-text-html-renderer';
-import Hero from '@/components/Hero.vue';
-import Teacher from '@/components/teachers/Teacher.vue';
+import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+import Hero from "@/components/Hero.vue";
+import Teacher from "@/components/teachers/Teacher.vue";
 export default {
-  mame: 'teachers',
+  mame: "teachers",
   metaInfo() {
     return {
-      titleTemplate: '講師を知る｜能セン-学び方を学ぶ-（能力開発研修センター）',
-      meta: [	{
-					name: 'description', content: '受験対策講習会を開催しています能セン（能力開発研修センター）のホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。'
-				},
+      titleTemplate: "講師を知る｜能セン-合格への近道-（株式会社NOUSEN）",
+      meta: [
+        {
+          name: "description",
+          content:
+            "受験対策講習会を開催しています能セン（株式会社NOUSEN）のホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。"
+        },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `講師を知る｜能セン-学び方を学ぶ-（能力開発研修センター）`,
+          content: `講師を知る｜能セン-合格への近道-（株式会社NOUSEN）`
           // content: `講師を知る | ${this.$static.metadata.siteName}`,
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/teachers`,
-        },
+          content: `${this.$static.metadata.siteUrl}/teachers`
+        }
       ]
-    }
+    };
   },
   components: {
     Hero,
     Teacher
   },
   methods: {
-   richtextToHTML(content) {
-    //  const richtextString = documentToHtmlString(JSON.parse(content));
-    const richtextString = documentToHtmlString(content).replace(/\n/g, `</br>`).replace(/<a((?: .+?))?>(.*?)<\/a>/g,'<a $1 target="_blank">$2</a>');
-    return richtextString
-   }
- }
-}
+    richtextToHTML(content) {
+      //  const richtextString = documentToHtmlString(JSON.parse(content));
+      const richtextString = documentToHtmlString(content)
+        .replace(/\n/g, `</br>`)
+        .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
+      return richtextString;
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>

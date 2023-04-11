@@ -13,15 +13,19 @@
       <div class="contents">
         <section class="message">
           <div class="introduction">
-            <p>能セン(能力開発研修センター)では、出張講習も承っております。</p>
+            <p>能セン(株式会社NOUSEN)では、出張講習も承っております。</p>
             <p class="example">
-              「必要な資格取得者が大幅に不足している」<br />
-              「社内など身近な環境で研修を行いたい」<br />
-              「近隣で希望する講習が開催されていない」<br />
+              「必要な資格取得者が大幅に不足している」
+              <br />
+              「社内など身近な環境で研修を行いたい」
+              <br />
+              「近隣で希望する講習が開催されていない」
+              <br />
               「社内講習を行いたいが身近に専門の講師がいない」
             </p>
             <p>
-              ・・・等のお悩みを抱えた企業様に向けた講習会をご提案させて頂いております。<br />
+              ・・・等のお悩みを抱えた企業様に向けた講習会をご提案させて頂いております。
+              <br />
               大勢の方がお得にはなりますが、少人数でもご対応はできますのでお気軽にご相談ください。
             </p>
           </div>
@@ -54,9 +58,10 @@
         </div>
         <div class="example-wrapper">
           <h4 class="example-title">
-            <IconBase width="30" height="30"
-              ><IconFingerDiagonallyUp /></IconBase
-            >過去の実施例を一部ご紹介
+            <IconBase width="30" height="30">
+              <IconFingerDiagonallyUp />
+            </IconBase>
+            過去の実施例を一部ご紹介
           </h4>
           <Example
             companyName="電機メーカーD社"
@@ -65,7 +70,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト',
               '参加人数：５０名',
-              '費用等：約750,000円 / お一人様あたり約15,000円',
+              '費用等：約750,000円 / お一人様あたり約15,000円'
             ]"
           />
           <Example
@@ -75,7 +80,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト・材料',
               '参加人数：１０名',
-              '費用等：約700,000円 / お一人様あたり約70,000円',
+              '費用等：約700,000円 / お一人様あたり約70,000円'
             ]"
           />
           <Example
@@ -85,7 +90,7 @@
               '日程：１日７時間×８日間(理論・電機・機械・法規の講習を各2日間)',
               '教材：テキスト・問題集',
               '参加人数：４３名 (４科目の合計参加数)',
-              '費用等：約2,000,000円 / お一人様あたり約46,000円',
+              '費用等：約2,000,000円 / お一人様あたり約46,000円'
             ]"
           />
           <Example
@@ -95,7 +100,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト・問題集',
               '参加人数：１9名',
-              '費用等：約650,000円 / お一人様あたり約35,000円',
+              '費用等：約650,000円 / お一人様あたり約35,000円'
             ]"
           />
           <p class="attention">
@@ -103,13 +108,15 @@
           </p>
         </div>
         <div class="contact">
-          費用・研修内容等、何なりとご相談ください！<br />
-          短期間、短時間の研修が可能です。<br />
-          <g-link to="/contact" class="more-link"
-            >お見積もり・お問い合わせ
-            <IconBase class="icon" width="25" height="25"
-              ><IconFingerRight
-            /></IconBase>
+          費用・研修内容等、何なりとご相談ください！
+          <br />
+          短期間、短時間の研修が可能です。
+          <br />
+          <g-link to="/contact" class="more-link">
+            お見積もり・お問い合わせ
+            <IconBase class="icon" width="25" height="25">
+              <IconFingerRight />
+            </IconBase>
           </g-link>
         </div>
       </div>
@@ -127,34 +134,34 @@ query {
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Point from '@/components/private_lecture/Point.vue';
-import Example from '@/components/private_lecture/Example.vue';
-import IconBase from '@/components/IconBase.vue';
-import IconFingerDiagonallyUp from '@/components/icons/IconFingerDiagonallyUp.vue';
-import IconFingerRight from '@/components/icons/IconFingerRight.vue';
+import Hero from "@/components/Hero.vue";
+import Point from "@/components/private_lecture/Point.vue";
+import Example from "@/components/private_lecture/Example.vue";
+import IconBase from "@/components/IconBase.vue";
+import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
+import IconFingerRight from "@/components/icons/IconFingerRight.vue";
 export default {
   metaInfo() {
     return {
-    titleTemplate: '出張講習のご案内｜能セン-学び方を学ぶ-',
+      titleTemplate: "出張講習のご案内｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（能力開発研修センター）の出張講習ページです。出張講習はご予算や期間、研修内容等お伺いした内容をもとに、貴社だけの研修プログラムをご提案します。',
+            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（株式会社NOUSEN）の出張講習ページです。出張講習はご予算や期間、研修内容等お伺いした内容をもとに、貴社だけの研修プログラムをご提案します。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `出張講習のご案内｜能セン-学び方を学ぶ-`,
+          content: `出張講習のご案内｜能セン-合格への近道-`
           // content: `出張講習 | ${this.$static.metadata.siteName}`,
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/private-lecture`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/private-lecture`
+        }
+      ]
     };
   },
   components: {
@@ -163,8 +170,8 @@ export default {
     Example,
     IconBase,
     IconFingerDiagonallyUp,
-    IconFingerRight,
-  },
+    IconFingerRight
+  }
 };
 </script>
 

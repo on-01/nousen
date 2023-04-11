@@ -7,18 +7,18 @@
             <div class="logo-inner">
               <img
                 src="../assets/img/common/main_logo.svg"
-                alt="能セン 学び方を学ぶ"
+                alt="能セン 合格への近道"
                 width="174"
                 height="93"
                 decoding="async"
               />
             </div>
-            <!-- <div class="logo-text">
-              <p class="logo-text_logo">一般社団法人 能力開発研修センター</p>
-              <a href="https://jeea.or.jp/" target="_blank" class="jeea-link"
-                >(社) 日本電気技術者協会 維持会員</a
-              >
-            </div> -->
+            <div class="logo-text">
+              <p class="logo-text_logo">株式会社NOUSEN</p>
+              <a href="https://jeea.or.jp/" target="_blank" class="jeea-link"></a>
+                (社) 日本電気技術者協会 維持会員
+              </a>
+            </div>
           </div>
           <div class="wrapper-information">
             <div class="information">
@@ -37,12 +37,12 @@
             </div>
             <div class="sns-link twitter-link">
               <a href="https://twitter.com/nouryoku1983" target="_blank">
+                <p>公式 Twitter</p>
                 <img
-                  src="../assets/img/common/twitter_set.svg"
+                  src="../assets/img/common/twitter.svg"
                   alt="twitter"
-                  width="181"
-                  height="48"
-                  decoding="async"
+                  width="37"
+                  height="30"
                 />
               </a>
             </div>
@@ -221,6 +221,7 @@
 }
 
 .sns-link {
+  font-size: 11px;
   @media print, screen and(min-width: 1001px) {
     position: absolute;
     z-index: 1;
@@ -228,9 +229,16 @@
     left: 45%;
     font-size: 14px;
   }
+  & p {
+    margin: 0;
+    font-weight: normal;
+  }
   a {
-    display: block;
-    width: 80px;
+    display: inline-block;
+    img {
+      width: 36px;
+      margin-left: 1.5em;
+    }
   }
 }
 .application {

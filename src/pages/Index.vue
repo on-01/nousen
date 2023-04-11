@@ -4,7 +4,7 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            ただいま２級建築・土木施工管理技士後期願書サービス中！お急ぎ下さい！
+            2級建築・土木施工管理技士の講座は只今準備中！もう少しお待ちください。
           </g-link>
         </p>
         <img
@@ -254,10 +254,8 @@
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
             :myImageSp="'front/section03_background_sp.jpg'"
-            myCatch="2万名から支持されています。"
+            myCatch="40年で10万人以上の受講生。<br>（設立は1983年。資格取得を目指す方々に長年支持されています。）"
             :explanation="[
-              '私たち能センの正式名称は、「<i class=scroll-animation-item>一般社団法人 能力開発研修センター</i>」です。',
-              '<i>設立は1983年</i>。資格取得を目指す方々に長年支持され続けています。<br><span>（受講生：約2万2000名以上、参加企業：約1万2000社以上 ※直近10年での累計）</span>',
               '10年以上にわたって指名をいただく企業も多数。<i class=scroll-animation-item>業界から高い信頼</i>をいただいています。'
             ]"
           />
@@ -286,7 +284,7 @@
           </p>
           <img
             src="../assets/img/common/main_logo.svg"
-            alt="能セン 学び方を学ぶ"
+            alt="能セン 合格への近道"
             class="last-message-logo"
             width="174"
             height="93"
@@ -587,10 +585,7 @@ export default {
   },
   metaInfo() {
     return {
-      // title: 'TOP',
-      // title:`能セン(能力開発研修センター)｜学び方を学ぶ受験対策講習会${this.$static.metadata.siteName}`,
-      // title: '能セン(能力開発研修センター)｜学び方を学ぶ受験対策講習会',
-      titleTemplate: `能セン(能力開発研修センター)｜学び方を学ぶ受験対策講習会`,
+      titleTemplate: `能セン(株式会社NOUSEN)｜合格への近道 受験対策講習会`,
       meta: [
         {
           name: "description",
@@ -601,7 +596,7 @@ export default {
           key: `og:title`,
           property: `og:title`,
           // content: `TOP | ${this.$static.metadata.siteName}`,
-          content: `能セン(能力開発研修センター)｜学び方を学ぶ受験対策講習会`
+          content: `能セン(株式会社NOUSEN)｜合格への近道 受験対策講習会`
         },
         {
           key: `og:url`,

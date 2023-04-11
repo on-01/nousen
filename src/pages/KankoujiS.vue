@@ -21,7 +21,7 @@
             '＜二次＞多くの方が苦労される「経験記述問題」をしっかり対策します。',
             '＜二次＞工事件名の記述方法から使うべき言葉、記述してはいけない用語、文章の簡潔なまとめ方など、記述のテクニックを徹底解説。格基準を満たす答案のポイントを学習できます。',
             '＜二次＞個別のご質問にも対応します。',
-            '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。',
+            '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。'
           ]"
         />
         <News :contents="richtextToHTML($static.news.newsField)" />
@@ -157,42 +157,42 @@
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Point from '@/components/licensePage/Point.vue';
-import News from '@/components/licensePage/News.vue';
-import Info from '@/components/licensePage/Info.vue';
-import Venue from '@/components/licensePage/Venue.vue';
-import Application from '@/components/licensePage/Application.vue';
-import IconBase from '@/components/IconBase.vue';
-import IconDoubleArrowRight from '@/components/icons/IconDoubleArrowRight.vue';
-import IconArrowRight from '@/components/icons/IconArrowRight.vue';
-import { INLINES } from '@contentful/rich-text-types';
-import { documentToHtmlString } from '../../node_modules/@contentful/rich-text-html-renderer';
+import Hero from "@/components/Hero.vue";
+import Point from "@/components/licensePage/Point.vue";
+import News from "@/components/licensePage/News.vue";
+import Info from "@/components/licensePage/Info.vue";
+import Venue from "@/components/licensePage/Venue.vue";
+import Application from "@/components/licensePage/Application.vue";
+import IconBase from "@/components/IconBase.vue";
+import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+import { INLINES } from "@contentful/rich-text-types";
+import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
-    [INLINES.ASSET_HYPERLINK]: (node) =>
+    [INLINES.ASSET_HYPERLINK]: node =>
       `<a href="${node.data.target.fields.file.url}">${
         node.content[0].value
-      }</a>`,
-  },
+      }</a>`
+  }
 };
 export default {
-  name: 'koujishi2',
+  name: "koujishi2",
   metaInfo() {
     return {
       titleTemplate:
-        '1・2級管工事施工管理技士 受験対策講習会｜能セン-学び方を学ぶ-',
+        "1・2級管工事施工管理技士 受験対策講習会｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '通学スタイルの受験対策講習会です。担当講師執筆のテキストを使用。経験記述問題の対策も学べます。願書サービス、再受講割引等もご用意。ポイントを押さえた講義をお届けします。',
+            "通学スタイルの受験対策講習会です。担当講師執筆のテキストを使用。経験記述問題の対策も学べます。願書サービス、再受講割引等もご用意。ポイントを押さえた講義をお届けします。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `1・2級管工事施工管理技士 受験対策講習会｜能セン-学び方を学ぶ-`,
+          content: `1・2級管工事施工管理技士 受験対策講習会｜能セン-合格への近道-`
           // content: `1・2級 管工事施工管理技士 | ${
           //   this.$static.metadata.siteName
           // }`,
@@ -200,9 +200,9 @@ export default {
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/kankouji-s`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/kankouji-s`
+        }
+      ]
     };
   },
   components: {
@@ -214,11 +214,11 @@ export default {
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight,
+    IconArrowRight
   },
   data() {
     return {
-      isActive: 1,
+      isActive: 1
     };
   },
   methods: {
@@ -230,8 +230,8 @@ export default {
     },
     tabToggle: function(num) {
       this.isActive = num;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -308,7 +308,7 @@ export default {
       font-size: 20px;
     }
     &:after {
-      content: '';
+      content: "";
       width: 70px;
       border-bottom: 5px solid #00a73c;
       display: block;
