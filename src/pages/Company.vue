@@ -12,7 +12,7 @@
           <div class="content">
             <dl>
               <dt>会社名</dt>
-              <dd>株式会社NOUSEN</dd>
+              <dd>株式会社ＮＯＵＳＥＮ</dd>
             </dl>
             <dl>
               <dt>所在地</dt>
@@ -65,7 +65,7 @@
             </dl>
             <dl>
               <dt>2023年4月</dt>
-              <dd>株式会社NOUSENに事業引き継ぎ</dd>
+              <dd>株式会社ＮＯＵＳＥＮに事業引き継ぎ</dd>
             </dl>
           </div>
         </section>
@@ -182,17 +182,17 @@ import Hero from "@/components/Hero.vue";
 export default {
   metaInfo() {
     return {
-      titleTemplate: "会社概要｜能セン-合格への近道-（株式会社NOUSEN）",
+      titleTemplate: "会社概要｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）",
       meta: [
         {
           name: "description",
           content:
-            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（株式会社NOUSEN）のページです。企業情報、沿革、事業内容、開催された講習会・研修会をご紹介しています。"
+            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（株式会社ＮＯＵＳＥＮ）のページです。企業情報、沿革、事業内容、開催された講習会・研修会をご紹介しています。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `会社概要｜能セン-合格への近道-（株式会社NOUSEN）`
+          content: `会社概要｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）`
           // content: `会社概要 | ${this.$static.metadata.siteName}`,
         },
         {

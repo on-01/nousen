@@ -585,7 +585,7 @@ export default {
   },
   metaInfo() {
     return {
-      titleTemplate: `能セン(株式会社NOUSEN)｜合格への近道 受験対策講習会`,
+      titleTemplate: `能セン(株式会社ＮＯＵＳＥＮ)｜合格への近道 受験対策講習会`,
       meta: [
         {
           name: "description",
@@ -596,7 +596,7 @@ export default {
           key: `og:title`,
           property: `og:title`,
           // content: `TOP | ${this.$static.metadata.siteName}`,
-          content: `能セン(株式会社NOUSEN)｜合格への近道 受験対策講習会`
+          content: `能セン(株式会社ＮＯＵＳＥＮ)｜合格への近道 受験対策講習会`
         },
         {
           key: `og:url`,

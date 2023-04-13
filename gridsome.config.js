@@ -1,11 +1,11 @@
 const webpack = require("webpack");
 module.exports = {
-  // siteName: `株式会社NOUSEN 能セン`,
+  // siteName: `株式会社ＮＯＵＳＥＮ 能セン`,
   // titleTemplate: `%s | 能セン-合格への近道-`,
   // titleTemplate: '',
   siteUrl: `https://www.nouryoku.com`,
   siteDescription: `
-  // 能セン(株式会社NOUSEN)では、電気、建築、設備関連を中心とした講習会を各地で開催しております。経験豊富な専門の講師が資格合格のサポートを致します。`,
+  // 能セン(株式会社ＮＯＵＳＥＮ)では、電気、建築、設備関連を中心とした講習会を各地で開催しております。経験豊富な専門の講師が資格合格のサポートを致します。`,
   metadata: {
     siteOgImage: `https://www.nouryoku.com/ogp.png`
   },

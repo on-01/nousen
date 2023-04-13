@@ -51,11 +51,6 @@ URLが複雑なのでベーシック認証は必要ないです。
 ## ※テストアップでも、Contentfulの情報更新を自動で反映させたい場合
 
 ### ONのNetlifyアカウントに能センのテストアップ用URL内のブランチ設定変更
-| ONのアカウント |
-|---|
-| ID：info@on-01.com |
-| pass：netlify2438 |
-| https://app.netlify.com/ |
 
 [https://eloquent-ramanujan-6ca626.netlify.app](https://eloquent-ramanujan-6ca626.netlify.app)
 - eloquent-ramanujan-6ca626 > Site Settings > Build&Deploy > Deploy contexts
@@ -92,3 +87,5 @@ Netlifyの仕様変更に伴って個人のリポジトリで管理していま�
 ただしPrivateリポジトリではNetlifyで有料プランに入らないといけないため、Publicリポジトリとなっております。
 
 ローカルで作業する際に必要な`.env`ファイルはローカルで管理をお願いします。（ONのクラウドデータなどにアップしてもいいかもしれません）
+
+リポジトリがPublicになったため、README.mdに記載されていたNetlifyのログイン情報を削除しました。

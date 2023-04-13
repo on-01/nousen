@@ -531,7 +531,7 @@ export default {
       }
       /* &::after {
         position: absolute;
-        content: "株式会社NOUSEN";
+        content: "株式会社ＮＯＵＳＥＮ";
         transform: scale(0.6);
         font-size: 11px;
         width: 200px;

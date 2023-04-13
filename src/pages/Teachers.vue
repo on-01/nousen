@@ -64,17 +64,17 @@ export default {
   mame: "teachers",
   metaInfo() {
     return {
-      titleTemplate: "講師を知る｜能セン-合格への近道-（株式会社NOUSEN）",
+      titleTemplate: "講師を知る｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）",
       meta: [
         {
           name: "description",
           content:
-            "受験対策講習会を開催しています能セン（株式会社NOUSEN）のホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。"
+            "受験対策講習会を開催しています能セン（株式会社ＮＯＵＳＥＮ）のホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `講師を知る｜能セン-合格への近道-（株式会社NOUSEN）`
+          content: `講師を知る｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）`
           // content: `講師を知る | ${this.$static.metadata.siteName}`,
         },
         {

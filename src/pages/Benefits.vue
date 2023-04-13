@@ -54,7 +54,7 @@ export default {
   name: "benefits",
   metaInfo() {
     return {
-      titleTemplate: "給付制度｜能セン-合格への近道-（株式会社NOUSEN）",
+      titleTemplate: "給付制度｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）",
       meta: [
         {
           name: "description",
@@ -64,7 +64,7 @@ export default {
         {
           key: `og:title`,
           property: `og:title`,
-          content: `給付制度｜能セン-合格への近道-（株式会社NOUSEN）`
+          content: `給付制度｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）`
           // content: `給付制度 | ${this.$static.metadata.siteName}`,
         },
         {
