@@ -23,6 +23,7 @@
           <!-- 必要なことだけ、<br>
           「学び方」を学べます。 -->
         </p>
+        <p v-if="myCatchSmall"><span v-html="myCatchSmall"></span></p>
       </div>
     </div>
     <!-- explain 小タイトルがあるとき用(2 えらべる学習スタイル) -->
@@ -86,9 +87,9 @@
           <span v-html="moreText">
             <!-- 詳しい講師紹介はこちら -->
           </span>
-          <IconBase class="icon" width="25" height="25"
-            ><IconFingerRight
-          /></IconBase>
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
         </g-link>
       </div>
     </div>
@@ -96,14 +97,14 @@
 </template>
 
 <script>
-import IconBase from '@/components/IconBase.vue';
-import IconFingerRight from '@/components/icons/IconFingerRight.vue';
+import IconBase from "@/components/IconBase.vue";
+import IconFingerRight from "@/components/icons/IconFingerRight.vue";
 // import $ from 'jquery';
 export default {
-  name: 'reason',
+  name: "reason",
   components: {
     IconBase,
-    IconFingerRight,
+    IconFingerRight
   },
   props: {
     reasonNumber: String,
@@ -111,13 +112,16 @@ export default {
     myImage: String,
     myImageSp: String,
     myCatch: String,
+    myCatchSmall: String,
+    mySmall: String,
+    smallText: String,
     explanation: Array,
     moreLink: String,
     moreText: String,
-    explanationGroup: Array,
+    explanationGroup: Array
   },
   mounted() {
-    window.addEventListener('load', this.youtubeInit);
+    window.addEventListener("load", this.youtubeInit);
     // 		$(function(){
     //   $('.youtube').each(function() {
     //     var iframe = $(this).children('iframe');
@@ -132,14 +136,14 @@ export default {
   },
   methods: {
     youtubeInit() {
-      var vidDefer = document.getElementsByTagName('iframe');
+      var vidDefer = document.getElementsByTagName("iframe");
       for (var i = 0; i < vidDefer.length; i++) {
-        if (vidDefer[i].getAttribute('data-src')) {
-          vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+        if (vidDefer[i].getAttribute("data-src")) {
+          vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
         }
       }
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -214,7 +218,7 @@ export default {
     padding: 0 10px;
   }
   &:after {
-    content: '';
+    content: "";
     height: 500px;
     width: 5px;
     background-color: #000;
@@ -257,7 +261,7 @@ export default {
     padding: 10px 15px 10px 20px;
   }
   &:before {
-    content: url('../../assets/img/icon/finger_diagonallyright_orange.svg');
+    content: url("../../assets/img/icon/finger_diagonallyright_orange.svg");
     position: absolute;
     left: -10px;
     top: -20px;
@@ -312,7 +316,7 @@ export default {
 .reason-contents1 {
   .reason-catch {
     &:after {
-      content: '';
+      content: "";
       height: 300px;
       top: -300px;
       @media print, screen and (max-width: 1000px) {
@@ -388,6 +392,18 @@ export default {
     height: 16px;
     @media print, screen and (min-width: 1001px) {
       height: 21px;
+    }
+  }
+}
+.reason-catch {
+  p + p {
+    display: block;
+    margin-top: -1em;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    @media print, screen and (min-width: 1001px) {
+      margin-top: -2em;
+      font-size: 14px;
     }
   }
 }

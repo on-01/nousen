@@ -15,7 +15,7 @@
             </div>
             <div class="logo-text">
               <p class="logo-text_logo">株式会社ＮＯＵＳＥＮ</p>
-              <a href="https://jeea.or.jp/" target="_blank" class="jeea-link"></a>
+              <a href="https://jeea.or.jp/" target="_blank" class="jeea-link">
                 (社) 日本電気技術者協会 維持会員
               </a>
             </div>
@@ -112,11 +112,11 @@
       margin-top: 1.5em;
 
       &_logo {
-        font-size: 13px;
+        font-size: 14px;
         margin: 0;
         font-weight: bold;
         @media print, screen and(max-width: 1000px) {
-          font-size: 10px;
+          font-size: 12px;
         }
       }
     }
@@ -135,7 +135,7 @@
     }
   }
   .jeea-link {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 1.5em;
     display: block;
     @media print, screen and(max-width: 1000px) {

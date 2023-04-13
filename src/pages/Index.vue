@@ -254,7 +254,8 @@
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
             :myImageSp="'front/section03_background_sp.jpg'"
-            myCatch="40年で10万人以上の受講生。<br>（設立は1983年。資格取得を目指す方々に長年支持されています。）"
+            myCatch="40年で10万人以上の受講生。"
+            myCatchSmall="（設立は1983年。資格取得を目指す方々に長年支持されています。）"
             :explanation="[
               '10年以上にわたって指名をいただく企業も多数。<i class=scroll-animation-item>業界から高い信頼</i>をいただいています。'
             ]"

@@ -41,33 +41,14 @@
           </div>
         </section>
         <section class="outline section">
-          <h3 class="section-title">沿革</h3>
-          <div class="content">
-            <dl>
-              <dt>1983年</dt>
-              <dd>
-                「環境計量協会」「環境整備協会」「電気技術振興会」「建設技術振興会」と、それぞれ専門分担制で設立
-              </dd>
-            </dl>
-            <dl>
-              <dt>1999年</dt>
-              <dd>
-                専門知識をひとつに結集し、現在の名称「能力開発研修センター」に名称を変更
-              </dd>
-            </dl>
-            <dl>
-              <dt>2010年</dt>
-              <dd>株式会社に変更</dd>
-            </dl>
-            <dl>
-              <dt>2012年7月30日</dt>
-              <dd>一般社団法人　能力開発研修センターに移行</dd>
-            </dl>
-            <dl>
-              <dt>2023年4月</dt>
-              <dd>株式会社ＮＯＵＳＥＮに事業引き継ぎ</dd>
-            </dl>
-          </div>
+          <h3 class="section-title">経営理念</h3>
+          <p class="section-text">
+            どこよりも『合格』を提供し、
+            <br />
+            誰よりも日本社会の発展に貢献。
+            <br />
+            何よりも明るい未来を創造する。
+          </p>
         </section>
         <section class="purpose section">
           <h3 class="section-title">目的・事業内容</h3>
@@ -274,5 +255,8 @@ dd {
 .content {
   border-top: 1px dashed #808080;
   border-bottom: 1px dashed #808080;
+}
+.section-text {
+  text-align: center;
 }
 </style>
