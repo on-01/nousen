@@ -401,8 +401,10 @@ export default {
     margin-top: -1em;
     font-size: 12px;
     letter-spacing: 0.1em;
+    margin-bottom: 2em;
     @media print, screen and (min-width: 1001px) {
       margin-top: -2em;
+      margin-bottom: 2.5em;
       font-size: 14px;
     }
   }
