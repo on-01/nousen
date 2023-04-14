@@ -46,49 +46,51 @@ query {
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Ippan from '@/components/benefits/Ippan.vue';
-import Jinzai from '@/components/benefits/Jinzai.vue';
-import Minkan from '../components/benefits/Minkan.vue';
+import Hero from "@/components/Hero.vue";
+import Ippan from "@/components/benefits/Ippan.vue";
+import Jinzai from "@/components/benefits/Jinzai.vue";
+import Minkan from "../components/benefits/Minkan.vue";
 export default {
-  name: 'benefits',
+  name: "benefits",
   metaInfo() {
     return {
-      titleTemplate: '給付制度｜能セン-学び方を学ぶ-（能力開発研修センター）',
+      titleTemplate: "給付制度｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）",
       meta: [
-					{
-					name: 'description', content: '電気、建築、設備関連を中心とした受験対策講習会を開催しています能センのページです。講習会受講時に申請できる一般教育訓練給付金、人材開発支援助成金、民間派遣型スキルアップ助成金についてご紹介しています。'
-				},
+        {
+          name: "description",
+          content:
+            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能センのページです。講習会受講時に申請できる一般教育訓練給付金、人材開発支援助成金、民間派遣型スキルアップ助成金についてご紹介しています。"
+        },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `給付制度｜能セン-学び方を学ぶ-（能力開発研修センター）`,
+          content: `給付制度｜能セン-合格への近道-（株式会社ＮＯＵＳＥＮ）`
           // content: `給付制度 | ${this.$static.metadata.siteName}`,
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/benefits`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/benefits`
+        }
+      ]
     };
   },
   data() {
     return {
-      isActive: 1,
+      isActive: 1
     };
   },
   components: {
     Hero,
     Ippan,
     Jinzai,
-    Minkan,
+    Minkan
   },
   methods: {
-    tabToggle: function (num) {
+    tabToggle: function(num) {
       this.isActive = num;
-    },
-  },
+    }
+  }
 };
 </script>
 

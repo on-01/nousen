@@ -18,7 +18,7 @@
             '＜筆記＞近年の出題傾向から分析した、頻繁に出題される項目をわかりやすく解説。',
             '＜筆記＞「得意な分野を生かして合格点を獲得する」学習方法を指導します。',
             '＜技能＞試験同様の電材をご用意。',
-            '＜技能＞ややハイレベルな作業になりますが、複数の講師がしっかり指導。最初から一種を受験する方も、丁寧にサポートします。',
+            '＜技能＞ややハイレベルな作業になりますが、複数の講師がしっかり指導。最初から一種を受験する方も、丁寧にサポートします。'
           ]"
         />
         <News :contents="richtextToHTML($static.news.newsField)" />
@@ -95,49 +95,49 @@
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Point from '@/components/licensePage/Point.vue';
-import News from '@/components/licensePage/News.vue';
-import Info from '@/components/licensePage/Info.vue';
-import Venue from '@/components/licensePage/Venue.vue';
-import Application from '@/components/licensePage/Application.vue';
-import IconBase from '@/components/IconBase.vue';
-import IconDoubleArrowRight from '@/components/icons/IconDoubleArrowRight.vue';
-import IconArrowRight from '@/components/icons/IconArrowRight.vue';
-import { INLINES } from '@contentful/rich-text-types';
-import { documentToHtmlString } from '../../node_modules/@contentful/rich-text-html-renderer';
+import Hero from "@/components/Hero.vue";
+import Point from "@/components/licensePage/Point.vue";
+import News from "@/components/licensePage/News.vue";
+import Info from "@/components/licensePage/Info.vue";
+import Venue from "@/components/licensePage/Venue.vue";
+import Application from "@/components/licensePage/Application.vue";
+import IconBase from "@/components/IconBase.vue";
+import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+import { INLINES } from "@contentful/rich-text-types";
+import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
-    [INLINES.ASSET_HYPERLINK]: (node) =>
+    [INLINES.ASSET_HYPERLINK]: node =>
       `<a href="${node.data.target.fields.file.url}">${
         node.content[0].value
-      }</a>`,
-  },
+      }</a>`
+  }
 };
 export default {
-  name: 'koujishi1',
+  name: "koujishi1",
   metaInfo() {
     return {
-      titleTemplate: '第一種電気工事士 受験対策講習会｜能セン-学び方を学ぶ-',
+      titleTemplate: "第一種電気工事士 受験対策講習会｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '短期集中型でリーズナブル！効率よく学べる通学講習会です。近年の出題傾向を分析し、ポイントを押さえた講義をお届けします。技能講習では公表問題を各自作成し講師が個別に採点指導。再受講割引もご用意しています。',
+            "短期集中型でリーズナブル！効率よく学べる通学講習会です。近年の出題傾向を分析し、ポイントを押さえた講義をお届けします。技能講習では公表問題を各自作成し講師が個別に採点指導。再受講割引もご用意しています。"
         },
         {
           key: `og:title`,
           property: `og:title`,
           // content: `第一種電気工事士 | ${this.$static.metadata.siteName}`,
-          content: `第一種電気工事士 受験対策講習会｜能セン-学び方を学ぶ-`,
+          content: `第一種電気工事士 受験対策講習会｜能セン-合格への近道-`
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/koujishi1`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/koujishi1`
+        }
+      ]
     };
   },
   components: {
@@ -149,7 +149,7 @@ export default {
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight,
+    IconArrowRight
   },
   methods: {
     richtextToHTML(content) {
@@ -157,8 +157,8 @@ export default {
         .replace(/\n/g, `</br>`)
         .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
       return richtextString;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -231,7 +231,7 @@ export default {
       font-size: 20px;
     }
     &:after {
-      content: '';
+      content: "";
       width: 70px;
       border-bottom: 5px solid #b60081;
       display: block;

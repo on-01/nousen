@@ -20,7 +20,7 @@
             '＜二次＞多くの方が苦労される「経験記述問題」をしっかり対策します。',
             '＜二次＞工事件名の記述方法から使うべき言葉、記述してはいけない用語、文章の簡潔なまとめ方など、記述のテクニックを徹底解説。',
             '＜二次＞個別のご質問にも対応します。',
-            '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。',
+            '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。'
           ]"
         />
         <News :contents="richtextToHTML($static.news.newsField)" />
@@ -36,7 +36,9 @@
           :class="['tab', { active: isActive === 1 }]"
           v-on:click="tabToggle(1)"
         >
-          オンライン<br class="underdisplay" />講座
+          オンライン
+          <br class="underdisplay" />
+          講座
           <IconBase class="icon"><IconArrowRight /></IconBase>
         </div>
         <div
@@ -192,42 +194,42 @@
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Point from '@/components/licensePage/Point.vue';
-import News from '@/components/licensePage/News.vue';
-import Info from '@/components/licensePage/Info.vue';
-import Venue from '@/components/licensePage/Venue.vue';
-import Application from '@/components/licensePage/Application.vue';
-import IconBase from '@/components/IconBase.vue';
-import IconDoubleArrowRight from '@/components/icons/IconDoubleArrowRight.vue';
-import IconArrowRight from '@/components/icons/IconArrowRight.vue';
-import { INLINES } from '@contentful/rich-text-types';
-import { documentToHtmlString } from '../../node_modules/@contentful/rich-text-html-renderer';
+import Hero from "@/components/Hero.vue";
+import Point from "@/components/licensePage/Point.vue";
+import News from "@/components/licensePage/News.vue";
+import Info from "@/components/licensePage/Info.vue";
+import Venue from "@/components/licensePage/Venue.vue";
+import Application from "@/components/licensePage/Application.vue";
+import IconBase from "@/components/IconBase.vue";
+import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+import { INLINES } from "@contentful/rich-text-types";
+import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
-    [INLINES.ASSET_HYPERLINK]: (node) =>
+    [INLINES.ASSET_HYPERLINK]: node =>
       `<a href="${node.data.target.fields.file.url}">${
         node.content[0].value
-      }</a>`,
-  },
+      }</a>`
+  }
 };
 export default {
-  name: 'koujishi2',
+  name: "koujishi2",
   metaInfo() {
     return {
       titleTemplate:
-        '1・2級建築施工管理技士 受験対策講習会｜能セン-学び方を学ぶ-',
+        "1・2級建築施工管理技士 受験対策講習会｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '通学講座・オンライン講座とご自身に合った学習スタイルを選べる受験対策講習会です。担当講師執筆のオリジナルテキストを使用。経験記述問題の対策も学べます。願書サービス、再受講割引等もご用意。ポイントを押さえた講義をお届けします。',
+            "通学講座・オンライン講座とご自身に合った学習スタイルを選べる受験対策講習会です。担当講師執筆のオリジナルテキストを使用。経験記述問題の対策も学べます。願書サービス、再受講割引等もご用意。ポイントを押さえた講義をお届けします。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `1・2級建築施工管理技士 受験対策講習会｜能セン-学び方を学ぶ-`,
+          content: `1・2級建築施工管理技士 受験対策講習会｜能セン-合格への近道-`
           // content: `1・2級 建築施工管理技士 | ${
           //   this.$static.metadata.siteName
           // }`,
@@ -235,9 +237,9 @@ export default {
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/kenchiku-s`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/kenchiku-s`
+        }
+      ]
     };
   },
   components: {
@@ -249,11 +251,11 @@ export default {
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight,
+    IconArrowRight
   },
   data() {
     return {
-      isActive: 1,
+      isActive: 1
     };
   },
   methods: {
@@ -265,8 +267,8 @@ export default {
     },
     tabToggle: function(num) {
       this.isActive = num;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -352,7 +354,7 @@ export default {
 }
 .tab:nth-child(1) {
   &::before {
-    content: url('../assets/img/license_page/icon_pc_green.svg');
+    content: url("../assets/img/license_page/icon_pc_green.svg");
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -389,7 +391,7 @@ export default {
       font-size: 18px;
     }
     &:after {
-      content: '';
+      content: "";
       width: 70px;
       border-bottom: 5px solid #00a73c;
       display: block;

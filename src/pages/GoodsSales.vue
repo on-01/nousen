@@ -13,8 +13,9 @@
           frameborder="0"
           marginheight="0"
           marginwidth="0"
-          >読み込んでいます…</iframe
         >
+          読み込んでいます…
+        </iframe>
       </div>
     </div>
   </Layout>
@@ -29,35 +30,35 @@ query {
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
+import Hero from "@/components/Hero.vue";
 export default {
-  name: 'goods-sales',
+  name: "goods-sales",
   metaInfo() {
     return {
-      titleTemplate: 'テキスト・工具販売フォーム｜能セン-学び方を学ぶ-',
+      titleTemplate: "テキスト・工具販売フォーム｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '能センで実施している講習のオリジナルテキストを販売しています。こちらのフォームよりご購入頂けます。電気工事士で使用する工具もご購入頂けます。試験はもちろん実践用として長年使える工具をご紹介しています。',
+            "能センで実施している講習のオリジナルテキストを販売しています。こちらのフォームよりご購入頂けます。電気工事士で使用する工具もご購入頂けます。試験はもちろん実践用として長年使える工具をご紹介しています。"
         },
         {
           key: `og:title`,
           property: `og:title`,
           // content: `テキスト・工具販売 | ${this.$static.metadata.siteName}`,
-          content: `テキスト・工具販売フォーム｜能セン-学び方を学ぶ-`,
+          content: `テキスト・工具販売フォーム｜能セン-合格への近道-`
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/goods-sales`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/goods-sales`
+        }
+      ]
     };
   },
   components: {
-    Hero,
-  },
+    Hero
+  }
 };
 </script>
 

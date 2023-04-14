@@ -16,7 +16,7 @@
         <Point
           :points="[
             '過去問題の分析に基づいた学習の優先順位を徹底解説。',
-            '足切りされない学習の仕方を指導。ただの暗記ではなく、内容を理解した上で覚えていただける講義を心がけています。',
+            '足切りされない学習の仕方を指導。ただの暗記ではなく、内容を理解した上で覚えていただける講義を心がけています。'
           ]"
         />
         <News :contents="richtextToHTML($static.news.newsField)" />
@@ -93,50 +93,50 @@
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
-import Point from '@/components/licensePage/Point.vue';
-import News from '@/components/licensePage/News.vue';
-import Info from '@/components/licensePage/Info.vue';
-import Venue from '@/components/licensePage/Venue.vue';
-import Application from '@/components/licensePage/Application.vue';
-import IconBase from '@/components/IconBase.vue';
-import IconDoubleArrowRight from '@/components/icons/IconDoubleArrowRight.vue';
-import IconArrowRight from '@/components/icons/IconArrowRight.vue';
-import { INLINES } from '@contentful/rich-text-types';
-import { documentToHtmlString } from '../../node_modules/@contentful/rich-text-html-renderer';
+import Hero from "@/components/Hero.vue";
+import Point from "@/components/licensePage/Point.vue";
+import News from "@/components/licensePage/News.vue";
+import Info from "@/components/licensePage/Info.vue";
+import Venue from "@/components/licensePage/Venue.vue";
+import Application from "@/components/licensePage/Application.vue";
+import IconBase from "@/components/IconBase.vue";
+import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+import { INLINES } from "@contentful/rich-text-types";
+import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
-    [INLINES.ASSET_HYPERLINK]: (node) =>
+    [INLINES.ASSET_HYPERLINK]: node =>
       `<a href="${node.data.target.fields.file.url}">${
         node.content[0].value
-      }</a>`,
-  },
+      }</a>`
+  }
 };
 export default {
-  name: 'kyuusui',
+  name: "kyuusui",
   metaInfo() {
     return {
       titleTemplate:
-        '給水装置工事主任技術者 受験対策講習会｜能セン-学び方を学ぶ-',
+        "給水装置工事主任技術者 受験対策講習会｜能セン-合格への近道-",
       meta: [
         {
-          name: 'description',
+          name: "description",
           content:
-            '通学スタイルの受験対策講習会です。担当講師執筆のテキストを使用。再受講割引等もご用意。過去問題を分析し、ポイントを押さえた講義をお届けします。',
+            "通学スタイルの受験対策講習会です。担当講師執筆のテキストを使用。再受講割引等もご用意。過去問題を分析し、ポイントを押さえた講義をお届けします。"
         },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `給水装置工事主任技術者 受験対策講習会｜能セン-学び方を学ぶ-`,
+          content: `給水装置工事主任技術者 受験対策講習会｜能セン-合格への近道-`
           // content: `給水装置工事主任技術者 | ${this.$static.metadata.siteName}`,
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/kyuusui`,
-        },
-      ],
+          content: `${this.$static.metadata.siteUrl}/kyuusui`
+        }
+      ]
     };
   },
   components: {
@@ -148,7 +148,7 @@ export default {
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight,
+    IconArrowRight
   },
   methods: {
     richtextToHTML(content) {
@@ -156,8 +156,8 @@ export default {
         .replace(/\n/g, `</br>`)
         .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
       return richtextString;
-    },
-  },
+    }
+  }
 };
 </script>
 
@@ -231,7 +231,7 @@ export default {
       font-size: 20px;
     }
     &:after {
-      content: '';
+      content: "";
       width: 70px;
       border-bottom: 5px solid #00afcc;
       display: block;

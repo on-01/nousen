@@ -1,14 +1,12 @@
 <template>
   <Layout>
     <div class="privacy">
-      <Hero
-        backImgOver=""
-        backImgUnder=""
-        title="プライバシー・ポリシー"
-      />
+      <Hero backImgOver="" backImgUnder="" title="プライバシー・ポリシー" />
       <div class="contents">
         <section class="section">
-          <p class="section-comment">一般社団法人 能力開発研修センターは、以下のようにプライバシーポリシーを定めます。</p>
+          <p class="section-comment">
+            株式会社ＮＯＵＳＥＮは、以下のようにプライバシーポリシーを定めます。
+          </p>
           <div class="content">
             <h4 class="section-contents-title">
               用語の定義
@@ -25,10 +23,14 @@
             </h4>
             <div>
               <p>
-                お客様の管理<br>
-                各種問い合わせ、アフターサービス対応<br>
-                料金の課金、請求<br>
-                教材、必要書類等の送付<br>
+                お客様の管理
+                <br />
+                各種問い合わせ、アフターサービス対応
+                <br />
+                料金の課金、請求
+                <br />
+                教材、必要書類等の送付
+                <br />
                 商品の案内書送付、ご連絡
               </p>
             </div>
@@ -39,7 +41,7 @@
             </h4>
             <div>
               <p>
-                （一社）能力開発研修センターは、個人情報を適切に保護し、個人情報保護法その他の法令等により認められた場合を除き、個人識別が可能な状態で同意なく第三者に開示、提供することはありません。
+                （株）ＮＯＵＳＥＮは、個人情報を適切に保護し、個人情報保護法その他の法令等により認められた場合を除き、個人識別が可能な状態で同意なく第三者に開示、提供することはありません。
               </p>
             </div>
           </div>
@@ -49,13 +51,14 @@
             </h4>
             <div>
               <p>
-                （一社）能力開発研修センターは、個人情報保護を図るため、法令等の変更や必要に応じて、本プライバシーポリシーを改訂する事があります。その際は最新のプライバシーポリシーを本ウェブサイトに掲載いたします。
+                （株）ＮＯＵＳＥＮは、個人情報保護を図るため、法令等の変更や必要に応じて、本プライバシーポリシーを改訂する事があります。その際は最新のプライバシーポリシーを本ウェブサイトに掲載いたします。
               </p>
             </div>
           </div>
           <div class="credit">
-            以上<br>
-            平成17年 3月31日 制定
+            以上
+            <br />
+            令和5年 4月6日 制定
           </div>
         </section>
       </div>
@@ -74,33 +77,35 @@ query {
 </static-query>
 
 <script>
-import Hero from '@/components/Hero.vue';
+import Hero from "@/components/Hero.vue";
 export default {
   metaInfo() {
     return {
-      titleTemplate: 'プライバシーポリシー｜能セン-学び方を学ぶ-',
+      titleTemplate: "プライバシーポリシー｜能セン-合格への近道-",
       meta: [
-					{
-					name: 'description', content: '電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（能力開発研修センター）のページです。プライバシーポリシーについて記載しています。'
-				},
+        {
+          name: "description",
+          content:
+            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能セン（株式会社ＮＯＵＳＥＮ）のページです。プライバシーポリシーについて記載しています。"
+        },
         {
           key: `og:title`,
           property: `og:title`,
-          content: `プライバシーポリシー｜能セン-学び方を学ぶ-`,
+          content: `プライバシーポリシー｜能セン-合格への近道-`
           // content: `プライバシーポリシー | ${this.$static.metadata.siteName}`,
         },
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/privacy`,
-        },
+          content: `${this.$static.metadata.siteUrl}/privacy`
+        }
       ]
-    }
+    };
   },
   components: {
     Hero
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
