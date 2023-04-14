@@ -26,7 +26,7 @@
       <div class="information">
         <div class="application">
           <div class="tel overdisplay item">
-            <a href="tel:0356326011">
+            <a href="tel:09040538696">
               <img
                 src="../assets/img/common/tel.svg"
                 alt="090-4053-8696（平日土日9:00~19:00）"
@@ -197,7 +197,7 @@
         </section>
         <section class="navi-inner nav-inner04 underdisplay">
           <div class="tel">
-            <a href="tel:0356326011">
+            <a href="tel:09040538696">
               <img
                 src="../assets/img/common/toggle_menu/tel_sp.svg"
                 alt="090-4053-8696（平日土日9:00~19:00）"
