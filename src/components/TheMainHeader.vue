@@ -28,10 +28,10 @@
           <div class="tel overdisplay item">
             <a href="tel:0356326011">
               <img
-                src="../assets/img/common/tel_footer.svg"
-                alt="090-4053-8696 （平日9:00~19:00）"
-                width="565"
-                height="34"
+                src="../assets/img/common/tel.svg"
+                alt="090-4053-8696（平日土日9:00~19:00）"
+                width="621"
+                height="38"
               />
             </a>
           </div>
@@ -200,7 +200,7 @@
             <a href="tel:0356326011">
               <img
                 src="../assets/img/common/toggle_menu/tel_sp.svg"
-                alt="090-4053-8696（平日9:00~19:00）"
+                alt="090-4053-8696（平日土日9:00~19:00）"
                 width="365"
                 height="73"
                 decoding="async"
