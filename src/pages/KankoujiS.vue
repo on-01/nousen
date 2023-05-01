@@ -104,7 +104,7 @@
 
 <static-query>
   query Kankouji {
-    news:contentfulQualificationNews(id: "5eEJtYlEgxhPEUTwGW1QkY") {
+    news:contentfulQualificationNews(id: "34t1oS4YEk99dTpBto0XM9") {
       newsField
     }
     kankouji1:contentfulQualification(id:"7yfxqzTsaSahYrnJw1NVJx") {
