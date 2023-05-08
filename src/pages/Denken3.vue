@@ -20,10 +20,14 @@
             '初めて受験する方には、おすすめの基礎講座もご用意しています。第三種電気主任技術者（電験三種）の学習をはじめる前に、押さえておくべき電気の法則や数学の公式を総ざらい。しばらく理系の学習から離れていた方は、ぜひご活用ください。'
           ]"
         />
-        <News :contents="richtextToHTML($static.news.newsField)" />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#denken" class="exam-link">
             受験資格や試験日の確認はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="/denken3-application" class="application-form-link">
+            お申し込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
@@ -172,7 +176,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import News from "@/components/licensePage/News.vue";
+// import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
@@ -222,7 +226,7 @@ export default {
   components: {
     Hero,
     Point,
-    News,
+    // News,
     Info,
     Venue,
     Application,
@@ -260,22 +264,34 @@ export default {
 .exam-link-wrapper {
   text-align: center;
   padding: 80px 0 200px 0;
+  display: flex;
+  flex-direction: column;
   @media print, screen and (max-width: 1000px) {
     padding: 60px 0 150px 0;
   }
 }
-.exam-link {
-  background-color: #e60039;
+.exam-link,
+.application-form-link {
   color: #fff;
   border-radius: 10px;
-  padding: 14px 30px;
+  padding: 7px 30px;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
   font-size: 17px;
+  width: 338px;
+  box-sizing: border-box;
   @media print, screen and (max-width: 370px) {
-    padding: 14px 15px;
+    padding: 7px 15px;
+    width: 80%;
   }
+}
+.exam-link{
+  background-color: #e60039;
+}
+.application-form-link {
+  background-color: #ed6c00;
+  margin-top: 25px;
 }
 .tab-wrapper {
   margin: 0 auto;

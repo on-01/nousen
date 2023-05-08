@@ -21,7 +21,7 @@
             '＜技能＞ややハイレベルな作業になりますが、複数の講師がしっかり指導。最初から一種を受験する方も、丁寧にサポートします。'
           ]"
         />
-        <News :contents="richtextToHTML($static.news.newsField)" />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#koujishi1" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -97,7 +97,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import News from "@/components/licensePage/News.vue";
+// import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
@@ -143,7 +143,7 @@ export default {
   components: {
     Hero,
     Point,
-    News,
+    // News,
     Info,
     Venue,
     Application,

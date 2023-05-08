@@ -25,7 +25,7 @@
             '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。'
           ]"
         />
-        <News :contents="richtextToHTML($static.news.newsField)" />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#denkikoujisekou" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -198,7 +198,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import News from "@/components/licensePage/News.vue";
+// import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
@@ -247,7 +247,7 @@ export default {
   components: {
     Hero,
     Point,
-    News,
+    // News,
     Info,
     Venue,
     Application,

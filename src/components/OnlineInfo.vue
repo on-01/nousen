@@ -1,15 +1,17 @@
 <template>
   <div :class="displayNone">
-    <div class="sp_online_infomation">
-      <p class="sp_online_infomation_text">オンライン講座はじめました！</p>
-    </div>
-    <div class="online_infomation">
-      <img
-        src="../assets/img/icon/online_info.svg"
-        alt="オンライン講座はじめました！"
-        class="online_display"
-      />
-    </div>
+    <a href="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" target="_blank">
+      <div class="sp_online_infomation">
+        <p class="sp_online_infomation_text">オンライン相談はじめました！</p>
+      </div>
+      <div class="online_infomation">
+        <img
+          src="../assets/img/icon/online_info.svg"
+          alt="オンライン相談はじめました！"
+          class="online_display"
+        />
+      </div>
+    </a>
   </div>
 </template>
 <script>
