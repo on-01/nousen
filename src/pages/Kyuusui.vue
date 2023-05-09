@@ -19,7 +19,7 @@
             '足切りされない学習の仕方を指導。ただの暗記ではなく、内容を理解した上で覚えていただける講義を心がけています。'
           ]"
         />
-        <News :contents="richtextToHTML($static.news.newsField)" />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#kyuusui" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -95,7 +95,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import News from "@/components/licensePage/News.vue";
+// import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
@@ -142,7 +142,7 @@ export default {
   components: {
     Hero,
     Point,
-    News,
+    // News,
     Info,
     Venue,
     Application,

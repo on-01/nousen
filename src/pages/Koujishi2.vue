@@ -21,10 +21,14 @@
             '＜技能＞基礎作業、複線図の書き方から公表問題の作成、品評まで複数の講師で対策します。電気の作業が不慣れな方は、優先的に講師がサポート。初心者の方も安心です。'
           ]"
         />
-        <News :contents="richtextToHTML($static.news.newsField)" />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#koujishi2" class="exam-link">
             受験資格や試験日の確認はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="/koujishi-application" class="application-form-link">
+            お申し込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
@@ -97,7 +101,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import News from "@/components/licensePage/News.vue";
+// import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
@@ -142,7 +146,7 @@ export default {
   components: {
     Hero,
     Point,
-    News,
+    // News,
     Info,
     Venue,
     Application,
@@ -172,19 +176,34 @@ export default {
 .exam-link-wrapper {
   text-align: center;
   padding: 80px 0 200px 0;
+  display: flex;
+  flex-direction: column;
   @media print, screen and (max-width: 1000px) {
     padding: 60px 0 150px 0;
   }
 }
-.exam-link {
-  background-color: #b60081;
+.exam-link,
+.application-form-link {
   color: #fff;
   border-radius: 10px;
-  padding: 14px 30px;
+  padding: 7px 30px;
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
   font-size: 17px;
+  width: 338px;
+  box-sizing: border-box;
+  @media print, screen and (max-width: 370px) {
+    padding: 7px 15px;
+    width: 80%;
+  }
+}
+.exam-link{
+  background-color: #b60081;
+}
+.application-form-link {
+  background-color: #ed6c00;
+  margin-top: 25px;
 }
 .tab-wrapper {
   margin: 0 auto;
