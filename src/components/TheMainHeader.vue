@@ -26,10 +26,10 @@
       <div class="information">
         <div class="application">
           <div class="tel overdisplay item">
-            <a href="tel:09040538696">
+            <a href="tel:0359469417">
               <img
                 src="../assets/img/common/tel.svg"
-                alt="090-4053-8696（平日土日9:00~19:00）"
+                alt="03-5946-9417（平日土日9:00~19:00）"
                 width="621"
                 height="38"
               />
@@ -197,10 +197,10 @@
         </section>
         <section class="navi-inner nav-inner04 underdisplay">
           <div class="tel">
-            <a href="tel:09040538696">
+            <a href="tel:0359469417">
               <img
                 src="../assets/img/common/toggle_menu/tel_sp.svg"
-                alt="090-4053-8696（平日土日9:00~19:00）"
+                alt="03-5946-9417（平日土日9:00~19:00）"
                 width="365"
                 height="73"
                 decoding="async"
@@ -267,7 +267,7 @@
               FAX用紙 通信(PDF)
             </a> -->
             <a
-              href="/3_denken_FAX_2022_after.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/c65a3a25f021a0d05ce9ac5961b02806/__________________FAX.pdf"
               target="_blank"
               class="application-fax-link"
             >
@@ -361,7 +361,7 @@
               FAX用紙 2級(PDF)
             </a> -->
             <a
-              href="/kenchiku_FAX_2022year.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
               target="_blank"
               rel="noopener noreferrer"
               class="application-fax-link"
@@ -420,7 +420,7 @@
               FAX用紙 2級(PDF)
             </a> -->
             <a
-              href="/doboku_FAX_2022year.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
               target="_blank"
               rel="noopener noreferrer"
               class="application-fax-link"
