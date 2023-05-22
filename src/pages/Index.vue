@@ -4,7 +4,7 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            2級建築・土木施工管理技士の講座は只今準備中！もう少しお待ちください。
+            電験三種（オンライン・通信）、2級土木・建築（通学・オンライン）申し込み受付開始しました！
           </g-link>
         </p>
         <img
