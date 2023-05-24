@@ -159,11 +159,10 @@
             :myImage="'front/section01_background.jpg'"
             :myImageSp="'front/section01_background_sp.jpg'"
             myCatch="必要なことだけ、<br>
-              「学び方」を学べます。"
+              「合格」に近づきます。"
             :explanation="[
               '講師の多くが、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ熱い講習が特徴。<br>難しい話も興味をもって理解できる！',
               '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>だから、<i class=scroll-animation-item>効率的な学習方法を</i>学べる！',
-              'ご質問があれば、講義中はもちろん、<i class=scroll-animation-item>休憩時間や終了後も</i>快く対応します。'
             ]"
             moreLink="/teachers"
             moreText="詳しい講師紹介はこちら"
@@ -200,7 +199,7 @@
                 title: 'front/section05_title3.svg',
                 titleAlt: '通学＋オンラインで、より万全に',
                 texts: [
-                  'まずは通学講座で直接講義を受けたいけど、動画でも復習したいという方には両方受講という選択肢も。例えば通学講座にオンライン講座を追加の場合、<i class=scroll-animation-item>オンライン講座の受講料は３割となります。（逆も同様）</i>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
+                  'まずは通学講座で直接講義を受けたいけど、動画でも復習したいという方には両方受講という選択肢も。例えば通学講座にオンライン講座を追加の場合、<i class=scroll-animation-item>オンライン講座の受講料は最大70%割引となります。</i>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
                 ]
               }
             ]"
@@ -244,7 +243,6 @@
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。',
               '限られた時間でも知識が身につく、<i class=scroll-animation-item>受験対策に適したテキスト</i>を厳選。',
               '最新の情報や臨時の対策などは、<i class=scroll-animation-item>補足資料でサポート</i>します。',
-              'テキストは申込時に<i class=scroll-animation-item>事前送付</i>するので、<i class=scroll-animation-item>予習に活用</i>できます。'
             ]"
             moreLink="/goods-sales"
             moreText="テキスト販売・工具販売"
@@ -586,7 +584,7 @@ export default {
   },
   metaInfo() {
     return {
-      titleTemplate: `能セン(株式会社ＮＯＵＳＥＮ)｜合格への近道 受験対策講習会`,
+      titleTemplate: `能セン｜合格への近道 受験対策講習会`,
       meta: [
         {
           name: "description",
@@ -597,7 +595,7 @@ export default {
           key: `og:title`,
           property: `og:title`,
           // content: `TOP | ${this.$static.metadata.siteName}`,
-          content: `能セン(株式会社ＮＯＵＳＥＮ)｜合格への近道 受験対策講習会`
+          content: `能セン｜合格への近道 受験対策講習会`
         },
         {
           key: `og:url`,

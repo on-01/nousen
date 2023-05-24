@@ -5,7 +5,7 @@ module.exports = {
   // titleTemplate: '',
   siteUrl: `https://www.nouryoku.com`,
   siteDescription: `
-  // 能セン(株式会社ＮＯＵＳＥＮ)では、電気、建築、設備関連を中心とした講習会を各地で開催しております。経験豊富な専門の講師が資格合格のサポートを致します。`,
+  // 能センでは、電気、建築、設備関連を中心とした講習会を各地で開催しております。経験豊富な専門の講師が資格合格のサポートを致します。`,
   metadata: {
     siteOgImage: `https://www.nouryoku.com/ogp.png`
   },

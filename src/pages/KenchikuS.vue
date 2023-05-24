@@ -62,7 +62,7 @@
       </section>
       <div class="body">
         <div v-show="isActive === 2">
-          <h3 class="body-title">合格のための受験指導 1級通学講座</h3>
+          <h3 class="body-title">1級通学講座</h3>
           <h3 class="body-title">各会場の開催日程</h3>
           <Venue
             v-for="(items, index) in $static.kenchiku1Venue.edges"
@@ -86,7 +86,7 @@
           />
         </div>
         <div v-show="isActive === 3">
-          <h3 class="body-title">合格のための受験指導 2級通学講座</h3>
+          <h3 class="body-title">2級通学講座</h3>
           <h3 class="body-title">各会場の開催日程</h3>
           <Venue
             v-for="(items, index) in $static.kenchiku2Venue.edges"
@@ -110,7 +110,7 @@
           />
         </div>
         <div v-show="isActive === 1">
-          <h3 class="body-title">合格のための受験指導 オンライン講座</h3>
+          <h3 class="body-title">オンライン講座</h3>
           <Info
             :courseOutline="
               richtextToHTML($static.kenchikuOnline.courseOutline)
