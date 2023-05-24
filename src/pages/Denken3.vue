@@ -59,7 +59,7 @@
       </section>
       <div class="body">
         <div v-show="isActive === 2">
-          <h3 class="body-title">合格のための受験指導 通学講座</h3>
+          <h3 class="body-title">通学講座</h3>
           <h3 class="body-title">各会場の開催日程</h3>
           <Venue
             v-for="(items, index) in $static.tuugakuVenue.edges"
@@ -83,7 +83,7 @@
           />
         </div>
         <div v-show="isActive === 3">
-          <h3 class="body-title">合格のための受験指導 通信講座</h3>
+          <h3 class="body-title">通信講座</h3>
           <Info
             :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
             :capacity="$static.tuushin.capacity"
@@ -96,7 +96,7 @@
           />
         </div>
         <div v-show="isActive === 1">
-          <h3 class="body-title">合格のための受験指導 オンライン講座</h3>
+          <h3 class="body-title">オンライン講座</h3>
           <Info
             :courseOutline="richtextToHTML($static.online.courseOutline)"
             :apply="richtextToHTML($static.online.apply)"

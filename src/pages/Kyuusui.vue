@@ -29,7 +29,7 @@
       </header>
       <div class="body">
         <div>
-          <h3 class="body-title">合格のための受験指導 通学講座</h3>
+          <h3 class="body-title">通学講座</h3>
           <h3 class="body-title">各会場の開催日程</h3>
           <Venue
             v-for="(items, index) in $static.allContentfulKyuusuiVenue.edges"
