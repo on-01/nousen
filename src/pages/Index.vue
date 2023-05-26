@@ -253,7 +253,7 @@
             :myImage="'front/section03_background.jpg'"
             :myImageSp="'front/section03_background_sp.jpg'"
             myCatch="40年で10万人以上の受講生。"
-            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ現(株)NOUSENとの累計になります。）"
+            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
             :explanation="[
               '受講生に合格して頂く為に、最大限のサポートを続けていきます！'
             ]"
@@ -268,8 +268,8 @@
               '受講費は、<br><i class=scroll-animation-item>リーズナブルでシンプル。</i><br><span>教材・添削費用などすべて含んでわかりやすく設定</span>',
               '他校では<i class=scroll-animation-item>受講費と教材費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
               '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
-              '出張講習<br>（企業へ出向いての講習）<br>随時受付しております。<br><i class=scroll-animation-item>御社のご要望にお応えします。</i><br>日程・詳細については、お問い合わせ下さい。',
-              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span><br>合格を目指している方を応援します！'
+              '出張講習<br>（企業へ出向いての講習）<br>随時受付しております。<br><i class=scroll-animation-item>御社のご要望にお応えします。</i><br><span>日程・詳細については、お問い合わせ下さい。</span>',
+              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span>合格を目指している方を応援します！'
             ]"
           />
         </div>
