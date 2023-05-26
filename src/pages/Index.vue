@@ -161,8 +161,8 @@
             myCatch="必要なことだけ、<br>
               「合格」に近づきます。"
             :explanation="[
-              '講師の多くが、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ熱い講習が特徴。<br>難しい話も興味をもって理解できる！',
-              '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>だから、<i class=scroll-animation-item>効率的な学習方法を</i>学べる！',
+              '講師の多くが、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ熱い講習が特徴。',
+              '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
             ]"
             moreLink="/teachers"
             moreText="詳しい講師紹介はこちら"
@@ -188,8 +188,8 @@
                 title: 'front/section05_title2.svg',
                 titleAlt: 'オンライン講座',
                 texts: [
-                  '短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ<br>視聴することも可能です。<i class=scroll-animation-item>配信期間内は繰り返し試聴できます</i>ので弱点も克服できます。<br>通学講座の講義風景を丸ごと収録した臨場感たっぷりの動画ですので<br>その場で受講しているように頭に入ってきます。',
-                  '移動や宿泊の必要が無く、<i class=scroll-animation-item>予定を制約されることもありません</i>。<br>出張制限のある方や教室での受講を控えたい方にも。'
+                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。',
+                  '移動や宿泊の必要が無く、<i class=scroll-animation-item>予定を制約されることもありません。</i><br>通学講座の講義を丸ごと収録した臨場感たっぷりの動画ですので、<br>その場で受講しているように頭に入ってきます。'
                 ],
                 movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
                 movieText:
@@ -253,9 +253,9 @@
             :myImage="'front/section03_background.jpg'"
             :myImageSp="'front/section03_background_sp.jpg'"
             myCatch="40年で10万人以上の受講生。"
-            myCatchSmall="（設立は1983年。資格取得を目指す方々に長年支持されています。）"
+            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ現(株)NOUSENとの累計になります。）"
             :explanation="[
-              '10年以上にわたって指名をいただく企業も多数。<i class=scroll-animation-item>業界から高い信頼</i>をいただいています。'
+              '受講生に合格して頂く為に、最大限のサポートを続けていきます！'
             ]"
           />
           <Reason
@@ -268,8 +268,8 @@
               '受講費は、<br><i class=scroll-animation-item>リーズナブルでシンプル。</i><br><span>教材・添削費用などすべて含んでわかりやすく設定</span>',
               '他校では<i class=scroll-animation-item>受講費と教材費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
               '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
-              '面倒で忘れがちな<br><i class=scroll-animation-item>願書の取り寄せサービス</i>もご用意。<br><span>インターネット申込ができる資格など、<br>対応していない願書もあり</span>',
-              '<i class=scroll-animation-item>再受講</i>する場合には割引制度が使えます。<br><span>（受講科目と一部関連科目について次年度以降、受講費を最大4割程度オフ）</span>'
+              '出張講習<br>（企業へ出向いての講習）<br>随時受付しております。<br><i class=scroll-animation-item>御社のご要望にお応えします。</i><br>日程・詳細については、お問い合わせ下さい。',
+              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span><br>合格を目指している方を応援します！'
             ]"
           />
         </div>

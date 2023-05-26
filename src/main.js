@@ -7,7 +7,7 @@ export default function(Vue) {
   Vue.component('Layout', DefaultLayout);
   Vue.use(VueGoogleMaps, {
     load: {
-      key: 'AIzaSyDTSYvCN8-k3Wngk12Ga_Ourc23d0nmobM',
+      key: 'AIzaSyBQUqqxi7hAjp2UROiEAM8ZbfU7lkoFg1E',
       libraries: 'places',
       region: 'JP',
       language: 'ja',
