@@ -275,15 +275,15 @@
         </div>
         <div class="last-message">
           <p>
-            学び方から学べる。
+            日本を元気に！
             <br class="under_display" />
-            サービスが受講者目線。
+            能センでは受講生１名につき、
             <br />
-            それが能センです。
+            １００円を『こどもの未来応援基金』へ寄付をいたします。
           </p>
           <img
-            src="../assets/img/common/main_logo.svg"
-            alt="能セン 合格への近道"
+            src="../assets/img/common/social_image.png"
+            alt="子供の未来は日本の未来"
             class="last-message-logo"
             width="174"
             height="93"
