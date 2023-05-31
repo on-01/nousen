@@ -81,7 +81,7 @@
           />
           <Application
             formLink="/doboku-s-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 3">
@@ -105,7 +105,7 @@
           />
           <Application
             formLink="/doboku-s-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 1">

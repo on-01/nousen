@@ -267,7 +267,7 @@
               FAX用紙 通信(PDF)
             </a> -->
             <a
-              href="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/c65a3a25f021a0d05ce9ac5961b02806/__________________FAX.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
               target="_blank"
               class="application-fax-link"
             >
@@ -288,7 +288,7 @@
               FAX用紙(PDF)
             </a>
           </li> -->
-          <li class="denkikouji">
+          <!-- <li class="denkikouji">
             <p class="title">
               第二種
               <br class="overdisplay" />
@@ -306,7 +306,7 @@
             >
               FAX用紙(PDF)
             </a>
-          </li>
+          </li> -->
           <!-- <li class="denkikoujisekou">
             <p class="title">
               1・2級<br class="overdisplay" />電気工事施工管理技士
@@ -361,7 +361,7 @@
               FAX用紙 2級(PDF)
             </a> -->
             <a
-              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
               target="_blank"
               rel="noopener noreferrer"
               class="application-fax-link"
@@ -420,7 +420,7 @@
               FAX用紙 2級(PDF)
             </a> -->
             <a
-              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
               target="_blank"
               rel="noopener noreferrer"
               class="application-fax-link"
