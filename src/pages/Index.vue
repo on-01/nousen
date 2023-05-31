@@ -161,7 +161,7 @@
             myCatch="必要なことだけ、<br>
               「合格」に近づきます。"
             :explanation="[
-              '講師の多くが、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ熱い講習が特徴。',
+              '講師の全員が、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ講習が特徴。',
               '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
             ]"
             moreLink="/teachers"
@@ -180,8 +180,8 @@
                 title: 'front/section05_title1.svg',
                 titleAlt: '通学講座',
                 texts: [
-                  '<i class=scroll-animation-item>同じ目的をもった受講生たちと一緒に</i>生の授業を受けることで、<br>緊張感をもって学ぶことができます。',
-                  'わからないところを<i class=scroll-animation-item>その場で質問できるメリット</i>も。<br>なかなか自主的に勉強を始められない…という方も是非！'
+                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔で答えします。」</i><br>分からないことを聞くことが、合格への近道です。',
+                  '同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！'
                 ]
               },
               {
@@ -199,7 +199,7 @@
                 title: 'front/section05_title3.svg',
                 titleAlt: '通学＋オンラインで、より万全に',
                 texts: [
-                  'まずは通学講座で直接講義を受けたいけど、動画でも復習したいという方には両方受講という選択肢も。例えば通学講座にオンライン講座を追加の場合、<i class=scroll-animation-item>オンライン講座の受講料は最大70%割引となります。</i>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
+                  '通学講座で直接講義を受けたいけど、動画でも復習したい方に朗報！<br>例えば「通学講座にオンライン講座を追加」の場合、<i class=scroll-animation-item>オンライン講座の受講料は最大７０％割引。</i><br>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
                 ]
               }
             ]"
@@ -265,11 +265,11 @@
             :myImageSp="'front/section04_background_sp.jpg'"
             myCatch="「あればいいな」を<br>ご提供しています。"
             :explanation="[
+              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span>合格を目指している方を応援します！',
               '受講費は、<br><i class=scroll-animation-item>リーズナブルでシンプル。</i><br><span>教材・添削費用などすべて含んでわかりやすく設定</span>',
-              '他校では<i class=scroll-animation-item>受講費と教材費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
+              '他校では<i class=scroll-animation-item>受講費と添削費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
               '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
-              '出張講習<br>（企業へ出向いての講習）<br>随時受付しております。<br><i class=scroll-animation-item>御社のご要望にお応えします。</i><br><span>日程・詳細については、お問い合わせ下さい。</span>',
-              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span>合格を目指している方を応援します！'
+              '<i class=scroll-animation-item>振替ができる</i>。<br>直前に都合が悪くなった時も大丈夫！<br>通学→オンライン、来年度に振替も対応可能。<br><span>(別途手数料が発生します)</span>',
             ]"
           />
         </div>
