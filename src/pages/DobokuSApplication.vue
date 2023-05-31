@@ -3,7 +3,7 @@
     <div class="doboku-s-application">
       <header class="header">
         <Hero
-          title="1級•2級土木施工管理技士<br>講習会お申し込み"
+          title="1級•2級施工管理技士<br>講習会お申し込み"
           color="#00a73c"
         />
       </header>

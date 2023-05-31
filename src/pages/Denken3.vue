@@ -79,7 +79,7 @@
           />
           <Application
             formLink="/denken3-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/c65a3a25f021a0d05ce9ac5961b02806/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 3">
@@ -92,7 +92,7 @@
           />
           <Application
             formLink="/denken3-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/c65a3a25f021a0d05ce9ac5961b02806/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 1">

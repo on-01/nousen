@@ -81,7 +81,7 @@
           />
           <Application
             formLink="/kenchiku-s-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 3">
@@ -105,7 +105,7 @@
           />
           <Application
             formLink="/kenchiku-s-application"
-            faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
           />
         </div>
         <div v-show="isActive === 1">
