@@ -338,7 +338,7 @@ export default {
       margin-top: 30px;
     }
   }
-  .reason-explanation:last-child {
+  .reason-explanation:first-child {
     @media print, screen and (min-width: 1001px) {
       width: 100%;
     }
