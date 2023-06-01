@@ -1092,10 +1092,10 @@ export default {
       }
     }
     .last-message-logo {
-      max-width: 260px;
+      max-width: 480px;
       width: 90%;
       @media print, screen and (max-width: 1000px) {
-        max-width: 150px;
+        max-width: 260px;
       }
     }
   }
