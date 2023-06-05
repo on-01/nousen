@@ -46,7 +46,7 @@
               </g-link>
             </div>
             <div class="item item02 denkikouji" key="item02">
-              <g-link to="/koujishi1">
+              <g-link>
                 <span>電気工事士</span>
                 <br />
                 第一種
@@ -55,7 +55,7 @@
               </g-link>
             </div>
             <div class="item item03 denkikouji" key="item03">
-              <g-link to="/koujishi2">
+              <g-link>
                 <span>電気工事士</span>
                 <br />
                 第二種
@@ -64,7 +64,7 @@
               </g-link>
             </div>
             <div class="item item04 denkikoujisekou" key="item04">
-              <g-link to="/denkikouji-s">
+              <g-link>
                 <span>施工管理技士</span>
                 <br />
                 1・2級
@@ -84,7 +84,7 @@
               </g-link>
             </div>
             <div class="item item06 kankouji" key="item06">
-              <g-link to="/kankouji-s">
+              <g-link>
                 <span>施工管理技士</span>
                 <br />
                 1・2級
@@ -103,7 +103,7 @@
               </g-link>
             </div>
             <div class="item item08 kyuusui" key="item08">
-              <g-link to="/kyuusui">
+              <g-link>
                 <span>給水装置工事</span>
                 <br />
                 給水装置工事
