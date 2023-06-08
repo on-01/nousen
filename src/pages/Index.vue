@@ -156,8 +156,8 @@
           <Reason
             reasonNumber="1"
             myTitle="わかりやすい講習"
-            :myImage="'front/section01_background.png'"
-            :myImageSp="'front/section01_background.png'"
+            :myImage="'front/section01_background.jpg'"
+            :myImageSp="'front/section01_background.jpg'"
             myCatch="必要なことだけ、<br>
               「合格」に近づきます。"
             :explanation="[
