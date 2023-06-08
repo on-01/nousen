@@ -154,7 +154,6 @@
         </h2>
         <div class="reason-wrapper">
           <Reason
-            :class="{ 'is-show': true }"
             reasonNumber="1"
             myTitle="わかりやすい講習"
             :myImage="'front/section01_background.jpg'"
