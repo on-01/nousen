@@ -64,7 +64,7 @@
           </a>
         </div>
         <div class="banner">
-          <div>
+          <div class="column">
             <a href="https://www.tokyo-cci.or.jp/" target="_blank">
               <g-image
                 src="../assets/img/common/banner1.jpg"
@@ -288,6 +288,11 @@
       max-width: 160px;
     }
   }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .banner3 {
