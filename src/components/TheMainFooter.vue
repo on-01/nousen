@@ -64,13 +64,22 @@
           </a>
         </div>
         <div class="banner">
-          <a href="https://www.tokyo-cci.or.jp/" target="_blank">
-            <g-image
-              src="../assets/img/common/banner1.jpg"
-              alt="バナー 東京商工会議所"
-              width="200px"
-            />
-          </a>
+          <div>
+            <a href="https://www.tokyo-cci.or.jp/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner1.jpg"
+                alt="バナー 東京商工会議所"
+                width="200px"
+              />
+            </a><br>
+            <a href="https://context-japan.co.jp/ryokin/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner3.jpg"
+                alt="料金相場.jp"
+                width="200px"
+              />
+            </a>
+          </div>
           <a href="https://www.birumen-navi.com/" target="_blank">
             <g-image
               src="../assets/img/common/banner2.jpg"
