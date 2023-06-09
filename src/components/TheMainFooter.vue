@@ -71,12 +71,13 @@
                 alt="バナー 東京商工会議所"
                 width="200px"
               />
-            </a><br>
+            </a>
             <a href="https://context-japan.co.jp/ryokin/" target="_blank">
               <g-image
                 src="../assets/img/common/banner3.jpg"
                 alt="料金相場.jp"
                 width="200px"
+                class="banner3"
               />
             </a>
           </div>
@@ -287,5 +288,10 @@
       max-width: 160px;
     }
   }
+}
+
+.banner3 {
+  margin-top: 20px;
+  border: 1px solid rgba(0,0,0, 0.3);
 }
 </style>
