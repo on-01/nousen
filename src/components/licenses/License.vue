@@ -392,34 +392,34 @@ export default {
     }
   }
   .abbreviation {
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
   .license_catch {
-    color: #e60039;
+    color: #1D9BF0;
   }
   .point-item dt {
-    color: #e60039;
+    color: #1D9BF0;
   }
   .outline-title {
     span {
-      background-color: #e60039;
+      background-color: #1D9BF0;
       &:after {
-        border-top-color: #e60039;
+        border-top-color: #1D9BF0;
       }
     }
   }
   .outline-item-inner {
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
   .attention {
-    color: #e60039;
+    color: #1D9BF0;
   }
   .contents-link {
-    border-color: #e60039;
-    color: #e60039;
+    border-color: #1D9BF0;
+    color: #1D9BF0;
   }
   .close_button {
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
 }
 

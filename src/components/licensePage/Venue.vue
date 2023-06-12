@@ -209,29 +209,29 @@ export default {
 //個別のカラー
 .denken3 {
   .head {
-    background-color: #e60039;
+    background-color: #1D9BF0;
     .city {
-      color: #e60039;
+      color: #1D9BF0;
     }
   }
   .info-section ::v-deep a {
-    color: #e60039;
+    color: #1D9BF0;
   }
   .venue-section {
     ::v-deep a {
-      color: #e60039;
+      color: #1D9BF0;
     }
     .details {
       ::v-deep h1 {
-        background-color: #e60039;
+        background-color: #1D9BF0;
       }
       ::v-deep b {
-        color: #e60039;
+        color: #1D9BF0;
       }
     }
   }
   .address-title {
-    color: #e60039;
+    color: #1D9BF0;
   }
 }
 .koujishi1,.koujishi2 {

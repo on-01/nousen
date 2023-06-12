@@ -75,7 +75,7 @@ export default {
   .point-content {
     max-width: calc(100% - 180px);
     width: 100%;
-    color: #e60039;
+    color: #1D9BF0;
     font-weight: bold;
     margin: 0;
     @media print, screen and (max-width: 1000px) {
@@ -88,10 +88,10 @@ export default {
 //個別のカラー
 .denken3 {
    .point-header {
-      background-color: #e60039;
+      background-color: #1D9BF0;
    }
    .point-content {
-      color: #e60039;
+      color: #1D9BF0;
    }
 }
 .koujishi1,.koujishi2 {
