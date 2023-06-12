@@ -29,7 +29,7 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link to="/kenchiku-s-application" class="application-form-link">
-            お申し込みはこちら
+            お申込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
