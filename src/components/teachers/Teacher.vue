@@ -201,7 +201,7 @@ export default {
   }
   .denken:before {
     content: "電気主任技術者";
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
   .denkikouji:before {
     content: "電気工事士";

@@ -958,7 +958,7 @@ export default {
       &.denken {
         .application-form-link,
         .application-fax-link {
-          color: #e60039;
+          color: #1D9BF0;
         }
         .title:before {
           content: url("../assets/img/icon/qualification/denken.svg");

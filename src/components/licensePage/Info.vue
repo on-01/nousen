@@ -119,17 +119,17 @@ export default {
 //個別のカラー
 .denken3 {
   .head {
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
   .info-section ::v-deep a {
-    color: #e60039;
+    color: #1D9BF0;
   }
   .course_outline.info-section ::v-deep h5 {
-    background: #e60039;
+    background: #1D9BF0;
   }
   .course_outline.info-section ::v-deep i {
     font-weight: bold;
-    color: #e60039;
+    color: #1D9BF0;
   }
 }
 .koujishi1,.koujishi2 {
@@ -206,7 +206,7 @@ export default {
 
 .apply.info-section ::v-deep i {
   font-weight: bold;
-  color:#e60039;
+  color:#1D9BF0;
 }
 
 .media{

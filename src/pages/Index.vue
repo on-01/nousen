@@ -870,9 +870,9 @@ export default {
   }
 }
 .denken {
-  color: #e60039;
+  color: #1D9BF0;
   span {
-    background-color: #e60039;
+    background-color: #1D9BF0;
   }
 }
 .denkikouji {
@@ -1217,7 +1217,7 @@ export default {
       &.denken {
         .application-form-link,
         .application-fax-link {
-          color: #e60039;
+          color: #1D9BF0;
           &::before {
             content: none;
           }

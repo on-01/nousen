@@ -10,7 +10,7 @@
             require('../assets/img/license_page/denken3/denken3_hero_sp.jpg')
           "
           title="第三種電気主任技術者<br/>（電験三種）<br />合格のための受験指導"
-          color="#e60039"
+          color="#1D9BF0"
           :icon="require('../assets/img/icon/qualification/denken.svg')"
         />
         <Point
@@ -259,7 +259,7 @@ export default {
 }
 .header {
   background-color: #f2f2f2;
-  border-bottom: 5px solid #e60039;
+  border-bottom: 5px solid #1D9BF0;
 }
 .exam-link-wrapper {
   text-align: center;
@@ -287,7 +287,7 @@ export default {
   }
 }
 .exam-link{
-  background-color: #e60039;
+  background-color: #1D9BF0;
 }
 .application-form-link {
   background-color: #ed6c00;
@@ -311,7 +311,7 @@ export default {
     max-width: 280px;
     width: 100%;
     background-color: #f2f2f2;
-    border: 5px solid #e60039;
+    border: 5px solid #1D9BF0;
     border-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -341,7 +341,7 @@ export default {
     &.active {
       border-bottom: none;
       background-color: #fff;
-      color: #e60039;
+      color: #1D9BF0;
       .icon {
         transform: rotate(90deg);
       }
@@ -399,7 +399,7 @@ export default {
     &:after {
       content: "";
       width: 70px;
-      border-bottom: 5px solid #e60039;
+      border-bottom: 5px solid #1D9BF0;
       display: block;
       margin: 0 auto;
       margin-top: 10px;
