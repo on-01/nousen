@@ -70,7 +70,7 @@
                 1・2級
                 <br />
                 電気工事施工管理技士
-                <IconOnline iconClass="online_icon_index" />
+                <!-- <IconOnline iconClass="online_icon_index" /> -->
               </g-link>
             </div>
             <div class="item item05 kenchiku" key="item05">
