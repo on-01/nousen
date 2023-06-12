@@ -96,7 +96,7 @@
                     1・2級
                     <br class="overdisplay" />
                     電気工事施工管理技士
-                    <IconOnline iconClass="online_icon_header" />
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
                 <g-link to="/kenchiku-s">
