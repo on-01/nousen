@@ -3,7 +3,7 @@
     <div class="denken3-application">
       <header class="header">
         <Hero
-          title="第三種電気主任技術者（電験三種）<br>講習お申込み"
+          title="第三種電気主任技術者（電験三種）<br>講座お申込み"
           color="#1D9BF0"
         />
       </header>
