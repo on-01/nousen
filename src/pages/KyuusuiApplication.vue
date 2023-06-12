@@ -3,7 +3,7 @@
     <div class="kyuusui-application">
       <header class="header">
         <Hero
-          title="給水装置工事主任技術者<br>講習お申込み"
+          title="給水装置工事主任技術者<br>講座お申込み"
           color="#00afcc"
         />
       </header>

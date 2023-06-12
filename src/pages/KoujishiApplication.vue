@@ -3,7 +3,7 @@
     <div class="koujishi-application">
       <header class="header">
         <Hero
-          title="第一種・第二種電気工事士<br>講習お申込み"
+          title="第一種・第二種電気工事士<br>講座お申込み"
           color="#b60081"
         />
       </header>
