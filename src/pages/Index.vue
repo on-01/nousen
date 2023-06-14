@@ -4,7 +4,7 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            電験三種（オンライン・通信）、2級土木・建築（通学・オンライン）申し込み受付開始しました！
+            令和５年度 合格応援割引＆合格応援プレゼント実地中！各科目のページをご覧下さい。
           </g-link>
         </p>
         <img
@@ -180,7 +180,7 @@
                 title: 'front/section05_title1.svg',
                 titleAlt: '通学講座',
                 texts: [
-                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔で答えします。」</i><br>分からないことを聞くことが、合格への近道です。',
+                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔でお答えします。」</i><br>分からないことを聞くことが、合格への近道です。',
                   '同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！'
                 ]
               },
