@@ -213,7 +213,7 @@ export default {
   }
   .doboku:before {
     content: "土木施工管理技士";
-    background-color: #00a63c;
+    background-color: #ed7d31;
   }
   .kankouji:before {
     content: "管工事施工管理技士";
@@ -221,7 +221,7 @@ export default {
   }
   .kenchiku:before {
     content: "建築施工管理技士";
-    background-color: #00a63c;
+    background-color: #ed7d31;
   }
   .kyuusui:before {
     content: "給水装置工事主任技術者";
