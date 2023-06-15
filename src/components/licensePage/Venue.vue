@@ -261,7 +261,7 @@ export default {
     color: #b60081;
   }
 }
-.denkikoujisekou,.kenchiku,.kankouji,.doboku {
+.denkikoujisekou,.kankouji {
   .head {
     background-color: #00a73c;
     .city {
@@ -286,6 +286,33 @@ export default {
   }
   .address-title {
     color: #00a73c;
+  }
+}
+.kenchiku,.doboku {
+  .head {
+    background-color: #ed7d31;
+    .city {
+      color: #ed7d31;
+    }
+  }
+  .info-section ::v-deep a {
+    color: #ed7d31;
+  }
+  .venue-section {
+    & ::v-deep a {
+      color: #ed7d31;
+    }
+    .details {
+      ::v-deep h1 {
+        background-color: #ed7d31;
+      }
+      ::v-deep b {
+        color: #ed7d31;
+      }
+    }
+  }
+  .address-title {
+    color: #ed7d31;
   }
 }
 .kyuusui {

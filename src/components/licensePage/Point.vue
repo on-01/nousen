@@ -102,12 +102,20 @@ export default {
     color: #b60081;
   }
 }
-.denkikoujisekou,.kenchiku,.kankouji,.doboku {
+.denkikoujisekou,.kankouji {
   .point-header {
     background-color: #00a73c;
   }
   .point-content {
-     color: #00a73c;
+    color: #00a73c;
+  }
+}
+.kenchiku,.doboku {
+  .point-header {
+    background-color: #ed7d31;
+  }
+  .point-content {
+    color: #ed7d31;
   }
 }
 .kyuusui {

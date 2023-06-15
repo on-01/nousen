@@ -487,9 +487,7 @@ export default {
 }
 
 .license-denkikoujisekou,
-.license-kenchiku,
-.license-kankouji,
-.license-doboku {
+.license-kankouji {
   .rate {
     content: url('../../assets/img/licenses/rate_other.svg');
   }
@@ -522,6 +520,43 @@ export default {
   }
   .close_button {
     background-color: #00a73c;
+  }
+}
+
+.license-kenchiku,
+.license-doboku {
+  .rate {
+    content: url('../../assets/img/licenses/rate_other2.svg');
+  }
+  .abbreviation {
+    background-color: #ed7d31;
+  }
+  .license_catch {
+    color: #ed7d31;
+  }
+  .point-item dt {
+    color: #ed7d31;
+  }
+  .outline-title {
+    span {
+      background-color: #ed7d31;
+      &:after {
+        border-top-color: #ed7d31;
+      }
+    }
+  }
+  .outline-item-inner {
+    background-color: #ed7d31;
+  }
+  .attention {
+    color: #ed7d31;
+  }
+  .contents-link {
+    border-color: #ed7d31;
+    color: #ed7d31;
+  }
+  .close_button {
+    background-color: #ed7d31;
   }
 }
 

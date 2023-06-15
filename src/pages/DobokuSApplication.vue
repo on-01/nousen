@@ -4,7 +4,7 @@
       <header class="header">
         <Hero
           title="1級•2級施工管理技士<br>講座お申込み"
-          color="#00a73c"
+          color="#ed7d31"
         />
       </header>
       <div class="contents">
