@@ -882,12 +882,18 @@ export default {
   }
 }
 .denkikoujisekou,
-.kenchiku,
-.kankouji,
-.doboku {
+.kankouji {
   color: #00a73c;
   span {
     background-color: #00a73c;
+  }
+}
+
+.kenchiku,
+.doboku {
+  color: #ed7d31;
+  span {
+    background-color: #ed7d31;
   }
 }
 .kyuusui {
@@ -1253,7 +1259,7 @@ export default {
       &.doboku {
         .application-form-link,
         .application-fax-link {
-          color: #00a73c;
+          color: #ed7d31;
           &::before {
             content: none;
           }
@@ -1277,7 +1283,7 @@ export default {
       &.kenchiku {
         .application-form-link,
         .application-fax-link {
-          color: #00a73c;
+          color: #ed7d31;
           &::before {
             content: none;
           }

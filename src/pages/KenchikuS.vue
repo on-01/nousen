@@ -10,7 +10,7 @@
             require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero_sp.jpg')
           "
           title="1・2級 建築施工管理技士<br>合格のための受験指導"
-          color="#00a73c"
+          color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
         />
         <Point
@@ -281,7 +281,7 @@ export default {
 }
 .header {
   background-color: #f2f2f2;
-  border-bottom: 5px solid #00a73c;
+  border-bottom: 5px solid #ed7d31;
 }
 .exam-link-wrapper {
   text-align: center;
@@ -309,7 +309,7 @@ export default {
   }
 }
 .exam-link{
-  background-color: #00a73c;
+  background-color: #ed7d31;
 }
 .application-form-link {
   background-color: #ed6c00;
@@ -333,7 +333,7 @@ export default {
     max-width: 280px;
     width: 100%;
     background-color: #f2f2f2;
-    border: 5px solid #00a73c;
+    border: 5px solid #ed7d31;
     border-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -363,7 +363,7 @@ export default {
     &.active {
       border-bottom: none;
       background-color: #fff;
-      color: #00a73c;
+      color: #ed7d31;
       .icon {
         transform: rotate(90deg);
       }
@@ -411,7 +411,7 @@ export default {
     &:after {
       content: "";
       width: 70px;
-      border-bottom: 5px solid #00a73c;
+      border-bottom: 5px solid #ed7d31;
       display: block;
       margin: 0 auto;
       margin-top: 10px;

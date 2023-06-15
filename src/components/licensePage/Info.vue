@@ -140,7 +140,7 @@ export default {
     color: #b60081;
   }
 }
-.denkikoujisekou,.kenchiku,.kankouji,.doboku {
+.denkikoujisekou,.kankouji {
   .head {
     background-color: #00a73c;
   }
@@ -153,6 +153,21 @@ export default {
   .course_outline.info-section ::v-deep i {
     font-weight: bold;
     color: #00a73c;
+  }
+}
+.kenchiku,.doboku {
+  .head {
+    background-color: #ed7d31;
+  }
+  .info-section ::v-deep a {
+    color: #ed7d31;
+  }
+  .course_outline.info-section ::v-deep h5 {
+    background: #ed7d31;
+  }
+  .course_outline.info-section ::v-deep i {
+    font-weight: bold;
+    color: #ed7d31;
   }
 }
 .kyuusui {

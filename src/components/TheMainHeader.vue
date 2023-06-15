@@ -985,7 +985,7 @@ export default {
       &.doboku {
         .application-form-link,
         .application-fax-link {
-          color: #00a73c;
+          color: #ed7d31;
         }
         .title:before {
           content: url("../assets/img/icon/qualification/doboku.svg");
@@ -1003,7 +1003,7 @@ export default {
       &.kenchiku {
         .application-form-link,
         .application-fax-link {
-          color: #00a73c;
+          color: #ed7d31;
         }
         .title:before {
           content: url("../assets/img/icon/qualification/kenchiku.svg");
