@@ -83,7 +83,7 @@
         <p v-html="explain"></p>
       </div>
       <div class="reason-more" v-if="moreLink">
-        <figure class="teacher-image">
+        <figure class="teacher-image" v-if="reasonNumber === '1'">
           <img src="../../assets/img/front/teacher.jpg">
         </figure>
         <g-link :to="moreLink" class="reason-more-inner">
