@@ -415,10 +415,11 @@ export default {
 .teacher-image {
   width: 560px;
   height: 315px;
-  margin: 20px auto 0;
+  margin: 40px auto 0;
 
   @media print, screen and (max-width: 767px) {
     width: 80%;
+    height: auto;
   }
 }
 </style>
