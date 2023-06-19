@@ -83,6 +83,9 @@
         <p v-html="explain"></p>
       </div>
       <div class="reason-more" v-if="moreLink">
+        <figure v-if="reasonNumber === 1" class="teacher-image">
+          <img src="../../assets/img/front/teacher.jpg">
+        </figure>
         <g-link :to="moreLink" class="reason-more-inner">
           <span v-html="moreText">
             <!-- 詳しい講師紹介はこちら -->
@@ -408,5 +411,10 @@ export default {
       font-size: 14px;
     }
   }
+}
+.teacher-image {
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
 }
 </style>
