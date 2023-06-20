@@ -20,6 +20,10 @@
           ]"
         />
         <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+        <figure class="point-image">
+          <img src="../assets/img/license_page/kyuusui/kyuusui_point.jpg">
+        </figure>
+
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#kyuusui" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -238,6 +242,17 @@ export default {
       margin: 0 auto;
       margin-top: 10px;
     }
+  }
+}
+
+.point-image {
+  width: 590px;
+  height: 380px;
+  margin: 40px auto 0;
+
+  @media print, screen and (max-width: 767px) {
+    width: 80%;
+    height: auto;
   }
 }
 </style>
