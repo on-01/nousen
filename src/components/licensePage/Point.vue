@@ -6,7 +6,7 @@
           Point
           <span>{{index + 1}}</span>
         </div>
-        <p class="point-content">{{item}}</p>
+        <p class="point-content" v-html="item"></p>
       </div>
     </div>
   </div>
