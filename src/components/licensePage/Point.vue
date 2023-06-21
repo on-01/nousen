@@ -92,7 +92,7 @@ export default {
       background-color: #1D9BF0;
    }
    .point-content {
-      color: #1D9BF0;
+      color: #333;
    }
 }
 .koujishi1,.koujishi2 {
@@ -116,7 +116,7 @@ export default {
     background-color: #ed7d31;
   }
   .point-content {
-    color: #ed7d31;
+    color: #333;
   }
 }
 .kyuusui {
@@ -124,7 +124,7 @@ export default {
     background-color: #00afcc;
   }
   .point-content {
-    color: #00afcc;
+    color: #333;
   }
 }
 </style>
