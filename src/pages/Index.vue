@@ -376,7 +376,7 @@
               FAX用紙(PDF)
             </a>
           </li> -->
-          <li class="denkikouji">
+          <!-- <li class="denkikouji">
             <p class="title">
               第二種
               <br class="overdisplay" />
@@ -394,7 +394,7 @@
             >
               FAX用紙(PDF)
             </a>
-          </li>
+          </li> -->
           <!-- <li class="denkikoujisekou">
             <p class="title">
               1・2級<br class="overdisplay" />電気工事施工管理技士
