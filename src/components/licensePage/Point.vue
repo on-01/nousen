@@ -45,6 +45,12 @@ export default {
 .point-title {
   font-weight: bold;
   margin: 20px auto;
+  text-align: center;
+  font-size: 28px;
+
+  @media print, screen and (max-width: 560px) {
+    font-size: 20px;
+  }
 }
 
 .point-item {
