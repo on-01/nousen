@@ -1,6 +1,7 @@
 <template>
   <div class="point">
     <div class="point-inner">
+      <p class="point-title" v-if="title">{{ title }}</p>
       <div class="point1 point-item" v-for="(item, index) in points" :key="index">
         <div class="point-header">
           Point
@@ -17,6 +18,7 @@
 export default {
  props: {
    points: Array,
+   title: String,
  } 
 }
 </script>
@@ -40,6 +42,11 @@ export default {
     padding: 50px 0;
   }
 }
+.point-title {
+  font-weight: bold;
+  margin: 20px auto;
+}
+
 .point-item {
   display: flex;
   justify-content: space-between;
