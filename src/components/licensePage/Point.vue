@@ -44,7 +44,7 @@ export default {
 }
 .point-title {
   font-weight: bold;
-  margin: 20px auto;
+  margin: 0 auto 20px;
   text-align: center;
   font-size: 28px;
 
