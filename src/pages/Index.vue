@@ -241,8 +241,7 @@
               解説するから的確です。"
             :explanation="[
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。',
-              '限られた時間でも知識が身につく、<i class=scroll-animation-item>受験対策に適したテキスト</i>を厳選。',
-              '最新の情報や臨時の対策などは、<i class=scroll-animation-item>補足資料でサポート</i>します。',
+              '限られた時間でも合格に近づく！<i class=scroll-animation-item>受験対策に適したテキスト</i>を厳選。<br>最新の情報や臨時の対策などは、補足資料でサポートします。',
             ]"
             moreLink="/goods-sales"
             moreText="テキスト販売・工具販売"
