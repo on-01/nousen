@@ -154,7 +154,7 @@
           </div>
           <div class="pagelink-title">
             <g-link to="/goods-sales" target="_blank" rel="noopener noreferrer">
-              <p>テキスト・工具販売</p>
+              <p>能センSHOP</p>
             </g-link>
           </div>
         </section>

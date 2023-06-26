@@ -180,16 +180,14 @@
                 title: 'front/section05_title1.svg',
                 titleAlt: '通学講座',
                 texts: [
-                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔でお答えします。」</i><br>分からないことを聞くことが、合格への近道です。',
-                  '同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！'
+                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔でお答えします。」</i><br>分からないことを聞くことが、合格への近道です。<br><br>同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！',
                 ]
               },
               {
                 title: 'front/section05_title2.svg',
                 titleAlt: 'オンライン講座',
                 texts: [
-                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。',
-                  '移動や宿泊の必要が無く、<i class=scroll-animation-item>予定を制約されることもありません。</i><br>通学講座の講義を丸ごと収録した臨場感たっぷりの動画ですので、<br>その場で受講しているように頭に入ってきます。'
+                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。<br><br>移動や宿泊の必要が無く、<i class=scroll-animation-item>予定を制約されることもありません。</i><br>通学講座の講義を丸ごと収録した臨場感たっぷりの動画ですので、<br>その場で受講しているように頭に入ってきます。',
                 ],
                 movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
                 movieText:
@@ -234,17 +232,16 @@
           </div>
           <Reason
             reasonNumber="3"
-            myTitle="他にないテキスト"
+            myTitle="合格に特化した教材"
             :myImage="'front/section02_background.jpg'"
             :myImageSp="'front/section02_background_sp.jpg'"
             myCatch="教科書の作者が<br>
               解説するから的確です。"
             :explanation="[
-              'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。',
-              '限られた時間でも合格に近づく！<i class=scroll-animation-item>受験対策に適したテキスト</i>を厳選。<br>最新の情報や臨時の対策などは、補足資料でサポートします。',
+              'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。　<br><br>限られた時間でも合格に近づく！<i class=scroll-animation-item>受験対策に適したテキスト</i>を厳選。<br>最新の情報や臨時の対策などは、補足資料でサポートします。',
             ]"
             moreLink="/goods-sales"
-            moreText="テキスト販売・工具販売"
+            moreText="能センSHOP"
           />
           <Reason
             reasonNumber="4"

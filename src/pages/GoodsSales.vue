@@ -2,7 +2,7 @@
   <Layout>
     <div class="goods-sales">
       <header class="header">
-        <Hero title="テキスト・工具販売" color="#999" />
+        <Hero title="能センSHOP" color="#999" />
       </header>
       <div class="contents">
         <iframe
@@ -35,7 +35,7 @@ export default {
   name: "goods-sales",
   metaInfo() {
     return {
-      titleTemplate: "テキスト・工具販売フォーム｜能セン-合格への近道-",
+      titleTemplate: "能センSHOP｜能セン-合格への近道-",
       meta: [
         {
           name: "description",
@@ -46,7 +46,7 @@ export default {
           key: `og:title`,
           property: `og:title`,
           // content: `テキスト・工具販売 | ${this.$static.metadata.siteName}`,
-          content: `テキスト・工具販売フォーム｜能セン-合格への近道-`
+          content: `能センSHOP｜能セン-合格への近道-`
         },
         {
           key: `og:url`,
