@@ -314,7 +314,7 @@ export default {
   }
 }
 .exam-link{
-  background-color: #ed7d31;
+  background-color: #1D9BF0;
 }
 .application-form-link {
   background-color: #ed6c00;
