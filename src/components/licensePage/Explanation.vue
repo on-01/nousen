@@ -64,7 +64,7 @@ export default {
     width: 65%;
     font-size: 16px;
     line-height: 1.8;
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 
