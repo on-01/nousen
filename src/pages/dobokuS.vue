@@ -210,7 +210,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
-import Point from "@/components/licensePage/Explanation.vue";
+import Explanation from "@/components/licensePage/Explanation.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
