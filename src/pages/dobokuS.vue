@@ -13,6 +13,14 @@
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/doboku.svg')"
         />
+        <Explanation
+            title="土木施工管理技士とは"
+            text="土木施工管理技士は、施工管理技士の国家資格のうちの１つであり、土木工事現場に配置される主任技術者や監理技術者になるために必須の資格です。<br>
+                    道路や橋、トンネル、河川等の土木工事においての施工計画を作成し、現場で様々な作業工程の管理、安全や品質、コストの管理する仕事を行います。<br>
+                    また、施工計画、工程管理以外にも、用地の確保から役所への手続き、書類の処理、周辺住民への説明など、幅広い範囲の仕事を任されます。<br>
+                    あらゆる土木建設の場で活躍できる土木のスペシャリストです。"
+            imagePath="../assets/img/license_page/doboku_s/doboku_explain.jpg"
+        />
         <Point
           title="短期間で合格する５つのポイント"
           :points="[
@@ -202,6 +210,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
+import Point from "@/components/licensePage/Explanation.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -251,6 +260,7 @@ export default {
   components: {
     Hero,
     Point,
+    Explanation,
     // News,
     Info,
     Venue,
@@ -430,5 +440,9 @@ export default {
     width: 80%;
     height: auto;
   }
+}
+
+.point {
+  margin-top: 20px;
 }
 </style>
