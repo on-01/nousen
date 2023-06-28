@@ -19,7 +19,7 @@
                     道路や橋、トンネル、河川等の土木工事においての施工計画を作成し、現場で様々な作業工程の管理、安全や品質、コストの管理する仕事を行います。<br>
                     また、施工計画、工程管理以外にも、用地の確保から役所への手続き、書類の処理、周辺住民への説明など、幅広い範囲の仕事を任されます。<br>
                     あらゆる土木建設の場で活躍できる土木のスペシャリストです。"
-            imagePath="../assets/img/license_page/doboku_s/doboku_explain.jpg"
+            :imagePath="require('../assets/img/license_page/doboku_s/doboku_explain.jpg')"
         />
         <Point
           title="短期間で合格する５つのポイント"
@@ -443,6 +443,6 @@ export default {
 }
 
 .point {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 </style>
