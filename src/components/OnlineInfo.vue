@@ -29,11 +29,8 @@ export default {
     position: absolute;
     left: 3rem;
     top: -3rem;
-    width: 190px;
-  }
-  @media print, screen and(min-width: 1080px) {
-    left: 0;
     width: 230px;
+    margin: 0;
   }
 }
 .sp_online_infomation {
