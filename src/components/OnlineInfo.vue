@@ -1,17 +1,11 @@
 <template>
   <div :class="displayNone">
-    <a href="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" target="_blank">
       <div class="sp_online_infomation">
-        <p class="sp_online_infomation_text">オンライン相談はじめました！</p>
+        <p class="sp_online_infomation_text">令和５年度お申込み受付中！</p>
       </div>
       <div class="online_infomation">
-        <img
-          src="../assets/img/icon/online_info.svg"
-          alt="オンライン相談はじめました！"
-          class="online_display"
-        />
+        <p class="online_infomation_text">令和５年度お申込み受付中！</p>
       </div>
-    </a>
   </div>
 </template>
 <script>
@@ -26,6 +20,11 @@ export default {
 .online_infomation {
   display: none;
   @media print, screen and(min-width: 1000px) {
+    background: var(--orange);
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
     display: block;
     position: absolute;
     left: 3rem;
@@ -34,12 +33,7 @@ export default {
   }
   @media print, screen and(min-width: 1080px) {
     left: 0;
-    // width: 215px;
     width: 230px;
-  }
-  & img {
-    width: 100%;
-    height: auto;
   }
 }
 .sp_online_infomation {
