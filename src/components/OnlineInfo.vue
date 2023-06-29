@@ -27,9 +27,11 @@ export default {
     text-align: center;
     display: block;
     position: absolute;
-    left: 3rem;
+    left: 0;
     top: -3rem;
     width: 230px;
+  }
+  & p {
     margin: 0;
   }
 }
