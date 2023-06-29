@@ -13,6 +13,13 @@
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
         />
+        <Explanation
+            title="建築施工管理技士とは"
+            text="1・2級建築施工管理技士とは、建設業の施工管理技士、国家資格のうちの1つで、建設工事に従事する技術者の技術の向上を図ることを目的として創設した資格である。<br>
+                  1級建築施工管理技士の資格を取得すると、特定建設業の「営業所ごとに置く専任の技術者」及び現場に配置する「監理技術者」として認められます。<br>
+                  また、2級建築施工管理技士の資格であれば、一般建設業の許可を受ける際に必要な「営業所ごとに配置する専任の技術者」及び「建設工事における主任技術者」として認められる等、施工管理に携わる方には必要不可欠な資格です。"
+            :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')"
+        />
         <Point
           title="短期間で合格する５つのポイント"
           :points="[
@@ -204,6 +211,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
+import Explanation from "@/components/licensePage/Explanation.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -253,6 +261,7 @@ export default {
   components: {
     Hero,
     Point,
+    Explanation,
     // News,
     Info,
     Venue,
@@ -433,5 +442,8 @@ export default {
     width: 80%;
     height: auto;
   }
+}
+.point {
+  margin-top: 30px;
 }
 </style>
