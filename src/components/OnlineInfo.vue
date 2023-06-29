@@ -23,18 +23,18 @@ export default {
     background: var(--orange);
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     display: block;
     position: absolute;
-    left: 0;
+    left: 3rem;
     top: -3rem;
-    width: 230px;
+    width: 190px;
   }
   @media print, screen and(min-width: 1080px) {
-    font-size: 14px;
-    width: 190px;
-    left: 3rem;
+    font-size: 16px;
+    width: 230px;
+    left: 0;
   }
   & p {
     margin: 0;
