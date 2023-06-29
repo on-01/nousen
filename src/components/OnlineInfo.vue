@@ -31,10 +31,16 @@ export default {
     top: -3rem;
     width: 230px;
   }
+  @media print, screen and(min-width: 1080px) {
+    font-size: 14px;
+    width: 190px;
+    left: 3rem;
+  }
   & p {
     margin: 0;
   }
 }
+
 .sp_online_infomation {
   background: var(--orange);
   color: #fff;
