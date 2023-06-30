@@ -69,7 +69,7 @@ export default {
     max-width: 970px;
     width: 100%;
     background-color: #fff;
-    margin: 20px auto;
+    margin: 40px auto 0;
     z-index: 0;
     position: relative;
 }
@@ -103,6 +103,7 @@ export default {
     font-weight: bold;
     font-size: 20px;
     color: #005a9e;
+    margin: 10px 0 0;
 
 }
 .campaign-summary {
