@@ -35,6 +35,10 @@
           <img src="../assets/img/license_page/kenchiku_s/kenchiku_point.jpg">
         </figure>
 
+        <Campaign
+            date="7/24(月)"
+        />
+
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#kenchiku" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -212,6 +216,7 @@
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
+import Campaign from "@/components/licensePage/Campaign.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -262,6 +267,7 @@ export default {
     Hero,
     Point,
     Explanation,
+    Campaign,
     // News,
     Info,
     Venue,
