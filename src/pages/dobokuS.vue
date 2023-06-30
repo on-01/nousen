@@ -36,6 +36,10 @@
           <img src="../assets/img/license_page/doboku_s/doboku_point.jpg">
         </figure>
 
+        <Campaign
+            date="7/15(土)"
+        />
+
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#doboku" class="exam-link">
             受験資格や試験日の確認はこちら
@@ -211,6 +215,7 @@
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
+import Campaign from "@/components/licensePage/Campaign.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -261,6 +266,7 @@ export default {
     Hero,
     Point,
     Explanation,
+    Campaign,
     // News,
     Info,
     Venue,
