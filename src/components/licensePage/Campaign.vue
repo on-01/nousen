@@ -110,7 +110,7 @@ export default {
     font-weight: medium;
     font-size: 16px;
     color: #005a9e;
-    margin: 10px 0 0;
+    margin: 0;
 }
 
 .campaign-content {
