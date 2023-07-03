@@ -40,6 +40,10 @@
         />
 
         <div class="exam-link-wrapper">
+          <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
+            オンライン相談はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
           <g-link to="/licenses/#kenchiku" class="exam-link">
             受験資格や試験日の確認はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
@@ -313,7 +317,8 @@ export default {
   }
 }
 .exam-link,
-.application-form-link {
+.application-form-link,
+.online-link {
   color: #fff;
   border-radius: 10px;
   padding: 7px 30px;
@@ -330,10 +335,14 @@ export default {
 }
 .exam-link{
   background-color: #1D9BF0;
+  margin-top: 25px;
 }
 .application-form-link {
   background-color: #ed6c00;
   margin-top: 25px;
+}
+.online-link {
+  background-color: #00a73c;
 }
 .tab-wrapper {
   margin: 0 auto;
