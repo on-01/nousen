@@ -82,7 +82,7 @@ export default {
     margin: 0 auto;
     text-align: center;
     font-size: 24px;
-    background: #FEEEED;
+    background: #ed7d31;
     padding: 4px;
 }
 .campaign-section {

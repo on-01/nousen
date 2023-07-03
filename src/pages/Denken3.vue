@@ -13,6 +13,15 @@
           color="#1D9BF0"
           :icon="require('../assets/img/icon/qualification/denken.svg')"
         />
+        <Explanation
+            title="第三種電気主任技術者とは"
+            text="第三者電気主任技術者(以下電験三種)は、電気設備の安全性と適合性を評価し管理する役割を担う専門家です。電気設備の運用や保守に関する専門知識を持ち、法律や規制に基づいて設備の安全性を確保します。<br>
+            主な業務は、電気設備の点検、定期的な保守、トラブルシューティング、修理、安全基準の遵守などです。また、電験三種は、電気工事や設備の設計に関するコンサルティングも行うことがあります。<br>
+            彼らは、電気設備が適切に設計され、安全に運用されるためのアドバイスや監督を提供します。<br>
+            電験三種は、法的な規制や安全基準に準拠することが求められます。建物や工場の所有者や管理者と協力し、適切な文書作成や報告書の提出、必要な手続きの遵守などを行います。<br>
+            総括すると、電験三種は、電気設備の安全性と適合性を確保するために、点検、保守、監督、コンサルティングなどの業務を担当する専門家です。"
+            :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
+        />
         <Point
           title="短期間で合格する３つのポイント"
           :points="[
@@ -27,6 +36,10 @@
         </figure>
 
         <div class="exam-link-wrapper">
+          <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
+            オンライン相談はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
           <g-link to="/licenses/#denken" class="exam-link">
             受験資格や試験日の確認はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
@@ -181,6 +194,7 @@
 <script>
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
+import Explanation from "@/components/licensePage/Explanation.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -231,6 +245,7 @@ export default {
   components: {
     Hero,
     Point,
+    Explanation,
     // News,
     Info,
     Venue,
@@ -276,7 +291,8 @@ export default {
   }
 }
 .exam-link,
-.application-form-link {
+.application-form-link,
+.online-link {
   color: #fff;
   border-radius: 10px;
   padding: 7px 30px;
@@ -293,10 +309,14 @@ export default {
 }
 .exam-link{
   background-color: #1D9BF0;
+  margin-top: 25px;
 }
 .application-form-link {
   background-color: #ed6c00;
   margin-top: 25px;
+}
+.online-link {
+  background-color: #00a73c;
 }
 .tab-wrapper {
   margin: 0 auto;
@@ -445,5 +465,9 @@ export default {
     width: 80%;
     height: auto;
   }
+}
+
+.point {
+  margin-top: 30px;
 }
 </style>
