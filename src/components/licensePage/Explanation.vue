@@ -54,15 +54,16 @@ export default {
 .explanation-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .explanation-image {
-    width: 35%;
+    width: 30%;
 }
 
 .explanation-text {
-    width: 65%;
-    font-size: 16px;
+    width: 70%;
+    font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;
 }
