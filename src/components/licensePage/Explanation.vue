@@ -59,6 +59,7 @@ export default {
 
 .explanation-image {
     width: 30%;
+    margin-top: 0;
 }
 
 .explanation-text {
@@ -79,7 +80,6 @@ export default {
     }
     .explanation-image {
     width: 100%;
-    margin-top: 0;
     }
 
     .explanation-text {
