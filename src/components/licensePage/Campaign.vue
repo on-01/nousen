@@ -84,6 +84,7 @@ export default {
     font-size: 24px;
     background: #ed7d31;
     padding: 4px;
+    color: #fff;
 }
 .campaign-section {
     display: flex;
