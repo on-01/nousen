@@ -22,6 +22,19 @@
                   1・2級土木施工管理技師の資格は、施工現場において指導者として活躍し、工事の品質向上や安全確保、スケジュールの遵守などに貢献します。専門知識と経験に基づいた適切な判断とリーダーシップによって、土木工事プロジェクトの成功を支えます。"
             :imagePath="require('../assets/img/license_page/doboku_s/doboku_explain.jpg')"
         />
+
+        <Study
+            name1="1級土木施工管理技士"
+            time1="100～400"
+            name2="2級土木施工管理技士"
+            time2="50～100"
+            text="1級土木施工管理技師の試験範囲は広く、施工計画、品質管理、安全管理、法令知識など多岐にわたります。これらの内容を十分に習得するためには、長期間にわたって学習を行う必要があります。<br>
+            勉強時間は、学習の進め方や個人の学習スピードによっても異なります。講習会や教材の利用、過去の試験問題の解答など、効果的な学習方法を活用することも重要です。<br>
+            2級の試験範囲は、1級に比べてより基礎的な内容ですが、それでも施工計画の作成や現場の安全管理、品質管理、進捗管理など多くの要素が含まれています。これらの内容を十分に理解し、適切に対応するためには、一定の学習時間を確保する必要があります。<br>
+            また、一定の勉強時間だけでなく、定期的な復習も重要です。継続的な学習と復習を行いながら、理解を深めることが試験に合格するために役立ちます。<br>
+            個々の学習スタイルや状況によっても異なるため、自分の目標に向けて効果的な学習プランを立て、着実に学習を進めていくことが重要です。"
+        />
+
         <Point
           title="短期間で合格する５つのポイント"
           :points="[
@@ -221,6 +234,7 @@ import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
+import Study from "@/components/licensePage/Study.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -272,6 +286,7 @@ export default {
     Point,
     Explanation,
     Campaign,
+    Study,
     // News,
     Info,
     Venue,
