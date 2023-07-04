@@ -32,14 +32,14 @@ export default {
     position: relative;
 }
 .study-inner {
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 .study-line {
     width: 10%;
     height: 4px;
     background: #ed7d31;
-    margin: 20px auto 30px;
+    margin: 20px auto 20px;
     border-radius: 8px;
 }
 
@@ -82,7 +82,7 @@ export default {
     font-size: 18px;
     }
     .study-time span {
-    font-size: 20px;
+    font-size: 18px;
     }
 
     .study-text {
