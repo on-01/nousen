@@ -83,6 +83,10 @@ export default {
         font-size: 20px;
     }
 
+    .study-inner {
+    padding: 20px;
+  }
+
     .study-time {
     font-size: 18px;
     }
