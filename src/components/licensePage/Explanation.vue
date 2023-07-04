@@ -79,6 +79,7 @@ export default {
     }
     .explanation-image {
     width: 100%;
+    margin-top: 0;
     }
 
     .explanation-text {
