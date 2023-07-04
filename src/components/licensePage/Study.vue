@@ -3,8 +3,8 @@
         <div class="study-inner">
             <p class="study-title">勉強時間は？</p>
             <p class="study-line"></p>
-            <p class="study-time">{{ name1 }}　<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
-            <p class="study-time">{{ name2 }}　<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
+            <p class="study-time">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
+            <p class="study-time">{{ name2 }}<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
             <p class="study-text" v-html="text"></p>
         </div>
     </div>
@@ -60,6 +60,7 @@ export default {
 .study-time span {
     color: #ff0000;
     font-size: 22px;
+    margin-left: 12px;
 }
 .study-text {
     font-size: 14px;
@@ -87,6 +88,7 @@ export default {
     }
     .study-time span {
     font-size: 18px;
+    margin-left: 0;
     }
 
     .study-text {
