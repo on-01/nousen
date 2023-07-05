@@ -746,12 +746,14 @@ export default {
     align-self: end;
     -ms-grid-column: 2;
     -ms-grid-row: 1;
+    opacity: 0.5;
   }
   @media print, screen and (max-width: 1000px) {
     grid-column: 2/3;
     grid-row: 2/3;
     -ms-grid-column: 2;
     -ms-grid-row: 2;
+    opacity: 0.5;
   }
 }
 .item03 {
@@ -761,12 +763,14 @@ export default {
     align-self: end;
     -ms-grid-column: 4;
     -ms-grid-row: 1;
+    opacity: 0.5;
   }
   @media print, screen and (max-width: 1000px) {
     grid-column: 1/2;
     grid-row: 3/4;
     -ms-grid-column: 1;
     -ms-grid-row: 3;
+    opacity: 0.5;
   }
 }
 .item04 {
