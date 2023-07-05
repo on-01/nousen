@@ -55,13 +55,13 @@
               </div>
             </div>
             <div class="item item03 denkikouji" key="item03">
-              <g-link>
+              <div class="link-none">
                 <span>電気工事士</span>
                 <br />
                 第二種
                 <br />
                 電気工事士
-              </g-link>
+              </div>
             </div>
             <div class="item item04 denkikoujisekou" key="item04">
               <g-link>
@@ -907,7 +907,7 @@ export default {
 .denken a:before {
   content: url("../assets/img/icon/qualification/denken.svg");
 }
-.denkikouji a:before {
+.denkikouji .link-none:before {
   content: url("../assets/img/icon/qualification/denkikouji.svg");
 }
 .denkikoujisekou a:before {
