@@ -65,8 +65,6 @@
       </div>
 
 
-// --------------- 電気工事士は一旦コメントアウトで下部へ除外 --------------- 
-
       <div class="licenses-contents">
         <License
           id="denkikoujisekou"
