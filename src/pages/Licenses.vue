@@ -63,94 +63,10 @@
           applicationLink="/denken3-application"
         />
       </div>
-      <div class="licenses-contents">
-        <License
-          id="koujishi1"
-          licenseSlug="koujishi1"
-          abbreviation="電気工事士"
-          formalName="第一種電気工事士"
-          introText="「第一種電気工事士」 ここからスタートもあり。"
-          licenseCatch=""
-          :pointItems="[
-            {
-              dt: 'ポイント',
-              dd: '二種に比べて、筆記・技能試験ともに難度は上がります。'
-            }
-          ]"
-          :outlineItems="[
-            {
-              dt: $static.koujishi1.outlineHead1,
-              dd: $static.koujishi1.outlineBody1
-            },
-            {
-              dt: $static.koujishi1.outlineHead2,
-              dd: $static.koujishi1.outlineBody2
-            },
-            {
-              dt: $static.koujishi1.outlineHead3,
-              dd: $static.koujishi1.outlineBody3
-            },
-            {
-              dt: $static.koujishi1.outlineHead4,
-              dd: $static.koujishi1.outlineBody4
-            }
-          ]"
-          :attention="richtextToHTML($static.koujishi1.attention)"
-          :memo="$static.koujishi1.memo"
-          LicensePageLink="/koujishi1"
-        />
-        <!-- ↑の属性に追加で有効化される。 -->
-        <!-- applicationLink="/koujishi-application" -->
-      </div>
-      <div class="licenses-contents">
-        <License
-          id="koujishi2"
-          licenseSlug="koujishi2"
-          abbreviation="電気工事士"
-          formalName="第二種電気工事士"
-          introText="「第二種電気工事士」 はじめの一歩を確実に。"
-          licenseCatch=""
-          :pointItems="[
-            {
-              dt: '試験内容',
-              dd:
-                '筆記試験と技能試験を行います。もしも技能試験が不合格の場合、次回に限り筆記試験は免除となります。'
-            },
-            {
-              dt: '筆記試験のポイント',
-              dd:
-                '記憶力で対応できる問題が多く出ます。理系の資格ですが、計算が苦手な方でも十分合格が狙えます。'
-            },
-            {
-              dt: '技能試験のポイント',
-              dd:
-                '仕事ですでに経験されている方には、さほど難しい内容ではありません。<br>さらに、試験センターが毎年出題内容の候補を公開。必要な技能は事前に対策できます。そのため、初心者の方も練習で十分対応できます。'
-            }
-          ]"
-          :outlineItems="[
-            {
-              dt: $static.koujishi2.outlineHead1,
-              dd: $static.koujishi2.outlineBody1
-            },
-            {
-              dt: $static.koujishi2.outlineHead2,
-              dd: $static.koujishi2.outlineBody2
-            },
-            {
-              dt: $static.koujishi2.outlineHead3,
-              dd: $static.koujishi2.outlineBody3
-            },
-            {
-              dt: $static.koujishi2.outlineHead4,
-              dd: $static.koujishi2.outlineBody4
-            }
-          ]"
-          :attention="richtextToHTML($static.koujishi2.attention)"
-          :memo="$static.koujishi2.memo"
-          LicensePageLink="/koujishi2"
-          applicationLink="/koujishi-application"
-        />
-      </div>
+
+
+// --------------- 電気工事士は一旦コメントアウトで下部へ除外 --------------- 
+
       <div class="licenses-contents">
         <License
           id="denkikoujisekou"
@@ -552,3 +468,95 @@ export default {
   margin-top: 100px;
 }
 </style>
+
+// --------------- 電気工事士は一旦コメントアウトで下部へ除外 --------------- 
+
+   // <div class="licenses-contents">
+      //   <License
+      //     id="koujishi1"
+      //     licenseSlug="koujishi1"
+      //     abbreviation="電気工事士"
+      //     formalName="第一種電気工事士"
+      //     introText="「第一種電気工事士」 ここからスタートもあり。"
+      //     licenseCatch=""
+      //     :pointItems="[
+      //       {
+      //         dt: 'ポイント',
+      //         dd: '二種に比べて、筆記・技能試験ともに難度は上がります。'
+      //       }
+      //     ]"
+      //     :outlineItems="[
+      //       {
+      //         dt: $static.koujishi1.outlineHead1,
+      //         dd: $static.koujishi1.outlineBody1
+      //       },
+      //       {
+      //         dt: $static.koujishi1.outlineHead2,
+      //         dd: $static.koujishi1.outlineBody2
+      //       },
+      //       {
+      //         dt: $static.koujishi1.outlineHead3,
+      //         dd: $static.koujishi1.outlineBody3
+      //       },
+      //       {
+      //         dt: $static.koujishi1.outlineHead4,
+      //         dd: $static.koujishi1.outlineBody4
+      //       }
+      //     ]"
+      //     :attention="richtextToHTML($static.koujishi1.attention)"
+      //     :memo="$static.koujishi1.memo"
+      //     LicensePageLink="/koujishi1"
+      //   />
+      //   <!-- ↑の属性に追加で有効化される。 -->
+      //   <!-- applicationLink="/koujishi-application" -->
+      // </div>
+      // <div class="licenses-contents">
+      //   <License
+      //     id="koujishi2"
+      //     licenseSlug="koujishi2"
+      //     abbreviation="電気工事士"
+      //     formalName="第二種電気工事士"
+      //     introText="「第二種電気工事士」 はじめの一歩を確実に。"
+      //     licenseCatch=""
+      //     :pointItems="[
+      //       {
+      //         dt: '試験内容',
+      //         dd:
+      //           '筆記試験と技能試験を行います。もしも技能試験が不合格の場合、次回に限り筆記試験は免除となります。'
+      //       },
+      //       {
+      //         dt: '筆記試験のポイント',
+      //         dd:
+      //           '記憶力で対応できる問題が多く出ます。理系の資格ですが、計算が苦手な方でも十分合格が狙えます。'
+      //       },
+      //       {
+      //         dt: '技能試験のポイント',
+      //         dd:
+      //           '仕事ですでに経験されている方には、さほど難しい内容ではありません。<br>さらに、試験センターが毎年出題内容の候補を公開。必要な技能は事前に対策できます。そのため、初心者の方も練習で十分対応できます。'
+      //       }
+      //     ]"
+      //     :outlineItems="[
+      //       {
+      //         dt: $static.koujishi2.outlineHead1,
+      //         dd: $static.koujishi2.outlineBody1
+      //       },
+      //       {
+      //         dt: $static.koujishi2.outlineHead2,
+      //         dd: $static.koujishi2.outlineBody2
+      //       },
+      //       {
+      //         dt: $static.koujishi2.outlineHead3,
+      //         dd: $static.koujishi2.outlineBody3
+      //       },
+      //       {
+      //         dt: $static.koujishi2.outlineHead4,
+      //         dd: $static.koujishi2.outlineBody4
+      //       }
+      //     ]"
+      //     :attention="richtextToHTML($static.koujishi2.attention)"
+      //     :memo="$static.koujishi2.memo"
+      //     LicensePageLink="/koujishi2"
+      //     applicationLink="/koujishi-application"
+      //   />
+      // </div>
+
