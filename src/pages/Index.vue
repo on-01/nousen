@@ -46,22 +46,22 @@
               </g-link>
             </div>
             <div class="item item02 denkikouji" key="item02">
-              <div class="link-none">
+              <g-link>
                 <span>電気工事士</span>
                 <br />
                 第一種
                 <br />
                 電気工事士
-              </div>
+              </g-link>
             </div>
             <div class="item item03 denkikouji" key="item03">
-              <div class="link-none">
+              <g-link>
                 <span>電気工事士</span>
                 <br />
                 第二種
                 <br />
                 電気工事士
-              </div>
+              </g-link>
             </div>
             <div class="item item04 denkikoujisekou" key="item04">
               <g-link>
@@ -907,7 +907,7 @@ export default {
 .denken a:before {
   content: url("../assets/img/icon/qualification/denken.svg");
 }
-.denkikouji .link-none:before {
+.denkikouji a:before {
   content: url("../assets/img/icon/qualification/denkikouji.svg");
 }
 .denkikoujisekou a:before {
@@ -1416,10 +1416,10 @@ export default {
     transform-origin: center center;
   }
 }
-.link-none {
-  background-color: rgba(0,0,0,0);
-  color: inherit;
-  text-decoration: none;
-}
 
+.link-none {
+    background-color: rgba(0,0,0,0);
+    color: inherit;
+    text-decoration: none;
+}
 </style>
