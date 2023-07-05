@@ -3,8 +3,8 @@
         <div class="study-inner">
             <p class="study-title">勉強時間は？</p>
             <p class="study-line"></p>
-            <p class="study-time">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
-            <p class="study-time">{{ name2 }}<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
+            <p class="study-time" v-if="name1">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
+            <p class="study-time" v-if="name2">{{ name2 }}<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
             <p class="study-text" v-html="text"></p>
         </div>
     </div>

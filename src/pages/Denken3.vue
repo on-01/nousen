@@ -22,6 +22,17 @@
             総括すると、電験三種は、電気設備の安全性と適合性を確保するために、点検、保守、監督、コンサルティングなどの業務を担当する専門家です。"
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
+
+        <Study
+            name1="電験三種の合格に必要な勉強時間"
+            time1="1,000"
+            text="勉強時間は個人の前提知識や学習スピードによって異なりますが、全科目合格するには通常は約1000時間の学習が必要とされています。<br>
+            例えば、毎日3時間ずつ勉強すれば、約9ヶ月から1年かかるでしょう。<br>
+            ただし、1000時間は目安であり、自身の進捗状況や理解度に合わせて、柔軟にスケジュールを調整することが重要です。<br>
+            また、定期的な復習や自己評価も忘れずに行い、学習効果を高めることを意識しましょう。<br>
+            特に理系の科目が多いため、理系出身かどうかや理系科目の得意不得意も影響を与えます。"
+          />
+              
         <Point
           title="短期間で合格する３つのポイント"
           :points="[
@@ -195,6 +206,7 @@
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
+import Study from "@/components/licensePage/Study.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -246,6 +258,7 @@ export default {
     Hero,
     Point,
     Explanation,
+    Study,
     // News,
     Info,
     Venue,
