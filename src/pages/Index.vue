@@ -909,14 +909,20 @@ export default {
 }
 .denkikouji .link-none:before {
   // content: url("../assets/img/icon/qualification/denkikouji.svg");
-  content: ""; /* 内容を空にします */
-  display: inline-block; /* インライン要素として表示します */
-  width: 50px; /* 幅を50pxに設定します */
-  height: 50px; /* 高さも50pxに設定します */
-  background-image: url("../assets/img/icon/qualification/denkikouji.svg"); /* ここで背景画像を設定します */
-  background-size: cover; /* 背景画像を要素全体にフィットさせます */
-  background-repeat: no-repeat; /* 画像の繰り返しを防ぎます */
+  content: ""; 
+  display: block;
+  width: 50px; 
+  height: 50px; 
+  background-image: url("../assets/img/icon/qualification/denkikouji.svg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin-bottom: 10px;
+  @media print, screen and (max-width: 1000px) {
+    margin: 0 auto 10px;
+  }
 }
+
+
 .denkikoujisekou a:before {
   content: url("../assets/img/icon/qualification/denkikoujisekou.svg");
 }
