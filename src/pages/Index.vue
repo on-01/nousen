@@ -46,13 +46,13 @@
               </g-link>
             </div>
             <div class="item item02 denkikouji" key="item02">
-              <g-link>
+              <div class="link-none">
                 <span>電気工事士</span>
                 <br />
                 第一種
                 <br />
                 電気工事士
-              </g-link>
+              </div>
             </div>
             <div class="item item03 denkikouji" key="item03">
               <g-link>
@@ -1416,4 +1416,10 @@ export default {
     transform-origin: center center;
   }
 }
+.link-none {
+  background-color: rgba(0,0,0,0);
+  color: inherit;
+  text-decoration: none;
+}
+
 </style>
