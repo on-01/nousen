@@ -908,7 +908,14 @@ export default {
   content: url("../assets/img/icon/qualification/denken.svg");
 }
 .denkikouji .link-none:before {
-  content: url("../assets/img/icon/qualification/denkikouji_50.svg");
+  // content: url("../assets/img/icon/qualification/denkikouji.svg");
+  content: ""; /* 内容を空にします */
+  display: inline-block; /* インライン要素として表示します */
+  width: 50px; /* 幅を50pxに設定します */
+  height: 50px; /* 高さも50pxに設定します */
+  background-image: url("../assets/img/icon/qualification/denkikouji.svg"); /* ここで背景画像を設定します */
+  background-size: cover; /* 背景画像を要素全体にフィットさせます */
+  background-repeat: no-repeat; /* 画像の繰り返しを防ぎます */
 }
 .denkikoujisekou a:before {
   content: url("../assets/img/icon/qualification/denkikoujisekou.svg");
