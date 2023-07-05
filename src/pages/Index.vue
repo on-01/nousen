@@ -907,7 +907,7 @@ export default {
 .denken a:before {
   content: url("../assets/img/icon/qualification/denken.svg");
 }
-.denkikouji link-none:before {
+.denkikouji .link-none:before {
   content: url("../assets/img/icon/qualification/denkikouji_50.svg");
 }
 .denkikoujisekou a:before {
