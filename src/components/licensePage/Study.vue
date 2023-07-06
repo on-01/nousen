@@ -120,7 +120,7 @@ export default {
         display: block;
     }
     @media print, screen and (max-width: 560px) {
-        width: 80px;
+        margin-bottom: 20px 
     }
     }
 
