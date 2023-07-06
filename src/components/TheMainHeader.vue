@@ -690,7 +690,7 @@ export default {
   font-weight: bold;
   @media print, screen and(min-width: 1001px) {
     right: 3%;
-    max-width: 690px;
+    max-width: 900px;
     width: 100%;
     margin-top: 70px;
   }
@@ -811,7 +811,7 @@ export default {
     height: auto;
   }
   ul {
-    max-width: 900px;
+    max-width: 690px;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 40px; //202101
