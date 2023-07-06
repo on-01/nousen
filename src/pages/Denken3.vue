@@ -46,11 +46,11 @@
           <img src="../assets/img/license_page/denken3/denken3_point.jpg">
         </figure>
 
-        <Line 
+        <Linelink 
           text=" 能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で全講座に使える5000円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-        />
+          />
 
         <div class="exam-link-wrapper">
           <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
@@ -213,7 +213,7 @@ import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Study from "@/components/licensePage/Study.vue";
-import Line from "@/components/licensePage/Line.vue";
+import Linelink from "@/components/licensePage/Linelink.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -266,7 +266,7 @@ export default {
     Point,
     Explanation,
     Study,
-    Line,
+    Linelink,
     // News,
     Info,
     Venue,
