@@ -63,15 +63,14 @@
                 電気工事士
               </div>
             </div>
-            <div class="item item04 denkikoujisekou" key="item04">
-              <g-link>
+            <div class="item item04 doboku" key="item04">
+              <g-link to="/doboku-s">
                 <span>施工管理技士</span>
                 <br />
                 1・2級
                 <br />
-                電気工事施工管理技士
-                <br />
-                <span>令和６年度準備中</span>
+                土木施工管理技士
+                <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
             <div class="item item05 kenchiku" key="item05">
@@ -95,14 +94,15 @@
                 <span>令和６年度準備中</span>
               </g-link>
             </div>
-            <div class="item item07 doboku" key="item07">
-              <g-link to="/doboku-s">
+            <div class="item item07 denkikoujisekou" key="item07">
+              <g-link>
                 <span>施工管理技士</span>
                 <br />
                 1・2級
                 <br />
-                土木施工管理技士
-                <IconOnline iconClass="online_icon_index" />
+                電気工事施工管理技士
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
             </div>
             <div class="item item08 kyuusui" key="item08">
@@ -898,12 +898,6 @@ export default {
   color: #00a73c;
   span {
     background-color: #00a73c;
-  }
-}
-.denkikoujisekou {
-  transform: translateY(24px);
-  @media print, screen and (max-width: 1000px) {
-    transform: translateY(0px);
   }
 }
 
