@@ -25,7 +25,7 @@ export default {
   max-width: 970px;
   width: 100%;
   background-color: #fff;
-  margin: 20px auto;
+  margin: 40px auto 20px;
   z-index: 0;
   position: relative;
 }
@@ -59,6 +59,9 @@ export default {
 }
 
 @media print, screen and (max-width: 560px) {
+  .line {
+  margin: 20px auto;
+}
   .line-inner {
   padding: 20px;
   }
