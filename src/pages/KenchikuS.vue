@@ -23,6 +23,7 @@
         />
 
         <Study
+            studySlug="other"
             name1="1級建築施工管理技士"
             time1="100～400"
             name2="2級建築施工管理技士"

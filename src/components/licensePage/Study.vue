@@ -1,6 +1,7 @@
 <template>
-    <div class="study">
+    <div :class="['study', `study-${studySlug}`]">
         <div class="study-inner">
+            <div class="study-title-img"></div>
             <p class="study-title">勉強時間は？</p>
             <p class="study-line"></p>
             <p class="study-time" v-if="name1">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
@@ -18,6 +19,7 @@ export default {
    name2: String,
    time2: String,
    text: String,
+   studySlug: String,
  } 
 }
 </script>
@@ -104,5 +106,38 @@ export default {
   display: block;
   }
 }
+
+.study-title-img {
+    width: 120px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+    height: auto;
+    &:before {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    @media print, screen and (max-width: 1000px) {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    }
+
+    .study-denken {
+        .study-title-img {
+        &:before {
+        content: url('../../assets/img/license_page/study_denken.svg');
+        }
+        }
+    }
+    .study-other {
+        .study-title-img {
+        &:before {
+        content: url('../../assets/img/license_page/study_other.svg');
+        }
+        }
+    }
+
 
 </style>
