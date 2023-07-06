@@ -112,7 +112,7 @@
                     1・2級
                     <br class="overdisplay" />
                     管工事施工管理技士
-                    <br class="overdisplay" />
+                    <br />
                     (令和６年度準備中)
                   </li>
                 </g-link>
@@ -121,7 +121,7 @@
                     1・2級
                     <br class="overdisplay" />
                     電気工事施工管理技士
-                    <br class="overdisplay" />
+                    <br />
                     (令和６年度準備中)
                   </li>
                 </g-link>
@@ -130,7 +130,7 @@
                     給水装置工事
                     <br class="overdisplay" />
                     主任技術者
-                    <br class="overdisplay" />
+                    <br />
                     (令和６年度準備中)
                   </li>
                 </g-link>
