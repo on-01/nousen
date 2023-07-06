@@ -700,24 +700,30 @@ export default {
 .item {
   position: relative; //202101
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5em;
   @media print, screen and (max-width: 1000px) {
+    font-size: 15px;
     text-align: center;
   }
   span {
-    font-size: 13px;
+    font-size: 15px;
     color: #fff;
     padding: 0px 2px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 13px;
+      }
   }
   a {
     display: block;
     &:before {
-      height: 50px;
-      width: 50px;
+      height: 70px;
+      width: 70px;
       display: block;
       margin-bottom: 10px;
       @media print, screen and (max-width: 1000px) {
+        height: 50px;
+        width: 50px;
         margin: 0 auto;
         margin-bottom: 10px;
       }
@@ -911,13 +917,15 @@ export default {
   // content: url("../assets/img/icon/qualification/denkikouji.svg");
   content: ""; 
   display: block;
-  width: 50px; 
-  height: 50px; 
+  width: 70px; 
+  height: 70px; 
   background-image: url("../assets/img/icon/qualification/denkikouji.svg"); 
   background-size: cover; 
   background-repeat: no-repeat; 
   margin-bottom: 10px;
   @media print, screen and (max-width: 1000px) {
+    width: 50px; 
+    height: 50px; 
     margin: 0 auto 10px;
   }
 }
