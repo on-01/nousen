@@ -810,6 +810,7 @@ export default {
     overflow: hidden;
     height: auto;
   }
+
   ul {
     max-width: 690px;
     width: 100%;
