@@ -66,11 +66,12 @@
             <div class="item item04 denkikoujisekou" key="item04">
               <g-link>
                 <span>施工管理技士</span>
-                <br />
+                <br class="-sp-only">
                 1・2級
                 <br />
                 電気工事施工管理技士
-                <!-- <IconOnline iconClass="online_icon_index" /> -->
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
             </div>
             <div class="item item05 kenchiku" key="item05">
@@ -90,6 +91,8 @@
                 1・2級
                 <br />
                 管工事施工管理技士
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
             </div>
             <div class="item item07 doboku" key="item07">
@@ -109,6 +112,8 @@
                 給水装置工事
                 <br />
                 主任技術者
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
             </div>
             <div class="item item09" key="item09">
@@ -1437,10 +1442,16 @@ export default {
     transform-origin: center center;
   }
 }
-
 .link-none {
     background-color: rgba(0,0,0,0);
     color: inherit;
     text-decoration: none;
+}
+
+.-sp-only {
+  display: none;
+  @media screen and(max-width: 1000px) {
+    display: block;
+  }
 }
 </style>
