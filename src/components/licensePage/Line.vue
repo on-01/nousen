@@ -3,7 +3,7 @@
       <div class="line-inner">
           <figure class="line-image">
               <a href="https://line.me/R/ti/p/@947ygtge">
-                  <img src="../../../public/img/line.jpg">
+                  <img src="../../assets/img/license_page/line.jpg">
               </a>
           </figure>
           <p class="line-text">
