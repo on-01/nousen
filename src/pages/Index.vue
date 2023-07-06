@@ -66,7 +66,7 @@
             <div class="item item04 denkikoujisekou" key="item04">
               <g-link>
                 <span>施工管理技士</span>
-                <br class="-sp-only">
+                <br />
                 1・2級
                 <br />
                 電気工事施工管理技士
@@ -1447,10 +1447,4 @@ export default {
     text-decoration: none;
 }
 
-.-sp-only {
-  display: none;
-  @media screen and(max-width: 1000px) {
-    display: block;
-  }
-}
 </style>
