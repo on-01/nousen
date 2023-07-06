@@ -34,7 +34,7 @@ export default {
     position: relative;
 }
 .study-inner {
-    padding: 20px 40px;
+    padding: 0px 40px 20px;
 }
 
 .study-line {
@@ -86,7 +86,7 @@ export default {
     }
 
     .study-inner {
-    padding: 20px;
+    padding: 0px 20px 20px;
   }
 
     .study-time {
@@ -113,14 +113,14 @@ export default {
     margin-left: auto;
     display: block;
     height: auto;
+    transform: translateY(20px);
     &:before {
         width: 100%;
         height: 100%;
         display: block;
     }
-    @media print, screen and (max-width: 1000px) {
+    @media print, screen and (max-width: 560px) {
         width: 80px;
-        margin-bottom: 10px;
     }
     }
 
