@@ -77,26 +77,27 @@
                     <IconOnline iconClass="online_icon_header" />
                   </li>
                 </g-link>
-                <g-link to="/koujishi1">
+                <!-- <g-link to="/koujishi1">
                   <li class="denkikouji">
                     第一種
                     <br class="overdisplay" />
                     電気工事士
                   </li>
-                </g-link>
-                <g-link to="/koujishi2">
+                </g-link> -->
+                <!-- <g-link to="/koujishi2">
                   <li class="denkikouji">
                     第二種
                     <br class="overdisplay" />
                     電気工事士
                   </li>
-                </g-link>
+                </g-link> -->
                 <g-link to="/denkikouji-s">
                   <li class="denkikoujisekou">
                     1・2級
                     <br class="overdisplay" />
                     電気工事施工管理技士
-                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                    <br class="overdisplay" />
+                    (令和６年度準備中)
                   </li>
                 </g-link>
                 <g-link to="/kenchiku-s">
@@ -112,6 +113,8 @@
                     1・2級
                     <br class="overdisplay" />
                     管工事施工管理技士
+                    <br class="overdisplay" />
+                    (令和６年度準備中)
                   </li>
                 </g-link>
                 <g-link to="/doboku-s">
@@ -127,6 +130,8 @@
                     給水装置工事
                     <br class="overdisplay" />
                     主任技術者
+                    <br class="overdisplay" />
+                    (令和６年度準備中)
                   </li>
                 </g-link>
               </ul>
