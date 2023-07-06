@@ -91,13 +91,12 @@
                     電気工事士
                   </li>
                 </g-link> -->
-                <g-link to="/denkikouji-s">
-                  <li class="denkikoujisekou">
+                <g-link to="/doboku-s">
+                  <li class="doboku">
                     1・2級
                     <br class="overdisplay" />
-                    電気工事施工管理技士
-                    <br class="overdisplay" />
-                    (令和６年度準備中)
+                    土木施工管理技士
+                    <IconOnline iconClass="online_icon_header" />
                   </li>
                 </g-link>
                 <g-link to="/kenchiku-s">
@@ -117,12 +116,13 @@
                     (令和６年度準備中)
                   </li>
                 </g-link>
-                <g-link to="/doboku-s">
-                  <li class="doboku">
+                <g-link to="/denkikouji-s">
+                  <li class="denkikoujisekou">
                     1・2級
                     <br class="overdisplay" />
-                    土木施工管理技士
-                    <IconOnline iconClass="online_icon_header" />
+                    電気工事施工管理技士
+                    <br class="overdisplay" />
+                    (令和６年度準備中)
                   </li>
                 </g-link>
                 <g-link to="/kyuusui">
@@ -690,7 +690,7 @@ export default {
   font-weight: bold;
   @media print, screen and(min-width: 1001px) {
     right: 3%;
-    max-width: 900px;
+    max-width: 690px;
     width: 100%;
     margin-top: 70px;
   }
