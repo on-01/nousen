@@ -900,6 +900,12 @@ export default {
     background-color: #00a73c;
   }
 }
+.denkikoujisekou {
+  transform: translateY(24px);
+  @media print, screen and (max-width: 1000px) {
+    transform: translateY(0px);
+  }
+}
 
 .kenchiku,
 .doboku {
