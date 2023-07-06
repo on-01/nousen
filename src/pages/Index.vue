@@ -705,10 +705,9 @@ export default {
 .item {
   position: relative; //202101
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.5em;
   @media print, screen and (max-width: 1000px) {
-    font-size: 15px;
     text-align: center;
   }
   span {
