@@ -6,11 +6,7 @@
                   <img src="../../assets/img/license_page/line.jpg">
               </a>
           </figure>
-          <p class="line-text">
-              能センLINE公式アカウント開設しました。<br>
-              只今『お友達登録キャンペーン』で全講座に使える5000円割引キャンペーンコードをプレゼント！<br>
-              期間限定ですのでお早めにご使用ください。（他の割引と併用可）
-          </p>
+          <p class="line-text" v-html="text"></p>
       </div>
   </div>
 </template>
@@ -18,6 +14,7 @@
 <script>
 export default {
   props: {
+    text: String,
   } 
 }
 

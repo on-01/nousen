@@ -55,7 +55,11 @@
             date="7/15(土)"
         />
 
-        <Line />
+        <Line 
+          text=" 能センLINE公式アカウント開設しました。<br>
+              只今『お友達登録キャンペーン』で全講座に使える5000円割引キャンペーンコードをプレゼント！<br>
+              期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
+        />
 
         <div class="exam-link-wrapper">
           <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
