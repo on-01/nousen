@@ -854,7 +854,9 @@ export default {
           height: 1.2em;
           width: 1.2em;
           display: inline-block;
-          margin-left: 20px;
+          // margin-left: 20px;
+          margin-left: auto;
+          margin-right: 14px;
           vertical-align: sub;
         }
       }
