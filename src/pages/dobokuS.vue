@@ -55,6 +55,8 @@
             date="7/15(土)"
         />
 
+        <Line />
+
         <div class="exam-link-wrapper">
           <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
             オンライン相談はこちら
@@ -236,6 +238,7 @@ import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
+import Line from "@/components/licensePage/Line.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -288,6 +291,7 @@ export default {
     Explanation,
     Campaign,
     Study,
+    Line,
     // News,
     Info,
     Venue,
