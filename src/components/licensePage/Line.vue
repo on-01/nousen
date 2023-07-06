@@ -15,7 +15,13 @@
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  props: {
+  } 
+}
+
+</script>
 
 <style lang="scss" scoped>
 .line {
