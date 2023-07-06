@@ -57,7 +57,7 @@
             date="7/24(月)"
         />
 
-        <Line 
+        <Linelink
           text=" 能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で全講座に使える5000円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
@@ -246,7 +246,7 @@ import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
-import Line from "@/components/licensePage/Line.vue";
+import Linelink from "@/components/licensePage/Linelink.vue";
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -299,7 +299,7 @@ export default {
     Explanation,
     Campaign,
     Study,
-    Line,
+    Linelink,
     // News,
     Info,
     Venue,
