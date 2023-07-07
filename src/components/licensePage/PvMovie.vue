@@ -24,10 +24,10 @@ export default {
 
 <style lang="scss" scoped>
   .pv {
-  width: 100%;
+  width: 560px;
   margin: 0 auto;
   padding: 6em 0;
-  @media print, screen and (min-width: 1001px) {
+  @media print, screen and (max-width: 1001px) {
     width: 90%;
   }
 }
