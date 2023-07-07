@@ -22,6 +22,15 @@
             :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')"
         />
 
+        <PvMovie
+            :movie="$static.kenchikuOnline.mediaYoutube"
+            :image="
+              $static.kenchikuOnline.mediaImg
+                ? $static.kenchikuOnline.mediaImg.file.url : ''
+            "
+            description="合格者を多数輩出した井岡先生による1級建築施工の無料動画をご覧ください。"
+        />
+
         <Study
             studySlug="other"
             name1="1級建築施工管理技士"
@@ -160,13 +169,6 @@
               richtextToHTML($static.kenchikuOnline.courseOutline)
             "
             :apply="richtextToHTML($static.kenchikuOnline.apply)"
-            :mediaYoutube="$static.kenchikuOnline.mediaYoutube"
-            :mediaImg="
-              $static.kenchikuOnline.mediaImg
-                ? $static.kenchikuOnline.mediaImg.file.url
-                : ''
-            "
-            :mediaDescription="$static.kenchikuOnline.mediaDescription"
           />
           <Application
             formText="オンライン講座へのお申し込み"
@@ -248,6 +250,7 @@ import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
+import PvMovie from '../components/licensePage/PvMovie.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -301,6 +304,7 @@ export default {
     Campaign,
     Study,
     Linelink,
+    PvMovie,
     // News,
     Info,
     Venue,
