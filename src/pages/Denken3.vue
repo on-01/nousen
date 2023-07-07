@@ -23,6 +23,14 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
+        <PvMovie
+            :movie="$static.online.mediaYoutube"
+            :image="
+              $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
+            "
+            description="合格者を多数輩出した大嶋先生による基礎講座の無料動画をご覧ください。"
+        />
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -136,11 +144,6 @@
           <Info
             :courseOutline="richtextToHTML($static.online.courseOutline)"
             :apply="richtextToHTML($static.online.apply)"
-            :mediaYoutube="$static.online.mediaYoutube"
-            :mediaImg="
-              $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
-            "
-            :mediaDescription="$static.online.mediaDescription"
           />
           <Application
             formText="オンライン講座へのお申し込み"
@@ -215,6 +218,7 @@ import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
+import PvMovie from '../components/licensePage/PvMovie.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -268,6 +272,7 @@ export default {
     Explanation,
     Study,
     Linelink,
+    PvMovie,
     // News,
     Info,
     Venue,
