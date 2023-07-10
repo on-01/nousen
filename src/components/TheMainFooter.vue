@@ -48,7 +48,7 @@
               <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
                 <p>公式 LINE</p>
                 <img
-                  src="../assets/img/common/lineIcon.svg"
+                  src="../assets/img/common/lineIcon.jpg"
                   alt=""
                   width="37"
                   height="30"
