@@ -45,8 +45,7 @@
                   height="30"
                 />
               </a>
-              <br>
-              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
+              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank" class="line-link">
                 <p>公式 LINE</p>
                 <img
                   src="../assets/img/common/lineIcon.jpg"
@@ -260,6 +259,10 @@
       margin-left: 1.5em;
     }
   }
+}
+
+.line-link {
+  transform: translateY(15px);
 }
 .application {
   position: relative;
