@@ -45,6 +45,7 @@
                   height="30"
                 />
               </a>
+              <br>
               <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
                 <p>公式 LINE</p>
                 <img
@@ -244,7 +245,7 @@
   @media print, screen and(min-width: 1001px) {
     position: absolute;
     z-index: 1;
-    bottom: -6.2rem;
+    bottom: -8.2rem;
     left: 45%;
     font-size: 14px;
   }
