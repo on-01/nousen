@@ -35,7 +35,7 @@
                     <p class="campaign-summary">受験願書（一次二次用・一次用・二次用）を無料でお送り致します。</p>
                     <ul class="campaign-content">
                         <li>・３種類ありますので、申込みの際にお間違えのない様にして下さい。</li>
-                        <li>・提出期日4日前<span>【{{ date }}】</span>までに講座をお申込みの方が対象となります。</li>
+                        <li>・提出期日{{ day }}日前<span>【{{ date }}】</span>までに講座をお申込みの方が対象となります。</li>
                     </ul>
                 </div>
             </div>
@@ -59,6 +59,7 @@
 <script>
 export default {
     props: {
+        day: String,
         date: String,
     } 
 }

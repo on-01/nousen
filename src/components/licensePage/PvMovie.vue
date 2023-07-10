@@ -32,7 +32,7 @@ export default {
   }
 }
 .pv-description {
-    line-height: 1;
+    line-height: 1.3;
     font-size: 13px;
     font-weight: 700;
     @media print, screen and (min-width: 1001px) {

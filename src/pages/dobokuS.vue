@@ -53,6 +53,7 @@
         </figure>
 
         <Campaign
+            day="2"
             date="7/17(祝)"
         />
 
