@@ -45,6 +45,15 @@
                   height="30"
                 />
               </a>
+              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
+                <p>公式 LINE</p>
+                <img
+                  src="../assets/img/common/lineIcon.svg"
+                  alt=""
+                  width="37"
+                  height="30"
+                />
+              </a>
             </div>
           </div>
         </div>

@@ -31,11 +31,12 @@ export default {
     width: 90%;
   }
 }
-.pv-description{
-    line-height: 1.8;
-    font-size: 13px;
+.pv-description {
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 700;
     @media print, screen and (min-width: 1001px) {
-      font-size: 15px;
+      font-size: 16px;
     }
 }
 .pv-movie {
