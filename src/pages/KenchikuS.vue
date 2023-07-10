@@ -64,6 +64,7 @@
         </figure>
 
         <Campaign
+            day="4"
             date="7/24(月)"
         />
 
