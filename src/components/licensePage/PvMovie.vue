@@ -33,10 +33,10 @@ export default {
 }
 .pv-description {
     line-height: 1;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     @media print, screen and (min-width: 1001px) {
-      font-size: 16px;
+      font-size: 15px;
     }
 }
 .pv-movie {
