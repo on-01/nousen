@@ -251,12 +251,16 @@
   & p {
     margin: 0;
     font-weight: normal;
+    text-align: center;
   }
   a {
     display: block;
     img {
       width: 36px;
       margin-left: 1.5em;
+      @media print, screen and(max-width: 1000px) {
+        margin: 0 auto;
+      }
     }
   }
 }
