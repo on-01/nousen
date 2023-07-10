@@ -61,7 +61,7 @@ export default {
   max-width: 860px;
   border-top: 5px solid #3b241a;
   border-bottom: 5px solid #3b241a;
-  height: 336px;
+  height: 536px;
   overflow-y: scroll;
   margin: 0 auto;
   position: relative;

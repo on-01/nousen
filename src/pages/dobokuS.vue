@@ -53,7 +53,7 @@
         </figure>
 
         <Campaign
-            date="7/15(土)"
+            date="7/17(祝)"
         />
 
         <Linelink
