@@ -45,7 +45,7 @@
                   height="30"
                 />
               </a>
-              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank" class="line-link">
+              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
                 <p>公式 LINE</p>
                 <img
                   src="../assets/img/common/lineIcon.jpg"
@@ -253,7 +253,7 @@
     font-weight: normal;
   }
   a {
-    display: inline-block;
+    display: block;
     img {
       width: 36px;
       margin-left: 1.5em;
@@ -261,9 +261,6 @@
   }
 }
 
-.line-link {
-  transform: translateY(15px);
-}
 .application {
   position: relative;
   font-size: 20px;
