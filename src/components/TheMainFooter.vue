@@ -45,7 +45,7 @@
                   height="30"
                 />
               </a>
-              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank">
+              <a href="https://line.me/R/ti/p/@947ygtge" target="_blank" class="line-link">
                 <p>公式 LINE</p>
                 <img
                   src="../assets/img/common/lineIcon.jpg"
@@ -244,7 +244,7 @@
   @media print, screen and(min-width: 1001px) {
     position: absolute;
     z-index: 1;
-    bottom: -8.2rem;
+    bottom: -10.8rem;
     left: 45%;
     font-size: 14px;
   }
@@ -298,6 +298,10 @@
       max-width: 160px;
     }
   }
+}
+
+.line-link {
+  margin-top: 20px;
 }
 
 .column {
