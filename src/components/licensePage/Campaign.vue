@@ -67,7 +67,7 @@ export default {
 
 <style lang="scss" scoped>
 .campaign {
-    max-width: 970px;
+    max-width: 1070px;
     width: 100%;
     background-color: #fff;
     margin: 40px auto 0;

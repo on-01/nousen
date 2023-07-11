@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss" scoped>
 .point {
-  max-width: 970px;
+  max-width: 1070px;
   width: 100%;
   margin: 0 auto;
   background-color: #fff;

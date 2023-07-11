@@ -359,7 +359,7 @@ export default {
     margin: 0;
     padding-top: 0.3em;
     font-size: 13px;
-    text-align: right;
+    // text-align: right;
     @media print, screen and (min-width: 1001px) {
       font-size: 15px;
       white-space: nowrap;
