@@ -58,12 +58,12 @@ export default {
 }
 
 .explanation-image {
-    width: 30%;
+    width: 35%;
     margin-top: 0;
 }
 
 .explanation-text {
-    width: 70%;
+    width: 65%;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;
