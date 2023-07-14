@@ -4,6 +4,7 @@
           <p class="method-title">勉強方法は？</p>
           <p class="method-line"></p>
           <p class="method-text" v-html="text"></p>
+          <p class="method-boldText" v-if="boldText" v-html="boldText"></p>
       </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 export default {
   props: {
     text: String,
+    boldText: String,
   } 
 }
 </script>
@@ -50,7 +52,9 @@ export default {
     margin-top: 20px;
 }
 
-.method-text span {
+.method-boldText {
+    font-size: 14px;
+    line-height: 1.8;
     font-weight: 700;
 }
 
@@ -68,6 +72,10 @@ export default {
     font-size: 14px;
     line-height: 1.6;
     }
+    .method-boldText {
+    font-size: 14px;
+    line-height: 1.6;
+}
 }
 
 </style>

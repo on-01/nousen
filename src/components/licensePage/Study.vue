@@ -108,7 +108,7 @@ export default {
 }
 
 .study-title-img {
-    width: 120px;
+    width: 140px;
     margin-right: 0;
     margin-left: auto;
     display: block;
