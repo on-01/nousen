@@ -56,6 +56,7 @@ export default {
     font-size: 14px;
     line-height: 1.8;
     font-weight: 700;
+    margin-top: 0;
 }
 
 @media print, screen and (max-width: 1000px) {
