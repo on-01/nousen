@@ -60,10 +60,11 @@ export default {
 .explanation-image {
     width: 38%;
     margin-top: 0;
+    margin-left: 0;
 }
 
 .explanation-text {
-    width: 62%;
+    width: 76%;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;
@@ -79,7 +80,8 @@ export default {
     flex-flow: wrap;
     }
     .explanation-image {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     }
 
     .explanation-text {
