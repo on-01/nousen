@@ -60,6 +60,20 @@
 
             boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
             />
+
+            <food
+              text="効率的に勉強するためには、バランスの取れた食事と適切な栄養素が重要です。<br>
+                集中力を高めて効率よく勉強するために、おすすめの栄養や食事をご紹介します。<br><br>
+
+                ① グリーンリーフ野菜や色鮮やかな野菜：これらはビタミン、ミネラル、抗酸化物質が豊富で、脳の機能をサポートします。例えば、ほうれん草やケール、人参、トマトなどが含まれます。<br>
+                ② 魚やナッツ：オメガ-3脂肪酸が豊富な食品は、認知機能と集中力を向上させる可能性があります。サーモン、マグロ、アーモンドやくるみなどがオメガ-3脂肪酸を含んでいます。<br>
+                ③ ブルーベリーや苺：これらのフルーツには抗酸化物質が含まれ、脳の血流を改善し、記憶力や学習能力をサポートする可能性があります。<br>
+                ④ 全粒穀物や健康的な炭水化物：エネルギー源として重要です。全粒穀物（全粒小麦、オートミールなど）や健康的な炭水化物（さつまいも、バナナなど）は持続的なエネルギーを提供します。<br>
+                ⑤ 水分補給：十分な水分摂取は脳機能に必要であり、集中力を保つためにも重要です。こまめに水分補給を心掛けましょう。<br><br>
+
+                ただし、個人の体質や健康状態によって最適な食事は異なる場合があります。バランスの取れた食事を心掛けつつ、自身の体の反応を観察しながら調整することが大切です。<br>
+                また、十分な睡眠や適度な運動も勉強効率に影響を与えるので、総合的な健康管理もお忘れなく。"
+              />
               
         <Point
           title="短期間で合格する３つのポイント"
@@ -239,6 +253,7 @@ import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import PvMovie from '../components/licensePage/PvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
+import Food from '../components/licensePage/Food.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -248,6 +263,7 @@ import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+import Food from '../components/licensePage/Food.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -294,13 +310,15 @@ export default {
     Linelink,
     PvMovie,
     Method,
+    Food,
     // News,
     Info,
     Venue,
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight
+    IconArrowRight,
+    Food
   },
   data() {
     return {
