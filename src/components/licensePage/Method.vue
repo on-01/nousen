@@ -50,6 +50,10 @@ export default {
     margin-top: 20px;
 }
 
+.method-text span {
+    font-weight: 700;
+}
+
 @media print, screen and (max-width: 1000px) {
     .method {
         width: 90%;
