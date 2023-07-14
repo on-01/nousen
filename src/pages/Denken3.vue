@@ -263,7 +263,6 @@ import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
-import Food from '../components/licensePage/Food.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -318,7 +317,6 @@ export default {
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight,
-    Food
   },
   data() {
     return {
