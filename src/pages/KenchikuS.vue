@@ -46,6 +46,31 @@
             一般的に、資格試験に向けた学習には継続的な努力と集中力が必要です。自分の学習ペースやスケジュールに合わせて計画を立て、充実した学習環境を整えることが重要です。"
             />
 
+            <method
+            text="① 試験範囲の把握と参考書の選定<br>
+                  　建築施工管理技士の試験範囲を確認し、公式の試験要綱やガイドラインを参照して、出題範囲や試験形式を把握しましょう。<br>
+                  　信頼性のある参考書を選び、試験に合わせた資料を活用しましょう。<br>
+                  ② 勉強計画の作成と実行<br>
+                  　週次や月次の勉強計画を作成し、各範囲を均等にカバーするようにスケジュールを立てましょう。計画通りに学習を進めることが重要です。<br>
+                  ③ 理論と実務の学習<br>
+                  　理論的な知識と実務経験の両方が必要です。参考書や資料を活用して理論を学び、実務経験を通じて実践的な知識を身につけます。<br>
+                  ④ ノート作成と過去問の解答<br>
+                  　重要なポイントやキーワードをノートにまとめ、理解を深めます。過去の試験問題を解くことで、実際の試験形式や問題の傾向を把握し対策を練ります。<br>
+                  ⑤ グループ勉強や相互学習の活用<br>
+                  　同じ目標を持つ仲間と一緒に学習することで、理解が深まります。グループ勉強や相互学習を通じて、知識の共有や質問の解決に役立てましょう。<br>
+                  ⑥ 定期的な復習と模擬試験<br>
+                  　学習した内容を定期的に復習し長期的な記憶と理解を固めます。試験本番に近い環境で模擬試験を受けることで、試験の雰囲気に慣れることも重要です。<br><br>
+                  
+                  また、独学だけでなく、講習会やオンライン講座に参加することも有益です。<br>
+                  他の受験生との情報交換や質問をすることで学習の効率が上がるでしょう。"
+
+            />
+
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+        <figure class="point-image">
+          <img src="../assets/img/license_page/kenchiku_s/kenchiku_point.jpg">
+        </figure>
+
         <Point
           title="短期間で合格する５つのポイント"
           :points="[
@@ -56,10 +81,6 @@
             '『添削で合格の近道へ』<br>＜二次＞提出していただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。'
           ]"
         />
-        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <figure class="point-image">
-          <img src="../assets/img/license_page/kenchiku_s/kenchiku_point.jpg">
-        </figure>
 
         <Campaign
             day="4"
@@ -250,6 +271,7 @@ import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import PvMovie from '../components/licensePage/PvMovie.vue';
+import Method from '../components/licensePage/Method.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -304,6 +326,7 @@ export default {
     Study,
     Linelink,
     PvMovie,
+    Method,
     // News,
     Info,
     Venue,

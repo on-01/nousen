@@ -26,6 +26,7 @@ export default {
     margin: 20px auto;
     z-index: 0;
     position: relative;
+    font-family: 'Meiryo', sans-serif;
 }
 .method-inner {
     padding: 20px 40px;

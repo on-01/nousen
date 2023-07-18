@@ -13,16 +13,17 @@
           color="#00afcc"
           :icon="require('../assets/img/icon/qualification/kyuusui.svg')"
         />
+        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+        <figure class="point-image">
+          <img src="../assets/img/license_page/kyuusui/kyuusui_point.jpg">
+        </figure>
+
         <Point
           :points="[
             '過去問題の分析に基づいた学習の優先順位を徹底解説。',
             '足切りされない学習の仕方を指導。ただの暗記ではなく、内容を理解した上で覚えていただける講義を心がけています。'
           ]"
         />
-        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <figure class="point-image">
-          <img src="../assets/img/license_page/kyuusui/kyuusui_point.jpg">
-        </figure>
 
         <div class="exam-link-wrapper">
           <g-link to="/licenses/#kyuusui" class="exam-link">
