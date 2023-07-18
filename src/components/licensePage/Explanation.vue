@@ -29,9 +29,9 @@ export default {
     width: 100%;
     background-color: #fff;
     margin: -20px auto 0;
-    // margin: 20px auto;
     z-index: 0;
     position: relative;
+    font-family: 'Meiryo', sans-serif;
 }
 .explanation-inner {
     padding: 20px;
@@ -58,13 +58,13 @@ export default {
 }
 
 .explanation-image {
-    width: 38%;
+    width: 42%;
     margin-top: 0;
     margin-left: 0;
 }
 
 .explanation-text {
-    width: 76%;
+    width: 68%;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;

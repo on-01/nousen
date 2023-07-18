@@ -22,6 +22,8 @@
                     <p class="campaign-topic">過去問題進呈</p>
                     <ul class="campaign-content">
                         <li>・過去の試験問題を3年分進呈します。</li>
+                        <li>【通学】過去３年分を印刷して進呈(必要な方は5年分)</li>
+                        <li>【オンライン】過去５年分をダウンロード</li>
                         <li>・一次は問題・解答解説付き。二次は問題のみになります。</li>
                     </ul>
                 </div>
@@ -73,6 +75,7 @@ export default {
     margin: 40px auto 0;
     z-index: 0;
     position: relative;
+    font-family: 'Meiryo', sans-serif;
 }
 .campaign-inner {
     padding: 20px;
