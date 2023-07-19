@@ -94,9 +94,9 @@
         />
 
         <Linelink 
-          text=" 能センLINE公式アカウント開設しました。<br>
-              只今『お友達登録キャンペーン』で全講座に使える5000円割引キャンペーンコードをプレゼント！<br>
-              期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
+              text="能センLINE公式アカウント開設しました。<br>
+                只今『お友達登録キャンペーン』で全講座に使える2500円割引キャンペーンコードをプレゼント！<br>
+                期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
           />
 
         <div class="exam-link-wrapper">
@@ -347,7 +347,7 @@ export default {
   padding-bottom: 100px;
 }
 .header {
-  background-color: #f2f2f2;
+  background-color: #fff8cc;
   border-bottom: 5px solid #1D9BF0;
 }
 .exam-link-wrapper {
@@ -535,8 +535,15 @@ export default {
     height: auto;
   }
 }
-
 .point {
   margin-top: 30px;
+}
+.denken3 .info-section {
+  background-color: #f4fcff;
+  position: relative;
+  margin-top: 50px;
+  ::v-deep a {
+    text-decoration: underline;
+  }
 }
 </style>
