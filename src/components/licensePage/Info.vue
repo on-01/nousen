@@ -118,6 +118,9 @@ export default {
 
 //個別のカラー
 .denken3 {
+  .info-section {
+    background-color: #f4fcff;
+  }
   .head {
     background-color: #1D9BF0;
   }
