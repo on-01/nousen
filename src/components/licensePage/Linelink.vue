@@ -28,6 +28,7 @@ export default {
   margin: 40px auto 20px;
   z-index: 0;
   position: relative;
+  font-family: 'Meiryo', sans-serif;
 }
 .line-inner {
   padding: 20px 40px 40px;

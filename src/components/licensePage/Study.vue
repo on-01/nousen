@@ -32,6 +32,7 @@ export default {
     margin: 20px auto;
     z-index: 0;
     position: relative;
+    font-family: 'Meiryo', sans-serif;
 }
 .study-inner {
     padding: 0px 40px 20px;
