@@ -538,12 +538,16 @@ export default {
 .point {
   margin-top: 30px;
 }
-.denken3 .info-section {
-  background-color: #f4fcff;
-  position: relative;
-  margin-top: 50px;
-  ::v-deep a {
-    text-decoration: underline;
+.denken3 {
+  .info-section {
+    background-color: #f4fcff;
+    position: relative;
+    margin-top: 50px;
+    ::v-deep a {
+      text-decoration: underline;
+    }
   }
 }
+
+  
 </style>
