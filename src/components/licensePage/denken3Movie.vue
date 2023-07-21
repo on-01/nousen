@@ -35,16 +35,14 @@ export default {
   margin: 20px auto;
   z-index: 0;
   position: relative;
-  @media print, screen and (max-width: 1001px) {
-    width: 90%;
-  }
 }
   .pv {
   width: 700px;
   margin: 0 auto;
   padding: 0 3em 3rem;
   @media print, screen and (max-width: 1001px) {
-    width: 95%;
+    width: 90%;
+    padding: 0;
   }
 }
 .pv-title {
@@ -64,6 +62,7 @@ export default {
     line-height: 1.3;
     font-size: 13px;
     font-weight: 700;
+    text-align: center;
     @media print, screen and (min-width: 1001px) {
       font-size: 15px;
     }
