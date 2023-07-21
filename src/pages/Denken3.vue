@@ -23,12 +23,12 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
-        <PvMovie
+        <denken3Movie
             :movie="$static.online.mediaYoutube"
             :image="
               $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
             "
-            description="合格者を多数輩出した大嶋先生による基礎講座の無料動画をご覧ください。"
+            description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
         />
 
         <Study
@@ -256,7 +256,7 @@ import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
-import PvMovie from '../components/licensePage/PvMovie.vue';
+import denken3Movie from '../components/licensePage/denken3Movie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
 // import News from "@/components/licensePage/News.vue";
@@ -312,7 +312,7 @@ export default {
     Explanation,
     Study,
     Linelink,
-    PvMovie,
+    denken3Movie,
     Method,
     Food,
     // News,
