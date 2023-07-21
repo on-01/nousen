@@ -1,8 +1,8 @@
 <template>
     <section v-if="movie || image">
       <div class="pv-wrap">
+        <p class="pv-title">科目合格率No.1  電験三種の講習会動画をご視聴ください</p>
         <div class="pv">
-          <p class="pv-title">科目合格率No.1  電験三種の講習会動画をご視聴ください</p>
           <p class="pv-description">{{ description }}</p>
           <div class="pv-movie" v-if="movie">
             <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,6 +48,8 @@ export default {
   }
 }
 .pv-title {
+    max-width: calc(1070px - 6rem);
+    width: calc(100% - 6rem);
     line-height: 1.3;
     font-size: 18px;
     font-weight: 700;
