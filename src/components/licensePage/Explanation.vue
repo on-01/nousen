@@ -47,7 +47,7 @@ export default {
 .explanation-line {
     width: 10%;
     height: 4px;
-    background: #ed7d31;
+    background: #249ef0;
     margin: 20px auto 30px;
     border-radius: 8px;
 }
