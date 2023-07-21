@@ -48,8 +48,6 @@ export default {
   }
 }
 .pv-title {
-    max-width: calc(1070px - 6rem);
-    width: calc(100% - 6rem);
     line-height: 1.3;
     font-size: 18px;
     font-weight: 700;
@@ -58,7 +56,6 @@ export default {
     padding: 1rem;
     text-align: center;
     margin: 0;
-    margin: 0 -3rem;
     @media print, screen and (min-width: 1001px) {
       font-size: 16px;
     }
