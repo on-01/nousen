@@ -42,7 +42,7 @@ export default {
   padding: 0 3em 3rem;
   @media print, screen and (max-width: 1001px) {
     width: 90%;
-    padding: 0;
+    padding-bottom: 2rem;
   }
 }
 .pv-title {
