@@ -617,11 +617,11 @@ export default {
   },
   mounted() {
     //トップの背景の読み込みが終わってからアニメーションさせる
-    var image = new Image();
-    image.onload = () => {
-      this.afterImgLoad = true;
-    };
-    image.src = require("../assets/img/front/section01/main_background.jpg");
+    // var image = new Image();
+    // image.onload = () => {
+    //   this.afterImgLoad = true;
+    // };
+    // image.src = require("../assets/img/front/section01/main_background.jpg");
 
     //スクロールしたらスクロールimg非表示
     window.addEventListener("scroll", this.onScroll);
@@ -673,8 +673,8 @@ export default {
   }
 }
 .section01 {
-  background-image: url("../assets/img/front/section01/main_background.jpg");
-  background-size: cover;
+  // background-image: url("../assets/img/front/section01/main_background.jpg");
+  // background-size: cover;
   @media print, screen and (min-width: 1001px) {
     padding-top: 160px;
   }
