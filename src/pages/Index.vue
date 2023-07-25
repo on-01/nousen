@@ -673,8 +673,8 @@ export default {
   }
 }
 .section01 {
-  // background-image: url("../assets/img/front/section01/main_background.jpg");
-  // background-size: cover;
+  background-image: url("../assets/img/front/section01/main_background.jpg");
+  background-size: cover;
   @media print, screen and (min-width: 1001px) {
     padding-top: 160px;
   }
