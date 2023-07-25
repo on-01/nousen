@@ -55,7 +55,7 @@ export default {
     text-align: center;
     margin: 0;
     @media print, screen and (min-width: 1001px) {
-      font-size: 16px;
+      font-size: 18px;
     }
 }
 .pv-description {
@@ -64,7 +64,7 @@ export default {
     font-weight: 700;
     text-align: center;
     @media print, screen and (min-width: 1001px) {
-      font-size: 15px;
+      font-size: 16px;
     }
 }
 .pv-movie {
