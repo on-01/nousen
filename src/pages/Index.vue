@@ -121,16 +121,16 @@
                 <source
                   media="(min-width: 1001px)"
                   srcset="../assets/img/front/section01/main_catch.svg"
-                  alt="「勉強の時間がない」という問題を解決しよう。"
+                  alt="「合格のミライヘ」確実な受験対策講座。"
                 />
                 <source
                   media="(max-width: 1000px)"
                   srcset="../assets/img/front/section01/main_catch_sp.svg"
-                  alt="「勉強の時間がない」という問題を解決しよう。"
+                  alt="「合格のミライヘ」確実な受験対策講座。"
                 />
                 <img
                   src="../assets/img/front/section01/main_catch.svg"
-                  alt="「勉強の時間がない」という問題を解決しよう。"
+                  alt="「合格のミライヘ」確実な受験対策講座。"
                 />
               </picture>
             </div>
