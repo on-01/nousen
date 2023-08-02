@@ -484,9 +484,9 @@ export default {
   font-family: 'メイリオ', sans-serif;
   background-color: #ebf7ff;
   padding-bottom: 100px;
-  @media print, screen and (max-width: 1000px) {
-    width: 90%;
-  }
+  // @media print, screen and (max-width: 1000px) {
+  //   width: 90%;
+  // }
   .body-title {
     padding-top: 116px;
     text-align: center;
