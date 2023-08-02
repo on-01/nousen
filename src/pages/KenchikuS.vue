@@ -359,7 +359,7 @@ export default {
   padding-bottom: 100px;
 }
 .header {
-  background-color: #f2f2f2;
+  background-color: #fff8cc;
   border-bottom: 5px solid #ed7d31;
 }
 .exam-link-wrapper {
@@ -407,6 +407,7 @@ export default {
   text-align: center;
   margin-top: -70px;
   font-weight: bold;
+  font-family: 'メイリオ', sans-serif;
   @media print, screen and (max-width: 370px) {
     margin-top: -20vw;
   }
@@ -446,7 +447,7 @@ export default {
     }
     &.active {
       border-bottom: none;
-      background-color: #fff;
+      background-color: #ebf7ff;
       color: #ed7d31;
       .icon {
         transform: rotate(90deg);
@@ -482,13 +483,16 @@ export default {
 .body {
   width: 100%;
   margin: 0 auto;
+  font-family: 'メイリオ', sans-serif;
+  background-color: #ebf7ff;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }
   .body-title {
-    margin-top: 100px;
+    padding-top: 116px;
     text-align: center;
     font-size: 30px;
+    margin-top: 0;
     @media print, screen and (max-width: 1000px) {
       font-size: 18px;
     }

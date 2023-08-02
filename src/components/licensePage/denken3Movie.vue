@@ -37,7 +37,7 @@ export default {
   position: relative;
 }
   .pv {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
   padding: 0 3em 3rem;
   @media print, screen and (max-width: 1001px) {
@@ -55,16 +55,16 @@ export default {
     text-align: center;
     margin: 0;
     @media print, screen and (min-width: 1001px) {
-      font-size: 18px;
+      font-size: 20px;
     }
 }
 .pv-description {
     line-height: 1.3;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     text-align: center;
     @media print, screen and (min-width: 1001px) {
-      font-size: 16px;
+      font-size: 18px;
     }
 }
 .pv-movie {

@@ -4,7 +4,7 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            令和５年度 合格応援割引＆合格応援プレゼント実地中！各科目のページをご覧下さい。
+            ８月１日～３１日(木)まで『合格のためのサマーセール』を開催します！最大４０％オフ！詳しくは能センSHOPをご覧ください！
           </g-link>
         </p>
         <img
@@ -707,6 +707,7 @@ export default {
   font-weight: bold;
   font-size: 15px;
   line-height: 1.5em;
+  font-family: 'メイリオ', sans-serif;
   @media print, screen and (max-width: 1000px) {
     text-align: center;
   }
@@ -955,6 +956,7 @@ export default {
   text-align: center;
   margin-top: 80px;
   padding-bottom: 100px;
+  font-family: メイリオ,sans-serif;
   a {
     border: 5px solid #000;
     padding: 10px 15px;
@@ -1403,6 +1405,7 @@ export default {
   text-justify: inter-ideograph;
   text-justify: inter-character;
   line-height: 1.7;
+  font-family: 'メイリオ', sans-serif;
   @media screen and(max-width: 1000px) {
     line-height: 1.5;
     font-size: 12px;

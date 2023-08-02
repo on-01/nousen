@@ -119,7 +119,7 @@ export default {
 //個別のカラー
 .denken3 {
   .info-section {
-    background-color: #f4fcff;
+    background-color: #fff;
   }
   .head {
     background-color: #1D9BF0;
@@ -144,6 +144,9 @@ export default {
   }
 }
 .denkikoujisekou,.kankouji {
+  .info-section {
+    background-color: #fff;
+  }
   .head {
     background-color: #00a73c;
   }
@@ -159,6 +162,9 @@ export default {
   }
 }
 .kenchiku,.doboku {
+  .info-section {
+    background-color: #fff;
+  }
   .head {
     background-color: #ed7d31;
   }
@@ -174,6 +180,9 @@ export default {
   }
 }
 .kyuusui {
+  .info-section {
+    background-color: #fff;
+  }
   .head {
     background-color: #00afcc;
   }

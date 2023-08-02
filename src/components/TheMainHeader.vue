@@ -494,6 +494,7 @@ export default {
   background-color: #fff;
   transition: background-color 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
   top: 0;
+  font-family: 'メイリオ', sans-serif;
   @media print, screen and(min-width: 768px) {
     box-shadow: 0px 5px 5px 0px #0000005c;
   }
