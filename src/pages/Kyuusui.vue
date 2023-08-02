@@ -171,7 +171,7 @@ export default {
   padding-bottom: 100px;
 }
 .header {
-  background-color: #f2f2f2;
+  background-color: #fff8cc;
   border-bottom: 5px solid #00afcc;
 }
 .exam-link-wrapper {
@@ -213,7 +213,7 @@ export default {
     margin: 0 10px;
     &.active {
       border-bottom: none;
-      background-color: #fff;
+      background-color: #ebf7ff;
       color: #00afcc;
       .icon {
         transform: rotate(90deg);
@@ -224,14 +224,16 @@ export default {
 .body {
   width: 100%;
   margin: 0 auto;
+  font-family: 'メイリオ', sans-serif;
+  background-color: #ebf7ff;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }
   .body-title {
-    margin-top: 100px;
+    padding-top: 116px;
     text-align: center;
     font-size: 30px;
-    font-size: 30px;
+    margin-top: 0;
     @media print, screen and (max-width: 1000px) {
       font-size: 20px;
     }
