@@ -276,7 +276,7 @@ export default {
 
 <style lang="scss" scoped>
 .denkikoujisekou {
-  padding-bottom: 100px;
+  padding-bottom: 0;
 }
 .header {
   background-color: #fff8cc;
@@ -385,6 +385,7 @@ export default {
   margin: 0 auto;
   font-family: 'メイリオ', sans-serif;
   background-color: #ebf7ff;
+  padding-bottom: 100px;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }

@@ -349,7 +349,7 @@ export default {
 
 <style lang="scss" scoped>
 .doboku {
-  padding-bottom: 100px;
+  padding-bottom: 0;
 }
 .header {
   background-color: #fff8cc;
