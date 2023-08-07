@@ -22,13 +22,22 @@
             :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')"
         />
 
-        <PvMovie
+        <!-- <PvMovie
             :movie="$static.kenchikuOnline.mediaYoutube"
             :image="
               $static.kenchikuOnline.mediaImg
                 ? $static.kenchikuOnline.mediaImg.file.url : ''
             "
             description="合格者を多数輩出した井岡先生による1級建築施工の無料動画をご覧ください。"
+        /> -->
+
+        <NewPvMovie
+            :movie="$static.kenchikuOnline.mediaYoutube"
+            :image="
+              $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
+            "
+            movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
+            description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
         />
 
         <Study
@@ -270,7 +279,7 @@ import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
-import PvMovie from '../components/licensePage/PvMovie.vue';
+import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
@@ -325,7 +334,7 @@ export default {
     Campaign,
     Study,
     Linelink,
-    PvMovie,
+    NewPvMovie,
     Method,
     // News,
     Info,

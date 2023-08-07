@@ -1,7 +1,7 @@
 <template>
     <section v-if="movie || image">
       <div class="pv-wrap">
-        <p class="pv-title">科目合格率No.1  電験三種の講習会動画をご視聴ください</p>
+        <p class="pv-title">{{ movieTitle }}</p>
         <div class="pv">
           <p class="pv-description">{{ description }}</p>
           <div class="pv-movie" v-if="movie">
@@ -20,7 +20,8 @@ export default {
   props: {
     movie: String,
     image: String,
-    description: String
+    description: String,
+    movieTitle: String
   }
 }
 </script>
