@@ -65,6 +65,7 @@ export default {
   overflow-y: scroll;
   margin: 0 auto;
   position: relative;
+  background-color: #fff;
 }
 .section-title {
   text-align: center;

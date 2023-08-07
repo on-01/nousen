@@ -969,8 +969,11 @@ export default {
 
 .section02 {
   margin: 0 auto;
+  background-color: #f4fcff;
+  padding-bottom: 200px;
   @media print, screen and (max-width: 1000px) {
     max-width: 90%;
+    padding-bottom: 0;
   }
   .section-name {
     color: #f4891e;
@@ -995,6 +998,10 @@ export default {
 }
 .section03 {
   position: relative;
+  margin-top: -200px;
+  @media print, screen and (max-width: 1000px) {
+    margin-top: 0;
+    }
   &:before {
     content: "";
     height: 500px;
