@@ -632,9 +632,11 @@ export default {
     }
     &.form {
       flex-shrink: 0;
-        @media print, screen and(max-width: 500px) {
+      img {
+      @media print, screen and(max-width: 500px) {
         height: 16px;
       }
+    }
     }
   }
 }
