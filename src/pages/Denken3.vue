@@ -23,11 +23,12 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
-        <denken3Movie
+        <NewPvMovie
             :movie="$static.online.mediaYoutube"
             :image="
               $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
             "
+            movieTitle="科目合格率No.1  電験三種の講習会動画をご視聴ください"
             description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
         />
 
@@ -256,7 +257,7 @@ import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
-import denken3Movie from '../components/licensePage/denken3Movie.vue';
+import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
 // import News from "@/components/licensePage/News.vue";
@@ -312,7 +313,7 @@ export default {
     Explanation,
     Study,
     Linelink,
-    denken3Movie,
+    NewPvMovie,
     Method,
     Food,
     // News,
