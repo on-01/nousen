@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .study {
-    max-width: 1070px;
+    max-width: 1170px;
     width: 100%;
     background-color: #fff;
     margin: 20px auto 0;
