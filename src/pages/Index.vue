@@ -969,11 +969,13 @@ export default {
 
 .section02 {
   margin: 0 auto;
-  background-color: #f4fcff;
   padding-bottom: 200px;
   @media print, screen and (max-width: 1000px) {
     max-width: 90%;
     padding-bottom: 0;
+  }
+  @media print, screen and (min-width: 1001px) {
+    background-color: #f4fcff;
   }
   .section-name {
     color: #f4891e;
