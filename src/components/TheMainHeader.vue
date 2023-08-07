@@ -622,11 +622,11 @@ export default {
     @media print, screen and(min-width: 501px) {
       margin: 0 10px;
     }
-    img {
-      @media print, screen and(max-width: 500px) {
-        height: 16px;
-      }
-    }
+    // img {
+    //   @media print, screen and(max-width: 500px) {
+    //     height: 16px;
+    //   }
+    // }
     &.contact,
     &.form {
       flex-shrink: 0;
