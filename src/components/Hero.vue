@@ -93,6 +93,7 @@ export default {
     margin: 0;
     letter-spacing: 0.3em;
     font-size: 29px;
+    font-family: 'メイリオ', sans-serif;
     @media print, screen and (max-width: 1000px) {
       font-size: 20px;
     }

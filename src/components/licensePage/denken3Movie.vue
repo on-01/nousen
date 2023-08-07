@@ -55,7 +55,7 @@ export default {
     text-align: center;
     margin: 0;
     @media print, screen and (min-width: 1001px) {
-      font-size: 20px;
+      font-size: 22px;
     }
 }
 .pv-description {

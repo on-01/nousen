@@ -167,6 +167,7 @@ export default {
 }
 .body {
   padding: 50px;
+  background-color: #fff;
   @media print, screen and (max-width: 1000px) {
     padding: 50px 5%;
   }

@@ -66,7 +66,7 @@
             class="pagelink-title pagelink-title-session"
             @click="isSessionOpen = !isSessionOpen"
           >
-            <p>講習会情報</p>
+            <p>講座一覧</p>
             <div class="rolldown">
               <ul>
                 <g-link to="/denken3">
@@ -720,7 +720,7 @@ export default {
 }
 .nav-inner01 {
   position: relative;
-  font-size: 14px;
+  font-size: 15px;
   @media print, screen and(min-width: 1001px) {
     justify-content: space-between;
     display: flex;
