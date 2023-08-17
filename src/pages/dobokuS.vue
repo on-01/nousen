@@ -23,6 +23,15 @@
             :imagePath="require('../assets/img/license_page/doboku_s/doboku_explain.jpg')"
         />
 
+        <NewPvMovie
+            :movie="$static.dobokuOnline.mediaYoutube"
+            :image="
+              $static.dobokuOnline.mediaImg ? $static.dobokuOnline.mediaImg.file.url : ''
+            "
+            movieTitle="分かりやすさNo.1 土木施工の講習会動画をご視聴ください"
+            description="合格者を多数輩出した大嶋先生による二次試験対策の無料動画になります。"
+        />
+
         <Study
             studySlug="other"
             name1="1級土木施工管理技士"
@@ -177,13 +186,6 @@
           <Info
             :courseOutline="richtextToHTML($static.dobokuOnline.courseOutline)"
             :apply="richtextToHTML($static.dobokuOnline.apply)"
-            :mediaYoutube="$static.dobokuOnline.mediaYoutube"
-            :mediaImg="
-              $static.dobokuOnline.mediaImg
-                ? $static.dobokuOnline.mediaImg.file.url
-                : ''
-            "
-            :mediaDescription="$static.dobokuOnline.mediaDescription"
           />
           <Application
             formText="オンライン講座へのお申し込み"
@@ -265,6 +267,7 @@ import Explanation from "@/components/licensePage/Explanation.vue";
 import Campaign from "@/components/licensePage/Campaign.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
+import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
@@ -319,6 +322,7 @@ export default {
     Campaign,
     Study,
     Linelink,
+    NewPvMovie,
     Method,
     // News,
     Info,
