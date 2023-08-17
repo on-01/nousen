@@ -45,7 +45,6 @@ margin: 20px auto;
 z-index: 0;
 position: relative;
 }
-
 .support-wrap p {
     margin: 0;
 }
