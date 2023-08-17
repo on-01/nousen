@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
 
 .pv-wrap {
-  max-width: 1070px;
+  // max-width: 1070px;
   width: 100%;
   font-family: 'Meiryo', sans-serif;
   background-color: #ebf7ff;
