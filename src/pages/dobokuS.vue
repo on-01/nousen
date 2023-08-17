@@ -23,6 +23,10 @@
             :imagePath="require('../assets/img/license_page/doboku_s/doboku_explain.jpg')"
         />
 
+        <Support 
+          title="＼＼建設業を応援しよう／／"
+        />
+
         <NewPvMovie
             :movie="$static.dobokuOnline.mediaYoutube"
             :image="
@@ -269,6 +273,7 @@ import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
+import Support from '../components/licensePage/Support.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -324,6 +329,7 @@ export default {
     Linelink,
     NewPvMovie,
     Method,
+    Support,
     // News,
     Info,
     Venue,
