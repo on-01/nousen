@@ -51,15 +51,15 @@ position: relative;
 }
 .support-title {
 line-height: 1.3;
-font-size: 18px;
+font-size: 28px;
 font-weight: 700;
 color: #fff;
 background-color: #ed6c00;
 padding: 1rem;
 text-align: center;
 margin: 0;
-@media print, screen and (min-width: 1001px) {
-    font-size: 22px;
+@media print, screen and (max-width: 560px) {
+    font-size: 20px;
 }
 }
 .support {
