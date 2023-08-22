@@ -630,6 +630,10 @@ export default {
     &.contact,
     &.form {
       flex-shrink: 0;
+      transform: scale(1.1);
+      @media print, screen and(max-width: 560px) {
+        transform: scale(1);
+    }
     }
   }
 }
