@@ -139,12 +139,12 @@
         <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
         </div>
-        <!-- <div class="more_qualification">
-          <g-link to="/licenses">
+        <div class="more_qualification">
+          <!-- <g-link to="/licenses">
             資格一覧はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-        </div> -->
+          </g-link> -->
+        </div>
       </section>
       <section class="section02">
         <p class="section-name">News</p>
