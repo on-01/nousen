@@ -24,7 +24,7 @@
         />
 
         <Support 
-          title="＼＼建設業を応援しよう／／"
+          title="＼＼建設業を応援しよう【第一弾】／／"
         />
 
         <NewPvMovie

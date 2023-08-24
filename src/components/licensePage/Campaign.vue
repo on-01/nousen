@@ -1,7 +1,7 @@
 <template>
     <div class="campaign">
-        <div class="campaign-inner">
         <p class="campaign-title">合格応援キャンペーン(受講者特典)</p>
+        <div class="campaign-inner">
             <div class="campaign-section">
                 <figure class="campaign-image">
                     <img src="../../assets/img/license_page/campaign_1.jpg">
@@ -82,13 +82,17 @@ export default {
 }
 
 .campaign-title {
-    font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 24px;
-    background: #ed7d31;
-    padding: 4px;
-    color: #fff;
+line-height: 1.3;
+font-size: 28px;
+font-weight: 700;
+color: #fff;
+background-color: #ed6c00;
+padding: 1rem;
+text-align: center;
+margin: 0;
+    @media print, screen and (max-width: 560px) {
+        font-size: 20px;
+    }
 }
 .campaign-section {
     display: flex;
@@ -146,9 +150,6 @@ export default {
 }
 
 @media print, screen and (max-width: 560px) {
-    .campaign-title {
-        font-size: 18px;
-    }
     .campaign-description {
     margin-top: 10px;
     line-height: 1.8;
