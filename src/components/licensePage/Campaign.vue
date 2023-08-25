@@ -90,6 +90,7 @@ background-color: #ed6c00;
 padding: 1rem;
 text-align: center;
 margin: 0;
+box-shadow: 0px 5px 1px rgba(161, 73, 0, 0.5);
     @media print, screen and (max-width: 560px) {
         font-size: 20px;
     }
