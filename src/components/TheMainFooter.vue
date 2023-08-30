@@ -71,6 +71,7 @@
               height="38"
             />
           </a>
+          <figure class="credit"><img src="../assets/img/common/credit.jpg"></figure>
         </div>
         <div class="banner">
           <div class="column">
@@ -131,9 +132,10 @@
       margin-top: 1.5em;
 
       &_logo {
-        font-size: 14px;
+        font-size: 15px;
         margin: 0;
         font-weight: bold;
+        font-family: 'メイリオ', sans-serif;
         @media print, screen and(max-width: 1000px) {
           font-size: 12px;
         }
@@ -154,9 +156,10 @@
     }
   }
   .jeea-link {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.5em;
     display: block;
+    font-family: 'メイリオ', sans-serif;
     @media print, screen and(max-width: 1000px) {
       font-size: 10px;
       transform: scale(0.9);
@@ -174,16 +177,17 @@
   .information {
     font-weight: bold;
     max-width: 750px;
+    font-family: 'メイリオ', sans-serif;
     @media print, screen and(min-width: 1001px) {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      width: 400px;
+      width: 420px;
       margin-top: 1em;
     }
     p {
       margin: 0;
-      font-size: 14px;
+      font-size: 15px;
       @media print, screen and(max-width: 1000px) {
         display: block;
         text-align: left;
