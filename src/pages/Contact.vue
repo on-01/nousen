@@ -70,4 +70,12 @@ export default {
 //   background-color: #f2f2f2;
 //   padding-top: 50px;
 // }
+.hero {
+  &.no-pic { //背景画像がない場合は余白つける
+    display: none;
+    @media print, screen and (max-width: 980px) {
+      display: none;
+    }
+  }
+}
 </style>
