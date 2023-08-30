@@ -7,7 +7,7 @@
       <div class="contents">
         <iframe
           class="google_form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSci2FzzAmYO3ic0IZAlpISRRl5r1Vx2NNoWpZhkKpI--FrbPg/viewform?embedded=true"
+          src="https://business.form-mailer.jp/lp/94792714211129"
           width="100%"
           height="1000"
           frameborder="0"
