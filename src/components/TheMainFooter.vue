@@ -321,4 +321,19 @@
   margin-top: 20px;
   border: 1px solid rgba(0,0,0, 0.3);
 }
+
+.credit {
+  width: 385px;
+  margin-left: 0;
+  @media print, screen and(max-width: 1000px) {
+    margin-left: 40px;
+    width: auto;
+  }
+}
+
+.credit img {
+  width: 220px;
+  display: block;
+  margin: 0 auto;
+}
 </style>
