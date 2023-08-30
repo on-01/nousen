@@ -52,10 +52,8 @@ export default {
   position: relative;
   &.no-pic { //背景画像がない場合は余白つける
     padding: 150px 0;
-    display: none;
     @media print, screen and (max-width: 980px) {
       padding: 100px 0;
-      display: none;
     }
   }
 }
