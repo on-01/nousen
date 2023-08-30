@@ -66,8 +66,8 @@ export default {
 // .contact {
 // padding-bottom: 100px;
 // }
-.contents {
-  background-color: #f2f2f2;
-  padding-top: 50px;
-}
+// .contents {
+//   background-color: #f2f2f2;
+//   padding-top: 50px;
+// }
 </style>
