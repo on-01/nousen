@@ -27,11 +27,11 @@ export default {
   props: {
     personalFormText: {
       type: String,
-      default: '講習会へのお申し込み',
+      default: '講習会へのお申し込み（個人）',
     },
     businessFormText: {
       type: String,
-      default: '講習会へのお申し込み',
+      default: '講習会へのお申し込み（法人）',
     },
     personalFormLink: String,
     businessFormLink: String,

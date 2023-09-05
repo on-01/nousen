@@ -110,7 +110,11 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link to="/denken3-application" class="application-form-link">
-            お申込みはこちら
+            お申込みはこちら（個人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="/denken3-application-business" class="application-form-link">
+            お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
@@ -160,8 +164,9 @@
             :benefits="richtextToHTML($static.tuugaku.benefits)"
             :cpds="richtextToHTML($static.tuugaku.cpds)"
           />
-          <Application
-            formLink="/denken3-application"
+          <NewApplication
+            personalFormLink="/denken3-application"
+            businessFormLink="/denken3-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
         </div>
@@ -173,8 +178,9 @@
             :benefits="richtextToHTML($static.tuushin.benefits)"
             :cpds="richtextToHTML($static.tuushin.cpds)"
           />
-          <Application
-            formLink="/denken3-application"
+          <NewApplication
+            personalFormLink="/denken3-application"
+            businessFormLink="/denken3-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
         </div>
