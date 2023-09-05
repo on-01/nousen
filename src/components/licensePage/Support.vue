@@ -3,14 +3,14 @@
         <div class="support-wrap">
             <p class="support-title">{{ title }}</p>
             <div class="support">
+                <div class="support-description">
+                    <p>建設業を知ってもらうために！</p>
+                    <p>受講生・企業採用担当者様・建設業に興味がある学生の方に進呈します。</p>
+                </div>
                 <div class="support-flex">
                     <figure class="support-image"><img src="../../assets/img/license_page/support_1.jpg" alt="みんなの建設業Q&A50"></figure>
                     <figure class="support-image"><img src="../../assets/img/license_page/support_2.png" alt="建設業ウエルカム"></figure>
                     <figure class="support-image"><img src="../../assets/img/license_page/support_3.png" alt="建設産業ガイドブック"></figure>
-                </div>
-                <div class="support-description">
-                    <p>少しでも建設業を知ってもらうために！</p>
-                    <p>受講生・企業採用担当者様・建設業に興味がある学生の方に進呈します。</p>
                 </div>
                 <ul class="support-list">
                     <li>■みんなの建設業Q&A50　一般社団法人東京建設業協会　人材支援課</li>
@@ -65,9 +65,9 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 }
 .support {
 margin: 0 auto;
-padding: 4em 4rem;
+padding: 1em 4rem;
 @media print, screen and (max-width: 1000px) {
-padding: 2rem 2rem;
+padding: 1rem 2rem;
 }
 }
 .support-flex {
@@ -101,7 +101,7 @@ padding: 2rem 2rem;
     line-height: 1.8;
     font-weight: 700;
     text-align: center;
-    padding-top: 20px;
+    padding-bottom: 20px;
     @media print, screen and (max-width: 560px) {
     font-size: 16px;
     line-height: 1.6;
