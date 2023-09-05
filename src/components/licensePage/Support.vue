@@ -60,7 +60,7 @@ text-align: center;
 margin: 0;
 box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 @media print, screen and (max-width: 560px) {
-    font-size: 20px;
+    font-size: 18px;
 }
 }
 .support {
@@ -105,6 +105,7 @@ padding: 1rem 2rem;
     @media print, screen and (max-width: 560px) {
     font-size: 16px;
     line-height: 1.6;
+    padding-bottom: 10px;
 }
 }
 
