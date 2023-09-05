@@ -984,18 +984,18 @@ export default {
     text-align: center;
     margin-top: -50px;
     margin-bottom: 0;
-    &:after {
-      content: "";
-      height: 200px;
-      width: 5px;
-      background-color: #000;
-      display: block;
-      position: relative;
-      top: 0px;
-      left: 0;
-      right: 0;
-      margin: auto;
-    }
+    // &:after {
+    //   content: "";
+    //   height: 200px;
+    //   width: 5px;
+    //   background-color: #000;
+    //   display: block;
+    //   position: relative;
+    //   top: 0px;
+    //   left: 0;
+    //   right: 0;
+    //   margin: auto;
+    // }
   }
 }
 .section03 {
