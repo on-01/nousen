@@ -1,12 +1,12 @@
 <template>
   <div class="application">
-    <a :href="personalFormLink" class="application-link">
+    <a :href="personalFormLink" class="application-link -left">
       {{ personalFormText }}
       <IconBase class="icon" width="25" height="25"
         ><IconFingerRight
       /></IconBase>
     </a>
-    <a :href="businessFormLink" class="application-link">
+    <a :href="businessFormLink" class="application-link -right">
       {{ businessFormText }}
       <IconBase class="icon" width="25" height="25"
         ><IconFingerRight
@@ -68,6 +68,18 @@ export default {
     margin-top: 20px;
     padding: 10px;
     width: 90%;
+  }
+}
+.application-link.-right {
+  margin-left: .5%;
+  @media print, screen and (max-width: 1000px) {
+    margin-left: auto;
+  }
+}
+.application-link.-left {
+  margin-right: .5%;
+  @media print, screen and (max-width: 1000px) {
+    margin-right: auto;
   }
 }
 .fax-link {
