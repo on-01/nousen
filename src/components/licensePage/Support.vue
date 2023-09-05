@@ -36,7 +36,7 @@
                     <p>
                         能センではミライの建設業発展の為、創業支援として<br class="-pc-only">
                         創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に<br class="-pc-only">
-                        受講料を２０％割引でご提供いたします。<br class="-pc-only">
+                        受講料を２０％割引でご提供いたします。<br>
                         特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
                     </p>
                     <br>
@@ -90,7 +90,7 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 }
 .support {
 margin: 0 auto;
-padding: 1em 4rem;
+padding: 1em 4rem 2rem;
 @media print, screen and (max-width: 1000px) {
 padding: 1rem 2rem;
 }
@@ -176,8 +176,11 @@ padding: 1rem 2rem;
 }
 
 .support-figure {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+        width: 80%;
+    }
 }
 
 .-pc-only {
