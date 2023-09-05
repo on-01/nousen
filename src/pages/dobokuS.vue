@@ -106,7 +106,11 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link to="/doboku-s-application" class="application-form-link">
-            お申込みはこちら
+            お申込みはこちら（個人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="/doboku-s-application-business" class="application-form-link">
+            お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
@@ -156,8 +160,9 @@
             :benefits="richtextToHTML($static.doboku1.benefits)"
             :cpds="richtextToHTML($static.doboku1.cpds)"
           />
-          <Application
-            formLink="/doboku-s-application"
+          <NewApplication
+            personalFormLink="/doboku-s-application"
+            businessFormLink="/doboku-s-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
@@ -180,8 +185,9 @@
             :benefits="richtextToHTML($static.doboku2.benefits)"
             :cpds="richtextToHTML($static.doboku2.cpds)"
           />
-          <Application
-            formLink="/doboku-s-application"
+          <NewApplication
+            personalFormLink="/doboku-s-application"
+            businessFormLink="/doboku-s-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
@@ -191,9 +197,11 @@
             :courseOutline="richtextToHTML($static.dobokuOnline.courseOutline)"
             :apply="richtextToHTML($static.dobokuOnline.apply)"
           />
-          <Application
-            formText="オンライン講座へのお申し込み"
-            formLink="/doboku-s-application"
+          <NewApplication
+            personalFormText="オンライン講座へのお申し込み（個人）"
+            personalFormLink="/doboku-s-application"
+            businessFormText="オンライン講座へのお申し込み（法人）"
+            businessFormLink="/doboku-s-application-business"
           />
         </div>
       </div>
@@ -278,6 +286,7 @@ import Support from '../components/licensePage/Support.vue';
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
+import NewApplication from "@/components/licensePage/NewApplication.vue";
 import IconBase from "@/components/IconBase.vue";
 import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
@@ -334,6 +343,7 @@ export default {
     Info,
     Venue,
     Application,
+    NewApplication,
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight

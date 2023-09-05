@@ -10,7 +10,7 @@
       <div class="contents">
         <iframe
           class="google_form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSflRqjp4Dz9MqhMu1s4FlP4t9xLT9nzxipZYIKyZPm699kzpw/viewform?embedded=true"
+          src="https://business.form-mailer.jp/fms/9535d5af211135"
           width="100%"
           height="1000"
           frameborder="0"
@@ -71,8 +71,16 @@ export default {
 // .kenchiku-s-application {
 // padding-bottom: 100px;
 // }
-.contents {
-  background-color: #f2f2f2;
-  padding-top: 50px;
+// .contents {
+//   background-color: #f2f2f2;
+//   padding-top: 50px;
+// }
+.hero {
+  &.no-pic { //背景画像がない場合は余白つける
+    display: none;
+    @media print, screen and (max-width: 980px) {
+      display: none;
+    }
+  }
 }
 </style>
