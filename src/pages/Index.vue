@@ -698,7 +698,7 @@ export default {
   }
   @media print, screen and (max-width: 1000px) {
     grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 180px 180px 180px 180px; /* 202101 */
+    grid-template-rows: 150px 180px 180px 180px; /* 202101 */
     justify-content: center; /* 横方向は中央に */
   }
 }
@@ -760,11 +760,12 @@ export default {
     opacity: 0.2;
   }
   @media print, screen and (max-width: 1000px) {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    -ms-grid-column: 2;
-    -ms-grid-row: 2;
-    opacity: 0.2;
+    display:none;
+    // grid-column: 2/3;
+    // grid-row: 2/3;
+    // -ms-grid-column: 2;
+    // -ms-grid-row: 2;
+    // opacity: 0.2;
   }
 }
 .item03 {
@@ -777,11 +778,12 @@ export default {
     opacity: 0.2;
   }
   @media print, screen and (max-width: 1000px) {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    -ms-grid-column: 1;
-    -ms-grid-row: 3;
-    opacity: 0.2;
+    display:none;
+    // grid-column: 1/2;
+    // grid-row: 3/4;
+    // -ms-grid-column: 1;
+    // -ms-grid-row: 3;
+    // opacity: 0.2;
   }
 }
 .item04 {
@@ -793,8 +795,10 @@ export default {
     -ms-grid-row: 1;
   }
   @media print, screen and (max-width: 1000px) {
+    // grid-column: 2/3;
+    // grid-row: 3/4;
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/3;
     -ms-grid-column: 2;
     -ms-grid-row: 3;
   }
@@ -808,8 +812,10 @@ export default {
     -ms-grid-row: 2;
   }
   @media print, screen and (max-width: 1000px) {
+    // grid-column: 1/2;
+    // grid-row: 4/5;
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 3/4;
     -ms-grid-column: 1;
     -ms-grid-row: 4;
   }
@@ -823,8 +829,10 @@ export default {
     -ms-grid-row: 2;
   }
   @media print, screen and (max-width: 1000px) {
+    // grid-column: 2/3;
+    // grid-row: 4/5;
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 3/4;
     -ms-grid-column: 2;
     -ms-grid-row: 4;
   }
@@ -838,8 +846,10 @@ export default {
     -ms-grid-row: 2;
   }
   @media print, screen and (max-width: 1000px) {
+    // grid-column: 1/2;
+    // grid-row: 5/6;
     grid-column: 1/2;
-    grid-row: 5/6;
+    grid-row: 4/5;
     -ms-grid-column: 1;
     -ms-grid-row: 5;
   }
@@ -853,8 +863,10 @@ export default {
     -ms-grid-row: 2;
   }
   @media print, screen and (max-width: 1000px) {
+    // grid-column: 2/3;
+    // grid-row: 5/6;
     grid-column: 2/3;
-    grid-row: 5/6;
+    grid-row: 4/5;
     -ms-grid-column: 2;
     -ms-grid-row: 5;
   }
