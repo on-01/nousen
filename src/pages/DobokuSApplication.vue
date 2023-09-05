@@ -77,7 +77,7 @@ export default {
 // }
 @media print, screen and (max-width: 1000px) {
     .contents {
-      margin-top: 3rem;
+      padding-top: 3rem;
       background: #e1f5fe;
   }
 }
