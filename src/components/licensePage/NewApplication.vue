@@ -51,6 +51,9 @@ export default {
   margin-top: 100px;
   text-align: center;
   font-size: 18px;
+  @media print, screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 }
 .application-link {
   margin: 0 auto;
