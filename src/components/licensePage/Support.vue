@@ -64,7 +64,7 @@ max-width: 1170px;
 width: 100%;
 font-family: 'Meiryo', sans-serif;
 background-color: #fff;
-margin: 20px auto;
+margin: 20px auto 0;
 z-index: 0;
 position: relative;
 }
