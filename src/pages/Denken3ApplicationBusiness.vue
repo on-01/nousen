@@ -81,6 +81,11 @@ export default {
     margin-top: 5rem;
   }
 }
+@media print, screen and (max-width: 576px) {
+    .contents {
+    margin-top: 5rem;
+  }
+}
 .hero {
   &.no-pic { //背景画像がない場合は余白つける
     display: none;
