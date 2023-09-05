@@ -23,6 +23,29 @@
                 </div>
             </div>
         </div>
+        <div class="support-wrap -second">
+            <p class="support-title">＼＼建設業を応援しよう／／【第二弾】</p>
+            <div class="support">
+                <div class="support-description">
+                    <p>ミライを創る【創業支援割引制度】</p>
+                </div>
+                    <figure class="support-figure">
+                        <img src="../../assets/img/license_page/support_4.jpg" alt="">
+                    </figure>
+                <div class="support-notes">
+                    <p>
+                        能センではミライの建設業発展の為、創業支援として<br class="-pc-only">
+                        創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に<br class="-pc-only">
+                        受講料を２０％割引でご提供いたします。<br class="-pc-only">
+                        特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
+                    </p>
+                    <br>
+                    <p class="strong">能センは建設業の発展に微力ながら尽力させていただきます！</p>
+                    <br>
+                    <p>※創業日から数えて２年以内の企業が対象になります。</p>
+                </div>
+            </div>
+        </div>
     </section>
 </template>
 
@@ -45,7 +68,9 @@ margin: 20px auto;
 z-index: 0;
 position: relative;
 }
-
+.support-wrap.-second {
+    margin-top: 0;
+}
 .support-wrap p {
     margin: 0;
 }
@@ -60,7 +85,7 @@ text-align: center;
 margin: 0;
 box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 @media print, screen and (max-width: 560px) {
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 .support {
@@ -144,6 +169,20 @@ padding: 1rem 2rem;
         font-size: 14px;
         line-height: 1.6;
     }
+    }
+    .strong {
+        font-weight: 700;
+    }
+}
+
+.support-figure {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.-pc-only {
+    @media print, screen and (max-width: 768px) {
+        display: none;
     }
 }
 
