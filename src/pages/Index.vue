@@ -27,6 +27,9 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="qualification-list-wrapper">
+          <figure class="top_left">
+              <img src="../assets/img/common/top-left.jpg" alt="">
+          </figure>
           <transition-group
             v-if="afterImgLoad"
             appear
@@ -135,6 +138,9 @@
               </picture>
             </div>
           </transition-group>
+          <figure class="top_right">
+              <img src="../assets/img/common/top-right.jpg" alt="">
+          </figure>
         </div>
         <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
@@ -996,6 +1002,7 @@ export default {
     text-align: center;
     margin-top: -50px;
     margin-bottom: 0;
+    padding: 5px 0;
     // &:after {
     //   content: "";
     //   height: 200px;
@@ -1469,6 +1476,24 @@ export default {
     background-color: rgba(0,0,0,0);
     color: inherit;
     text-decoration: none;
+}
+
+.qualification-list-wrapper {
+    display: flex;
+    align-items: end;
+}
+@media print, screen and (max-width: 1366px) {
+    .qualification-list-wrapper {
+    display: block;
+}
+}
+.top_right, .top_left {
+    transform: scale(.9);
+}
+@media print, screen and (max-width: 1366px) {
+    .top_right, .top_left {
+        display: none;
+    }
 }
 
 </style>
