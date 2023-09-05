@@ -119,6 +119,10 @@
             お申込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
+          <g-link to="/kenchiku-s-application-business" class="application-form-link">
+            お申込みはこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
         </div>
       </header>
       <section class="tab-wrapper">
@@ -166,8 +170,9 @@
             :benefits="richtextToHTML($static.kenchiku1.benefits)"
             :cpds="richtextToHTML($static.kenchiku1.cpds)"
           />
-          <Application
-            formLink="/kenchiku-s-application"
+          <NewApplication
+            personalFormLink="/kenchiku-s-application"
+            businessFormLink="/kenchiku-s-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
           />
         </div>
@@ -190,8 +195,9 @@
             :benefits="richtextToHTML($static.kenchiku2.benefits)"
             :cpds="richtextToHTML($static.kenchiku2.cpds)"
           />
-          <Application
-            formLink="/kenchiku-s-application"
+          <NewApplication
+            personalFormLink="/kenchiku-s-application"
+            businessFormLink="/kenchiku-s-application-business"
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
           />
         </div>
@@ -203,9 +209,11 @@
             "
             :apply="richtextToHTML($static.kenchikuOnline.apply)"
           />
-          <Application
-            formText="オンライン講座へのお申し込み"
-            formLink="/kenchiku-s-application"
+          <NewApplication
+            personalFormText="オンライン講座へのお申し込み（個人）"
+            personalFormLink="/kenchiku-s-application"
+            businessFormText="オンライン講座へのお申し込み（法人）"
+            businessFormLink="/kenchiku-s-application-business"
           />
         </div>
       </div>
@@ -290,6 +298,7 @@ import Support from '../components/licensePage/Support.vue';
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
+import NewApplication from "@/components/licensePage/NewApplication.vue";
 import IconBase from "@/components/IconBase.vue";
 import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
@@ -346,6 +355,7 @@ export default {
     Info,
     Venue,
     Application,
+    NewApplication,
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight
