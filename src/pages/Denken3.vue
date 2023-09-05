@@ -184,9 +184,11 @@
             :courseOutline="richtextToHTML($static.online.courseOutline)"
             :apply="richtextToHTML($static.online.apply)"
           />
-          <Application
-            formText="オンライン講座へのお申し込み"
-            formLink="/denken3-application"
+          <NewApplication
+            personalFormText="オンライン講座へのお申し込み（個人）"
+            personalFormLink="/denken3-application"
+            businessFormText="オンライン講座へのお申し込み（法人）"
+            businessFormLink="/denken3-application-business"
           />
         </div>
       </div>
@@ -264,6 +266,7 @@ import Food from '../components/licensePage/Food.vue';
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
 import Application from "@/components/licensePage/Application.vue";
+import NewApplication from "@/components/licensePage/NewApplication.vue";
 import IconBase from "@/components/IconBase.vue";
 import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
@@ -320,6 +323,7 @@ export default {
     Info,
     Venue,
     Application,
+    NewApplication,
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight,
