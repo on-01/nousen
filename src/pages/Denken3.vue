@@ -364,7 +364,9 @@ export default {
   display: flex;
   margin: 0 auto;
   @media print, screen and (max-width: 768px) {
-    display: block;
+    flex-wrap: wrap;
+    max-width: 480px;
+    justify-content: center
   }
 }
 .denken3 {
