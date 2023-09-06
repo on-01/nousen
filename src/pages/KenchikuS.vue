@@ -436,6 +436,7 @@ export default {
 }
 .online-link {
   background-color: #00a73c;
+  margin-top: 25px;
 }
 .tab-wrapper {
   margin: 0 auto;
