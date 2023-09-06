@@ -101,22 +101,26 @@
           />
 
         <div class="exam-link-wrapper">
-          <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
-            オンライン相談はこちら
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link to="/licenses/#denken" class="exam-link">
-            受験資格や試験日の確認はこちら
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link to="/denken3-application" class="application-form-link">
-            お申込みはこちら（個人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link to="/denken3-application-business" class="application-form-link">
-            お申込みはこちら（法人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
+          <div class="exam-link-flex">
+            <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
+              オンライン相談はこちら
+              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+            </g-link>
+            <g-link to="/licenses/#denken" class="exam-link">
+              受験資格や試験日の確認はこちら
+              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+            </g-link>
+          </div>
+          <div class="exam-link-flex">
+            <g-link to="/denken3-application" class="application-form-link">
+              お申込みはこちら（個人）
+              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+            </g-link>
+            <g-link to="/denken3-application-business" class="application-form-link">
+              お申込みはこちら（法人）
+              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+            </g-link>
+          </div>
         </div>
       </header>
       <section class="tab-wrapper">
@@ -356,6 +360,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.exam-link-flex {
+  display: flex;
+  margin: 0 auto;
+  @media print, screen and (max-width: 768px) {
+    display: block;
+  }
+}
 .denken3 {
   padding-bottom: 0;
 }
@@ -380,7 +391,7 @@ export default {
   padding: 7px 30px;
   font-weight: bold;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 20px;
   font-size: 17px;
   width: 338px;
   box-sizing: border-box;
@@ -399,6 +410,7 @@ export default {
 }
 .online-link {
   background-color: #00a73c;
+  margin-top: 25px;
 }
 .tab-wrapper {
   margin: 0 auto;
