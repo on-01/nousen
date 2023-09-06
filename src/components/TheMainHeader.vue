@@ -967,7 +967,7 @@ export default {
       // display: flex;
       align-items: center;
       @media print, screen and(min-width: 1001px) {
-        width: 210px;
+        width: 240px;
         margin-top: 30px;
       }
       .application-form-link {
