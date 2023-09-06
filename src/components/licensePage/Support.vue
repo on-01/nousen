@@ -98,6 +98,8 @@ padding: 1rem 2rem;
 .support-flex {
     display: flex;
     justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
     @media print, screen and (max-width: 768px) {
     flex-flow: wrap;
     }
@@ -128,11 +130,9 @@ padding: 1rem 2rem;
     line-height: 1.8;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 20px;
     @media print, screen and (max-width: 560px) {
     font-size: 16px;
     line-height: 1.6;
-    padding-bottom: 10px;
 }
 }
 .support-description.-second {
@@ -143,7 +143,7 @@ padding: 1rem 2rem;
 }
 
 .support-list {
-    margin: 30px auto 0;
+    margin: 10px auto 0;
     text-align: center;
     max-width: 560px;
     @media print, screen and (max-width: 600px) {
