@@ -987,13 +987,13 @@ export default {
 
 .section02 {
   margin: 0 auto;
-  padding-bottom: 200px;
+  padding-bottom: 40px;
   @media print, screen and (max-width: 1000px) {
     max-width: 90%;
     padding-bottom: 0;
   }
   @media print, screen and (min-width: 1001px) {
-    background-color: #f4fcff;
+    background-color: #ebf7ff;
   }
   .section-name {
     color: #f4891e;
@@ -1034,6 +1034,7 @@ export default {
     left: 0;
     right: 0;
     margin: auto;
+    z-index: -2;
     @media print, screen and (max-width: 1000px) {
       height: 300px;
     }
