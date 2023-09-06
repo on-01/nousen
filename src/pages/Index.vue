@@ -1482,15 +1482,15 @@ export default {
     display: flex;
     align-items: end;
 }
-@media print, screen and (max-width: 1366px) {
+@media print, screen and (max-width: 1300px) {
     .qualification-list-wrapper {
     display: block;
 }
 }
 .top_right, .top_left {
-    transform: scale(.9);
+    transform: translateY(145px);
 }
-@media print, screen and (max-width: 1366px) {
+@media print, screen and (max-width: 1300px) {
     .top_right, .top_left {
         display: none;
     }
