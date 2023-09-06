@@ -233,7 +233,8 @@
     justify-content: space-between;
   }
   .message {
-    font-family: serif;
+    // font-family: serif;
+    font-family: 'メイリオ', sans-serif;
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 0;

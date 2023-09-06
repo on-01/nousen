@@ -26,7 +26,7 @@
         <div class="support-wrap -second">
             <p class="support-title">＼＼建設業を応援しよう／／【第二弾】</p>
             <div class="support">
-                <div class="support-description">
+                <div class="support-description -second">
                     <p>ミライを創る【創業支援割引制度】</p>
                 </div>
                     <figure class="support-figure">
@@ -105,6 +105,8 @@ padding: 1rem 2rem;
 .support-image {
     width: 30%;
     max-height: 400px;
+    transform: scale(.9);
+
     @media print, screen and (max-width: 768px) {
     width: 100%;
     margin-top: 20px;
@@ -131,6 +133,12 @@ padding: 1rem 2rem;
     font-size: 16px;
     line-height: 1.6;
     padding-bottom: 10px;
+}
+}
+.support-description.-second {
+    font-size: 22px;
+    @media print, screen and (max-width: 560px) {
+    font-size: 18px;
 }
 }
 
@@ -171,6 +179,7 @@ padding: 1rem 2rem;
     }
     }
     .strong {
+        font-size: 17px;
         font-weight: 700;
     }
 }
