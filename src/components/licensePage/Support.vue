@@ -137,8 +137,10 @@ padding: 1rem 2rem;
 }
 .support-description.-second {
     font-size: 22px;
+    padding-bottom: 20px;
     @media print, screen and (max-width: 560px) {
     font-size: 18px;
+    padding-bottom: 10px;
 }
 }
 
