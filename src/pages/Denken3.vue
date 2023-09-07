@@ -63,9 +63,9 @@
             />
 
             <Food
-              text="<span>効率的に勉強するためには、バランスの取れた食事と適切な栄養素が重要です。<br>
-                  集中力を高めて効率よく勉強するために、おすすめの栄養や食事をご紹介します。</span><br><br>
-                  
+              headline="効率的に勉強するためには、バランスの取れた食事と適切な栄養素が重要です。<br>
+                  集中力を高めて効率よく勉強するために、おすすめの栄養や食事をご紹介します。<br><br>"
+              text="
                   ① グリーンリーフ野菜や色鮮やかな野菜<br>
                   　これらはビタミン、ミネラル、抗酸化物質が豊富で、脳の機能をサポートします。<br>
                   　例えば、ほうれん草やケール、人参、トマトなどが含まれます。<br>
@@ -570,14 +570,6 @@ export default {
 .point {
   margin-top: 30px;
 }  
-
-.denken3 {
-  .study-text, .method-text, .method-boldText {
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
 
 
 </style>
