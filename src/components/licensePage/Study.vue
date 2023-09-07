@@ -69,6 +69,9 @@ export default {
     font-size: 14px;
     line-height: 1.8;
     margin-top: 20px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sp-only {

@@ -3,6 +3,7 @@
       <div class="food-inner">
           <p class="food-title">勉強に効果的な食事・栄養素</p>
           <p class="food-line"></p>
+          <p class="food-headline" v-html="headline"></p>
           <p class="food-text" v-html="text"></p>
       </div>
   </div>
@@ -11,6 +12,7 @@
 <script>
 export default {
   props: {
+    headline: String,
     text: String,
   } 
 }
@@ -48,14 +50,22 @@ export default {
 .food-text {
     font-size: 14px;
     line-height: 1.8;
-    margin-top: 20px;
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.food-text span {
+.food-headline {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 20px;
     text-align: center
+}
+
+@media print, screen and (max-width: 1000px) {
+    .food-headline {
+    text-align: left;
+    }
 }
 
 @media print, screen and (max-width: 1000px) {
