@@ -50,7 +50,7 @@ export default {
 .food-text {
     font-size: 14px;
     line-height: 1.8;
-    max-width: 900px;
+    max-width: 720px;
     margin-right: auto;
     margin-left: auto;
 }
