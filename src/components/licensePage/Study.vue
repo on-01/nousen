@@ -69,7 +69,7 @@ export default {
     font-size: 14px;
     line-height: 1.8;
     margin-top: 20px;
-    max-width: 900px;
+    max-width: 860px;
     margin-right: auto;
     margin-left: auto;
 }
