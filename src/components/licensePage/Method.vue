@@ -51,7 +51,7 @@ export default {
     font-size: 14px;
     line-height: 1.8;
     margin-top: 20px;
-    max-width: 1000px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -61,7 +61,7 @@ export default {
     line-height: 1.8;
     font-weight: 700;
     margin-top: 0;
-    max-width: 1000px;
+    max-width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
