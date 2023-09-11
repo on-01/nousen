@@ -187,7 +187,7 @@ padding: 1rem 2rem;
 }
 
 .support-figure {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     @media print, screen and (max-width: 1000px) {
         width: 80%;
