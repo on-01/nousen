@@ -32,6 +32,15 @@
             description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
         />
 
+        <Lecture
+            title="井岡先生の講習がスゴイ！"
+            text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
+                その後独立して１級建築士事務所を設立し現在に至る。
+                各種大学、専門学校、資格学校にて豊富な講師経験を持ち、建築士や建築施工管理技士の著書も多数執筆。
+                特に建築施工管理技士のシリーズはロングセラーとして長年に渡って受験生からの多大な信頼を獲得しています。
+                歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
+        />
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -261,6 +270,7 @@ import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
+import Lecture from '../components/licensePage/Lecture.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -318,6 +328,7 @@ export default {
     NewPvMovie,
     Method,
     Food,
+    Lecture,
     // News,
     Info,
     Venue,
