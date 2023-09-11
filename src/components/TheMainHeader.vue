@@ -251,11 +251,11 @@
               電気主任技術者
             </p>
             <g-link to="/denken3-application" class="application-form-link">
-              お申し込みフォーム(個人)
+              お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link to="/denken3-application-business" class="application-form-link">
-              お申し込みフォーム(法人)
+              お申込みフォーム(法人)
             </g-link>
             <br />
             <!-- <a
@@ -350,11 +350,11 @@
               建築施工管理技士
             </p>
             <g-link to="/kenchiku-s-application" class="application-form-link">
-              お申し込みフォーム(個人)
+              お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link to="/kenchiku-s-application-business" class="application-form-link">
-              お申し込みフォーム(法人)
+              お申込みフォーム(法人)
             </g-link>
             <br />
             <!-- <a
@@ -413,11 +413,11 @@
               土木施工管理技士
             </p>
             <g-link to="/doboku-s-application" class="application-form-link">
-              お申し込みフォーム(個人)
+              お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link to="/doboku-s-application-business" class="application-form-link">
-              お申し込みフォーム(法人)
+              お申込みフォーム(法人)
             </g-link>
             <br />
             <!-- <a
