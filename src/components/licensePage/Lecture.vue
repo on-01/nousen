@@ -60,7 +60,7 @@ export default {
     width: 10%;
     height: 4px;
     background: #249ef0;
-    margin: 20px auto 20px;
+    margin: 10px auto 20px;
     border-radius: 8px;
 }
 
@@ -71,9 +71,6 @@ export default {
 
 @media print, screen and (max-width: 1000px) {
 
-.lecture-inner {
-    padding: 30px 20px;
-}
 .lecture-section {
     flex-wrap: wrap
 }
@@ -81,9 +78,10 @@ export default {
     width: 100%;
 }
 .lecture-description {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
     padding-right: 0;
+    margin: 0 auto;
 }
 
 .lecture-title {
