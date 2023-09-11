@@ -54,6 +54,9 @@ export default {
     margin-right: auto;
     margin-left: auto;
 }
+.food-text span {
+    margin-left: 16px;
+}
 
 .food-headline {
     font-size: 14px;
