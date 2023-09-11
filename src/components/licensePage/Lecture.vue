@@ -1,0 +1,98 @@
+<template>
+    <div class="lecture">
+        <div class="lecture-inner">
+            <div class="lecture-section">
+                <figure class="lecture-image">
+                    <img src="../../assets/img/license_page/lecture.jpg">
+                </figure>
+                <div class="lecture-description">
+                    <p class="lecture-title">{{ title }}</p>
+                    <p class="lecture-line"></p>
+                    <p class="lecture-text">{{ text }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+  props: {
+    title: String,
+    text: String,
+  } 
+}
+</script>
+
+<style lang="scss" scoped>
+.lecture {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.lecture-inner {
+    max-width: 1170px;
+    width: 100%;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.lecture-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lecture-image {
+    width: 48%;
+}
+.lecture-description {
+    width: 48%;
+}
+
+.lecture-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.lecture-line {
+    width: 10%;
+    height: 4px;
+    background: #249ef0;
+    margin: 20px auto 20px;
+    border-radius: 8px;
+}
+
+.lecture-text {
+    font-size: 16px;
+    line-height: 2;
+    padding-top: 20px;
+}
+
+@media print, screen and (max-width: 1000px) {
+
+.lecture-inner {
+    padding: 30px 20px;
+}
+.lecture-section {
+    flex-wrap: wrap
+}
+.lecture-image {
+    width: 100%;
+}
+.lecture-description {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.lecture-title {
+    font-size: 24px;
+}
+.lecture-text {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+}
+
+</style>
