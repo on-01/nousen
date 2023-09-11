@@ -86,4 +86,8 @@ export default {
   width: 100%;
 }
 
+.denken3 .pv-wrap {
+  margin-bottom: 0;
+}
+
 </style>
