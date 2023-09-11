@@ -4,7 +4,7 @@
             <p class="food-title">勉強に効果的な食事・栄養素</p>
             <p class="food-line"></p>
             <p class="food-headline" v-html="headline"></p>
-            <p class="food-text">
+            <p class="food-text -pc">
                 ① グリーンリーフ野菜や色鮮やかな野菜<br>
                 　これらはビタミン、ミネラル、抗酸化物質が豊富で、脳の機能をサポートします。<br>
                 　例えば、ほうれん草やケール、人参、トマトなどが含まれます。<br>
@@ -19,6 +19,18 @@
                 　ナナなど）は持続的なエネルギーを提供します。<br>
                 ⑤ 水分補給<br>
                 　十分な水分摂取は脳機能に必要であり、集中力を保つためにも重要です。こまめに水分補給を心掛けましょう。
+            </p>
+            <p class="food-text -sp">
+                ① グリーンリーフ野菜や色鮮やかな野菜<br>
+                これらはビタミン、ミネラル、抗酸化物質が豊富で、脳の機能をサポートします。例えば、ほうれん草やケール、人参、トマトなどが含まれます。<br>
+                ② 魚やナッツ<br>
+                オメガ-3脂肪酸が豊富な食品は、認知機能と集中力を向上させる可能性があります。サーモン、マグロ、アーモンドやくるみなどがオメガ-3脂肪酸を含んでいます。<br>
+                ③ ブルーベリーや苺<br>
+                これらのフルーツには抗酸化物質が含まれ、脳の血流を改善し、記憶力や学習能力をサポートする可能性があります。<br>
+                ④ 全粒穀物や健康的な炭水化物<br>
+                エネルギー源として重要です。全粒穀物（全粒小麦、オートミールなど）や健康的な炭水化物（さつまいも、バナナなど）は持続的なエネルギーを提供します。<br>
+                ⑤ 水分補給<br>
+                十分な水分摂取は脳機能に必要であり、集中力を保つためにも重要です。こまめに水分補給を心掛けましょう。
             </p>
         </div>
     </div>
@@ -61,6 +73,13 @@
     font-size: 28px;
 }
 
+.food-headline {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: center
+}
+
 .food-text {
     font-size: 14px;
     line-height: 1.8;
@@ -69,11 +88,20 @@
     margin-left: auto;
 }
 
-.food-headline {
-    font-size: 14px;
-    line-height: 1.8;
-    margin-top: 20px;
-    text-align: center
+.food-text.-pc {
+    display: block;
+}
+.food-text.-sp {
+    display: none;
+}
+
+@media print, screen and (max-width: 1000px) {
+    .food-text.-pc {
+        display: none;
+    }
+    .food-text.-sp {
+        display: block;
+    }
 }
 
 @media print, screen and (max-width: 1000px) {
