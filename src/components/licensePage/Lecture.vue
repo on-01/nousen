@@ -47,12 +47,14 @@ export default {
 }
 .lecture-description {
     width: 48%;
+    padding-right: 20px;
 }
 
 .lecture-title {
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+    margin-top: 0;
 }
 .lecture-line {
     width: 10%;
@@ -65,7 +67,6 @@ export default {
 .lecture-text {
     font-size: 16px;
     line-height: 2;
-    padding-top: 20px;
 }
 
 @media print, screen and (max-width: 1000px) {
@@ -82,6 +83,7 @@ export default {
 .lecture-description {
     width: 100%;
     margin-top: 20px;
+    padding-right: 0;
 }
 
 .lecture-title {
@@ -90,7 +92,6 @@ export default {
 .lecture-text {
     font-size: 16px;
     line-height: 1.6;
-    padding-top: 10px;
 }
 
 }
