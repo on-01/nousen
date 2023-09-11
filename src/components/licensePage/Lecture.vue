@@ -55,12 +55,13 @@ export default {
     font-weight: bold;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .lecture-line {
     width: 10%;
     height: 4px;
     background: #249ef0;
-    margin: 10px auto 20px;
+    margin: 20px auto 20px;
     border-radius: 8px;
 }
 
