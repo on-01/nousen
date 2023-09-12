@@ -4,7 +4,6 @@
             <div class="lecture-section">
                 <figure class="lecture-image">
                     <img :src="imagePath">
-                    <img src="../../assets/img/license_page/lecture.jpg">
                 </figure>
                 <div class="lecture-description">
                     <p class="lecture-title">{{ title }}</p>
