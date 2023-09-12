@@ -15,11 +15,11 @@
 
 <script>
 export default {
-  props: {
-    title: String,
-    text: String,
-    imagePath: String
-  } 
+    props: {
+        title: String,
+        text: String,
+        imagePath: String
+    } 
 }
 </script>
 
