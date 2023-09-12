@@ -89,5 +89,8 @@ export default {
 .denken3 .pv-wrap {
   margin-bottom: 0;
 }
+.kenchiku .pv-wrap {
+  margin-bottom: 0;
+}
 
 </style>
