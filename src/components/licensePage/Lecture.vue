@@ -3,6 +3,7 @@
         <div class="lecture-inner">
             <div class="lecture-section">
                 <figure class="lecture-image">
+                    <img :src="imagePath">
                     <img src="../../assets/img/license_page/lecture.jpg">
                 </figure>
                 <div class="lecture-description">
@@ -17,10 +18,11 @@
 
 <script>
 export default {
-  props: {
-    title: String,
-    text: String,
-  } 
+    props: {
+        title: String,
+        text: String,
+        imagePath: String
+    } 
 }
 </script>
 
@@ -29,6 +31,7 @@ export default {
     width: 100%;
     background-color: #fff;
     margin: 0 auto;
+    font-family: 'メイリオ', sans-serif;
 }
 .lecture-inner {
     max-width: 1170px;

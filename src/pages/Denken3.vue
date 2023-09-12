@@ -32,6 +32,15 @@
             description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
         />
 
+        <Lecture
+            title="宇宙一わかりやすい大嶋先生の講義！"
+            text="長年電気と土木の建設工事、設備保守に従事し、経験を踏まえて
+                  電気主任技術者（３～１種）、１級土木施工管理技士等多くの関連資格を取得。
+                  その後電気・電子部門の技術士も取得した電気、土木のエキスパートです。
+                  難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+            :imagePath="require('../assets/img/license_page/denken3/denken3_lecture.jpeg')"
+        />
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -261,7 +270,7 @@ import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
-// import Lecture from '../components/licensePage/Lecture.vue';
+import Lecture from '../components/licensePage/Lecture.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -319,7 +328,7 @@ export default {
     NewPvMovie,
     Method,
     Food,
-    // Lecture,
+    Lecture,
     // News,
     Info,
     Venue,
