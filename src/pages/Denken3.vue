@@ -577,6 +577,7 @@ export default {
 }  
 
 .bg-lightBlue {
+  padding-top: 20px;
   background: #ebf7ff;
 }
 
