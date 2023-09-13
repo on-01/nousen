@@ -43,6 +43,8 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_lecture.jpeg')"
         />
 
+      <div class="bg-lightBlue">
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -120,7 +122,10 @@
             </g-link>
           </div>
         </div>
+
+      </div>
       </header>
+
       <section class="tab-wrapper">
         <div
           :class="['tab', { active: isActive === 1 }]"
@@ -570,6 +575,10 @@ export default {
 .point {
   margin-top: 30px;
 }  
+
+.bg-lightBlue {
+  background: #ebf7ff;
+}
 
 
 </style>
