@@ -32,7 +32,7 @@
                     <figure class="support-figure">
                         <img src="../../assets/img/license_page/support_4.jpg" alt="">
                     </figure>
-                <div class="support-notes">
+                <div class="support-notes -second">
                     <p>
                         能センでは建設業発展の為、創業支援として<br class="-pc-only">
                         創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に<br class="-pc-only">
@@ -40,9 +40,12 @@
                         特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
                     </p>
                     <br>
-                    <p class="strong">能センは建設業の発展に微力ながら尽力させていただきます！</p>
-                    <br>
-                    <p>※創業日から数えて２年以内の企業が対象になります。</p>
+                    <div class="center">
+                        <p class="strong">能センは建設業の発展に微力ながら尽力させていただきます！</p>
+                        <br>
+                        <p>※創業日から数えて２年以内の企業が対象になります。</p>
+                        <p>※他の割引とは併用できません。</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,6 +187,13 @@ padding: 1rem 2rem;
         font-size: 17px;
         font-weight: 700;
     }
+    .center {
+        text-align: center;
+    }
+}
+
+.support-notes.-second {
+    max-width: 620px;
 }
 
 .support-figure {
