@@ -32,7 +32,7 @@
             :image="
               $static.dobokuOnline.mediaImg ? $static.dobokuOnline.mediaImg.file.url : ''
             "
-            movieTitle="分かりやすさNo.1 土木施工の講習会動画をご視聴ください"
+            movieTitle="わかりやすさNo.1 土木施工の講習会動画をご視聴ください"
             description="合格者を多数輩出した大嶋先生による二次試験対策の無料動画になります。"
         />
 
