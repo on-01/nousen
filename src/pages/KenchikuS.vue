@@ -54,6 +54,8 @@
             :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')"
         />
 
+      <div class="bg-lightBlue">
+
         <Study
             studySlug="other"
             name1="1級建築施工管理技士"
@@ -138,7 +140,10 @@
             </g-link>
           </div>
         </div>
+
+      </div>
       </header>
+
       <section class="tab-wrapper">
         <div
           :class="['tab', { active: isActive === 1 }]"
@@ -571,6 +576,10 @@ export default {
 }
 .point {
   margin-top: 30px;
+}
+.bg-lightBlue {
+  padding-top: 20px;
+  background: #ebf7ff;
 }
 
 </style>

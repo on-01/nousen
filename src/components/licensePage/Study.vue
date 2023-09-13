@@ -143,5 +143,12 @@ export default {
         }
     }
 
+    .denken3, .study {
+        margin-top: 0;
+    }
+    .kenchiku, .study {
+        margin-top: 0;
+    }
+
 
 </style>
