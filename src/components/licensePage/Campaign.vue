@@ -125,7 +125,7 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 
 .campaign-content {
     font-weight: normal;
-    font-size: 14px;
+    font-size: 15px;
 }
 .campaign-content li span{
     color: #ff0000
