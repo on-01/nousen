@@ -194,12 +194,6 @@ padding: 1rem 2rem;
 
 .support-notes.-second {
     max-width: 620px;
-    p {
-        white-space: nowrap;
-        @media print, screen and (max-width: 768px) {
-        white-space: wrap;
-    }
-    }
 }
 
 .support-figure {
