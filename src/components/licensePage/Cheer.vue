@@ -72,7 +72,7 @@ export default {
     line-height: 2;
     text-align: center;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     right: 0;
     left: 0;
 }
