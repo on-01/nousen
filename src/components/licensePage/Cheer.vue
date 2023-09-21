@@ -83,8 +83,10 @@ export default {
 }
 .cheer-image {
     width: 100%;
-    margin: 0 auto;
+}
+.cheer-image img {
     display: block;
+    margin: 0 auto; 
 }
 .cheer-description {
     width: 90%;
