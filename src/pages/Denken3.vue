@@ -81,9 +81,12 @@
               />
               
         <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <figure class="point-image">
+        <!-- <figure class="point-image">
           <img src="../assets/img/license_page/denken3/denken3_point.jpg">
-        </figure>
+        </figure> -->
+        <Cheer
+            text="能セン スタッフ一同"
+        />
 
         <Point
           title="短期間で合格する３つのポイント"
@@ -278,6 +281,7 @@ import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
 import Lecture from '../components/licensePage/Lecture.vue';
+import Cheer from '../components/licensePage/Cheer.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -336,6 +340,7 @@ export default {
     Method,
     Food,
     Lecture,
+    Cheer,
     // News,
     Info,
     Venue,
