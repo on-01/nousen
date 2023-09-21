@@ -55,7 +55,7 @@ export default {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 18px;
+    padding-top: 28px;
     line-height: 2;
 }
 .cheer-line {
@@ -83,6 +83,8 @@ export default {
 }
 .cheer-image {
     width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 .cheer-description {
     width: 90%;
