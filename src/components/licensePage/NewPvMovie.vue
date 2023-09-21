@@ -40,7 +40,7 @@ export default {
   .pv {
   width: 800px;
   margin: 0 auto;
-  padding: 0 3em 3rem;
+  padding: 0 3em 5rem;
   @media print, screen and (max-width: 1001px) {
     width: 90%;
     padding: 0rem 0rem 2rem;
