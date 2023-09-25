@@ -89,7 +89,7 @@ export default {
     margin: 0 auto;
 }
 .cheer-line {
-    width: 30%;
+    width: 20%;
 }
 .cheer-title {
     font-size: 30px;
