@@ -97,4 +97,10 @@ export default {
 }
 }
 
+@media print, screen and (max-width: 480px) {
+    .cheer-line {
+    width: 40%;
+}
+}
+
 </style>
