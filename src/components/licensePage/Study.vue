@@ -149,6 +149,9 @@ export default {
     .kenchiku, .study {
         margin-top: 0;
     }
+    .doboku, .study {
+        margin-top: 20px;
+    }
 
 
 </style>

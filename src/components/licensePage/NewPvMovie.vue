@@ -92,5 +92,8 @@ export default {
 .kenchiku .pv-wrap {
   margin-bottom: 0;
 }
+.doboku .pv-wrap {
+  margin-bottom: 0;
+}
 
 </style>
