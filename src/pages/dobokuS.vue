@@ -33,7 +33,17 @@
               $static.dobokuOnline.mediaImg ? $static.dobokuOnline.mediaImg.file.url : ''
             "
             movieTitle="わかりやすさNo.1 土木施工の講習会動画をご視聴ください"
-            description="合格者を多数輩出した大嶋先生による二次試験対策の無料動画になります。"
+            description="合格者を多数輩出した大嶋先生による、わかりみが深い無料動画です！"
+        />
+
+        <Lecture
+            title="大嶋先生の講習はわかりみが深い！"
+            text="土木のエキスパート！長年土木の建設工事、電気、設備保守に従事し、経験を踏まえて
+              １級土木施工管理技士、 電気主任技術者（３～１種）等多くの関連資格を取得。
+              東京電力で技能訓練センター所長として約４年間勤務後独立し、
+              土木・電気関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
+              難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+            :imagePath="require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')"
         />
 
         <Study
@@ -286,6 +296,7 @@ import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Support from '../components/licensePage/Support.vue';
+import Lecture from '../components/licensePage/Lecture.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -343,6 +354,7 @@ export default {
     NewPvMovie,
     Method,
     Support,
+    Lecture,
     // News,
     Info,
     Venue,
@@ -444,7 +456,8 @@ export default {
     color: #666666;
     max-width: 280px;
     width: 100%;
-    background-color: #f2f2f2;
+    // background-color: #f2f2f2;
+    background-color: #FFF7D5;
     border: 5px solid #ed7d31;
     border-radius: 20px;
     border-bottom-left-radius: 0;
@@ -474,7 +487,8 @@ export default {
     }
     &.active {
       border-bottom: none;
-      background-color: #ebf7ff;
+      // background-color: #ebf7ff;
+      background-color: #FFF7D5;
       color: #ed7d31;
       .icon {
         transform: rotate(90deg);
@@ -511,7 +525,8 @@ export default {
   width: 100%;
   margin: 0 auto;
   font-family: 'メイリオ', sans-serif;
-  background-color: #ebf7ff;
+  // background-color: #ebf7ff;
+  background-color: #FFF7D5;
   padding-bottom: 100px;
   // @media print, screen and (max-width: 1000px) {
   //   width: 90%;

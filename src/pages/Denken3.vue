@@ -85,7 +85,9 @@
           <img src="../assets/img/license_page/denken3/denken3_point.jpg">
         </figure> -->
         <Cheer
-            text="能セン スタッフ一同"
+            text="能センは<br>
+              電験男子・電験女子を<br>
+              応援します！"
         />
 
         <Point
@@ -442,7 +444,8 @@ export default {
     color: #666666;
     max-width: 280px;
     width: 100%;
-    background-color: #f2f2f2;
+    // background-color: #f2f2f2;
+    background-color: #FFF7D5;
     border: 5px solid #1D9BF0;
     border-radius: 20px;
     border-bottom-left-radius: 0;
@@ -472,7 +475,8 @@ export default {
     }
     &.active {
       border-bottom: none;
-      background-color: #ebf7ff;
+      // background-color: #ebf7ff;
+      background-color: #FFF7D5;
       color: #1D9BF0;
       .icon {
         transform: rotate(90deg);
@@ -519,7 +523,8 @@ export default {
   width: 100%;
   margin: 0 auto;
   font-family: 'メイリオ', sans-serif;
-  background-color: #ebf7ff;
+  // background-color: #ebf7ff;
+  background-color: #FFF7D5;
   padding-bottom: 100px;
   // @media print, screen and (max-width: 1000px) {
   //   width: 90%;

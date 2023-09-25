@@ -3,9 +3,8 @@
         <div class="cheer-inner">
             <div class="cheer-section">
                 <div class="cheer-description">
-                    <p class="cheer-title">電験男子・電験女子を<br>応援します！</p>
+                    <p class="cheer-title" v-html="text"></p>
                     <p class="cheer-line"></p>
-                    <p class="cheer-text">{{ text }}</p>
                 </div>
                 <figure class="cheer-image">
                     <img src="../../assets/img/license_page/denken3/denken3_point.jpg">
@@ -28,7 +27,7 @@ export default {
     width: 100%;
     background-color: #fff;
     margin: 40px auto 0;
-    font-family: 'Yu Gothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    font-family: 'メイリオ', sans-serif;
 }
 .cheer-inner {
     max-width: 1170px;
@@ -46,11 +45,10 @@ export default {
 }
 .cheer-description {
     width: 48%;
-    position: relative;
 }
 
 .cheer-title {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
@@ -64,17 +62,6 @@ export default {
     background: #249ef0;
     margin: 10px auto 20px;
     border-radius: 8px;
-}
-
-.cheer-text {
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 2;
-    text-align: center;
-    position: absolute;
-    bottom: 10%;
-    right: 0;
-    left: 0;
 }
 
 @media print, screen and (max-width: 1000px) {
@@ -96,13 +83,9 @@ export default {
 }
 
 .cheer-title {
-    font-size: 28px;
+    font-size: 36px;
 }
-.cheer-text {
-    font-size: 20px;
-    line-height: 1.6;
-    position: static;
-}
+
 }
 
 </style>
