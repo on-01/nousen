@@ -83,7 +83,7 @@ export default {
 }
 
 .cheer-title {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 }
