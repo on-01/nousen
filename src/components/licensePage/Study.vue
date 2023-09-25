@@ -150,7 +150,7 @@ export default {
         margin-top: 0;
     }
     .doboku, .study {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
 
