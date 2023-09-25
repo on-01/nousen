@@ -54,14 +54,21 @@ export default {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 28px;
+    padding-left: 8px;
     line-height: 2;
 }
 .cheer-line {
-    width: 20%;
+    width: 50%;
     height: 4px;
     background: #249ef0;
-    margin: 10px auto 20px;
+    margin: 0 auto 20px;
     border-radius: 8px;
+}
+
+@media print, screen and (max-width: 1200px) {
+    .cheer-title {
+    font-size: 42px;
+}
 }
 
 @media print, screen and (max-width: 1000px) {
@@ -81,11 +88,13 @@ export default {
     padding-right: 0;
     margin: 0 auto;
 }
-
+.cheer-line {
+    width: 30%;
+}
 .cheer-title {
     font-size: 30px;
+    padding-left: 0;
 }
-
 }
 
 </style>
