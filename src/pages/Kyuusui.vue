@@ -254,7 +254,7 @@ export default {
 .point-image {
   width: 590px;
   height: 380px;
-  margin: 40px auto 0;
+  margin: 40px auto;
 
   @media print, screen and (max-width: 767px) {
     width: 80%;
