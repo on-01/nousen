@@ -473,7 +473,8 @@ export default {
     color: #666666;
     max-width: 280px;
     width: 100%;
-    background-color: #f2f2f2;
+    // background-color: #f2f2f2;
+    background-color: #FFF7D5;
     border: 5px solid #ed7d31;
     border-radius: 20px;
     border-bottom-left-radius: 0;
@@ -503,7 +504,8 @@ export default {
     }
     &.active {
       border-bottom: none;
-      background-color: #ebf7ff;
+      // background-color: #ebf7ff;
+      background-color: #FFF7D5;
       color: #ed7d31;
       .icon {
         transform: rotate(90deg);
@@ -540,7 +542,8 @@ export default {
   width: 100%;
   margin: 0 auto;
   font-family: 'メイリオ', sans-serif;
-  background-color: #ebf7ff;
+  // background-color: #ebf7ff;
+  background-color: #FFF7D5;
   padding-bottom: 100px;
   // @media print, screen and (max-width: 1000px) {
   //   width: 90%;
