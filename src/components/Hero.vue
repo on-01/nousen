@@ -95,6 +95,7 @@ export default {
     letter-spacing: 0.3em;
     font-size: 29px;
     font-family: 'メイリオ', sans-serif;
+    text-align: center;
     @media print, screen and (max-width: 1000px) {
       font-size: 20px;
     }
@@ -108,6 +109,7 @@ export default {
     font-size: 22px;
     font-family: 'メイリオ', sans-serif;
     font-weight: 600;
+    text-align: center;
     @media print, screen and (max-width: 1000px) {
       font-size: 16px;
     }
@@ -115,12 +117,6 @@ export default {
       font-size: 13px;
     }
   }
-}
-.denken3 .hero .title-wrapper h2.title{
-text-align: center;
-}
-.denken3 .hero .title-wrapper p.sub-title{
-text-align: center;
 }
 .icon {
   width: 80px;
