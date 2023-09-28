@@ -336,10 +336,19 @@
     width: auto;
   }
 }
-
 .credit img {
   width: 220px;
   display: block;
   margin: 0 auto;
 }
+.SDGs_image figure {
+  margin: 0;
+}
+.SDGs_image figure img {
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 10px auto 0;
+}
+
 </style>
