@@ -11,8 +11,8 @@
       <div v-if="icon" class="icon">
         <img :src="icon" alt="">
       </div>
-      <h2 class="title" v-html="title">
-      </h2>
+      <h2 class="title" v-html="title"></h2>
+      <p v-if="subTitle" class="sub-title" v-html="subTitle"></p>
     </div>
   </section>
 </template>
@@ -28,6 +28,7 @@ export default {
     backImgOver: String,
     backImgUnder: String,
     title: String,
+    subTitle: String,
     color: {},
     icon: String
   },
@@ -101,8 +102,23 @@ export default {
       font-size: 16px;
     }
   }
+  .sub-title {
+    margin: 0;
+    letter-spacing: 0.3em;
+    font-size: 22px;
+    font-family: 'メイリオ', sans-serif;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
+    @media print, screen and (max-width: 414px) {
+      font-size: 13px;
+    }
+  }
 }
 .denken3 .hero .title-wrapper h2.title{
+text-align: center;
+}
+.denken3 .hero .title-wrapper p.sub-title{
 text-align: center;
 }
 .icon {
