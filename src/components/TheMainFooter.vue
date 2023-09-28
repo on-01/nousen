@@ -20,6 +20,11 @@
               </a>
             </div>
           </div>
+
+          <div class="SDGs_image">
+            <figure><img src="../assets/img/common/SDGs.jpg" alt="SDGs"></figure>
+          </div>
+
           <div class="wrapper-information">
             <div class="information">
               <p class="information_list">

@@ -9,7 +9,7 @@
           :backImgUnder="
             require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero_sp.jpg')
           "
-          title="1・2級 建築施工管理技士<br>合格のための受験指導"
+          title="1・2級 建築施工管理技士<br>通学講座 | オンライン講座"
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
         />
