@@ -351,4 +351,12 @@
   margin: 10px auto 0;
 }
 
+@media print, screen and(max-width: 1000px) {
+  .SDGs_image  {
+  display: none;
+  }
+}
+
+
+
 </style>
