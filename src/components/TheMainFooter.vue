@@ -365,7 +365,7 @@
 @media print, screen and(max-width: 1000px) {
   .sp_SDGs_image  {
   display: block;
-  width: 200px;
+  width: 140px;
   margin: 0 auto;
   }
   .sp_SDGs_image img {
