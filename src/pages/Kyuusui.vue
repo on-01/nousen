@@ -9,7 +9,8 @@
           :backImgUnder="
             require('../assets/img/license_page/kyuusui/kyuusui_hero_sp.jpg')
           "
-          title="給水装置工事主任技術者<br>合格のための受験指導"
+          title="給水装置工事主任技術者"
+          subTitle="通学講座 | オンライン講座"
           color="#00afcc"
           :icon="require('../assets/img/icon/qualification/kyuusui.svg')"
         />
