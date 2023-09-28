@@ -77,6 +77,7 @@
             />
           </a>
           <figure class="credit"><img src="../assets/img/common/credit.jpg"></figure>
+          <figure class="sp_SDGs_image"><img src="../assets/img/common/SDGs.jpg" alt="SDGs"></figure>
         </div>
         <div class="banner">
           <div class="column">
@@ -341,6 +342,9 @@
   display: block;
   margin: 0 auto;
 }
+.SDGs_image {
+  margin-right: 5px;
+}
 .SDGs_image figure {
   margin: 0;
 }
@@ -350,13 +354,25 @@
   display: block;
   margin: 10px auto 0;
 }
-
 @media print, screen and(max-width: 1000px) {
   .SDGs_image  {
   display: none;
   }
 }
-
-
+.sp_SDGs_image {
+  display:none;
+}
+@media print, screen and(max-width: 1000px) {
+  .sp_SDGs_image  {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  }
+  .sp_SDGs_image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+}
 
 </style>
