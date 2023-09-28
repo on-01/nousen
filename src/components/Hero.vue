@@ -104,9 +104,10 @@ export default {
   }
   .sub-title {
     margin: 0;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     font-size: 22px;
     font-family: 'メイリオ', sans-serif;
+    font-weight: 600;
     @media print, screen and (max-width: 1000px) {
       font-size: 16px;
     }
