@@ -26,10 +26,10 @@
       <div class="information">
         <div class="application">
           <div class="tel overdisplay item">
-            <a href="tel:0359469417">
+            <a href="tel:0120547284">
               <img
                 src="../assets/img/common/tel.svg"
-                alt="03-5946-9417（平日土日9:00~19:00）"
+                alt="0120-547-284（平日土日9:00~19:00）"
                 width="621"
                 height="38"
               />
@@ -202,10 +202,10 @@
         </section>
         <section class="navi-inner nav-inner04 underdisplay">
           <div class="tel">
-            <a href="tel:0359469417">
+            <a href="tel:0120547284">
               <img
                 src="../assets/img/common/toggle_menu/tel_sp.svg"
-                alt="03-5946-9417（平日土日9:00~19:00）"
+                alt="0120-547-284（平日土日9:00~19:00）"
                 width="365"
                 height="73"
                 decoding="async"

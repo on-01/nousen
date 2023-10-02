@@ -70,10 +70,10 @@
           <p class="message">
             ご質問・ご相談など、お気軽にお問い合わせください
           </p>
-          <a href="tel:0359469417" class="tel">
+          <a href="tel:0120547284" class="tel">
             <img
               src="../assets/img/common/tel.svg"
-              alt="03-5946-9417（平日土日9:00~19:00）"
+              alt="0120-547-284（平日土日9:00~19:00）"
               width="621"
               height="38"
             />
