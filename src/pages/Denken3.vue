@@ -430,6 +430,8 @@ export default {
 .exam-link{
   background-color: #1D9BF0;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .application-form-link {
   background-color: #ed6c00;
@@ -438,6 +440,8 @@ export default {
 .online-link {
   background-color: #00a73c;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .tab-wrapper {
   margin: 0 auto;
