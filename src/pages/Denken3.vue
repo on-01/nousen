@@ -24,7 +24,7 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
-        <div class="exam-link-wrapper">
+        <div class="exam-link-wrapper -column">
           <g-link to="/licenses/#denken" class="exam-link">
             試験概要はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
@@ -427,7 +427,7 @@ export default {
     width: 80%;
   }
 }
-.exam-link{
+.exam-link {
   background-color: #1D9BF0;
   margin-top: 25px;
   margin-right: auto;
@@ -608,5 +608,13 @@ export default {
   background: #ebf7ff;
 }
 
+.exam-link-wrapper.-column {
+  padding: 20px 0 40px;
+}
 
+@media print, screen and (max-width: 1000px) {
+  .exam-link-wrapper.-column {
+  padding: 20px 0 40px;
+}
+}
 </style>
