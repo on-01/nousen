@@ -198,11 +198,14 @@ export default {
     justify-content: space-between;
   }
 }
-.address-wrap {
-  @media print, screen and (min-width: 1001px) {
-    width: calc(100% - 500px);
-  }
-}
+
+// 一時的にmap非表示に伴い、以下のスタイルも削除
+// .address-wrap {
+//   @media print, screen and (min-width: 1001px) {
+//     width: calc(100% - 500px);
+//   }
+// }
+
 .map {
   width: 100%;
   max-width: 460px;
@@ -360,5 +363,10 @@ export default {
 /* .slide-fade-leave-active below version 2.1.8 */ {
   transform: translateY(10px);
   opacity: 0;
+}
+
+// 一時的にmapを非表示
+.map {
+  display: none;
 }
 </style>
