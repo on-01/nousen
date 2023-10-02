@@ -7,7 +7,7 @@
                     <p class="cheer-line"></p>
                 </div>
                 <figure class="cheer-image">
-                    <img src="../../assets/img/license_page/denken3/denken3_point.jpg">
+                    <img :src="imagePath">
                 </figure>
             </div>
         </div>
@@ -18,6 +18,7 @@
 export default {
     props: { 
     text: String,
+    imagePath: String
     }
 }
 </script>

@@ -22,7 +22,9 @@
           </div>
 
           <div class="SDGs_image">
-            <figure><img src="../assets/img/common/SDGs.jpg" alt="SDGs"></figure>
+            <figure><a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank">
+              <img src="../assets/img/common/SDGs.jpg" alt="SDGs">
+            </a></figure>
           </div>
 
           <div class="wrapper-information">
@@ -77,7 +79,9 @@
             />
           </a>
           <figure class="credit"><img src="../assets/img/common/credit.jpg"></figure>
-          <figure class="sp_SDGs_image"><img src="../assets/img/common/SDGs.jpg" alt="SDGs"></figure>
+          <figure class="sp_SDGs_image"><a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank">
+            <img src="../assets/img/common/SDGs.jpg" alt="SDGs">
+          </a></figure>
         </div>
         <div class="banner">
           <div class="column">
@@ -346,14 +350,10 @@
   margin-right: 5px;
 }
 .SDGs_image figure {
-  margin: 0;
-}
-.SDGs_image figure img {
   width: 70%;
-  height: 100%;
-  display: block;
   margin: 10px auto 0;
 }
+
 @media print, screen and(max-width: 1000px) {
   .SDGs_image  {
   display: none;

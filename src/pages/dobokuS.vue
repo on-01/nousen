@@ -47,6 +47,8 @@
             :imagePath="require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')"
         />
 
+        <div class="bg-lightBlue">
+
         <Study
             studySlug="other"
             name1="1級土木施工管理技士"
@@ -81,9 +83,15 @@
                             />
                             
         <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <figure class="point-image">
+        <!-- <figure class="point-image">
           <img src="../assets/img/license_page/doboku_s/doboku_point.jpg">
-        </figure>
+        </figure> -->
+        <Cheer
+            text="能センは<br>
+              電験男子・電験女子を<br>
+              応援します！"
+              :imagePath="require('../assets/img/license_page/doboku_s/doboku_point.jpg')"
+        />
 
         <Point
           title="短期間で合格する５つのポイント"
@@ -129,7 +137,10 @@
             </g-link>
           </div>
         </div>
+
+      </div>
       </header>
+
       <section class="tab-wrapper">
         <div
           :class="['tab', { active: isActive === 1 }]"
@@ -298,6 +309,7 @@ import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Support from '../components/licensePage/Support.vue';
 import Lecture from '../components/licensePage/Lecture.vue';
+import Cheer from '../components/licensePage/Cheer.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -356,6 +368,7 @@ export default {
     Method,
     Support,
     Lecture,
+    Cheer,
     // News,
     Info,
     Venue,
@@ -563,5 +576,10 @@ export default {
 
 .point {
   margin-top: 30px;
+}
+
+.bg-lightBlue {
+  padding-top: 20px;
+  background: #ebf7ff;
 }
 </style>

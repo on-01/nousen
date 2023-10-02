@@ -158,7 +158,7 @@
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/goods-sales" target="_blank" rel="noopener noreferrer">
+            <g-link to="https://nousen.square.site/" target="_blank" rel="noopener noreferrer">
               <p>能センSHOP</p>
             </g-link>
           </div>

@@ -251,7 +251,7 @@
             :explanation="[
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
             ]"
-            moreLink="/goods-sales"
+            moreLink="https://nousen.square.site"
             moreText="能センSHOP"
           />
           <Reason
