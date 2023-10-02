@@ -24,6 +24,17 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
+        <div class="exam-link-wrapper">
+          <g-link to="/licenses/#denken" class="exam-link">
+            試験概要はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
+            オンライン相談はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+        </div>
+
         <NewPvMovie
             :movie="$static.online.mediaYoutube"
             :image="
@@ -108,7 +119,7 @@
           />
 
         <div class="exam-link-wrapper">
-          <div class="exam-link-flex">
+          <!-- <div class="exam-link-flex">
             <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
               オンライン相談はこちら
               <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
@@ -117,7 +128,7 @@
               受験資格や試験日の確認はこちら
               <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
             </g-link>
-          </div>
+          </div> -->
           <div class="exam-link-flex">
             <g-link to="/denken3-application" class="application-form-link">
               お申込みはこちら（個人）
