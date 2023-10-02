@@ -83,15 +83,15 @@
                             />
                             
         <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <!-- <figure class="point-image">
+        <figure class="point-image">
           <img src="../assets/img/license_page/doboku_s/doboku_point.jpg">
-        </figure> -->
-        <Cheer
+        </figure>
+        <!-- <Cheer
             text="能センは<br>
               電験男子・電験女子を<br>
               応援します！"
               :imagePath="require('../assets/img/license_page/doboku_s/doboku_point.jpg')"
-        />
+        /> -->
 
         <Point
           title="短期間で合格する５つのポイント"
@@ -309,7 +309,7 @@ import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Support from '../components/licensePage/Support.vue';
 import Lecture from '../components/licensePage/Lecture.vue';
-import Cheer from '../components/licensePage/Cheer.vue';
+// import Cheer from '../components/licensePage/Cheer.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -368,7 +368,7 @@ export default {
     Method,
     Support,
     Lecture,
-    Cheer,
+    // Cheer,
     // News,
     Info,
     Venue,
