@@ -119,16 +119,6 @@
           />
 
         <div class="exam-link-wrapper">
-          <!-- <div class="exam-link-flex">
-            <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
-              オンライン相談はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-            <g-link to="/licenses/#denken" class="exam-link">
-              受験資格や試験日の確認はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-          </div> -->
           <div class="exam-link-flex">
             <g-link to="/denken3-application" class="application-form-link">
               お申込みはこちら（個人）
@@ -403,11 +393,11 @@ export default {
 }
 .exam-link-wrapper {
   text-align: center;
-  padding: 80px 0 200px 0;
+  padding: 60px 0 180px 0;
   display: flex;
   flex-direction: column;
   @media print, screen and (max-width: 1000px) {
-    padding: 60px 0 150px 0;
+    padding: 40px 0 150px 0;
   }
 }
 .exam-link,
@@ -607,11 +597,9 @@ export default {
   padding-top: 20px;
   background: #ebf7ff;
 }
-
 .exam-link-wrapper.-column {
   padding: 20px 0 40px;
 }
-
 @media print, screen and (max-width: 1000px) {
   .exam-link-wrapper.-column {
   padding: 20px 0 40px;
