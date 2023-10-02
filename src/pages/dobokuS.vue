@@ -24,6 +24,17 @@
             :imagePath="require('../assets/img/license_page/doboku_s/doboku_explain.jpg')"
         />
 
+        <div class="exam-link-wrapper -column">
+          <g-link to="/licenses/#doboku" class="exam-link">
+            試験概要はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
+            オンライン相談はこちら
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+        </div>
+
         <Support 
           title="＼＼建設業を応援しよう【第一弾】／／"
         />
@@ -116,16 +127,6 @@
         />
 
         <div class="exam-link-wrapper">
-          <div class="exam-link-flex">
-            <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876" class="online-link">
-              オンライン相談はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-            <g-link to="/licenses/#doboku" class="exam-link">
-              受験資格や試験日の確認はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-          </div>
           <div class="exam-link-flex">
             <g-link to="/doboku-s-application" class="application-form-link">
               お申込みはこちら（個人）
@@ -416,11 +417,11 @@ export default {
 }
 .exam-link-wrapper {
   text-align: center;
-  padding: 80px 0 200px 0;
+  padding: 60px 0 180px 0;
   display: flex;
   flex-direction: column;
   @media print, screen and (max-width: 1000px) {
-    padding: 60px 0 150px 0;
+    padding: 40px 0 150px 0;
   }
 }
 .exam-link,
@@ -443,6 +444,8 @@ export default {
 .exam-link{
   background-color: #1D9BF0;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .application-form-link {
   background-color: #ed6c00;
@@ -451,6 +454,8 @@ export default {
 .online-link {
   background-color: #00a73c;
   margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .tab-wrapper {
   margin: 0 auto;
@@ -581,5 +586,13 @@ export default {
 .bg-lightBlue {
   padding-top: 20px;
   background: #ebf7ff;
+}
+.exam-link-wrapper.-column {
+  padding: 20px 0 40px;
+}
+@media print, screen and (max-width: 1000px) {
+  .exam-link-wrapper.-column {
+  padding: 20px 0 40px;
+}
 }
 </style>
