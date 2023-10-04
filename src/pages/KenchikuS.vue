@@ -237,9 +237,9 @@
             :apply="richtextToHTML($static.kenchikuOnline.apply)"
           />
           <NewApplication
-            personalFormText="オンライン講座へのお申し込み（個人）"
+            personalFormText="オンライン講座へのお申込み（個人）"
             personalFormLink="/kenchiku-s-application"
-            businessFormText="オンライン講座へのお申し込み（法人）"
+            businessFormText="オンライン講座へのお申込み（法人）"
             businessFormLink="/kenchiku-s-application-business"
           />
         </div>
@@ -448,6 +448,7 @@ export default {
   font-size: 17px;
   width: 338px;
   box-sizing: border-box;
+  font-family: 'メイリオ', sans-serif;
   @media print, screen and (max-width: 370px) {
     padding: 7px 15px;
     width: 80%;

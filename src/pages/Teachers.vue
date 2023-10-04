@@ -4,7 +4,7 @@
       <Hero
         :backImgOver="require('../assets/img/teachers/teachers_hero.jpg')"
         :backImgUnder="require('../assets/img/teachers/teachers_hero_sp.jpg')"
-        title="講師を知る"
+        title="スーパー講師陣"
       />
       <div class="contents">
         <div
@@ -64,7 +64,7 @@ export default {
   mame: "teachers",
   metaInfo() {
     return {
-      titleTemplate: "講師を知る｜能セン-合格への近道",
+      titleTemplate: "スーパー講師陣｜能セン-合格への近道",
       meta: [
         {
           name: "description",
@@ -74,7 +74,7 @@ export default {
         {
           key: `og:title`,
           property: `og:title`,
-          content: `講師を知る｜能セン-合格への近道`
+          content: `スーパー講師陣｜能セン-合格への近道`
           // content: `講師を知る | ${this.$static.metadata.siteName}`,
         },
         {

@@ -199,7 +199,8 @@ export default {
   }
 }
 .hidden-container {
-  background-color: #f9f9f9;
+  // background-color: #f9f9f9;
+  background-color: #fff;
   padding: 50px 30px 100px 30px;
   @media print, screen and (max-width: 1000px) {
     padding: 50px 5% 100px 5%;

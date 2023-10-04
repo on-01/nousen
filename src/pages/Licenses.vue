@@ -4,7 +4,7 @@
       <Hero
         :backImgOver="require('../assets/img/licenses/licenses_hero.jpg')"
         :backImgUnder="require('../assets/img/licenses/licenses_hero_sp.jpg')"
-        title="学べる資格と講習会"
+        title="試験概要"
       />
       <div class="licenses-contents">
         <License
@@ -422,7 +422,7 @@ export default {
   name: "licenses",
   metaInfo() {
     return {
-      titleTemplate: "学べる資格と講習会のご案内｜能セン-合格への近道-",
+      titleTemplate: "試験概要｜能セン-合格への近道-",
       meta: [
         {
           name: "description",
@@ -432,7 +432,7 @@ export default {
         {
           key: `og:title`,
           property: `og:title`,
-          content: `学べる資格と講習会のご案内｜能セン-合格への近道-`
+          content: `試験概要｜能セン-合格への近道-`
           // content: `学べる資格と講習会のご案内 | ${this.$static.metadata.siteName}`,
         },
         {
@@ -461,6 +461,8 @@ export default {
 <style lang="scss" scoped>
 .licenses {
   padding-bottom: 100px;
+  font-family: 'メイリオ', sans-serif;
+  background: #ebf7ff;
 }
 .licenses-contents {
   margin-top: 100px;
