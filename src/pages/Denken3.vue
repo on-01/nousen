@@ -212,6 +212,7 @@
             personalFormLink="/denken3-application"
             businessFormText="オンライン講座へのお申込み（法人）"
             businessFormLink="/denken3-application-business"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
         </div>
       </div>
