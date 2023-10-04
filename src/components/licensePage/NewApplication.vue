@@ -14,7 +14,7 @@
     </a>
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">
-        FAX用紙のダウンロードはこちら
+        FAXお申込み用紙(PDF)
       </a>
     </p>
   </div>

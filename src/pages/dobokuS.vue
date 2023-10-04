@@ -229,6 +229,7 @@
             personalFormLink="/doboku-s-application"
             businessFormText="オンライン講座へのお申込み（法人）"
             businessFormLink="/doboku-s-application-business"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
       </div>
