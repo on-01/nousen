@@ -241,6 +241,7 @@
             personalFormLink="/kenchiku-s-application"
             businessFormText="オンライン講座へのお申込み（法人）"
             businessFormLink="/kenchiku-s-application-business"
+            faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
           />
         </div>
       </div>
