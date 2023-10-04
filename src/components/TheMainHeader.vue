@@ -139,12 +139,12 @@
           </div>
           <div class="pagelink-title">
             <g-link to="/licenses">
-              <p>学べる資格と講習会</p>
+              <p>試験概要</p>
             </g-link>
           </div>
           <div class="pagelink-title">
             <g-link to="/teachers">
-              <p>講師を知る</p>
+              <p>スーパー講師陣</p>
             </g-link>
           </div>
           <div class="pagelink-title">

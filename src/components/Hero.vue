@@ -129,4 +129,10 @@ export default {
     left: -20px;
   }
 }
+
+.licenses {
+  .title-wrapper {
+  background-color: #1d9bf0;
+  }
+}
 </style>
