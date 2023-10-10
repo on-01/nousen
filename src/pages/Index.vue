@@ -1111,6 +1111,8 @@ export default {
     width: 100%;
     text-align: center;
     margin: 100px auto 0;
+    // 非表示に
+    display:none;
 
     a {
       display: inline-block;
