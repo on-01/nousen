@@ -633,6 +633,7 @@ export default {
     line-height: 1.2em;
     @media print, screen and(min-width: 501px) {
       margin: 0 10px;
+      transform: translateY(-12px);
     }
     // img {
     //   @media print, screen and(max-width: 500px) {
