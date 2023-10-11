@@ -97,7 +97,7 @@ export default {
     padding: 0 12px;
     position: relative;
     position: absolute;
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 0.1em;
     top: 0;
     left: 0;
