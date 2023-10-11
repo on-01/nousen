@@ -71,6 +71,7 @@ export default {
     width: 100%;
     background-color: transparent;
     margin: 20px auto 60px;
+    font-family: 'メイリオ', sans-serif;
 }
 .quality-mainTitle {
     font-weight: bold;
