@@ -67,10 +67,10 @@ export default {
 
 <style lang="scss" scoped>
 .quality {
-    max-width: 970px;
+    max-width: 1170px;
     width: 100%;
     background-color: transparent;
-    margin: 20px auto;
+    margin: 20px auto 60px;
 }
 .quality-mainTitle {
     font-weight: bold;
@@ -148,6 +148,7 @@ export default {
 .quality-text {
     font-size: 16px;
     line-height: 1.6;
+    margin: 0;
 }
 
 @media print, screen and (max-width: 1000px) {
@@ -166,6 +167,10 @@ export default {
 .quality-box {
     width: 100%;
     margin: 30px auto 0;
+}
+
+.quality-description {
+    padding: 20px 20px 20px;
 }
 
 .quality-image img {
