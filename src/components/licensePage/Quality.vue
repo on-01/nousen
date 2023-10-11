@@ -119,13 +119,14 @@ export default {
     } */
 
 .quality-description {
-    padding: 30px 20px;
+    padding: 20px 20px 0;
 }
 .quality-title {
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
     font-size: 18px;
+    line-height: 1.6;
 }
 
 .quality-line {
@@ -145,7 +146,7 @@ export default {
 
 .quality-text {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 @media print, screen and (max-width: 1000px) {
