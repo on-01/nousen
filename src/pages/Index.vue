@@ -673,9 +673,9 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   @media print, screen and (max-width: 1000px) {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 }
 .section01 {
