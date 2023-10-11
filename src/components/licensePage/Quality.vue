@@ -1,6 +1,6 @@
 <template>
   <div class="quality">
-        <p class="quality-mainTitle">＼短期間で合格する３つのポイント／</p>
+        <p class="quality-mainTitle"><span>＼ </span>【完全攻略】できる３つのポイント！！！<span> ／</span></p>
         <div class="quality-flex">
             <div class="quality-box">
                 <div class="quality-header">
@@ -176,6 +176,12 @@ export default {
 }
 
 @media print, screen and (max-width: 560px) {
+    .quality-mainTitle {
+        font-size: 16px;
+    }
+    .quality-mainTitle span {
+        display: none;
+    }
     .quality-title {
         font-size: 18px;
     }
