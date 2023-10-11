@@ -143,7 +143,6 @@ export default {
 }
 .quality-image img {
     width: 100%;
-    height: 220px;
 }
 
 .quality-text {
@@ -174,23 +173,9 @@ export default {
     padding: 20px 20px 20px;
 }
 
-.quality-image img {
-    height: 590px;
-}
-
-}
-
-@media print, screen and (max-width: 768px) {
-    .quality-image img {
-    height: auto;
-    height: 400px;
-}
 }
 
 @media print, screen and (max-width: 560px) {
-    .quality-image img {
-    height: 225px;
-}
     .quality-title {
         font-size: 18px;
     }
