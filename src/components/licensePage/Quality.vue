@@ -138,6 +138,7 @@ export default {
 }
 .quality-image {
     width: 100%;
+    margin: 0;
 }
 .quality-image img {
     width: 100%;
