@@ -35,6 +35,24 @@
           </g-link>
         </div>
 
+        <quality
+            title_1="＼科目合格率95%／<br>合格に特化した教材を使用！"
+            text_1="担当講師が執筆したオリジナルテキストを
+                    使用。ポイントを絞り、合格点の60点を
+                    超える力を身に付けます。(目標は80点以上)"
+            imagePath_1="../assets/img/license_page/denken3/denken3_quality_1.jpg"
+            title_2="＼基礎から始める電験三種／<br> 初心者オススメ基礎講座！"
+            text_2="初めて受験する方には、基礎講座をご用意！
+                    専門の教材を使って基礎数学から電気の法則
+                    などわかりやすく解説します！"
+            imagePath_2="../assets/img/license_page/denken3/denken3_quality_2.jpg"
+            title_3=" ＼選べる受講スタイル／<br>通学・オンライン・通信講座"
+            text_3="受講生のライフスタイルに合った講座を
+                    選ぶことができます！通学にオンライン講座を
+                    追加(70%割引)など、バリエーションは豊富です！"
+            imagePath_3="../assets/img/license_page/denken3/denken3_quality_3.jpg"
+        />
+
         <NewPvMovie
             :movie="$static.online.mediaYoutube"
             :image="
@@ -288,6 +306,7 @@ import Method from '../components/licensePage/Method.vue';
 import Food from '../components/licensePage/Food.vue';
 import Lecture from '../components/licensePage/Lecture.vue';
 import Cheer from '../components/licensePage/Cheer.vue';
+import Quality from '../components/licensePage/Quality.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
 import Venue from "@/components/licensePage/Venue.vue";
@@ -347,6 +366,7 @@ export default {
     Food,
     Lecture,
     Cheer,
+    Quality,
     // News,
     Info,
     Venue,
