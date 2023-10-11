@@ -1,6 +1,6 @@
 <template>
   <div class="quality">
-        <p class="quality-mainTitle"><span>＼ </span>【完全攻略】できる３つのポイント！！！<span> ／</span></p>
+        <p class="quality-mainTitle"><span>＼ </span>【完全攻略】できる<br>３つのポイント！！！<span> ／</span></p>
         <div class="quality-flex">
             <div class="quality-box">
                 <div class="quality-header">
@@ -79,6 +79,10 @@ export default {
     font-size: 28px;
     color: red;
     margin-bottom: 30px;
+}
+
+.quality-mainTitle br {
+    display: none
 }
 .quality-flex {
     display: flex;
@@ -177,8 +181,12 @@ export default {
 
 @media print, screen and (max-width: 560px) {
     .quality-mainTitle {
-        font-size: 16px;
+       font-size: 24px;
     }
+    .quality-mainTitle br {
+        display: block;
+    }
+    
     .quality-mainTitle span {
         display: none;
     }
