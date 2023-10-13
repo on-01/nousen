@@ -1434,7 +1434,7 @@ export default {
   font-size: 20px;
   font-weight: bold;
   color: #3b241a;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-ideograph;
   text-justify: inter-character;
   line-height: 1.7;
