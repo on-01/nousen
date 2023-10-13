@@ -4,7 +4,8 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            ２級建築施工管理技士【通学】東京会場9/30・10/1(土日)・7(土)直前まで受付します！オンライン講座もあり！
+            電験三種【オンライン講座】大好評受付中！<br>
+            令和６年度に向けて講師募集中！
           </g-link>
         </p>
         <img
