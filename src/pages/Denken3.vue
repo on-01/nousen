@@ -7,7 +7,7 @@
             require('../assets/img/license_page/denken3/denken3_hero.jpg')
           "
           :backImgUnder="
-            require('../assets/img/license_page/denken3/bg_white.jpg')
+            require('../assets/img/license_page/bg_white.jpg')
           "
           title="第三種電気主任技術者<br/>（電験三種）"
           subTitle="通学講座 | オンライン講座 | 通信講座"

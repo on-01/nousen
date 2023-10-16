@@ -7,7 +7,7 @@
             require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero.jpg')
           "
           :backImgUnder="
-            require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero_sp.jpg')
+            require('../assets/img/license_page/bg_white.jpg')
           "
           title="1・2級 建築施工管理技士"
           subTitle="通学講座 | オンライン講座"
