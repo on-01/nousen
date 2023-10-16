@@ -105,4 +105,13 @@ export default {
     }
 }
 
+@media print, screen and (max-width: 1000px) {
+    .doboku .explanation {
+    margin-top: 20px;
+    }
+    .kenchiku .explanation {
+    margin-top: 20px;
+    }
+}
+
 </style>
