@@ -147,7 +147,7 @@ export default {
   .doboku .title-wrapper, 
   .kenchiku .title-wrapper
   {
-    top: 64%;
+    top: 60%;
   }
 }
 
