@@ -4,7 +4,7 @@
         <div class="campaign-inner">
             <div class="campaign-section">
                 <figure class="campaign-image">
-                    <img src="../../assets/img/license_page/campaign_1.jpg">
+                    <img src="../../assets/img/license_page/bg_white.jpg">
                 </figure>
                 <div class="campaign-description">
                     <p class="campaign-topic">図書カード進呈</p>
