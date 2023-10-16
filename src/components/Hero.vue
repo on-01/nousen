@@ -135,11 +135,4 @@ export default {
   }
 }
 
-  @media print, screen and (max-width: 980px) {
-    .denken3 .hero-inner.under-display {
-      background-image: none;
-      background-color: #fff;
-    }
-  }
-
 </style>
