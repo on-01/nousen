@@ -23,6 +23,13 @@
             総括すると、電験三種は、電気設備の安全性と適合性を確保するために、点検、保守、監督、コンサルティングなどの業務を担当する専門家です。"
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
+        <SpExplanation
+            title="第三種電気主任技術者とは"
+            text="第三種電気主任技術者(以下電験三種)とは、国家資格で事業用電気設備の保安監督を行い、該当の施設には必ず配置されます。<br>
+              資格には第一種・第二種・第三種の3つの区分があり、電圧によって対応範囲が異なり、電圧5万ボルト未満の電気工作物は「電験三種」
+              で対応できます。"
+            :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
+        />
 
         <div class="exam-link-wrapper -column">
           <g-link to="/licenses/#denken" class="exam-link">
@@ -299,6 +306,7 @@
 import Hero from "@/components/Hero.vue";
 import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
+import SpExplanation from "@/components/licensePage/SpExplanation.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
@@ -359,6 +367,7 @@ export default {
     Hero,
     Point,
     Explanation,
+    SpExplanation,
     Study,
     Linelink,
     NewPvMovie,
