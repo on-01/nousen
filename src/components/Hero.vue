@@ -129,10 +129,17 @@ export default {
     left: -20px;
   }
 }
-
 .licenses {
   .title-wrapper {
   background-color: #1d9bf0;
   }
 }
+
+  @media print, screen and (max-width: 980px) {
+    .hero-inner.under-display {
+      background-image: none;
+      background-color: #fff;
+    }
+  }
+
 </style>
