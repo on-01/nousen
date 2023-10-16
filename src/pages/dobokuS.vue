@@ -7,7 +7,7 @@
             require('../assets/img/license_page/doboku_s/doboku_s_hero.jpg')
           "
           :backImgUnder="
-            require('../assets/img/license_page/denken3/bg_white.jpg')
+            require('../assets/img/license_page/bg_white.jpg')
           "
           title="1・2級 土木施工管理技士"
           subTitle="通学講座 | オンライン講座"
