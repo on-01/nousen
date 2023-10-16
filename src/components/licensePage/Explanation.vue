@@ -87,7 +87,11 @@ export default {
     .explanation-text {
     width: 100%;
     margin-top: 20px;
-}
+    }
+
+    .denken3 .explanation {
+    display: none;
+    }
 }
 
 @media print, screen and (max-width: 560px) {
