@@ -77,6 +77,7 @@ export default {
     }
   }
 }
+
 .title-wrapper {
   position: absolute;
   top: 50%;
@@ -132,6 +133,15 @@ export default {
 .licenses {
   .title-wrapper {
   background-color: #1d9bf0;
+  }
+}
+
+@media print, screen and (max-width: 980px) {
+  .denken3 .hero-inner {
+    height: 280px;
+  }
+  .denken3 .title-wrapper {
+    top: 60%;
   }
 }
 
