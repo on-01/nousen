@@ -87,28 +87,28 @@
           />
 
           <Method
-            text="電験三種の勉強は、理論、電力または機械、法規の順番で進めると効率的です。<br>
+            text="電験三種の勉強は、理論、電力または機械、法規の順番で進めると効果的です。<br>
             まずは礎となる理論を理解し、その後に電力や機械といった実践的な科目を習得します。<br>
             電力と機械はどちらから先に学んでも問題ありません。 法規はそれまで勉強してきた科目の集大成として考えましょう。<br>
-            電気工学や電力系統に関する基本的な知識を獲得するために、教科書や参考書、オンラインの学習資料、講習会を利用することをおすすめします。<br><br>
+            電気工学や電力系統に関する基本的な知識を得るために、教科書や参考書、オンライン学習、講習会を利用することをおすすめします。<br><br>
 
-            ① 試験範囲の確認: 受験要項や過去の試験問題を調べ、出題範囲や試験形式を把握しましょう。<br>
-            ② 教科書や参考書の学習: 電気工学や電力系統に関する基礎知識を身につけるため、教科書や参考書を順番に学習していきましょう。<br>
-            ③ 過去の試験問題の解答: 過去の試験問題を解いてみることで、実際の試験形式や問題の傾向を把握し、対策を練ることができます。<br>
+            ① 試験範囲の確認: 受験要項や過去の試験問題を調べ、出題範囲や試験形式を把握。<br>
+            ② 教科書や参考書の学習: 電気工学や電力系統に関する基礎知識を身につけるため、教科書や参考書を順番に学習。<br>
+            ③ 過去の試験問題の解答: 過去の試験問題を解くことで、実際の試験形式や問題の傾向を把握し、対策を練ることができます。<br>
             ④ 模擬試験の受験: 本番の試験に近い環境で、模擬試験を受けることで実践力を養います。<br><br>
 
-            また、独学だけでなく、講習会やオンライン講座に参加することも有益です。<br>
-            他の受験生と情報交換したり、質問をすることで学習の効率が上がるでしょう。<br>
+            また、独学の方は講習会やオンライン講座に参加することも有益です。<br>
+            他の受験生と情報交換や質問をすることで学習の効率が上がるでしょう。<br>
             最終的には、自身の学習スタイルやペースに合わせて計画を立て、着実に進めることが重要です。<br>
             また、継続的な努力と忍耐力を持ちながら、定期的に自己評価を行い、必要な修正を加えることも大切です。<br>"
 
             boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
             />
 
-            <Food
+            <!-- <Food
               headline="効率的に勉強するためには、バランスの取れた食事と適切な栄養素が重要です。<br>
                   集中力を高めて効率よく勉強するために、おすすめの栄養や食事をご紹介します。<br><br>"
-              />
+              /> -->
               
         <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
         <!-- <figure class="point-image">
@@ -303,7 +303,7 @@ import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
-import Food from '../components/licensePage/Food.vue';
+// import Food from '../components/licensePage/Food.vue';
 import Lecture from '../components/licensePage/Lecture.vue';
 import Cheer from '../components/licensePage/Cheer.vue';
 import Quality from '../components/licensePage/Quality.vue';
@@ -363,7 +363,7 @@ export default {
     Linelink,
     NewPvMovie,
     Method,
-    Food,
+    // Food,
     Lecture,
     Cheer,
     Quality,

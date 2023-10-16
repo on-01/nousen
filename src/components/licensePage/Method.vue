@@ -48,7 +48,7 @@ export default {
 }
 
 .method-text {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
     margin-top: 20px;
     max-width: 870px;
@@ -57,7 +57,7 @@ export default {
 }
 
 .method-boldText {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
     font-weight: 700;
     margin-top: 0;

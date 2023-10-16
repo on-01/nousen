@@ -21,6 +21,7 @@
             <dl>
               <dt>電話番号</dt>
               <dd>03-5946-9417（代表）</dd>
+              <dd>0120-547-284(フリーダイヤル)</dd>
             </dl>
             <dl>
               <dt>FAX</dt>
@@ -68,7 +69,7 @@
             </ol>
           </div>
         </section>
-        <section class="session section">
+        <!-- <section class="session section">
           <h3 class="section-title">開催された主な講習会・研修会</h3>
           <div class="content">
             <h4 class="section-contents-title">
@@ -146,7 +147,7 @@
               </p>
             </div>
           </div>
-        </section>
+        </section> -->
       </div>
     </div>
   </Layout>
@@ -195,6 +196,7 @@ export default {
 <style lang="scss" scoped>
 .company {
   padding-bottom: 100px;
+  font-family: 'メイリオ', sans-serif;
 }
 .contents {
   max-width: 970px;
