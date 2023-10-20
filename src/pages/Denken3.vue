@@ -402,13 +402,7 @@ export default {
       this.isActive = num;
     },
     navigateToSection() {
-     // 一時的に別のURLに遷移
-    window.location.href = 'https://www.nouryoku.com/denken3/#temp';
-    
-    // 少し待ってから目的のURLに遷移
-    setTimeout(() => {
       window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
-    }, 10);  // 10ミリ秒後に遷移
     }
   }
 };
