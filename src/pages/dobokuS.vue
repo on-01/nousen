@@ -14,6 +14,12 @@
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/doboku.svg')"
         />
+        <Cheer
+            text="能センは<br>
+              土木男子・土木女子を<br>
+              応援します！"
+              :imagePath="require('../assets/img/license_page/doboku_s/doboku_point.jpg')"
+        />
         <Explanation
             title="土木施工管理技士とは"
             text="1・2級土木施工管理技士は、土木工事現場の施工管理業務を担当するための国家資格です。<br>
@@ -97,12 +103,6 @@
         <!-- <figure class="point-image">
           <img src="../assets/img/license_page/doboku_s/doboku_point.jpg">
         </figure> -->
-        <Cheer
-            text="能センは<br>
-              土木男子・土木女子を<br>
-              応援します！"
-              :imagePath="require('../assets/img/license_page/doboku_s/doboku_point.jpg')"
-        />
 
         <Point
           title="短期間で合格する５つのポイント"

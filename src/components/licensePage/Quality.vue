@@ -70,7 +70,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: transparent;
-    margin: 20px auto 60px;
+    margin: 20px auto 70px;
     font-family: 'メイリオ', sans-serif;
 }
 .quality-mainTitle {

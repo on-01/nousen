@@ -14,6 +14,12 @@
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
         />
+        <Cheer
+            text="能センは<br>
+              建設男子・建設女子を<br>
+              応援します！"
+              :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_point.jpg')"
+        />
         <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士とは、建設現場における施工管理の役割を担う専門職です。建設業法に基づく国家試験である「施工管理技術検定」に合格することで取得できる資格です。<br>
@@ -107,12 +113,6 @@
         <!-- <figure class="point-image">
           <img src="../assets/img/license_page/kenchiku_s/kenchiku_point.jpg">
         </figure> -->
-        <Cheer
-            text="能センは<br>
-              建設男子・建設女子を<br>
-              応援します！"
-              :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_point.jpg')"
-        />
 
         <Point
           title="短期間で合格する５つのポイント"
