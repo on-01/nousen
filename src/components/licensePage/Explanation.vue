@@ -28,7 +28,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: -20px auto 0;
+    margin: 20px auto 0;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
@@ -102,15 +102,6 @@ export default {
     .explanation-text {
     font-size: 14px;
     line-height: 1.6;
-    }
-}
-
-@media print, screen and (max-width: 1000px) {
-    .doboku .explanation {
-    margin-top: 20px;
-    }
-    .kenchiku .explanation {
-    margin-top: 20px;
     }
 }
 

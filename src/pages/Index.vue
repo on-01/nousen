@@ -1094,7 +1094,9 @@ export default {
       }
 
       a {
-        display: inline-block;
+        // 非表示に
+        display: none;
+        // display: inline-block;
         background-color: #f4891e;
         color: #fff;
         padding: 10px 3em;

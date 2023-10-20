@@ -14,6 +14,12 @@
           color="#1D9BF0"
           :icon="require('../assets/img/icon/qualification/denken.svg')"
         />
+        <Cheer
+            text="能センは<br>
+              電験男子・電験女子を<br>
+              応援します！"
+              :imagePath="require('../assets/img/license_page/denken3/denken3_point.jpg')"
+        />
         <Explanation
             title="第三種電気主任技術者とは"
             text="第三種電気主任技術者(以下電験三種)は、電気設備の安全性と適合性を評価し管理する役割を担う専門家です。電気設備の運用や保守に関する専門知識を持ち、法律や規制に基づいて設備の安全性を確保します。<br>
@@ -44,19 +50,18 @@
 
         <quality
             title_1="＼科目合格率95%／<br>合格に特化した教材を使用！"
-            text_1="担当講師が執筆したオリジナルテキストを
-                    使用。ポイントを絞り、合格点の60点を
-                    超える力を身に付けます。(目標は80点以上)"
+            text_1="講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。
+            効果的な学習をサポートする副教材も特徴。
+            自宅学習に使える解説付き問題集や4科目分の添削課題付き。"
             :imagePath_1="require('../assets/img/license_page/denken3/denken3_quality_1.jpg')"
             title_2="＼基礎から始める電験三種／<br> 初心者オススメ基礎講座！"
-            text_2="初めて受験する方には、基礎講座をご用意！
-                    専門の教材を使って基礎数学から電気の法則
-                    などわかりやすく解説します！"
+            text_2="初めて受験する方には、オススメの基礎講座をご用意！
+            専用の教材を使って基礎数学から電気の法則などわかりやすく解説します！
+            しばらく理系の学習から離れていた方は、ぜひご活用ください。"
             :imagePath_2="require('../assets/img/license_page/denken3/denken3_quality_2.jpg')"
             title_3=" ＼選べる受講スタイル／<br>通学・オンライン・通信講座"
-            text_3="受講生のライフスタイルに合った講座を
-                    選ぶことができます！通学にオンライン講座を
-                    追加(70%割引)など、バリエーションは豊富です！"
+            text_3="受講生のライフスタイルに合った講座を選ぶことができます！
+            通学にオンライン講座を追加（70%割引）など、バリエーションは豊富です！どの講座も合格に特化した教材を使用いたします。"
             :imagePath_3="require('../assets/img/license_page/denken3/denken3_quality_3.jpg')"
         />
 
@@ -121,12 +126,6 @@
         <!-- <figure class="point-image">
           <img src="../assets/img/license_page/denken3/denken3_point.jpg">
         </figure> -->
-        <Cheer
-            text="能センは<br>
-              電験男子・電験女子を<br>
-              応援します！"
-              :imagePath="require('../assets/img/license_page/denken3/denken3_point.jpg')"
-        />
 
         <Point
           title="短期間で合格する３つのポイント"
