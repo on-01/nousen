@@ -27,7 +27,7 @@ export default {
 .cheer {
     width: 100%;
     background-color: #fff;
-    margin: 40px auto 0;
+    margin: 0px auto;
     font-family: 'メイリオ', sans-serif;
 }
 .cheer-inner {
