@@ -243,7 +243,7 @@
         </div>
       </div>
       <div class="fixed-btn">
-        <a href="#apply-section" @click="reloadPage">
+        <a href="/#apply-section">
           <img
             src="../assets/img/common/fixed_btn.svg"
             alt="講座のお申し込み"
@@ -401,11 +401,6 @@ export default {
     tabToggle: function(num) {
       this.isActive = num;
     },
-    reloadPage() {
-    this.$nextTick(() => {
-      location.reload();
-    });
-  }
   }
 };
 </script>
