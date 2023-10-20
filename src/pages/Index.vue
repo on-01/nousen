@@ -1088,9 +1088,9 @@ export default {
     .btn__apply {
       width: 100%;
       text-align: center;
-      margin: 100px auto 400px;
+      margin: 100px auto 200px;
       @media print, screen and (max-width: 1000px) {
-        margin: 100px auto 200px;
+        margin: 100px auto 150px;
       }
 
       a {
