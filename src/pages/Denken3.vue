@@ -402,8 +402,24 @@ export default {
       this.isActive = num;
     },
     navigateToSection() {
+    // ウィンドウの幅を取得
+    const windowWidth = window.innerWidth;
+
+    // ウィンドウの幅が1001px以上の場合
+    if (windowWidth >= 1001) {
       window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
+    } 
+    // ウィンドウの幅が1000px以下の場合
+    else {
+      // 一時的に別のURLに遷移
+      window.location.href = 'https://www.nouryoku.com/denken3/#temp';
+      
+      // 少し待ってから目的のURLに遷移
+      setTimeout(() => {
+        window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
+      }, 10);  // 10ミリ秒後に遷移
     }
+  }
   }
 };
 </script>
