@@ -243,7 +243,7 @@
         </div>
       </div>
       <div class="fixed-btn">
-        <a href="/#apply-section" @click="reloadPage">
+        <a href="/#apply-section" @click="navigateToSection">
           <img
             src="../assets/img/common/fixed_btn.svg"
             alt="講座のお申し込み"
@@ -401,11 +401,9 @@ export default {
     tabToggle: function(num) {
       this.isActive = num;
     },
-    reloadPage() {
-    this.$nextTick(() => {
-      location.reload();
-    });
-  }
+    navigateToSection() {
+      window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
+    }
   }
 };
 </script>
