@@ -243,14 +243,14 @@
         </div>
       </div>
       <div class="fixed-btn">
-        <a href="/#apply-section" @click="navigateToSection">
+        <div @click="navigateToSection">
           <img
             src="../assets/img/common/fixed_btn.svg"
             alt="講座のお申し込み"
             width="534"
             height="92"
           />
-        </a>
+        </div>
       </div>
     </div>
   </Layout>
