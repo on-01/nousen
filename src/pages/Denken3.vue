@@ -231,7 +231,7 @@
             :courseOutline="richtextToHTML($static.online.courseOutline)"
             :apply="richtextToHTML($static.online.apply)"
           />
-          <div id="apply-section">
+          <div id="apply-section"></div>
           <NewApplication
             personalFormText="オンライン講座へのお申込み（個人）"
             personalFormLink="/denken3-application"
@@ -240,7 +240,6 @@
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
           </div>
-        </div>
       </div>
       <div class="fixed-btn">
         <div @click="navigateToSection">
@@ -402,22 +401,22 @@ export default {
       this.isActive = num;
     },
     navigateToSection() {
-    // ウィンドウの幅を取得
-    const windowWidth = window.innerWidth;
+    // ユーザーエージェントを取得
+    const userAgent = navigator.userAgent;
 
-    // ウィンドウの幅が1001px以上の場合
-    if (windowWidth >= 1001) {
-      window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
-    } 
-    // ウィンドウの幅が1000px以下の場合
-    else {
-      // 一時的に別のURLに遷移
+    // スマートフォンかどうかを判別
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
+
+    if (isMobile) {
+      // スマートフォンの場合の処理
       window.location.href = 'https://www.nouryoku.com/denken3/#temp';
       
-      // 少し待ってから目的のURLに遷移
       setTimeout(() => {
         window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
-      }, 10);  // 10ミリ秒後に遷移
+      }, 10);
+    } else {
+      // PCの場合の処理
+      window.location.href = 'https://www.nouryoku.com/denken3/#apply-section';
     }
   }
   }
