@@ -241,7 +241,7 @@
         </div>
       </div>
       <div class="fixed-btn">
-        <a href="/denken3-application">
+        <a href="#apply-section">
           <img
             src="../assets/img/common/fixed_btn.svg"
             alt="講座のお申し込み"

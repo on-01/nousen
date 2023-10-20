@@ -1,5 +1,5 @@
 <template>
-  <div class="application">
+  <div class="application" id="apply-section">
     <a :href="personalFormLink" class="application-link -left">
       {{ personalFormText }}
       <IconBase class="icon" width="25" height="25"
