@@ -417,6 +417,7 @@ export default {
 }
 .denken3 {
   padding-bottom: 0;
+  scroll-behavior: smooth;
 }
 .header {
   background-color: #fff8cc;
