@@ -61,7 +61,6 @@
           :memo="$static.denken.memo"
           LicensePageLink="/denken3"
         />
-        // applicationLink="/denken3-application"
       </div>
 
 
@@ -161,7 +160,6 @@
           :memo="$static.kenchiku.memo"
           LicensePageLink="/kenchiku-s"
         />
-        // applicationLink="/kenchiku-s-application"
       </div>
       <div class="licenses-contents">
         <License
@@ -259,7 +257,6 @@
           :memo="$static.doboku.memo"
           LicensePageLink="/doboku-s"
         />
-        // applicationLink="/doboku-s-application"
       </div>
       <div class="licenses-contents">
         <License
