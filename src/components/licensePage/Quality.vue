@@ -73,10 +73,11 @@ export default {
     background-color: #ebf7ff;
     font-family: 'メイリオ', sans-serif;
     padding: 20px 0 70px;
+    margin-bottom: 40px;
 }
 .quality-wrap {
     max-width: 1170px;
-    margin: 0 auto 40px;
+    margin: 0 auto;
 }
 .quality-mainTitle {
     font-weight: bold;
@@ -161,9 +162,11 @@ export default {
 }
 
 @media print, screen and (max-width: 1000px) {
+.quality {
+    margin-bottom: 20px;
+}
 .quality-wrap {
     width: 90%;
-    margin-bottom: 20px;
 }
 .quality-mainTitle {
     font-size: 20px;
