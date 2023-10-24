@@ -127,14 +127,14 @@
           <img src="../assets/img/license_page/denken3/denken3_point.jpg">
         </figure> -->
 
-        <Point
+        <!-- <Point
           title="短期間で合格する３つのポイント"
           :points="[
             '担当講師が執筆したオリジナルテキスト（教科書）を使用。記載項目を絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。',
             '効果的な学習をサポートする副教材も特徴。講義の中での例題としての活用はもちろん、自宅学習にも使える解説付き問題集や4科目分の添削課題も付いています。',
             '初めて受験する方には、おすすめの基礎講座をご用意！第三種電気主任技術者（電験三種）の学習開始の前に、押さえておくべき電気の法則や数学の公式を総ざらい。しばらく理系の学習から離れていた方は、ぜひご活用ください。'
           ]"
-        />
+        /> -->
 
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
@@ -304,7 +304,7 @@
 
 <script>
 import Hero from "@/components/Hero.vue";
-import Point from "@/components/licensePage/Point.vue";
+// import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import SpExplanation from "@/components/licensePage/SpExplanation.vue";
 import Study from "@/components/licensePage/Study.vue";
@@ -365,7 +365,7 @@ export default {
   },
   components: {
     Hero,
-    Point,
+    // Point,
     Explanation,
     SpExplanation,
     Study,

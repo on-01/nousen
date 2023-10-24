@@ -1,47 +1,49 @@
 <template>
-  <div class="quality">
-        <p class="quality-mainTitle"><span>＼ </span>【完全攻略】できる<br>３つのポイント！！！<span> ／</span></p>
-        <div class="quality-flex">
-            <div class="quality-box">
-                <div class="quality-header">
-                    Point
-                    <span>1</span>
+    <div class="quality">
+        <div class="quality-wrap">
+            <p class="quality-mainTitle"><span>＼ </span>【完全攻略】できる<br>３つのポイント！！！<span> ／</span></p>
+            <div class="quality-flex">
+                <div class="quality-box">
+                    <div class="quality-header">
+                        Point
+                        <span>1</span>
+                    </div>
+                    <figure class="quality-image">
+                        <img :src="imagePath_1">
+                    </figure>
+                    <div class="quality-description">
+                        <p class="quality-title" v-html="title_1"></p>
+                        <p class="quality-line"></p>
+                        <p class="explanation-text" v-html="text_1"></p>
+                    </div>
                 </div>
-                <figure class="quality-image">
-                    <img :src="imagePath_1">
-                </figure>
-                <div class="quality-description">
-                    <p class="quality-title" v-html="title_1"></p>
-                    <p class="quality-line"></p>
-                    <p class="explanation-text" v-html="text_1"></p>
+                <div class="quality-box">
+                    <div class="quality-header">
+                        Point
+                        <span>2</span>
+                    </div>
+                    <figure class="quality-image">
+                        <img :src="imagePath_2">
+                    </figure>
+                    <div class="quality-description">
+                        <p class="quality-title" v-html="title_2"></p>
+                        <p class="quality-line"></p>
+                        <p class="explanation-text" v-html="text_2"></p>
+                    </div>
                 </div>
-            </div>
-            <div class="quality-box">
-                <div class="quality-header">
-                    Point
-                    <span>2</span>
-                </div>
-                <figure class="quality-image">
-                    <img :src="imagePath_2">
-                </figure>
-                <div class="quality-description">
-                    <p class="quality-title" v-html="title_2"></p>
-                    <p class="quality-line"></p>
-                    <p class="explanation-text" v-html="text_2"></p>
-                </div>
-            </div>
-            <div class="quality-box">
-                <div class="quality-header">
-                    Point
-                    <span>3</span>
-                </div>
-                <figure class="quality-image">
-                    <img :src="imagePath_3">
-                </figure>
-                <div class="quality-description">
-                    <p class="quality-title" v-html="title_3"></p>
-                    <p class="quality-line"></p>
-                    <p class="explanation-text" v-html="text_3"></p>
+                <div class="quality-box">
+                    <div class="quality-header">
+                        Point
+                        <span>3</span>
+                    </div>
+                    <figure class="quality-image">
+                        <img :src="imagePath_3">
+                    </figure>
+                    <div class="quality-description">
+                        <p class="quality-title" v-html="title_3"></p>
+                        <p class="quality-line"></p>
+                        <p class="explanation-text" v-html="text_3"></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,11 +69,14 @@ export default {
 
 <style lang="scss" scoped>
 .quality {
-    max-width: 1170px;
     width: 100%;
-    background-color: transparent;
-    margin: 20px auto 70px;
+    background-color: #ebf7ff;
     font-family: 'メイリオ', sans-serif;
+    padding: 20px 0 70px;
+}
+.quality-wrap {
+    max-width: 1170px;
+    margin: 0 auto 40px;
 }
 .quality-mainTitle {
     font-weight: bold;
@@ -156,8 +161,9 @@ export default {
 }
 
 @media print, screen and (max-width: 1000px) {
-.quality {
+.quality-wrap {
     width: 90%;
+    margin-bottom: 20px;
 }
 .quality-mainTitle {
     font-size: 20px;
