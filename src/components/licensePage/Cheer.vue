@@ -76,6 +76,9 @@ export default {
 .cheer-section {
     flex-wrap: wrap
 }
+.cheer-inner {
+    padding-top: 0px;
+}
 .cheer-image {
     width: 100%;
 }

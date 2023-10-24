@@ -60,8 +60,8 @@
           :attention="richtextToHTML($static.denken.attention)"
           :memo="$static.denken.memo"
           LicensePageLink="/denken3"
-          applicationLink="/denken3-application"
         />
+        // applicationLink="/denken3-application"
       </div>
 
 
@@ -160,8 +160,8 @@
           :attention="richtextToHTML($static.kenchiku.attention)"
           :memo="$static.kenchiku.memo"
           LicensePageLink="/kenchiku-s"
-          applicationLink="/kenchiku-s-application"
         />
+        // applicationLink="/kenchiku-s-application"
       </div>
       <div class="licenses-contents">
         <License
@@ -258,8 +258,8 @@
           :attention="richtextToHTML($static.doboku.attention)"
           :memo="$static.doboku.memo"
           LicensePageLink="/doboku-s"
-          applicationLink="/doboku-s-application"
         />
+        // applicationLink="/doboku-s-application"
       </div>
       <div class="licenses-contents">
         <License
