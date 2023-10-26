@@ -125,7 +125,7 @@
                     <div class="voice-topic">
                         <div class="voice-flex">
                             <div class="voice-box">
-                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_1.jpg" alt="voice_1"></figure>
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_3.jpg" alt="voice_1"></figure>
                                 <p>授業がとにかく<br>分かりやすかった！</p>
                             </div>
                             <div class="voice-box">
@@ -135,7 +135,7 @@
                         </div>
                         <div class="voice-flex">
                             <div class="voice-box">
-                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_3.jpg" alt="voice_3"></figure>
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_1.jpg" alt="voice_3"></figure>
                                 <p>教材・資料が<br>充実している。</p>
                             </div>
                             <div class="voice-box">
@@ -145,6 +145,13 @@
                         </div>
                     </div>
                     <div class="voice-comment">
+                      <div class="voice-item">
+                            <h4 v-on:click="toggleVoice(6)">【能センについて】</h4>
+                            <p v-show="isVoice === 6">
+                              ・最初は怪しい名前だと思ったけど、講習会受けてみたらかなり良くて、スタッフの対応もとてもよかったです！<br>
+                              ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
+                            </p>
+                        </div>
                         <div class="voice-item">
                             <h4>【基礎講座】</h4>
                             <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></figure>
@@ -463,7 +470,7 @@ export default {
   data() {
     return {
       isActive: 1,
-      isVoice: 1,
+      isVoice: 6,
     };
   },
   methods: {
