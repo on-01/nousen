@@ -792,6 +792,7 @@ export default {
 }
 .voice-box figure {
     width: 30%;
+    margin: 0;
 }
 .voice-box p {
     width: 70%;
@@ -861,16 +862,18 @@ export default {
 }
 .voice-item {
     width: auto;
+    padding: 10px 20px;
 }
 .voice-item h4 {
     font-size: 18px;
 }
 .voice-item figure {
     width: 40%;
+    margin: 8px 0 0;
 }
 .voice-item p {
     font-size: 14px;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 }
 // voiceセクションここまで
