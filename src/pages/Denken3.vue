@@ -742,7 +742,7 @@ export default {
     padding: 40px 0;
 }
 .voice-inner {
-    max-width: 1170px;
+    max-width: 1090px;
     width: 100%;
     background-color: #d8efff;
     margin: 0 auto;
@@ -759,12 +759,14 @@ export default {
     text-align: center;
     padding-bottom: 10px;
     color: #000;
+    margin: 0;
 }
 .voice-title {
     font-weight: 700;
     text-align: center;
     font-size: 32px;
     color: #0071bb;
+    margin: 0;
 }
 .voice-topic {
     margin-top: 20px;
@@ -805,6 +807,7 @@ export default {
     font-weight: 700;
     font-size: 20px;
     color: #000;
+    margin: 0;
 }
 .voice-item figure {
     width: 20%;

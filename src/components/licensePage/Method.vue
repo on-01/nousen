@@ -23,7 +23,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
