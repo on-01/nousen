@@ -797,7 +797,7 @@ export default {
     color: #0071bb;
 }
 .voice-item {
-    width: 100%;
+    width: auto;
     border: 4px solid #0071bb;
     margin-top: 16px;
     padding: 20px;
