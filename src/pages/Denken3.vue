@@ -179,7 +179,7 @@
                             <h4>【電力】</h4>
                             <div class="voice-item-flex">
                               <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
-                              <p v-show="isVoice === 3"> ・自動制御が非常に分かりやすかった。<br>
+                              <p> ・自動制御が非常に分かりやすかった。<br>
                                   ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
                                   ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
                                   ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
@@ -191,7 +191,7 @@
                             <h4>【機械】</h4>
                             <div class="voice-item-flex">
                               <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></figure>
-                              <p v-show="isVoice === 4"> ・自動制御が非常に分かりやすかった。<br>
+                              <p> ・自動制御が非常に分かりやすかった。<br>
                                   ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
                                   ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
                                   ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
@@ -203,7 +203,7 @@
                             <h4>【法規】</h4>
                             <div class="voice-item-flex">
                               <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></figure>
-                              <p v-show="isVoice === 5"> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
+                              <p> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
                                   ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
                                   ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
                                   ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
@@ -863,6 +863,7 @@ export default {
 .voice-upImage img {
     margin: 20px auto 0;
     border: 1px solid #000;
+    display: block;
 }
 
 @media print, screen and (max-width: 1170px) {
