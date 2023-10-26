@@ -117,24 +117,99 @@
             boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
             />
 
+            <section class="voice">
+            <div class="voice-inner">
+                <div class="voice-content">
+                    <p class="voice-head">＼ アンケートによる受講生満足度９７％ ／</p>
+                    <h3 class="voice-title">受講生の声</h3>
+                    <div class="voice-topic">
+                        <div class="voice-flex">
+                            <div class="voice-box">
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_1.jpg" alt="voice_1"></figure>
+                                <p>授業がとにかく<br>分かりやすかった！</p>
+                            </div>
+                            <div class="voice-box">
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_2.jpg" alt="voice_2"></figure>
+                                <p>質問にも丁寧に<br>対応してくれた。</p>
+                            </div>
+                        </div>
+                        <div class="voice-flex">
+                            <div class="voice-box">
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_3.jpg" alt="voice_3"></figure>
+                                <p>教材・資料が<br>充実している。</p>
+                            </div>
+                            <div class="voice-box">
+                                <figure><img src="../assets/img/license_page/denken3/denken3_voice_4.jpg" alt="voice_4"></figure>
+                                <p>話し方が丁寧で<br>聞きやすかった。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="voice-comment">
+                        <div class="voice-item">
+                            <h4>【基礎講座】</h4>
+                            <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></figure>
+                            <p v-show="isVoice === 1">・休憩が細かくあり、集中してのぞめた。<br>
+                                ・現場の実例があり、公式や問題の意味が理解できた。<br>
+                                ・質問（個別）時間を設けて頂いたのは、非常にありがたかった。<br>
+                                ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
+                            </p>
+                        </div>
+                        <div class="voice-item">
+                            <h4>【理論】</h4>
+                            <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></figure>
+                            <p v-show="isVoice === 2">・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
+                                また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
+                                調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
+                            </p>
+                        </div>
+                        <div class="voice-item">
+                            <h4>【電力】</h4>
+                            <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
+                            <p v-show="isVoice === 3"> ・自動制御が非常に分かりやすかった。<br>
+                                ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
+                                ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
+                                ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                            </p>
+                        </div>
+                        <div class="voice-item">
+                            <h4>【機械】</h4>
+                            <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></figure>
+                            <p v-show="isVoice === 4"> ・自動制御が非常に分かりやすかった。<br>
+                                ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
+                                ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
+                                ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                            </p>
+                        </div>
+                        <div class="voice-item">
+                            <h4>【法規】</h4>
+                            <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></figure>
+                            <p v-show="isVoice === 5"> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
+                                ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
+                                ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
+                                ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
             <!-- <Food
               headline="効率的に勉強するためには、バランスの取れた食事と適切な栄養素が重要です。<br>
                   集中力を高めて効率よく勉強するために、おすすめの栄養や食事をご紹介します。<br><br>"
               /> -->
-              
-        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <!-- <figure class="point-image">
-          <img src="../assets/img/license_page/denken3/denken3_point.jpg">
-        </figure> -->
-
-        <!-- <Point
-          title="短期間で合格する３つのポイント"
-          :points="[
-            '担当講師が執筆したオリジナルテキスト（教科書）を使用。記載項目を絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。',
-            '効果的な学習をサポートする副教材も特徴。講義の中での例題としての活用はもちろん、自宅学習にも使える解説付き問題集や4科目分の添削課題も付いています。',
-            '初めて受験する方には、おすすめの基礎講座をご用意！第三種電気主任技術者（電験三種）の学習開始の前に、押さえておくべき電気の法則や数学の公式を総ざらい。しばらく理系の学習から離れていた方は、ぜひご活用ください。'
-          ]"
-        /> -->
+            <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+            <!-- <figure class="point-image">
+              <img src="../assets/img/license_page/denken3/denken3_point.jpg">
+            </figure> -->
+            <!-- <Point
+              title="短期間で合格する３つのポイント"
+              :points="[
+                '担当講師が執筆したオリジナルテキスト（教科書）を使用。記載項目を絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。',
+                '効果的な学習をサポートする副教材も特徴。講義の中での例題としての活用はもちろん、自宅学習にも使える解説付き問題集や4科目分の添削課題も付いています。',
+                '初めて受験する方には、おすすめの基礎講座をご用意！第三種電気主任技術者（電験三種）の学習開始の前に、押さえておくべき電気の法則や数学の公式を総ざらい。しばらく理系の学習から離れていた方は、ぜひご活用ください。'
+              ]"
+            /> -->
 
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
@@ -387,7 +462,8 @@ export default {
   },
   data() {
     return {
-      isActive: 1
+      isActive: 1,
+      isVoice: 1,
     };
   },
   methods: {
@@ -399,6 +475,9 @@ export default {
     },
     tabToggle: function(num) {
       this.isActive = num;
+    },
+    toggleVoice: function(num) {
+      this.isVoice = num;
     },
     navigateToSection() {
     // ユーザーエージェントを取得
@@ -642,8 +721,7 @@ export default {
 }
 .point {
   margin-top: 30px;
-}  
-
+}
 .bg-lightBlue {
   padding-top: 20px;
   background: #ebf7ff;
@@ -656,4 +734,140 @@ export default {
   padding: 20px 0 40px;
 }
 }
+
+/* voiceセクションのスタイル */
+.voice {
+    background-color: #fff;
+    width: 100%;
+    padding: 40px 0;
+}
+.voice-inner {
+    max-width: 1170px;
+    width: 100%;
+    background-color: #d8efff;
+    margin: 0 auto;
+    font-family: 'メイリオ', sans-serif;
+    padding: 20px 40px;
+}
+.voice-content {
+    max-width: 870px;
+    margin: 0 auto;
+}
+.voice-head {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #000;
+}
+.voice-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: #0071bb;
+}
+.voice-topic {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.voice-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.voice-box {
+    width: 48%;
+    border: 4px solid #0071bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding: 10px;
+    background-color: #fff;
+}
+.voice-box figure {
+    width: 30%;
+}
+.voice-box p {
+    width: 70%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #0071bb;
+}
+.voice-item {
+    width: 100%;
+    border: 4px solid #0071bb;
+    margin-top: 16px;
+    padding: 20px;
+    background-color: #fff;
+}
+.voice-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+.voice-item figure {
+    width: 20%;
+    margin-top: 16px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.voice-item figure:hover {
+    opacity: .6;
+}
+.voice-item p {
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 600;
+    margin-top: 16px;
+}
+@media print, screen and (max-width: 1170px) {
+    .voice {
+    padding: 0;
+    }
+}
+@media print, screen and (max-width: 1000px) {
+.voice-head {
+    font-size: 15px;
+}
+.voice-title {
+    font-size: 28px;
+}
+.voice-topic {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.voice-flex {
+    flex-wrap: wrap;
+}
+.voice-box {
+    width: 100%;
+}
+.voice-box figure {
+    width: 30%;
+}
+.voice-box p {
+    font-size: 18px;
+}
+.voice-item {
+    width: 100%;
+    border: 4px solid #0071bb;
+    margin-top: 16px;
+    padding: 20px;
+    background-color: #fff;
+}
+.voice-item h4 {
+    font-size: 18px;
+}
+.voice-item figure {
+    width: 40%;
+}
+.voice-item p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+}
+// voiceセクションここまで
+
+
 </style>
