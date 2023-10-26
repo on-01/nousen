@@ -146,7 +146,7 @@
                     </div>
                     <div class="voice-comment">
                       <div class="voice-item">
-                            <h4 v-on:click="toggleVoice(6)">【能センについて】</h4>
+                            <h4 v-on:click="toggleVoice(6)" class="voice-item-first">【能センについて】</h4>
                             <p v-show="isVoice === 6">
                               ・最初は怪しい名前だと思ったけど、講習会受けてみたらかなり良くて、スタッフの対応もとてもよかったです！<br>
                               ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
@@ -836,6 +836,13 @@ export default {
     font-weight: 600;
     margin-top: 16px;
 }
+.voice-item-first {
+  cursor: pointer;
+}
+.voice-item-first:hover {
+  opacity: .6;
+}
+
 @media print, screen and (max-width: 1170px) {
 .voice {
   padding: 0;
