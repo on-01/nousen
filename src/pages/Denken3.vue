@@ -179,10 +179,10 @@
                             <h4>【電力】</h4>
                             <div class="voice-item-flex">
                               <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
-                              <p> ・自動制御が非常に分かりやすかった。<br>
-                                  ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
-                                  ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
-                                  ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                              <p> ・図解が分かりやすかった。<br>
+                                  ・出題傾向を変えながら要点を教えていただけた。<br>
+                                  ・単位の重要性を改めて実感しました。式計算する時に式を立てるだけでなく式の中でも単位を使用してみようと思います。<br>
+                                  ・学習範囲を明確にすることができた。
                               </p>
                             </div>
                             <div v-show="isVoice === 3" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></div>
