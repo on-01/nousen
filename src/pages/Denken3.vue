@@ -477,7 +477,11 @@ export default {
       this.isActive = num;
     },
     toggleVoice: function(num) {
-      this.isVoice = num;
+        if (this.isVoice === num) {
+        this.isVoice = 0;
+      } else {
+        this.isVoice = num;
+      }
     },
     navigateToSection() {
     // ユーザーエージェントを取得
