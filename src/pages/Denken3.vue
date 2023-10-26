@@ -146,55 +146,70 @@
                     </div>
                     <div class="voice-comment">
                       <div class="voice-item">
-                            <h4 v-on:click="toggleVoice(6)" class="voice-item-first">【能センについて】</h4>
-                            <p v-show="isVoice === 6">
+                            <h4>【能センについて】</h4>
+                            <p>
                               ・最初は怪しい名前だと思ったけど、講習会受けてみたらかなり良くて、スタッフの対応もとてもよかったです！<br>
                               ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
                             </p>
                         </div>
                         <div class="voice-item">
                             <h4>【基礎講座】</h4>
-                            <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></figure>
-                            <p v-show="isVoice === 1">・休憩が細かくあり、集中してのぞめた。<br>
-                                ・現場の実例があり、公式や問題の意味が理解できた。<br>
-                                ・質問（個別）時間を設けて頂いたのは、非常にありがたかった。<br>
-                                ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
-                            </p>
+                            <div class="voice-item-flex">
+                              <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></figure>
+                              <p>・休憩が細かくあり、集中してのぞめた。<br>
+                                  ・現場の実例があり、公式や問題の意味が理解できた。<br>
+                                  ・質問（個別）時間を設けて頂いたのは、非常にありがたかった。<br>
+                                  ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
+                              </p>
+                            </div>
+                            <div v-show="isVoice === 1" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></div>
                         </div>
                         <div class="voice-item">
                             <h4>【理論】</h4>
-                            <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></figure>
-                            <p v-show="isVoice === 2">・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
-                                また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
-                                調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
-                            </p>
+                            <div class="voice-item-flex">
+                              <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></figure>
+                              <p>・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
+                                  また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
+                                  調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
+                              </p>
+                            </div>
+                            <div v-show="isVoice === 2" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></div>
                         </div>
                         <div class="voice-item">
                             <h4>【電力】</h4>
-                            <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
-                            <p v-show="isVoice === 3"> ・自動制御が非常に分かりやすかった。<br>
-                                ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
-                                ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
-                                ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
-                            </p>
+                            <div class="voice-item-flex">
+                              <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
+                              <p v-show="isVoice === 3"> ・自動制御が非常に分かりやすかった。<br>
+                                  ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
+                                  ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
+                                  ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                              </p>
+                            </div>
+                            <div v-show="isVoice === 3" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></div>
                         </div>
                         <div class="voice-item">
                             <h4>【機械】</h4>
-                            <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></figure>
-                            <p v-show="isVoice === 4"> ・自動制御が非常に分かりやすかった。<br>
-                                ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
-                                ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
-                                ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
-                            </p>
+                            <div class="voice-item-flex">
+                              <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></figure>
+                              <p v-show="isVoice === 4"> ・自動制御が非常に分かりやすかった。<br>
+                                  ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
+                                  ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
+                                  ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                              </p>
+                            </div>
+                            <div v-show="isVoice === 4" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></div>
                         </div>
                         <div class="voice-item">
                             <h4>【法規】</h4>
-                            <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></figure>
-                            <p v-show="isVoice === 5"> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
-                                ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
-                                ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
-                                ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
-                            </p>
+                            <div class="voice-item-flex">
+                              <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></figure>
+                              <p v-show="isVoice === 5"> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
+                                  ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
+                                  ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
+                                  ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
+                              </p>
+                            </div>
+                            <div v-show="isVoice === 5" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></div>
                         </div>
                     </div>
                 </div>
@@ -470,7 +485,7 @@ export default {
   data() {
     return {
       isActive: 1,
-      isVoice: 6,
+      isVoice: 1,
     };
   },
   methods: {
@@ -821,6 +836,11 @@ export default {
     color: #000;
     margin: 0;
 }
+.voice-item-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .voice-item figure {
     width: 20%;
     margin: 16px 0 0;
@@ -835,12 +855,14 @@ export default {
     line-height: 2;
     font-weight: 600;
     margin-top: 16px;
+    width: 70%;
 }
-.voice-item-first {
-  cursor: pointer;
+.voice-item:first-of-type p {
+    width: 100%;
 }
-.voice-item-first:hover {
-  opacity: .6;
+.voice-upImage img {
+    margin: 20px auto 0;
+    border: 1px solid #000;
 }
 
 @media print, screen and (max-width: 1170px) {
@@ -881,6 +903,10 @@ export default {
 .voice-item h4 {
     font-size: 18px;
 }
+.voice-item-flex {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .voice-item figure {
     width: 40%;
     margin: 8px 0 0;
@@ -888,9 +914,9 @@ export default {
 .voice-item p {
     font-size: 14px;
     line-height: 1.7;
+    width: 100%;
 }
 }
 // voiceセクションここまで
-
 
 </style>
