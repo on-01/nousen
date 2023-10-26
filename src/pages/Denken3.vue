@@ -775,7 +775,7 @@ export default {
     justify-content: space-between;
 }
 .voice-box {
-    width: 48%;
+    width: 46%;
     border: 4px solid #0071bb;
     display: flex;
     justify-content: space-between;
@@ -827,6 +827,9 @@ export default {
     }
 }
 @media print, screen and (max-width: 1000px) {
+.voice-inner {
+    width: auto;
+}
 .voice-head {
     font-size: 15px;
 }
@@ -850,11 +853,7 @@ export default {
     font-size: 18px;
 }
 .voice-item {
-    width: 100%;
-    border: 4px solid #0071bb;
-    margin-top: 16px;
-    padding: 20px;
-    background-color: #fff;
+    width: auto;
 }
 .voice-item h4 {
     font-size: 18px;
