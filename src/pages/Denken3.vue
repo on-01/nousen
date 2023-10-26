@@ -815,7 +815,7 @@ export default {
 }
 .voice-item figure {
     width: 20%;
-    margin-top: 16px;
+    margin: 16px 0 0;
     border: 1px solid #000;
     cursor: pointer;
 }
@@ -829,9 +829,9 @@ export default {
     margin-top: 16px;
 }
 @media print, screen and (max-width: 1170px) {
-    .voice {
-    padding: 0;
-    }
+.voice {
+  padding: 0;
+}
 }
 @media print, screen and (max-width: 1000px) {
 .voice-inner {
