@@ -162,7 +162,7 @@ export default {
 
 @media print, screen and (max-width: 1000px) {
 .quality {
-    padding-bottom: 90px;
+    padding-bottom: 40px;
 }
 .quality-wrap {
     width: 90%;
