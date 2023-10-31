@@ -98,6 +98,7 @@ export default {
 .cheer-title {
     font-size: 30px;
     padding-left: 0;
+    padding-top: 0;
 }
 }
 
