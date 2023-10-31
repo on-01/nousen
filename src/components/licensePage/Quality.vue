@@ -72,8 +72,7 @@ export default {
     width: 100%;
     background-color: #ebf7ff;
     font-family: 'メイリオ', sans-serif;
-    padding: 20px 0 70px;
-    margin-bottom: 40px;
+    padding: 20px 0 110px;
 }
 .quality-wrap {
     max-width: 1170px;
@@ -163,7 +162,7 @@ export default {
 
 @media print, screen and (max-width: 1000px) {
 .quality {
-    margin-bottom: 20px;
+    padding-bottom: 90px;
 }
 .quality-wrap {
     width: 90%;
