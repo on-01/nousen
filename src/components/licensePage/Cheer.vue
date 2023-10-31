@@ -67,12 +67,15 @@ export default {
 }
 
 @media print, screen and (max-width: 1200px) {
-    .cheer-title {
+.cheer-title {
     font-size: 42px;
 }
 }
 
 @media print, screen and (max-width: 1000px) {
+.cheer {
+    margin-top: -14px;
+}
 .cheer-section {
     flex-wrap: wrap
 }
