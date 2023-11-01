@@ -14,7 +14,7 @@
                     <div class="quality-description">
                         <p class="quality-title" v-html="title_1"></p>
                         <p class="quality-line"></p>
-                        <p class="explanation-text" v-html="text_1"></p>
+                        <p class="quality-text" v-html="text_1"></p>
                     </div>
                 </div>
                 <div class="quality-box">
@@ -28,7 +28,7 @@
                     <div class="quality-description">
                         <p class="quality-title" v-html="title_2"></p>
                         <p class="quality-line"></p>
-                        <p class="explanation-text" v-html="text_2"></p>
+                        <p class="quality-text" v-html="text_2"></p>
                     </div>
                 </div>
                 <div class="quality-box">
@@ -42,7 +42,7 @@
                     <div class="quality-description">
                         <p class="quality-title" v-html="title_3"></p>
                         <p class="quality-line"></p>
-                        <p class="explanation-text" v-html="text_3"></p>
+                        <p class="quality-text" v-html="text_3"></p>
                     </div>
                 </div>
             </div>
@@ -155,8 +155,8 @@ export default {
 }
 
 .quality-text {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 15px;
+    line-height: 1.8;
     margin: 0;
 }
 
