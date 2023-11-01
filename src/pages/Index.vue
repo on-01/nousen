@@ -4,8 +4,8 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            電験三種【オンライン講座】大好評受付中！<br>
-            令和６年度に向けて講師募集中！お気軽にお問い合わせください。
+            令和５年度 電験三種【オンライン講座】大好評受付中！<br>
+            令和６年度 電験三種【通学講座】受付開始しました！
           </g-link>
         </p>
         <img

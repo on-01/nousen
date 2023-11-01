@@ -66,7 +66,7 @@ export default {
     margin-left: 12px;
 }
 .study-text {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.8;
     margin-top: 20px;
     max-width: 870px;
