@@ -855,7 +855,7 @@ export default {
 }
 .voice-item p {
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.8;
     font-weight: 600;
     margin-top: 16px;
     width: 70%;

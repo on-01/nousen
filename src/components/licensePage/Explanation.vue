@@ -69,7 +69,10 @@ export default {
     line-height: 1.8;
     margin-top: 10px;
 }
-
+.denken3 .explanation-text {
+    font-size: 15px;
+    margin-top: -4px;
+    }
 
 @media print, screen and (max-width: 1000px) {
     .explanation {
@@ -91,10 +94,6 @@ export default {
 
     .denken3 .explanation {
     display: none;
-    }
-    .denken3 .explanation-text {
-    font-size: 15px;
-    margin-top: -4px;
     }
 }
 
