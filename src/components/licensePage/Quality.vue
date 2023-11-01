@@ -129,7 +129,7 @@ export default {
     } */
 
 .quality-description {
-    padding: 20px 20px 0;
+    padding: 20px 20px 10px;
 }
 .quality-title {
     font-weight: bold;
@@ -155,7 +155,7 @@ export default {
 }
 
 .quality-text {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.8;
     margin: 0;
 }
