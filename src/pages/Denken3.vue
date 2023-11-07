@@ -878,6 +878,9 @@ export default {
 .voice {
   padding: 0;
 }
+.voice-inner {
+    width: auto;
+}
 }
 @media print, screen and (max-width: 1000px) {
 .voice-inner {

@@ -72,7 +72,7 @@ export default {
 }
 }
 
-@media print, screen and (max-width: 1000px) {
+@media print, screen and (max-width: 980px) {
 .cheer {
     margin-top: -14px;
 }
