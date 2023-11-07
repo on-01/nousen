@@ -7,7 +7,7 @@
             <p class="study-time" v-if="name1">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
             <p class="study-time" v-if="name2">{{ name2 }}<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
             <p class="study-text pc-only" v-html="pc_text"></p>
-            <p class="study-text tab-only" v-html="sp_text"></p>
+            <p class="study-text tab-only" v-if="sp_text" v-html="sp_text"></p>
         </div>
     </div>
 </template>
