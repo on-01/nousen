@@ -6,21 +6,23 @@
             <p class="study-line"></p>
             <p class="study-time" v-if="name1">{{ name1 }}<br class="sp-only"><span>{{ time1 }}</span> 時間</p>
             <p class="study-time" v-if="name2">{{ name2 }}<br class="sp-only"><span>{{ time2 }}</span> 時間</p>
-            <p class="study-text" v-html="text"></p>
+            <p class="study-text pc-only" v-html="pc_text"></p>
+            <p class="study-text tab-only" v-html="sp_text"></p>
         </div>
     </div>
 </template>
 
 <script>
 export default {
- props: {
-   name1: String,
-   time1: String,
-   name2: String,
-   time2: String,
-   text: String,
-   studySlug: String,
- } 
+    props: {
+    name1: String,
+    time1: String,
+    name2: String,
+    time2: String,
+    pc_text: String,
+    sp_text: String,
+    studySlug: String,
+    } 
 }
 </script>
 
@@ -75,12 +77,26 @@ export default {
 }
 
 .sp-only {
-  display: none;
+    display: none;
+}
+.tab-only {
+    display: none;
+}
+.pc-only {
+    display: block;
 }
 
 @media print, screen and (max-width: 1000px) {
     .study {
         width: 90%;
+    }
+
+    .tab-only {
+        display: block;
+    }
+
+    .pc-only {
+        display: none;
     }
 }
 
