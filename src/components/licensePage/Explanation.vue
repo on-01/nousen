@@ -64,7 +64,7 @@ export default {
 }
 
 .explanation-text {
-    width: 68%;
+    width: 66%;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;

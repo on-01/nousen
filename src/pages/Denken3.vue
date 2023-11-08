@@ -241,6 +241,10 @@
               ]"
             /> -->
 
+        <CampaignDenken3 
+        date="２０２４年１月３１日（日）"
+        />
+
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
                 只今『お友達登録キャンペーン』で全講座に使える1000円割引キャンペーンコードをプレゼント！<br>
@@ -412,6 +416,7 @@ import Hero from "@/components/Hero.vue";
 // import Point from "@/components/licensePage/Point.vue";
 import Explanation from "@/components/licensePage/Explanation.vue";
 import SpExplanation from "@/components/licensePage/SpExplanation.vue";
+import CampaignDenken3 from "@/components/licensePage/CampaignDenken3.vue";
 import Study from "@/components/licensePage/Study.vue";
 import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
@@ -473,6 +478,7 @@ export default {
     // Point,
     Explanation,
     SpExplanation,
+    CampaignDenken3,
     Study,
     Linelink,
     NewPvMovie,
