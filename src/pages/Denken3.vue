@@ -242,7 +242,7 @@
             /> -->
 
         <CampaignDenken3 
-        date="２０２４年１月３１日（日）"
+        date="２０２４年１月３１日（水）"
         />
 
         <Linelink 
