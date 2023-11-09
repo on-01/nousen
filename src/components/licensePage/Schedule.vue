@@ -219,6 +219,7 @@ export default {
     font-size: 16px;
     }
     .schedule {
+        width: 90%;
         font-size: 12px;
     }
 }
