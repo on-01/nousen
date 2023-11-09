@@ -2,7 +2,7 @@
     <div class="schedule">
         <div class="schedule-inner">
             <p class="schedule-title">{{ title }}</p>
-            <p class="schedule-line"></p>
+            <div class="schedule-line"></div>
             <p class="schedule-tableTitle">令和５年度　第三種電気主任技術者　各種日程　</p>
             <div class="schedule-table-wrap">
             <table class="schedule-table">
@@ -125,7 +125,7 @@ export default {
     width: 10%;
     height: 4px;
     background: #249ef0;
-    margin: 20px auto 40px;
+    margin: 20px auto 30px;
     border-radius: 8px;
 }
 .schedule-tableTitle {
