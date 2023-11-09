@@ -37,6 +37,10 @@
             :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
 
+        <Schedule
+            title="試験日・受験申請・合格発表は？"
+        />
+
         <div class="exam-link-wrapper -column">
           <g-link to="/licenses/#denken" class="exam-link">
             試験概要はこちら
@@ -435,6 +439,7 @@ import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+import Schedule from '../components/licensePage/Schedule.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -495,6 +500,7 @@ export default {
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight,
+    Schedule
   },
   data() {
     return {
