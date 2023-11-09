@@ -108,6 +108,10 @@ export default {
     font-family: 'Meiryo', sans-serif;
     font-size: 15px;
 }
+
+.schedule p {
+    margin: 0;
+}
 .schedule-inner {
     padding: 20px 60px;
 }
