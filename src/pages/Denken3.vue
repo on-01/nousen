@@ -38,7 +38,7 @@
         />
 
         <Schedule
-            title="試験日・受験申請・合格発表は？"
+            title="試験日・受験申請・合格発表日"
         />
 
         <div class="exam-link-wrapper -column">
