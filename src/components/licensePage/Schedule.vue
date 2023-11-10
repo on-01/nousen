@@ -54,13 +54,17 @@
                         </div>
                     </div>
                 </td>
-                <td>
-                    <p><del>７，７００円</del></p>
-                    <p><del>８，１００円</del></p>
+                <td class="schedule-padding-none">
+                    <div>
+                        <p class="schedule-td-flex-right-top schedule-table-padding"><del>７，７００円</del></p>
+                        <p class="schedule-table-padding"><del>８，１００円</del></p>
+                    </div>
                 </td>
-                <td>
-                    <p>７，７００円</p>
-                    <p>８，１００円</p>
+                <td class="schedule-padding-none">
+                    <div>
+                        <p class="schedule-td-flex-right-top schedule-table-padding">７，７００円</p>
+                        <p class="schedule-table-padding">８，１００円</p>
+                    </div>
                 </td>
             </tr>
             </table>
@@ -70,6 +74,7 @@
                 <p class="schedule-emphasis-text">試験は上期試験と下期試験の年２回になります。
                 <br>上期試験が落ちてもそのまま勉強を続けて下期試験で合格する方もいます。</p>
                 <br>
+                <p>【受験申請】</p>
                 <p>・インターネットによる申込みは初日１０時から最終日の１７時まで、郵便による書面申込みは最終日の消印有効となります。 </p>
                 <p>・一次試験免除で申込みされる方も上記期間の申込みとなります。 </p>
                 <p>・受験案内・申込書は、各申込受付開始の約１週間前から配布します。 </p>
