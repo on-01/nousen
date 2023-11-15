@@ -1517,6 +1517,7 @@ export default {
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 28px;
+    font-family: 'メイリオ', sans-serif;
 }
 
 .top-youtube-movie {
