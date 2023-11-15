@@ -1513,11 +1513,15 @@ export default {
 }
 .top-youtube {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 28px;
     font-family: 'メイリオ', sans-serif;
+}
+
+.top-youtube p {
+  margin: 0;
 }
 
 .top-youtube-movie {
@@ -1527,6 +1531,7 @@ export default {
 @media print, screen and (max-width: 560px) {
 .top-youtube {
     max-width: 90%;
+    margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     font-size: 24px;
