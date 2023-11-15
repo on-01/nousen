@@ -157,6 +157,13 @@
         <p class="section-name">News</p>
         <News />
       </section>
+
+      <div class="top-youtube">
+        <p>【全ての受験生へ】</p>
+        <iframe class="top-youtube-movie" width="560" height="315" src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+      </div>
+
       <section class="section03">
         <h2 class="section-title">
           <img
@@ -1502,6 +1509,31 @@ export default {
     .top_right, .top_left {
         display: none;
     }
+}
+.top-youtube {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.top-youtube-movie {
+    margin: 10px auto;
+}
+
+@media print, screen and (max-width: 560px) {
+.top-youtube {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.top-youtube-movie {
+    margin: 10px auto;
+    width: 100%;
+}
 }
 
 </style>
