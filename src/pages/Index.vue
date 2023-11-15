@@ -160,7 +160,7 @@
 
       <div class="top-youtube">
         <p>【全ての受験生へ】</p>
-        <iframe class="top-youtube-movie" width="560" height="315" src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        <iframe class="top-youtube-movie" width="560" height="315" src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </div>
 
@@ -1028,7 +1028,8 @@ export default {
 }
 .section03 {
   position: relative;
-  margin-top: -200px;
+  margin-top: -237px;
+  z-index: -1;
   @media print, screen and (max-width: 1000px) {
     margin-top: 0;
     }
