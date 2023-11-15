@@ -7,10 +7,11 @@
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic">早割キャンペーン</p>
+                    <p class="campaign-topic">早割キャンペーン開催！（通学講座）</p>
                     <ul class="campaign-content">
-                        <li>・通学講座【{{ date }}】まで早割キャンペーン開催！</li>
-                        <li>全科目セット・４科目セットが対象です。</li>
+                        <li class="campaign-emphasis">・能センでは{{ date }}まで【早割キャンペーン】を開催します！</li>
+                        <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります。</li>
+                        <li>早いスタートが合格への近道です！</li>
                     </ul>
                 </div>
             </div>
@@ -19,10 +20,10 @@
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_2.jpg">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic">電気主任技術者のバイブル</p>
+                    <p class="campaign-topic">電気主任技術者のバイブルを進呈</p>
                     <ul class="campaign-content">
                         <li>・電験男子・電験女子のバイブルと言えばオーム社さんの【新電気】。その最新号を進呈！</li>
-                        <li>【基礎講座】または【全科目セット】受講の方が対象です（通学・オンライン講座）。</li>
+                        <li>・【基礎講座】または【全科目セット】受講の方が対象です（通学・オンライン・通信）</li>
                         <li>※お申込み時期によっては前月号になる場合もあります。</li>
                     </ul>
                 </div>
@@ -36,6 +37,7 @@
                     <ul class="campaign-content">
                         <li>・過去の試験問題10年分を進呈します（通学・オンライン・通信講座）</li>
                         <li>・メールアドレスが必要になります。</li>
+                        <li>電験三種の試験突破には過去問題を多く解くことが非常に重要な役割を果たします。</li>
                     </ul>
                 </div>
             </div>
@@ -44,10 +46,11 @@
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic">出題分析</p>
+                    <p class="campaign-topic">出題分析を進呈</p>
                     <ul class="campaign-content">
-                        <li>能セン講座の合格率が高い理由の一つである【出題分析】を受講生全員に進呈します。</li>
-                        <li>ベテラン講師の分析結果で一気に合格へと近づきます！</li>
+                        <li>・能セン講座の合格率が高い理由の一つである【出題分析】。こちらを受講生全員に進呈！</li>
+                        <li>・過去の出題傾向を把握して対策を立てられます。</li>
+                        <li>通学講座・オンライン講座では出題傾向による対策を毎年講義で行っております。</li>
                     </ul>
                 </div>
             </div>
@@ -125,6 +128,10 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 }
 .campaign-content li span{
     color: #ff0000
+}
+
+.campaign-emphasis {
+    color: #005a9e;
 }
 
 
