@@ -1531,7 +1531,6 @@ export default {
 @media print, screen and (max-width: 800px) {
 .top-youtube {
     max-width: 90%;
-    height: 315px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -1541,6 +1540,7 @@ export default {
 .top-youtube-movie {
     margin: 10px auto;
     width: 100%;
+    height: 315px;
 }
 }
 
