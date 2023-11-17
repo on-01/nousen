@@ -152,6 +152,8 @@ export default {
 
 .schedule-details {
     font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .schedule p {
@@ -234,7 +236,7 @@ export default {
     padding: 17px 0;
 }
 .schedule-table-padding-type2 {
-    padding: 8px 0;
+    padding: 5px 0;
 }
 .schedule-table-note {
     color: red;
@@ -267,6 +269,10 @@ export default {
 @media print, screen and (max-width: 1110px) {
     .schedule-inner {
     padding: 20px;
+    }
+    .schedule-details {
+    padding-right: 0px;
+    padding-left: 0px;
 }
     .schedule-title {
     font-size: 20px;
