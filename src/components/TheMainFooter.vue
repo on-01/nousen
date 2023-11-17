@@ -258,29 +258,22 @@
 }
 
 .eco-image {
-  // font-size: 11px;
-  @media print, screen and(min-width: 1001px) {
-    position: absolute;
-    z-index: 1;
-    bottom: -10.8rem;
-    left: 45%;
-    font-size: 14px;
-  }
-  // & p {
-  //   margin: 0;
-  //   font-weight: normal;
-  //   text-align: center;
-  // }
-  // a {
-    display: block;
+  display: block;
+    @media print, screen and(min-width: 1001px) {
+      position: absolute;
+      z-index: 1;
+      bottom: -10.8rem;
+      left: 45%;
+      font-size: 14px;
+    }
     img {
-      width: 36px;
-      margin-left: 1.5em;
+      width: 130px;
+      transform: translateX(-30px);
       @media print, screen and(max-width: 1000px) {
         margin-left: 1.2em;
+        transform: translateX(0px);
       }
     }
-  // }
 }
 
 .application {
