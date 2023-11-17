@@ -270,14 +270,8 @@ dd {
 }
 
 .company-image img{
-    margin: 0 auto;
+    margin: 40px auto 0;
+    display: block;
 }
-
-@media print, screen and (max-width: 1000px) {
-.company-image img{
-    width: 90%;
-}
-}
-
 
 </style>
