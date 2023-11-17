@@ -207,7 +207,7 @@ export default {
   max-width: 970px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 80px;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }

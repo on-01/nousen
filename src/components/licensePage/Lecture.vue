@@ -6,7 +6,7 @@
                     <img :src="imagePath">
                 </figure>
                 <div class="lecture-description">
-                    <p class="lecture-title">{{ title }}</p>
+                    <p class="lecture-title" v-html="title"></p>
                     <p class="lecture-line"></p>
                     <p class="lecture-text">{{ text }}</p>
                 </div>
