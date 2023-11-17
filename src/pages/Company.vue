@@ -6,6 +6,11 @@
         :backImgUnder="require('../assets/img/company/company_hero_sp.jpg')"
         title="会社概要"
       />
+
+      <figure class="company-image">
+          <img src="../assets/img/company/company_message.jpg">
+      </figure>
+
       <div class="contents">
         <section class="info section">
           <h3 class="section-title">企業情報</h3>
@@ -263,5 +268,16 @@ dd {
 .section-text {
   text-align: center;
 }
+
+.company-image img{
+    margin: 0 auto;
+}
+
+@media print, screen and (max-width: 1000px) {
+.company-image img{
+    width: 90%;
+}
+}
+
 
 </style>
