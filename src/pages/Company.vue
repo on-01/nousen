@@ -269,6 +269,9 @@ dd {
   text-align: center;
 }
 
+.company-image {
+  margin: 0;
+}
 .company-image img{
     margin: 40px auto 0;
     display: block;
