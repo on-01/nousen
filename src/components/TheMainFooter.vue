@@ -42,7 +42,7 @@
                 <g-link to="/privacy">プライバシーポリシー</g-link>
               </p>
             </div>
-            <div class="sns-link twitter-link">
+            <!-- <div class="sns-link twitter-link">
               <a href="https://twitter.com/nouryoku1983" target="_blank">
                 <p>公式 Twitter</p>
                 <img
@@ -61,6 +61,9 @@
                   height="30"
                 />
               </a>
+            </div> -->
+            <div class="eco-image">
+                <img src="../assets/img/common/eco.jpg"  width="70" height="70" alt="eco" />
             </div>
           </div>
         </div>
@@ -254,8 +257,8 @@
   }
 }
 
-.sns-link {
-  font-size: 11px;
+.eco-image {
+  // font-size: 11px;
   @media print, screen and(min-width: 1001px) {
     position: absolute;
     z-index: 1;
@@ -263,12 +266,12 @@
     left: 45%;
     font-size: 14px;
   }
-  & p {
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-  }
-  a {
+  // & p {
+  //   margin: 0;
+  //   font-weight: normal;
+  //   text-align: center;
+  // }
+  // a {
     display: block;
     img {
       width: 36px;
@@ -277,7 +280,7 @@
         margin-left: 1.2em;
       }
     }
-  }
+  // }
 }
 
 .application {
