@@ -113,6 +113,22 @@
           </a>
         </div>
       </div>
+
+      <div class="sns">
+        <a href="https://www.facebook.com/nousen2023" target="_blank">
+            <img src="../assets/img/common/FB.jpg" width="60" height="60" alt="FB" />
+        </a>
+        <a href="https://page.line.me/947ygtge?openQrModal=true" target="_blank">
+            <img src="../assets/img/common/LINE.jpg"  width="60" height="60" alt="LINE" />
+        </a>
+        <a href="https://twitter.com/nouryoku1983" target="_blank">
+            <img src="../assets/img/common/Twitter.jpg"  width="60" height="60" alt="Twitter" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCxEEViJd9b6s4fhZeg0dleQ" target="_blank">
+            <img src="../assets/img/common/YouTube.jpg"  width="60" height="60" alt="Youtube" />
+        </a>
+    </div>
+
     </div>
   </div>
 </template>
@@ -369,6 +385,17 @@
   height: 100%;
   display: block;
 }
+}
+
+.sns {
+    display: flex;
+    @media print, screen and(max-width: 1000px) {
+      justify-content: center;
+    }
+}
+
+.sns a:hover {
+    opacity: .8;
 }
 
 </style>
