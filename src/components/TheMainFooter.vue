@@ -391,6 +391,7 @@
     display: flex;
     @media print, screen and(max-width: 1000px) {
       justify-content: center;
+      margin-top: 20px;
     }
 }
 
