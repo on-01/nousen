@@ -48,7 +48,7 @@
                 <td>１１月１１日（月）～１１月２８日（木）</td>
             </tr>
             <tr>
-                <td class="schedule-td-bold schedule-td-border-none schedule-table-padding">試験結果発表日（筆記方式）<span class="schedule-table-note"> ※3</span></td>
+                <td class="schedule-td-bold schedule-td-border-none schedule-table-padding">試験結果発表日（筆記方式）</td>
                 <td>令和６年４月頃</td>
                 <td>令和６年９月頃</td>
                 <td>令和７年４月頃</td>
@@ -147,7 +147,7 @@ export default {
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .schedule-details {
