@@ -236,7 +236,7 @@ export default {
     padding: 17px 0;
 }
 .schedule-table-padding-type2 {
-    padding: 5px 0;
+    padding: 3px 0;
 }
 .schedule-table-note {
     color: red;
