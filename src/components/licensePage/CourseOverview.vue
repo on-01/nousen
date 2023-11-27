@@ -266,7 +266,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 20px auto 0;
+    margin: 20px auto;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
@@ -351,7 +351,9 @@ export default {
     font-weight: 700;
 }
 @media print, screen and (max-width: 768px) {
-
+.courseOverview {
+    width: 90%;
+}
 .courseOverview-inner {
     padding: 40px 20px;
 }
