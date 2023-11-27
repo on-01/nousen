@@ -9,7 +9,7 @@
           :backImgUnder="
             require('../assets/img/license_page/bg_white.jpg')
           "
-          title="第三種電気主任技術者<br/>（電験三種）"
+          title="令和5年度 下期 / 令和6年度 上期<br/>第三種電気主任技術者<br/>（電験三種）"
           subTitle="通学講座 | オンライン講座 | 通信講座"
           color="#1D9BF0"
           :icon="require('../assets/img/icon/qualification/denken.svg')"
@@ -251,7 +251,7 @@
 
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
-                只今『お友達登録キャンペーン』で全講座に使える1000円割引キャンペーンコードをプレゼント！<br>
+                只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
                 期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
           />
 
