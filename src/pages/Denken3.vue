@@ -93,6 +93,10 @@
 
       <div class="bg-lightBlue">
 
+      <courseOverview
+        title="通学講座"
+      />
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -440,6 +444,7 @@ import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 import Schedule from '../components/licensePage/Schedule.vue';
+import Schedule from '../components/licensePage/CourseOverview.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -500,7 +505,8 @@ export default {
     IconBase,
     IconDoubleArrowRight,
     IconArrowRight,
-    Schedule
+    Schedule,
+    CourseOverview
   },
   data() {
     return {
