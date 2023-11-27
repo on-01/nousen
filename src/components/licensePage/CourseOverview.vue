@@ -378,8 +378,8 @@ export default {
 }
 .courseOverview table {
     border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
+    border-right: none;
+    border-left: none;
     margin: 20px auto;
     width: 100%;
 }
@@ -387,13 +387,16 @@ export default {
     flex-wrap: wrap;
 }
 .courseOverview th {
-    border-right: none;
     border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     width: 100%;
     font-size: 14px;
     line-height: 1.6;
 }
 .courseOverview td {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
     width: 100%;
     font-size: 14px;
     line-height: 1.6;
