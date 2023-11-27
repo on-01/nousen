@@ -137,17 +137,24 @@ export default {
 }
 
 @media print, screen and (max-width: 980px) {
-  .denken3 .hero-inner,
   .doboku .hero-inner,
   .kenchiku .hero-inner
   {
     height: 240px;
   }
-  .denken3 .title-wrapper, 
   .doboku .title-wrapper, 
   .kenchiku .title-wrapper
   {
     top: 60%;
+  }
+  .denken3 .hero-inner
+  {
+    height: 280px;
+  }
+  .denken3 .title-wrapper
+  {
+    top: 60%;
+    padding: 1.2rem;
   }
 }
 
