@@ -93,7 +93,7 @@
 
       <div class="bg-lightBlue">
 
-      <courseOverview
+      <CourseOverview
         title="通学講座"
       />
 
@@ -444,7 +444,7 @@ import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 import Schedule from '../components/licensePage/Schedule.vue';
-import Schedule from '../components/licensePage/CourseOverview.vue';
+import CourseOverview from '../components/licensePage/CourseOverview.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
