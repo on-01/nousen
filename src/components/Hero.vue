@@ -11,6 +11,7 @@
       <div v-if="icon" class="icon">
         <img :src="icon" alt="">
       </div>
+      <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
       <p v-if="subTitle" class="sub-title" v-html="subTitle"></p>
     </div>
@@ -29,6 +30,7 @@ export default {
     backImgUnder: String,
     title: String,
     subTitle: String,
+    headTitle: String,
     color: {},
     icon: String
   },
