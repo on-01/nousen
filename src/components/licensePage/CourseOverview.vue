@@ -72,7 +72,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th class="red">
                                 お得なキャンペーン
                             </th>
                             <td>
@@ -158,7 +158,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th class="red">
                                 お得なキャンペーン
                             </th>
                             <td>
@@ -173,7 +173,7 @@
             </div>
             <br>
             <div class="courseOverview-content">
-                <p class="courseOverview-title">通信講座</p>
+                <p class="courseOverview-title">通 信 講 座</p>
                 <div class="courseOverview-line"></div>
                 <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
                 <p class="courseOverview-text -type3">合格者を多数輩出した大嶋先生監修の通信講座（6ヶ月コース）</p>
@@ -236,7 +236,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>
+                            <th class="red">
                                 お得なキャンペーン
                             </th>
                             <td>
@@ -275,7 +275,7 @@ export default {
     margin: 0;
 }
 .courseOverview-inner {
-    padding: 40px;
+    padding: 40px 90px;
 }
 .courseOverview-title {
     font-weight: bold;
@@ -349,6 +349,9 @@ export default {
 }
 .courseOverview td span {
     font-weight: 700;
+}
+.red {
+    color: red;
 }
 @media print, screen and (max-width: 768px) {
 .courseOverview {
