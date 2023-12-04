@@ -206,10 +206,10 @@ export default {
 .contents {
   max-width: 970px;
   width: 100%;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: 60px auto 0;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
+    margin: 50px auto 0;
   }
 }
 .section {
