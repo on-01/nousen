@@ -1214,12 +1214,14 @@ export default {
     font-weight: 700;
     padding-top: 10px;
     line-height: 1.8;
+    letter-spacing: 0.1em;
 }
 .last-message-text2 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     padding-top: 10px;
     line-height: 1.6;
+    letter-spacing: 0.1em;
 }
 .last-message-text3 {
     font-size: 14px;
@@ -1227,6 +1229,7 @@ export default {
     padding-top: 10px;
     padding-bottom: 8px;
     line-height: 1.6;
+    letter-spacing: 0.1em;
 }
 .last-message-text3 a {
     text-decoration: underline;
