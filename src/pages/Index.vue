@@ -310,8 +310,8 @@
                 「こどもの未来応援基金」へ寄付をいたします。
                 </p>
                 <p class="last-message-text3">
-                  <a @click="openLink" target="_blank">
-                    こどもの未来応援基金</a>は、
+                  <span @click="openLink" target="_blank">
+                    こどもの未来応援基金</span>は、
                     こどもの貧困対策を進めるための<br>
                     官民連携プロジェクトのひとつとして、<br>
                     ２０１５年に創設されました。<br>
