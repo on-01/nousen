@@ -1158,6 +1158,9 @@ export default {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
     .under_display {
       @media print, screen and (min-width: 1001px) {
         display: none;
@@ -1236,9 +1239,6 @@ export default {
 }
 
 @media print, screen and (max-width: 1000px) {
-.last-message {
-  width: 90%;
-}
 .last-message-description::after {
     display: none;
 }
