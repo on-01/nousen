@@ -1028,7 +1028,7 @@ export default {
 }
 .section03 {
   position: relative;
-  margin-top: -237px;
+  margin-top: -242px;
   z-index: -1;
   @media print, screen and (max-width: 1000px) {
     margin-top: 0;
