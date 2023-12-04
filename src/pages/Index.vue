@@ -1159,17 +1159,11 @@ export default {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    // font-size: 30px;
-    // text-align: center;
-    // font-weight: bold;
     .under_display {
       @media print, screen and (min-width: 1001px) {
         display: none;
       }
     }
-    // @media print, screen and (max-width: 1000px) {
-    //   font-size: 18px;
-    // }
     &:before {
       content: "";
       height: 200px;
@@ -1185,18 +1179,11 @@ export default {
         height: 100px;
       }
     }
-    // .last-message-logo {
-    //   max-width: 480px;
-    //   width: 90%;
-    //   @media print, screen and (max-width: 1000px) {
-    //     max-width: 260px;
-    //   }
-    // }
   }
 }
 .last-message-flex {
     display: flex;
-    max-width: 900px;
+    max-width: 960px;
     margin: 20px auto 0;
 }
 
@@ -1250,6 +1237,7 @@ export default {
 }
 .last-message-flex {
     width: 100%;
+    max-width: 560px;
     flex-wrap: wrap;
 }
 .last-message-logo {
