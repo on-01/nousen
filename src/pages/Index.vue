@@ -310,11 +310,11 @@
                 「こどもの未来応援基金」へ寄付をいたします。
                 </p>
                 <p class="last-message-text3">
-                <a href="http://kodomohinkon.go.jp" target="_blank">
-                こどもの未来応援基金</a>は、
-                こどもの貧困対策を進めるための<br>
-                官民連携プロジェクトのひとつとして、<br>
-                ２０１５年に創設されました。<br>
+                  <a @click="openLink" target="_blank">
+                    こどもの未来応援基金</a>は、
+                    こどもの貧困対策を進めるための<br>
+                    官民連携プロジェクトのひとつとして、<br>
+                    ２０１５年に創設されました。<br>
                 </p>
             </div>
           </div>
@@ -658,6 +658,9 @@ export default {
     window.removeEventListener("scroll", this.onScroll);
   },
   methods: {
+    openLink() {
+      window.open('https://kodomohinkon.go.jp', '_blank');
+    },
     closeNote: function() {
       this.isShow = !this.isShow;
     },
@@ -1186,7 +1189,7 @@ export default {
 }
 
 .last-message-flex p {
-  margin: 0;
+    margin: 0;
 }
 .last-message-logo {
     width: 45%;
