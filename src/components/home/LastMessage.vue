@@ -9,7 +9,7 @@
             decoding="async"
         />
         <div class="last-message-description">
-            <p class="last-message-text1">能センは子供の未来を<br>応援します!</p>
+            <p class="last-message-text1" v-html="title"></p>
             <p class="last-message-text2">日本を元気に！<br>
             子供たちが夢と希望を持って働ける世の中へ！<br>
             能センでは受講生１名につき１００円を<br>
@@ -25,6 +25,14 @@
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    props: {
+        title: String,
+    } 
+}
+</script>
 
 <style scoped lang="scss">
 .last-message-flex {

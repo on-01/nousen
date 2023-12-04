@@ -293,7 +293,9 @@
         </div>
         
         <div class="last-message">
-          <LastMessage />
+          <LastMessage 
+          title="能センは子供の未来を<br>応援します!"
+          />
         </div>
 
         <div class="btn__apply __bottom">
