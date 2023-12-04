@@ -1197,7 +1197,7 @@ export default {
 .last-message-flex {
     display: flex;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .last-message-flex p {
