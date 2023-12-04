@@ -1227,17 +1227,18 @@ export default {
     color: #0071bb;
     font-size: 28px;
     font-weight: 700;
-    padding-top: 14px;
+    padding-top: 10px;
 }
 .last-message-text2 {
     font-size: 14px;
     font-weight: 700;
-    padding-top: 14px;
+    padding-top: 10px;
 }
 .last-message-text3 {
     font-size: 14px;
     font-weight: 500;
-    padding-top: 14px;
+    padding-top: 10px;
+    padding-bottom: 8px;
 }
 .last-message-text3 a {
     text-decoration: underline;
@@ -1261,17 +1262,14 @@ export default {
 .last-message-text1 {
     text-align: center;
     font-size: 20px;
-    padding-top: 10px;
 }
 .last-message-text2 {
     text-align: center;
     font-size: 13px;
-    padding-top: 10px;
 }
 .last-message-text3 {
     text-align: center;
     font-size: 12px;
-    padding-top: 10px;
 }
 }
 
