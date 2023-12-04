@@ -310,7 +310,7 @@
                 「こどもの未来応援基金」へ寄付をいたします。
                 </p>
                 <p class="last-message-text3">
-                  <g-link to="https://kodomohinkon.go.jp/" class="online-link">
+                  <g-link to="https://kodomohinkon.go.jp/">
                     こどもの未来応援基金
                   </g-link>は、<br>
                     こどもの貧困対策を進めるための<br>
@@ -1043,7 +1043,7 @@ export default {
 .section03 {
   position: relative;
   margin-top: -242px;
-  z-index: -1;
+  // z-index: -1;
   @media print, screen and (max-width: 1000px) {
     margin-top: 0;
     }
@@ -1201,12 +1201,12 @@ export default {
 .last-message-description::after{
     content: "";
     position: absolute;
-    left: -350px;
+    left: -322px;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 562px solid transparent;
-    border-top: 138px solid #fff8cc;
+    border-left: 548px solid transparent;
+    border-top: 96px solid #fff8cc;
     transform: rotate(90deg);
 }
 .last-message-text1 {
@@ -1214,17 +1214,20 @@ export default {
     font-size: 28px;
     font-weight: 700;
     padding-top: 10px;
+    line-height: 1.8;
 }
 .last-message-text2 {
     font-size: 14px;
     font-weight: 700;
     padding-top: 10px;
+    line-height: 1.6;
 }
 .last-message-text3 {
     font-size: 14px;
     font-weight: 500;
     padding-top: 10px;
     padding-bottom: 8px;
+    line-height: 1.6;
 }
 .last-message-text3 a {
     text-decoration: underline;
