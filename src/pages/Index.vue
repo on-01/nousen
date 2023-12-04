@@ -310,10 +310,7 @@
                 「こどもの未来応援基金」へ寄付をいたします。
                 </p>
                 <p class="last-message-text3">
-                <a  
-                href="https://kodomohinkon.go.jp"
-                target="_blank"
-                >
+                <a href="https://kodomohinkon.go.jp/" target="_blank">
                 こどもの未来応援基金</a>は、
                 こどもの貧困対策を進めるための<br>
                 官民連携プロジェクトのひとつとして、<br>
