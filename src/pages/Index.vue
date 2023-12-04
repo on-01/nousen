@@ -290,23 +290,38 @@
             ]"
           />
         </div>
+        
         <div class="last-message">
-          <p>
-            日本を元気に！
-            <br class="under_display" />
-            能センでは受講生１名につき、
-            <br />
-            １００円を『こどもの未来応援基金』へ寄付をいたします。
-          </p>
-          <img
-            src="../assets/img/common/social_image.png"
-            alt="子供の未来は日本の未来"
-            class="last-message-logo"
-            width="174"
-            height="93"
-            decoding="async"
-          />
+          <div class="last-message-flex">
+            <img
+                src="../assets/img/common/social_image.jpg"
+                alt="子供の未来は日本の未来"
+                class="last-message-logo"
+                width="174"
+                height="93"
+                decoding="async"
+            />
+            <div class="last-message-description">
+                <p class="last-message-text1">能センは子供の未来を<br>応援します!</p>
+                <p class="last-message-text2">日本を元気に！<br>
+                子供たちが夢と希望を持って働ける世の中へ！<br>
+                能センでは受講生１名につき１００円を<br>
+                「こどもの未来応援基金」へ寄付をいたします。
+                </p>
+                <p class="last-message-text3">
+                <a  
+                href="https://kodomohinkon.go.jp/"
+                target="_blank"
+                >
+                こどもの未来応援基金</a>は、
+                こどもの貧困対策を進めるための<br>
+                官民連携プロジェクトのひとつとして、<br>
+                ２０１５年に創設されました。<br>
+                </p>
+            </div>
+          </div>
         </div>
+
         <div class="btn__apply __bottom">
           <a @click="openModal">
             <span>お申込みはこちら</span>
@@ -1143,17 +1158,18 @@ export default {
     max-width: 90%;
     width: 100%;
     margin: 0 auto;
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
+    overflow: hidden;
+    // font-size: 30px;
+    // text-align: center;
+    // font-weight: bold;
     .under_display {
       @media print, screen and (min-width: 1001px) {
         display: none;
       }
     }
-    @media print, screen and (max-width: 1000px) {
-      font-size: 18px;
-    }
+    // @media print, screen and (max-width: 1000px) {
+    //   font-size: 18px;
+    // }
     &:before {
       content: "";
       height: 200px;
@@ -1169,14 +1185,90 @@ export default {
         height: 100px;
       }
     }
-    .last-message-logo {
-      max-width: 480px;
-      width: 90%;
-      @media print, screen and (max-width: 1000px) {
-        max-width: 260px;
-      }
-    }
+    // .last-message-logo {
+    //   max-width: 480px;
+    //   width: 90%;
+    //   @media print, screen and (max-width: 1000px) {
+    //     max-width: 260px;
+    //   }
+    // }
   }
+}
+.last-message-flex {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.last-message-logo {
+    width: 45%;
+}
+.last-message-description {
+    width: 55%;
+    background: #fff8cc;
+    padding-left: 5%;
+    position: relative;
+}
+.last-message-description::after{
+    content: "";
+    position: absolute;
+    left: -300px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 480px solid transparent;
+    border-top: 120px solid #fff8cc;
+    transform: rotate(90deg);
+}
+.last-message-text1 {
+    color: #0071bb;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 14px;
+}
+.last-message-text2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 14px;
+}
+.last-message-text3 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 14px;
+}
+.last-message-text3 a {
+    text-decoration: underline;
+}
+
+@media print, screen and (max-width: 1000px) {
+.last-message-description::after {
+    display: none;
+}
+.last-message-flex {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.last-message-logo {
+    width: 100%;
+}
+.last-message-description {
+    width: 100%;
+    padding-left: 0;
+}
+.last-message-text1 {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.last-message-text2 {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.last-message-text3 {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
 }
 
 // .appear-animation-enter-active {
