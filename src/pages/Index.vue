@@ -1236,6 +1236,9 @@ export default {
 }
 
 @media print, screen and (max-width: 1000px) {
+.last-message {
+  width: 90%;
+}
 .last-message-description::after {
     display: none;
 }
