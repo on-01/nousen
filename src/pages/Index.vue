@@ -221,6 +221,7 @@
               }
             ]"
           />
+          
           <div class="btn__apply">
             <a @click="openModal">
               <span>お申込みはこちら</span>
@@ -310,7 +311,7 @@
                 </p>
                 <p class="last-message-text3">
                 <a  
-                href="https://kodomohinkon.go.jp/"
+                href="https://kodomohinkon.go.jp"
                 target="_blank"
                 >
                 こどもの未来応援基金</a>は、
