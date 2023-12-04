@@ -1199,6 +1199,10 @@ export default {
     max-width: 900px;
     margin: 0 auto;
 }
+
+.last-message-flex p {
+  margin: 0;
+}
 .last-message-logo {
     width: 45%;
 }
