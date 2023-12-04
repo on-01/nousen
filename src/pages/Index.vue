@@ -1203,12 +1203,12 @@ export default {
 .last-message-description::after{
     content: "";
     position: absolute;
-    left: -300px;
+    left: -350px;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 480px solid transparent;
-    border-top: 120px solid #fff8cc;
+    border-left: 562px solid transparent;
+    border-top: 138px solid #fff8cc;
     transform: rotate(90deg);
 }
 .last-message-text1 {
