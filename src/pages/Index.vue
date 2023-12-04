@@ -1154,7 +1154,7 @@ export default {
     }
   }
   .last-message {
-    max-width: 90%;
+    max-width: 970px;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
@@ -1182,7 +1182,6 @@ export default {
 }
 .last-message-flex {
     display: flex;
-    max-width: 960px;
     margin: 20px auto 0;
 }
 
@@ -1195,7 +1194,7 @@ export default {
 .last-message-description {
     width: 55%;
     background: #fff8cc;
-    padding-left: 5%;
+    padding-left: 8%;
     position: relative;
 }
 .last-message-description::after{
