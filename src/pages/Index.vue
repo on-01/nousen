@@ -1068,7 +1068,7 @@ export default {
 }
 .section03 {
   position: relative;
-  margin-top: -242px;
+  margin-top: -180px;
   // z-index: -1;
   @media print, screen and (max-width: 1000px) {
     margin-top: 0;
@@ -1661,6 +1661,7 @@ export default {
 .public-media {
     margin: 20px auto;
     max-width: 800px;
+    background: #fff;
 }
 .public-media p {
     margin: 0 0 20px 0;
