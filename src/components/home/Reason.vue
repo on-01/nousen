@@ -152,13 +152,13 @@ export default {
 
 <style lang="scss" scoped>
 .reason-contents + .reason-contents {
-  margin-top: 400px;
+  margin-top: 300px;
   @media print, screen and (max-width: 1000px) {
     margin-top: 200px;
   }
 }
 .reason-contents3 {
-  margin-top: 400px;
+  margin-top: 300px;
   @media print, screen and (max-width: 1000px) {
     margin-top: 200px;
   }
