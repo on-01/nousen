@@ -197,6 +197,7 @@
                         <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
                     </div>
                 </div>
+                <br>
                 <p class="courseOverview-text -type3">
                     自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。<br>
                     添削課題が充実し、学習内容が身に付いていくのが実感できます。<br>

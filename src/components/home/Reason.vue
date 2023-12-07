@@ -252,6 +252,7 @@ export default {
   font-weight: bold;
   text-align: center;
   position: relative;
+  background: #fff;
   @media print, screen and (max-width: 1000px) {
     padding: 10px 20px;
     width: 80%;
