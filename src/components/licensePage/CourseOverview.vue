@@ -7,9 +7,9 @@
                 <div class="courseOverview-line"></div>
                 <p class="courseOverview-text -type1 -center">業界支持率No.1の圧倒的なわかりやすさ！</p>
                 <br>
-                <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日 対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
+                <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
                 <br>
-                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定 されて行くので最新の試験対策講座（講習会）をおすすめいたします。</p>
+                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座（講習会）をおすすめいたします。</p>
                 <div class="courseOverview-table-wrap">
                     <table>
                         <tr>
@@ -102,7 +102,7 @@
                         <tr>
                             <th>
                                 受講料
-                                <p class="courseOverview-th-text">消費税・教材・添削費・送料込み</p>
+                                <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
                                 <p>17,600円：基礎（10時間）</p>
@@ -189,7 +189,7 @@
                         <tr>
                             <th>
                                 受講料
-                                <p class="courseOverview-th-text">消費税・教材・添削費・送料込み</p>
+                                <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
                                 <p>62,700円：全科目セット（オンライン基礎講座＋４科目）</p>
