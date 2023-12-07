@@ -5,7 +5,7 @@
         <p class="fixed-note-text">
           <g-link to="/denken3">
             令和５年度 電験三種【オンライン講座】大好評受付中！<br>
-            令和６年度 電験三種【通学講座】受付開始しました！
+            令和６年度 電験三種【通学講座】【オンライン講座】受付開始！
           </g-link>
         </p>
         <img
@@ -159,7 +159,7 @@
       </section>
 
       <div class="top-youtube">
-        <p>【全ての受験生へ】</p>
+        <p>【 全ての受験生へ 】</p>
         <iframe class="top-youtube-movie" width="800" height="450" src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
       </div>

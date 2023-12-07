@@ -182,7 +182,7 @@ export default {
   metaInfo() {
     return {
       titleTemplate:
-        "1・2級管工事施工管理技士 受験対策講習会｜能セン-合格への近道-",
+        "1・2級管工事施工管理技士 受験対策講習会｜能セン",
       meta: [
         {
           name: "description",
@@ -192,7 +192,7 @@ export default {
         {
           key: `og:title`,
           property: `og:title`,
-          content: `1・2級管工事施工管理技士 受験対策講習会｜能セン-合格への近道-`
+          content: `1・2級管工事施工管理技士 受験対策講習会｜能セン`
           // content: `1・2級 管工事施工管理技士 | ${
           //   this.$static.metadata.siteName
           // }`,

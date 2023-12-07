@@ -7,9 +7,9 @@
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic">早割キャンペーン開催！（通学講座）</p>
+                    <p class="campaign-topic -red">【￥１０,０００off】早割キャンペーン（通学講座）</p>
                     <ul class="campaign-content">
-                        <li class="campaign-emphasis">・能センでは{{ date }}まで【早割キャンペーン】を開催します！</li>
+                        <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン開催中です！</li>
                         <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります。</li>
                         <li>早いスタートが合格への近道です！</li>
                     </ul>
@@ -113,7 +113,9 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     font-size: 20px;
     color: #005a9e;
     margin: 10px 0 0;
-
+}
+.campaign-topic.-red {
+    color: #ff0000;
 }
 .campaign-summary {
     font-weight: medium;
