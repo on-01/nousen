@@ -157,6 +157,13 @@ export default {
     margin-top: 200px;
   }
 }
+.reason-contents3 {
+  margin-top: 400px;
+  @media print, screen and (max-width: 1000px) {
+    margin-top: 200px;
+  }
+}
+
 .reason-title {
   font-size: 27px;
   color: #ed6c00;
@@ -252,7 +259,6 @@ export default {
   font-weight: bold;
   text-align: center;
   position: relative;
-  background: #fff;
   @media print, screen and (max-width: 1000px) {
     padding: 10px 20px;
     width: 80%;
