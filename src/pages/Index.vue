@@ -164,6 +164,32 @@
         </iframe>
       </div>
 
+      <div class="public-media">
+        <p>【 メディア掲載実績 】</p>
+        <div class="public-media-flex">
+            <figure>
+                <img src="../assets/img/common/public_media_1.jpg" alt="建通新聞">
+            </figure>
+            <figure>
+                <img src="../assets/img/common/public_media_2.jpg" alt="オーム社">
+            </figure>
+            <figure>
+                <img src="../assets/img/common/public_media_3.jpg" alt="企業の窓口">
+            </figure>
+        </div>
+        <div class="public-media-flex">
+            <figure>
+                <img src="../assets/img/common/public_media_4.png" alt="リセラム">
+            </figure>
+            <figure>
+                <img src="../assets/img/common/public_media_5.jpg" alt="コンテキストジャパン">
+            </figure>
+            <figure>
+                <img src="../assets/img/common/public_media_6.png" alt="マイナビ">
+            </figure>
+        </div>
+      </div>
+
       <section class="section03">
         <h2 class="section-title">
           <img
@@ -1632,5 +1658,48 @@ export default {
     height: 315px;
 }
 }
+.public-media {
+    margin: 20px auto;
+    max-width: 800px;
+}
+.public-media p {
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-family: 'メイリオ', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.public-media-flex {
+    display: flex;
+    margin: 12px 0;
+}
+.public-media-flex figure {
+    margin: 0;
+    width: 33.33%;
+}
+.public-media-flex figure img {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+@media print, screen and (max-width: 800px) {
+    .public-media p {
+        font-size: 24px;;
+    }
+    .public-media-flex {
+        flex-flow: wrap;
+        margin: 0;
+    }
+    .public-media-flex figure {
+        width: 100%;
+        margin: 12px 0;
+    }
+    .public-media-flex figure img {
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+}
+
 
 </style>
