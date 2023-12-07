@@ -6,9 +6,8 @@
                 <p class="courseOverview-title">{{ title }}</p>
                 <div class="courseOverview-line"></div>
                 <p class="courseOverview-text -type1 -center">業界支持率No.1の圧倒的なわかりやすさ！</p>
-                <p class="courseOverview-text -type2 -center">（令和６年度上期 筆記・CBT試験日 対応日程）</p>
                 <br>
-                <p class="courseOverview-text -type3">お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になります。経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください。</p>
+                <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日 対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
                 <br>
                 <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定 されて行くので最新の試験対策講座（講習会）をおすすめいたします。</p>
                 <div class="courseOverview-table-wrap">
@@ -16,7 +15,7 @@
                         <tr>
                             <th>
                                 受講料
-                                <p class="courseOverview-th-text">消費税・教材・添削費・送料込み</p>
+                                <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
                                 <p>17,600円：基礎（１日）　9:00-17:00</p>
@@ -92,11 +91,11 @@
                 <p class="courseOverview-text -type1 -center">令和5年度下期</p>
                 <p class="courseOverview-text -type1 -center">今年限りの【特割キャンペーン】実地中！</p>
                 <br>
-                <p class="courseOverview-text -type2">いつでもどこでも何度でも</p>
-                <p class="courseOverview-text -type3">▶ネット端末があれば、電車の中や職場など場所を選ばず何度でも視聴が可能。各１時間程度に動画がチャプター分けがされているので、空き時間を活用して試験直前まで勉強できます。</p>
-                <p class="courseOverview-text -type2">引き込まれる臨場感</p>
-                <p class="courseOverview-text -type3">▶動画撮影はテレビ撮影も手掛けているプロのカメラマンです。プロの撮影ですので現地で受講しているかのような見やすい映像に仕上がっています。生の講義の臨場感をお届けいたします。</p>
-                <p class="courseOverview-text -type2">オリジナル教材</p>
+                <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
+                <p class="courseOverview-text -type3">▶ネット端末があれば、電車の中や職場など場所を選ばず何度でも視聴が可能。<br>各１時間程度に動画がチャプター分けがされているので、空き時間を活用して勉強ができます。</p>
+                <p class="courseOverview-text -type2">②引き込まれる臨場感</p>
+                <p class="courseOverview-text -type3">▶動画撮影はテレビ撮影も手掛けているプロのカメラマンです。現地で受講しているかのような見やすい映像に仕上がっています。生の講義の臨場感をお届けいたします。</p>
+                <p class="courseOverview-text -type2">③オリジナル教材</p>
                 <p class="courseOverview-text -type3">▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。</p>
                 <div class="courseOverview-table-wrap">
                     <table>
@@ -175,9 +174,16 @@
             <div class="courseOverview-content">
                 <p class="courseOverview-title">通 信 講 座</p>
                 <div class="courseOverview-line"></div>
+                <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
                 <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
                 <p class="courseOverview-text -type3">合格者を多数輩出した大嶋先生監修の通信講座（6ヶ月コース）</p>
-                <p class="courseOverview-text -type3">自分のペースで勉強し、添削課題のやりとりを通して学びを進めるスタイル。添削課題が充実し、学習内容が身についているのが実感できます。途中でつまずいてしまった時も安心、講師に解説してもらえる質問用紙も最大８枚ご用意。学習期間終了後から最大12ヶ月まで添削等のサポート付き。仕事等で勉強時間が思うように取れない方でも自分のペースで続けられます。</p>
+                <p class="courseOverview-text -type3">
+                    自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。<br>
+                    添削課題が充実し、学習内容が身に付いていくのが実感できます。<br>
+                    途中でつまずいてしまった時も安心、講師に解説してもらえる質問用紙も最大８枚ご用意。<br>
+                    添削・質問用紙は最大12ヶ月間のサポート付き！<br>
+                    仕事等で勉強時間が思うように取れない方でも自分のペースで続けられます。
+                </p>
                 <div class="courseOverview-table-wrap">
                     <table>
                         <tr>
@@ -318,7 +324,7 @@ export default {
     border-right: 1px solid #000;
     border-left: 1px solid #000;
     margin: 20px auto;
-    width: 100%;
+    width: 94%;
 }
 .courseOverview tr {
     border-top: 1px solid #000;
@@ -327,7 +333,7 @@ export default {
 }
 .courseOverview th {
     border-right: 1px solid #000;
-    width: 40%;
+    width: 38%;
     background: #fff7d5;
     font-size: 16px;
     line-height: 1.8;
@@ -335,7 +341,7 @@ export default {
     padding: 8px;
 }
 .courseOverview td {
-    width: 60%;
+    width: 62%;
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
