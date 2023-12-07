@@ -3,11 +3,18 @@
         <div class="courseOverview-inner">
 
             <div class="courseOverview-content">
-                <p class="courseOverview-title">{{ title }}</p>
-                <div class="courseOverview-line"></div>
-                <p class="courseOverview-text -type1 -center">業界支持率No.1の圧倒的なわかりやすさ！</p>
-                <br>
-                <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
+                <div class="courseOverview-flex -reverse">
+                    <div class="courseOverview-flex-left">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_1.jpg">
+                    </div>
+                    <div class="courseOverview-flex-right">
+                        <p class="courseOverview-title">{{ title }}</p>
+                        <div class="courseOverview-line"></div>
+                        <p class="courseOverview-text -type1 -center">業界支持率No.1の圧倒的なわかりやすさ！</p>
+                        <br>
+                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
+                    </div>
+                </div>
                 <br>
                 <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座（講習会）をおすすめいたします。</p>
                 <div class="courseOverview-table-wrap">
@@ -86,10 +93,17 @@
             </div>
             <br>
             <div class="courseOverview-content">
-                <p class="courseOverview-title">オンライン講座</p>
-                <div class="courseOverview-line"></div>
-                <p class="courseOverview-text -type1 -center">令和5年度下期</p>
-                <p class="courseOverview-text -type1 -center">今年限りの【特割キャンペーン】実地中！</p>
+                <div class="courseOverview-flex">
+                    <div class="courseOverview-flex-left">
+                        <p class="courseOverview-title">オンライン講座</p>
+                        <div class="courseOverview-line"></div>
+                        <p class="courseOverview-text -type1 -center">令和5年度下期</p>
+                        <p class="courseOverview-text -type1 -center">今年限りの【特割キャンペーン】実地中！</p>
+                    </div>
+                    <div class="courseOverview-flex-right">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg">
+                    </div>
+                </div>
                 <br>
                 <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
                 <p class="courseOverview-text -type3">▶ネット端末があれば、電車の中や職場など場所を選ばず何度でも視聴が可能。<br>各１時間程度に動画がチャプター分けがされているので、空き時間を活用して勉強ができます。</p>
@@ -172,11 +186,17 @@
             </div>
             <br>
             <div class="courseOverview-content">
-                <p class="courseOverview-title">通 信 講 座</p>
-                <div class="courseOverview-line"></div>
-                <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
-                <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
-                <p class="courseOverview-text -type3">合格者を多数輩出した大嶋先生監修の通信講座（6ヶ月コース）</p>
+                <div class="courseOverview-flex">
+                    <div class="courseOverview-flex-left">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_3.jpg">
+                    </div>
+                    <div class="courseOverview-flex-right">
+                        <p class="courseOverview-title">通 信 講 座</p>
+                        <div class="courseOverview-line"></div>
+                        <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
+                        <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
+                    </div>
+                </div>
                 <p class="courseOverview-text -type3">
                     自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。<br>
                     添削課題が充実し、学習内容が身に付いていくのが実感できます。<br>
@@ -277,11 +297,24 @@ export default {
     position: relative;
     font-family: 'Meiryo', sans-serif;
 }
-.courseOverview p {
+.courseOverview p,
+.courseOverview img {
     margin: 0;
 }
 .courseOverview-inner {
-    padding: 40px 90px;
+    padding: 40px 110px;
+}
+.courseOverview-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courseOverview-flex-right,
+.courseOverview-flex-left {
+    width: 49%;
+}
+.courseOverview-flex-image {
+    transform: scale(0.9);
 }
 .courseOverview-title {
     font-weight: bold;
@@ -324,7 +357,7 @@ export default {
     border-right: 1px solid #000;
     border-left: 1px solid #000;
     margin: 20px auto;
-    width: 94%;
+    width: 98%;
 }
 .courseOverview tr {
     border-top: 1px solid #000;
@@ -365,6 +398,16 @@ export default {
 }
 .courseOverview-inner {
     padding: 40px 20px;
+}
+.courseOverview-flex {
+    flex-flow:wrap;
+}
+.courseOverview-flex.-reverse {
+    flex-direction: column-reverse;
+}
+.courseOverview-flex-right,
+.courseOverview-flex-left {
+    width:100%;
 }
 .courseOverview-title {
     font-size: 24px;
