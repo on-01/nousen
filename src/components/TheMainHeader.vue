@@ -1078,7 +1078,9 @@ export default {
   display: inline-flex;
 }
 
-.denken3-template .main-header {
+.denken3-template .main-header,
+.kenchiku-template .main-header,
+.doboku-template .main-header {
   position: static;
 }
 </style>

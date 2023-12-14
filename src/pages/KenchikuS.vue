@@ -1,4 +1,5 @@
 <template>
+<div class="kenchiku-template">
   <Layout>
     <div class="kenchiku">
       <header class="header">
@@ -247,6 +248,7 @@
       </div>
     </div>
   </Layout>
+</div>
 </template>
 
 <static-query>
