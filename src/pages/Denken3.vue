@@ -366,7 +366,14 @@
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
           />
           </div>
+
+          <ContactInfo
+            title="受講に関するご相談は<br>
+            【お電話】【フォーム】【オンライン】<br>
+            お気軽にお問い合わせください。"
+          />
       </div>
+
       <div class="fixed-btn">
         <div @click="navigateToSection">
           <img
@@ -455,6 +462,7 @@ import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
 import Schedule from '../components/licensePage/Schedule.vue';
 import CourseOverview from '../components/licensePage/CourseOverview.vue';
+import ContactInfo from '../components/licensePage/ContactInfo.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -516,7 +524,8 @@ export default {
     IconDoubleArrowRight,
     IconArrowRight,
     Schedule,
-    CourseOverview
+    CourseOverview,
+    ContactInfo
   },
   data() {
     return {
