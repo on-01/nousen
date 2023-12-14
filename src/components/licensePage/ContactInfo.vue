@@ -31,11 +31,11 @@ export default {
     border: 4px solid #f4891e;
     border-radius: 12px;
     font-family: メイリオ,sans-serif;
-    margin: 0 auto;
+    margin: 60px auto 0;
 }
 .contactInfo-inner {
     position: relative;
-    padding: 0.8em 2.4em;
+    padding: 1.2em 2.4em;
 }
 .contactInfo-title {
     margin: 0;
@@ -63,6 +63,7 @@ export default {
 }
 .contactInfo-link.-tel {
     border: none;
+    cursor: pointer;
 }
 .contactInfo-link a {
     width: 100%;
@@ -75,7 +76,7 @@ export default {
 @media print, screen and (max-width: 768px) {
 .contactInfo {
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto 0; 
 }
 .contactInfo-inner {
     padding: 0.8em;
