@@ -114,6 +114,10 @@
 
       <div class="bg-lightBlue">
 
+        <Exam
+            title="最新のオリジナル予想模擬試験"
+        />
+
       <CourseOverview
         title="通 学 講 座"
       />
@@ -475,6 +479,7 @@ import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-h
 import Schedule from '../components/licensePage/Schedule.vue';
 import CourseOverview from '../components/licensePage/CourseOverview.vue';
 import ContactInfo from '../components/licensePage/ContactInfo.vue';
+import Exam from '../components/licensePage/Exam.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -537,7 +542,8 @@ export default {
     IconArrowRight,
     Schedule,
     CourseOverview,
-    ContactInfo
+    ContactInfo,
+    Exam
   },
   data() {
     return {
