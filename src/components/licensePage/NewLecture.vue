@@ -100,6 +100,10 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 48%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 .lecture-book-image {
     width: 28%;
