@@ -289,4 +289,12 @@ a[href^='tel'] {
     margin-top: 75px;
   }
 }
+
+.denken3-template .main-header + div:not(.home) {
+  margin-top: 0px;
+  position: relative;
+  @media print, screen and (max-width: 1000px) {
+    margin-top: 0px;
+  }
+}
 </style>
