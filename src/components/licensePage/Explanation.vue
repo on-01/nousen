@@ -69,13 +69,17 @@ export default {
     line-height: 1.8;
     margin-top: 10px;
 }
-.explanation-text span {
-    font-weight: 700;
-}
 .denken3 .explanation-text {
     font-size: 15px;
     margin-top: -4px;
     }
+
+@media print, screen and (max-width: 1100px) {
+    .denken3 .explanation-text {
+        font-size: 14px;
+        width: 70%;
+    }
+}
 
 @media print, screen and (max-width: 1000px) {
     .explanation {
@@ -88,7 +92,6 @@ export default {
     width: 90%;
     margin: 0 auto;
     }
-
     .explanation-text {
     width: 100%;
     margin-top: 20px;
