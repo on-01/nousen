@@ -30,8 +30,8 @@
                 また、電気設備の監督・維持・保安は電験主任技術者資格取得者がいなければならない業務<br>
                 であるため、電験三種資格取得者を求める企業への就職・転職を有利にすることができます。<br>
                 <br>
-                <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、最小限の努力で
-                最大の結果（合格）を得るための講座をご提供いたします。</span>"
+                <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中<br>
+                  最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
           :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
         <SpExplanation
@@ -40,7 +40,7 @@
                 資格には第一種・第二種・第三種の3つの区分があり、電圧によって対応範囲が異なり、電圧5万ボルト未満の電気工作物は「電験三種」
                 で対応できます。<br>
                 <br>
-                <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、最小限の努力で<br>
+                <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、最小限の努力で
                 最大の結果（合格）を得るための講座をご提供いたします。</span>"
           :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
         />
