@@ -73,6 +73,31 @@
             :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')"
         />
 
+        <NewLecture
+          title="井岡先生の講習がスゴイ！"
+            text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
+                その後独立して１級建築士事務所を設立し現在に至る。
+                各種大学、専門学校、資格学校にて豊富な講師経験を持ち、建築士や建築施工管理技士の著書も多数執筆。
+                特に建築施工管理技士のシリーズはロングセラーとして長年に渡って受験生からの多大な信頼を獲得しています。
+                歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
+            :imagePath="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')"
+            teacher="井岡和雄 先生"
+            profile="＜プロフィール＞<br>
+                    関西大学工学部建築学科卒業<br>
+                    ゼネコンに就職<br>
+                    ５年間の現場管理を経て、設計部に転属<br>
+                    １０年間の設計・監理業務後、独立<br>
+                    近畿大学・追手門学院大学 非常勤講師<br>
+                    現在 井岡一級建築士事務所 代表<br>
+                    <br>
+                    著書:４週間でマスター１級建築施工管理（弘文社）<br>
+                    　　４週間でマスター２級建築施工管理（弘文社）<br>
+                    　　４週間でマスター２級建設機械施工管理（弘文社）"
+              :imageBook1="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')"
+              :imageBook2="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')"
+              :imageBook3="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')"
+        />
+
       <div class="bg-lightBlue">
 
         <Study
@@ -330,7 +355,7 @@ import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 import Support from '../components/licensePage/Support.vue';
-import Lecture from '../components/licensePage/Lecture.vue';
+import NewLecture from '../components/licensePage/NewLecture.vue';
 import Cheer from '../components/licensePage/Cheer.vue';
 // import News from "@/components/licensePage/News.vue";
 import Info from "@/components/licensePage/Info.vue";
@@ -390,7 +415,7 @@ export default {
     NewPvMovie,
     Method,
     Support,
-    Lecture,
+    NewLecture,
     Cheer,
     // News,
     Info,

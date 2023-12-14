@@ -89,15 +89,27 @@
             description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
         />
 
-        <Lecture
+        <NewLecture
             title="業界トップのわかりやすさ！<br>大嶋先生の講習！"
             text="長年電気と土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、
-                  電気主任技術者（３～１種）等多くの関連資格を取得。
-                  その後電気・電子部門の技術士も取得した電気、土木のエキスパートです。
-                  東京電力で技能訓練センター所長として約４年間勤務後独立し、
-                  電気・土木関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
-                  難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+                電気主任技術者（３～１種）等多くの関連資格を取得。
+                その後電気・電子部門の技術士も取得した電気、土木のエキスパートです。
+                東京電力で技能訓練センター所長として約４年間勤務後独立し、
+                電気・土木関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
+                難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
             :imagePath="require('../assets/img/license_page/denken3/denken3_lecture.jpeg')"
+            teacher="大嶋輝夫 先生"
+            profile="＜プロフィール＞<br>
+                    元東京電力株式会社<br>
+                    現在（株）オフィスボルト 代表取締役社長<br>
+                    電気保安功労者経済産業大臣賞受賞<br>
+                    <br>
+                    著書:続・電気技術者のための失敗100選-対策編-（オーム社）<br>
+                    　　電験二種二次試験「機械・制御」精選問題（オーム社）<br>
+                    　　これからスタート！１級電気施工（電気書院）"
+              :imageBook1="require('../assets/img/license_page/denken3/denken3_lecture_book_1.jpg')"
+              :imageBook2="require('../assets/img/license_page/denken3/denken3_lecture_book_2.jpg')"
+              :imageBook3="require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')"
         />
 
       <div class="bg-lightBlue">
@@ -447,7 +459,7 @@ import Linelink from "@/components/licensePage/Linelink.vue";
 import NewPvMovie from '../components/licensePage/NewPvMovie.vue';
 import Method from '../components/licensePage/Method.vue';
 // import Food from '../components/licensePage/Food.vue';
-import Lecture from '../components/licensePage/Lecture.vue';
+import NewLecture from '../components/licensePage/NewLecture.vue';
 import Cheer from '../components/licensePage/Cheer.vue';
 import Quality from '../components/licensePage/Quality.vue';
 // import News from "@/components/licensePage/News.vue";
@@ -512,7 +524,7 @@ export default {
     NewPvMovie,
     Method,
     // Food,
-    Lecture,
+    NewLecture,
     Cheer,
     Quality,
     // News,
