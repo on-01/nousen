@@ -1,4 +1,5 @@
 <template>
+<div class="doboku-template">
   <Layout>
     <div class="doboku">
       <header class="header">
@@ -235,6 +236,7 @@
       </div>
     </div>
   </Layout>
+</div>
 </template>
 
 <static-query>

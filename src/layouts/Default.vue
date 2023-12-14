@@ -290,7 +290,9 @@ a[href^='tel'] {
   }
 }
 
-.denken3-template .main-header + div:not(.home) {
+.denken3-template .main-header + div:not(.home),
+.kenchiku-template .main-header + div:not(.home),
+.doboku-template .main-header + div:not(.home) {
   margin-top: 0px;
   position: relative;
   @media print, screen and (max-width: 1000px) {
