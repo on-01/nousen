@@ -233,6 +233,12 @@
             faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
           />
         </div>
+
+        <ContactInfo
+            title="受講に関するご相談は<br>
+            【お電話】【フォーム】【オンライン】<br>
+            お気軽にお問い合わせください。"
+          />
       </div>
     </div>
   </Layout>
@@ -324,6 +330,7 @@ import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+import ContactInfo from '../components/licensePage/ContactInfo.vue';
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
@@ -380,7 +387,8 @@ export default {
     NewApplication,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight
+    IconArrowRight,
+    ContactInfo
   },
   data() {
     return {
