@@ -312,6 +312,7 @@ dd {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    font-family: 'メイリオ', sans-serif;
   }
 
 .last-message-flex {

@@ -31,7 +31,7 @@ export default {
     margin: 20px auto 0;
     z-index: 0;
     position: relative;
-    font-family: 'Meiryo', sans-serif;
+    font-family: 'メイリオ', sans-serif;
 }
 .explanation-inner {
     padding: 20px;
@@ -69,6 +69,9 @@ export default {
     line-height: 1.8;
     margin-top: 10px;
 }
+.explanation-text span {
+    font-weight: 700;
+}
 .denken3 .explanation-text {
     font-size: 15px;
     margin-top: -4px;
@@ -78,7 +81,6 @@ export default {
     .explanation {
         width: 90%;
     }
-
     .explanation-flex {
     flex-flow: wrap;
     }
