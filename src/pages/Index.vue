@@ -1068,10 +1068,10 @@ export default {
 }
 .section03 {
   position: relative;
-  margin-top: -180px;
+  margin-top: -225px;
   // z-index: -1;
   @media print, screen and (max-width: 1000px) {
-    margin-top: 0;
+    margin-top: -55px;
     }
   &:before {
     content: "";
@@ -1184,6 +1184,7 @@ export default {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
+    font-family: 'メイリオ', sans-serif;
     @media print, screen and (max-width: 1000px) {
       width: 90%;
     }

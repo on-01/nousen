@@ -305,6 +305,10 @@ export default {
 .courseOverview-inner {
     padding: 40px 110px;
 }
+.courseOverview-content {
+    width: 98%;
+    margin: 0 auto;
+}
 .courseOverview-flex {
     display: flex;
     justify-content: space-between;
@@ -315,7 +319,7 @@ export default {
     width: 49%;
 }
 .courseOverview-flex-image {
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 .courseOverview-title {
     font-weight: bold;
@@ -358,7 +362,7 @@ export default {
     border-right: 1px solid #000;
     border-left: 1px solid #000;
     margin: 20px auto;
-    width: 98%;
+    width: 100%;
 }
 .courseOverview tr {
     border-top: 1px solid #000;
@@ -400,6 +404,10 @@ export default {
 .courseOverview-inner {
     padding: 40px 20px;
 }
+
+.courseOverview-content {
+    width: 100%;
+}
 .courseOverview-flex {
     flex-flow:wrap;
 }
@@ -434,7 +442,6 @@ export default {
     border-right: none;
     border-left: none;
     margin: 20px auto;
-    width: 100%;
 }
 .courseOverview tr {
     flex-wrap: wrap;

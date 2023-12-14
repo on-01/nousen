@@ -33,7 +33,7 @@ export default {
     margin: 20px auto 0;
     z-index: 0;
     position: relative;
-    font-family: 'Meiryo', sans-serif;
+    font-family: 'メイリオ', sans-serif;
 }
 .sp_explanation-inner {
     padding: 20px;
@@ -64,6 +64,9 @@ export default {
     margin-top: 20px;
     font-size: 14px;
     line-height: 1.8;
+}
+.sp_explanation-text  span {
+    font-weight: 700;
 }
 
 @media print, screen and (max-width: 560px) {
