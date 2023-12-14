@@ -1077,4 +1077,8 @@ export default {
   margin: 0;
   display: inline-flex;
 }
+
+.denken3-template .main-header {
+  position: static;
+}
 </style>

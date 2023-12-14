@@ -1,4 +1,5 @@
 <template>
+<div class="denken3-template">
   <Layout>
     <div class="denken3">
       <header class="header">
@@ -378,6 +379,7 @@
       </div>
     </div>
   </Layout>
+</div>
 </template>
 
 <static-query>
