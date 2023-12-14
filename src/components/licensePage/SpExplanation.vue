@@ -65,9 +65,6 @@ export default {
     font-size: 14px;
     line-height: 1.8;
 }
-.sp_explanation-text  span {
-    font-weight: 700;
-}
 
 @media print, screen and (max-width: 560px) {
     .sp_explanation-title {
