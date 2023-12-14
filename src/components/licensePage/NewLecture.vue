@@ -103,14 +103,17 @@ export default {
 }
 .lecture-book-image {
     width: 28%;
+    margin: 0;
 }
 .lecture-teacher {
     font-size: 18px;
     font-weight: 700;
+    margin: 0;
 }
 .lecture-profile {
     font-size: 16px;
     line-height: 1.6;
+    margin: 0;
 }
 
 @media print, screen and (max-width: 1000px) {
