@@ -105,8 +105,8 @@
                     電気保安功労者経済産業大臣賞受賞<br>
                     <br>
                     著書 : 続・電気技術者のための失敗100選-対策編-（オーム社）<br>
-                    　　電験二種二次試験「機械・制御」精選問題（オーム社）<br>
-                    　　これからスタート！１級電気施工（電気書院）"
+                    　　　電験二種二次試験「機械・制御」精選問題（オーム社）<br>
+                    　　　これからスタート！１級電気施工（電気書院）"
               :imageBook1="require('../assets/img/license_page/denken3/denken3_lecture_book_1.jpg')"
               :imageBook2="require('../assets/img/license_page/denken3/denken3_lecture_book_2.jpg')"
               :imageBook3="require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')"
