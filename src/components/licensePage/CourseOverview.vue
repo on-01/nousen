@@ -49,13 +49,13 @@
                                 教材/資料
                             </th>
                             <td>
+                                <p>・各テキスト（基礎・理論・電力・機械・法規）全5冊</p>
+                                <p>・出題分析</p>
+                                <p>・過去問題10年分（ダウンロード）</p>
                                 <p>・学習ガイダンス</p>
                                 <p>・学習カリキュラム表（進度表）</p>
                                 <p>・問題集/問題集解答</p>
-                                <p>・提出課題（締切日：令和６年度下期試験日まで）</p>
-                                <p>・テキスト</p>
-                                <p>・出題分析</p>
-                                <p>・過去問題10年分（ダウンロード）</p>
+                                <p>・提出課題（全4回分 令和6年度下期試験日まで）</p>
                             </td>
                         </tr>
                         <tr>
@@ -97,8 +97,8 @@
                     <div class="courseOverview-flex-left">
                         <p class="courseOverview-title">オンライン講座</p>
                         <div class="courseOverview-line"></div>
-                        <p class="courseOverview-text -type1 -center">令和5年度下期</p>
-                        <p class="courseOverview-text -type1 -center">今年限りの【特割キャンペーン】実地中！</p>
+                        <p class="courseOverview-text -type1 -center">令和６年度 全期間対応</p>
+                        <p class="courseOverview-text -type1 -center">最新の受験対策講座をお届けします！</p>
                     </div>
                     <div class="courseOverview-flex-right">
                         <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg">
@@ -111,6 +111,8 @@
                 <p class="courseOverview-text -type3">▶動画撮影はテレビ撮影も手掛けているプロのカメラマンです。現地で受講しているかのような見やすい映像に仕上がっています。生の講義の臨場感をお届けいたします。</p>
                 <p class="courseOverview-text -type2">③オリジナル教材</p>
                 <p class="courseOverview-text -type3">▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。</p>
+                <br>
+                <p class="courseOverview-text -type3">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座をおすすめいたします。</p>
                 <div class="courseOverview-table-wrap">
                     <table>
                         <tr>
@@ -194,16 +196,17 @@
                         <p class="courseOverview-title">通 信 講 座</p>
                         <div class="courseOverview-line"></div>
                         <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
-                        <p class="courseOverview-text -type1 -center">最大１２ヶ月間のサポート付き！</p>
+                        <p class="courseOverview-text -type1 -center">最大24ヶ月間のサポート付き！</p>
                     </div>
                 </div>
                 <br>
                 <p class="courseOverview-text -type3">
                     自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。<br>
-                    添削課題が充実し、学習内容が身に付いていくのが実感できます。<br>
+                    合計8回分の添削課題で学習内容が身に付いていくのが実感できます。<br>
                     途中でつまずいてしまった時も安心、講師に解説してもらえる質問用紙も最大８枚ご用意。<br>
-                    添削・質問用紙は最大12ヶ月間のサポート付き！<br>
-                    仕事等で勉強時間が思うように取れない方でも自分のペースで続けられます。
+                    添削・質問用紙は最大24ヶ月間のサポート付き！<br>
+                    仕事等で勉強時間が思うように取れない方でも自分のペースで続けられます。<br>
+                    <span class="courseOverview-td-text">途中でオンライン講座に変更も可能！差額＋手数料ですぐにご対応いたします。</span>
                 </p>
                 <div class="courseOverview-table-wrap">
                     <table>

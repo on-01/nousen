@@ -71,7 +71,7 @@ export default {
 
 .exam-text {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.8;
     margin-top: 20px;
     margin: 0;
