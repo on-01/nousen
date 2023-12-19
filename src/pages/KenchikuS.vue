@@ -81,8 +81,8 @@
                     現在 井岡一級建築士事務所 代表<br>
                     <br>
                     著書 : ４週間でマスター１級建築施工管理（弘文社）<br>
-                    　　４週間でマスター２級建築施工管理（弘文社）<br>
-                    　　４週間でマスター２級建設機械施工管理（弘文社）"
+                    　　　４週間でマスター２級建築施工管理（弘文社）<br>
+                    　　　４週間でマスター２級建設機械施工管理（弘文社）"
               :imageBook1="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')"
               :imageBook2="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')"
               :imageBook3="require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')"
