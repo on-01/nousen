@@ -65,6 +65,7 @@ export default {
 .contactInfo-link.-tel {
     border: none;
     cursor: pointer;
+    width: 40%;
 }
 .contactInfo-link a {
     width: 100%;
