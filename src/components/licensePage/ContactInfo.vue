@@ -46,7 +46,7 @@ export default {
 }
 .contactInfo-icon {
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     top: -18px;
     left: -43px;
     width: 54px
@@ -91,7 +91,13 @@ export default {
 }
 
 .contactInfo-link {
+    width: 80%;
     font-size: 15px;
+}
+}
+@media print, screen and (max-width: 480px) {
+.contactInfo-link.-tel {
+    width: 50%;
 }
 }
 </style>
