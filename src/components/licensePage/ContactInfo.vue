@@ -64,13 +64,13 @@ export default {
 }
 .contactInfo-link.-tel {
     border: none;
-    cursor: pointer;
     width: 40%;
 }
 .contactInfo-link a {
     width: 100%;
     height: 100%;
     display: block;
+    cursor: pointer;
 }
 .contactInfo-link:hover {
     opacity: .8;
