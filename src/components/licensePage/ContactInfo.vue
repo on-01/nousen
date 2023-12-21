@@ -4,7 +4,7 @@
           <p class="contactInfo-title" v-html="title"></p>
           <img class="contactInfo-icon" src="../../assets/img/icon/note.svg">
           <div class="contactInfo-link -tel">
-              <a href="tel:012054728">📞 0120-547-284</a>
+              <a href="tel:012054728"><img src="../../assets/img/icon/contactInfo_tel.svg"></a>
           </div>
           <div class="contactInfo-link">
               <a href="https://www.nouryoku.com/contact/" target="_blank">📧 無料お問い合わせフォーム</a>
@@ -56,10 +56,11 @@ export default {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    color: red;
-    border: 2px solid red;
+    color: #000;
+    border: 2px solid #f4891e;;
     margin: 10px auto;
-    width: 80%;
+    width: 68%;
+    border-radius: 8px;
 }
 .contactInfo-link.-tel {
     border: none;

@@ -60,6 +60,12 @@
             faxLink="/kyuusui_FAX_31year.pdf"
           /> -->
         </div>
+
+        <ContactInfo
+            title="受講に関するご相談は<br>
+            【お電話】【フォーム】【オンライン】<br>
+            お気軽にお問い合わせください。"
+          />
       </div>
     </div>
   </Layout>
@@ -110,6 +116,8 @@ import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
 import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 import { INLINES } from "@contentful/rich-text-types";
 import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+import ContactInfo from '../components/licensePage/ContactInfo.vue';
+
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
   renderNode: {
@@ -154,7 +162,8 @@ export default {
     Application,
     IconBase,
     IconDoubleArrowRight,
-    IconArrowRight
+    IconArrowRight,
+    ContactInfo
   },
   methods: {
     richtextToHTML(content) {
