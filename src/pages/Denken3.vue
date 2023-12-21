@@ -122,6 +122,10 @@
         title="通 学 講 座"
       />
 
+      <SetCourse
+            title="通学＋オンラインセット"
+        />
+
         <Study
             studySlug="denken"
             name1="電験三種の合格に必要な勉強時間"
@@ -480,6 +484,7 @@ import Schedule from '../components/licensePage/Schedule.vue';
 import CourseOverview from '../components/licensePage/CourseOverview.vue';
 import ContactInfo from '../components/licensePage/ContactInfo.vue';
 import Exam from '../components/licensePage/Exam.vue';
+import SetCourse from '../components/licensePage/SetCourse.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -543,7 +548,8 @@ export default {
     Schedule,
     CourseOverview,
     ContactInfo,
-    Exam
+    Exam,
+    SetCourse
   },
   data() {
     return {
