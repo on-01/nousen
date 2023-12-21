@@ -62,6 +62,7 @@ export default {
     line-height: 1.8;
     text-align: center;
     padding-top: 10px;
+    margin: 0;
 }
 .setCourse-explanation {
     padding: 30px 10px;
@@ -78,6 +79,7 @@ export default {
     @media print, screen and (max-width: 1000px) {
         padding: 10px 20px;
         font-size: 16px;
+        width: auto;
     }
     @media print, screen and (max-width: 767px) {
         text-align: left;
@@ -124,6 +126,10 @@ export default {
     font-size: 18px;
     padding: 4px;
     text-align: center;
+}
+
+.setCourse-menu p {
+    margin: 0;
 }
 .setCourse-menu span {
     font-size: 20px;
