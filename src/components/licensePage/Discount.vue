@@ -96,6 +96,7 @@ export default {
     font-size: 28px;
     font-weight: 700;
     position: relative;
+    margin: 0;
 }
 .discount-flex-left span {
     color: #ed6c00;
@@ -112,6 +113,7 @@ export default {
     color: red;
     font-weight: 700;
     padding-left: 4%;
+    margin: 0;
 }
 .discount-flex-right span {
     font-size: 44px;
@@ -126,6 +128,7 @@ export default {
 .discount-note p {
     font-size: 16px;
     line-height: 1.8;
+    margin: 0;
 }
 
 @media print, screen and (max-width: 1000px) {
