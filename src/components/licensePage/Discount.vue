@@ -13,21 +13,21 @@
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left">女子・学生<br>応援割引<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">女子・学生<br>応援割引<span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>2000</span>円割引！
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left">団体援割<br>（5名）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">団体援割<br>（5名）<span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員10%OFF</span>
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left">超団体援割<br>（10名）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">超団体援割<br>（10名）<span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員15%OFF</span>
@@ -157,6 +157,9 @@ export default {
     font-size: 12px;
 }
 
+.discount-flex-left.-sp span {
+  top: 24px;
+}
 .discount-flex-left br {
     display: block;
 }
