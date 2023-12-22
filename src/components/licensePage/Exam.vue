@@ -12,14 +12,14 @@
                 </figure>
             </div>
             <p class="exam-text">
-                【解答解説付き模擬試験】<br>
+                <span>【解答解説付き模擬試験】</span><br>
                 最新のオリジナル予想模擬試験は【理論】【電力】【機械】【法規】の４科目分を取り揃えています。<br>
                 <br>
-                ・模擬試験（問題）<br>
+                <span>・模擬試験（問題）</span><br>
                 今年の試験で出題が予想される問題を扱った、能センオリジナルの模擬試験です。<br>
                 本番前の総仕上げとしてご活用ください。<br>
                 <br>
-                ・模擬試験（解答解説）<br>
+                <span>・模擬試験（解答解説）</span><br>
                 解説付きの解答で理解度UP！問題の考え方を丁寧に指導します。
             </p>
         </div>
@@ -75,6 +75,9 @@ export default {
     line-height: 1.8;
     margin-top: 20px;
     margin: 0;
+}
+.exam-text span {
+    font-weight: 700;
 }
 
 @media print, screen and (max-width: 1100px) {
