@@ -282,9 +282,9 @@
         date="２０２４年１月３１日（水）"
         />
 
-        <Discount
+        <!-- <Discount
             title="合格応援割START！"
-        />
+        /> -->
 
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
