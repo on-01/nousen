@@ -282,6 +282,10 @@
         date="２０２４年１月３１日（水）"
         />
 
+        <Discount
+            title="合格応援割START！"
+        />
+
         <Linelink 
               text="能センLINE公式アカウント開設しました。<br>
                 只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
@@ -485,6 +489,7 @@ import CourseOverview from '../components/licensePage/CourseOverview.vue';
 import ContactInfo from '../components/licensePage/ContactInfo.vue';
 import Exam from '../components/licensePage/Exam.vue';
 import SetCourse from '../components/licensePage/SetCourse.vue';
+import Discount from '../components/licensePage/Discount.vue';
 
 const options = {
   //contentfulのエディタで設定したassetへのリンクを変換
@@ -549,7 +554,8 @@ export default {
     CourseOverview,
     ContactInfo,
     Exam,
-    SetCourse
+    SetCourse,
+    Discount
   },
   data() {
     return {
