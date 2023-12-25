@@ -184,7 +184,7 @@
                             </td>
                         </tr>
                     </table>
-                    <p class="courseOverview-text -type4">※令和４年度に撮影した動画になります。</p>
+                    <p class="courseOverview-text -type4">※令和６年度に撮影した動画になります。</p>
                 </div>
             </div>
             <br>
