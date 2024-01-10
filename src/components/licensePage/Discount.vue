@@ -20,14 +20,14 @@
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">団体援割<br>（5名）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">団体援割<br>（5名以上）<span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員10%OFF</span>
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">超団体援割<br>（10名）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">超団体援割<br>（10名以上）<span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員15%OFF</span>
@@ -65,7 +65,7 @@ export default {
     font-family: 'Meiryo', sans-serif;
 }
 .discount-inner {
-    padding: 40px 160px;
+    padding: 40px 180px;
 }
 .discount-title {
     line-height: 1.3;
