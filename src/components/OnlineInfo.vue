@@ -1,10 +1,10 @@
 <template>
   <div :class="displayNone">
       <div class="sp_online_infomation">
-        <p class="sp_online_infomation_text">令和５年度お申込み受付中！</p>
+        <p class="sp_online_infomation_text">新年おめでとうございます！</p>
       </div>
       <div class="online_infomation">
-        <p class="online_infomation_text">令和５年度お申込み受付中！</p>
+        <p class="online_infomation_text">新年おめでとうございます！</p>
       </div>
   </div>
 </template>

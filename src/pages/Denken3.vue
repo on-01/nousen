@@ -10,7 +10,7 @@
           :backImgUnder="
             require('../assets/img/license_page/bg_white.jpg')
           "
-          headTitle="令和5年度下期/令和6年度上期"
+          headTitle="令和6年度上期/令和6年度下期"
           title="第三種電気主任技術者<br/>（電験三種）"
           subTitle="通学講座 | オンライン講座 | 通信講座"
           color="#1D9BF0"
