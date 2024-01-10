@@ -62,18 +62,15 @@
         </div>
 
         <quality
-            title_1="<i class=scroll-animation-item>＼科目合格率95%／<br>合格に特化した教材を使用！</i>"
             text_1="1.講師が執筆したオリジナルテキストを使用。
                     ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。<br>
                     2.効果的な学習をサポートする副教材も特徴。
                     自宅学習に使える解説付き問題集や、4科目分の添削課題付き。"
             :imagePath_1="require('../assets/img/license_page/denken3/denken3_quality_1.jpg')"
-            title_2="<i class=scroll-animation-item>＼基礎から始める電験三種／<br> 初心者オススメ基礎講座！</i>"
             text_2="初めて受験する方にお勧めするのが、能センの基礎講座です。
                     専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。
                     しばらく理系の学習から離れていた方はこの機会にご活用ください。"
             :imagePath_2="require('../assets/img/license_page/denken3/denken3_quality_2.jpg')"
-            title_3="<i class=scroll-animation-item>＼選べる受講スタイル／<br>通学・オンライン・通信講座</i>"
             text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。
                     通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。
                     どの講座も合格に特化した教材を使用します。"

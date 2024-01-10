@@ -12,7 +12,9 @@
                         <img :src="imagePath_1">
                     </figure>
                     <div class="quality-description">
-                        <p class="quality-title" v-html="title_1"></p>
+                        <p class="quality-title">
+                            <i class=scroll-animation-item>＼科目合格率95%／<br>合格に特化した教材を使用！</i>
+                        </p>
                         <p class="quality-line"></p>
                         <p class="quality-text" v-html="text_1"></p>
                     </div>
@@ -26,7 +28,9 @@
                         <img :src="imagePath_2">
                     </figure>
                     <div class="quality-description">
-                        <p class="quality-title" v-html="title_2"></p>
+                        <p class="quality-title">
+                            <i class=scroll-animation-item>＼基礎から始める電験三種／<br> 初心者オススメ基礎講座！</i>
+                        </p>
                         <p class="quality-line"></p>
                         <p class="quality-text" v-html="text_2"></p>
                     </div>
@@ -40,7 +44,9 @@
                         <img :src="imagePath_3">
                     </figure>
                     <div class="quality-description">
-                        <p class="quality-title" v-html="title_3"></p>
+                        <p class="quality-title">
+                            <i class=scroll-animation-item>＼選べる受講スタイル／<br>通学・オンライン・通信講座</i>
+                        </p>
                         <p class="quality-line"></p>
                         <p class="quality-text" v-html="text_3"></p>
                     </div>
@@ -54,13 +60,10 @@
 <script>
 export default {
  props: {
-   title_1: String,
    text_1: String,
    imagePath_1: String,
-   title_2: String,
    text_2: String,
    imagePath_2: String,
-   title_3: String,
    text_3: String,
    imagePath_3: String,
  } 
