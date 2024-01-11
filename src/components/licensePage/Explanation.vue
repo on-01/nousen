@@ -28,7 +28,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 20px auto 0;
+    margin: 20px auto;
     z-index: 0;
     position: relative;
     font-family: 'メイリオ', sans-serif;

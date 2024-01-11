@@ -30,7 +30,7 @@ export default {
 .sp_explanation {
     width: 90%;
     background-color: #fff;
-    margin: 20px auto 0;
+    margin: 20px auto;
     z-index: 0;
     position: relative;
     font-family: 'メイリオ', sans-serif;
