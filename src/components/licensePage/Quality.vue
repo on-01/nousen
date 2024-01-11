@@ -73,7 +73,6 @@ export default {
 <style lang="scss" scoped>
 .quality {
     width: 100%;
-    background-color: #ebf7ff;
     font-family: 'メイリオ', sans-serif;
     padding: 20px 0 110px;
 }
