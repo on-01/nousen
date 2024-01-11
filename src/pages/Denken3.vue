@@ -735,13 +735,7 @@
       }
     }
   }
-  .tab-wrapper.-top {
-    .tab {
-        max-width: 100%;
-        background-color: #FFF8cc;
-    }
-  }
-  
+
   .tab::before {
     content: url("../assets/img/license_page/icon_bag.svg");
     display: inline-block;
@@ -769,6 +763,17 @@
       }
     }
   }
+
+  .tab-wrapper.-top {
+    .tab {
+        max-width: 100%;
+        background-color: #FFF8cc;
+    }
+
+  .tab::before {
+    content: '';
+  }
+}
   
   .underdisplay {
     @media print, screen and(min-width: 1001px) {
