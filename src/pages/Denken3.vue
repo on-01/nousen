@@ -68,6 +68,7 @@
               :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
             />
   
+          <div class="bg-lightBlue">
             <Schedule
                 title="試験日・受験申請・合格発表"
             />
@@ -82,8 +83,7 @@
                 <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
               </g-link>
             </div>
-  
-            <div class="bg-lightBlue">
+
               <Study
                 studySlug="denken"
                 name1="電験三種の合格に必要な勉強時間"
@@ -310,6 +310,7 @@
   
         </div>
 
+        <div class="bg-lightBlue">
           <div class="exam-link-wrapper">
             <div class="exam-link-flex">
               <g-link to="/denken3-application" class="application-form-link">
@@ -323,7 +324,8 @@
             </div>
           </div>
         </div>
-        </header>
+      </div>
+      </header>
   
         <div v-show="isActiveTop === 2">
           <section class="tab-wrapper">
@@ -408,13 +410,12 @@
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
               />
               </div>
+              <ContactInfo
+                title="受講に関するご相談は<br>
+                【お電話】【フォーム】【オンライン】<br>
+                お気軽にお問い合わせください。"
+              />
             </div>
-
-            <ContactInfo
-              title="受講に関するご相談は<br>
-              【お電話】【フォーム】【オンライン】<br>
-              お気軽にお問い合わせください。"
-            />
         </div>
 
         <div class="fixed-btn">

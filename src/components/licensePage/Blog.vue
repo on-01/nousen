@@ -4,10 +4,10 @@
             <p class="blog-title" v-html="title"></p>
             <p class="blog-line"></p>
             <div class="blog-links">
-                <a class="blog-link" href="https://denken.nouryoku.com/">●電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
-                <a class="blog-link" href="https://nousen.blog/denken3/">●電験三種【令和6年度】試験日・難易度・合格率・勉強方法を徹底解説</a>
-                <a class="blog-link" href="https://nousen.blog/denken3-1/">●電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
-                <a class="blog-link" href="https://nousen.blog/denken3-2/">●電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
+                <a class="blog-link" href="https://denken.nouryoku.com/">● 電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
+                <a class="blog-link" href="https://nousen.blog/denken3/">● 電験三種【令和6年度】試験日・難易度・合格率・勉強方法を徹底解説</a>
+                <a class="blog-link" href="https://nousen.blog/denken3-1/">● 電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
+                <a class="blog-link" href="https://nousen.blog/denken3-2/">● 電験三種【2024年】初心者必見！試験・合格率・難易度・仕事内容</a>
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
 <script>
 export default {
     props: {
-        titile: String,
+        title: String,
     } 
 }
 </script>
@@ -26,7 +26,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 20px auto;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
@@ -56,6 +56,8 @@ export default {
 .blog-link {
     font-size: 16px;
     margin: 20px auto 0; 
+    display: block;
+    text-align: center;
 }
 
 @media print, screen and (max-width: 1000px) {
