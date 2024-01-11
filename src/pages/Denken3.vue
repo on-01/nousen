@@ -31,12 +31,14 @@
               v-on:click="tabToggleTop(1)"
             >
               試験情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
               講座情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
   
@@ -772,6 +774,7 @@
 
   .tab::before {
     content: '';
+    display: none;
   }
 }
   
