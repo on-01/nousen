@@ -118,6 +118,16 @@
   
                 boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
                 />
+
+                <blog
+                  title="電験三種（第三種電気主任技術者）の新記事ブログ"
+                />
+
+                <ContactInfo
+                  title="受講に関するご相談は<br>
+                  【お電話】【フォーム】【オンライン】<br>
+                  お気軽にお問い合わせください。"
+                />
               </div>
           </div>
   
@@ -299,10 +309,7 @@
             />
   
         </div>
-  
-        </div>
-            
-        <div class="bg-lightBlue">
+
           <div class="exam-link-wrapper">
             <div class="exam-link-flex">
               <g-link to="/denken3-application" class="application-form-link">
@@ -316,99 +323,100 @@
             </div>
           </div>
         </div>
-  
         </header>
   
-        <section class="tab-wrapper">
-          <div
-            :class="['tab', { active: isActive === 1 }]"
-            v-on:click="tabToggle(1)"
-          >
-            オンライン
-            <br class="underdisplay" />
-            講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 2 }]"
-            v-on:click="tabToggle(2)"
-          >
-            通学講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 3 }]"
-            v-on:click="tabToggle(3)"
-          >
-            通信講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-        </section>
+        <div v-show="isActiveTop === 2">
+          <section class="tab-wrapper">
+            <div
+              :class="['tab', { active: isActive === 1 }]"
+              v-on:click="tabToggle(1)"
+            >
+              オンライン
+              <br class="underdisplay" />
+              講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActive === 2 }]"
+              v-on:click="tabToggle(2)"
+            >
+              通学講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActive === 3 }]"
+              v-on:click="tabToggle(3)"
+            >
+              通信講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+          </section>
         <div class="body">
-          <div v-show="isActive === 2">
-            <h3 class="body-title">通学講座</h3>
-            <h3 class="body-title">各会場の開催日程</h3>
-            <Venue
-              v-for="(items, index) in $static.tuugakuVenue.edges"
-              :key="index"
-              :city="items.node.city"
-              :period="items.node.period"
-              :hall="items.node.hall"
-              :details="items.node.details"
-              :address="items.node.address"
-              :map="items.node.map"
-            />
-            <Info
-              :tuitionFee="richtextToHTML($static.tuugaku.tuitionFee)"
-              :capacity="$static.tuugaku.capacity"
-              :benefits="richtextToHTML($static.tuugaku.benefits)"
-              :cpds="richtextToHTML($static.tuugaku.cpds)"
-            />
+            <div v-show="isActive === 2">
+              <h3 class="body-title">通学講座</h3>
+              <h3 class="body-title">各会場の開催日程</h3>
+              <Venue
+                v-for="(items, index) in $static.tuugakuVenue.edges"
+                :key="index"
+                :city="items.node.city"
+                :period="items.node.period"
+                :hall="items.node.hall"
+                :details="items.node.details"
+                :address="items.node.address"
+                :map="items.node.map"
+              />
+              <Info
+                :tuitionFee="richtextToHTML($static.tuugaku.tuitionFee)"
+                :capacity="$static.tuugaku.capacity"
+                :benefits="richtextToHTML($static.tuugaku.benefits)"
+                :cpds="richtextToHTML($static.tuugaku.cpds)"
+              />
+                <NewApplication
+                  personalFormLink="/denken3-application"
+                  businessFormLink="/denken3-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
+                />
+            </div>
+            <div v-show="isActive === 3">
+              <h3 class="body-title">通信講座</h3>
+              <Info
+                :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
+                :capacity="$static.tuushin.capacity"
+                :benefits="richtextToHTML($static.tuushin.benefits)"
+                :cpds="richtextToHTML($static.tuushin.cpds)"
+              />
               <NewApplication
+                personalFormText="通信講座のお申込み（個人）"
                 personalFormLink="/denken3-application"
+                businessFormText="通信講座のお申込み（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
               />
-          </div>
-          <div v-show="isActive === 3">
-            <h3 class="body-title">通信講座</h3>
-            <Info
-              :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
-              :capacity="$static.tuushin.capacity"
-              :benefits="richtextToHTML($static.tuushin.benefits)"
-              :cpds="richtextToHTML($static.tuushin.cpds)"
-            />
-            <NewApplication
-              personalFormText="通信講座のお申込み（個人）"
-              personalFormLink="/denken3-application"
-              businessFormText="通信講座のお申込み（法人）"
-              businessFormLink="/denken3-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
-            />
-          </div>
-          <div v-show="isActive === 1">
-            <h3 class="body-title">オンライン講座</h3>
-            <Info
-              :courseOutline="richtextToHTML($static.online.courseOutline)"
-              :apply="richtextToHTML($static.online.apply)"
-            />
-            <div id="apply-section"></div>
-            <NewApplication
-              personalFormText="オンライン講座へのお申込み（個人）"
-              personalFormLink="/denken3-application"
-              businessFormText="オンライン講座へのお申込み（法人）"
-              businessFormLink="/denken3-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
-            />
             </div>
-  
+            <div v-show="isActive === 1">
+              <h3 class="body-title">オンライン講座</h3>
+              <Info
+                :courseOutline="richtextToHTML($static.online.courseOutline)"
+                :apply="richtextToHTML($static.online.apply)"
+              />
+              <div id="apply-section"></div>
+              <NewApplication
+                personalFormText="オンライン講座へのお申込み（個人）"
+                personalFormLink="/denken3-application"
+                businessFormText="オンライン講座へのお申込み（法人）"
+                businessFormLink="/denken3-application-business"
+                faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
+              />
+              </div>
+            </div>
+
             <ContactInfo
               title="受講に関するご相談は<br>
               【お電話】【フォーム】【オンライン】<br>
               お気軽にお問い合わせください。"
             />
         </div>
-  
+
         <div class="fixed-btn">
           <div @click="navigateToSection">
             <img
@@ -501,6 +509,7 @@
   import Exam from '../components/licensePage/Exam.vue';
   import SetCourse from '../components/licensePage/SetCourse.vue';
   import Discount from '../components/licensePage/Discount.vue';
+  import Blog from '../components/licensePage/Blog.vue';
   
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -566,7 +575,8 @@
       ContactInfo,
       Exam,
       SetCourse,
-      Discount
+      Discount,
+      Blog
     },
     data() {
       return {
