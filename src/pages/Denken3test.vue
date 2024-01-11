@@ -527,7 +527,7 @@ export default {
         {
           key: `og:url`,
           property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/denken3/test`
+          content: `${this.$static.metadata.siteUrl}/test`
         }
       ]
     };
