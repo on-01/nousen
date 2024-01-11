@@ -60,6 +60,10 @@ export default {
     text-align: center;
 }
 
+.blog-blank {
+    padding-left: 14px;
+}
+
 @media print, screen and (max-width: 1000px) {
     .blog {
         width: 90%;
