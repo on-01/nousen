@@ -31,7 +31,7 @@ export default {
     border: 4px solid #f4891e;
     border-radius: 12px;
     font-family: メイリオ,sans-serif;
-    margin: 60px auto 0;
+    margin: 60px auto 30px;
 }
 .contactInfo-inner {
     position: relative;
