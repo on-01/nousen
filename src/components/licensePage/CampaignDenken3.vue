@@ -4,7 +4,7 @@
         <div class="campaign-inner">
             <div class="campaign-section">
                 <figure class="campaign-image">
-                    <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg">
+                    <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg" alt="電験三種">
                 </figure>
                 <div class="campaign-description">
                     <p class="campaign-topic -red">第一弾【￥10,000 off】早割キャンペーン（通学講座）</p>
@@ -17,7 +17,7 @@
             </div>
             <div class="campaign-section">
                 <figure class="campaign-image">
-                    <img src="../../assets/img/license_page/denken3/denken3_campaign_2.jpg">
+                    <img src="../../assets/img/license_page/denken3/denken3_campaign_2.jpg" alt="電験三種">
                 </figure>
                 <div class="campaign-description">
                     <p class="campaign-topic">電気主任技術者のバイブルを進呈</p>
@@ -30,7 +30,7 @@
             </div>
             <div class="campaign-section">
                 <figure class="campaign-image">
-                    <img src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg">
+                    <img src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg" alt="電験三種">
                 </figure>
                 <div class="campaign-description">
                     <p class="campaign-topic">過去問題進呈</p>
@@ -43,7 +43,7 @@
             </div>
             <div class="campaign-section">
                 <figure class="campaign-image">
-                    <img src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg">
+                    <img src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg" alt="電験三種">
                 </figure>
                 <div class="campaign-description">
                     <p class="campaign-topic">出題分析を進呈</p>

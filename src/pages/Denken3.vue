@@ -66,6 +66,7 @@
                     <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、最小限の努力で
                     最大の結果（合格）を得るための講座をご提供いたします。</span>"
               :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
+              altText="電験三種"
             />
   
           <div class="bg-lightBlue">
@@ -181,6 +182,10 @@
                   :imageBook1="require('../assets/img/license_page/denken3/denken3_lecture_book_1.jpg')"
                   :imageBook2="require('../assets/img/license_page/denken3/denken3_lecture_book_2.jpg')"
                   :imageBook3="require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')"
+                  altText="電験三種"
+                  altBook1="電験三種"
+                  altBook2="電験三種"
+                  altBook3="電験三種"
             />
   
           <div class="bg-lightBlue">

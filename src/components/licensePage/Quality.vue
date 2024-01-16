@@ -9,7 +9,7 @@
                         <span>1</span>
                     </div>
                     <figure class="quality-image">
-                        <img :src="imagePath_1">
+                        <img :src="imagePath_1" alt="電験三種">
                     </figure>
                     <div class="quality-description">
                         <p class="quality-title">
@@ -25,7 +25,7 @@
                         <span>2</span>
                     </div>
                     <figure class="quality-image">
-                        <img :src="imagePath_2">
+                        <img :src="imagePath_2" alt="電験三種">
                     </figure>
                     <div class="quality-description">
                         <p class="quality-title">
@@ -41,7 +41,7 @@
                         <span>3</span>
                     </div>
                     <figure class="quality-image">
-                        <img :src="imagePath_3">
+                        <img :src="imagePath_3" alt="電験三種">
                     </figure>
                     <div class="quality-description">
                         <p class="quality-title">

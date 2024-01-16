@@ -5,10 +5,10 @@
             <p class="exam-line"></p>
             <div class="exam-image">
                 <figure>
-                    <img src="../../assets/img/license_page/denken3/denken3_exam_1.jpg" alt="模擬試験１">
+                    <img src="../../assets/img/license_page/denken3/denken3_exam_1.jpg" alt="電験三種">
                 </figure>
                 <figure>
-                    <img src="../../assets/img/license_page/denken3/denken3_exam_2.jpg" alt="模擬試験２">
+                    <img src="../../assets/img/license_page/denken3/denken3_exam_2.jpg" alt="電験三種">
                 </figure>
             </div>
             <p class="exam-text">

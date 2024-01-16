@@ -5,7 +5,7 @@
             <div class="courseOverview-content">
                 <div class="courseOverview-flex -reverse">
                     <div class="courseOverview-flex-left">
-                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_1.jpg">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_1.jpg" alt="電験三種">
                     </div>
                     <div class="courseOverview-flex-right">
                         <p class="courseOverview-title">{{ title }}</p>
@@ -101,7 +101,7 @@
                         <p class="courseOverview-text -type1 -center">最新の受験対策講座をお届けします！</p>
                     </div>
                     <div class="courseOverview-flex-right">
-                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg" alt="電験三種">
                     </div>
                 </div>
                 <br>
@@ -191,7 +191,7 @@
             <div class="courseOverview-content">
                 <div class="courseOverview-flex">
                     <div class="courseOverview-flex-left">
-                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_3.jpg">
+                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_3.jpg" alt="電験三種">
                     </div>
                     <div class="courseOverview-flex-right">
                         <p class="courseOverview-title">通 信 講 座</p>
