@@ -7,7 +7,7 @@
                     <p class="cheer-line"></p>
                 </div>
                 <figure class="cheer-image">
-                    <img :src="imagePath">
+                    <img :src="imagePath" :alt="altText">
                 </figure>
             </div>
         </div>
@@ -18,7 +18,8 @@
 export default {
     props: { 
     text: String,
-    imagePath: String
+    imagePath: String,
+    altText: String
     }
 }
 </script>
