@@ -1,6 +1,6 @@
 <template>
     <div class="campaign">
-        <p class="campaign-title">合格応援キャンペーン(受講者特典)</p>
+        <p class="campaign-title">第一弾合格応援キャンペーン(受講者特典)</p>
         <div class="campaign-inner">
             <div class="campaign-section">
                 <figure class="campaign-image">

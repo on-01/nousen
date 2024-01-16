@@ -286,8 +286,6 @@
             :explanation="[
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
             ]"
-            moreLink="https://nousen.square.site"
-            moreText="能センSHOP"
           />
           <Reason
             reasonNumber="4"
@@ -811,7 +809,7 @@ export default {
     align-self: end;
     -ms-grid-column: 2;
     -ms-grid-row: 1;
-    opacity: 0.2;
+    // opacity: 0.2;
   }
   @media print, screen and (max-width: 1000px) {
     display:none;
@@ -829,7 +827,7 @@ export default {
     align-self: end;
     -ms-grid-column: 4;
     -ms-grid-row: 1;
-    opacity: 0.2;
+    // opacity: 0.2;
   }
   @media print, screen and (max-width: 1000px) {
     display:none;

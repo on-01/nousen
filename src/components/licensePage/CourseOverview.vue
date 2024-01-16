@@ -10,9 +10,9 @@
                     <div class="courseOverview-flex-right">
                         <p class="courseOverview-title">{{ title }}</p>
                         <div class="courseOverview-line"></div>
-                        <p class="courseOverview-text -type1 -center">業界支持率No.1の圧倒的なわかりやすさ！</p>
+                        <p class="courseOverview-text -type1 -center">東京・名古屋・大阪<br>業界支持率No.1の圧倒的なわかりやすさ！</p>
                         <br>
-                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。</p>
+                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。※令和6年度は東京会場のみ</p>
                     </div>
                 </div>
                 <br>
