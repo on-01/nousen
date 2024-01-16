@@ -22,7 +22,7 @@
                   電験男子・電験女子を<br>
                   応援します！"
                   :imagePath="require('../assets/img/license_page/denken3/denken3_point.jpg')"
-                  altText="電験三種"
+                  :altText="電験三種"
             />
   
             <!-- トップ部分タブ切り替え -->
@@ -55,6 +55,7 @@
                     <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
                       最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
               :imagePath="require('../assets/img/license_page/denken3/denken3_explain.jpg')"
+              :altText="電験三種"
             />
             <SpExplanation
               title="第三種電気主任技術者とは"
