@@ -1,13 +1,13 @@
 <template>
     <div class="campaign">
-        <p class="campaign-title">第一弾合格応援キャンペーン(受講者特典)</p>
+        <p class="campaign-title">合格応援キャンペーン(受講者特典)</p>
         <div class="campaign-inner">
             <div class="campaign-section">
                 <figure class="campaign-image">
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic -red">【￥10,000 off】早割キャンペーン（通学講座）</p>
+                    <p class="campaign-topic -red">第一弾【￥10,000 off】早割キャンペーン（通学講座）</p>
                     <ul class="campaign-content">
                         <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン開催中です！</li>
                         <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります。</li>

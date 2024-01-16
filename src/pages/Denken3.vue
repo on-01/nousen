@@ -782,9 +782,6 @@
       margin-top: -44px;
     }
 
-    &.active {
-        color: #000;
-      }
     .tab {
         max-width: 100%;
         background-color: #FFF8cc;
@@ -803,7 +800,11 @@
       }
     }
 }
-  
+
+.tab-wrapper.-top .tab.active {
+      color: #000;
+    }
+
   .underdisplay {
     @media print, screen and(min-width: 1001px) {
       display: none;
