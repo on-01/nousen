@@ -5,7 +5,7 @@
         <p class="explanation-line"></p>
             <div class="explanation-flex">
                 <figure class="explanation-image">
-                    <img :src="imagePath">
+                    <g-image :src="imagePath" :alt="altText" />
                 </figure>
                 <p class="explanation-text" v-html="text"></p>
             </div>
@@ -18,7 +18,8 @@ export default {
     props: {
         title: String,
         text: String,
-        imagePath: String
+        imagePath: String,
+        altText: String
     } 
 }
 </script>
