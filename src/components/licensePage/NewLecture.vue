@@ -3,7 +3,7 @@
         <div class="lecture-inner">
             <div class="lecture-section">
                 <figure class="lecture-image">
-                    <img :src="imagePath">
+                    <g-image :src="imagePath" :alt="altText" />
                 </figure>
                 <div class="lecture-description">
                     <p class="lecture-title" v-html="title"></p>
@@ -14,13 +14,13 @@
             <div class="lecture-section -bottom">
                 <div class="lecture-book-images">
                     <figure class="lecture-book-image">
-                        <img :src="imageBook1">
+                        <g-image :src="imageBook1" :alt="altBook1" />
                     </figure>
                     <figure class="lecture-book-image">
-                        <img :src="imageBook2">
+                        <g-image :src="imageBook2" :alt="altBook2" />
                     </figure>
                     <figure class="lecture-book-image">
-                        <img :src="imageBook3">
+                        <g-image :src="imageBook3" :alt="altBook3" />
                     </figure>
                 </div>
                 <div class="lecture-description">
@@ -43,6 +43,10 @@ export default {
         imageBook1: String,
         imageBook2: String,
         imageBook3: String,
+        altText: String,
+        altBook1: String,
+        altBook2: String,
+        altBook3: String,
     } 
 }
 </script>
