@@ -22,7 +22,7 @@
                   電験男子・電験女子を<br>
                   応援します！"
                   :imagePath="require('../assets/img/license_page/denken3/denken3_point.jpg')"
-                  :altText="電験三種"
+                  altText="電験三種"
             />
   
             <!-- トップ部分タブ切り替え -->
