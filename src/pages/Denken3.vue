@@ -22,6 +22,7 @@
                   電験男子・電験女子を<br>
                   応援します！"
                   :imagePath="require('../assets/img/license_page/denken3/denken3_point.jpg')"
+                  :altText="電験三種"
             />
   
             <!-- トップ部分タブ切り替え -->
@@ -202,21 +203,21 @@
                       <div class="voice-topic">
                           <div class="voice-flex">
                               <div class="voice-box">
-                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_3.jpg" alt="voice_1"></figure>
+                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_3.jpg" alt="電験三種"></figure>
                                   <p>授業がとにかく<br>分かりやすかった！</p>
                               </div>
                               <div class="voice-box">
-                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_2.jpg" alt="voice_2"></figure>
+                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_2.jpg" alt="電験三種"></figure>
                                   <p>質問にも丁寧に<br>対応してくれた。</p>
                               </div>
                           </div>
                           <div class="voice-flex">
                               <div class="voice-box">
-                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_1.jpg" alt="voice_3"></figure>
+                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_1.jpg" alt="電験三種"></figure>
                                   <p>教材・資料が<br>充実している。</p>
                               </div>
                               <div class="voice-box">
-                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_4.jpg" alt="voice_4"></figure>
+                                  <figure><img src="../assets/img/license_page/denken3/denken3_voice_4.jpg" alt="電験三種"></figure>
                                   <p>話し方が丁寧で<br>聞きやすかった。</p>
                               </div>
                           </div>
@@ -232,7 +233,7 @@
                           <div class="voice-item">
                               <h4>【基礎講座】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></figure>
+                                <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="電験三種"></figure>
                                 <p>・現場の実例があり、公式や問題の意味が理解できた。<br>
                                     ・質問（個別）時間を設けて頂いたのは、非常にありがたかった。<br>
                                     ・電気数学（基礎数学）が苦手で「どうしたらその解答になる？」ということが多かったが、
@@ -240,54 +241,54 @@
                                     ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
                                 </p>
                               </div>
-                              <div v-show="isVoice === 1" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="voice_comment_1"></div>
+                              <div v-show="isVoice === 1" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="電験三種"></div>
                           </div>
                           <div class="voice-item">
                               <h4>【理論】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></figure>
+                                <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="電験三種"></figure>
                                 <p>・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
                                     また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
                                     調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
                                 </p>
                               </div>
-                              <div v-show="isVoice === 2" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="voice_comment_2"></div>
+                              <div v-show="isVoice === 2" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="電験三種"></div>
                           </div>
                           <div class="voice-item">
                               <h4>【電力】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></figure>
+                                <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="電験三種"></figure>
                                 <p> ・図解が分かりやすかった。<br>
                                     ・出題傾向を変えながら要点を教えていただけた。<br>
                                     ・単位の重要性を改めて実感しました。式計算する時に式を立てるだけでなく式の中でも単位を使用してみようと思います。<br>
                                     ・学習範囲を明確にすることができた。
                                 </p>
                               </div>
-                              <div v-show="isVoice === 3" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="voice_comment_3"></div>
+                              <div v-show="isVoice === 3" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="電験三種"></div>
                           </div>
                           <div class="voice-item">
                               <h4>【機械】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></figure>
+                                <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="電験三種"></figure>
                                 <p> ・自動制御が非常に分かりやすかった。<br>
                                     ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
                                     ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
                                     ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
                                 </p>
                               </div>
-                              <div v-show="isVoice === 4" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="voice_comment_4"></div>
+                              <div v-show="isVoice === 4" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="電験三種"></div>
                           </div>
                           <div class="voice-item">
                               <h4>【法規】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></figure>
+                                <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="電験三種"></figure>
                                 <p> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
                                     ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
                                     ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
                                     ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
                                 </p>
                               </div>
-                              <div v-show="isVoice === 5" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="voice_comment_5"></div>
+                              <div v-show="isVoice === 5" class="voice-upImage"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="電験三種"></div>
                           </div>
                       </div>
                   </div>
