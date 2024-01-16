@@ -7,7 +7,7 @@
                     <p class="cheer-line"></p>
                 </div>
                 <figure class="cheer-image">
-                    <img :src="imagePath" :alt="altText">
+                    <img :src="imagePath" alt="altText">
                 </figure>
             </div>
         </div>
