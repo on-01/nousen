@@ -34,7 +34,7 @@ export default {
 .cheer-inner {
     max-width: 1170px;
     width: 100%;
-    padding: 40px 0;
+    padding: 40px 0 60px;
     margin: 0 auto;
 }
 

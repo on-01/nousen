@@ -781,6 +781,10 @@
     @media print, screen and (max-width: 1000px) {
       margin-top: -44px;
     }
+
+    &.active {
+        color: #000;
+      }
     .tab {
         max-width: 100%;
         background-color: #FFF8cc;
