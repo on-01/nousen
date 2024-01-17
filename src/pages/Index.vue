@@ -168,10 +168,10 @@
         <p>【 メディア掲載実績 】</p>
         <div class="public-media-flex">
             <figure>
-                <img src="../assets/img/common/public_media_1.jpg" alt="建通新聞">
+                <img src="../assets/img/common/public_media_1.jpg" alt="建通新聞" class="media_1">
             </figure>
             <figure>
-                <img src="../assets/img/common/public_media_2.jpg" alt="オーム社">
+                <img src="../assets/img/common/public_media_2.jpg" alt="オーム社" class="media_2">
             </figure>
             <figure>
                 <img src="../assets/img/common/public_media_3.jpg" alt="企業の窓口">
@@ -1682,6 +1682,13 @@ export default {
     display: block;
     margin: auto;
 }
+
+.media_1 {
+  transform: translateY(50%);
+}
+.media_2 {
+  width: 100%;
+}
 @media print, screen and (max-width: 800px) {
     .public-media p {
         font-size: 24px;;
@@ -1699,6 +1706,15 @@ export default {
         display: block;
         margin: auto;
     }
+
+  .media_1 {
+    transform: none;
+  }
+  .media_2 {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
 }
 
 
