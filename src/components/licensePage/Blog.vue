@@ -53,35 +53,32 @@ export default {
 
 .blog-links {
     padding: 10px 0;
+    transform: translateX(50%);
+    margin-right: 50%;
 }
 .blog-link {
     font-size: 16px;
     margin: 20px auto 0; 
     display: block;
-    text-align: center;
 }
-
-.blog-blank {
-    padding-left: 14px;
-}
-
 @media print, screen and (max-width: 1000px) {
     .blog {
         width: 90%;
     }
+
+    .blog-links {
+    transform: none;
+    margin-right: auto;
+}
 }
 
-@media print, screen and (max-width: 768px) {
+@media print, screen and (max-width:480px) {
     .blog-title {
         font-size: 20px;
     }
     .blog-link {
     font-size: 14px;
     line-height: 1.6;
-    }
-
-    .blog-blank {
-        display: none;
     }
 }
 
