@@ -168,24 +168,24 @@
         <p>【 メディア掲載実績 】</p>
         <div class="public-media-flex">
             <figure>
-                <img src="../assets/img/common/public_media_1.jpg" alt="建通新聞" class="media_1">
+                <img src="../assets/img/common/public_media_1.jpg" alt="建通新聞" class="public-media-flex-image -type1">
             </figure>
             <figure>
-                <img src="../assets/img/common/public_media_2.jpg" alt="オーム社" class="media_2">
+                <img src="../assets/img/common/public_media_2.jpg" alt="オーム社" class="public-media-flex-image -type2">
             </figure>
             <figure>
-                <img src="../assets/img/common/public_media_3.jpg" alt="企業の窓口">
+                <img src="../assets/img/common/public_media_3.jpg" alt="企業の窓口" class="public-media-flex-image">
             </figure>
         </div>
         <div class="public-media-flex">
             <figure>
-                <img src="../assets/img/common/public_media_4.png" alt="リセラム">
+                <img src="../assets/img/common/public_media_4.png" alt="リセラム" class="public-media-flex-image">
             </figure>
             <figure>
-                <img src="../assets/img/common/public_media_5.jpg" alt="コンテキストジャパン">
+                <img src="../assets/img/common/public_media_5.jpg" alt="コンテキストジャパン" class="public-media-flex-image">
             </figure>
             <figure>
-                <img src="../assets/img/common/public_media_6.png" alt="マイナビ">
+                <img src="../assets/img/common/public_media_6.png" alt="マイナビ" class="public-media-flex-image">
             </figure>
         </div>
       </div>
@@ -1677,16 +1677,17 @@ export default {
     margin: 0;
     width: 33.33%;
 }
-.public-media-flex figure img {
+
+.public-media-flex-image {
     width: 80%;
     display: block;
     margin: auto;
 }
 
-.media_1 {
+.public-media-flex-image.-type1 {
   transform: translateY(50%);
 }
-.media_2 {
+.public-media-flex-image.-type2 {
   width: 100%;
 }
 @media print, screen and (max-width: 800px) {
@@ -1701,16 +1702,16 @@ export default {
         width: 100%;
         margin: 12px 0;
     }
-    .public-media-flex figure img {
+    .public-media-flex-image {
         width: 40%;
         display: block;
         margin: auto;
     }
 
-  .media_1 {
+    .public-media-flex-image.-type1 {
     transform: none;
   }
-  .media_2 {
+  .public-media-flex-image.-type2 {
     width: 40%;
     display: block;
     margin: auto;
