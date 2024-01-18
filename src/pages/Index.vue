@@ -192,9 +192,9 @@
             <figure>
                 <img src="../assets/img/common/public_media_7.jpg" alt="電気の資格" class="public-media-flex-image">
             </figure>
-            <a href="https://x-work.jp/" target="_blank" rel="noopener noreferrer"><figure>
+            <figure><a href="https://x-work.jp/" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/img/common/public_media_8.jpg" alt="クロスワーク" class="public-media-flex-image">
-            </figure></a>
+            </a></figure>
         </div>
       </div>
 
