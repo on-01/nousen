@@ -188,6 +188,14 @@
                 <img src="../assets/img/common/public_media_6.png" alt="マイナビ" class="public-media-flex-image">
             </figure>
         </div>
+        <div class="public-media-flex">
+            <figure>
+                <img src="../assets/img/common/public_media_7.png" alt="電気の資格" class="public-media-flex-image">
+            </figure>
+            <figure><a href="https://x-work.jp/" target="_blank" rel="noopener noreferrer">
+                <img src="../assets/img/common/public_media_8.jpg" alt="クロスワーク" class="public-media-flex-image">
+            </a></figure>
+        </div>
       </div>
 
       <section class="section03">
