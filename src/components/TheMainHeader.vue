@@ -502,7 +502,7 @@ export default {
 .main-header {
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   background-color: #fff;
   transition: background-color 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
   top: 0;

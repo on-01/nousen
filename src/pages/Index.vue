@@ -1685,6 +1685,10 @@ export default {
     margin: 0;
     width: 33.33%;
 }
+.public-media-flex figure a {
+    position: relative;
+    z-index: 1;
+}
 
 .public-media-flex-image {
     width: 80%;
