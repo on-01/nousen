@@ -786,7 +786,7 @@
 
   .tab-wrapper.-top {
     @media print, screen and (max-width: 1000px) {
-      margin-top: -44px;
+      margin-top: -46px;
     }
 
     .tab {
