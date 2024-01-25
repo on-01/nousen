@@ -140,6 +140,9 @@
   position: relative;
   border-top: 5px solid #1D9BF0;
 }
+.denken3 .main-footer {
+  border-top: none;
+}
 .main-footer-inner {
   padding: 10px 0 110px;
   max-width: 950px;
