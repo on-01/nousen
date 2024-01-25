@@ -4,7 +4,6 @@
         <p class="sp_explanation-title">{{ title }}</p>
         <p class="sp_explanation-line"></p>
         <figure class="sp_explanation-image">
-            <img :src="imagePath">
             <g-image :src="imagePath" :alt="altText" />
         </figure>
         <p class="sp_explanation-text" v-html="text"></p>
