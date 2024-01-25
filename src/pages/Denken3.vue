@@ -794,6 +794,10 @@
         background-color: #FFF8cc;
     }
 
+    .tab.active {
+      border-bottom: 5px solid #fff8cc;
+    }
+
   .tab::before {
     content: '';
     display: none;
