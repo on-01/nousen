@@ -135,9 +135,10 @@
 
 <style lang="scss" scoped>
 .main-footer {
-  border-top: 2px solid #f4f0ed;
+  // border-top: 2px solid #f4f0ed;
   margin-bottom: 20px;
   position: relative;
+  border-top: 5px solid #1D9BF0;
 }
 .main-footer-inner {
   padding: 10px 0 110px;
