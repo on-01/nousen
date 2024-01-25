@@ -1,13 +1,15 @@
 <template>
-    <div class="explanation">
-        <div class="explanation-inner">
-        <p class="explanation-title">{{ title }}</p>
-        <p class="explanation-line"></p>
-            <div class="explanation-flex">
-                <figure class="explanation-image">
-                    <g-image :src="imagePath" :alt="altText" />
-                </figure>
-                <p class="explanation-text" v-html="text"></p>
+    <div class="explanation-wrap">
+        <div class="explanation">
+            <div class="explanation-inner">
+            <p class="explanation-title">{{ title }}</p>
+            <p class="explanation-line"></p>
+                <div class="explanation-flex">
+                    <figure class="explanation-image">
+                        <g-image :src="imagePath" :alt="altText" />
+                    </figure>
+                    <p class="explanation-text" v-html="text"></p>
+                </div>
             </div>
         </div>
     </div>
