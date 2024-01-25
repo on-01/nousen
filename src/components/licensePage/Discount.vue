@@ -59,7 +59,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #1da1f2;
-    margin: 40px auto 20px;
+    margin: 0 auto;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;

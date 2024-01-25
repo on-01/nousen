@@ -309,12 +309,6 @@
               title="合格応援割START！"
           />
   
-          <Linelink 
-                text="能センLINE公式アカウント開設しました。<br>
-                  只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
-                  期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            />
-  
         </div>
 
         <div class="bg-lightBlue">
@@ -423,6 +417,11 @@
                 お気軽にお問い合わせください。"
               />
             </div>
+            <Linelink 
+                text="能センLINE公式アカウント開設しました。<br>
+                  只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
+                  期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
+            />
         </div>
 
         <div class="fixed-btn">
@@ -999,9 +998,9 @@
       margin-top: 16px;
       width: 70%;
   }
-  .voice-item:first-of-type p {
-      width: 100%;
-  }
+  // .voice-item:first-of-type p {
+  //     width: 100%;
+  // }
   .voice-upImage img {
       margin: 20px auto 0;
       border: 1px solid #000;
