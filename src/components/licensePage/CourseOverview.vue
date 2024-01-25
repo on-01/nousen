@@ -21,6 +21,21 @@
                     <table>
                         <tr>
                             <th>
+                                会場
+                                <p class="courseOverview-th-text">（令和6年度は東京会場）</p>
+                            </th>
+                            <td>
+                                <p><a href="https://zensenbaikaikan.jp/access/">専売ビル（8階）</a></p>
+                                <p>所在地</p>
+                                <p>〒108-0014 東京都港区芝5丁目26番30</p>
+                                <p>交通アクセス</p>
+                                <p>JR「田町駅」三田口(西口) / 徒歩4分</p>
+                                <p>都営浅草線「三田駅」A3出口 / 徒歩3分</p>
+                                <p>都営三田線「三田駅」A9出口 / 徒歩7分</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
                                 受講料
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
