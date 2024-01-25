@@ -140,7 +140,7 @@
   position: relative;
   border-top: 5px solid #1D9BF0;
 }
-.denken3 .main-footer {
+.denken3-template .main-footer {
   border-top: none;
 }
 .main-footer-inner {
