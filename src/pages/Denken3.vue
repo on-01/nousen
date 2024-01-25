@@ -646,6 +646,7 @@
       justify-content: center
     }
   }
+
   .denken3 {
     padding-bottom: 0;
     scroll-behavior: smooth;
@@ -786,7 +787,7 @@
 
   .tab-wrapper.-top {
     @media print, screen and (max-width: 1000px) {
-      margin-top: -46px;
+      margin-top: -45.7px;
     }
 
     .tab {
