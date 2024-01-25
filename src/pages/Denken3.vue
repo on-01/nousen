@@ -830,6 +830,7 @@
     // background-color: #ebf7ff;
     background-color: #FFF7D5;
     padding-bottom: 100px;
+    border-bottom: 5px solid #1d9bf0;
     // @media print, screen and (max-width: 1000px) {
     //   width: 90%;
     // }
