@@ -653,7 +653,7 @@
   }
   .header {
     background-color: #fff8cc;
-    // border-bottom: 5px solid #1D9BF0;
+    border-bottom: 5px solid #1D9BF0;
   }
   .exam-link-wrapper {
     text-align: center;
