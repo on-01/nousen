@@ -25,7 +25,7 @@
                                 <p class="courseOverview-th-text">（令和6年度は東京会場）</p>
                             </th>
                             <td>
-                                <p><a href="https://zensenbaikaikan.jp/access/">専売ビル（8階）</a></p>
+                                <p><a href="https://zensenbaikaikan.jp/access/" class="courseOverview-link">専売ビル（8階）</a></p>
                                 <p>所在地</p>
                                 <p>〒108-0014 東京都港区芝5丁目26番30</p>
                                 <p>交通アクセス</p>
@@ -417,6 +417,12 @@ export default {
 }
 .red {
     color: red;
+}
+
+.courseOverview-link {
+    text-decoration: underline;
+    text-decoration-color: #337ab7;
+    color: #337ab7;
 }
 @media print, screen and (max-width: 768px) {
 .courseOverview {
