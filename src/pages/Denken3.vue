@@ -229,13 +229,13 @@
                           </div>
                       </div>
                       <div class="voice-comment">
-                        <div class="voice-item">
+                        <!-- <div class="voice-item">
                               <h4>【能センについて】</h4>
                               <p>
                                 ・講習会を実際に受けて見たらかなり良くて、スタッフの対応も丁寧で安心しました！<br>
                                 ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
                               </p>
-                          </div>
+                          </div> -->
                           <div class="voice-item">
                               <h4>【基礎講座】</h4>
                               <div class="voice-item-flex">
