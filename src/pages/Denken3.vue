@@ -424,7 +424,7 @@
             </div>
         </div>
 
-        <div class="fixed-btn">
+        <!-- <div class="fixed-btn">
           <div @click="navigateToSection">
             <img
               src="../assets/img/common/fixed_btn.svg"
@@ -433,7 +433,7 @@
               height="92"
             />
           </div>
-        </div>
+        </div> -->
       </div>
     </Layout>
   </div>
