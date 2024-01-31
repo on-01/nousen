@@ -59,7 +59,7 @@ export default {
 }
 .blog-link {
     font-size: 16px;
-    margin: 20px auto 0; 
+    margin: 10px auto 0; 
     display: block;
 }
 @media print, screen and (max-width: 1000px) {

@@ -1,10 +1,10 @@
 <template>
   <div :class="displayNone">
       <div class="sp_online_infomation">
-        <p class="sp_online_infomation_text">新年おめでとうございます！</p>
+        <p class="sp_online_infomation_text">２月。暦の上では春となりました。</p>
       </div>
       <div class="online_infomation">
-        <p class="online_infomation_text">新年おめでとうございます！</p>
+        <p class="online_infomation_text">２月。暦の上では春となりました。</p>
       </div>
   </div>
 </template>

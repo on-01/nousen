@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .line {
-  max-width: 1170px;
+  max-width: 680px;
   width: 100%;
   background-color: #fff;
   margin: 40px auto 0;
@@ -39,7 +39,7 @@ export default {
 }
 
 .line-text {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.8;
   font-weight: 700;
   text-align: center;

@@ -302,7 +302,7 @@
             </section>
   
           <CampaignDenken3 
-          date="２０２４年１月３１日（水）"
+          date="２０２４年２月２９日（木）"
           />
   
           <Discount

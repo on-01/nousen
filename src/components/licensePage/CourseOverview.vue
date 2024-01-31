@@ -46,8 +46,8 @@
                                 <p>33,000円：機械（２日間）9:30-17:00</p>
                                 <p>16,500円：法規（１日）　9:30-17:00</p>
                                 <p>各6600円：模擬試験（１日）模擬試験＋解答解説講習</p>
-                                <p class="courseOverview-td-text"><del>145,000円</del>▶️【早割】135,000円：全科目セット</p>
-                                <p class="courseOverview-td-text"><del>129,800円</del>▶️【早割】119,000円：４科目セット（基礎なし）</p>
+                                <p class="courseOverview-td-text"><del>145,000円</del>▶️【早割】140,000円：全科目セット</p>
+                                <p class="courseOverview-td-text"><del>129,800円</del>▶️【早割】124,800円：４科目セット（基礎なし）</p>
                             </td>
                         </tr>
                         <tr>
@@ -69,6 +69,7 @@
                                 <p>・過去問題10年分（ダウンロード）</p>
                                 <p>・学習ガイダンス</p>
                                 <p>・学習カリキュラム表（進度表）</p>
+                                <p>・勉強計画表/勉強チェックシート</p>
                                 <p>・問題集/問題集解答</p>
                                 <p>・提出課題（全4回分 令和6年度下期試験日まで）</p>
                             </td>
@@ -88,6 +89,7 @@
                             <td>
                                 <p>・令和６年度から提出課題の期間延長（下期試験日まで受付）</p>
                                 <p>・講習会場でのご質問対応。メール・お電話でも対応いたします</p>
+                                <p>・当日欠席しても安心！オンライン講座に無料振替ができます！</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用。</p>
                                 <p>・その他【合格応援割引制度あり】</p>
                             </td>
@@ -114,6 +116,7 @@
                         <div class="courseOverview-line"></div>
                         <p class="courseOverview-text -type1 -center">令和６年度 全期間対応</p>
                         <p class="courseOverview-text -type1 -center">最新の受験対策講座をお届けします！</p>
+                        <p class="courseOverview-text -type1 -center">過去の動画も見放題です！</p>
                     </div>
                     <div class="courseOverview-flex-right">
                         <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg" alt="電験三種">
@@ -165,6 +168,7 @@
                                 <p>・過去問題10年分（ダウンロード）</p>
                                 <p>・学習ガイダンス</p>
                                 <p>・学習カリキュラム表（進度表）</p>
+                                <p>・勉強計画表/勉強チェックシート</p>
                                 <p>・問題集/問題集解答</p>
                                 <p>・提出課題（全4回分 令和6年度下期試験日まで）</p>
                             </td>
@@ -258,6 +262,7 @@
                                 <p>・過去問題10年分（ダウンロード）</p>
                                 <p>・学習ガイダンス</p>
                                 <p>・学習カリキュラム表（進度表）</p>
+                                <p>・勉強計画表/勉強チェックシート</p>
                                 <p>・問題集/問題集解答</p>
                                 <p>・提出課題（4回分）最大24ヶ月間サポート！</p>
                                 <p>・終了試験問題（4回分）最大24ヶ月間サポート！</p>
