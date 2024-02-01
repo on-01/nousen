@@ -110,6 +110,10 @@ export default {
     line-height: 1.6;
 }
 
+.fsc-link {
+    font-size: 14px;
+}
+
 .-sp-only {
     display: none;
 }
