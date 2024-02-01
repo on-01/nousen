@@ -33,15 +33,16 @@ export default {
 
 <style lang="scss" scoped>
 .setCourse {
-    max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 0 auto;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
 }
 .setCourse-inner {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
     padding: 20px 40px;
 }
 .setCourse-title {

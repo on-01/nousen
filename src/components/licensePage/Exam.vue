@@ -67,7 +67,7 @@ export default {
 .exam-image {
     display: flex;
     justify-content: space-between;
-    margin: 24px auto;
+    margin: 24px auto 0;
 }
 
 .exam-image figure img {
@@ -89,6 +89,8 @@ export default {
     font-weight: 700;
     line-height: 1.8;
     margin: 0;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .exam-text span {
     font-weight: 700;
@@ -113,6 +115,9 @@ export default {
     .exam-image figure {
         margin: 0 auto;
         width: 48%;
+    }
+    .exam-note {
+        margin-top: 8px;
     }
 
 .exam-image figure img {
