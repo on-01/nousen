@@ -54,7 +54,7 @@ export default {
 .fsc-flex-left {
     width: 49%;
 }
-.fsc-flex-left {
+.fsc-flex-right {
     padding-left: 6%;
 }
 .fsc-flex-image {
@@ -99,7 +99,7 @@ export default {
     width:100%;
 }
 
-.fsc-flex-left {
+.fsc-flex-right {
     padding-left: 0;
 }
 .fsc-title {
