@@ -188,9 +188,9 @@
                   altBook3="電験三種"
             />
   
-          <div class="bg-lightBlue">
+          <div class="bg-white">
             <Exam
-                title="最新のオリジナル予想模擬試験"
+                title="最新の予想模擬試験＋ポイント解説"
             />
   
             <CourseOverview
@@ -892,6 +892,10 @@
   .bg-lightBlue {
     padding-top: 20px;
     background: #ebf7ff;
+  }
+  .bg-white {
+    padding-top: 20px;
+    background: #fff;
   }
   .exam-link-wrapper.-column {
     padding: 20px 0 40px;

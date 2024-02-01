@@ -11,16 +11,17 @@
                     <img src="../../assets/img/license_page/denken3/denken3_exam_2.jpg" alt="電験三種">
                 </figure>
             </div>
+            <p class="exam-note">通学講座・オンライン講座でできる予想模擬試験！</p>
             <p class="exam-text">
                 <span>【解答解説付き模擬試験】</span><br>
-                最新のオリジナル予想模擬試験は【理論】【電力】【機械】【法規】の４科目分を取り揃えています。<br>
+                最新の本試験出題傾向を徹底分析した予想模擬試験は【理論】【電力】【機械】【法規】の４科目分を取り揃えています。<br>
                 <br>
                 <span>・模擬試験（問題）</span><br>
                 今年の試験で出題が予想される問題を扱った、能センオリジナルの模擬試験です。<br>
                 本番前の総仕上げとしてご活用ください。<br>
                 <br>
                 <span>・模擬試験（解答解説）</span><br>
-                解説付きの解答で理解度UP！問題の考え方を丁寧に指導します。
+                解説付きの解答で理解度UP！ポイント解説の講習（オンライン講座では動画）があり、問題の考え方を丁寧に指導します。
             </p>
         </div>
     </div>
@@ -69,11 +70,24 @@ export default {
     margin: 24px auto;
 }
 
+.exam-image figure img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
 .exam-text {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.8;
     margin-top: 20px;
+    margin: 0;
+}
+
+.exam-note {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.8;
     margin: 0;
 }
 .exam-text span {
@@ -115,6 +129,9 @@ export default {
     .exam-text {
     font-size: 14px;
     line-height: 1.6;
+    }
+    .exam-note {
+    font-size: 16px;
     }
 }
 </style>
