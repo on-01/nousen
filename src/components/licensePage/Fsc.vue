@@ -9,10 +9,10 @@
                     <div class="fsc-flex-right">
                         <p class="fsc-title">{{ title }}</p>
                         <div class="fsc-line"></div>
-                        <p class="fsc-text">能センでは全てのプリント・資料に<br>FSC認証を受けたエコペーパーを使用しております。</p>
-                        <p class="fsc-text">FSC認証とは、持続可能な森林活用・保全を目的として誕生した、<br>「適切な森林管理」を認証する国際的な制度です。</p>
+                        <p class="fsc-text">能センでは全てのプリント・資料に<br class="-sp-only">FSC認証を受けたエコペーパーを使用しております。</p>
+                        <p class="fsc-text">FSC認証とは、持続可能な森林活用・保全を目的として誕生した、<br class="-sp-only">「適切な森林管理」を認証する国際的な制度です。</p>
                         <p class="fsc-text">FSC認証とは</p>
-                        <a href="https://shitte-erabo.net/aboutfsc/certification/">https://shitte-erabo.net/aboutfsc/certification/</a>
+                        <a class="fsc-link" href="https://shitte-erabo.net/aboutfsc/certification/">https://shitte-erabo.net/aboutfsc/certification/</a>
                     </div>
                 </div>
 
@@ -54,6 +54,9 @@ export default {
 .fsc-flex-left {
     width: 49%;
 }
+.fsc-flex-left {
+    padding-left: 6%;
+}
 .fsc-flex-image {
     transform: scale(0.95);
 }
@@ -67,8 +70,13 @@ export default {
     width: 10%;
     height: 4px;
     background: #249ef0;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     border-radius: 8px;
+}
+.fsc-link {
+    text-decoration: underline;
+    text-decoration-color: #337ab7;
+    color: #337ab7;
 }
 
 .fsc-text {
@@ -90,12 +98,20 @@ export default {
 .fsc-flex-left {
     width:100%;
 }
+
+.fsc-flex-left {
+    padding-left: 0;
+}
 .fsc-title {
     font-size: 24px;
 }
 .fsc-text {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
+}
+
+.-sp-only {
+    display: none;
 }
 }
 </style>
