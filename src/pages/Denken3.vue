@@ -203,7 +203,7 @@
 
           </div>
 
-          <div class="bg-lightBlue">
+          <div class="bg-lightBlue_type2">
             <section class="voice">
               <div class="voice-inner">
                   <div class="voice-content">
@@ -894,6 +894,9 @@
   }
   .bg-lightBlue {
     padding-top: 20px;
+    background: #ebf7ff;
+  }
+  .bg-lightBlue_type2 {
     background: #ebf7ff;
   }
   .bg-white {
