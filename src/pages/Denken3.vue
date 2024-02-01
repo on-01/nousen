@@ -200,7 +200,10 @@
             <SetCourse
                   title="通学＋オンラインセット"
               />
-  
+
+          </div>
+
+          <div class="bg-lightBlue">
             <section class="voice">
               <div class="voice-inner">
                   <div class="voice-content">
@@ -308,9 +311,9 @@
           <Discount
               title="合格応援割START！"
           />
-  
-        </div>
 
+        </div>
+  
         <div class="bg-lightBlue">
           <div class="exam-link-wrapper">
             <div class="exam-link-flex">
