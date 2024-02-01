@@ -1,17 +1,21 @@
 <template>
-    <div class="Sfc">
-        <div class="courseOverview-inner">
+    <div class="fsc">
+        <div class="fsc-inner">
 
-                <div class="courseOverview-flex">
-                    <div class="courseOverview-flex-left">
-                        <img class="courseOverview-flex-image" src="../../assets/img/license_page/denken3/denken3_courseOverview_1.jpg" alt="電験三種">
+                <div class="fsc-flex">
+                    <div class="fsc-flex-left">
+                        <img class="fsc-flex-image" src="../../assets/img/license_page/denken3/fsc.png" alt="電験三種">
                     </div>
-                    <div class="courseOverview-flex-right">
-                        <p class="courseOverview-title">{{ title }}</p>
-                        <div class="courseOverview-line"></div>
-                        <p class="courseOverview-text -type1 -center">東京・名古屋・大阪<br>業界支持率No.1の圧倒的なわかりやすさ！</p>
+                    <div class="fsc-flex-right">
+                        <p class="fsc-title">{{ title }}</p>
+                        <div class="fsc-line"></div>
+                        <p class="fsc-text">能センでは全てのプリント・資料に<br>FSC認証を受けたエコペーパーを使用しております。</p>
                         <br>
-                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。※令和6年度は東京会場のみ</p>
+                        <p class="fsc-text">FSC認証とは、持続可能な森林活用・保全を目的として誕生した、<br>「適切な森林管理」を認証する国際的な制度です。</p>
+                        <br>
+                        <p class="fsc-text">FSC認証とは<br>
+                            <a href="https://shitte-erabo.net/aboutfsc/certification/"></a>
+                        </p>
                     </div>
                 </div>
 
@@ -28,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.courseOverview {
+.fsc {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
@@ -37,173 +41,62 @@ export default {
     position: relative;
     font-family: 'Meiryo', sans-serif;
 }
-.courseOverview p,
-.courseOverview img {
+.fsc p,
+.fsc img {
     margin: 0;
 }
-.courseOverview-inner {
-    padding: 40px 110px;
+.fsc-inner {
+    padding: 20px;
 }
-.courseOverview-content {
-    width: 98%;
-    margin: 0 auto;
-}
-.courseOverview-flex {
+.fsc-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.courseOverview-flex-right,
-.courseOverview-flex-left {
+.fsc-flex-right,
+.fsc-flex-left {
     width: 49%;
 }
-.courseOverview-flex-image {
+.fsc-flex-image {
     transform: scale(0.95);
 }
-.courseOverview-title {
+.fsc-title {
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
 }
-.courseOverview-line {
+.fsc-line {
     width: 10%;
     height: 4px;
     background: #249ef0;
     margin: 20px auto;
     border-radius: 8px;
 }
-.-center {
-    text-align: center;
-}
-.courseOverview-text.-type1 {
+
+.fsc-text {
     font-weight: bold;
     margin: 0 auto;
     font-size: 20px;
     line-height: 1.8;
 }
-.courseOverview-text.-type2 {
-    font-weight: bold;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.8;
-}
-.courseOverview-text.-type3 {
-    font-size: 18px;
-    line-height: 1.8;
-}
-.courseOverview-text.-type4 {
-    font-size: 16px;
-    line-height: 1.8;
-}
-.courseOverview table {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
-    margin: 20px auto;
-    width: 100%;
-}
-.courseOverview tr {
-    border-top: 1px solid #000;
-    display: flex;
-    text-align: left;
-}
-.courseOverview th {
-    border-right: 1px solid #000;
-    width: 38%;
-    background: #fff7d5;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 700;
-    padding: 8px;
-}
-.courseOverview td {
-    width: 62%;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 400;
-    padding: 8px;
-}
-.courseOverview-th-text {
-    font-weight: 400;
-}
-.courseOverview-td-text {
-    font-weight: 700;
-}
-.courseOverview td span {
-    font-weight: 700;
-}
-.red {
-    color: red;
-}
 
-.courseOverview-link {
-    text-decoration: underline;
-    text-decoration-color: #337ab7;
-    color: #337ab7;
-}
 @media print, screen and (max-width: 768px) {
-.courseOverview {
+.fsc {
     width: 90%;
 }
-.courseOverview-inner {
-    padding: 40px 20px;
-}
-
-.courseOverview-content {
-    width: 100%;
-}
-.courseOverview-flex {
+.fsc-flex {
     flex-flow:wrap;
 }
-.courseOverview-flex.-reverse {
-    flex-direction: column-reverse;
-}
-.courseOverview-flex-right,
-.courseOverview-flex-left {
+.fsc-flex-right,
+.fsc-flex-left {
     width:100%;
 }
-.courseOverview-title {
+.fsc-title {
     font-size: 24px;
 }
-.courseOverview-text.-type1 {
+.fsc-text {
     font-size: 18px;
-    line-height: 1.6;
-}
-.courseOverview-text.-type2 {
-    font-size: 16px;
-    line-height: 1.6;
-}
-.courseOverview-text.-type3 {
-    font-size: 16px;
-    line-height: 1.6;
-}
-.courseOverview-text.-type4 {
-    font-size: 14px;
-    line-height: 1.6;
-}
-.courseOverview table {
-    border-bottom: 1px solid #000;
-    border-right: none;
-    border-left: none;
-    margin: 20px auto;
-}
-.courseOverview tr {
-    flex-wrap: wrap;
-}
-.courseOverview th {
-    border-bottom: 1px solid #000;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
-    width: 100%;
-    font-size: 14px;
-    line-height: 1.6;
-}
-.courseOverview td {
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
-    width: 100%;
-    font-size: 14px;
     line-height: 1.6;
 }
 }

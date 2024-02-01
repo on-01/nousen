@@ -312,6 +312,10 @@
               title="合格応援割START！"
           />
 
+          <Fsc
+              title="持続可能なミライへ"
+          />
+
         </div>
   
         <div class="bg-lightBlue">
@@ -520,6 +524,7 @@
   import SetCourse from '../components/licensePage/SetCourse.vue';
   import Discount from '../components/licensePage/Discount.vue';
   import Blog from '../components/licensePage/Blog.vue';
+  import Fsc from '../components/licensePage/Fsc.vue';
   
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -586,7 +591,8 @@
       Exam,
       SetCourse,
       Discount,
-      Blog
+      Blog,
+      Fsc
     },
     data() {
       return {
