@@ -10,12 +10,9 @@
                         <p class="fsc-title">{{ title }}</p>
                         <div class="fsc-line"></div>
                         <p class="fsc-text">能センでは全てのプリント・資料に<br>FSC認証を受けたエコペーパーを使用しております。</p>
-                        <br>
                         <p class="fsc-text">FSC認証とは、持続可能な森林活用・保全を目的として誕生した、<br>「適切な森林管理」を認証する国際的な制度です。</p>
-                        <br>
-                        <p class="fsc-text">FSC認証とは<br>
-                            <a href="https://shitte-erabo.net/aboutfsc/certification/"></a>
-                        </p>
+                        <p class="fsc-text">FSC認証とは</p>
+                        <a href="https://shitte-erabo.net/aboutfsc/certification/">https://shitte-erabo.net/aboutfsc/certification/</a>
                     </div>
                 </div>
 
@@ -70,15 +67,16 @@ export default {
     width: 10%;
     height: 4px;
     background: #249ef0;
-    margin: 20px auto;
+    margin: 20px auto 0;
     border-radius: 8px;
 }
 
 .fsc-text {
-    font-weight: bold;
+    font-weight: 500;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 16x;
     line-height: 1.8;
+    padding-top: 18px;
 }
 
 @media print, screen and (max-width: 768px) {
