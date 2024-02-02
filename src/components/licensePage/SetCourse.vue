@@ -137,12 +137,9 @@ export default {
     font-weight: 700;
 }
 @media print, screen and (max-width: 768px) {
-.setCourse {
-    width: 90%;
-    margin: 0 auto;
-}
 .setCourse-inner {
     padding: 20px;
+    width: auto;
 }
 .setCourse-title {
     font-size: 20px;
