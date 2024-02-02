@@ -139,6 +139,7 @@ export default {
 @media print, screen and (max-width: 768px) {
 .setCourse {
     width: 90%;
+    margin: 0 auto;
 }
 .setCourse-inner {
     padding: 20px;

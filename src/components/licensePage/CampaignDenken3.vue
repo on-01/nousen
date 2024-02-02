@@ -71,7 +71,7 @@ export default {
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 40px auto 0;
+    margin: 0px auto 40px;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
