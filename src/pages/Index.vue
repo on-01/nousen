@@ -235,6 +235,9 @@
             <figure><a href="https://x-work.jp/" target="_blank" rel="noopener noreferrer">
                 <img src="../assets/img/common/public_media_8.jpg" alt="クロスワーク" class="public-media-flex-image">
             </a></figure>
+            <figure>
+                <img src="../assets/img/common/public_media_9.jpg" alt="資格times" class="public-media-flex-image">
+            </figure>
         </div>
       </div>
 
