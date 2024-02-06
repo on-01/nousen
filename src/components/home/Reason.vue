@@ -324,9 +324,6 @@ export default {
   }
 }
 
-.reason-more-inner:first-of-type {
-  display: none;
-}
 .reason-contents1 {
   .reason-catch {
     &:after {
