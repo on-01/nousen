@@ -244,9 +244,8 @@
                               <div class="voice-item-flex">
                                 <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="電験三種"></figure>
                                 <p>・現場の実例があり、公式や問題の意味が理解できた。<br>
-                                    ・質問（個別）時間を設けて頂いたのは、非常にありがたかった。<br>
                                     ・電気数学（基礎数学）が苦手で「どうしたらその解答になる？」ということが多かったが、
-                                      講座を受講して電験三種に必要な数学の知識を習得する事ができた。<br>
+                                      講座を受講して電験三種に必要な数学知識の習得ができた。<br>
                                     ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
                                 </p>
                               </div>
@@ -920,7 +919,7 @@
   
   /* voiceセクションのスタイル */
   .voice {
-      background-color: #fff;
+      background-color: #d8efff;;
       width: 100%;
       padding: 40px 0;
   }
