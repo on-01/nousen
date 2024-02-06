@@ -285,9 +285,9 @@
                 texts: [
                   '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。<br><br>通学講座の講義を丸ごと収録した臨場感たっぷりの動画ですので、<br>その場で受講しているように頭に入ってきます。',
                 ],
-                movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
-                movieText:
-                  '※動画は第三種電気主任技術者の講義です。基礎講座の動画を一部、3分程度ご覧いただけます。'
+                // movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
+                // movieText:
+                //   '※動画は第三種電気主任技術者の講義です。基礎講座の動画を一部、3分程度ご覧いただけます。'
               },
               {
                 title: 'front/section05_title3.svg',
@@ -1727,6 +1727,7 @@ export default {
 .public-media-flex figure {
     margin: 0;
     width: 33.33%;
+    display: flex;
 }
 .public-media-flex figure a {
     position: relative;
@@ -1739,9 +1740,6 @@ export default {
     margin: auto;
 }
 
-.public-media-flex-image.-type1 {
-  transform: translateY(50%);
-}
 .public-media-flex-image.-type2 {
   width: 100%;
 }
