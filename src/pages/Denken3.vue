@@ -919,14 +919,14 @@
   
   /* voiceセクションのスタイル */
   .voice {
-      background-color: #d8efff;;
+      background-color: #ebf7ff;
       width: 100%;
       padding: 40px 0;
   }
   .voice-inner {
       max-width: 1090px;
       width: 100%;
-      background-color: #d8efff;
+      background-color: #ebf7ff;
       margin: 0 auto;
       font-family: 'メイリオ', sans-serif;
       padding: 20px 40px;
