@@ -260,8 +260,7 @@
               '講師の全員が、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ講習が特徴。',
               '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
             ]"
-            moreLink="/teachers"
-            moreText="詳しい講師紹介はこちら"
+            moreLinkCheck="1"
           />
           <Reason
             reasonNumber="2"
@@ -348,6 +347,7 @@
             :explanation="[
               '受講生に合格して頂く為に、最大限のサポートを続けていきます！'
             ]"
+            moreLinkCheck="1"
             moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
             moreText="オンライン相談はこちら"
           />
@@ -695,7 +695,7 @@ export default {
         {
           name: "description",
           content:
-            "能センでは「電験三種」「電気工事士」「施工管理技士」「給水」等、合格のための受験指導講習会を開催しています。一部オンライン講座対応。1983年の設立から沢山の方々に長年支持され続けています。経験豊富な専門の講師が資格合格をサポート！"
+            ""
         },
         {
           key: `og:title`,
