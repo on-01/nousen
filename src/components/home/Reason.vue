@@ -82,11 +82,11 @@
       >
         <p v-html="explain"></p>
       </div>
-      <div class="reason-more" v-if="moreLink">
+      <div class="reason-more" v-if="moreLinkCheck === '1'">
         <figure class="teacher-image" v-if="reasonNumber === '1'">
           <img src="../../assets/img/front/teacher.jpg">
         </figure>
-        <g-link :to="moreLink" class="reason-more-inner">
+        <g-link :to="moreLink" class="reason-more-inner" v-if="moreLink">
           <span v-html="moreText">
             <!-- 詳しい講師紹介はこちら -->
           </span>
@@ -120,6 +120,7 @@ export default {
     smallText: String,
     explanation: Array,
     moreLink: String,
+    moreLinkCheck: String,
     moreText: String,
     explanationGroup: Array
   },

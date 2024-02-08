@@ -5,7 +5,7 @@ module.exports = {
   // titleTemplate: '',
   siteUrl: `https://www.nouryoku.com`,
   siteDescription: `
-  // 能センでは、電気、建築、設備関連を中心とした講習会を各地で開催しております。経験豊富な専門の講師が資格合格のサポートを致します。`,
+  // 能センでは、電験三種、施工管理技士や設備関係の通学講座を各地で開催。オンライン講座や通信講座もあり。`,
   metadata: {
     siteOgImage: `https://www.nouryoku.com/ogp.png`
   },
