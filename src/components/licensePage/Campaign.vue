@@ -69,17 +69,16 @@ export default {
 
 <style lang="scss" scoped>
 .campaign {
+    max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin-top: 40px;
+    margin: 40px auto;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
 }
 .campaign-inner {
-    max-width: 1170px;
     padding: 20px;
-    margin: 0 auto;
 }
 
 .campaign-title {
