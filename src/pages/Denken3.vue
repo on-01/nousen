@@ -130,6 +130,11 @@
                     【お電話】【フォーム】【オンライン】<br>
                     お気軽にお問い合わせください。"
                   />
+                  <Linelink 
+                  text="能センLINE公式アカウント開設しました。<br>
+                  只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
+                  期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
+                  />
                 </div>
               </div>
           </div>
@@ -138,7 +143,7 @@
           <div v-show="isActiveTop === 2">
             <quality
                 text_1="1.講師が執筆したオリジナルテキストを使用。
-                        ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）。<br>
+                        ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
                         2.効果的な学習をサポートする副教材も特徴。
                         自宅学習に使える解説付き問題集や、4科目分の添削課題付き。"
                 :imagePath_1="require('../assets/img/license_page/denken3/denken3_quality_1.jpg')"
@@ -203,7 +208,7 @@
 
           </div>
 
-          <div class="bg-lightBlue_type2">
+          <div class="bg-white_type2">
             <section class="voice">
               <div class="voice-inner">
                   <div class="voice-content">
@@ -291,7 +296,6 @@
                               <div class="voice-item-flex">
                                 <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="電験三種"></figure>
                                 <p> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
-                                    ・経験に基づく話をされて、楽しく聞くことができ、理解ができた。<br>
                                     ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
                                     ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
                                 </p>
@@ -317,7 +321,7 @@
 
         </div>
   
-        <div class="bg-lightBlue">
+        <div class="bg-white">
           <div class="exam-link-wrapper">
             <div class="exam-link-flex">
               <g-link to="/denken3-application" class="application-form-link">
@@ -422,11 +426,6 @@
                 【お電話】【フォーム】【オンライン】<br>
                 お気軽にお問い合わせください。"
               />
-              <Linelink 
-                text="能センLINE公式アカウント開設しました。<br>
-                  只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
-                  期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            />
             </div>
         </div>
 
@@ -906,6 +905,9 @@
   }
   .bg-white {
     padding-top: 20px;
+    background: #fff;
+  }
+  .bg-white_type2 {
     background: #fff;
   }
   .exam-link-wrapper.-column {

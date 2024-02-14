@@ -10,7 +10,7 @@
                     <p class="campaign-topic -red">第二弾【￥5,000 off】早割キャンペーン（通学講座）</p>
                     <ul class="campaign-content">
                         <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン開催中です！</li>
-                        <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります。</li>
+                        <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります</li>
                         <li>早いスタートが合格への近道です！</li>
                     </ul>
                 </div>
@@ -24,7 +24,7 @@
                     <ul class="campaign-content">
                         <li>・電験男子・電験女子のバイブルと言えばオーム社さんの【新電気】。その最新号を進呈！</li>
                         <li>・【基礎講座】または【全科目セット】受講の方が対象です（通学・オンライン・通信）</li>
-                        <li>※お申込み時期によっては前月号になる場合もあります。</li>
+                        <li>※お申込み時期によっては前月号になる場合もあります</li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                     <p class="campaign-topic">過去問題進呈</p>
                     <ul class="campaign-content">
                         <li>・過去の試験問題10年分を進呈します（通学・オンライン・通信講座）</li>
-                        <li>・メールアドレスが必要になります。</li>
+                        <li>・メールアドレスが必要になります</li>
                         <li>電験三種の試験突破には過去問題を多く解くことが非常に重要な役割を果たします。</li>
                     </ul>
                 </div>
@@ -49,7 +49,7 @@
                     <p class="campaign-topic">出題分析を進呈</p>
                     <ul class="campaign-content">
                         <li>・能セン講座の合格率が高い理由の一つである【出題分析】。こちらを受講生全員に進呈！</li>
-                        <li>・過去の出題傾向を把握して対策を立てられます。</li>
+                        <li>・過去の出題傾向を把握して対策を立てられます</li>
                         <li>通学講座・オンライン講座では出題傾向による対策を毎年講義で行っております。</li>
                     </ul>
                 </div>
@@ -68,7 +68,6 @@ export default {
 
 <style lang="scss" scoped>
 .campaign {
-    max-width: 1170px;
     width: 100%;
     background-color: #fff;
     margin: 0px auto 40px;
@@ -77,6 +76,8 @@ export default {
     font-family: 'Meiryo', sans-serif;
 }
 .campaign-inner {
+    margin: 0 auto;
+    max-width: 1170px;
     padding: 20px;
 }
 

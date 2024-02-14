@@ -11,7 +11,7 @@
                     <img src="../../assets/img/license_page/denken3/denken3_exam_2.jpg" alt="電験三種">
                 </figure>
             </div>
-            <p class="exam-note">通学講座・オンライン講座でできる予想模擬試験！</p>
+            <p class="exam-note"><i class="scroll-animation-item">通学講座・オンライン講座でできる予想模擬試験！</i></p>
             <p class="exam-text">
                 <span>【解答解説付き模擬試験】</span><br>
                 最新の本試験出題傾向を徹底分析した予想模擬試験は【理論】【電力】【機械】【法規】の４科目分を取り揃えています。<br>
@@ -54,6 +54,19 @@ export default {
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
+}
+
+.exam-note::v-deep i {
+    background: -webkit-linear-gradient(to right, #f4b073 50%, transparent 50%);
+    background: -moz-linear-gradient(to right, #f4b073 50%, transparent 50%);
+    background: linear-gradient(to right, #f4b073 50%, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: 200% 1em;
+    background-position: 100% 0.5em;
+    transition: background-position 0.5s ease-in-out;
+    &.is-show {
+        background-position: 0% 0;
+    }
 }
 
 .exam-line {
