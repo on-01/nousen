@@ -323,6 +323,7 @@
   
         <div class="bg-white">
           <div class="exam-link-wrapper">
+
             <div class="exam-link-flex">
               <g-link to="/denken3-application" class="application-form-link">
                 お申込みはこちら（個人）
@@ -333,6 +334,8 @@
                 <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
               </g-link>
             </div>
+
+            <figure class="credit-image"><img src="../assets/img/common/credit.jpg"></figure>
           </div>
         </div>
       </div>
@@ -675,12 +678,10 @@
   .online-link {
     color: #fff;
     border-radius: 10px;
-    padding: 7px 30px;
     font-weight: bold;
     text-align: center;
     margin: 0 20px;
     font-size: 17px;
-    width: 338px;
     box-sizing: border-box;
     font-family: 'メイリオ', sans-serif;
     @media print, screen and (max-width: 370px) {
@@ -693,16 +694,26 @@
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    width: 338px;
+    padding: 7px 30px;
   }
   .application-form-link {
     background-color: #ed6c00;
     margin-top: 25px;
+    width: 400px;
+    padding: 14px 30px;
   }
   .online-link {
     background-color: #00a73c;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    width: 338px;
+    padding: 7px 30px;
+  }
+
+  .credit-image {
+    margin: 16px auto 0;
   }
   .tab-wrapper {
     margin: 0 auto;
