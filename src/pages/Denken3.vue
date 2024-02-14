@@ -666,7 +666,7 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 180px 0;
+    padding: 60px 0 110px 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
@@ -713,7 +713,7 @@
   }
 
   .credit-image {
-    margin: 16px auto 0;
+    margin: 24px auto 0;
   }
   .tab-wrapper {
     margin: 0 auto;
