@@ -135,14 +135,13 @@
                     </figure>
                     <div class="online-flex-description">
                         <p>
-                            視聴率95%以上で修了証が発行！
-                            会社で提出が必要な方も
-                            勉強のモチベーションにも
+                            視聴率95%以上で修了証が発行！<br>
+                            会社で提出が必要な方も<br>
+                            勉強のモチベーションにも<br>
                             是非、修了証を手に入れてください
                         </p>
                     </div>
                 </div>
-                <br>
                 <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座をおすすめいたします</p>
                 <div class="courseOverview-table-wrap">
                     <table>
@@ -447,6 +446,8 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 .online-flex-image,
 .online-flex-description {
@@ -454,7 +455,7 @@ export default {
     margin: 0;
 }
 .online-flex-image img {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: block;
 }
@@ -537,6 +538,9 @@ export default {
 }
 .online-flex-image img {
     width: 80%;
+}
+.online-flex-description {
+    margin-top: 18px;
 }
 .online-flex-description p {
     font-size: 16px;
