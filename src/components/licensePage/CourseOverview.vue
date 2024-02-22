@@ -31,7 +31,6 @@
                                 <p>交通アクセス</p>
                                 <p>JR「田町駅」三田口(西口) / 徒歩4分</p>
                                 <p>都営浅草線「三田駅」A3出口 / 徒歩3分</p>
-                                <p>都営三田線「三田駅」A9出口 / 徒歩7分</p>
                             </td>
                         </tr>
                         <tr>
@@ -40,14 +39,15 @@
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
-                                <p class="courseOverview-td-text"><del>145,000円</del>▶️【早割】140,000円：全科目セット</p>
-                                <p class="courseOverview-td-text"><del>129,800円</del>▶️【早割】124,800円：４科目セット（基礎なし）</p>
+                                <p class="courseOverview-td-text"><del>158,400円</del>▶️【セット早割】140,000円：全科目セット</p>
+                                <p class="courseOverview-td-text"><del>141,900円</del>▶️【セット早割】124,800円：４科目セット</p>
                                 <p>16,500円：基礎（１日）　9:00-17:00</p>
                                 <p>33,000円：理論（２日間）9:30-17:00</p>
                                 <p>33,000円：電力（２日間）9:30-17:00</p>
                                 <p>33,000円：機械（２日間）9:30-17:00</p>
                                 <p>16,500円：法規（１日）　9:30-17:00</p>
-                                <p>各6600円：模擬試験（１日）模擬試験＋解答解説講習</p>
+                                <p>各6600円：模擬試験（１日）模擬試験＋解答解説講習（30分）</p>
+                                <p>※4科目セットは基礎講座なし、模擬試験付き</p>
                             </td>
                         </tr>
                         <tr>
@@ -71,7 +71,7 @@
                                 <p>・学習カリキュラム表（進度表）</p>
                                 <p>・勉強計画表/勉強チェックシート</p>
                                 <p>・問題集/問題集解答</p>
-                                <p>・提出課題（全4回分 令和6年度下期試験日まで）</p>
+                                <p>・提出課題（全4回分）</p>
                             </td>
                         </tr>
                         <tr>
@@ -129,6 +129,19 @@
                 <p class="courseOverview-text -type3">▶動画撮影はテレビ撮影も手掛けているプロのカメラマンです。現地で受講しているかのような見やすい映像に仕上がっています。生の講義の臨場感をお届けいたします。</p>
                 <p class="courseOverview-text -type2">③オリジナル教材</p>
                 <p class="courseOverview-text -type3">▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。</p>
+                <div class="online-flex">
+                    <figure class="online-flex-image">
+                        <img src="../../assets/img/license_page/denken3/denken3_completion.jpg" alt="電験三種">
+                    </figure>
+                    <div class="online-flex-description">
+                        <p>
+                            視聴率95%以上で修了証が発行！
+                            会社で提出が必要な方も
+                            勉強のモチベーションにも
+                            是非、修了証を手に入れてください
+                        </p>
+                    </div>
+                </div>
                 <br>
                 <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座をおすすめいたします</p>
                 <div class="courseOverview-table-wrap">
@@ -139,14 +152,15 @@
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
-                                <p>135,000円：全科目セット</p>
-                                <p>119,000円：4科目セット（基礎なし・模擬試験付き）</p>
+                                <p class="courseOverview-td-text"><del>158,400円</del>▶️【セット割】135,000円：全科目セット</p>
+                                <p class="courseOverview-td-text"><del>141,900円</del>▶️【セット割】119,000円：４科目セット</p>
                                 <p>16,500円：基礎（10時間）</p>
                                 <p>29,700円：理論（12時間）</p>
                                 <p>29,700円：電力（12時間）</p>
                                 <p>29,700円：機械（12時間）</p>
                                 <p>16,500円：法規（6時間）</p>
                                 <p>各6600円：模擬試験（30分）模擬試験＋解答解説講習</p>
+                                <p>※4科目セットは基礎講座なし、模擬試験付き</p>
                             </td>
                         </tr>
                         <tr>
@@ -170,7 +184,7 @@
                                 <p>・学習カリキュラム表（進度表）</p>
                                 <p>・勉強計画表/勉強チェックシート</p>
                                 <p>・問題集/問題集解答</p>
-                                <p>・提出課題（全4回分 令和6年度下期試験日まで）</p>
+                                <p>・提出課題（全4回分）</p>
                             </td>
                         </tr>
                         <tr>
@@ -216,7 +230,6 @@
                         <p class="courseOverview-title">通 信 講 座</p>
                         <div class="courseOverview-line"></div>
                         <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
-                        <p class="courseOverview-text -type1 -center">最大24ヶ月間のサポート付き！</p>
                     </div>
                 </div>
                 <br>
@@ -224,7 +237,6 @@
                     自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。<br>
                     合計8回分の添削課題で学習内容が身に付いていくのが実感できます。<br>
                     途中でつまずいてしまった時も安心、講師に解説してもらえる質問用紙も最大８枚ご用意。<br>
-                    添削・質問用紙は最大24ヶ月間のサポート付き！<br>
                     仕事等で勉強時間が思うように取れない方でも自分のペースで続けられます。<br>
                     <span class="courseOverview-td-text">途中でオンライン講座に変更も可能！差額＋手数料ですぐにご対応いたします。</span>
                 </p>
@@ -236,8 +248,8 @@
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
-                                <p>62,700円：全科目セット（オンライン基礎講座＋４科目）</p>
-                                <p>49,500円：４科目セット（理論・電力・機械・法規）</p>
+                                <p class="courseOverview-td-text"><del>82,500円</del>▶️【セット割】62,700円：全科目（オンライン基礎＋４科目）</p>
+                                <p class="courseOverview-td-text"><del>66,000円</del>▶️【セット割】49,500円：４科目（理論・電力・機械・法規）</p>
                                 <p>16,500円：基礎講座（オンライン講座になります）</p>
                                 <p>16,500円：科目別（１科目）</p>
                                 <p>理論・電力・機械・法規</p>
@@ -431,6 +443,28 @@ export default {
     text-decoration-color: #337ab7;
     color: #337ab7;
 }
+.online-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online-flex-image,
+.online-flex-description {
+    width: 50%;
+    margin: 0;
+}
+.online-flex-image img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.online-flex-description p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
 @media print, screen and (max-width: 768px) {
 .courseOverview-inner {
     max-width: 100%;
@@ -492,6 +526,20 @@ export default {
     width: 100%;
     font-size: 14px;
     line-height: 1.6;
+}
+
+.online-flex {
+   flex-wrap: wrap;
+}
+.online-flex-image,
+.online-flex-description {
+    width: 100%;
+}
+.online-flex-image img {
+    width: 80%;
+}
+.online-flex-description p {
+    font-size: 16px;
 }
 }
 </style>
