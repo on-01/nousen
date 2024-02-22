@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <br>
-                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座（講習会）をおすすめいたします。</p>
+                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座（講習会）をおすすめいたします</p>
                 <div class="courseOverview-table-wrap">
                     <table>
                         <tr>
@@ -130,7 +130,7 @@
                 <p class="courseOverview-text -type2">③オリジナル教材</p>
                 <p class="courseOverview-text -type3">▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。</p>
                 <br>
-                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座をおすすめいたします。</p>
+                <p class="courseOverview-text -type4">※試験内容やその他電気事業法や法令・法律は 改訂/改定されて行くので最新の試験対策講座をおすすめいたします</p>
                 <div class="courseOverview-table-wrap">
                     <table>
                         <tr>
@@ -317,12 +317,13 @@ export default {
 
 <style lang="scss" scoped>
 .courseOverview {
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
     border-top: 4px solid #249ef0;
+    margin: 0 auto;
 }
 .courseOverview p,
 .courseOverview img {

@@ -139,10 +139,8 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
 
 
 @media print, screen and (max-width: 1000px) {
-    .campaign {
-        width: 90%;
-    }
     .campaign-section {
+    width: 90%;
     flex-flow: wrap;
     }
     .campaign-image {
