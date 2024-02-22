@@ -702,6 +702,10 @@
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
   .online-link {
     background-color: #00a73c;
@@ -714,6 +718,9 @@
 
   .credit-image {
     margin: 24px auto 0;
+  }
+  .credit-image img {
+    max-width: 90%;
   }
   .tab-wrapper {
     margin: 0 auto;
@@ -766,7 +773,7 @@
         border-bottom: none;
         // background-color: #ebf7ff;
         background-color: #FFF7D5;
-        color: #1D9BF0;
+        color: #000000;
         .icon {
           transform: rotate(90deg);
         }
