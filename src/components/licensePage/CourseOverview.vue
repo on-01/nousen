@@ -229,6 +229,8 @@
                         <p class="courseOverview-title">通 信 講 座</p>
                         <div class="courseOverview-line"></div>
                         <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
+                        <p class="courseOverview-text -type1 -center">添削・質問用紙は</p>
+                        <p class="courseOverview-text -type1 -center">　最大24ヶ月間サポート！</p>
                     </div>
                 </div>
                 <br>
@@ -461,8 +463,8 @@ export default {
 }
 .online-flex-description p {
     font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
+    font-size: 20px;
+    line-height: 1.8;
     text-align: center;
 }
 
@@ -543,7 +545,7 @@ export default {
     margin-top: 18px;
 }
 .online-flex-description p {
-    font-size: 16px;
+    line-height: 1.6;
 }
 }
 </style>
