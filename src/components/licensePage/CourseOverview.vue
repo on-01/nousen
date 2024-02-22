@@ -317,13 +317,13 @@ export default {
 
 <style lang="scss" scoped>
 .courseOverview {
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
     background-color: #fff;
-    z-index: 0;
-    position: relative;
+    // z-index: 0;
+    // position: relative;
     font-family: 'Meiryo', sans-serif;
     border-top: 4px solid #249ef0;
-    margin: 0 auto;
 }
 .courseOverview p,
 .courseOverview img {
