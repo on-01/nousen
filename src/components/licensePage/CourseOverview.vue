@@ -546,6 +546,7 @@ export default {
 }
 .online-flex-description p {
     line-height: 1.6;
+    font-size: 18px;
 }
 }
 </style>
