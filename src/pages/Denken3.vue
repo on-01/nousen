@@ -704,7 +704,6 @@
     padding: 14px 30px;
     @media print, screen and (max-width: 480px) {
       width: 80%;
-      margin: 0 auto;
     }
   }
   .online-link {
@@ -721,6 +720,9 @@
   }
   .credit-image img {
     max-width: 90%;
+    @media print, screen and (max-width: 480px) {
+      max-width: 80%;
+    }
   }
   .tab-wrapper {
     margin: 0 auto;
