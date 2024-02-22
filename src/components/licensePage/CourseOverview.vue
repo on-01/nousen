@@ -323,10 +323,6 @@ export default {
     position: relative;
     font-family: 'Meiryo', sans-serif;
     border-top: 4px solid #249ef0;
-    @media print, screen and (max-width: 768px) {
-        width: 99.9%;
-        margin: 0 auto;
-    }
 }
 .courseOverview p,
 .courseOverview img {
@@ -437,7 +433,7 @@ export default {
 }
 @media print, screen and (max-width: 768px) {
 .courseOverview-inner {
-    width: 90%;
+    max-width: 100%;
     padding: 40px 20px;
 }
 
