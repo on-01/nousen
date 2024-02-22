@@ -39,7 +39,7 @@
             <a @click="openModal">
               <img
                 src="../assets/img/common/session.svg"
-                alt="講習会お申し込み"
+                alt="講座お申込み"
               />
             </a>
           </div>
@@ -241,7 +241,7 @@
       <!-- default スロットコンテンツ -->
       <div class="modal-application">
         <div class="form item">
-          <img src="../assets/img/common/session.svg" alt="講習会お申し込み" />
+          <img src="../assets/img/common/session.svg" alt="講座お申込み" />
         </div>
         <ul>
           <li class="denken">

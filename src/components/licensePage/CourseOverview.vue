@@ -317,20 +317,21 @@ export default {
 
 <style lang="scss" scoped>
 .courseOverview {
-    max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 20px auto 0;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
+    border-top: 4px solid #249ef0;
 }
 .courseOverview p,
 .courseOverview img {
     margin: 0;
 }
 .courseOverview-inner {
-    padding: 40px 110px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 60px 110px 40px;
 }
 .courseOverview-content {
     width: 98%;
@@ -431,10 +432,8 @@ export default {
     color: #337ab7;
 }
 @media print, screen and (max-width: 768px) {
-.courseOverview {
-    width: 90%;
-}
 .courseOverview-inner {
+    width: 90%;
     padding: 40px 20px;
 }
 

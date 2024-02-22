@@ -321,7 +321,7 @@
 
         </div>
   
-        <div class="bg-white">
+        <div class="bg-white_type2">
           <div class="exam-link-wrapper">
 
             <div class="exam-link-flex">
@@ -703,7 +703,7 @@
     width: 400px;
     padding: 14px 30px;
     @media print, screen and (max-width: 480px) {
-      width: 80%;
+      width: 90%;
     }
   }
   .online-link {
