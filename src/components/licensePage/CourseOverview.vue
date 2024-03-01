@@ -12,7 +12,9 @@
                         <div class="courseOverview-line"></div>
                         <p class="courseOverview-text -type1 -center">東京・名古屋・大阪<br>業界支持率No.1の圧倒的なわかりやすさ！</p>
                         <br>
-                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。<a href="https://denken.nouryoku.com/denken3-tuugaku-schedule" class="courseOverview-link" target="_blank">※日程はこちら</a></p>
+                        <p class="courseOverview-text -type3">令和6年度上期 筆記・CBT試験日対応の通学講座。<br>受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。<br>
+                            <a href="https://denken.nouryoku.com/denken3-tuugaku-schedule" class="courseOverview-link" target="_blank">※日程はこちら</a>
+                        </p>
                     </div>
                 </div>
                 <br>
@@ -91,7 +93,7 @@
                                 <p>・講習会場でのご質問対応。メール・お電話でも対応いたします</p>
                                 <p>・当日欠席しても安心！オンライン講座に無料振替ができます！</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用</p>
-                                <p>・その他【合格応援割引制度あり】</p>
+                                <p><span>・その他【合格応援割引制度】</span></p>
                             </td>
                         </tr>
                         <tr>
@@ -100,9 +102,10 @@
                             </th>
                             <td>
                                 <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
-                                <p>・早割キャンペーン第二弾！（２０２４年２月２９日（木）まで）</p>
+                                <p>・早割キャンペーン第二弾！（３月１５日（金）まで延長）
+</p>
                                 <p>全科目セット・４科目セットが対象です。</p>
-                                <p>・その他【合格応援キャンペーン】</p>
+                                <p>・その他<span>【合格応援キャンペーン】</span></p>
                             </td>
                         </tr>
                     </table>
@@ -138,7 +141,7 @@
                             視聴率95%以上で修了証が発行！<br>
                             会社で提出が必要な方も<br>
                             勉強のモチベーションにも<br>
-                            是非、修了証を手に入れてください
+                            ぜひ、修了証を手に入れてください！
                         </p>
                     </div>
                 </div>
@@ -151,8 +154,9 @@
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
-                                <p class="courseOverview-td-text"><del>158,400円</del>▶️【セット割】135,000円：全科目セット</p>
-                                <p class="courseOverview-td-text"><del>141,900円</del>▶️【セット割】119,000円：４科目セット</p>
+                                <p>令和7年3月23日（日）まで配信</p>
+                                <p class="courseOverview-td-text"><del>148,500円</del>▶️【セット割】135,000円：全科目セット</p>
+                                <p class="courseOverview-td-text"><del>132,000円</del>▶️【セット割】119,000円：４科目セット</p>
                                 <p>16,500円：基礎（10時間）</p>
                                 <p>29,700円：理論（12時間）</p>
                                 <p>29,700円：電力（12時間）</p>
@@ -200,10 +204,10 @@
                             </th>
                             <td>
                                 <p>・過去に撮影した動画が全て見放題（約44時間）</p>
-                                <p>・質問用紙が最大4枚（各科目共通）</p>
+                                <p>・質問用紙が最大4枚</p>
                                 <p>・質問用紙・提出課題の提出期限延長（令和6年度下期試験日まで）</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用</p>
-                                <p>・その他【合格応援割引制度あり】</p>
+                                <p><span>・その他【合格応援割引制度】</span></p>
                             </td>
                         </tr>
                         <tr>
@@ -212,7 +216,7 @@
                             </th>
                             <td>
                                 <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
-                                <p>・その他【合格応援キャンペーン】</p>
+                                <p>・その他<span>【合格応援キャンペーン】</span></p>
                             </td>
                         </tr>
                     </table>
@@ -294,12 +298,12 @@
                                 サポート体制
                             </th>
                             <td>
-                                <p>・質問用紙が最大8枚（各科目共通）※メールでも対応可</p>
+                                <p>・質問用紙が最大8枚 ※メールでも対応可</p>
                                 <p>・質問用紙・提出課題の提出期限延長（最大24ヶ月間サポート）</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用<br>
                                     （通学講座・オンライン講座受講の場合も適用）</p>
                                 <p>・通信講座からオンライン講座に変更可能</p>
-                                <p>・その他【合格応援割引制度あり】</p>
+                                <p><span>・その他【合格応援割引制度】</span></p>
                             </td>
                         </tr>
                         <tr>
@@ -308,7 +312,7 @@
                             </th>
                             <td>
                                 <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
-                                <p>・その他【合格応援キャンペーン】</p>
+                                <p>・その他<span>【合格応援キャンペーン】</span></p>
                                 <p class="courseOverview-td-text">受講生全員に基礎講座で使う『電気数学の基礎プリント』を進呈！</p>
                             </td>
                         </tr>
@@ -330,12 +334,13 @@ export default {
 
 <style lang="scss" scoped>
 .courseOverview {
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
-    border-top: 4px solid #249ef0;
+    border-top: 4px solid #ed6c00;
+    margin: 0 auto;
 }
 .courseOverview p,
 .courseOverview img {
@@ -469,6 +474,9 @@ export default {
 }
 
 @media print, screen and (max-width: 768px) {
+.courseOverview {
+    width: 100%;
+}
 .courseOverview-inner {
     max-width: 100%;
     padding: 40px 20px;

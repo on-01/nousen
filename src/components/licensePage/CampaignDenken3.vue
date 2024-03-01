@@ -9,7 +9,7 @@
                 <div class="campaign-description">
                     <p class="campaign-topic -red">第二弾【￥5,000 off】早割キャンペーン（通学講座）</p>
                     <ul class="campaign-content">
-                        <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン開催中です！</li>
+                        <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン大好評につき延長！</li>
                         <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります</li>
                         <li>早いスタートが合格への近道です！</li>
                     </ul>

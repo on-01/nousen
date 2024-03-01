@@ -5,7 +5,7 @@ module.exports = {
   // titleTemplate: '',
   siteUrl: `https://www.nouryoku.com`,
   siteDescription: `
-  // 能センでは、電験三種、施工管理技士や設備関係の通学講座を各地で開催。オンライン講座や通信講座もあり。`,
+  // 能センでは、電験三種、施工管理技士や設備関係の通学講座（講習会）を各地で開催。オンライン講座や通信講座もあり。`,
   metadata: {
     siteOgImage: `https://www.nouryoku.com/ogp.png`
   },
