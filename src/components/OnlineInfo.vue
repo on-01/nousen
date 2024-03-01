@@ -23,7 +23,7 @@ export default {
     background: var(--orange);
     color: #fff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     display: block;
     position: absolute;
@@ -38,6 +38,7 @@ export default {
   }
   & p {
     margin: 0;
+    line-height: 2.5em;
   }
 }
 

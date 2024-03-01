@@ -1596,7 +1596,7 @@ export default {
   position: relative;
   z-index: 0;
   // padding: 0.8em 3em;
-  padding: 0.8em 2.4em;
+  padding: 0.8em 2em;
 
   @media screen and(max-width: 1000px) {
     padding: 0.9em 1.5em 0.7em;
