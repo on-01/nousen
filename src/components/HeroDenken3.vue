@@ -14,7 +14,7 @@
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
       <p class="sub-title">
-        <a href="">通学講座</a> |  <a href="">オンライン講座</a> | <a href="">通信講座</a>
+        <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a> | <a href="https://denken.nouryoku.com/online">オンライン講座</a> | <a href="https://denken.nouryoku.com/tusin">通信講座</a>
       </p>
     </div>
   </section>
@@ -31,7 +31,7 @@ export default {
     backImgOver: String,
     backImgUnder: String,
     title: String,
-    subTitle: String,
+    // subTitle: String,
     headTitle: String,
     color: {},
     icon: String
