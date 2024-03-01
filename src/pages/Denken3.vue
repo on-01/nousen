@@ -4,7 +4,7 @@
       <div class="denken3">
         <header class="header">
             <!-- メインビジュアル -->
-            <Hero
+            <HeroDenken3
               :backImgOver="
                 require('../assets/img/license_page/denken3/denken3_hero.jpg')
               "
@@ -13,7 +13,7 @@
               "
               headTitle="令和6年度上期/令和6年度下期"
               title="第三種電気主任技術者<br/>（電験三種）"
-              subTitle="通学講座 | オンライン講座 | 通信講座"
+              
               color="#1D9BF0"
               :icon="require('../assets/img/icon/qualification/denken.svg')"
             />
@@ -494,7 +494,8 @@
   </static-query>
   
   <script>
-  import Hero from "@/components/Hero.vue";
+  // import Hero from "@/components/Hero.vue";
+  import HeroDenken3 from "@/components/HeroDenken3.vue";
   // import Point from "@/components/licensePage/Point.vue";
   import Explanation from "@/components/licensePage/Explanation.vue";
   import SpExplanation from "@/components/licensePage/SpExplanation.vue";
@@ -564,7 +565,8 @@
       };
     },
     components: {
-      Hero,
+      // Hero,
+      HeroDenken3,
       // Point,
       Explanation,
       SpExplanation,
