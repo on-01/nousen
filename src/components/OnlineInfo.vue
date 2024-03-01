@@ -32,7 +32,7 @@ export default {
     width: 190px;
   }
   @media print, screen and(min-width: 1080px) {
-    font-size: 14px;
+    font-size: 12px;
     width: 230px;
     left: 0;
   }
