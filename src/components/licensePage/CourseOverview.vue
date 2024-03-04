@@ -1,5 +1,6 @@
 <template>
     <div class="courseOverview">
+        <img class="courseOverview-icon" src="../../assets/img/icon/note.svg">
         <div class="courseOverview-inner">
 
             <div class="courseOverview-content">
@@ -93,7 +94,7 @@
                                 <p>・講習会場でのご質問対応。メール・お電話でも対応いたします</p>
                                 <p>・当日欠席しても安心！オンライン講座に無料振替ができます！</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用</p>
-                                <p><span>・その他【合格応援割引制度】あり</span></p>
+                                <p>・その他<span>【合格応援割引制度】</span>あり</p>
                             </td>
                         </tr>
                         <tr>
@@ -154,7 +155,7 @@
                                 <p class="courseOverview-th-text">（消費税・教材・添削費・送料込み）</p>
                             </th>
                             <td>
-                                <p>令和7年3月23日（日）まで配信</p>
+                                <p><span>令和7年3月23日（日）まで配信</span></p>
                                 <p class="courseOverview-td-text"><del>148,500円</del>▶️【セット割】135,000円：全科目セット</p>
                                 <p class="courseOverview-td-text"><del>132,000円</del>▶️【セット割】119,000円：４科目セット</p>
                                 <p>16,500円：基礎（10時間）</p>
@@ -207,7 +208,7 @@
                                 <p>・質問用紙が最大4枚</p>
                                 <p>・質問用紙・提出課題の提出期限延長（令和6年度下期試験日まで）</p>
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用</p>
-                                <p><span>・その他【合格応援割引制度】あり</span></p>
+                                <p>・その他<span>【合格応援割引制度】</span>あり</p>
                             </td>
                         </tr>
                         <tr>
@@ -303,7 +304,7 @@
                                 <p>・万が一不合格の場合は<span>再受講割引制度</span>が適用<br>
                                     （通学講座・オンライン講座受講の場合も適用）</p>
                                 <p>・通信講座からオンライン講座に変更可能</p>
-                                <p><span>・その他【合格応援割引制度】あり</span></p>
+                                <p>・その他<span>【合格応援割引制度】</span>あり</p>
                             </td>
                         </tr>
                         <tr>
@@ -341,6 +342,13 @@ export default {
     font-family: 'Meiryo', sans-serif;
     border-top: 4px solid #ed6c00;
     margin: 0 auto;
+}
+.courseOverview-icon {
+    position: absolute;
+    z-index: 0;
+    top: -18px;
+    left: -43px;
+    width: 54px
 }
 .courseOverview p,
 .courseOverview img {

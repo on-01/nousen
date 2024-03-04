@@ -2,7 +2,7 @@
   <section :class="['hero',{'no-pic':!backImgOver}]">
     <!-- 使用方法
     <Hero :backImgOver="require('../assets/hero.jpg')" :backImgUnder="require('../assets/hero_sp.jpg')" title="タイトル" />
-     -->
+    -->
     <div v-if="backImgOver" class="hero-inner over-display" :style="{'background-image': `url(${backImgOver})`}">
     </div>
     <div v-if="backImgUnder" class="hero-inner under-display" :style="{'background-image': `url(${backImgUnder})`}">
