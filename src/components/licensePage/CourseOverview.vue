@@ -481,14 +481,18 @@ export default {
 
 @media print, screen and (max-width: 768px) {
 .courseOverview {
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
 }
 .courseOverview-inner {
     max-width: 100%;
-    padding: 40px 20px;
+    padding: 40px 0px;
 }
-
+.courseOverview-icon {
+    top: -15px;
+    left: -21px;
+    width: 41px 
+}
 .courseOverview-content {
     width: 100%;
 }
