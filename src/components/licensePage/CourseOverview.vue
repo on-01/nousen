@@ -335,7 +335,8 @@ export default {
 
 <style lang="scss" scoped>
 .courseOverview {
-    width: 90%;
+    max-width: 1170px;
+    width: 100%;
     background-color: #fff;
     z-index: 0;
     position: relative;
@@ -355,12 +356,9 @@ export default {
     margin: 0;
 }
 .courseOverview-inner {
-    max-width: 1170px;
-    margin: 0 auto;
     padding: 60px 0px 40px;
 }
 .courseOverview-content {
-    width: 98%;
     margin: 0 auto;
 }
 .courseOverview-flex {
@@ -483,7 +481,8 @@ export default {
 
 @media print, screen and (max-width: 768px) {
 .courseOverview {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 .courseOverview-inner {
     max-width: 100%;
