@@ -30,14 +30,16 @@
                 <div class="exam-bottom-description">
                     <p class="exam-bottom-title">勉強計画を立てて最短合格へ</p>
                     <p class="exam-bottom-line"></p>
-                    <p class="exam-bottom-text">
+                    <div class="exam-bottom-text">
                         電験三種資格取得には長期間の勉強が必要になります。<br>
                         能センでは計画に沿った勉強で最短合格ができるように、<br>
-                        二つのシートをお渡ししております。<br><br>
-                        <span>・電験三種 勉強計画表</span><br>
-                        <span>・電験三種 勉強チェックシート</span><br><br>
+                        二つのシートをお渡ししております。<br>
+                        <div class="exam-bottom-wrap">
+                            <span>・電験三種 勉強計画表</span><br>
+                            <span>・電験三種 勉強チェックシート</span><br>
+                        </div>
                         <span>能センの教材、副教材全てが合格へと通じています！</span>
-                    </p>
+                    </div>
                 </div>
                 <figure class="exam-bottom-image">
                     <img src="../../assets/img/license_page/denken3/denken3_exam_4.jpg" alt="電験三種">
@@ -66,7 +68,7 @@ export default {
     font-family: 'メイリオ', sans-serif;
 }
 .exam-inner {
-    padding: 40px 170px;
+    padding: 40px 120px;
 }
 
 .exam-title {
@@ -100,7 +102,7 @@ export default {
 .exam-image {
     display: flex;
     justify-content: space-between;
-    margin: 24px auto 0;
+    margin: 24px auto;
 }
 
 .exam-image figure {
@@ -136,6 +138,8 @@ export default {
 .exam-bottom-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 .exam-bottom-image {
     width: 48%;
@@ -151,18 +155,21 @@ export default {
     margin-bottom: 0;
 }
 .exam-bottom-line {
-    width: 10%;
+    width: 40%;
     height: 4px;
     background: #249ef0;
-    margin: 20px auto 20px;
+    margin: 10px auto;
     border-radius: 8px;
 }
 .exam-bottom-text {
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.6;
 }
 .exam-bottom-text span {
     font-weight: 700;
+}
+.exam-bottom-wrap {
+    padding: 18px 0;
 }
 
 
@@ -177,7 +184,7 @@ export default {
         width: 90%;
     }
     .exam-inner {
-        padding: 40px 20px;
+        padding: 40px 0px;
     }
     .exam-bottom-section {
     flex-wrap: wrap
@@ -191,14 +198,16 @@ export default {
         padding-right: 0;
         margin: 0 auto;
     }
-
     .exam-bottom-title {
-        font-size: 24px;
+        font-size: 20px;
     }
     .exam-bottom-text {
         font-size: 16px;
         line-height: 1.6;
     }
+    .exam-image figure img {
+    max-width: 96%;
+}
 }
 @media print, screen and (max-width: 800px) {
     .exam-image figure {

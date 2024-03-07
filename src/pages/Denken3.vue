@@ -598,9 +598,9 @@
     },
     data() {
       return {
-        isActive: 2,
+        isActive: 1,
         isVoice: 0,
-        isActiveTop: 1,
+        isActiveTop: 2,
       };
     },
     methods: {
