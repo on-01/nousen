@@ -5,6 +5,9 @@
             <p class="exam-line"></p>
             <div class="exam-image">
                 <figure>
+                    <img src="../../assets/img/license_page/denken3/denken3_exam_3.jpg" alt="電験三種">
+                </figure>
+                <figure>
                     <img src="../../assets/img/license_page/denken3/denken3_exam_1.jpg" alt="電験三種">
                 </figure>
                 <figure>
@@ -23,6 +26,23 @@
                 <span>・模擬試験（解答解説）</span><br>
                 解説付きの解答で理解度UP！30分程度のポイント解説の講習（オンライン講座では動画）があり、問題の考え方を丁寧に指導します。
             </p>
+            <div class="exam-bottom-section">
+                <div class="exam-bottom-description">
+                    <p class="exam-bottom-title">勉強計画を立てて最短合格へ</p>
+                    <p class="exam-bottom-line"></p>
+                    <p class="exam-bottom-text">
+                        電験三種資格取得には長期間の勉強が必要になります。<br>
+                        能センでは計画に沿った勉強で最短合格ができるように、<br>
+                        二つのシートをお渡ししております。<br><br>
+                        <span>・電験三種 勉強計画表</span><br>
+                        <span>・電験三種 勉強チェックシート</span><br><br>
+                        <span>能センの教材、副教材全てが合格へと通じています！</span>
+                    </p>
+                </div>
+                <figure class="exam-bottom-image">
+                    <img src="../../assets/img/license_page/denken3/denken3_exam_4.jpg" alt="電験三種">
+                </figure>
+            </div>
         </div>
     </div>
 </template>
@@ -83,8 +103,13 @@ export default {
     margin: 24px auto 0;
 }
 
+.exam-image figure {
+    width: 30%;
+    margin: 0 auto;
+}
+
 .exam-image figure img {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -108,6 +133,38 @@ export default {
 .exam-text span {
     font-weight: 700;
 }
+.exam-bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+.exam-bottom-image {
+    width: 48%;
+}
+.exam-bottom-description {
+    width: 48%;
+}
+.exam-bottom-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.exam-bottom-line {
+    width: 10%;
+    height: 4px;
+    background: #249ef0;
+    margin: 20px auto 20px;
+    border-radius: 8px;
+}
+.exam-bottom-text {
+    font-size: 16px;
+    line-height: 2;
+}
+.exam-bottom-text span {
+    font-weight: 700;
+}
+
 
 @media print, screen and (max-width: 1100px) {
     .exam-inner {
@@ -119,9 +176,28 @@ export default {
     .exam {
         width: 90%;
     }
-
     .exam-inner {
         padding: 40px 20px;
+    }
+    .exam-bottom-section {
+    flex-wrap: wrap
+    }
+    .exam-bottom-image {
+        width: 100%;
+    }
+    .exam-bottom-description {
+        width: 90%;
+        margin-top: 20px;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .exam-bottom-title {
+        font-size: 24px;
+    }
+    .exam-bottom-text {
+        font-size: 16px;
+        line-height: 1.6;
     }
 }
 @media print, screen and (max-width: 800px) {

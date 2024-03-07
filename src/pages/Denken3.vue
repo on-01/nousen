@@ -598,7 +598,7 @@
     },
     data() {
       return {
-        isActive: 1,
+        isActive: 2,
         isVoice: 0,
         isActiveTop: 1,
       };

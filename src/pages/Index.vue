@@ -1607,7 +1607,7 @@ export default {
   position: relative;
   z-index: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #3b241a;
   text-align: center;
