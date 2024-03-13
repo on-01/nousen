@@ -82,9 +82,28 @@ export default {
 .fsc-text {
     font-weight: 500;
     margin: 0 auto;
-    font-size: 16x;
+    font-size: 16px;
     line-height: 1.8;
     padding-top: 18px;
+}
+
+.company .fsc {
+    margin-bottom: 18px;
+}
+.company .fsc-text {
+    font-size: 26x;
+}
+
+.company .fsc-line {
+    margin: 6px auto 0;
+}
+
+.company .fsc-inner {
+    padding: 0;
+}
+
+.company .fsc-text {
+    font-size: 15x;
 }
 
 @media print, screen and (max-width: 768px) {
