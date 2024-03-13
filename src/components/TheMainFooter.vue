@@ -235,7 +235,8 @@
       }
       @media print, screen and(min-width: 1001px) {
         &:nth-child(1),
-        &:nth-child(3) {
+        &:nth-child(3),
+        &:nth-child(5) {
           width: 232px;
         }
       }
