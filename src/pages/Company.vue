@@ -26,7 +26,7 @@
             <dl>
               <dt>電話番号</dt>
               <dd>03-5946-9417（代表）<br>
-                0120-547-284(フリーダイヤル)</dd>
+                0120-547-284（フリーダイヤル）</dd>
             </dl>
             <!-- <dl>
               <dt>FAX</dt>
@@ -320,6 +320,12 @@ dd {
   @media print, screen and (max-width: 1000px) {
     width: 100%;
   }
+}
+dd a {
+  text-decoration: underline;
+}
+dd a:hover {
+  opacity: .8;
 }
 .content {
   border-top: 1px dashed #808080;
