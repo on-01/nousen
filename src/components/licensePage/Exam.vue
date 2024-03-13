@@ -139,7 +139,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 36px;
 }
 .exam-bottom-image {
     width: 48%;
