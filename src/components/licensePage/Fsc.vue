@@ -90,7 +90,7 @@ export default {
 .company .fsc {
     margin-bottom: 18px;
 }
-.company .fsc-text {
+.company .fsc-title {
     font-size: 26x;
 }
 
@@ -103,7 +103,7 @@ export default {
 }
 
 .company .fsc-text {
-    font-size: 15x;
+    font-size: 15px;
 }
 
 @media print, screen and (max-width: 768px) {
