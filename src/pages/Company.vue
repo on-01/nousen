@@ -16,34 +16,58 @@
           <h3 class="section-title">企業情報</h3>
           <div class="content">
             <dl>
-              <dt>会社名</dt>
+              <dt>社名</dt>
               <dd>株式会社ＮＯＵＳＥＮ</dd>
             </dl>
             <dl>
               <dt>所在地</dt>
-              <dd>東京都練馬区豊玉南2-9-6</dd>
+              <dd>〒176-0014 東京都練馬区豊玉南2-9-6</dd>
             </dl>
             <dl>
               <dt>電話番号</dt>
               <dd>03-5946-9417（代表）<br>
-              0120-547-284(フリーダイヤル)</dd>
+                0120-547-284(フリーダイヤル)</dd>
             </dl>
-            <dl>
+            <!-- <dl>
               <dt>FAX</dt>
               <dd>03-5946-9418</dd>
-            </dl>
+            </dl> -->
             <dl>
-              <dt>代表</dt>
+              <dt>代表者</dt>
               <dd>中村 信明</dd>
             </dl>
             <dl>
+              <dt>事業年度</dt>
+              <dd>毎年4月1日から翌年3月末日まで</dd>
+            </dl>
+            <dl>
+              <dt>主要取引金融機関</dt>
+              <dd>
+                住信ＳＢＩネット銀行株式会社
+                <br />
+                ＰａｙＰａｙ銀行株式会社
+              </dd>
+            </dl>
+            <dl>
+              <dt>法人番号</dt>
+              <dd>8011601026730</dd>
+            </dl>
+            <dl>
+              <dt>適格請求書発行事業者番号</dt>
+              <dd>T8011601026730</dd>
+            </dl>
+            <dl>
+              <dt>顧問税理士</dt>
+              <dd><a href="https://www.progsupport.or.jp/">税理士法人プログレスサポート</a></dd>
+            </dl>
+            <!-- <dl>
               <dt></dt>
               <dd>
                 社団法人 日本電気技術者協会 維持会員
                 <br />
                 東京商工会議所 団体会員
               </dd>
-            </dl>
+            </dl> -->
           </div>
         </section>
         <section class="outline section">
@@ -74,6 +98,10 @@
             </ol>
           </div>
         </section>
+
+        <Fsc
+              title="持続可能なミライへ"
+          />
 
         <div class="last-message">
           <div class="last-message-flex">
@@ -198,6 +226,7 @@ query {
 
 <script>
 import Hero from "@/components/Hero.vue";
+import Fsc from '../components/licensePage/Fsc.vue';
 export default {
   metaInfo() {
     return {
@@ -223,7 +252,8 @@ export default {
     };
   },
   components: {
-    Hero
+    Hero,
+    Fsc
   }
 };
 </script>
@@ -243,7 +273,7 @@ export default {
   }
 }
 .section {
-  background-color: #f9f9f9;
+  // background-color: #f9f9f9;
   margin: 0 auto;
   padding: 50px;
   margin-top: 50px;

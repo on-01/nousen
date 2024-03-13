@@ -282,7 +282,7 @@
                 title: 'front/section05_title2.svg',
                 titleAlt: 'オンライン講座',
                 texts: [
-                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。<br><br>通学講座の講義を丸ごと収録した臨場感たっぷりの動画ですので、<br>その場で受講しているように頭に入ってきます。',
+                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。',
                 ],
                 // movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
                 // movieText:

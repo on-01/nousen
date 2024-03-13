@@ -107,7 +107,8 @@
             ※上記例の費用は目安です。条件により変動致します。
           </p>
         </div>
-        <div class="contact">
+
+        <!-- <div class="contact">
           費用・研修内容等、何なりとご相談ください！
           <br />
           短期間、短時間の研修が可能です。
@@ -118,7 +119,14 @@
               <IconFingerRight />
             </IconBase>
           </g-link>
-        </div>
+        </div> -->
+
+        <ContactInfo
+          title="出張講習のご相談<br>
+          日程・費用・研修内容など<br>
+          お気軽にお問い合わせください。"
+        />
+
       </div>
     </div>
   </Layout>
@@ -140,6 +148,7 @@ import Example from "@/components/private_lecture/Example.vue";
 import IconBase from "@/components/IconBase.vue";
 import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
 import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+import ContactInfo from '../components/licensePage/ContactInfo.vue';
 export default {
   metaInfo() {
     return {
@@ -170,7 +179,8 @@ export default {
     Example,
     IconBase,
     IconFingerDiagonallyUp,
-    IconFingerRight
+    IconFingerRight,
+    ContactInfo,
   }
 };
 </script>
@@ -178,6 +188,7 @@ export default {
 <style lang="scss" scoped>
 .private_lecture {
   padding-bottom: 100px;
+  font-family: 'メイリオ', sans-serif;
 }
 .contents {
   margin: 0 auto;
