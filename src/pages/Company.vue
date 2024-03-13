@@ -306,7 +306,7 @@ dl + dl {
   border-top: 1px dashed #808080;
 }
 dt {
-  width: 200px;
+  width: 250px;
   color: #ed6c00;
   font-weight: bold;
   @media print, screen and (max-width: 1000px) {
@@ -314,7 +314,7 @@ dt {
   }
 }
 dd {
-  width: calc(100% - 200px);
+  width: calc(100% - 250px);
   margin: 0;
   padding: 0;
   @media print, screen and (max-width: 1000px) {
