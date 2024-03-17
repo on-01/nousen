@@ -498,6 +498,18 @@ export default {
   }
 };
 </script>
+
+<script>
+(function(){
+var uqid = "78976R94cd9Sb05S";
+var cid  = "931";
+var a=document.createElement("script");
+a.dataset.uqid=uqid;a.dataset.cid=cid;a.id="afadfpc-78976R94cd9Sb05Scid931-"+Date.now();
+a.src="//tag.ecnavi-tracking.jp/fpc/cookie_js.php?scriptId="+encodeURIComponent(a.id);
+document.head.appendChild(a);
+})();
+</script>
+
 <style lang="scss" scoped>
 .main-header {
   width: 100%;
