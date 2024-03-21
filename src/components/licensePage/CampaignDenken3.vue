@@ -7,7 +7,7 @@
                     <img src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg" alt="電験三種">
                 </figure>
                 <div class="campaign-description">
-                    <p class="campaign-topic -red">第二弾【￥5,000 off】早割キャンペーン（通学講座）</p>
+                    <p class="campaign-topic -red">第二弾【￥5,000 off】早割キャンペーン（通学講座）<span style="color: black;">【終了】</span></p>
                     <ul class="campaign-content">
                         <li class="campaign-emphasis">・{{ date }}まで早割キャンペーン大好評につき延長！</li>
                         <li>・通学講座の全科目セット・４科目セットのお申込みの方が対象になります</li>
