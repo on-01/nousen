@@ -14,7 +14,7 @@
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
       <p class="sub-title">
-        <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a> | <a href="https://denken.nouryoku.com/online">オンライン講座</a> | <a href="https://denken.nouryoku.com/tusin">通信講座</a>
+        <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a> | <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a> | <a href="https://denken.nouryoku.com/online">オンライン講座</a> | <a href="https://denken.nouryoku.com/tusin">通信講座</a>
       </p>
     </div>
   </section>
@@ -122,6 +122,9 @@ export default {
       font-size: 13px;
     }
   }
+}
+.sub-title a {
+  text-decoration-line: underline;
 }
 .icon {
   width: 80px;
