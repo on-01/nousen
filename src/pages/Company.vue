@@ -337,11 +337,13 @@ dd a:hover {
 }
 
 .company-image {
-  margin: 0;
+  max-width: 970px;
+  margin: 0 auto;
 }
 .company-image img{
     margin: 40px auto 0;
     display: block;
+    width: 100%;
 }
 
 .last-message {
