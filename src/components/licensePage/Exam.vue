@@ -32,7 +32,7 @@
                     <p class="exam-bottom-line"></p>
                     <div class="exam-bottom-text">
                         電験三種資格取得には長期間の勉強が必要になります。<br>
-                        能センでは計画に沿った勉強で最短合格ができるように、<br>
+                        能センでは計画に沿った勉強で最短合格ができるように、
                         二つのシートをお渡ししております。<br>
                         <div class="exam-bottom-wrap">
                             <span>・電験三種 勉強計画表</span><br>
@@ -192,12 +192,14 @@ export default {
     }
     .exam-bottom-image {
         width: 100%;
+        margin-top:10px;
     }
     .exam-bottom-description {
         width: 90%;
         margin-top: 20px;
         padding-right: 0;
         margin: 0 auto;
+        text-align: center;
     }
     .exam-bottom-title {
         font-size: 20px;
