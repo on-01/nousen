@@ -274,7 +274,7 @@ export default {
   }
 }
 .section {
-  background-color: #f9f9f9;
+  background-color: #fff;
   margin: 0 auto;
   padding: 50px;
   margin-top: 50px;
