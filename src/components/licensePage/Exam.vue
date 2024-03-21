@@ -68,7 +68,7 @@ export default {
     font-family: 'メイリオ', sans-serif;
 }
 .exam-inner {
-    padding: 40px 120px 60px;
+    padding: 40px 100px 60px;
 }
 
 .exam-title {
@@ -142,10 +142,11 @@ export default {
     margin-top: 36px;
 }
 .exam-bottom-image {
-    width: 48%;
+    width: 58%;
+    margin: 0;
 }
 .exam-bottom-description {
-    width: 48%;
+    width: 42%;
 }
 .exam-bottom-title {
     font-size: 28px;
