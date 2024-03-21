@@ -156,7 +156,7 @@ export default {
   }
 }
 .section {
-  background-color: #f9f9f9;
+  background-color: #fff;
   margin: 0 auto;
   padding: 50px;
   @media print, screen and (max-width: 1000px) {
