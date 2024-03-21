@@ -703,6 +703,10 @@
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+    
     @media print, screen and (max-width: 480px) {
       width: 90%;
     }
