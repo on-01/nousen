@@ -4,8 +4,7 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            令和6年度 電験三種【通学講座】【通信講座】【オンライン講座】受付中！<br>
-            通学講座は３月１５日(金)まで早割キャンペーン大好評につき延長！
+            令和6年度 電験三種【通学講座】【通信講座】【オンライン講座】受付中！
           </g-link>
         </p>
         <img
