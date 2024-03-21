@@ -111,7 +111,7 @@ export default {
   .sub-title {
     margin: 0;
     letter-spacing: 0.1em;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'メイリオ', sans-serif;
     font-weight: 600;
     text-align: center;
@@ -119,7 +119,7 @@ export default {
       font-size: 16px;
     }
     @media print, screen and (max-width: 414px) {
-      font-size: 13px;
+      font-size: 11px;
     }
   }
 }
