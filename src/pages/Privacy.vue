@@ -218,7 +218,7 @@ export default {
   max-width: 970px;
   width: 100%;
   margin: 0 auto;
-  background: #ebf7ff;
+  background-color: #f9f9f9;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }
