@@ -262,6 +262,7 @@ export default {
 .company {
   padding-bottom: 100px;
   font-family: 'メイリオ', sans-serif;
+  background: #ebf7ff;
 }
 .contents {
   max-width: 970px;
@@ -273,7 +274,7 @@ export default {
   }
 }
 .section {
-  // background-color: #f9f9f9;
+  background-color: #f9f9f9;
   margin: 0 auto;
   padding: 50px;
   margin-top: 50px;

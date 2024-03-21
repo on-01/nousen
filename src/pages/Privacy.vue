@@ -212,11 +212,13 @@ export default {
 <style lang="scss" scoped>
 .privacy {
   padding-bottom: 100px;
+  background: #ebf7ff;
 }
 .contents {
   max-width: 970px;
   width: 100%;
   margin: 0 auto;
+  background: #ebf7ff;
   @media print, screen and (max-width: 1000px) {
     width: 90%;
   }

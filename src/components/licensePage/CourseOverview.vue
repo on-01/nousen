@@ -102,7 +102,7 @@
                                 お得なキャンペーン
                             </th>
                             <td>
-                                <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
+                                <p><a class="courseOverview-link" href="https://page.line.me/947ygtge?openQrModal=true">・LINEお友達登録</a>で５００円割引キャンペーン（他割引と併用可）</p>
                                 <p>全科目セット・４科目セットが対象です。</p>
                                 <p>・その他<span>【合格応援キャンペーン】</span></p>
                             </td>
@@ -214,7 +214,7 @@
                                 お得なキャンペーン
                             </th>
                             <td>
-                                <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
+                                <p><a class="courseOverview-link" href="https://page.line.me/947ygtge?openQrModal=true">・LINEお友達登録</a>で５００円割引キャンペーン（他割引と併用可）</p>
                                 <p>・その他<span>【合格応援キャンペーン】</span></p>
                             </td>
                         </tr>
@@ -310,7 +310,7 @@
                                 お得なキャンペーン
                             </th>
                             <td>
-                                <p>・LINEお友達登録で５００円割引キャンペーン（他割引と併用可）</p>
+                                <p><a class="courseOverview-link" href="https://page.line.me/947ygtge?openQrModal=true">・LINEお友達登録</a>で５００円割引キャンペーン（他割引と併用可）</p>
                                 <p>・その他<span>【合格応援キャンペーン】</span></p>
                                 <p class="courseOverview-td-text">受講生全員に基礎講座で使う『電気数学の基礎プリント』を進呈！</p>
                             </td>

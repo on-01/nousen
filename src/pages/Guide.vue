@@ -85,6 +85,13 @@
               <dt>返品期限</dt>
               <dd>書籍、工具の返品は到着後７日以内にご連絡下さい</dd>
             </dl>
+            <dl>
+              <dt>その他</dt>
+              <dd>当社に対する強引な販売行為、電話勧誘販売行為、電話営業、その他の営業活動について、
+                  <br />
+                  就業時間中の対応の場合、有料で対応させていただく場合があります。予めご了承ください。
+              </dd>
+            </dl>
           </div>
         </section>
       </div>
@@ -138,6 +145,7 @@ export default {
 .guide {
   padding-bottom: 100px;
   font-family: 'メイリオ', sans-serif;
+  background: #ebf7ff;
 }
 .contents {
   max-width: 970px;
