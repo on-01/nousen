@@ -68,7 +68,7 @@ export default {
     font-family: 'メイリオ', sans-serif;
 }
 .exam-inner {
-    padding: 40px 100px 60px;
+    padding: 40px 90px 60px;
 }
 
 .exam-title {

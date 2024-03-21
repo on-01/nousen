@@ -42,7 +42,7 @@ export default {
 .setCourse-inner {
     max-width: 1170px;
     margin: 0 auto;
-    width: 100%;
+    // width: 100%;
     padding: 20px 40px;
 }
 .setCourse-title {
@@ -135,11 +135,6 @@ export default {
 .setCourse-menu span {
     font-size: 20px;
     font-weight: 700;
-}
-@media print, screen and (max-width: 1170px) {
-.setCourse-inner {
-    width: auto;
-}
 }
 @media print, screen and (max-width: 768px) {
 .setCourse-inner {
