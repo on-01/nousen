@@ -478,6 +478,12 @@ export default {
     line-height: 1.8;
     text-align: center;
 }
+@media print, screen and (max-width: 1170px) {
+    .courseOverview {
+    width: 90%;
+    margin: 0 auto;
+}
+}
 
 @media print, screen and (max-width: 768px) {
 .courseOverview {
