@@ -207,6 +207,7 @@ export default {
     .exam-bottom-text {
         font-size: 16px;
         line-height: 1.6;
+        margin-top: 20px;
     }
     .exam-image figure img {
     max-width: 96%;
