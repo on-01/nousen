@@ -185,7 +185,7 @@ export default {
         width: 90%;
     }
     .exam-inner {
-        padding: 40px 0px;
+        padding: 0px 0px 40px;
     }
     .exam-bottom-section {
     flex-wrap: wrap
