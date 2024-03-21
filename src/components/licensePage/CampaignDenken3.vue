@@ -142,6 +142,7 @@ box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     .campaign-section {
     width: 90%;
     flex-flow: wrap;
+    margin: 0 auto;
     }
     .campaign-image {
     width: 90%;

@@ -410,6 +410,9 @@ dd a:hover {
 }
 
 @media print, screen and (max-width: 1000px) {
+.company-image {
+  width: 90%;
+}
 .last-message-description::after {
     display: none;
 }
