@@ -68,7 +68,7 @@ export default {
     font-family: 'メイリオ', sans-serif;
 }
 .exam-inner {
-    padding: 40px 90px 60px;
+    padding: 40px 80px 60px;
 }
 
 .exam-title {
@@ -139,7 +139,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 36px;
+    margin-top: 48px;
 }
 .exam-bottom-image {
     width: 58%;
@@ -176,7 +176,7 @@ export default {
 
 @media print, screen and (max-width: 1100px) {
     .exam-inner {
-        padding: 40px 80px;
+        padding: 40px 60px;
     }
 }
 
@@ -188,7 +188,8 @@ export default {
         padding: 0px 0px 40px;
     }
     .exam-bottom-section {
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin-top: 36px;
     }
     .exam-bottom-image {
         width: 100%;

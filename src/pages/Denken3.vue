@@ -147,7 +147,7 @@
                         2.効果的な学習をサポートする副教材も特徴。
                         自宅学習に使える解説付き問題集や、4科目分の添削課題付き。"
                 :imagePath_1="require('../assets/img/license_page/denken3/denken3_quality_1.jpg')"
-                text_2="初めて受験する方にお勧めするのが、能センの基礎講座です。
+                text_2="初めて受験する方におすすめするのが、能センの基礎講座です。
                         専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。
                         しばらく理系の学習から離れていた方はこの機会にご活用ください。"
                 :imagePath_2="require('../assets/img/license_page/denken3/denken3_quality_2.jpg')"
