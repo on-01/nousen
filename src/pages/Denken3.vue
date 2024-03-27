@@ -863,6 +863,7 @@
     width: 100%;
     margin: 0 auto;
     font-family: 'メイリオ', sans-serif;
+    padding-top: 60px;
     // background-color: #ebf7ff;
     background-color: #FFF7D5;
     padding-bottom: 100px;
