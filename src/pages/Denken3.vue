@@ -198,9 +198,9 @@
                 title="最新の予想模擬試験＋ポイント解説"
             />
   
-            <CourseOverview
+            <!-- <CourseOverview
               title="通 学 講 座"
-            />
+            /> -->
       
             <SetCourse
                   title="通学＋オンラインセット"
@@ -368,7 +368,10 @@
           </section>
         <div class="body">
             <div v-show="isActive === 2">
-              <h3 class="body-title">通学講座</h3>
+              <!-- <h3 class="body-title">通学講座</h3> -->
+              <CourseOverview1
+                title="通 学 講 座"
+              />
               <h3 class="body-title">各会場の開催日程</h3>
               <Venue
                 v-for="(items, index) in $static.tuugakuVenue.edges"
@@ -520,6 +523,7 @@
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import Schedule from '../components/licensePage/Schedule.vue';
   import CourseOverview from '../components/licensePage/CourseOverview.vue';
+  import CourseOverview1 from '../components/licensePage/CourseOverview1.vue';
   import ContactInfo from '../components/licensePage/ContactInfo.vue';
   import Exam from '../components/licensePage/Exam.vue';
   import SetCourse from '../components/licensePage/SetCourse.vue';
@@ -589,6 +593,7 @@
       IconArrowRight,
       Schedule,
       CourseOverview,
+      CourseOverview1,
       ContactInfo,
       Exam,
       SetCourse,
