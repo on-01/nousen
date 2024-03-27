@@ -396,7 +396,10 @@
                 />
             </div>
             <div v-show="isActive === 3">
-              <h3 class="body-title">通信講座</h3>
+              <!-- <h3 class="body-title">通信講座</h3> -->
+              <CourseOverview3
+                title="通 信 講 座"
+              />
               <Info
                 :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
                 :capacity="$static.tuushin.capacity"
@@ -412,7 +415,10 @@
               />
             </div>
             <div v-show="isActive === 1">
-              <h3 class="body-title">オンライン講座</h3>
+              <!-- <h3 class="body-title">オンライン講座</h3> -->
+              <CourseOverview2
+                title="オンライン講座"
+              />
               <Info
                 :courseOutline="richtextToHTML($static.online.courseOutline)"
                 :apply="richtextToHTML($static.online.apply)"
@@ -524,6 +530,8 @@
   import Schedule from '../components/licensePage/Schedule.vue';
   import CourseOverview from '../components/licensePage/CourseOverview.vue';
   import CourseOverview1 from '../components/licensePage/CourseOverview1.vue';
+  import CourseOverview2 from '../components/licensePage/CourseOverview2.vue';
+  import CourseOverview3 from '../components/licensePage/CourseOverview3.vue';
   import ContactInfo from '../components/licensePage/ContactInfo.vue';
   import Exam from '../components/licensePage/Exam.vue';
   import SetCourse from '../components/licensePage/SetCourse.vue';
@@ -594,6 +602,8 @@
       Schedule,
       CourseOverview,
       CourseOverview1,
+      CourseOverview2,
+      CourseOverview3,
       ContactInfo,
       Exam,
       SetCourse,
@@ -877,6 +887,7 @@
       font-size: 30px;
       margin-top: 0;
       @media print, screen and (max-width: 1000px) {
+        padding-top: 60px;
         font-size: 18px;
       }
       &:after {

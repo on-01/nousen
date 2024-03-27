@@ -133,22 +133,22 @@ export default {
     z-index: 0;
     position: relative;
     font-family: 'Meiryo', sans-serif;
-    border-top: 4px solid #ed6c00;
+    // border-top: 4px solid #ed6c00;
     margin: 0 auto;
 }
-.courseOverview-icon {
-    position: absolute;
-    z-index: 0;
-    top: -18px;
-    left: -43px;
-    width: 54px
-}
+// .courseOverview-icon {
+//     position: absolute;
+//     z-index: 0;
+//     top: -18px;
+//     left: -43px;
+//     width: 54px
+// }
 .courseOverview p,
 .courseOverview img {
     margin: 0;
 }
 .courseOverview-inner {
-    padding: 60px 0px 40px;
+    padding: 60px 40px 40px;
 }
 .courseOverview-content {
     margin: 0 auto;
@@ -284,13 +284,13 @@ export default {
 }
 .courseOverview-inner {
     max-width: 100%;
-    padding: 40px 0px;
+    padding: 40px 16px;
 }
-.courseOverview-icon {
-    top: -15px;
-    left: -21px;
-    width: 41px 
-}
+// .courseOverview-icon {
+//     top: -15px;
+//     left: -21px;
+//     width: 41px 
+// }
 .courseOverview-content {
     width: 100%;
 }
@@ -349,7 +349,7 @@ export default {
 }
 
 .online-flex {
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .online-flex-image,
 .online-flex-description {
