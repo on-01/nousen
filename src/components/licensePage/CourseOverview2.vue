@@ -1,6 +1,6 @@
 <template>
     <div class="courseOverview">
-        <img class="courseOverview-icon" src="../../assets/img/icon/note.svg">
+        <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
         <div class="courseOverview-inner">
             <div class="courseOverview-content">
                 <div class="courseOverview-flex">
