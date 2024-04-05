@@ -28,8 +28,8 @@
                     <p class="lecture-profile" v-html="profile"></p>
                 </div>
             </div>
-            
-            <div class="lecture-section -add">
+
+            <div class="add">
                 <p class="lecture-teacher">【基礎講座】</p>
                 <p class="lecture-profile">電気数学の基礎【四則計算(加減乗除)・比例・反比例・指数法則と対数関数・二次方程式の根・分数式・連立方程式・三角関数・ベクトルと正弦波交流】・科目学習のポイント</p>
                 <p class="lecture-teacher">【理論】</p>
@@ -138,7 +138,7 @@ export default {
     line-height: 1.6;
     margin: 0;
 }
-.kenchiku .lecture-section.-add {
+.kenchiku .add {
     display: none;
 }
 
