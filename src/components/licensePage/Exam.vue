@@ -142,7 +142,7 @@ export default {
     margin-top: 48px;
 }
 .exam-bottom-image {
-    width: 58%;
+    width: 54%;
     margin: 0;
 }
 .exam-bottom-description {
@@ -165,6 +165,7 @@ export default {
 .exam-bottom-text {
     font-size: 16px;
     line-height: 1.6;
+    margin-top: 28px;
 }
 .exam-bottom-text span {
     font-weight: 700;
