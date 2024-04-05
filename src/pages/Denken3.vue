@@ -798,7 +798,8 @@
       &.active {
         border-bottom: none;
         // background-color: #ebf7ff;
-        background-color: #FFF7D5;
+        // background-color: #FFF7D5;
+        background-color: #ebf7ff;
         color: #000000;
         .icon {
           transform: rotate(90deg);
