@@ -138,6 +138,14 @@ export default {
   background-color: #1d9bf0;
   }
 }
+.doboku .title, 
+.kenchiku .title {
+    font-size: 24px;
+
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
+}
 
 @media print, screen and (max-width: 980px) {
   .doboku .hero-inner,

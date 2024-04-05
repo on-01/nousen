@@ -99,13 +99,10 @@ export default {
   .title {
     margin: 0;
     letter-spacing: 0.3em;
-    font-size: 29px;
+    font-size: 24px;
     font-family: 'メイリオ', sans-serif;
     text-align: center;
     @media print, screen and (max-width: 1000px) {
-      font-size: 20px;
-    }
-    @media print, screen and (max-width: 414px) {
       font-size: 16px;
     }
   }
