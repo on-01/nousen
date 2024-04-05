@@ -28,6 +28,20 @@
                     <p class="lecture-profile" v-html="profile"></p>
                 </div>
             </div>
+            <div class="lecture-section -add">
+                <p class="lecture-teacher">【基礎講座】</p>
+                <p class="lecture-profile">電気数学の基礎【四則計算(加減乗除)・比例・反比例・指数法則と対数関数・二次方程式の根・分数式・連立方程式・三角関数・ベクトルと正弦波交流】・科目学習のポイント</p>
+                <p class="lecture-teacher">【理論】</p>
+                <p class="lecture-profile">基礎数学・SI単位・電気・光・磁気効果・電気理論・電子理論・電気計測・電子計測・その他</p>
+                <p class="lecture-teacher">【電力】</p>
+                <p class="lecture-profile">発電所及び変電所の設計及び運転・送電線路及び配電線路(屋内配線を含む)の設計及び 運用・電気材料・その他</p>
+                <p class="lecture-teacher">【機械】</p>
+                <p class="lecture-profile">電気機器・パワーエレクトロニクス・電動機応用・照明・電熱・電気化学・電気加工・自動制御・メカトロニクス・電力システムに関する情報伝送及び処理・その他</p>
+                <p class="lecture-teacher">【法規】</p>
+                <p class="lecture-profile">電気法規(保安に関するものに限る)・電気施設管理・その他</p>
+                <p class="lecture-teacher">【模擬試験】</p>
+                <p class="lecture-profile">最新試験の直前予想模擬試験。模擬試験を取り組んだ後30分程度の解答解説講座</p>
+            </div>
         </div>
     </div>
 </template>
@@ -122,6 +136,9 @@ export default {
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
+}
+.kenchiku .lecture-section.-add {
+    display: none;
 }
 
 @media print, screen and (max-width: 1000px) {
