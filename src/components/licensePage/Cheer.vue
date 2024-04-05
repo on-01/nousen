@@ -76,7 +76,7 @@ export default {
 
 @media print, screen and (max-width: 980px) {
 .cheer {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .cheer-section {
     flex-wrap: wrap

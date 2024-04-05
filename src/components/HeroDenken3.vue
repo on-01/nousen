@@ -117,7 +117,7 @@ export default {
       font-size: 16px;
     }
     @media print, screen and (max-width: 560px) {
-      font-size: 11px;
+      font-size: 12px;
     }
   }
 }
