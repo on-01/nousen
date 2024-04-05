@@ -3,12 +3,12 @@
         <div class="schedule-inner">
             <p class="schedule-title">{{ title }}</p>
             <div class="schedule-line"></div>
-            <p class="schedule-tableTitle">令和５・６年度　第三種電気主任技術者　各種日程</p>
+            <p class="schedule-tableTitle">令和６年度　第三種電気主任技術者　各種日程</p>
             <div class="schedule-table-wrap">
             <table class="schedule-table">
             <tr>
                 <th class="schedule-th -first">項目</th>
-                <th class="schedule-th -second">令和５年度 下期試験</th>
+                <!-- <th class="schedule-th -second">令和５年度 下期試験</th> -->
                 <th class="schedule-th -third">令和６年度 上期試験</th>
                 <th class="schedule-th -forth">令和６年度 下期試験</th>
             </tr>
@@ -22,12 +22,12 @@
                         </div>
                     </div>
                 </td>
-                <td class="schedule-padding-none">
+                <!-- <td class="schedule-padding-none">
                     <div>
                         <p class="schedule-td-flex-right-top schedule-table-padding">令和６年２月１日（木）～２月２５日（日）</p>
                         <p class="schedule-table-padding">令和６年３月２４日（日）</p>
                     </div>
-                </td>
+                </td> -->
                 <td class="schedule-padding-none">
                     <div>
                         <p class="schedule-td-flex-right-top schedule-table-padding-type2">令和６年７月４日（木）～７月２８日（日）<br>（２５日間）</p>
@@ -43,13 +43,13 @@
             </tr>
             <tr>
                 <td class="schedule-td-bold schedule-td-border-none schedule-table-padding">【受験申込受付期間】<br>申込期間はCBT方式・筆記方式共<br>に同じです。</td>
-                <td>１１月１３日（月）～１１月３０日（木）</td>
+                <!-- <td>１１月１３日（月）～１１月３０日（木）</td> -->
                 <td>５月２０日（月）～６月６日（木）</td>
                 <td>１１月１１日（月）～１１月２８日（木）</td>
             </tr>
             <tr>
                 <td class="schedule-td-bold schedule-td-border-none schedule-table-padding">試験結果発表日（筆記方式）</td>
-                <td>令和６年４月頃</td>
+                <!-- <td>令和６年４月頃</td> -->
                 <td>令和６年９月頃</td>
                 <td>令和７年４月頃</td>
             </tr>
@@ -193,12 +193,12 @@ export default {
     font-size: 20px;
 }
 .schedule-th.-first {
-    width:22%;
+    width:33.3333%;
 }
 .schedule-th.-second,
 .schedule-th.-third,
 .schedule-th.-forth {
-    width:26%;
+    width:33.3333%;
     border-left: 1px solid #000;
 }
 .schedule-table tr {
