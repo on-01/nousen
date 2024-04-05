@@ -144,7 +144,7 @@ export default {
 @media print, screen and (max-width: 980px) {
   .denken3 .hero-inner
   {
-    height: 250px;
+    height: 265px;
   }
   .denken3 .title-wrapper
   {
