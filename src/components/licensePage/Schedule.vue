@@ -63,13 +63,13 @@
                         </div>
                     </div>
                 </td>
-                <!-- <td class="schedule-padding-none">
+                <td class="schedule-padding-none">
                     <div>
                         <p class="schedule-td-flex-right-top"></p>
                         <p></p>
                     </div>
-                </td> -->
-                <td class="schedule-padding-none" style="border-left: none;">
+                </td>
+                <td colspan="2" class="schedule-padding-none" style="border-left: none;">
                     <div>
                         <p class="schedule-td-flex-right-top"><span class="schedule-price-type1">７，７００円</span></p>
                         <p><span class="schedule-price-type2">８，１００円</span></p>
