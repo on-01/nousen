@@ -56,7 +56,7 @@ export default {
 
 <style lang="scss" scoped>
 .discount {
-    max-width: 1170px;
+    max-width: 1070px;
     width: 100%;
     background-color: #1da1f2;
     margin: 0 auto;
@@ -65,7 +65,7 @@ export default {
     font-family: 'Meiryo', sans-serif;
 }
 .discount-inner {
-    padding: 40px 180px;
+    padding: 40px 190px;
 }
 .discount-title {
     line-height: 1.3;

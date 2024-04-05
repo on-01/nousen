@@ -12,7 +12,10 @@
                 require('../assets/img/license_page/bg_white.jpg')
               "
               headTitle="令和6年度上期/令和6年度下期"
-              title="第三種電気主任技術者<br/>（電験三種）"
+              title="第三種電気主任技術者<br/>
+              （電験三種）<br/>
+              能センの最短合格講座で<br/>
+              目標達成の未来へ"
               
               color="#1D9BF0"
               :icon="require('../assets/img/icon/qualification/denken.svg')"
@@ -247,7 +250,7 @@
                           <div class="voice-item">
                               <h4>【基礎講座】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(1)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="電験三種"></figure>
+                                <figure v-on:click="toggleVoice(1)" class="-sp-none"><img src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg" alt="電験三種"></figure>
                                 <p>・現場の実例があり、公式や問題の意味が理解できた。<br>
                                     ・電気数学（基礎数学）が苦手で「どうしたらその解答になる？」ということが多かったが、
                                       講座を受講して電験三種に必要な数学知識の習得ができた。<br>
@@ -259,7 +262,7 @@
                           <div class="voice-item">
                               <h4>【理論】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(2)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="電験三種"></figure>
+                                <figure v-on:click="toggleVoice(2)" class="-sp-none"><img src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg" alt="電験三種"></figure>
                                 <p>・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
                                     また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
                                     調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
@@ -270,7 +273,7 @@
                           <div class="voice-item">
                               <h4>【電力】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(3)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="電験三種"></figure>
+                                <figure v-on:click="toggleVoice(3)" class="-sp-none"><img src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg" alt="電験三種"></figure>
                                 <p> ・出題傾向を変えながら要点を教えていただけた。<br>
                                     ・単位の重要性を改めて実感しました。式計算する時に式を立てるだけでなく式の中でも単位を使用してみようと思います。<br>
                                     ・図解が分かりやすく、学習範囲も明確になりました。
@@ -281,7 +284,7 @@
                           <div class="voice-item">
                               <h4>【機械】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(4)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="電験三種"></figure>
+                                <figure v-on:click="toggleVoice(4)" class="-sp-none"><img src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg" alt="電験三種"></figure>
                                 <p> ・自動制御が非常に分かりやすかった。<br>
                                     ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。<br>
                                     ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。<br>
@@ -293,7 +296,7 @@
                           <div class="voice-item">
                               <h4>【法規】</h4>
                               <div class="voice-item-flex">
-                                <figure v-on:click="toggleVoice(5)"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="電験三種"></figure>
+                                <figure v-on:click="toggleVoice(5)" class="-sp-none"><img src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg" alt="電験三種"></figure>
                                 <p> ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！<br>
                                     ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。<br>
                                     ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
@@ -763,7 +766,8 @@
       max-width: 280px;
       width: 100%;
       // background-color: #f2f2f2;
-      background-color: #FFF7D5;
+      // background-color: #FFF7D5;
+      background-color: #ebf7ff;
       border: 5px solid #1D9BF0;
       border-radius: 20px;
       border-bottom-left-radius: 0;
@@ -875,7 +879,8 @@
     font-family: 'メイリオ', sans-serif;
     padding-top: 60px;
     // background-color: #ebf7ff;
-    background-color: #FFF7D5;
+    // background-color: #FFF7D5;
+    background-color: #ebf7ff;
     padding-bottom: 100px;
     border-bottom: 5px solid #1d9bf0;
     // @media print, screen and (max-width: 1000px) {
@@ -1120,6 +1125,11 @@
       line-height: 1.7;
       width: 100%;
   }
+  }
+  @media print, screen and (max-width: 480px) {
+    .-sp-none {
+      display: none
+    }
   }
   // voiceセクションここまで
   </style>

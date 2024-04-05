@@ -87,6 +87,7 @@ export default {
   transform: translate(-50%,-50%);
   white-space: nowrap;
   background-color: #f4891e;
+  border-radius: 8px;
 
   color: #fff;
   padding: 1em 50px;
@@ -142,7 +143,7 @@ export default {
   .doboku .hero-inner,
   .kenchiku .hero-inner
   {
-    height: 240px;
+    height: 220px;
   }
   .doboku .title-wrapper, 
   .kenchiku .title-wrapper
@@ -151,7 +152,7 @@ export default {
   }
   .denken3 .hero-inner
   {
-    height: 280px;
+    height: 250px;
   }
   .denken3 .title-wrapper
   {

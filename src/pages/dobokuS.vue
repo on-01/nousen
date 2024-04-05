@@ -11,7 +11,9 @@
             require('../assets/img/license_page/bg_white.jpg')
           "
           title="1・2級 土木施工管理技士"
-          subTitle="通学講座 | オンライン講座"
+          subTitle="通学講座 | オンライン講座<br/>
+          能センの最短合格講座で<br/>
+          目標達成の未来へ"
           color="#ed7d31"
           :icon="require('../assets/img/icon/qualification/doboku.svg')"
         />

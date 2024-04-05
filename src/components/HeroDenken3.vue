@@ -89,6 +89,7 @@ export default {
   transform: translate(-50%,-50%);
   white-space: nowrap;
   background-color: #f4891e;
+  border-radius: 8px;
 
   color: #fff;
   padding: 1em 50px;
@@ -146,7 +147,7 @@ export default {
 @media print, screen and (max-width: 980px) {
   .denken3 .hero-inner
   {
-    height: 280px;
+    height: 250px;
   }
   .denken3 .title-wrapper
   {

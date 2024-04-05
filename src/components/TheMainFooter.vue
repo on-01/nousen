@@ -15,8 +15,8 @@
             </div>
             <div class="logo-text">
               <p class="logo-text_logo">株式会社ＮＯＵＳＥＮ</p>
-              <a href="https://jeea.or.jp/" target="_blank" class="jeea-link">
-                (社) 日本電気技術者協会 維持会員
+              <a href="https://jeea.or.jp/?_fsi=18qTQM4E" target="_blank" class="jeea-link">
+                <img src="../assets/img/common/banner4.jpg" alt="日本電気技術者協会">
               </a>
             </div>
           </div>
