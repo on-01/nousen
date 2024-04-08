@@ -151,7 +151,7 @@ export default {
   .doboku .hero-inner,
   .kenchiku .hero-inner
   {
-    height: 220px;
+    height: 240px;
   }
   .doboku .title-wrapper, 
   .kenchiku .title-wrapper
