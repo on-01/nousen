@@ -15,7 +15,6 @@
               title="第三種電気主任技術者<br/>
               （電験三種）"
               
-              color="#1D9BF0"
               :icon="require('../assets/img/icon/qualification/denken.svg')"
             />
             <Cheer

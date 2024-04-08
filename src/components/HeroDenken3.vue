@@ -84,6 +84,7 @@ export default {
 }
 .-red {
   color: red;
+  font-weight: 700;
 }
 
 .title-wrapper {
