@@ -140,18 +140,13 @@ export default {
     left: -20px;
   }
 }
-.licenses {
-  .title-wrapper {
-  background-color: #1d9bf0;
-  }
-}
 
 @media print, screen and (max-width: 980px) {
-  .denken3 .hero-inner
+  .hero-inner
   {
     height: 265px;
   }
-  .denken3 .title-wrapper
+  .title-wrapper
   {
     top: 60%;
     padding: 1.2rem;

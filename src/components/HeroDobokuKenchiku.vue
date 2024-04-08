@@ -13,6 +13,7 @@
       </div>
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
+      <p class="title -red">能センの最短合格講座で<br/>目標達成の未来へ</p>
       <p v-if="subTitle" class="sub-title" v-html="subTitle"></p>
     </div>
   </section>
@@ -79,6 +80,10 @@ export default {
     }
   }
 }
+.-red {
+  color: red;
+  font-weight: 700;
+}
 
 .title-wrapper {
   position: absolute;
@@ -86,11 +91,11 @@ export default {
   left: 50%;
   transform: translate(-50%,-50%);
   white-space: nowrap;
-  background-color: #f4891e;
+  background-color: #fff;
   border-radius: 8px;
-
-  color: #fff;
+  color: #000;
   padding: 1em 50px;
+  border: 6px solid #f4891e;;
   @media print, screen and (max-width: 1000px) {
     padding: 1em;
   }
@@ -133,11 +138,26 @@ export default {
     left: -20px;
   }
 }
-.licenses {
-  .title-wrapper {
-  background-color: #1d9bf0;
-  }
+.doboku .title, 
+.kenchiku .title {
+    font-size: 24px;
+
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
 }
 
+@media print, screen and (max-width: 980px) {
+  .doboku .hero-inner,
+  .kenchiku .hero-inner
+  {
+    height: 220px;
+  }
+  .doboku .title-wrapper, 
+  .kenchiku .title-wrapper
+  {
+    top: 60%;
+  }
+}
 
 </style>
