@@ -13,6 +13,7 @@
       </div>
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
+      <p class="title -red">能センの最短合格講座で<br/>目標達成の未来へ</p>
       <p class="sub-title">
         <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a> | <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a> | <a href="https://denken.nouryoku.com/online">オンライン講座</a> | <a href="https://denken.nouryoku.com/tusin">通信講座</a>
       </p>
@@ -81,6 +82,9 @@ export default {
     }
   }
 }
+.-red {
+  color: red;
+}
 
 .title-wrapper {
   position: absolute;
@@ -88,11 +92,11 @@ export default {
   left: 50%;
   transform: translate(-50%,-50%);
   white-space: nowrap;
-  background-color: #f4891e;
+  background-color: #fff;
   border-radius: 8px;
-
-  color: #fff;
+  color: #000;
   padding: 1em 50px;
+  border: 6px solid #1d9bf0;
   @media print, screen and (max-width: 1000px) {
     padding: 1em;
   }
