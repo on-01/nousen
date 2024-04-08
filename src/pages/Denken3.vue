@@ -13,9 +13,7 @@
               "
               headTitle="令和6年度上期/令和6年度下期"
               title="第三種電気主任技術者<br/>
-              （電験三種）<br/>
-              能センの最短合格講座で<br/>
-              目標達成の未来へ"
+              （電験三種）"
               
               color="#1D9BF0"
               :icon="require('../assets/img/icon/qualification/denken.svg')"
