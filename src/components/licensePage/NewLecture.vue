@@ -30,6 +30,7 @@
             </div>
 
             <div class="add">
+                <p class="add-title">学習内容</p>
                 <p class="add-text1">【基礎講座】</p>
                 <p class="add-text2">電気数学の基礎【四則計算(加減乗除)・比例・反比例・指数法則と対数関数・二次方程式の根・分数式・連立方程式・三角関数・ベクトルと正弦波交流】・科目学習のポイント</p>
                 <p class="add-text1">【理論】</p>
@@ -153,6 +154,16 @@ export default {
 }
 .kenchiku .add {
     display: none;
+}
+.add-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+    border: 2px solid #1da1f2;
+    padding: 8px 0;
+    margin: 24px 0 12px;
 }
 
 @media print, screen and (max-width: 1000px) {
