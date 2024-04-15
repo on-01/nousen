@@ -117,7 +117,7 @@ export default {
 }
 
 .exam-text {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.8;
     margin-top: 20px;
