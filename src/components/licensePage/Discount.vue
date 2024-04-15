@@ -6,28 +6,28 @@
               <img src="../../assets/img/license_page/discount.jpeg">
           </figure>
           <div class="discount-flex">
-              <p class="discount-flex-left">再受講割引<span>▶︎</span></p>
+              <p class="discount-flex-left">再受講割引<span class="arrow">▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   各<span>5000</span>円割引！
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">女子・学生<br>応援割引<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">女子・学生<br>応援割引<span class="arrow">▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>2000</span>円割引！
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">団体援割<br><span class="number">（5名以上）</span><span>▶︎</span></p>
+              <p class="discount-flex-left -sp">団体援割<br><span class="number">（5名以上）</span><span class="arrow">▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員10%OFF</span>
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">超団体援割<br><span class="number">（10名以上）</span><span>▶︎</span></p>
+              <p class="discount-flex-left -sp">超団体援割<br><span class="number">（10名以上）</span><span class="arrow">▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員15%OFF</span>
@@ -101,7 +101,7 @@ export default {
 .number {
     font-size: 24px;
 }
-.discount-flex-left span {
+.discount-flex-left .arrow {
     color: #ed6c00;
     font-size: 18px;
     position: absolute;
@@ -159,11 +159,11 @@ export default {
 .number {
     font-size: 22px;
 }
-.discount-flex-left span {
+.discount-flex-left .arrow {
     font-size: 12px;
 }
 
-.discount-flex-left.-sp span {
+.discount-flex-left.-sp .arrow {
   top: 24px;
 }
 .discount-flex-left br {
