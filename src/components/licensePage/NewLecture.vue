@@ -143,12 +143,12 @@ export default {
     padding: 10px 30px;
 }
 .add-text1 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0;
 }
 .add-text2 {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     margin: 0;
 }
@@ -156,7 +156,7 @@ export default {
     display: none;
 }
 .add-title {
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 1;
     text-align: center;

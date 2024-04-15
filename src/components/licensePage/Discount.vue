@@ -20,14 +20,14 @@
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">団体援割<br>（5名以上）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">団体援割<br><span class="number">（5名以上）</span><span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員10%OFF</span>
               </p>
           </div>
           <div class="discount-flex">
-              <p class="discount-flex-left -sp">超団体援割<br>（10名以上）<span>▶︎</span></p>
+              <p class="discount-flex-left -sp">超団体援割<br><span class="number">（10名以上）</span><span>▶︎</span></p>
               <p class="discount-flex-right">
                   受講料<br>
                   <span>全員15%OFF</span>
@@ -98,6 +98,9 @@ export default {
     position: relative;
     margin: 0;
 }
+.number {
+    font-size: 24px;
+}
 .discount-flex-left span {
     color: #ed6c00;
     font-size: 18px;
@@ -151,6 +154,9 @@ export default {
     padding: 12px ;
 }
 .discount-flex-left {
+    font-size: 22px;
+}
+.number {
     font-size: 22px;
 }
 .discount-flex-left span {

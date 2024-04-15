@@ -96,7 +96,7 @@ export default {
   }
   .title {
     margin: 0;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     font-size: 29px;
     font-family: 'メイリオ', sans-serif;
     text-align: center;
