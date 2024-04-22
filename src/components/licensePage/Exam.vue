@@ -25,7 +25,7 @@
       </div>
       <p class="exam-note">
         <i class="scroll-animation-item">
-          通学講座・オンライン講座でできる予想模擬試験！
+          通学講座・オンライン講座で予想模擬試験
         </i>
       </p>
       <p class="exam-text">
