@@ -435,7 +435,8 @@
   }
   .header {
     background-color: #fff8cc;
-    border-bottom: 5px solid #ed7d31;
+    // border-bottom: 5px solid #ed7d31;
+    border-bottom: 5px solid #1d9bf0;
   }
   .exam-link-wrapper {
     text-align: center;
@@ -570,8 +571,8 @@
     width: 100%;
     margin: 0 auto;
     font-family: "メイリオ", sans-serif;
-    // background-color: #ebf7ff;
-    background-color: #fff7d5;
+    background-color: #ebf7ff;
+    // background-color: #fff7d5;
     padding-bottom: 100px;
     // @media print, screen and (max-width: 1000px) {
     //   width: 90%;
@@ -588,6 +589,7 @@
         content: "";
         width: 70px;
         border-bottom: 5px solid #ed7d31;
+        // border-bottom: 5px solid #1d9bf0;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
