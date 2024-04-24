@@ -140,7 +140,7 @@
 
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 110px 0;
+    padding: 30px 0 10px 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
@@ -169,6 +169,23 @@
 
     @media print, screen and (max-width: 480px) {
       width: 90%;
+    }
+  }
+
+  .exam-link,
+  .application-form-link,
+  .online-link {
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 17px;
+    box-sizing: border-box;
+    font-family: "メイリオ", sans-serif;
+    @media print, screen and (max-width: 370px) {
+      padding: 7px 15px;
+      width: 80%;
     }
   }
 </style>
