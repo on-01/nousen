@@ -96,6 +96,7 @@
   .campaign-inner {
     padding: 20px;
     max-width: 1210px;
+    margin: 0 auto;
   }
 
   .campaign-title {
@@ -140,7 +141,7 @@
 
   .campaign-content {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
   }
   .campaign-content li span {
     color: #ff0000;
