@@ -111,7 +111,7 @@
   }
 
   .lecture-title {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
