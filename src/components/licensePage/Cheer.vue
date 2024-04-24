@@ -137,4 +137,38 @@
   .denken3 .cheer {
     border-bottom: 5px solid #1d9bf0;
   }
+
+  .exam-link-wrapper {
+    text-align: center;
+    padding: 60px 0 110px 0;
+    display: flex;
+    flex-direction: column;
+    @media print, screen and (max-width: 1000px) {
+      padding: 40px 0 150px 0;
+    }
+  }
+
+  .exam-link-flex {
+    display: flex;
+    margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      max-width: 480px;
+      justify-content: center;
+    }
+  }
+
+  .application-form-link {
+    background-color: #ed6c00;
+    margin-top: 25px;
+    width: 400px;
+    padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+
+    @media print, screen and (max-width: 480px) {
+      width: 90%;
+    }
+  }
 </style>
