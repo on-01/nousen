@@ -5,7 +5,7 @@
       <p class="setCourse-text">
         その場で講師の授業も受講しつつ、オンラインで復習もできる。
         <br />
-        より合格に近づきたい方におすすめのプランです
+        より合格に近づきたい方におすすめプランです
       </p>
       <div class="setCourse-explanation">
         <p>
