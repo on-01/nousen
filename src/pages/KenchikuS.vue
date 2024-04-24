@@ -22,28 +22,6 @@
             "
           />
 
-          <div class="bg-white_type2">
-            <div class="exam-link-wrapper">
-              <div class="exam-link-flex">
-                <g-link to="/denken3-application" class="application-form-link">
-                  お申込みはこちら（個人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-                <g-link
-                  to="/denken3-application-business"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（法人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-              </div>
-
-              <!-- <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure> -->
-            </div>
-          </div>
-
           <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士とは、建設現場における施工管理の役割を担う専門職です。建設業法に基づく国家試験である「施工管理技術検定」に合格することで取得できる資格です。<br>

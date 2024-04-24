@@ -22,28 +22,6 @@
             "
           />
 
-          <div class="bg-white_type2">
-            <div class="exam-link-wrapper">
-              <div class="exam-link-flex">
-                <g-link to="/denken3-application" class="application-form-link">
-                  お申込みはこちら（個人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-                <g-link
-                  to="/denken3-application-business"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（法人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-              </div>
-
-              <!-- <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure> -->
-            </div>
-          </div>
-
           <Explanation
             title="土木施工管理技士とは"
             text="1・2級土木施工管理技士は、土木工事現場の施工管理業務を担当するための国家資格です。<br>
