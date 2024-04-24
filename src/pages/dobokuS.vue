@@ -13,7 +13,7 @@
             subTitle="通学講座 | オンライン講座"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
-          <Cheer
+          <CheerDoboku
             text="能センは<br>
               土木男子・土木女子を<br>
               応援します！"
@@ -331,7 +331,7 @@
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import Lecture from "../components/licensePage/Lecture.vue";
-  import Cheer from "../components/licensePage/Cheer.vue";
+  import CheerDoboku from "../components/licensePage/CheerDoboku.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import Venue from "@/components/licensePage/Venue.vue";
@@ -390,7 +390,7 @@
       Method,
       Support,
       Lecture,
-      Cheer,
+      CheerDoboku,
       // News,
       Info,
       Venue,

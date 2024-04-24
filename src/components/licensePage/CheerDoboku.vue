@@ -14,12 +14,12 @@
       <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
-            <g-link to="/denken3-application" class="application-form-link">
+            <g-link to="/doboku-s-application" class="application-form-link">
               お申込みはこちら（個人）
               <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
             </g-link>
             <g-link
-              to="/denken3-application-business"
+              to="/doboku-s-application-business"
               class="application-form-link"
             >
               お申込みはこちら（法人）
@@ -52,7 +52,7 @@
     background-color: #fff;
     margin: 0px auto;
     font-family: "メイリオ", sans-serif;
-    padding-bottom: 60px;
+    padding-bottom: 0;
   }
   .cheer-inner {
     max-width: 1170px;

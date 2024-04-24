@@ -13,7 +13,7 @@
             subTitle="通学講座 | オンライン講座"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
-          <Cheer
+          <CheerKenchiku
             text="能センは<br>
               建設男子・建設女子を<br>
               応援します！"
@@ -361,7 +361,7 @@
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import NewLecture from "../components/licensePage/NewLecture.vue";
-  import Cheer from "../components/licensePage/Cheer.vue";
+  import CheerKenchiku from "../components/licensePage/CheerKenchiku.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import Venue from "@/components/licensePage/Venue.vue";
@@ -420,7 +420,7 @@
       Method,
       Support,
       NewLecture,
-      Cheer,
+      CheerKenchiku,
       // News,
       Info,
       Venue,
