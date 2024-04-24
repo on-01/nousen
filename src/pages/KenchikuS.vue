@@ -529,8 +529,10 @@
       max-width: 280px;
       width: 100%;
       // background-color: #f2f2f2;
-      background-color: #fff7d5;
-      border: 5px solid #ed7d31;
+      // background-color: #fff7d5;
+      background-color: #ebf7ff;
+      border: 5px solid #1d9bf0;
+      // border: 5px solid #ed7d31;
       border-radius: 20px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
@@ -559,9 +561,10 @@
       }
       &.active {
         border-bottom: none;
-        // background-color: #ebf7ff;
-        background-color: #fff7d5;
-        color: #ed7d31;
+        // background-color: #fff7d5;
+        background-color: #ebf7ff;
+        color: #000000;
+        // color: #ed7d31;
         .icon {
           transform: rotate(90deg);
         }
