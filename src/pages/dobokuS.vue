@@ -884,7 +884,6 @@
       width: 100%;
     }
   }
-
   @media print, screen and (max-width: 480px) {
     .-sp-none {
       display: none;
