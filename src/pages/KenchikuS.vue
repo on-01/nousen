@@ -431,7 +431,6 @@
 <script>
   // import Hero from "@/components/Hero.vue";
   import HeroDobokuKenchiku from "@/components/HeroDobokuKenchiku.vue";
-  tu;
   import Point from "@/components/licensePage/Point.vue";
   import Explanation from "@/components/licensePage/Explanation.vue";
   import Campaign from "@/components/licensePage/Campaign.vue";
