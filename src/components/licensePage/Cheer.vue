@@ -145,7 +145,7 @@
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
-      padding: 40px 0 150px 0;
+      padding: 40px 0 0 0;
     }
   }
 
@@ -156,6 +156,7 @@
       flex-wrap: wrap;
       max-width: 480px;
       justify-content: center;
+      row-gap: 25px;
     }
   }
 
