@@ -656,6 +656,7 @@
   }
   .bg-lightBlue {
     padding-top: 20px;
+    padding-bottom: 40px;
     background: #ebf7ff;
   }
   .exam-link-wrapper.-column {
@@ -665,5 +666,10 @@
     .exam-link-wrapper.-column {
       padding: 20px 0 40px;
     }
+  }
+
+  .bg-white_type2 {
+    background-color: #ffffff;
+    padding-top: 60px;
   }
 </style>
