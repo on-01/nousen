@@ -130,6 +130,12 @@
               只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
             />
+          </div>
+
+          <div class="bg-white_type2">
+            <Discount title="合格応援割START！" />
+
+            <Fsc title="持続可能なミライへ" />
 
             <div class="exam-link-wrapper">
               <div class="exam-link-flex">
@@ -343,6 +349,9 @@
   import { INLINES } from "@contentful/rich-text-types";
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
+  import Discount from "../components/licensePage/Discount.vue";
+  import Fsc from "../components/licensePage/Fsc.vue";
+
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -400,6 +409,8 @@
       IconDoubleArrowRight,
       IconArrowRight,
       ContactInfo,
+      Fsc,
+      Discount,
     },
     data() {
       return {
