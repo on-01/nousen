@@ -7,8 +7,8 @@
         </figure>
         <div class="lecture-description">
           <p class="lecture-title" v-html="title"></p>
-          <p class="lecture-bold" v-html="bold"></p>
           <p class="lecture-line"></p>
+          <p class="lecture-bold" v-html="bold"></p>
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
