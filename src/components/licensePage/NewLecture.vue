@@ -132,8 +132,13 @@
     line-height: 2;
   }
 
+  .lecture-text {
+    margin-top: 0;
+  }
+
   .lecture-bold {
     font-weight: bold;
+    margin-bottom: 0;
   }
 
   .lecture-book-images {
