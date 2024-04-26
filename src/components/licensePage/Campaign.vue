@@ -149,7 +149,7 @@
 
   @media print, screen and (max-width: 1000px) {
     .campaign {
-      width: 90%;
+      width: 100%;
     }
     .campaign-section {
       flex-flow: wrap;
