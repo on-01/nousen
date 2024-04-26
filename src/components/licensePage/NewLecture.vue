@@ -7,6 +7,7 @@
         </figure>
         <div class="lecture-description">
           <p class="lecture-title" v-html="title"></p>
+          <p class="lecture-bold" v-html="bold"></p>
           <p class="lecture-line"></p>
           <p class="lecture-text">{{ text }}</p>
         </div>
@@ -66,6 +67,7 @@
     props: {
       title: String,
       text: String,
+      bold: String,
       imagePath: String,
       teacher: String,
       profile: String,
@@ -111,7 +113,7 @@
   }
 
   .lecture-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     margin-top: 0;
@@ -124,10 +126,16 @@
     margin: 20px auto 20px;
     border-radius: 8px;
   }
-  .lecture-text {
+  .lecture-text,
+  .lecture-bold {
     font-size: 16px;
     line-height: 2;
   }
+
+  .lecture-bold {
+    font-weight: bold;
+  }
+
   .lecture-book-images {
     display: flex;
     justify-content: space-between;
@@ -200,7 +208,8 @@
     .lecture-title {
       font-size: 24px;
     }
-    .lecture-text {
+    .lecture-text,
+    .lecture-bold {
       font-size: 16px;
       line-height: 1.6;
     }
