@@ -224,11 +224,11 @@
 
             <Campaign day="2" date="7/26(水)" />
 
-            <Linelink
+            <!-- <Linelink
               text="能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            />
+            /> -->
           </div>
 
           <div class="bg-white_type2">
@@ -725,15 +725,17 @@
   }
   .bg-lightBlue {
     padding-top: 20px;
-    padding-bottom: 40px;
+    // padding-bottom: 40px;
     background: #ebf7ff;
   }
   .exam-link-wrapper.-column {
-    padding: 20px 0 40px;
+    // padding: 20px 0 40px;
+    padding: 20px 0 0;
   }
   @media print, screen and (max-width: 1000px) {
     .exam-link-wrapper.-column {
-      padding: 20px 0 40px;
+      // padding: 20px 0 40px;
+      padding: 20px 0 0;
     }
   }
 
