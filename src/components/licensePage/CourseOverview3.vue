@@ -199,6 +199,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  .courseOverview-flex.-reverse {
+    margin-top: 40px;
+  }
   .courseOverview-flex-right,
   .courseOverview-flex-left {
     width: 49%;
