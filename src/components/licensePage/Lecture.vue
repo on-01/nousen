@@ -65,6 +65,7 @@
   .lecture-title.-small {
     font-size: 16px;
     line-height: 2;
+    text-align: left;
   }
 
   .lecture-line {
@@ -78,6 +79,7 @@
   .lecture-text {
     font-size: 16px;
     line-height: 2;
+    margin-top: 0;
   }
 
   @media print, screen and (max-width: 1000px) {
