@@ -57,8 +57,8 @@
                 ? $static.dobokuOnline.mediaImg.file.url
                 : ''
             "
-            movieTitle="わかりやすさNo.1 土木施工の講習会動画をご視聴ください"
-            description="合格者を多数輩出した大嶋先生による、わかりみが深い無料動画です！"
+            movieTitle="土木施工管理技士の講習会動画をご視聴ください"
+            description="合格者を多数輩出した大嶋先生による無料動画です！"
           />
 
           <Lecture
