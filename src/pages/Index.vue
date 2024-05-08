@@ -142,9 +142,9 @@
             <img src="../assets/img/common/top-right.jpg" alt="" />
           </figure>
         </div>
-        <div class="scroll_top" id="js-scroll_top">
+        <!-- <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
-        </div>
+        </div> -->
         <div class="more_qualification">
           <!-- <g-link to="/licenses">
             資格一覧はこちら
