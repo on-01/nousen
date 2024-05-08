@@ -8,7 +8,7 @@
         <div class="lecture-description">
           <p class="lecture-title" v-html="title"></p>
           <p class="lecture-line"></p>
-          <p class="lecture-title" v-html="title2"></p>
+          <p class="lecture-title -small" v-html="title2"></p>
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
@@ -20,6 +20,7 @@
   export default {
     props: {
       title: String,
+      title2: String,
       text: String,
       imagePath: String,
     },
@@ -60,6 +61,12 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .lecture-title.-small {
+    font-size: 16px;
+    line-height: 2;
+  }
+
   .lecture-line {
     width: 10%;
     height: 4px;
@@ -89,6 +96,10 @@
 
     .lecture-title {
       font-size: 24px;
+    }
+    .lecture-title.-small {
+      font-size: 16px;
+      line-height: 1.6;
     }
     .lecture-text {
       font-size: 16px;
