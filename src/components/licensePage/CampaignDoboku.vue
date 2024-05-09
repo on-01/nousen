@@ -32,6 +32,18 @@
       </div>
       <div class="campaign-section">
         <figure class="campaign-image">
+          <img src="../../assets/img/license_page/campaign_5.jpg" />
+        </figure>
+        <div class="campaign-description">
+          <p class="campaign-topic">２級土木㊙経験記述例を進呈</p>
+          <ul class="campaign-content">
+            <li>・二次試験対策の㊙資料になります（7ページ）</li>
+            <li>二次試験対策に是非ご活用ください</li>
+          </ul>
+        </div>
+      </div>
+      <div class="campaign-section">
+        <figure class="campaign-image">
           <img src="../../assets/img/license_page/campaign_3.jpg" />
         </figure>
         <div class="campaign-description">
