@@ -191,7 +191,7 @@
               ]"
             />
 
-            <Campaign day="2" date="7/17(祝)" />
+            <CampaignDoboku day="2" date="7/17(祝)" />
 
             <!-- <Linelink
               text="能センLINE公式アカウント開設しました。<br>
@@ -402,7 +402,7 @@
   import HeroDobokuKenchiku from "@/components/HeroDobokuKenchiku.vue";
   import Point from "@/components/licensePage/Point.vue";
   import Explanation from "@/components/licensePage/Explanation.vue";
-  import Campaign from "@/components/licensePage/Campaign.vue";
+  import CampaignDoboku from "@/components/licensePage/CampaignDoboku.vue";
   import Study from "@/components/licensePage/Study.vue";
   import Linelink from "@/components/licensePage/Linelink.vue";
   import NewPvMovie from "../components/licensePage/NewPvMovie.vue";
@@ -464,7 +464,7 @@
       HeroDobokuKenchiku,
       Point,
       Explanation,
-      Campaign,
+      CampaignDoboku,
       Study,
       Linelink,
       NewPvMovie,
