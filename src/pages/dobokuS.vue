@@ -191,7 +191,7 @@
               ]"
             />
 
-            <CampaignDoboku day="2" date="7/17(祝)" />
+            <CampaignDoboku day="2" date="7/15(祝)" />
 
             <!-- <Linelink
               text="能センLINE公式アカウント開設しました。<br>

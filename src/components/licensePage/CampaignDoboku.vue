@@ -21,11 +21,11 @@
           <img src="../../assets/img/license_page/campaign_2.jpg" />
         </figure>
         <div class="campaign-description">
-          <p class="campaign-topic">過去問題進呈</p>
+          <p class="campaign-topic">過去問題を進呈します</p>
+          <p class="campaign-summary">過去の試験問題を進呈します</p>
           <ul class="campaign-content">
-            <li>・過去の試験問題を進呈します。</li>
-            <li>【通学】過去３年分を印刷して進呈(必要な方は5年分)</li>
-            <li>【オンライン】過去５年分をダウンロード</li>
+            <li>・【通学】過去３年分を印刷して進呈(必要な方は5年分)</li>
+            <li>・【オンライン】過去５年分をダウンロード</li>
             <li>・一次は問題・解答解説付き。二次は問題のみになります。</li>
           </ul>
         </div>
@@ -37,16 +37,16 @@
         <div class="campaign-description">
           <p class="campaign-topic">願書取り寄せサービス</p>
           <p class="campaign-summary">
-            受験願書（一次二次用・一次用・二次用）を無料でお送り致します。
+            受験願書（一次二次用・二次用）を無料でお送りいたします
           </p>
           <ul class="campaign-content">
             <li>
-              ・３種類ありますので、申込みの際にお間違えのない様にして下さい。
+              ・２種類ありますので、申込みの際にお間違えのない様にして下さい
             </li>
             <li>
-              ・提出期日{{ day }}日前
+              ・提出期日 {{ day }}日前
               <span>【{{ date }}】</span>
-              までに講座をお申込みの方が対象となります。
+              までに講座をお申込みの方が対象です
             </li>
           </ul>
         </div>
@@ -58,14 +58,14 @@
         <div class="campaign-description">
           <p class="campaign-topic">施工経験記述添削サービス</p>
           <p class="campaign-summary">
-            専門講師が記述式の第二次検定を添削指導します。
+            専門講師が記述式の第二次検定を添削指導します
           </p>
           <ul class="campaign-content">
             <li>
-              ・【一次・二次】【二次のみ】受験対策講座をお申込みの方が対象です。
+              ・【一次・二次】【二次のみ】受験対策講座をお申込みの方が対象です
             </li>
             <li>
-              ・添削回数は、お一人様1回までとなりますが追加で添削することも可能です。(別途費用)
+              ・添削回数は、お一人様1回までとなりますが追加(2,750円)で添削することができます
             </li>
           </ul>
         </div>
