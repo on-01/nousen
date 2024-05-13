@@ -21,24 +21,12 @@
           <img src="../../assets/img/license_page/campaign_2.jpg" />
         </figure>
         <div class="campaign-description">
-          <p class="campaign-topic">過去問題を進呈します</p>
-          <p class="campaign-summary">過去の試験問題を進呈します</p>
+          <p class="campaign-topic">過去の試験問題を進呈</p>
+          <!-- <p class="campaign-summary">過去の試験問題を進呈します</p> -->
           <ul class="campaign-content">
             <li>・【通学】過去３年分を印刷して進呈(必要な方は5年分)</li>
             <li>・【オンライン】過去５年分をダウンロード</li>
-            <li>・一次は問題・解答解説付き。二次は問題のみになります。</li>
-          </ul>
-        </div>
-      </div>
-      <div class="campaign-section">
-        <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_5.jpg" />
-        </figure>
-        <div class="campaign-description">
-          <p class="campaign-topic">２級土木㊙経験記述例を進呈</p>
-          <ul class="campaign-content">
-            <li>・二次試験対策の㊙資料になります（7ページ）</li>
-            <li>二次試験対策に是非ご活用ください</li>
+            <li>一次は問題・解答解説付き。二次は問題のみになります。</li>
           </ul>
         </div>
       </div>
@@ -56,9 +44,23 @@
               ・２種類ありますので、申込みの際にお間違えのない様にして下さい
             </li>
             <li>
-              ・提出期日 {{ day }}日前
+              ・願書提出期日 {{ day }}日前
               <span>【{{ date }}】</span>
               までに講座をお申込みの方が対象です
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="campaign-section">
+        <figure class="campaign-image">
+          <img src="../../assets/img/license_page/campaign_5.jpg" />
+        </figure>
+        <div class="campaign-description">
+          <p class="campaign-topic">２級土木㊙経験記述例を進呈</p>
+          <ul class="campaign-content">
+            <li>・合格の為の㊙資料になります（７ページ）</li>
+            <li>
+              経験記述の暗記方法、記述のポイントなど二次試験対策にぜひご活用ください。
             </li>
           </ul>
         </div>
