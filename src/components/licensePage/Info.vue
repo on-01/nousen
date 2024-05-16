@@ -140,17 +140,21 @@
       background-color: #fff;
     }
     .head {
-      background-color: #00a73c;
+      // background-color: #00a73c;
+      background-color: #1d9bf0;
     }
     .info-section ::v-deep a {
-      color: #00a73c;
+      // color: #00a73c;
+      color: #1d9bf0;
     }
     .course_outline.info-section ::v-deep h5 {
-      background: #00a73c;
+      // background: #00a73c;
+      background: #1d9bf0;
     }
     .course_outline.info-section ::v-deep i {
       font-weight: bold;
-      color: #00a73c;
+      // color: #00a73c;
+      color: #1d9bf0;
     }
   }
   .kenchiku,
