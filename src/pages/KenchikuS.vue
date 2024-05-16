@@ -664,7 +664,7 @@
   }
   .tab:nth-child(1) {
     &::before {
-      content: url("../assets/img/license_page/icon_pc_green.svg");
+      content: url("../assets/img/license_page/icon_pc.svg");
       display: inline-block;
       width: 1em;
       height: 1em;
