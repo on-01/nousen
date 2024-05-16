@@ -406,7 +406,8 @@
       &:after {
         content: "";
         width: 70px;
-        border-bottom: 5px solid #00a73c;
+        // border-bottom: 5px solid #00a73c;
+        border-bottom: 5px solid #1d9bf0;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
