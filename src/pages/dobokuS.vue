@@ -676,8 +676,8 @@
       &:after {
         content: "";
         width: 70px;
-        border-bottom: 5px solid #ed7d31;
-        // border-bottom: 5px solid #1d9bf0;
+        // border-bottom: 5px solid #ed7d31;
+        border-bottom: 5px solid #1d9bf0;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
