@@ -163,7 +163,7 @@
   .application-form-link {
     background-color: #ed6c00;
     margin-top: 25px;
-    width: 400px;
+    width: 370px;
     padding: 14px 30px;
     @media print, screen and (max-width: 900px) {
       width: 300px;
