@@ -102,6 +102,10 @@
             "
           />
 
+          <div class="bg-white">
+            <SetCourse2 title="通学＋オンラインセット" />
+          </div>
+
           <section class="voice">
             <div class="voice-inner">
               <div class="voice-content">
@@ -454,6 +458,8 @@
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
+  import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -513,6 +519,7 @@
       IconArrowRight,
       ContactInfo,
       Fsc,
+      SetCourse2,
     },
     data() {
       return {
