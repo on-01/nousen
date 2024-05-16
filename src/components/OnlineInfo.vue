@@ -1,72 +1,74 @@
 <template>
   <div :class="displayNone">
-      <div class="sp_online_infomation">
-        <p class="sp_online_infomation_text">穏やかな日差しに春を感じる今日この頃</p>
-      </div>
-      <div class="online_infomation">
-        <p class="online_infomation_text">穏やかな日差しに春を感じる今日この頃</p>
-      </div>
+    <div class="sp_online_infomation">
+      <p class="sp_online_infomation_text">
+        春から夏へと季節が変わりゆくこの頃
+      </p>
+    </div>
+    <div class="online_infomation">
+      <p class="online_infomation_text">春から夏へと季節が変わりゆくこの頃</p>
+    </div>
   </div>
 </template>
 <script>
-export default {
-  props: {
-    displayNone: String,
-  },
-};
+  export default {
+    props: {
+      displayNone: String,
+    },
+  };
 </script>
 <style lang="scss" scoped>
-/* 202101　オンライン案内　↓ */
-.online_infomation {
-  display: none;
-  @media print, screen and(min-width: 1000px) {
+  /* 202101　オンライン案内　↓ */
+  .online_infomation {
+    display: none;
+    @media print, screen and(min-width: 1000px) {
+      background: var(--orange);
+      color: #fff;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: center;
+      display: block;
+      position: absolute;
+      left: 3rem;
+      top: -3rem;
+      width: 190px;
+    }
+    @media print, screen and(min-width: 1080px) {
+      font-size: 12px;
+      width: 230px;
+      left: 0;
+    }
+    & p {
+      margin: 0;
+      line-height: 2.5em;
+    }
+  }
+
+  .sp_online_infomation {
     background: var(--orange);
     color: #fff;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
-    display: block;
-    position: absolute;
-    left: 3rem;
-    top: -3rem;
-    width: 190px;
+    @media print, screen and(min-width: 1000px) {
+      display: none;
+    }
+    & p {
+      margin: 0;
+      padding: 0.1em;
+    }
   }
-  @media print, screen and(min-width: 1080px) {
-    font-size: 12px;
-    width: 230px;
-    left: 0;
-  }
-  & p {
-    margin: 0;
-    line-height: 2.5em;
-  }
-}
-
-.sp_online_infomation {
-  background: var(--orange);
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  text-align: center;
-  @media print, screen and(min-width: 1000px) {
+  .sp_none {
     display: none;
+    @media print, screen and(min-width: 1000px) {
+      display: block;
+    }
   }
-  & p {
-    margin: 0;
-    padding: 0.1em;
-  }
-}
-.sp_none {
-  display: none;
-  @media print, screen and(min-width: 1000px) {
+  .pc_none {
     display: block;
+    @media print, screen and(min-width: 1000px) {
+      display: none;
+    }
   }
-}
-.pc_none {
-  display: block;
-  @media print, screen and(min-width: 1000px) {
-    display: none;
-  }
-}
-/* 202101　オンライン案内　↑ */
+  /* 202101　オンライン案内　↑ */
 </style>
