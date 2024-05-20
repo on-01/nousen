@@ -75,6 +75,10 @@
     font-size: 15px;
   }
 
+  .kenchiku .explanation-text {
+    font-size: 15px;
+  }
+
   .denken3 .explanation-text {
     font-size: 15px;
     margin-top: -4px;
@@ -82,6 +86,10 @@
 
   @media print, screen and (max-width: 1100px) {
     .doboku .explanation-text {
+      font-size: 14px;
+    }
+
+    .kenchiku .explanation-text {
       font-size: 14px;
     }
 
