@@ -89,7 +89,8 @@
   .quality {
     width: 100%;
     font-family: "メイリオ", sans-serif;
-    padding: 20px 0 110px;
+    padding: 20px 0 50px;
+    // padding: 20px 0 110px;
   }
   .quality-wrap {
     max-width: 1170px;
