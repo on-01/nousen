@@ -227,7 +227,7 @@
               ]"
             /> -->
 
-            <Campaign day="2" date="7/26(水)" />
+            <Campaign day="2" date="7/22(月)" />
 
             <!-- <Linelink
               text="能センLINE公式アカウント開設しました。<br>
