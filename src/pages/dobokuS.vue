@@ -35,6 +35,35 @@
             "
           />
 
+          <QualityDoboku
+            text_1="多くの合格者を輩出したベテラン講師陣が担当
+                    します。試験に出る範囲のポイントを絞った講
+                    義が特徴です。<br>
+                    難解な内容もわかりやすいソフトな説明で理解
+                    することができます。"
+            :imagePath_1="
+              require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+            "
+            text_2="【一次】選択問題のある科目はより効率的な
+                      学習方法を伝授。「どこを優先的に覚え、何
+                      を関連付けて理解すべきか」を指導。<br>
+                      【二次】工事件名の記述方法から、使うべき
+                      専門用語、文章の簡潔なまとめ方、得点アッ
+                      プ方法など、記述のテクニックを徹底解説。"
+            :imagePath_2="
+              require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+            "
+            text_3="受講生のライフスタイルに合った講座を選択
+                    可能。【通学】または【オンライン】講座。
+                    どちらも教材や講座内容は同じです。<br>
+                    提出していただく経験記述の課題は講師自ら
+                    個別に添削し、高得点となるように直し、
+                    助言を入れてお返しいたします。"
+            :imagePath_3="
+              require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
+            "
+          />
+
           <div class="exam-link-wrapper -column">
             <g-link to="/licenses/#doboku" class="exam-link">
               試験概要はこちら
@@ -429,6 +458,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import QualityDoboku from "../components/licensePage/QualityDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -478,6 +508,7 @@
       Support,
       Lecture,
       CheerDoboku,
+      QualityDoboku,
       // News,
       Info,
       Venue,
