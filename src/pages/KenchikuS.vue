@@ -573,7 +573,7 @@
   .online-link {
     color: #fff;
     border-radius: 10px;
-    padding: 7px 30px;
+    padding: 14px 30px;
     font-weight: bold;
     text-align: center;
     margin: 0 20px;
