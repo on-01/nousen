@@ -578,7 +578,7 @@
     text-align: center;
     margin: 0 20px;
     font-size: 17px;
-    width: 338px;
+    width: 400px;
     box-sizing: border-box;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
