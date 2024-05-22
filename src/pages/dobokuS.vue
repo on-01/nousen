@@ -78,7 +78,7 @@
             </g-link>
           </div>
 
-          <Support title="＼＼建設業を応援しよう【第一弾】／／" />
+          <Support title="＼＼建設業を応援しよう／／" />
 
           <NewPvMovie
             :movie="$static.dobokuOnline.mediaYoutube"
