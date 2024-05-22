@@ -49,7 +49,7 @@
       <p class="support-title">ミライを創る【創業支援割引制度】</p>
       <div class="support">
         <div class="support-description -second">
-          <p>ミライを創る【創業支援割引制度】</p>
+          <!-- <p>ミライを創る【創業支援割引制度】</p> -->
         </div>
         <figure class="support-figure">
           <img src="../../assets/img/license_page/support_4.jpg" alt="" />
