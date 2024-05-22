@@ -99,7 +99,7 @@
     position: relative;
   }
   .support-wrap.-second {
-    margin-top: 0;
+    margin-top: 50px;
   }
   .support-wrap p {
     margin: 0;
