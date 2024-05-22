@@ -237,6 +237,8 @@
           <div class="bg-white_type2">
             <Discount title="合格応援割START！" />
 
+            <SupportSecond title="＼＼建設業を応援しよう／／" />
+
             <Fsc title="持続可能なミライへ" />
 
             <div class="exam-link-wrapper">
@@ -442,6 +444,7 @@
   import NewPvMovie from "../components/licensePage/NewPvMovie.vue";
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
+  import SupportSecond from "../components/licensePage/SupportSecond.vue";
   import Lecture from "../components/licensePage/Lecture.vue";
   import CheerDoboku from "../components/licensePage/CheerDoboku.vue";
   // import News from "@/components/licensePage/News.vue";
@@ -506,6 +509,7 @@
       NewPvMovie,
       Method,
       Support,
+      SupportSecond,
       Lecture,
       CheerDoboku,
       QualityDoboku,
