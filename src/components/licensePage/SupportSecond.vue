@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="support-wrap">
+    <!-- <div class="support-wrap">
       <p class="support-title">{{ title }}</p>
       <div class="support">
         <div class="support-description">
@@ -44,33 +44,38 @@
           </p>
         </div>
       </div>
+    </div> -->
+    <div class="support-wrap -second">
+      <p class="support-title">ミライを創る【創業支援割引制度】</p>
+      <div class="support">
+        <div class="support-description -second">
+          <p>ミライを創る【創業支援割引制度】</p>
+        </div>
+        <figure class="support-figure">
+          <img src="../../assets/img/license_page/support_4.jpg" alt="" />
+        </figure>
+        <div class="support-notes -second">
+          <p>
+            能センでは建設業発展の為、創業支援として
+            <br class="-pc-only" />
+            創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に
+            <br class="-pc-only" />
+            受講料を２０％割引でご提供いたします。
+            <br />
+            特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
+          </p>
+          <br />
+          <div class="center">
+            <p class="strong">
+              能センは建設業の発展に微力ながら尽力させていただきます！
+            </p>
+            <br />
+            <p>※創業日から数えて２年以内の企業が対象になります。</p>
+            <p>※他の割引とは併用できません。</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- <div class="support-wrap -second">
-            <p class="support-title">＼＼建設業を応援しよう／／【第二弾】</p>
-            <div class="support">
-                <div class="support-description -second">
-                    <p>ミライを創る【創業支援割引制度】</p>
-                </div>
-                    <figure class="support-figure">
-                        <img src="../../assets/img/license_page/support_4.jpg" alt="">
-                    </figure>
-                <div class="support-notes -second">
-                    <p>
-                        能センでは建設業発展の為、創業支援として<br class="-pc-only">
-                        創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に<br class="-pc-only">
-                        受講料を２０％割引でご提供いたします。<br>
-                        特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
-                    </p>
-                    <br>
-                    <div class="center">
-                        <p class="strong">能センは建設業の発展に微力ながら尽力させていただきます！</p>
-                        <br>
-                        <p>※創業日から数えて２年以内の企業が対象になります。</p>
-                        <p>※他の割引とは併用できません。</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
   </section>
 </template>
 
@@ -84,7 +89,8 @@
 
 <style lang="scss" scoped>
   .support-wrap {
-    max-width: 1170px;
+    max-width: 100%;
+    // max-width: 1170px;
     width: 100%;
     font-family: "Meiryo", sans-serif;
     background-color: #fff;
@@ -115,6 +121,7 @@
   .support {
     margin: 0 auto;
     padding: 1em 4rem 2rem;
+    max-width: 1170px;
     @media print, screen and (max-width: 1000px) {
       padding: 1rem 2rem;
     }
