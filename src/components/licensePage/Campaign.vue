@@ -4,15 +4,13 @@
     <div class="campaign-inner">
       <div class="campaign-section">
         <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_1.jpg" />
+          <img src="../../assets/img/license_page/campaign_1-1.jpg" />
         </figure>
         <div class="campaign-description">
-          <p class="campaign-topic">図書カード進呈</p>
+          <p class="campaign-topic">旧テキストを進呈</p>
           <ul class="campaign-content">
-            <li>
-              ・「今年は合格！」という思いにお応えして、問題集などが買える図書カードを進呈します。
-            </li>
-            <li>・能センは受講生に最大限のサポートを致します</li>
+            <li>・令和６年度から一次・二次のテキストが新しくなります</li>
+            <li>・今まで使用していたテキストは受講生全員にプレゼントします</li>
           </ul>
         </div>
       </div>
