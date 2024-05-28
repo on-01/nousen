@@ -4,7 +4,7 @@
       <p class="quality-mainTitle">
         【完全攻略】できる
         <br />
-        ３つのポイント！！！
+        ３つのポイント！
       </p>
       <div class="quality-flex">
         <div class="quality-box">
@@ -20,7 +20,7 @@
               <i class="scroll-animation-item">
                 科目合格率95%
                 <br />
-                合格に特化した教材を使用！
+                合格に特化した教材を使用
               </i>
             </p>
             <p class="quality-line"></p>
@@ -40,7 +40,7 @@
               <i class="scroll-animation-item">
                 基礎から始める電験三種
                 <br />
-                初心者オススメ基礎講座！
+                初心者オススメ基礎講座
               </i>
             </p>
             <p class="quality-line"></p>
