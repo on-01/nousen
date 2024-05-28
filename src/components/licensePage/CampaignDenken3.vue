@@ -53,7 +53,7 @@
           />
         </figure>
         <div class="campaign-description">
-          <p class="campaign-topic">過去問題進呈</p>
+          <p class="campaign-topic">過去の試験問題を進呈</p>
           <ul class="campaign-content">
             <li>
               ・過去の試験問題10年分を進呈します（通学・オンライン・通信講座）
