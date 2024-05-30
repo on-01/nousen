@@ -26,8 +26,8 @@
             title="土木施工管理技士とは"
             text="1・2級土木施工管理技士は、土木工事の施工管理や安全管理、品質管理などを行う国家資格です。<br><br>
                   1級土木施工管理技士は、土木工事に関する全ての分野で監理技術者や主任技術者として施工管理ができます。工事現場全体の責任者として工事に関わり、請負金額に制限がないため大規模な工事に携わることができます。<br><br>
-                  2級土木施工管理技士は、基礎的な知識と経験を要する資格です。彼らは中規模な土木工事プロジェクトを担当し、施工計画の作成や現場の安全管理、品質管理、進捗管理を行います。<br>
-                  また、作業員の指揮命令や教育指導など、日常的な施工管理業務を効果的に遂行します。<br><br>
+                  2級土木施工管理技士は、中規模な土木工事プロジェクトを担当し、施工計画の作成や現場の安全管理、品質管理、進捗管理を行います。<br>
+                  また、作業員の指揮命令や教育指導など、日常的な施工管理業務を遂行します。<br><br>
                   <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
                     最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
             :imagePath="
@@ -571,7 +571,6 @@
     text-align: center;
     margin: 0 20px;
     font-size: 17px;
-    width: 400px;
     box-sizing: border-box;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
@@ -588,6 +587,15 @@
   .application-form-link {
     background-color: #ed6c00;
     margin-top: 25px;
+    width: 400px;
+    padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+
+    @media print, screen and (max-width: 480px) {
+      width: 90%;
+    }
   }
   .online-link {
     background-color: #00a73c;

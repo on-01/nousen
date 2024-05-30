@@ -1,52 +1,60 @@
 <template>
-    <section v-if="movie || image">
-      <div class="pv-wrap">
-        <p class="pv-title">{{ movieTitle }}</p>
-        <div class="pv">
-          <p class="pv-description">{{ description }}</p>
-          <div class="pv-movie" v-if="movie">
-            <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="pv-img" v-if="!movie && image">
-            <img :src="image" alt="">
-          </div>
+  <section v-if="movie || image">
+    <div class="pv-wrap">
+      <p class="pv-title">{{ movieTitle }}</p>
+      <div class="pv">
+        <p class="pv-description">{{ description }}</p>
+        <div class="pv-movie" v-if="movie">
+          <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <iframe
+            width="560"
+            height="315"
+            :src="`https://www.youtube.com/watch?v=WTIJgRILrEY${movie}`"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="pv-img" v-if="!movie && image">
+          <img :src="image" alt="" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 </template>
 
 <script>
-export default {
-  props: {
-    movie: String,
-    image: String,
-    description: String,
-    movieTitle: String
-  }
-}
+  export default {
+    props: {
+      movie: String,
+      image: String,
+      description: String,
+      movieTitle: String,
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-
-.pv-wrap {
-  // max-width: 1070px;
-  width: 100%;
-  font-family: 'Meiryo', sans-serif;
-  background-color: #ebf7ff;
-  margin: 20px auto;
-  z-index: 0;
-  position: relative;
-}
-  .pv {
-  width: 800px;
-  margin: 0 auto;
-  padding: 0 3em 5rem;
-  @media print, screen and (max-width: 1001px) {
-    width: 90%;
-    padding: 0rem 0rem 2rem;
+  .pv-wrap {
+    // max-width: 1070px;
+    width: 100%;
+    font-family: "Meiryo", sans-serif;
+    background-color: #ebf7ff;
+    margin: 20px auto;
+    z-index: 0;
+    position: relative;
   }
-}
-.pv-title {
+  .pv {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 3em 5rem;
+    @media print, screen and (max-width: 1001px) {
+      width: 90%;
+      padding: 0rem 0rem 2rem;
+    }
+  }
+  .pv-title {
     line-height: 1.3;
     font-size: 28px;
     font-weight: 700;
@@ -59,8 +67,8 @@ export default {
     @media print, screen and (max-width: 560px) {
       font-size: 20px;
     }
-}
-.pv-description {
+  }
+  .pv-description {
     line-height: 1.3;
     font-size: 20px;
     font-weight: 700;
@@ -68,33 +76,32 @@ export default {
     @media print, screen and (max-width: 560px) {
       font-size: 16px;
     }
-}
-.pv-movie {
-  position: relative;
-  width: 100%;
-  height:0px;
-  padding-top: 56.25%;
-}
-.pv-movie iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.pv-img img {
-  width: 100%;
-}
+  }
+  .pv-movie {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-top: 56.25%;
+  }
+  .pv-movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .pv-img img {
+    width: 100%;
+  }
 
-.denken3 .pv-wrap {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.kenchiku .pv-wrap {
-  margin-bottom: 0;
-}
-.doboku .pv-wrap {
-  margin-bottom: 0;
-}
-
+  .denken3 .pv-wrap {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .kenchiku .pv-wrap {
+    margin-bottom: 0;
+  }
+  .doboku .pv-wrap {
+    margin-bottom: 0;
+  }
 </style>

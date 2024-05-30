@@ -34,7 +34,7 @@
             "
           />
 
-          <!-- <QualityKenchiku
+          <QualityKenchiku
             text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
             :imagePath_1="
@@ -50,7 +50,7 @@
             :imagePath_3="
               require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
             "
-          /> -->
+          />
 
           <div class="exam-link-wrapper -column">
             <g-link to="/licenses/#kenchiku" class="exam-link">
@@ -481,7 +481,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
-  // import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
+  import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -544,7 +544,7 @@
       ContactInfo,
       Fsc,
       SetCourse2,
-      // QualityKenchiku,
+      QualityKenchiku,
     },
     data() {
       return {
