@@ -28,6 +28,11 @@
                 </p>
                 <div class="address" v-html="richtextToHTML(address)"></div>
               </div>
+              <img
+                class="address-map-img"
+                src="../../assets/img/license_page/venue-map.jpg"
+                alt="会場までの地図"
+              />
               <div class="map">
                 <GmapMap
                   :center="{ lat: map.lat, lng: map.lon }"
