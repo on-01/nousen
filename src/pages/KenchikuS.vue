@@ -25,12 +25,30 @@
           <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
-            1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められます。1級は技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
-            2級建築施工管理技士は、一般的な建設業における技術者や主任技術者として認められ、工事の監督や現場管理を担当し、工事の進捗状況や品質管理、安全対策などに関与します。2級は中小規模の工事現場に携わることができます。<br><br>
+            1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められ、技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
+            2級建築施工管理技士は、一般的な建設業における技術者や主任技術者として、中小規模の工事現場の監督や現場管理を担当し、工事の進捗状況や品質管理、安全対策などに関与します。<br><br>
             <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
               最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
             :imagePath="
               require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
+            "
+          />
+
+          <QualityKenchiku
+            text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+                    難解な内容もわかりやすいソフトな説明で理解することができます。"
+            :imagePath_1="
+              require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+            "
+            text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+                      【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
+            :imagePath_2="
+              require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+            "
+            text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+                    提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
+            :imagePath_3="
+              require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
             "
           />
 
@@ -305,6 +323,7 @@
               :hall="items.node.hall"
               :details="items.node.details"
               :address="items.node.address"
+              :imagePath="require('../assets/img/license_page/venue-map.jpg')"
               :map="items.node.map"
             />
             <Info
@@ -463,6 +482,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -525,6 +545,7 @@
       ContactInfo,
       Fsc,
       SetCourse2,
+      QualityKenchiku,
     },
     data() {
       return {
@@ -582,7 +603,6 @@
     text-align: center;
     margin: 0 20px;
     font-size: 17px;
-    width: 400px;
     box-sizing: border-box;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
@@ -599,6 +619,15 @@
   .application-form-link {
     background-color: #ed6c00;
     margin-top: 25px;
+    width: 400px;
+    padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+
+    @media print, screen and (max-width: 480px) {
+      width: 90%;
+    }
   }
   .online-link {
     background-color: #00a73c;
