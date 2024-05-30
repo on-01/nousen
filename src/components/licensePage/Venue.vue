@@ -28,6 +28,7 @@
                 </p>
                 <div class="address" v-html="richtextToHTML(address)"></div>
               </div>
+              <img :src="imagePath" alt="地図" />
               <div class="map">
                 <GmapMap
                   :center="{ lat: map.lat, lng: map.lon }"
@@ -72,6 +73,7 @@
       hall: String,
       details: Object,
       address: Object,
+      imagePath: String,
       map: Object,
     },
     components: {
