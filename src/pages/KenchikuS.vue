@@ -440,6 +440,7 @@
           hall
           details
           address
+          imagePath
           map {
             lat
             lon
