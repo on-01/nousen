@@ -348,7 +348,6 @@
               :hall="items.node.hall"
               :details="items.node.details"
               :address="items.node.address"
-              :image="require('../assets/img/license_page/venue-map.jpg')"
               :map="items.node.map"
             />
             <Info
@@ -440,7 +439,6 @@
           hall
           details
           address
-          image
           map {
             lat
             lon
