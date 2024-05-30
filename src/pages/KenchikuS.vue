@@ -323,7 +323,6 @@
               :hall="items.node.hall"
               :details="items.node.details"
               :address="items.node.address"
-              :imagePath="require('../assets/img/license_page/venue-map.jpg')"
               :map="items.node.map"
             />
             <Info
@@ -349,6 +348,7 @@
               :hall="items.node.hall"
               :details="items.node.details"
               :address="items.node.address"
+              :imagePath="require('../assets/img/license_page/venue-map.jpg')"
               :map="items.node.map"
             />
             <Info
