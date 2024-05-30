@@ -314,7 +314,7 @@
           <div v-show="isActive === 3">
             <h3 class="body-title">2級通学講座</h3>
             <h3 class="body-title">各会場の開催日程</h3>
-            <Venue
+            <VenueAddMap
               v-for="(items, index) in $static.doboku2Venue.edges"
               :key="index"
               :city="items.node.city"
@@ -445,6 +445,7 @@
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import Venue from "@/components/licensePage/Venue.vue";
+  import VenueAddMap from "@/components/licensePage/VenueAddMap.vue";
   import Application from "@/components/licensePage/Application.vue";
   import NewApplication from "@/components/licensePage/NewApplication.vue";
   import IconBase from "@/components/IconBase.vue";
@@ -512,6 +513,7 @@
       // News,
       Info,
       Venue,
+      VenueAddMap,
       Application,
       NewApplication,
       IconBase,
