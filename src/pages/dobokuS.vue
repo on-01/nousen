@@ -69,13 +69,18 @@
 
           <Support title="＼＼建設業を応援しよう／／" />
 
-          <NewPvMovie
+          <!-- <NewPvMovie
             :movie="$static.dobokuOnline.mediaYoutube"
             :image="
               $static.dobokuOnline.mediaImg
                 ? $static.dobokuOnline.mediaImg.file.url
                 : ''
             "
+            movieTitle="土木施工管理技士の講習会動画をご視聴ください"
+            description="合格者を多数輩出！大嶋先生の無料動画です！"
+          /> -->
+
+          <NewPvMovieDoboku
             movieTitle="土木施工管理技士の講習会動画をご視聴ください"
             description="合格者を多数輩出！大嶋先生の無料動画です！"
           />
@@ -430,7 +435,8 @@
   import CampaignDoboku from "@/components/licensePage/CampaignDoboku.vue";
   import Study from "@/components/licensePage/Study.vue";
   import Linelink from "@/components/licensePage/Linelink.vue";
-  import NewPvMovie from "../components/licensePage/NewPvMovie.vue";
+  // import NewPvMovie from "../components/licensePage/NewPvMovie.vue";
+  import NewPvMovieDoboku from "../components/licensePage/NewPvMovieDoboku.vue";
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
@@ -495,7 +501,8 @@
       CampaignDoboku,
       Study,
       Linelink,
-      NewPvMovie,
+      // NewPvMovie,
+      NewPvMovieDoboku,
       Method,
       Support,
       SupportSecond,
