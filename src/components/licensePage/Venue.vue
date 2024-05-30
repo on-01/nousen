@@ -27,6 +27,7 @@
                   {{ hall }}
                 </p>
                 <div class="address" v-html="richtextToHTML(address)"></div>
+                <img src="../../assets/img/license_page/venue-map.jpg" />
               </div>
               <div class="map">
                 <GmapMap
