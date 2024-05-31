@@ -4,7 +4,8 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            令和6年度 電験三種【通学講座】【通信講座】【オンライン講座】受付中！
+            ２級土木施工管理技士
+            ２級土木施工管理技士【通学】【オンライン講座】受付開始しました！受験願書サービスあり！
           </g-link>
         </p>
         <img
