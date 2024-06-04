@@ -33,7 +33,9 @@
             <span>2</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_2" alt="電験三種 講座" />
+            <a href="https://denken.nouryoku.com/kiso-kouza?_fsi=18qTQM4E">
+              <img :src="imagePath_2" alt="電験三種 講座" />
+            </a>
           </figure>
           <div class="quality-description">
             <p class="quality-title">
