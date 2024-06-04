@@ -478,7 +478,7 @@
               <!-- <h3 class="body-title">通学講座</h3> -->
               <CourseOverview1 title="通 学 講 座" />
               <h3 class="body-title">各会場の開催日程</h3>
-              <Venue
+              <VenueAddMapDenken3
                 v-for="(items, index) in $static.tuugakuVenue.edges"
                 :key="index"
                 :city="items.node.city"
@@ -621,6 +621,7 @@
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import Venue from "@/components/licensePage/Venue.vue";
+  import VenueAddMapDenken3 from "@/components/licensePage/VenueAddMapDenken3.vue";
   import Application from "@/components/licensePage/Application.vue";
   import NewApplication from "@/components/licensePage/NewApplication.vue";
   import IconBase from "@/components/IconBase.vue";
@@ -692,6 +693,7 @@
       // News,
       Info,
       Venue,
+      VenueAddMapDenken3,
       Application,
       NewApplication,
       IconBase,
