@@ -74,24 +74,24 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
               "
             /> -->
+            <div class="bg-lightBlue">
+              <div class="exam-link-wrapper -column">
+                <g-link to="/licenses/#doboku" class="exam-link">
+                  試験概要はこちら
+                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                </g-link>
+                <g-link
+                  to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                  class="online-link"
+                >
+                  オンライン相談はこちら
+                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                </g-link>
+              </div>
 
-            <div class="exam-link-wrapper -column">
-              <g-link to="/licenses/#doboku" class="exam-link">
-                試験概要はこちら
-                <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-              </g-link>
-              <g-link
-                to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-                class="online-link"
-              >
-                オンライン相談はこちら
-                <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-              </g-link>
-            </div>
+              <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
 
-            <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
-
-            <!-- <NewPvMovie
+              <!-- <NewPvMovie
             :movie="$static.dobokuOnline.mediaYoutube"
             :image="
               $static.dobokuOnline.mediaImg
@@ -102,7 +102,7 @@
             description="合格者を多数輩出！大嶋先生の無料動画です！"
           /> -->
 
-            <!-- <NewPvMovieDoboku
+              <!-- <NewPvMovieDoboku
               movieTitle="土木施工管理技士の講習会動画をご視聴ください"
               description="合格者を多数輩出！大嶋先生の無料動画です！"
             />
@@ -191,7 +191,6 @@
               </div>
             </section> -->
 
-            <div class="bg-lightBlue">
               <Study
                 studySlug="other"
                 name1="1級土木施工管理技士"
