@@ -74,7 +74,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
               "
             /> -->
-            <div class="bg-lightBlue">
+            <div class="bg-lightBlue -pd100">
               <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#doboku" class="exam-link">
                   試験概要はこちら
@@ -963,6 +963,10 @@
       // padding: 20px 0 40px;
       padding: 20px 0 0;
     }
+  }
+
+  .bg-lightBlue.-pd100 {
+    padding-bottom: 110px;
   }
 
   .bg-white_type2 {
