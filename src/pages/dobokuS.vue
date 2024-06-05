@@ -955,13 +955,13 @@
     background: #ebf7ff;
   }
   .exam-link-wrapper.-column {
-    // padding: 20px 0 40px;
-    padding: 20px 0 0;
+    padding: 20px 0 40px;
+    // padding: 20px 0 0;
   }
   @media print, screen and (max-width: 1000px) {
     .exam-link-wrapper.-column {
-      // padding: 20px 0 40px;
-      padding: 20px 0 0;
+      padding: 20px 0 40px;
+      // padding: 20px 0 0;
     }
   }
 
