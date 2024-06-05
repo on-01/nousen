@@ -84,7 +84,8 @@
 
 <style lang="scss" scoped>
   .support-wrap {
-    max-width: 1170px;
+    // max-width: 1170px;
+    max-width: 100%;
     width: 100%;
     font-family: "Meiryo", sans-serif;
     background-color: #fff;
