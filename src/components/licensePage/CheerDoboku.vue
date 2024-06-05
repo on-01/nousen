@@ -52,7 +52,7 @@
     background-color: #fff;
     margin: 0px auto;
     font-family: "メイリオ", sans-serif;
-    padding-bottom: 0;
+    padding-bottom: 60px;
   }
   .cheer-inner {
     max-width: 1170px;
