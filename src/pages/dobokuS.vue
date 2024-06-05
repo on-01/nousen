@@ -868,6 +868,38 @@
     }
   }
 
+  .tab-wrapper.-top {
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -45.7px;
+    }
+
+    .tab {
+      max-width: 100%;
+      background-color: #fff8cc;
+    }
+
+    .tab.active {
+      border-bottom: 5px solid #fff8cc;
+    }
+
+    .tab::before {
+      content: "";
+      display: none;
+    }
+
+    .icon {
+      @media print, screen and (max-width: 1000px) {
+        display: inline;
+        margin-top: 0;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .tab-wrapper.-top .tab.active {
+    color: #000;
+  }
+
   .underdisplay {
     @media print, screen and(min-width: 1001px) {
       display: none;
