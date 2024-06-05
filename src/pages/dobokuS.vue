@@ -22,54 +22,76 @@
             "
           />
 
-          <Explanation
-            title="土木施工管理技士とは"
-            text="1・2級土木施工管理技士は、土木工事の施工管理や安全管理、品質管理などを行う国家資格です。<br><br>
+          <!-- トップ部分タブ切り替え -->
+          <section class="tab-wrapper -top">
+            <div
+              :class="['tab', { active: isActiveTop === 1 }]"
+              v-on:click="tabToggleTop(1)"
+            >
+              試験情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 2 }]"
+              v-on:click="tabToggleTop(2)"
+            >
+              講座情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+          </section>
+
+          <!-- 試験情報 -->
+          <div v-show="isActiveTop === 1">
+            <Explanation
+              title="土木施工管理技士とは"
+              text="1・2級土木施工管理技士は、土木工事の施工管理や安全管理、品質管理などを行う国家資格です。<br><br>
                   1級土木施工管理技士は、土木工事に関する全ての分野で監理技術者や主任技術者として施工管理ができます。工事現場全体の責任者として工事に関わり、請負金額に制限がないため大規模な工事に携わることができます。<br><br>
                   2級土木施工管理技士は、中規模な土木工事プロジェクトを担当し、施工計画の作成や現場の安全管理、品質管理、進捗管理を行います。<br>
                   また、作業員の指揮命令や教育指導など、日常的な施工管理業務を遂行します。<br><br>
                   <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
                     最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
-            :imagePath="
-              require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
-            "
-          />
+              :imagePath="
+                require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
+              "
+            />
 
-          <QualityDoboku
-            text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+            <Support title="＼＼建設業を応援しよう／／" />
+
+            <!-- <QualityDoboku
+              text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
-            :imagePath_1="
-              require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
-            "
-            text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+              :imagePath_1="
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+              "
+              text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
-            :imagePath_2="
-              require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
-            "
-            text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+              :imagePath_2="
+                require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
                     提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
-            :imagePath_3="
-              require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
-            "
-          />
+              :imagePath_3="
+                require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
+              "
+            /> -->
 
-          <div class="exam-link-wrapper -column">
-            <g-link to="/licenses/#doboku" class="exam-link">
-              試験概要はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-            <g-link
-              to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-              class="online-link"
-            >
-              オンライン相談はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-          </div>
+            <div class="exam-link-wrapper -column">
+              <g-link to="/licenses/#doboku" class="exam-link">
+                試験概要はこちら
+                <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+              </g-link>
+              <g-link
+                to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                class="online-link"
+              >
+                オンライン相談はこちら
+                <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+              </g-link>
+            </div>
 
-          <Support title="＼＼建設業を応援しよう／／" />
+            <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
 
-          <!-- <NewPvMovie
+            <!-- <NewPvMovie
             :movie="$static.dobokuOnline.mediaYoutube"
             :image="
               $static.dobokuOnline.mediaImg
@@ -80,112 +102,112 @@
             description="合格者を多数輩出！大嶋先生の無料動画です！"
           /> -->
 
-          <NewPvMovieDoboku
-            movieTitle="土木施工管理技士の講習会動画をご視聴ください"
-            description="合格者を多数輩出！大嶋先生の無料動画です！"
-          />
+            <!-- <NewPvMovieDoboku
+              movieTitle="土木施工管理技士の講習会動画をご視聴ください"
+              description="合格者を多数輩出！大嶋先生の無料動画です！"
+            />
 
-          <Lecture
-            title="わかりやすい講義を提供します"
-            title2="土木の講師歴３５年以上のスーパー講師！"
-            text="長年土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
+            <Lecture
+              title="わかりやすい講義を提供します"
+              title2="土木の講師歴３５年以上のスーパー講師！"
+              text="長年土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
                   東京電力で技能訓練センター所長として約４年間勤務後独立し、土木・電気関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
                   難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
-            :imagePath="
-              require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
-            "
-          />
+              :imagePath="
+                require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
+              "
+            />
 
-          <div class="bg-white">
-            <SetCourse2 title="通学＋オンラインセット" />
-          </div>
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
 
-          <section class="voice">
-            <div class="voice-inner">
-              <div class="voice-content">
-                <p class="voice-head">
-                  ＼ アンケートによる受講生満足度９７％ ／
-                </p>
-                <h3 class="voice-title">受講生の声</h3>
-                <div class="voice-topic">
-                  <div class="voice-flex">
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        授業がとにかく
-                        <br />
-                        分かりやすかった！
-                      </p>
+            <section class="voice">
+              <div class="voice-inner">
+                <div class="voice-content">
+                  <p class="voice-head">
+                    ＼ アンケートによる受講生満足度９７％ ／
+                  </p>
+                  <h3 class="voice-title">受講生の声</h3>
+                  <div class="voice-topic">
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          授業がとにかく
+                          <br />
+                          分かりやすかった！
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          質問にも丁寧に
+                          <br />
+                          対応してくれた。
+                        </p>
+                      </div>
                     </div>
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        質問にも丁寧に
-                        <br />
-                        対応してくれた。
-                      </p>
-                    </div>
-                  </div>
-                  <div class="voice-flex">
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        教材・資料が
-                        <br />
-                        充実している。
-                      </p>
-                    </div>
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        話し方が丁寧で
-                        <br />
-                        聞きやすかった。
-                      </p>
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          教材・資料が
+                          <br />
+                          充実している。
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          話し方が丁寧で
+                          <br />
+                          聞きやすかった。
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section> -->
 
-          <div class="bg-lightBlue">
-            <Study
-              studySlug="other"
-              name1="1級土木施工管理技士"
-              time1="100～400"
-              name2="2級土木施工管理技士"
-              time2="50～100"
-              pc_text="1・2級土木施工管理技士の資格を取得するための勉強時間は個人によって異なりますが、一般的には数十時間から数百時間の学習が必要とされています。<br>
+            <div class="bg-lightBlue">
+              <Study
+                studySlug="other"
+                name1="1級土木施工管理技士"
+                time1="100～400"
+                name2="2級土木施工管理技士"
+                time2="50～100"
+                pc_text="1・2級土木施工管理技士の資格を取得するための勉強時間は個人によって異なりますが、一般的には数十時間から数百時間の学習が必要とされています。<br>
             1級土木施工管理技士の試験範囲は広く、施工計画、品質管理、安全管理、法令知識など多岐にわたります。これらの内容を十分に習得するためには、長期間にわたって学習を行う必要があります。<br>
             勉強時間は、学習の進め方や個人の学習スピードによっても異なります。講習会や教材の利用、過去の試験問題の解答など、効果的な学習方法を活用することも重要です。<br>
             2級の試験範囲は、1級に比べてより基礎的な内容ですが、それでも施工計画の作成や現場の安全管理、品質管理、進捗管理など多くの要素が含まれています。これらの内容を十分に理解し、適切に対応するためには、一定の学習時間を確保する必要があります。<br>
             また、一定の勉強時間だけでなく、定期的な復習も重要です。継続的な学習と復習を行いながら、理解を深めることが試験に合格するために役立ちます。<br>
             個々の学習スタイルや状況によっても異なるため、自分の目標に向けて効果的な学習プランを立て、着実に学習を進めていくことが重要です。"
-            />
+              />
 
-            <Method
-              text="① 試験範囲の把握と参考書の選定<br>
+              <Method
+                text="① 試験範囲の把握と参考書の選定<br>
                   　土木施工管理技士の試験範囲を確認し、公式の試験要綱やガイドラインを参照して、出題範囲や試験形式を把握しましょう。<br>
                   　信頼性のある参考書を選び、試験に合わせた資料を活用しましょう。<br>
                   ② 勉強計画の作成と実行<br>
@@ -201,14 +223,14 @@
 
                   また、独学だけでなく、講習会やオンライン講座に参加することも有益です。<br>
                   他の受験生との情報交換や質問をすることで学習の効率が上がるでしょう。"
-            />
+              />
 
-            <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-            <!-- <figure class="point-image">
+              <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+              <!-- <figure class="point-image">
           <img src="../assets/img/license_page/doboku_s/doboku_point.jpg">
         </figure> -->
 
-            <!-- <Point
+              <!-- <Point
               title="短期間で合格する５つのポイント"
               :points="[
                 '『担当講師が土木のエキスパート！』<br>多くの合格者を輩出した大嶋先生が担当。難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。',
@@ -219,43 +241,193 @@
               ]"
             /> -->
 
-            <CampaignDoboku day="2" date="7/15(祝)" />
+              <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
+              <ContactInfo
+                title="受講に関するご相談は<br>
+            【お電話】【フォーム】【オンライン】<br>
+            お気軽にお問い合わせください。"
+              />
 
-            <!-- <Linelink
-              text="能センLINE公式アカウント開設しました。<br>
+              <Linelink
+                text="能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            /> -->
-          </div>
+              />
+            </div>
 
-          <div class="bg-white_type2">
-            <Discount title="合格応援割START！" />
+            <!-- <div class="bg-white_type2">
+              <Discount title="合格応援割START！" />
 
-            <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecond title="＼＼建設業を応援しよう／／" />
 
-            <Fsc title="持続可能なミライへ" />
+              <Fsc title="持続可能なミライへ" />
 
-            <div class="exam-link-wrapper">
-              <div class="exam-link-flex">
-                <g-link
-                  to="/doboku-s-application"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（個人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-                <g-link
-                  to="/doboku-s-application-business"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（法人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
+              <div class="exam-link-wrapper">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/doboku-s-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/doboku-s-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
               </div>
+            </div>
+          </div>
+ -->
+          </div>
+          <!-- 講座情報 -->
+          <div v-show="isActiveTop === 2">
+            <QualityDoboku
+              text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+                    難解な内容もわかりやすいソフトな説明で理解することができます。"
+              :imagePath_1="
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+              "
+              text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+                      【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
+              :imagePath_2="
+                require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+                    提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
+              :imagePath_3="
+                require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
+              "
+            />
 
-              <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure>
+            <NewPvMovieDoboku
+              movieTitle="土木施工管理技士の講習会動画をご視聴ください"
+              description="合格者を多数輩出！大嶋先生の無料動画です！"
+            />
+
+            <Lecture
+              title="わかりやすい講義を提供します"
+              title2="土木の講師歴３５年以上のスーパー講師！"
+              text="長年土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
+                  東京電力で技能訓練センター所長として約４年間勤務後独立し、土木・電気関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
+                  難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+              :imagePath="
+                require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
+              "
+            />
+
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
+
+            <section class="voice">
+              <div class="voice-inner">
+                <div class="voice-content">
+                  <p class="voice-head">
+                    ＼ アンケートによる受講生満足度９７％ ／
+                  </p>
+                  <h3 class="voice-title">受講生の声</h3>
+                  <div class="voice-topic">
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          授業がとにかく
+                          <br />
+                          分かりやすかった！
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          質問にも丁寧に
+                          <br />
+                          対応してくれた。
+                        </p>
+                      </div>
+                    </div>
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          教材・資料が
+                          <br />
+                          充実している。
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          話し方が丁寧で
+                          <br />
+                          聞きやすかった。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <CampaignDoboku day="2" date="7/15(祝)" />
+
+            <div class="bg-white_type2">
+              <Discount title="合格応援割START！" />
+
+              <SupportSecond title="＼＼建設業を応援しよう／／" />
+
+              <Fsc title="持続可能なミライへ" />
+
+              <div class="exam-link-wrapper">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/doboku-s-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/doboku-s-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
+              </div>
             </div>
           </div>
         </header>
@@ -527,6 +699,7 @@
     data() {
       return {
         isActive: 1,
+        isActiveTop: 2,
       };
     },
     methods: {
@@ -538,6 +711,9 @@
       },
       tabToggle: function (num) {
         this.isActive = num;
+      },
+      tabToggleTop: function (num) {
+        this.isActiveTop = num;
       },
     },
   };
