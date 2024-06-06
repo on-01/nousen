@@ -460,7 +460,7 @@
 
               <Fsc title="持続可能なミライへ" />
 
-              <div class="exam-link-wrapper">
+              <div class="exam-link-wrapper -border">
                 <div class="exam-link-flex">
                   <g-link
                     to="/kenchiku-s-application"
@@ -798,6 +798,9 @@
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 150px 0;
     }
+  }
+  .exam-link-wrapper.-border {
+    border-bottom: 5px solid #1d9bf0;
   }
   .exam-link,
   .application-form-link,
