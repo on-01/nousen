@@ -763,10 +763,14 @@
     }
   }
   .exam-link {
+    max-width: 300px;
     background-color: #1d9bf0;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
   }
   .application-form-link {
     background-color: #ed6c00;
@@ -782,10 +786,14 @@
     }
   }
   .online-link {
+    width: 300px;
     background-color: #00a73c;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
   }
   .tab-wrapper {
     margin: 0 auto;
