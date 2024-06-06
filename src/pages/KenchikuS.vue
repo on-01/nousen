@@ -314,49 +314,49 @@
             </div> -->
           </div>
 
-            <!-- 講座情報 -->
-            <div v-show="isActiveTop === 2">
-              <QualityKenchiku
-                text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+          <!-- 講座情報 -->
+          <div v-show="isActiveTop === 2">
+            <QualityKenchiku
+              text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
-                :imagePath_1="
-                  require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
-                "
-                text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+              :imagePath_1="
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+              "
+              text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
-                :imagePath_2="
-                  require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
-                "
-                text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+              :imagePath_2="
+                require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
                     提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
-                :imagePath_3="
-                  require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
-                "
-              />
+              :imagePath_3="
+                require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
+              "
+            />
 
-              <NewPvMovie
-                :movie="$static.kenchikuOnline.mediaYoutube"
-                :image="
-                  $static.kenchikuOnline.mediaImg
-                    ? $static.kenchikuOnline.mediaImg.file.url
-                    : ''
-                "
-                movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
-                description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
-              />
+            <NewPvMovie
+              :movie="$static.kenchikuOnline.mediaYoutube"
+              :image="
+                $static.kenchikuOnline.mediaImg
+                  ? $static.kenchikuOnline.mediaImg.file.url
+                  : ''
+              "
+              movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
+              description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
+            />
 
-              <NewLecture
-                title="井岡先生の講習がスゴイ！"
-                text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
+            <NewLecture
+              title="井岡先生の講習がスゴイ！"
+              text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
                 その後独立して１級建築士事務所を設立し現在に至る。
                 各種大学、専門学校、資格学校にて豊富な講師経験を持ち、建築士や建築施工管理技士の著書も多数執筆。
                 特に建築施工管理技士のシリーズはロングセラーとして長年に渡って受験生からの多大な信頼を獲得しています。
                 歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
-                :imagePath="
-                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
-                "
-                teacher="井岡和雄 先生"
-                profile="＜プロフィール＞<br>
+              :imagePath="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
+              "
+              teacher="井岡和雄 先生"
+              profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
                     ゼネコンに就職<br>
                     ５年間の現場管理を経て、設計部に転属<br>
@@ -367,121 +367,120 @@
                     著書 : ４週間でマスター１級建築施工管理（弘文社）<br>
                     　　　４週間でマスター２級建築施工管理（弘文社）<br>
                     　　　４週間でマスター２級建設機械施工管理（弘文社）"
-                :imageBook1="
-                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
-                "
-                :imageBook2="
-                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
-                "
-                :imageBook3="
-                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
-                "
-              />
+              :imageBook1="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
+              "
+              :imageBook2="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
+              "
+              :imageBook3="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
+              "
+            />
 
-              <div class="bg-white">
-                <SetCourse2 title="通学＋オンラインセット" />
-              </div>
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
 
-              <section class="voice">
-                <div class="voice-inner">
-                  <div class="voice-content">
-                    <p class="voice-head">
-                      ＼ アンケートによる受講生満足度９７％ ／
-                    </p>
-                    <h3 class="voice-title">受講生の声</h3>
-                    <div class="voice-topic">
-                      <div class="voice-flex">
-                        <div class="voice-box">
-                          <figure>
-                            <img
-                              src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                              alt="電験三種"
-                            />
-                          </figure>
-                          <p>
-                            授業がとにかく
-                            <br />
-                            分かりやすかった！
-                          </p>
-                        </div>
-                        <div class="voice-box">
-                          <figure>
-                            <img
-                              src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                              alt="電験三種"
-                            />
-                          </figure>
-                          <p>
-                            質問にも丁寧に
-                            <br />
-                            対応してくれた。
-                          </p>
-                        </div>
+            <section class="voice">
+              <div class="voice-inner">
+                <div class="voice-content">
+                  <p class="voice-head">
+                    ＼ アンケートによる受講生満足度９７％ ／
+                  </p>
+                  <h3 class="voice-title">受講生の声</h3>
+                  <div class="voice-topic">
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          授業がとにかく
+                          <br />
+                          分かりやすかった！
+                        </p>
                       </div>
-                      <div class="voice-flex">
-                        <div class="voice-box">
-                          <figure>
-                            <img
-                              src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                              alt="電験三種"
-                            />
-                          </figure>
-                          <p>
-                            教材・資料が
-                            <br />
-                            充実している。
-                          </p>
-                        </div>
-                        <div class="voice-box">
-                          <figure>
-                            <img
-                              src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                              alt="電験三種"
-                            />
-                          </figure>
-                          <p>
-                            話し方が丁寧で
-                            <br />
-                            聞きやすかった。
-                          </p>
-                        </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          質問にも丁寧に
+                          <br />
+                          対応してくれた。
+                        </p>
+                      </div>
+                    </div>
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          教材・資料が
+                          <br />
+                          充実している。
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          話し方が丁寧で
+                          <br />
+                          聞きやすかった。
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
+            </section>
 
-              <Campaign day="2" date="7/22(月)" />
+            <Campaign day="2" date="7/22(月)" />
 
-              <div class="bg-white_type2">
-                <Discount title="合格応援割START！" />
+            <div class="bg-white_type2">
+              <Discount title="合格応援割START！" />
 
-                <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecond title="＼＼建設業を応援しよう／／" />
 
-                <Fsc title="持続可能なミライへ" />
+              <Fsc title="持続可能なミライへ" />
 
-                <div class="exam-link-wrapper">
-                  <div class="exam-link-flex">
-                    <g-link
-                      to="/kenchiku-s-application"
-                      class="application-form-link"
-                    >
-                      お申込みはこちら（個人）
-                      <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                    </g-link>
-                    <g-link
-                      to="/kenchiku-s-application-business"
-                      class="application-form-link"
-                    >
-                      お申込みはこちら（法人）
-                      <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                    </g-link>
-                  </div>
-
-                  <figure class="credit-image">
-                    <img src="../assets/img/common/credit.jpg" />
-                  </figure>
+              <div class="exam-link-wrapper">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/kenchiku-s-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/kenchiku-s-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
                 </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
               </div>
             </div>
           </div>
