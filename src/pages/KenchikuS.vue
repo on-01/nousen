@@ -311,8 +311,8 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
-            </div>
-          </div> -->
+            </div> -->
+          </div>
 
             <!-- 講座情報 -->
             <div v-show="isActiveTop === 2">
@@ -1024,6 +1024,10 @@
       // padding: 20px 0 40px;
       padding: 20px 0 0;
     }
+  }
+
+  .bg-lightBlue.-pd100 {
+    padding-bottom: 110px;
   }
 
   .bg-white_type2 {
