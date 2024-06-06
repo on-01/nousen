@@ -849,6 +849,7 @@
     }
   }
   .tab-wrapper {
+    position: relative;
     margin: 0 auto;
     max-width: 900px;
     width: 100%;
