@@ -22,53 +22,61 @@
             "
           />
 
-          <Explanation
-            title="建築施工管理技士とは"
-            text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
+          <!-- トップ部分タブ切り替え -->
+          <section class="tab-wrapper -top">
+            <div
+              :class="['tab', { active: isActiveTop === 1 }]"
+              v-on:click="tabToggleTop(1)"
+            >
+              試験情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 2 }]"
+              v-on:click="tabToggleTop(2)"
+            >
+              講座情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+          </section>
+
+          <!-- 試験情報 -->
+          <div v-show="isActiveTop === 1">
+            <Explanation
+              title="建築施工管理技士とは"
+              text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
             1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められ、技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
             2級建築施工管理技士は、一般的な建設業における技術者や主任技術者として、中小規模の工事現場の監督や現場管理を担当し、工事の進捗状況や品質管理、安全対策などに関与します。<br><br>
             <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
               最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
-            :imagePath="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
-            "
-          />
+              :imagePath="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
+              "
+            />
 
-          <QualityKenchiku
-            text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+            <Support title="＼＼建設業を応援しよう／／" />
+
+            <!-- <QualityKenchiku
+              text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
-            :imagePath_1="
-              require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
-            "
-            text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+              :imagePath_1="
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+              "
+              text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
-            :imagePath_2="
-              require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
-            "
-            text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+              :imagePath_2="
+                require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
                     提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
-            :imagePath_3="
-              require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
-            "
-          />
+              :imagePath_3="
+                require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
+              "
+            /> -->
 
-          <div class="exam-link-wrapper -column">
-            <g-link to="/licenses/#kenchiku" class="exam-link">
-              試験概要はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-            <g-link
-              to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-              class="online-link"
-            >
-              オンライン相談はこちら
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-          </div>
+            <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
 
-          <Support title="＼＼建設業を応援しよう／／" />
-
-          <!-- <PvMovie
+            <!-- <PvMovie
             :movie="$static.kenchikuOnline.mediaYoutube"
             :image="
               $static.kenchikuOnline.mediaImg
@@ -77,29 +85,29 @@
             description="合格者を多数輩出した井岡先生による1級建築施工の無料動画をご覧ください。"
         /> -->
 
-          <NewPvMovie
-            :movie="$static.kenchikuOnline.mediaYoutube"
-            :image="
-              $static.kenchikuOnline.mediaImg
-                ? $static.kenchikuOnline.mediaImg.file.url
-                : ''
-            "
-            movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
-            description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
-          />
+            <!-- <NewPvMovie
+              :movie="$static.kenchikuOnline.mediaYoutube"
+              :image="
+                $static.kenchikuOnline.mediaImg
+                  ? $static.kenchikuOnline.mediaImg.file.url
+                  : ''
+              "
+              movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
+              description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
+            />
 
-          <NewLecture
-            title="井岡先生の講習がスゴイ！"
-            text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
+            <NewLecture
+              title="井岡先生の講習がスゴイ！"
+              text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
                 その後独立して１級建築士事務所を設立し現在に至る。
                 各種大学、専門学校、資格学校にて豊富な講師経験を持ち、建築士や建築施工管理技士の著書も多数執筆。
                 特に建築施工管理技士のシリーズはロングセラーとして長年に渡って受験生からの多大な信頼を獲得しています。
                 歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
-            :imagePath="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
-            "
-            teacher="井岡和雄 先生"
-            profile="＜プロフィール＞<br>
+              :imagePath="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
+              "
+              teacher="井岡和雄 先生"
+              profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
                     ゼネコンに就職<br>
                     ５年間の現場管理を経て、設計部に転属<br>
@@ -110,108 +118,122 @@
                     著書 : ４週間でマスター１級建築施工管理（弘文社）<br>
                     　　　４週間でマスター２級建築施工管理（弘文社）<br>
                     　　　４週間でマスター２級建設機械施工管理（弘文社）"
-            :imageBook1="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
-            "
-            :imageBook2="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
-            "
-            :imageBook3="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
-            "
-          />
+              :imageBook1="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
+              "
+              :imageBook2="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
+              "
+              :imageBook3="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
+              "
+            />
 
-          <div class="bg-white">
-            <SetCourse2 title="通学＋オンラインセット" />
-          </div>
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
 
-          <section class="voice">
-            <div class="voice-inner">
-              <div class="voice-content">
-                <p class="voice-head">
-                  ＼ アンケートによる受講生満足度９７％ ／
-                </p>
-                <h3 class="voice-title">受講生の声</h3>
-                <div class="voice-topic">
-                  <div class="voice-flex">
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        授業がとにかく
-                        <br />
-                        分かりやすかった！
-                      </p>
+            <section class="voice">
+              <div class="voice-inner">
+                <div class="voice-content">
+                  <p class="voice-head">
+                    ＼ アンケートによる受講生満足度９７％ ／
+                  </p>
+                  <h3 class="voice-title">受講生の声</h3>
+                  <div class="voice-topic">
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          授業がとにかく
+                          <br />
+                          分かりやすかった！
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          質問にも丁寧に
+                          <br />
+                          対応してくれた。
+                        </p>
+                      </div>
                     </div>
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        質問にも丁寧に
-                        <br />
-                        対応してくれた。
-                      </p>
-                    </div>
-                  </div>
-                  <div class="voice-flex">
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        教材・資料が
-                        <br />
-                        充実している。
-                      </p>
-                    </div>
-                    <div class="voice-box">
-                      <figure>
-                        <img
-                          src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                          alt="電験三種"
-                        />
-                      </figure>
-                      <p>
-                        話し方が丁寧で
-                        <br />
-                        聞きやすかった。
-                      </p>
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          教材・資料が
+                          <br />
+                          充実している。
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            alt="電験三種"
+                          />
+                        </figure>
+                        <p>
+                          話し方が丁寧で
+                          <br />
+                          聞きやすかった。
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section> -->
 
-          <div class="bg-lightBlue">
-            <Study
-              studySlug="other"
-              name1="1級建築施工管理技士"
-              time1="100～400"
-              name2="2級建築施工管理技士"
-              time2="50～100"
-              pc_text="1級および2級建築施工管理技士の資格取得にかかる勉強時間は、個人の学習スタイルや経験によって異なります。一般的な目安としては以下のような時間枠が考えられますが、これはあくまで一般的な指標ですので、個々の状況に合わせて調整する必要があります。<br><br>
+            <div class="bg-lightBlue -pd100">
+              <div class="exam-link-wrapper -column">
+                <g-link to="/licenses/#kenchiku" class="exam-link">
+                  試験概要はこちら
+                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                </g-link>
+                <g-link
+                  to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                  class="online-link"
+                >
+                  オンライン相談はこちら
+                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                </g-link>
+              </div>
+
+              <Study
+                studySlug="other"
+                name1="1級建築施工管理技士"
+                time1="100～400"
+                name2="2級建築施工管理技士"
+                time2="50～100"
+                pc_text="1級および2級建築施工管理技士の資格取得にかかる勉強時間は、個人の学習スタイルや経験によって異なります。一般的な目安としては以下のような時間枠が考えられますが、これはあくまで一般的な指標ですので、個々の状況に合わせて調整する必要があります。<br><br>
             1級建築施工管理技士<br>
             - 予備知識の学習: 約3ヶ月～半年程度　　- 本格的な試験対策: 約6ヶ月～1年以上<br>
             2級建築施工管理技士<br>
             - 予備知識の学習: 約1ヶ月～2ヶ月程度　　- 本格的な試験対策: 約3ヶ月～6ヶ月程度<br><br>
             勉強時間は、関連する法令や規制、建築技術、施工管理の手法などの学習に加えて、過去の試験問題の解答や模擬試験の受験なども含まれます。また、実務経験や現場での実践的な知識も重要ですので、それらを含めた学習時間を確保する必要があります。<br>
             一般的に、資格試験に向けた学習には継続的な努力と集中力が必要です。自分の学習ペースやスケジュールに合わせて計画を立て、充実した学習環境を整えることが重要です。"
-            />
+              />
 
-            <method
-              text="① 試験範囲の把握と参考書の選定<br>
+              <method
+                text="① 試験範囲の把握と参考書の選定<br>
                   　建築施工管理技士の試験範囲を確認し、公式の試験要綱やガイドラインを参照して、出題範囲や試験形式を把握しましょう。<br>
                   　信頼性のある参考書を選び、試験に合わせた資料を活用しましょう。<br>
                   ② 勉強計画の作成と実行<br>
@@ -227,14 +249,14 @@
                   
                   また、独学だけでなく、講習会やオンライン講座に参加することも有益です。<br>
                   他の受験生との情報交換や質問をすることで学習の効率が上がるでしょう。"
-            />
+              />
 
-            <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-            <!-- <figure class="point-image">
+              <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+              <!-- <figure class="point-image">
           <img src="../assets/img/license_page/kenchiku_s/kenchiku_point.jpg">
         </figure> -->
 
-            <!-- <Point
+              <!-- <Point
               title="短期間で合格する５つのポイント"
               :points="[
                 '『担当講師が建築のエキスパート！』<br>多くの合格者を輩出した井岡先生が担当。講師や執筆活動を通して建築の道に進む方が少しでも多く活躍することを応援しています。',
@@ -245,43 +267,222 @@
               ]"
             /> -->
 
-            <Campaign day="2" date="7/22(月)" />
+              <!-- <Campaign day="2" date="7/22(月)" /> -->
 
-            <!-- <Linelink
-              text="能センLINE公式アカウント開設しました。<br>
+              <ContactInfo
+                title="受講に関するご相談は<br>
+            【お電話】【フォーム】【オンライン】<br>
+            お気軽にお問い合わせください。"
+              />
+
+              <Linelink
+                text="能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で全講座に使える500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            /> -->
-          </div>
+              />
+            </div>
 
-          <div class="bg-white_type2">
-            <Discount title="合格応援割START！" />
+            <!-- <div class="bg-white_type2">
+              <Discount title="合格応援割START！" />
 
-            <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecond title="＼＼建設業を応援しよう／／" />
 
-            <Fsc title="持続可能なミライへ" />
+              <Fsc title="持続可能なミライへ" />
 
-            <div class="exam-link-wrapper">
-              <div class="exam-link-flex">
-                <g-link
-                  to="/kenchiku-s-application"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（個人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-                <g-link
-                  to="/kenchiku-s-application-business"
-                  class="application-form-link"
-                >
-                  お申込みはこちら（法人）
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
+              <div class="exam-link-wrapper">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/kenchiku-s-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/kenchiku-s-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
+              </div>
+            </div>
+          </div> -->
+
+            <!-- 講座情報 -->
+            <div v-show="isActiveTop === 2">
+              <QualityKenchiku
+                text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+                    難解な内容もわかりやすいソフトな説明で理解することができます。"
+                :imagePath_1="
+                  require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+                "
+                text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+                      【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
+                :imagePath_2="
+                  require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+                "
+                text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
+                    提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
+                :imagePath_3="
+                  require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
+                "
+              />
+
+              <NewPvMovie
+                :movie="$static.kenchikuOnline.mediaYoutube"
+                :image="
+                  $static.kenchikuOnline.mediaImg
+                    ? $static.kenchikuOnline.mediaImg.file.url
+                    : ''
+                "
+                movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
+                description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
+              />
+
+              <NewLecture
+                title="井岡先生の講習がスゴイ！"
+                text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
+                その後独立して１級建築士事務所を設立し現在に至る。
+                各種大学、専門学校、資格学校にて豊富な講師経験を持ち、建築士や建築施工管理技士の著書も多数執筆。
+                特に建築施工管理技士のシリーズはロングセラーとして長年に渡って受験生からの多大な信頼を獲得しています。
+                歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
+                :imagePath="
+                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
+                "
+                teacher="井岡和雄 先生"
+                profile="＜プロフィール＞<br>
+                    関西大学工学部建築学科卒業<br>
+                    ゼネコンに就職<br>
+                    ５年間の現場管理を経て、設計部に転属<br>
+                    １０年間の設計・監理業務後、独立<br>
+                    近畿大学・追手門学院大学 非常勤講師<br>
+                    現在 井岡一級建築士事務所 代表<br>
+                    <br>
+                    著書 : ４週間でマスター１級建築施工管理（弘文社）<br>
+                    　　　４週間でマスター２級建築施工管理（弘文社）<br>
+                    　　　４週間でマスター２級建設機械施工管理（弘文社）"
+                :imageBook1="
+                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
+                "
+                :imageBook2="
+                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
+                "
+                :imageBook3="
+                  require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
+                "
+              />
+
+              <div class="bg-white">
+                <SetCourse2 title="通学＋オンラインセット" />
               </div>
 
-              <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure>
+              <section class="voice">
+                <div class="voice-inner">
+                  <div class="voice-content">
+                    <p class="voice-head">
+                      ＼ アンケートによる受講生満足度９７％ ／
+                    </p>
+                    <h3 class="voice-title">受講生の声</h3>
+                    <div class="voice-topic">
+                      <div class="voice-flex">
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                              alt="電験三種"
+                            />
+                          </figure>
+                          <p>
+                            授業がとにかく
+                            <br />
+                            分かりやすかった！
+                          </p>
+                        </div>
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                              alt="電験三種"
+                            />
+                          </figure>
+                          <p>
+                            質問にも丁寧に
+                            <br />
+                            対応してくれた。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="voice-flex">
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                              alt="電験三種"
+                            />
+                          </figure>
+                          <p>
+                            教材・資料が
+                            <br />
+                            充実している。
+                          </p>
+                        </div>
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                              alt="電験三種"
+                            />
+                          </figure>
+                          <p>
+                            話し方が丁寧で
+                            <br />
+                            聞きやすかった。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <Campaign day="2" date="7/22(月)" />
+
+              <div class="bg-white_type2">
+                <Discount title="合格応援割START！" />
+
+                <SupportSecond title="＼＼建設業を応援しよう／／" />
+
+                <Fsc title="持続可能なミライへ" />
+
+                <div class="exam-link-wrapper">
+                  <div class="exam-link-flex">
+                    <g-link
+                      to="/kenchiku-s-application"
+                      class="application-form-link"
+                    >
+                      お申込みはこちら（個人）
+                      <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                    </g-link>
+                    <g-link
+                      to="/kenchiku-s-application-business"
+                      class="application-form-link"
+                    >
+                      お申込みはこちら（法人）
+                      <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                    </g-link>
+                  </div>
+
+                  <figure class="credit-image">
+                    <img src="../assets/img/common/credit.jpg" />
+                  </figure>
+                </div>
+              </div>
             </div>
           </div>
         </header>
@@ -551,6 +752,7 @@
     data() {
       return {
         isActive: 1,
+        isActiveTop: 2,
       };
     },
     methods: {
@@ -562,6 +764,9 @@
       },
       tabToggle: function (num) {
         this.isActive = num;
+      },
+      tabToggleTop: function (num) {
+        this.isActiveTop = num;
       },
     },
   };
@@ -612,10 +817,14 @@
     }
   }
   .exam-link {
+    width: 300px;
     background-color: #1d9bf0;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
   }
   .application-form-link {
     background-color: #ed6c00;
@@ -631,10 +840,14 @@
     }
   }
   .online-link {
+    width: 300px;
     background-color: #00a73c;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
   }
   .tab-wrapper {
     margin: 0 auto;
@@ -714,6 +927,38 @@
         margin-top: 0;
       }
     }
+  }
+
+  .tab-wrapper.-top {
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -45.7px;
+    }
+
+    .tab {
+      max-width: 100%;
+      background-color: #fff8cc;
+    }
+
+    .tab.active {
+      border-bottom: 5px solid #fff8cc;
+    }
+
+    .tab::before {
+      content: "";
+      display: none;
+    }
+
+    .icon {
+      @media print, screen and (max-width: 1000px) {
+        display: inline;
+        margin-top: 0;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .tab-wrapper.-top .tab.active {
+    color: #000;
   }
 
   .underdisplay {
