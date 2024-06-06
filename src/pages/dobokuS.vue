@@ -763,7 +763,7 @@
     }
   }
   .exam-link {
-    width: 301px;
+    width: 300px;
     background-color: #1d9bf0;
     margin-top: 25px;
     margin-right: auto;
