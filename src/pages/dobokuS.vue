@@ -405,7 +405,7 @@
 
               <Fsc title="持続可能なミライへ" />
 
-              <div class="exam-link-wrapper">
+              <div class="exam-link-wrapper -border">
                 <div class="exam-link-flex">
                   <g-link
                     to="/doboku-s-application"
@@ -428,108 +428,108 @@
                 </figure>
               </div>
             </div>
-          </div>
-        </header>
 
-        <section class="tab-wrapper">
-          <div
-            :class="['tab', { active: isActive === 1 }]"
-            v-on:click="tabToggle(1)"
-          >
-            オンライン
-            <br class="underdisplay" />
-            講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 2 }]"
-            v-on:click="tabToggle(2)"
-          >
-            1級通学講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 3 }]"
-            v-on:click="tabToggle(3)"
-          >
-            2級通学講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-        </section>
-        <div class="body">
-          <div v-show="isActive === 2">
-            <h3 class="body-title">1級通学講座</h3>
-            <h3 class="body-title">各会場の開催日程</h3>
-            <Venue
-              v-for="(items, index) in $static.doboku1Venue.edges"
-              :key="index"
-              :city="items.node.city"
-              :period="items.node.period"
-              :hall="items.node.hall"
-              :details="items.node.details"
-              :address="items.node.address"
-              :map="items.node.map"
-            />
-            <Info
-              :tuitionFee="richtextToHTML($static.doboku1.tuitionFee)"
-              :capacity="$static.doboku1.capacity"
-              :benefits="richtextToHTML($static.doboku1.benefits)"
-              :cpds="richtextToHTML($static.doboku1.cpds)"
-            />
-            <NewApplication
-              personalFormLink="/doboku-s-application"
-              businessFormLink="/doboku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-            />
-          </div>
-          <div v-show="isActive === 3">
-            <h3 class="body-title">2級通学講座</h3>
-            <h3 class="body-title">各会場の開催日程</h3>
-            <VenueAddMap
-              v-for="(items, index) in $static.doboku2Venue.edges"
-              :key="index"
-              :city="items.node.city"
-              :period="items.node.period"
-              :hall="items.node.hall"
-              :details="items.node.details"
-              :address="items.node.address"
-              :map="items.node.map"
-            />
-            <Info
-              :tuitionFee="richtextToHTML($static.doboku2.tuitionFee)"
-              :capacity="$static.doboku2.capacity"
-              :benefits="richtextToHTML($static.doboku2.benefits)"
-              :cpds="richtextToHTML($static.doboku2.cpds)"
-            />
-            <NewApplication
-              personalFormLink="/doboku-s-application"
-              businessFormLink="/doboku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-            />
-          </div>
-          <div v-show="isActive === 1">
-            <h3 class="body-title">オンライン講座</h3>
-            <Info
-              :courseOutline="
-                richtextToHTML($static.dobokuOnline.courseOutline)
-              "
-              :apply="richtextToHTML($static.dobokuOnline.apply)"
-            />
-            <NewApplication
-              personalFormText="オンライン講座へのお申込み（個人）"
-              personalFormLink="/doboku-s-application"
-              businessFormText="オンライン講座へのお申込み（法人）"
-              businessFormLink="/doboku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-            />
-          </div>
+            <section class="tab-wrapper">
+              <div
+                :class="['tab', { active: isActive === 1 }]"
+                v-on:click="tabToggle(1)"
+              >
+                オンライン
+                <br class="underdisplay" />
+                講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+              <div
+                :class="['tab', { active: isActive === 2 }]"
+                v-on:click="tabToggle(2)"
+              >
+                1級通学講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+              <div
+                :class="['tab', { active: isActive === 3 }]"
+                v-on:click="tabToggle(3)"
+              >
+                2級通学講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+            </section>
+            <div class="body">
+              <div v-show="isActive === 2">
+                <h3 class="body-title">1級通学講座</h3>
+                <h3 class="body-title">各会場の開催日程</h3>
+                <Venue
+                  v-for="(items, index) in $static.doboku1Venue.edges"
+                  :key="index"
+                  :city="items.node.city"
+                  :period="items.node.period"
+                  :hall="items.node.hall"
+                  :details="items.node.details"
+                  :address="items.node.address"
+                  :map="items.node.map"
+                />
+                <Info
+                  :tuitionFee="richtextToHTML($static.doboku1.tuitionFee)"
+                  :capacity="$static.doboku1.capacity"
+                  :benefits="richtextToHTML($static.doboku1.benefits)"
+                  :cpds="richtextToHTML($static.doboku1.cpds)"
+                />
+                <NewApplication
+                  personalFormLink="/doboku-s-application"
+                  businessFormLink="/doboku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+                />
+              </div>
+              <div v-show="isActive === 3">
+                <h3 class="body-title">2級通学講座</h3>
+                <h3 class="body-title">各会場の開催日程</h3>
+                <VenueAddMap
+                  v-for="(items, index) in $static.doboku2Venue.edges"
+                  :key="index"
+                  :city="items.node.city"
+                  :period="items.node.period"
+                  :hall="items.node.hall"
+                  :details="items.node.details"
+                  :address="items.node.address"
+                  :map="items.node.map"
+                />
+                <Info
+                  :tuitionFee="richtextToHTML($static.doboku2.tuitionFee)"
+                  :capacity="$static.doboku2.capacity"
+                  :benefits="richtextToHTML($static.doboku2.benefits)"
+                  :cpds="richtextToHTML($static.doboku2.cpds)"
+                />
+                <NewApplication
+                  personalFormLink="/doboku-s-application"
+                  businessFormLink="/doboku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+                />
+              </div>
+              <div v-show="isActive === 1">
+                <h3 class="body-title">オンライン講座</h3>
+                <Info
+                  :courseOutline="
+                    richtextToHTML($static.dobokuOnline.courseOutline)
+                  "
+                  :apply="richtextToHTML($static.dobokuOnline.apply)"
+                />
+                <NewApplication
+                  personalFormText="オンライン講座へのお申込み（個人）"
+                  personalFormLink="/doboku-s-application"
+                  businessFormText="オンライン講座へのお申込み（法人）"
+                  businessFormLink="/doboku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+                />
+              </div>
 
-          <ContactInfo
-            title="受講に関するご相談は<br>
+              <ContactInfo
+                title="受講に関するご相談は<br>
             【お電話】【フォーム】【オンライン】<br>
             お気軽にお問い合わせください。"
-          />
-        </div>
+              />
+            </div>
+          </div>
+        </header>
       </div>
     </Layout>
   </div>
@@ -744,6 +744,9 @@
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 150px 0;
     }
+  }
+  .exam-link-wrapper.-border {
+    border-bottom: 5px solid #1d9bf0;
   }
   .exam-link,
   .application-form-link,
@@ -965,6 +968,7 @@
   .exam-link-wrapper.-column {
     padding: 0 0 40px;
     // padding: 20px 0 0;
+    border-bottom: none;
   }
   @media print, screen and (max-width: 1000px) {
     .exam-link-wrapper.-column {
