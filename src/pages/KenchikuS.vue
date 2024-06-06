@@ -483,108 +483,108 @@
                 </figure>
               </div>
             </div>
-          </div>
-        </header>
 
-        <section class="tab-wrapper">
-          <div
-            :class="['tab', { active: isActive === 1 }]"
-            v-on:click="tabToggle(1)"
-          >
-            オンライン
-            <br class="underdisplay" />
-            講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 2 }]"
-            v-on:click="tabToggle(2)"
-          >
-            1級通学講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActive === 3 }]"
-            v-on:click="tabToggle(3)"
-          >
-            2級通学講座
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-        </section>
-        <div class="body">
-          <div v-show="isActive === 2">
-            <h3 class="body-title">1級通学講座</h3>
-            <h3 class="body-title">各会場の開催日程</h3>
-            <Venue
-              v-for="(items, index) in $static.kenchiku1Venue.edges"
-              :key="index"
-              :city="items.node.city"
-              :period="items.node.period"
-              :hall="items.node.hall"
-              :details="items.node.details"
-              :address="items.node.address"
-              :map="items.node.map"
-            />
-            <Info
-              :tuitionFee="richtextToHTML($static.kenchiku1.tuitionFee)"
-              :capacity="$static.kenchiku1.capacity"
-              :benefits="richtextToHTML($static.kenchiku1.benefits)"
-              :cpds="richtextToHTML($static.kenchiku1.cpds)"
-            />
-            <NewApplication
-              personalFormLink="/kenchiku-s-application"
-              businessFormLink="/kenchiku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-            />
-          </div>
-          <div v-show="isActive === 3">
-            <h3 class="body-title">2級通学講座</h3>
-            <h3 class="body-title">各会場の開催日程</h3>
-            <VenueAddMap
-              v-for="(items, index) in $static.kenchiku2Venue.edges"
-              :key="index"
-              :city="items.node.city"
-              :period="items.node.period"
-              :hall="items.node.hall"
-              :details="items.node.details"
-              :address="items.node.address"
-              :map="items.node.map"
-            />
-            <Info
-              :tuitionFee="richtextToHTML($static.kenchiku2.tuitionFee)"
-              :capacity="$static.kenchiku2.capacity"
-              :benefits="richtextToHTML($static.kenchiku2.benefits)"
-              :cpds="richtextToHTML($static.kenchiku2.cpds)"
-            />
-            <NewApplication
-              personalFormLink="/kenchiku-s-application"
-              businessFormLink="/kenchiku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-            />
-          </div>
-          <div v-show="isActive === 1">
-            <h3 class="body-title">オンライン講座</h3>
-            <Info
-              :courseOutline="
-                richtextToHTML($static.kenchikuOnline.courseOutline)
-              "
-              :apply="richtextToHTML($static.kenchikuOnline.apply)"
-            />
-            <NewApplication
-              personalFormText="オンライン講座へのお申込み（個人）"
-              personalFormLink="/kenchiku-s-application"
-              businessFormText="オンライン講座へのお申込み（法人）"
-              businessFormLink="/kenchiku-s-application-business"
-              faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-            />
-          </div>
+            <section class="tab-wrapper">
+              <div
+                :class="['tab', { active: isActive === 1 }]"
+                v-on:click="tabToggle(1)"
+              >
+                オンライン
+                <br class="underdisplay" />
+                講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+              <div
+                :class="['tab', { active: isActive === 2 }]"
+                v-on:click="tabToggle(2)"
+              >
+                1級通学講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+              <div
+                :class="['tab', { active: isActive === 3 }]"
+                v-on:click="tabToggle(3)"
+              >
+                2級通学講座
+                <IconBase class="icon"><IconArrowRight /></IconBase>
+              </div>
+            </section>
+            <div class="body">
+              <div v-show="isActive === 2">
+                <h3 class="body-title">1級通学講座</h3>
+                <h3 class="body-title">各会場の開催日程</h3>
+                <Venue
+                  v-for="(items, index) in $static.kenchiku1Venue.edges"
+                  :key="index"
+                  :city="items.node.city"
+                  :period="items.node.period"
+                  :hall="items.node.hall"
+                  :details="items.node.details"
+                  :address="items.node.address"
+                  :map="items.node.map"
+                />
+                <Info
+                  :tuitionFee="richtextToHTML($static.kenchiku1.tuitionFee)"
+                  :capacity="$static.kenchiku1.capacity"
+                  :benefits="richtextToHTML($static.kenchiku1.benefits)"
+                  :cpds="richtextToHTML($static.kenchiku1.cpds)"
+                />
+                <NewApplication
+                  personalFormLink="/kenchiku-s-application"
+                  businessFormLink="/kenchiku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+                />
+              </div>
+              <div v-show="isActive === 3">
+                <h3 class="body-title">2級通学講座</h3>
+                <h3 class="body-title">各会場の開催日程</h3>
+                <VenueAddMap
+                  v-for="(items, index) in $static.kenchiku2Venue.edges"
+                  :key="index"
+                  :city="items.node.city"
+                  :period="items.node.period"
+                  :hall="items.node.hall"
+                  :details="items.node.details"
+                  :address="items.node.address"
+                  :map="items.node.map"
+                />
+                <Info
+                  :tuitionFee="richtextToHTML($static.kenchiku2.tuitionFee)"
+                  :capacity="$static.kenchiku2.capacity"
+                  :benefits="richtextToHTML($static.kenchiku2.benefits)"
+                  :cpds="richtextToHTML($static.kenchiku2.cpds)"
+                />
+                <NewApplication
+                  personalFormLink="/kenchiku-s-application"
+                  businessFormLink="/kenchiku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+                />
+              </div>
+              <div v-show="isActive === 1">
+                <h3 class="body-title">オンライン講座</h3>
+                <Info
+                  :courseOutline="
+                    richtextToHTML($static.kenchikuOnline.courseOutline)
+                  "
+                  :apply="richtextToHTML($static.kenchikuOnline.apply)"
+                />
+                <NewApplication
+                  personalFormText="オンライン講座へのお申込み（個人）"
+                  personalFormLink="/kenchiku-s-application"
+                  businessFormText="オンライン講座へのお申込み（法人）"
+                  businessFormLink="/kenchiku-s-application-business"
+                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+                />
+              </div>
 
-          <ContactInfo
-            title="受講に関するご相談は<br>
+              <ContactInfo
+                title="受講に関するご相談は<br>
             【お電話】【フォーム】【オンライン】<br>
             お気軽にお問い合わせください。"
-          />
-        </div>
+              />
+            </div>
+          </div>
+        </header>
       </div>
     </Layout>
   </div>
