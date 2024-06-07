@@ -15,16 +15,28 @@
             </div>
             <div class="logo-text">
               <p class="logo-text_logo">株式会社ＮＯＵＳＥＮ</p>
-              <a href="https://jeea.or.jp/?_fsi=18qTQM4E" target="_blank" class="jeea-link">
-                <img src="../assets/img/common/banner4.jpg" alt="日本電気技術者協会">
+              <a
+                href="https://jeea.or.jp/?_fsi=18qTQM4E"
+                target="_blank"
+                class="jeea-link"
+              >
+                <img
+                  src="../assets/img/common/banner4.jpg"
+                  alt="日本電気技術者協会"
+                />
               </a>
             </div>
           </div>
 
           <div class="SDGs_image">
-            <figure><a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank">
-              <img src="../assets/img/common/SDGs.jpg" alt="SDGs">
-            </a></figure>
+            <figure>
+              <a
+                href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html"
+                target="_blank"
+              >
+                <img src="../assets/img/common/SDGs.jpg" alt="SDGs" />
+              </a>
+            </figure>
           </div>
 
           <div class="wrapper-information">
@@ -42,10 +54,14 @@
                 <g-link to="/privacy">プライバシーポリシー</g-link>
               </p>
               <p class="information_list">
-                <g-link to="https://denken.nouryoku.com/sengen">反社会的勢力排除宣言</g-link>
+                <g-link to="https://denken.nouryoku.com/sengen">
+                  反社会的勢力排除宣言
+                </g-link>
               </p>
               <p class="information_list">
-                <g-link to="https://nousen.blog/koushiuketuke/">講師募集について</g-link>
+                <g-link to="https://nousen.blog/koushiuketuke/">
+                  講師募集について
+                </g-link>
               </p>
             </div>
             <!-- <div class="sns-link twitter-link">
@@ -69,7 +85,12 @@
               </a>
             </div> -->
             <div class="eco-image">
-                <img src="../assets/img/common/eco.jpg"  width="70" height="70" alt="eco" />
+              <img
+                src="../assets/img/common/eco.jpg"
+                width="70"
+                height="70"
+                alt="eco"
+              />
             </div>
           </div>
         </div>
@@ -87,10 +108,17 @@
               height="38"
             />
           </a>
-          <figure class="credit"><img src="../assets/img/common/credit.jpg"></figure>
-          <figure class="sp_SDGs_image"><a href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html" target="_blank">
-            <img src="../assets/img/common/SDGs.jpg" alt="SDGs">
-          </a></figure>
+          <figure class="credit">
+            <img src="../assets/img/common/credit.jpg" />
+          </figure>
+          <figure class="sp_SDGs_image">
+            <a
+              href="https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/index.html"
+              target="_blank"
+            >
+              <img src="../assets/img/common/SDGs.jpg" alt="SDGs" />
+            </a>
+          </figure>
         </div>
         <div class="banner">
           <div class="column">
@@ -101,14 +129,14 @@
                 width="200px"
               />
             </a>
-            <a href="https://context-japan.co.jp/ryokin/" target="_blank">
+            <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
               <g-image
                 src="../assets/img/common/banner3.jpg"
                 alt="料金相場.jp"
                 width="200px"
                 class="banner3"
               />
-            </a>
+            </a> -->
           </div>
           <a href="https://www.birumen-navi.com/" target="_blank">
             <g-image
@@ -122,170 +150,195 @@
 
       <div class="sns">
         <a href="https://www.facebook.com/nousen2023" target="_blank">
-            <img src="../assets/img/common/FB.jpg" width="60" height="60" alt="FB" />
+          <img
+            src="../assets/img/common/FB.jpg"
+            width="60"
+            height="60"
+            alt="FB"
+          />
         </a>
-        <a href="https://page.line.me/947ygtge?openQrModal=true" target="_blank">
-            <img src="../assets/img/common/LINE.jpg"  width="60" height="60" alt="LINE" />
+        <a
+          href="https://page.line.me/947ygtge?openQrModal=true"
+          target="_blank"
+        >
+          <img
+            src="../assets/img/common/LINE.jpg"
+            width="60"
+            height="60"
+            alt="LINE"
+          />
         </a>
         <a href="https://twitter.com/nouryoku1983" target="_blank">
-            <img src="../assets/img/common/Twitter.jpg"  width="60" height="60" alt="Twitter" />
+          <img
+            src="../assets/img/common/Twitter.jpg"
+            width="60"
+            height="60"
+            alt="Twitter"
+          />
         </a>
-        <a href="https://www.youtube.com/channel/UCxEEViJd9b6s4fhZeg0dleQ" target="_blank">
-            <img src="../assets/img/common/YouTube.jpg"  width="60" height="60" alt="Youtube" />
+        <a
+          href="https://www.youtube.com/channel/UCxEEViJd9b6s4fhZeg0dleQ"
+          target="_blank"
+        >
+          <img
+            src="../assets/img/common/YouTube.jpg"
+            width="60"
+            height="60"
+            alt="Youtube"
+          />
         </a>
-    </div>
-
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.main-footer {
-  // border-top: 2px solid #f4f0ed;
-  margin-bottom: 20px;
-  position: relative;
-  border-top: 5px solid #1D9BF0;
-}
-.denken3-template .main-footer {
-  border-top: none;
-}
-.main-footer-inner {
-  padding: 10px 0 110px;
-  max-width: 950px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 10px;
-  @media print, screen and(max-width: 1000px) {
-    padding: 10px 0 100px;
-    width: 90%;
+  .main-footer {
+    // border-top: 2px solid #f4f0ed;
+    margin-bottom: 20px;
+    position: relative;
+    border-top: 5px solid #1d9bf0;
   }
-}
-.main-footer-top {
-  .logo {
-    max-width: 500px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    &-text {
-      margin-left: 2em;
-      margin-top: 1.5em;
-
-      &_logo {
-        font-size: 15px;
-        margin: 0;
-        font-weight: bold;
-        font-family: 'メイリオ', sans-serif;
-        @media print, screen and(max-width: 1000px) {
-          font-size: 12px;
-        }
-      }
-    }
+  .denken3-template .main-footer {
+    border-top: none;
   }
-  .logo-inner {
+  .main-footer-inner {
+    padding: 10px 0 110px;
+    max-width: 950px;
     width: 100%;
-    max-width: 130px;
+    margin: 0 auto;
     margin-top: 10px;
     @media print, screen and(max-width: 1000px) {
-      max-width: 100px;
+      padding: 10px 0 100px;
+      width: 90%;
     }
   }
-  .under_display {
-    @media print, screen and(min-width: 1001px) {
-      display: none;
-    }
-  }
-  .jeea-link {
-    font-size: 13px;
-    line-height: 1.5em;
-    display: block;
-    font-family: 'メイリオ', sans-serif;
-    @media print, screen and(max-width: 1000px) {
-      font-size: 10px;
-      transform: scale(0.9);
-      transform-origin: left center;
-    }
-  }
-  .wrapper-information {
-    @media print, screen and(max-width: 1000px) {
-      display: flex;
-      margin-top: 2em;
-      width: 100%;
-      justify-content: space-between;
-    }
-  }
-  .information {
-    font-weight: bold;
-    max-width: 750px;
-    font-family: 'メイリオ', sans-serif;
-    @media print, screen and(min-width: 1001px) {
+  .main-footer-top {
+    .logo {
+      max-width: 500px;
       width: 100%;
       display: flex;
-      flex-wrap: wrap;
-      width: 420px;
-      margin-top: 1em;
-    }
-    p {
-      margin: 0;
-      font-size: 15px;
-      @media print, screen and(max-width: 1000px) {
-        display: block;
-        text-align: left;
-        margin-top: 0.5em;
-        font-size: 12px;
+      align-items: center;
+      &-text {
+        margin-left: 2em;
+        margin-top: 1.5em;
+
+        &_logo {
+          font-size: 15px;
+          margin: 0;
+          font-weight: bold;
+          font-family: "メイリオ", sans-serif;
+          @media print, screen and(max-width: 1000px) {
+            font-size: 12px;
+          }
+        }
       }
+    }
+    .logo-inner {
+      width: 100%;
+      max-width: 130px;
+      margin-top: 10px;
+      @media print, screen and(max-width: 1000px) {
+        max-width: 100px;
+      }
+    }
+    .under_display {
       @media print, screen and(min-width: 1001px) {
-        &:nth-child(1),
-        &:nth-child(3),
-        &:nth-child(5) {
-          width: 232px;
+        display: none;
+      }
+    }
+    .jeea-link {
+      font-size: 13px;
+      line-height: 1.5em;
+      display: block;
+      font-family: "メイリオ", sans-serif;
+      @media print, screen and(max-width: 1000px) {
+        font-size: 10px;
+        transform: scale(0.9);
+        transform-origin: left center;
+      }
+    }
+    .wrapper-information {
+      @media print, screen and(max-width: 1000px) {
+        display: flex;
+        margin-top: 2em;
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+    .information {
+      font-weight: bold;
+      max-width: 750px;
+      font-family: "メイリオ", sans-serif;
+      @media print, screen and(min-width: 1001px) {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 420px;
+        margin-top: 1em;
+      }
+      p {
+        margin: 0;
+        font-size: 15px;
+        @media print, screen and(max-width: 1000px) {
+          display: block;
+          text-align: left;
+          margin-top: 0.5em;
+          font-size: 12px;
+        }
+        @media print, screen and(min-width: 1001px) {
+          &:nth-child(1),
+          &:nth-child(3),
+          &:nth-child(5) {
+            width: 232px;
+          }
         }
       }
     }
   }
-}
-.information_list::after {
-  content: url("../assets/img/icon/double_arrow_right_orange.svg");
-  height: 1.2em;
-  width: 1.2em;
-  display: inline-block;
-  vertical-align: sub;
-  position: relative;
-  margin-left: 7px;
-  @media print, screen and(min-width: 1001px) {
+  .information_list::after {
+    content: url("../assets/img/icon/double_arrow_right_orange.svg");
+    height: 1.2em;
+    width: 1.2em;
+    display: inline-block;
+    vertical-align: sub;
+    position: relative;
     margin-left: 7px;
-  }
-}
-.main-footer-top-inner {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  @media print, screen and(max-width: 1000px) {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
-.main-footer-bottom {
-  margin-top: 40px;
-  @media print, screen and(min-width: 1001px) {
-    display: flex;
-    justify-content: space-between;
-  }
-  .message {
-    // font-family: serif;
-    font-family: 'メイリオ', sans-serif;
-    font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 0;
-    @media print, screen and(max-width: 1000px) {
-      font-size: 11px;
+    @media print, screen and(min-width: 1001px) {
+      margin-left: 7px;
     }
   }
-}
+  .main-footer-top-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    @media print, screen and(max-width: 1000px) {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  .main-footer-bottom {
+    margin-top: 40px;
+    @media print, screen and(min-width: 1001px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    .message {
+      // font-family: serif;
+      font-family: "メイリオ", sans-serif;
+      font-size: 16px;
+      margin-bottom: 0;
+      margin-top: 0;
+      @media print, screen and(max-width: 1000px) {
+        font-size: 11px;
+      }
+    }
+  }
 
-.eco-image {
-  display: block;
+  .eco-image {
+    display: block;
     @media print, screen and(min-width: 1001px) {
       position: absolute;
       z-index: 1;
@@ -301,113 +354,112 @@
         transform: translateX(0px);
       }
     }
-}
-
-.application {
-  position: relative;
-  font-size: 20px;
-  width: 100%;
-  @media print, screen and(min-width: 1001px) {
-    max-width: 60%;
-    & img {
-      width: 385px;
-    }
   }
 
-  @media print, screen and(max-width: 1000px) {
-    text-align: center;
-    & img {
-      width: 90%;
+  .application {
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+    @media print, screen and(min-width: 1001px) {
+      max-width: 60%;
+      & img {
+        width: 385px;
+      }
     }
-  }
-  .tel {
-    line-height: 1.2em;
-  }
-}
-.banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  @media print, screen and(min-width: 1001px) {
-    max-width: 40%;
-  }
-  @media print, screen and(max-width: 1000px) {
-    margin-top: 30px;
-  }
-  a img {
+
     @media print, screen and(max-width: 1000px) {
-      max-width: 160px;
+      text-align: center;
+      & img {
+        width: 90%;
+      }
+    }
+    .tel {
+      line-height: 1.2em;
     }
   }
-}
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    @media print, screen and(min-width: 1001px) {
+      max-width: 40%;
+    }
+    @media print, screen and(max-width: 1000px) {
+      margin-top: 30px;
+    }
+    a img {
+      @media print, screen and(max-width: 1000px) {
+        max-width: 160px;
+      }
+    }
+  }
 
-.line-link {
-  margin-top: 20px;
-}
+  .line-link {
+    margin-top: 20px;
+  }
 
-.column {
-  display: flex;
-  flex-direction: column;
-}
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
 
-.banner3 {
-  margin-top: 20px;
-  border: 1px solid rgba(0,0,0, 0.3);
-}
+  .banner3 {
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
 
-.credit {
-  width: 385px;
-  margin-left: 0;
+  .credit {
+    width: 385px;
+    margin-left: 0;
+    @media print, screen and(max-width: 1000px) {
+      margin-left: 40px;
+      width: auto;
+    }
+  }
+  .credit img {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+  }
+  .SDGs_image {
+    margin-right: 5px;
+  }
+  .SDGs_image figure {
+    width: 70%;
+    margin: 10px auto 0;
+  }
+
   @media print, screen and(max-width: 1000px) {
-    margin-left: 40px;
-    width: auto;
+    .SDGs_image {
+      display: none;
+    }
   }
-}
-.credit img {
-  width: 220px;
-  display: block;
-  margin: 0 auto;
-}
-.SDGs_image {
-  margin-right: 5px;
-}
-.SDGs_image figure {
-  width: 70%;
-  margin: 10px auto 0;
-}
+  .sp_SDGs_image {
+    display: none;
+  }
+  @media print, screen and(max-width: 1000px) {
+    .sp_SDGs_image {
+      display: block;
+      width: 140px;
+      margin: 0 auto;
+    }
+    .sp_SDGs_image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
 
-@media print, screen and(max-width: 1000px) {
-  .SDGs_image  {
-  display: none;
-  }
-}
-.sp_SDGs_image {
-  display:none;
-}
-@media print, screen and(max-width: 1000px) {
-  .sp_SDGs_image  {
-  display: block;
-  width: 140px;
-  margin: 0 auto;
-  }
-  .sp_SDGs_image img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-}
-
-.sns {
+  .sns {
     display: flex;
     @media print, screen and(max-width: 1000px) {
       justify-content: center;
       margin-top: 20px;
     }
-}
+  }
 
-.sns a:hover {
-    opacity: .8;
-}
-
+  .sns a:hover {
+    opacity: 0.8;
+  }
 </style>
