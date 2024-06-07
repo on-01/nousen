@@ -253,25 +253,56 @@
         <p>【 メディア掲載実績 】</p>
         <div class="public-media-flex">
           <figure>
-            <img
-              src="../assets/img/common/public_media_1.jpg"
-              alt="建通新聞"
-              class="public-media-flex-image -type1"
-            />
+            <a
+              href="https://www.kentsu.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_1.jpg"
+                alt="建通新聞"
+                class="public-media-flex-image -type1"
+              />
+            </a>
           </figure>
           <figure>
-            <img
-              src="../assets/img/common/public_media_2.jpg"
-              alt="オーム社"
-              class="public-media-flex-image -type2"
-            />
+            <a
+              href="https://www.ohmsha.co.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_2.jpg"
+                alt="オーム社"
+                class="public-media-flex-image -type2"
+              />
+            </a>
           </figure>
           <figure>
-            <img
-              src="../assets/img/common/public_media_3.jpg"
-              alt="企業の窓口"
-              class="public-media-flex-image"
-            />
+            <a
+              href="https://kigyo.gmo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_3.jpg"
+                alt="企業の窓口"
+                class="public-media-flex-image"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a
+              href="https://www.innovations-i.com/biz-db/?id=2615"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_10.jpg"
+                alt="イノベーションズアイ"
+                class="public-media-flex-image"
+              />
+            </a>
           </figure>
         </div>
         <div class="public-media-flex">
@@ -283,27 +314,58 @@
             />
           </figure>
           <figure>
-            <img
-              src="../assets/img/common/public_media_5.jpg"
-              alt="コンテキストジャパン"
-              class="public-media-flex-image"
-            />
+            <a
+              href="https://context-japan.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_5.jpg"
+                alt="コンテキストジャパン"
+                class="public-media-flex-image"
+              />
+            </a>
           </figure>
           <figure>
-            <img
-              src="../assets/img/common/public_media_6.png"
-              alt="マイナビ"
-              class="public-media-flex-image"
-            />
+            <a
+              href="https://news.mynavi.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_6.png"
+                alt="マイナビ"
+                class="public-media-flex-image"
+              />
+            </a>
+          </figure>
+          <figure>
+            <a
+              href="https://context-japan.co.jp/ryokin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/banner3.jpg"
+                alt="料金相場.jp"
+                class="public-media-flex-image"
+              />
+            </a>
           </figure>
         </div>
         <div class="public-media-flex">
           <figure>
-            <img
-              src="../assets/img/common/public_media_7.jpg"
-              alt="電気の資格"
-              class="public-media-flex-image"
-            />
+            <a
+              href="https://denkikoujishi-goukaku.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_7.jpg"
+                alt="電気の資格"
+                class="public-media-flex-image"
+              />
+            </a>
           </figure>
           <figure>
             <a
@@ -319,11 +381,17 @@
             </a>
           </figure>
           <figure>
-            <img
-              src="../assets/img/common/public_media_9.jpg"
-              alt="資格times"
-              class="public-media-flex-image"
-            />
+            <a
+              href="https://shikakutimes.jp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_9.jpg"
+                alt="資格times"
+                class="public-media-flex-image"
+              />
+            </a>
           </figure>
         </div>
       </div>
