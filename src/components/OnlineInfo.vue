@@ -6,7 +6,9 @@
       </p>
     </div>
     <div class="online_infomation">
-      <p class="online_infomation_text">春から夏へと季節が変わりゆくこの頃</p>
+      <p class="online_infomation_text">
+        能センはサッカー日本代表を応援します！
+      </p>
     </div>
   </div>
 </template>
