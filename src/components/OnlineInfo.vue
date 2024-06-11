@@ -2,7 +2,7 @@
   <div :class="displayNone">
     <div class="sp_online_infomation">
       <p class="sp_online_infomation_text">
-        春から夏へと季節が変わりゆくこの頃
+        能センはサッカー日本代表を応援します！
       </p>
     </div>
     <div class="online_infomation">
