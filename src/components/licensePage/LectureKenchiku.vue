@@ -12,17 +12,6 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
-      <div class="lecture-section -center">
-        <figure class="lecture-image">
-          <g-image :src="imagePath2" :alt="altText2" />
-        </figure>
-        <div class="lecture-description">
-          <p class="lecture-title" v-html="title2"></p>
-          <p class="lecture-line"></p>
-          <p class="lecture-text">{{ text2 }}</p>
-          <p class="lecture-title -small" v-html="title3"></p>
-        </div>
-      </div>
       <div class="lecture-section -bottom">
         <div class="lecture-book-images">
           <figure class="lecture-book-image">
@@ -44,6 +33,17 @@
         <div class="lecture-description">
           <p class="lecture-teacher" v-html="teacher"></p>
           <p class="lecture-profile" v-html="profile"></p>
+        </div>
+      </div>
+      <div class="lecture-section -center">
+        <figure class="lecture-image">
+          <g-image :src="imagePath2" :alt="altText2" />
+        </figure>
+        <div class="lecture-description">
+          <p class="lecture-title" v-html="title2"></p>
+          <p class="lecture-line"></p>
+          <p class="lecture-text">{{ text2 }}</p>
+          <p class="lecture-title -small" v-html="title3"></p>
         </div>
       </div>
 
