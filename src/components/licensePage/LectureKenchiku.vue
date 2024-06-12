@@ -154,6 +154,10 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .lecture-title.-small {
+    font-size: 16px;
+    line-height: 1.6;
+  }
   .lecture-line {
     width: 20%;
     height: 4px;
