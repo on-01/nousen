@@ -848,12 +848,14 @@
   }
   .tab-wrapper {
     margin: 0 auto;
-    max-width: 900px;
+    // max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     display: flex;
     text-align: center;
     margin-top: -70px;
     font-weight: bold;
+    justify-content: space-between;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
       margin-top: -20vw;
@@ -862,7 +864,8 @@
       cursor: pointer;
       font-size: 20px;
       color: #666666;
-      max-width: 280px;
+      // max-width: 280px;
+      max-width: 305px;
       width: 100%;
       // background-color: #f2f2f2;
       // background-color: #FFF7D5;
