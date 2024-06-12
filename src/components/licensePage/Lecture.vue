@@ -69,6 +69,9 @@
       margin-left: 40px;
       padding-right: 0;
     }
+    .lecture-image {
+      width: 38%;
+    }
   }
 
   .lecture-image {
