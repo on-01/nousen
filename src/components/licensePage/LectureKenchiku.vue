@@ -20,7 +20,6 @@
           <p class="lecture-title" v-html="title2"></p>
           <p class="lecture-line"></p>
           <p class="lecture-text">{{ text2 }}</p>
-          <br />
           <p class="lecture-title -small" v-html="title3"></p>
         </div>
       </div>
@@ -157,6 +156,7 @@
   .lecture-title.-small {
     font-size: 16px;
     line-height: 1.6;
+    text-align: left;
   }
   .lecture-line {
     width: 20%;
