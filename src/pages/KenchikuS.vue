@@ -345,7 +345,7 @@
               description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
             />
 
-            <NewLecture
+            <LectureKenchiku
               title="井岡先生の講習がスゴイ！"
               text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
                 その後独立して１級建築士事務所を設立し現在に至る。
@@ -354,6 +354,13 @@
                 歯切れの良い語り口で要点をズバリと解説して下さる頼もしい先生です。"
               :imagePath="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
+              "
+              title2="勉強計画表で最短合格へ"
+              title3="能センの教材、副教材全てが合格へと通じています！"
+              text2="勉強計画表は、勉強をスムーズに進めるために、とても効果的な方法だと言われています。<br>
+                  能センでは計画に沿った勉強で最短合格ができるように、勉強計画表をお渡ししています。"
+              :imagePath2="
+                require('../assets/img/license_page/doboku_s/doboku_lecture2.jpg')
               "
               teacher="井岡和雄 先生"
               profile="＜プロフィール＞<br>
@@ -665,7 +672,7 @@
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
-  import NewLecture from "../components/licensePage/NewLecture.vue";
+  import LectureKenchiku from "../components/licensePage/LectureKenchiku.vue";
   import CheerKenchiku from "../components/licensePage/CheerKenchiku.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
@@ -731,7 +738,7 @@
       Method,
       Support,
       SupportSecond,
-      NewLecture,
+      LectureKenchiku,
       Discount,
       CheerKenchiku,
       // News,
