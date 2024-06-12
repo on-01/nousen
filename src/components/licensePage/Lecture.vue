@@ -12,6 +12,18 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
+      <div class="lecture-section -bottom">
+        <figure class="lecture-image">
+          <img :src="imagePath2" />
+        </figure>
+        <div class="lecture-description">
+          <p class="lecture-title" v-html="title3"></p>
+          <p class="lecture-line"></p>
+          <p class="lecture-text">{{ text2 }}</p>
+          <br />
+          <p class="lecture-title -small" v-html="title4"></p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -21,8 +33,12 @@
     props: {
       title: String,
       title2: String,
+      title3: String,
+      title4: String,
       text: String,
+      text2: String,
       imagePath: String,
+      imagePath2: String,
     },
   };
 </script>
@@ -44,6 +60,15 @@
   .lecture-section {
     display: flex;
     justify-content: space-between;
+  }
+
+  .lecture-section.-bottom {
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    .lecture-description {
+      margin-left: 40px;
+      padding-right: 0;
+    }
   }
 
   .lecture-image {

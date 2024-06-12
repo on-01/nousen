@@ -321,6 +321,13 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
+              title3="勉強計画表で最短合格へ"
+              title4="能センの教材、副教材全てが合格へと通じています！"
+              text2="勉強計画表は、勉強をスムーズに進めるために、とても効果的な方法だと言われています。<br>
+                  能センでは計画に沿った勉強で最短合格ができるように、勉強計画表をお渡ししています。"
+              :imagePath2="
+                require('../assets/img/license_page/doboku_s/doboku_lecture2.jpg')
+              "
             />
 
             <div class="bg-white">
