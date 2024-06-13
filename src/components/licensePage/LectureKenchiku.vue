@@ -35,6 +35,17 @@
           <p class="lecture-profile" v-html="profile"></p>
         </div>
       </div>
+      <div class="lecture-section">
+        <figure class="lecture-image">
+          <g-image :src="imagePath3" :alt="altText3" />
+        </figure>
+        <div class="lecture-description">
+          <p class="lecture-title" v-html="title4"></p>
+          <p class="lecture-line"></p>
+          <p class="lecture-bold" v-html="bold"></p>
+          <p class="lecture-text">{{ text3 }}</p>
+        </div>
+      </div>
       <div class="lecture-section -center">
         <figure class="lecture-image">
           <g-image :src="imagePath2" :alt="altText2" />
@@ -85,11 +96,14 @@
       title: String,
       title2: String,
       title3: String,
+      title4: String,
       text: String,
       text2: String,
+      text3: String,
       bold: String,
       imagePath: String,
       imagePath2: String,
+      imagePath3: String,
       teacher: String,
       profile: String,
       imageBook1: String,
@@ -97,6 +111,7 @@
       imageBook3: String,
       altText: String,
       altText2: String,
+      altText3: String,
       altBook1: String,
       altBook2: String,
       altBook3: String,
