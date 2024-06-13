@@ -355,6 +355,13 @@
               :imagePath="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
               "
+              title4="伊東先生の丁寧な講義で合格へ"
+              text3="現役の専門学校講師である伊東先生の講義は、試験対策の知識やポイント・技術を教えるのと同時に、現場で経験した内容もわかりやすく説明します。
+                1級建築士・1級建築施工管理技士の資格を持ち、「建築材料」「建築施工」「建築製図II」が得意分野です。
+                質問なども丁寧に対応いたします。"
+              :imagePath3="
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
+              "
               title2="勉強計画表で最短合格へ"
               title3="能センの教材、副教材全てが合格へと通じています！"
               text2="勉強計画表は、勉強をスムーズに進めるために、とても効果的な方法だと言われています。
