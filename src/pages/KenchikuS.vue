@@ -462,6 +462,73 @@
                       </div>
                     </div>
                   </div>
+                  <div class="voice-comment">
+                    <!-- <div class="voice-item">
+                              <h4>【能センについて】</h4>
+                              <p>
+                                ・講習会を実際に受けて見たらかなり良くて、スタッフの対応も丁寧で安心しました！<br>
+                                ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
+                              </p>
+                          </div> -->
+                    <div class="voice-item">
+                      <h4>【一次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(1)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_1.jpg"
+                            alt="電験三種 講座"
+                          />
+                        </figure>
+                        <p>
+                          ・要点のみを抑えた講義で勉強の範囲が分かって良かった。
+                          <br />
+                          ・講師の先生の解説がわかり易くて、理解しやすかった。
+                          <br />
+                          ・その場で質問ができるのが良いと思いました。声も聞き取りやすく大変よかったです。
+                          <br />
+                          ・講座を受けたことで勉強するとっかかりになりました。ありがとうございます。
+                          <br />
+                          ・受験合格を念頭においた講習会なので、ほとんど眠くならずに聴講することが出来ました。
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 1" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_1.jpg"
+                          alt="電験三種 講座"
+                        />
+                      </div>
+                    </div>
+                    <div class="voice-item">
+                      <h4>【二次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(2)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_2.jpg"
+                            alt="電験三種 講座"
+                          />
+                        </figure>
+                        <p>
+                          ・受講料金に添削指導も含まれているのが良い。
+                          <br />
+                          ・出題方法の説明、傾向の説明が分かりやすかった。
+                          <br />
+                          ・二次試験の概要が理解出来ました。ありがとうございます。
+                          <br />
+                          ・二次試験の経験記述についてのポイントが理解でき、早期に対策がとれそうだと思う。
+                          <br />
+                          ・２次試験の勉強のやり方が分からなかったが、やるべきポイントが分かったのでよかった。
+                          <br />
+                          ・二次の問題は文章をよく読んで、問われている事に対して適当な答えか合理的かを見ることが分かった。問題の傾向や減点される解答を分かりやすく教えてもらったのでよかった。
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 2" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_2.jpg"
+                          alt="電験三種 講座"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
@@ -766,6 +833,7 @@
     data() {
       return {
         isActive: 1,
+        isVoice: 0,
         isActiveTop: 2,
       };
     },
@@ -781,6 +849,13 @@
       },
       tabToggleTop: function (num) {
         this.isActiveTop = num;
+      },
+      toggleVoice: function (num) {
+        if (this.isVoice === num) {
+          this.isVoice = 0;
+        } else {
+          this.isVoice = num;
+        }
       },
     },
   };
