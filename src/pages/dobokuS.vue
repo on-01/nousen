@@ -399,6 +399,73 @@
                       </div>
                     </div>
                   </div>
+                  <div class="voice-comment">
+                    <!-- <div class="voice-item">
+                              <h4>【能センについて】</h4>
+                              <p>
+                                ・講習会を実際に受けて見たらかなり良くて、スタッフの対応も丁寧で安心しました！<br>
+                                ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
+                              </p>
+                          </div> -->
+                    <div class="voice-item">
+                      <h4>【一次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(1)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
+                            alt="電験三種 講座"
+                          />
+                        </figure>
+                        <p>
+                          ・わかり易く必要ポイントをまとめて教えてもらえた。
+                          <br />
+                          ・２日間で一通り学べるのでコストパフォーマンスが高いと感じだ。
+                          <br />
+                          ・オンラインは同じ内容みたいなので今後はオンラインでも受けてみたい
+                          <br />
+                          ・休憩中にも個別での質問に応じて下さったことが良かった。
+                          <br />
+                          ・重要なところだけをかいつまんで説明してくれたのでわかりやすかった
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 1" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
+                          alt="電験三種 講座"
+                        />
+                      </div>
+                    </div>
+                    <div class="voice-item">
+                      <h4>【二次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(2)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
+                            alt="電験三種 講座"
+                          />
+                        </figure>
+                        <p>
+                          ・NGな例、OKな例がわかりやすかった。
+                          <br />
+                          ・試験までの残り１ヶ月の取り組み方がはっきりとした。
+                          <br />
+                          ・記述内容の語句、数値などの具体的な表記について作文に役立てました。
+                          <br />
+                          ・本日はありがとうございました。添削指導よろしくお願いいたします。
+                          <br />
+                          ・要点がまとまっていて、理解しやすかった。講師の声も大きくはっきりしていて、ストレスなく受講できた。
+                          <br />
+                          ・必要な所、ポイントをわかりやすく教えて頂いた。仕事との両立で時間が無いため勉強するにあたりとても参考になった。
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 2" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
+                          alt="電験三種 講座"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
@@ -705,6 +772,7 @@
     data() {
       return {
         isActive: 1,
+        isVoice: 0,
         isActiveTop: 2,
       };
     },
@@ -720,6 +788,13 @@
       },
       tabToggleTop: function (num) {
         this.isActiveTop = num;
+      },
+      toggleVoice: function (num) {
+        if (this.isVoice === num) {
+          this.isVoice = 0;
+        } else {
+          this.isVoice = num;
+        }
       },
     },
   };
