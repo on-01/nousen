@@ -34,7 +34,7 @@
       </div>
       <div class="discount-flex">
         <p class="discount-flex-left -sp">
-          団体援割
+          団体割
           <br />
           <span class="number">（5名以上）</span>
           <span class="arrow">▶︎</span>
@@ -47,7 +47,7 @@
       </div>
       <div class="discount-flex">
         <p class="discount-flex-left -sp">
-          超団体援割
+          超団体割
           <br />
           <span class="number">（10名以上）</span>
           <span class="arrow">▶︎</span>
