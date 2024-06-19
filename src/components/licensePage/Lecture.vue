@@ -71,12 +71,17 @@
     }
     .lecture-image {
       width: 38%;
+      img {
+        width: 50%;
+        margin-left: 100px;
+      }
     }
   }
 
   .lecture-image {
     width: 48%;
   }
+
   .lecture-description {
     width: 48%;
     padding-right: 20px;
@@ -114,9 +119,25 @@
     .lecture-section {
       flex-wrap: wrap;
     }
+
+    .lecture-section.-bottom {
+      justify-content: center;
+      .lecture-description {
+        margin-left: auto;
+      }
+      .lecture-image {
+        width: 50%;
+        img {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+    }
+
     .lecture-image {
       width: 100%;
     }
+
     .lecture-description {
       width: 90%;
       margin-top: 20px;
