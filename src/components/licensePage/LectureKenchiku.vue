@@ -146,6 +146,10 @@
     }
     .lecture-image {
       width: 38%;
+      img {
+        width: 50%;
+        margin-left: 100px;
+      }
     }
   }
   .lecture-section.-bottom {
@@ -250,6 +254,21 @@
     .lecture-section {
       flex-wrap: wrap;
     }
+
+    .lecture-section.-center {
+      justify-content: center;
+      .lecture-description {
+        margin-left: auto;
+      }
+      .lecture-image {
+        width: 50%;
+        img {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+    }
+
     .lecture-image {
       width: 100%;
     }
