@@ -60,31 +60,28 @@
 
       <div class="add">
         <p class="add-title">学習内容</p>
-        <p class="add-text1">【基礎講座】</p>
-        <p class="add-text2">
-          電気数学の基礎【四則計算(加減乗除)・比例・反比例・指数法則と対数関数・二次方程式の根・分数式・連立方程式・三角関数・ベクトルと正弦波交流】・科目学習のポイント
-        </p>
-        <p class="add-text1">【理論】</p>
-        <p class="add-text2">
-          基礎数学・SI単位・電気・光・磁気効果・電気理論・電子理論・電気計測・電子計測・その他
-        </p>
-        <p class="add-text1">【電力】</p>
-        <p class="add-text2">
-          発電所及び変電所の設計及び運転・送電線路及び配電線路(屋内配線を含む)の設計及び
-          運用・電気材料・その他
-        </p>
-        <p class="add-text1">【機械】</p>
-        <p class="add-text2">
-          電気機器・パワーエレクトロニクス・電動機応用・照明・電熱・電気化学・電気加工・自動制御・メカトロニクス・電力システムに関する情報伝送及び処理・その他
-        </p>
-        <p class="add-text1">【法規】</p>
-        <p class="add-text2">
-          電気法規(保安に関するものに限る)・電気施設管理・その他
-        </p>
-        <p class="add-text1">【模擬試験】</p>
-        <p class="add-text2">
-          最新試験の直前予想模擬試験。模擬試験を取り組んだ後30分程度の解答解説講座
-        </p>
+        <div class="add-wrapper">
+          <p class="add-text1">【一次コース】</p>
+          <p class="add-text2">
+            ✅共通科目（建築学・施工・施工管理法）/ 選択科目（☆新設
+            応用能力問題・法規）
+            <br />
+            ▶試験に出るポイントを絞った講座内容
+            <br />
+            問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
+            <br />
+            短期間で合格するための内容になります。１７歳以上の学生や、受験資格に満たない方にもおすすめ！
+          </p>
+          <p class="add-text1">【二次コース】</p>
+          <p class="add-text2">
+            ✅施工経験記述 / 施工用語 / 工程管理 / 法規 / 施工技術 / その他
+            <br />
+            ▶ 二次試験対策＋経験記述の添削付き
+            <br />
+            経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
+            ポイント及び注意点までをわかり易く説明いたします。
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -226,6 +223,10 @@
   .add {
     padding: 10px 30px;
   }
+  .add-wrapper {
+    max-width: 755px;
+    margin: 0 auto;
+  }
   .add-text1 {
     font-size: 18px;
     font-weight: 700;
@@ -236,9 +237,7 @@
     line-height: 1.6;
     margin: 0;
   }
-  .kenchiku .add {
-    display: none;
-  }
+
   .add-title {
     font-size: 28px;
     font-weight: 700;
