@@ -291,7 +291,7 @@
       line-height: 1.6;
     }
     .add {
-      padding: 0 20px;
+      padding: 0 20px 30px;
     }
   }
 </style>
