@@ -24,6 +24,35 @@
           <p class="lecture-title -small" v-html="title4"></p>
         </div>
       </div>
+
+      <div class="add">
+        <p class="add-title">学習内容</p>
+        <p class="add-text1">【一次コース】</p>
+        <p class="add-text2">
+          ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          <br />
+          ▶試験に出るポイントを絞った講座内容
+          <br />
+          問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
+          <br />
+          期間で合格するための内容になります。１７歳以上の学生や、受験資格に満たない方にもおすすめ！
+        </p>
+        <p class="add-text1">【二次コース】</p>
+        <p class="add-text2">
+          ✅二次試験対策 / 施工経験記述 / 土工 / コンクリート / 安全管理 /
+          工程管理 / 品質管理 / 施工計画など
+          <br />
+          ▶ 二次試験対策＋経験記述の添削付き
+          <br />
+          経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
+          ポイント及び注意点までをわかり易く説明いたします。
+          <br />
+          <br />
+          ※受検種別に関しましては「土木」を対象にした講習になります
+          <br />
+          「鋼構造物塗装」「薬液注入」の講習は行いませんので、ご注意願います。
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -115,6 +144,30 @@
     margin-top: 0;
   }
 
+  .add {
+    padding: 10px 30px;
+  }
+  .add-text1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .add-text2 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .add-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+    border: 2px solid #1da1f2;
+    padding: 8px 0;
+    margin: 36px 0 12px;
+  }
+
   @media print, screen and (max-width: 1000px) {
     .lecture-section {
       flex-wrap: wrap;
@@ -155,6 +208,9 @@
     .lecture-text {
       font-size: 16px;
       line-height: 1.6;
+    }
+    .add {
+      padding: 0 20px;
     }
   }
 </style>
