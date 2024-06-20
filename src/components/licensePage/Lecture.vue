@@ -27,8 +27,8 @@
 
       <div class="add">
         <p class="add-title">学習内容</p>
-        <p class="add-text1">【一次コース】</p>
         <div class="add-wrapper">
+          <p class="add-text1">【一次コース】</p>
           <p class="add-text2">
             ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
             <br />
@@ -150,7 +150,7 @@
     padding: 10px 30px;
   }
   .add-wrapper {
-    max-width: 1200px;
+    max-width: 755px;
     margin: 0 auto;
   }
   .add-text1 {
