@@ -221,7 +221,7 @@
     margin: 0;
   }
   .add {
-    padding: 10px 30px;
+    padding: 10px 30px 40px;
   }
   .add-wrapper {
     max-width: 755px;
