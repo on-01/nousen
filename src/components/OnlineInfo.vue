@@ -37,7 +37,8 @@
     }
     @media print, screen and(min-width: 1080px) {
       font-size: 12px;
-      width: 230px;
+      // width: 230px;
+      width: 245px;
       left: 0;
     }
     & p {
