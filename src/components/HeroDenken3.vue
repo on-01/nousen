@@ -31,7 +31,7 @@
         |
         <a href="https://denken.nouryoku.com/online">オンライン講座</a>
         |
-        <a href="https://denken.nouryoku.com/tusin">通信講座</a>
+        <a href="https://t.kouza.nouryoku.com/">通信講座</a>
       </p>
     </div>
   </section>
