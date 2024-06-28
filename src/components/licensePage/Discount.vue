@@ -22,7 +22,7 @@
         <p class="discount-flex-left -sp">
           女子・学生
           <br />
-          応援割引
+          応援割
           <span class="arrow">▶︎</span>
         </p>
         <p class="discount-flex-right">
