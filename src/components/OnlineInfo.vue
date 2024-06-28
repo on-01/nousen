@@ -1,10 +1,14 @@
 <template>
   <div :class="displayNone">
     <div class="sp_online_infomation">
-      <p class="sp_online_infomation_text">サッカー日本代表を応援します！</p>
+      <p class="sp_online_infomation_text">
+        ２０２６年Ｗ杯&nbsp;目指せサッカー日本代表！
+      </p>
     </div>
     <div class="online_infomation">
-      <p class="online_infomation_text">サッカー日本代表を応援します！</p>
+      <p class="online_infomation_text">
+        ２０２６年Ｗ杯&nbsp;目指せサッカー日本代表！
+      </p>
     </div>
   </div>
 </template>
