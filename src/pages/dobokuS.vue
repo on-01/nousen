@@ -3,14 +3,13 @@
     <Layout>
       <div class="doboku">
         <header class="header">
-          <HeroDobokuKenchiku
+          <HeroDoboku
             :backImgOver="
               require('../assets/img/license_page/doboku_s/doboku_s_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和6年度下期"
             title="1・2級 土木施工管理技士"
-            subTitle="通学講座 | オンライン講座"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
           <CheerDoboku
@@ -672,7 +671,7 @@
 
 <script>
   // import Hero from "@/components/Hero.vue";
-  import HeroDobokuKenchiku from "@/components/HeroDobokuKenchiku.vue";
+  import HeroDoboku from "@/components/HeroDoboku.vue";
   import Point from "@/components/licensePage/Point.vue";
   import Explanation from "@/components/licensePage/Explanation.vue";
   import CampaignDoboku from "@/components/licensePage/CampaignDoboku.vue";
@@ -739,7 +738,7 @@
     },
     components: {
       // Hero,
-      HeroDobokuKenchiku,
+      HeroDoboku,
       Point,
       Explanation,
       CampaignDoboku,
