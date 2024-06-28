@@ -24,7 +24,16 @@
         <br />
         目標達成の未来へ
       </p>
-      <p v-if="subTitle" class="sub-title" v-html="subTitle"></p>
+      <!-- <p v-if="subTitle" class="sub-title" v-html="subTitle"></p> -->
+      <p class="sub-title">
+        <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
+        | -->
+        <a href="https://kenchiku.nouryoku.com/">通学講座</a>
+        |
+        <a href="https://kenchiku-online.nouryoku.com/">オンライン講座</a>
+        <!-- |
+        <a href="https://t.kouza.nouryoku.com/">通信講座</a> -->
+      </p>
     </div>
   </section>
 </template>
