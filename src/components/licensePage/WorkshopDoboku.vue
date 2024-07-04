@@ -96,6 +96,7 @@
     text-align: center;
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
+    margin-top: 0;
     @media print, screen and (max-width: 768px) {
       font-size: 20px;
     }
@@ -143,6 +144,7 @@
     padding: 10px 0;
     font-feature-settings: "palt";
     margin-top: 0;
+    margin-bottom: 0;
     span {
       color: red;
     }
@@ -158,6 +160,8 @@
 
   .workshop-bottom {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .workshop-bottom.-yellow {
@@ -169,7 +173,7 @@
   }
 
   .add {
-    padding: 10px 30px;
+    padding: 10px 30px 30px;
     margin: 0 auto;
     max-width: 1170px;
   }
