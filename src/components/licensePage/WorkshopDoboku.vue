@@ -1,78 +1,80 @@
 <template>
-  <p class="workshop-title">２級土木施工管理技士 通学講座（講習会）</p>
-  <p class="workshop-top">
-    お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になっています。
-    <br />
-    経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
-  </p>
-  <div class="workshop-wrapper">
-    <div class="workshop-box">
-      <p class="workshop-heading">前期</p>
-      <div class="workshop-content">
-        <p class="workshop-text">一次コース（２日間）</p>
-        <p class="workshop-text">【終了】</p>
-        <p class="workshop-text">
-          土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-        </p>
-      </div>
-      <p class="workshop-heading">後期（定員３０名）</p>
-      <div class="workshop-content">
-        <p class="workshop-text">一次コース（２日間）</p>
-        <p class="workshop-text">
-          ８月３１日（土）～９月１日（日）９：３０～１７：００【受付中】
-        </p>
-        <p class="workshop-text">
-          土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-        </p>
-      </div>
-      <div class="workshop-content">
-        <p class="workshop-text">二次コース（１日間）</p>
-        <p class="workshop-text">
-          ９月１５日（日）１０：００～１６：００【受付中】
-        </p>
-        <p class="workshop-text">
-          施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理 /
-          施工計画
-        </p>
+  <div class="workshop">
+    <p class="workshop-title">２級土木施工管理技士 通学講座（講習会）</p>
+    <p class="workshop-top">
+      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になっています。
+      <br />
+      経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
+    </p>
+    <div class="workshop-wrapper">
+      <div class="workshop-box">
+        <p class="workshop-heading">前期</p>
+        <div class="workshop-content">
+          <p class="workshop-text">一次コース（２日間）</p>
+          <p class="workshop-text">【終了】</p>
+          <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p>
+        </div>
+        <p class="workshop-heading">後期（定員３０名）</p>
+        <div class="workshop-content">
+          <p class="workshop-text">一次コース（２日間）</p>
+          <p class="workshop-text">
+            ８月３１日（土）～９月１日（日）９：３０～１７：００【受付中】
+          </p>
+          <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">二次コース（１日間）</p>
+          <p class="workshop-text">
+            ９月１５日（日）１０：００～１６：００【受付中】
+          </p>
+          <p class="workshop-text">
+            施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
+            / 施工計画
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <p class="workshop-bottom">
-    当日欠席しても安心！オンライン講座に無料振替OK！
-  </p>
-  <p class="workshop-bottom">
-    ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
-  </p>
+    <p class="workshop-bottom">
+      当日欠席しても安心！オンライン講座に無料振替OK！
+    </p>
+    <p class="workshop-bottom">
+      ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
+    </p>
 
-  <div class="add">
-    <p class="add-title">学習内容</p>
-    <div class="add-wrapper">
-      <p class="add-text1">【一次コース】</p>
-      <p class="add-text2">
-        ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+    <div class="add">
+      <p class="add-title">学習内容</p>
+      <div class="add-wrapper">
+        <p class="add-text1">【一次コース】</p>
+        <p class="add-text2">
+          ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          <br />
+          ▶試験に出るポイントを絞った講座内容
+          <br />
+          問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
+          <br />
+          １７歳以上の学生や、二次試験の受験資格に満たない方にもおすすめ！
+        </p>
         <br />
-        ▶試験に出るポイントを絞った講座内容
-        <br />
-        問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
-        <br />
-        １７歳以上の学生や、二次試験の受験資格に満たない方にもおすすめ！
-      </p>
-      <br />
-      <p class="add-text1">【二次コース】</p>
-      <p class="add-text2">
-        ✅二次試験対策 / 施工経験記述 / 土工 / コンクリート / 安全管理 /
-        工程管理 / 品質管理 / 施工計画
-        <br />
-        ▶ 二次試験対策＋経験記述の添削付き
-        <br />
-        経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
-        ポイント及び注意点までをわかり易く説明いたします。
-        <br />
-        <br />
-        ※受検種別に関しましては「土木」を対象にした講習になります
-        <br />
-        「鋼構造物塗装」「薬液注入」の講習は行いませんので、ご注意願います。
-      </p>
+        <p class="add-text1">【二次コース】</p>
+        <p class="add-text2">
+          ✅二次試験対策 / 施工経験記述 / 土工 / コンクリート / 安全管理 /
+          工程管理 / 品質管理 / 施工計画
+          <br />
+          ▶ 二次試験対策＋経験記述の添削付き
+          <br />
+          経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
+          ポイント及び注意点までをわかり易く説明いたします。
+          <br />
+          <br />
+          ※受検種別に関しましては「土木」を対象にした講習になります
+          <br />
+          「鋼構造物塗装」「薬液注入」の講習は行いませんので、ご注意願います。
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -86,7 +88,7 @@
     background-color: #1da1f2;
     padding: 1rem;
     text-align: center;
-    margin: 0;
+    margin-top: 30px;
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
     @media print, screen and (max-width: 768px) {
