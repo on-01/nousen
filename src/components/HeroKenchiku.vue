@@ -144,6 +144,9 @@
       @media print, screen and (max-width: 414px) {
         font-size: 13px;
       }
+      a {
+        text-decoration: underline;
+      }
     }
   }
   .icon {
