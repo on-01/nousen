@@ -20,7 +20,8 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース（２日間）</p>
           <p class="workshop-text">
-            ８月３１日（土）～９月１日（日）９：３０～１７：００【受付中】
+            ８月３１日（土）～９月１日（日）９：３０～１７：００
+            <span>【受付中】</span>
           </p>
           <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -29,7 +30,8 @@
         <div class="workshop-content">
           <p class="workshop-text">二次コース（１日間）</p>
           <p class="workshop-text">
-            ９月１５日（日）１０：００～１６：００【受付中】
+            ９月１５日（日）１０：００～１６：００
+            <span>【受付中】</span>
           </p>
           <p class="workshop-text">
             施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
@@ -38,7 +40,7 @@
         </div>
       </div>
     </div>
-    <p class="workshop-bottom">
+    <p class="workshop-bottom -yellow">
       当日欠席しても安心！オンライン講座に無料振替OK！
     </p>
     <p class="workshop-bottom">
@@ -80,6 +82,10 @@
 </template>
 
 <style lang="scss" scoped>
+  .workshop {
+    background-color: #fff;
+  }
+
   .workshop-title {
     line-height: 1.3;
     font-size: 28px;
@@ -88,7 +94,6 @@
     background-color: #1da1f2;
     padding: 1rem;
     text-align: center;
-    margin-top: 30px;
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
     @media print, screen and (max-width: 768px) {
@@ -120,7 +125,8 @@
     color: #ffffff;
     font-size: 18px;
     padding: 10px 0;
-    margin-top: 30px;
+    // margin-top: 30px;
+    margin-bottom: 0;
   }
 
   .workshop-content {
@@ -136,6 +142,10 @@
     text-align: center;
     padding: 10px 0;
     font-feature-settings: "palt";
+    margin-top: 0;
+    span {
+      color: red;
+    }
   }
 
   .workshop-text:nth-of-type(2),
@@ -148,6 +158,14 @@
 
   .workshop-bottom {
     text-align: center;
+  }
+
+  .workshop-bottom.-yellow {
+    text-align: center;
+    span {
+      background: #ffff8d;
+      padding: 1px;
+    }
   }
 
   .add {
