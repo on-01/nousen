@@ -41,7 +41,56 @@
       </div>
     </div>
     <p class="workshop-bottom -yellow">
-      当日欠席しても安心！オンライン講座に無料振替OK！
+      <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
+    </p>
+    <p class="workshop-bottom">
+      ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
+    </p>
+
+    <p class="workshop-title -bottom">
+      ２級土木施工管理技士 オンライン講座（WEB講座）
+    </p>
+    <p class="workshop-top">
+      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になっています。
+      <br />
+      経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
+    </p>
+    <div class="workshop-wrapper">
+      <div class="workshop-box">
+        <p class="workshop-heading">前期</p>
+        <div class="workshop-content">
+          <p class="workshop-text">一次コース（約１２時間）</p>
+          <p class="workshop-text">【終了】</p>
+          <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p>
+        </div>
+        <p class="workshop-heading -bottom">後期</p>
+        <div class="workshop-content">
+          <p class="workshop-text">一次コース（約１２時間）</p>
+          <p class="workshop-text">
+            令和６年９月５日(木) ～ 10月31日(木)まで
+            <span>【受付中】</span>
+          </p>
+          <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">二次コース（約５時間）</p>
+          <p class="workshop-text">
+            令和６年９月1８日(水) ～ 10月31日(木)まで
+            <span>【受付中】</span>
+          </p>
+          <p class="workshop-text">
+            施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
+            / 施工計画
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="workshop-bottom -yellow">
+      <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
     <p class="workshop-bottom">
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
@@ -102,6 +151,10 @@
     }
   }
 
+  .workshop-title.-bottom {
+    margin-top: 30px;
+  }
+
   .workshop-top {
     margin-top: 30px;
     text-align: center;
@@ -126,8 +179,12 @@
     color: #ffffff;
     font-size: 18px;
     padding: 10px 0;
-    // margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .workshop-heading.-bottom {
+    margin-top: 30px;
   }
 
   .workshop-content {
