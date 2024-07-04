@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <div class="add">
+      <!-- <div class="add">
         <p class="add-title">学習内容</p>
         <div class="add-wrapper">
           <p class="add-text1">【一次コース】</p>
@@ -55,7 +55,7 @@
             「鋼構造物塗装」「薬液注入」の講習は行いませんので、ご注意願います。
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
