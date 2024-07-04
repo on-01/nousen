@@ -329,6 +329,8 @@
               "
             />
 
+            <WorkshopDoboku />
+
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
@@ -700,6 +702,7 @@
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityDoboku from "../components/licensePage/QualityDoboku.vue";
+  import WorkshopDoboku from "../components/licensePage/WorkshopDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -765,6 +768,7 @@
       Fsc,
       Discount,
       SetCourse2,
+      WorkshopDoboku,
     },
     data() {
       return {
