@@ -87,14 +87,21 @@
             / 施工計画
           </p>
         </div>
+        <p class="workshop-heading -blue">昨年度の動画（無料サービス）</p>
+        <div class="workshop-content">
+          <p class="workshop-text -blue">
+            一次コース（約１２時間） / 二次コース（約５時間）
+          </p>
+          <p class="workshop-text -blue">
+            令和６年６月1日(土) ～ 10月31日(木)まで
+          </p>
+        </div>
       </div>
     </div>
     <p class="workshop-bottom -yellow">
-      <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
+      <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
-    <p class="workshop-bottom">
-      ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
-    </p>
+    <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
 
     <div class="add">
       <p class="add-title">学習内容</p>
@@ -183,6 +190,10 @@
     margin-bottom: 0;
   }
 
+  .workshop-heading.-blue {
+    background-color: #2a78fe;
+  }
+
   .workshop-heading.-bottom {
     margin-top: 30px;
   }
@@ -207,6 +218,13 @@
     }
   }
 
+  .workshop-text.-blue {
+    width: calc(100% / 2);
+    span {
+      color: red;
+    }
+  }
+
   .workshop-text:nth-of-type(2),
   .workshop-text:nth-of-type(3) {
     border-left: none;
@@ -219,6 +237,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    line-height: 1.5;
   }
 
   .workshop-bottom.-yellow {
