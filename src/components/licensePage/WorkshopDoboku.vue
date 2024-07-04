@@ -16,7 +16,7 @@
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p>
         </div>
-        <p class="workshop-heading">後期（定員３０名）</p>
+        <p class="workshop-heading -bottom">後期（定員３０名）</p>
         <div class="workshop-content">
           <p class="workshop-text">一次コース（２日間）</p>
           <p class="workshop-text">
@@ -87,7 +87,9 @@
             / 施工計画
           </p>
         </div>
-        <p class="workshop-heading -blue">昨年度の動画（無料サービス）</p>
+        <p class="workshop-heading -blue -bottom">
+          昨年度の動画（無料サービス）
+        </p>
         <div class="workshop-content">
           <p class="workshop-text -blue">
             一次コース（約１２時間） / 二次コース（約５時間）
