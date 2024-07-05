@@ -74,7 +74,7 @@
             />
 
             <div class="bg-lightBlue">
-              <Schedule title="試験日・受験申請・合格発表" />
+              <Schedule title="令和６年度 第三種電気主任技術者 試験日程" />
 
               <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#denken" class="exam-link">
@@ -1047,7 +1047,7 @@
     margin-top: 30px;
   }
   .bg-lightBlue {
-    padding-top: 20px;
+    // padding-top: 20px;
     background: #ebf7ff;
   }
   .bg-lightBlue_type2 {
