@@ -392,6 +392,8 @@
               "
             />
 
+            <WorkshopKenchiku />
+
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
@@ -762,6 +764,7 @@
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
+  import WorkshopKenchiku from "../components/licensePage/WorkshopKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -826,6 +829,7 @@
       Fsc,
       SetCourse2,
       QualityKenchiku,
+      WorkshopKenchiku,
     },
     data() {
       return {
