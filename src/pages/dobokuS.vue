@@ -17,7 +17,7 @@
               土木男子・土木女子を<br>
               応援します！"
             :imagePath="
-              require('../assets/img/license_page/doboku_s/doboku_point.jpg')
+              require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
             "
           />
 
