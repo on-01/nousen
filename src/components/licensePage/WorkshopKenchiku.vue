@@ -179,6 +179,12 @@
     margin: 0 auto;
     overflow: scroll;
     max-width: 1440px;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
   }
 
   .workshop-box {
