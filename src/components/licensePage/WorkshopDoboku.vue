@@ -143,6 +143,12 @@
   .workshop {
     background-color: #fff;
     font-family: メイリオ, sans-serif;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
   }
 
   .workshop-title {
