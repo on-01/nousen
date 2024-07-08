@@ -142,6 +142,7 @@
 <style lang="scss" scoped>
   .workshop {
     background-color: #fff;
+    font-family: メイリオ, sans-serif;
   }
 
   .workshop-title {
