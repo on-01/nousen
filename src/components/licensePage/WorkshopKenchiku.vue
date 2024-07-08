@@ -165,6 +165,7 @@
   .workshop-top {
     margin-top: 30px;
     text-align: center;
+    font-weight: 700;
   }
 
   .workshop-wrapper {
