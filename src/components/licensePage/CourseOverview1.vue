@@ -36,10 +36,10 @@
           </div>
         </div>
         <br />
-        <p class="courseOverview-text -type4">
+        <!-- <p class="courseOverview-text -type4">
           ※試験内容やその他電気事業法や法令・法律は
           改訂/改定されて行くので最新の試験対策講座（講習会）をおすすめいたします
-        </p>
+        </p> -->
         <div class="courseOverview-table-wrap">
           <table>
             <tr>
