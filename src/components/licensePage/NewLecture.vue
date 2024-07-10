@@ -63,6 +63,9 @@
         <p class="add-text2">
           最新試験の直前予想模擬試験。模擬試験を取り組んだ後30分程度の解答解説講座
         </p>
+        <p class="add-text1 -mt">
+          ※試験内容やその他、電気事業法や法令・法律は改定/改正されることがありますので、最新の試験対策講座をおすすめいたします
+        </p>
       </div>
     </div>
   </div>
@@ -178,6 +181,9 @@
     font-size: 18px;
     font-weight: 700;
     margin: 0;
+  }
+  .add-text1.-mt {
+    margin-top: 10px;
   }
   .add-text2 {
     font-size: 16px;
