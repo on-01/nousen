@@ -1,6 +1,6 @@
 <template>
   <div class="workshop">
-    <p class="workshop-title">２級土木施工管理技士 通学講座（講習会）</p>
+    <p class="workshop-title">２級土木施工管理技士 通学講座(講習会)</p>
     <p class="workshop-top">
       お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になっています。
       <br />
@@ -10,17 +10,17 @@
       <div class="workshop-box">
         <p class="workshop-heading">前期</p>
         <div class="workshop-content">
-          <p class="workshop-text">一次コース（２日間）</p>
+          <p class="workshop-text">一次コース(2日間)</p>
           <p class="workshop-text">【終了】</p>
           <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p>
         </div>
-        <p class="workshop-heading -bottom">後期（定員３０名）</p>
+        <p class="workshop-heading -bottom">後期(定員30名)</p>
         <div class="workshop-content">
-          <p class="workshop-text">一次コース（２日間）</p>
+          <p class="workshop-text">一次コース(2日間)</p>
           <p class="workshop-text">
-            ８月３１日（土）～９月１日（日）９：３０～１７：００
+            8月31日(土)～9月1日(日)9:30～17:00
             <span>【受付中】</span>
           </p>
           <p class="workshop-text">
@@ -28,9 +28,9 @@
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">二次コース（１日間）</p>
+          <p class="workshop-text">二次コース(1日間)</p>
           <p class="workshop-text">
-            ９月１５日（日）１０：００～１６：００
+            9月15日(日)10:00～16:00
             <span>【受付中】</span>
           </p>
           <p class="workshop-text">
@@ -48,10 +48,10 @@
     </p>
 
     <p class="workshop-title -bottom">
-      ２級土木施工管理技士 オンライン講座（WEB講座）
+      ２級土木施工管理技士 オンライン講座(WEB講座)
     </p>
     <p class="workshop-top">
-      能センがおすすめするオンライン講座（WEB講座）は、短期間での合格に特化した受験対策講座。
+      能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
       高性能な動画配信プラットフォームを使い、最新動画をPCやスマホから何回でも視聴できます！
     </p>
@@ -59,7 +59,7 @@
       <div class="workshop-box">
         <p class="workshop-heading">前期</p>
         <div class="workshop-content">
-          <p class="workshop-text">一次コース（約１２時間）</p>
+          <p class="workshop-text">一次コース(約12時間)</p>
           <p class="workshop-text">【終了】</p>
           <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -67,9 +67,9 @@
         </div>
         <p class="workshop-heading -bottom">後期</p>
         <div class="workshop-content">
-          <p class="workshop-text">一次コース（約１２時間）</p>
+          <p class="workshop-text">一次コース(約12時間)</p>
           <p class="workshop-text">
-            令和６年９月５日(木) ～ 10月31日(木)まで
+            令和6年9月5日(木)～10月31日(木)まで
             <span>【受付中】</span>
           </p>
           <p class="workshop-text">
@@ -77,9 +77,9 @@
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">二次コース（約５時間）</p>
+          <p class="workshop-text">二次コース(約5時間)</p>
           <p class="workshop-text">
-            令和６年９月1８日(水) ～ 10月31日(木)まで
+            令和6年9月18日(水)～10月31日(木)まで
             <span>【受付中】</span>
           </p>
           <p class="workshop-text">
@@ -87,16 +87,12 @@
             / 施工計画
           </p>
         </div>
-        <p class="workshop-heading -blue -bottom">
-          昨年度の動画（無料サービス）
-        </p>
+        <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
           <p class="workshop-text -blue">
-            一次コース（約１２時間） / 二次コース（約５時間）
+            一次コース(約12時間) / 二次コース(約5時間)
           </p>
-          <p class="workshop-text -blue">
-            令和６年６月1日(土) ～ 10月31日(木)まで
-          </p>
+          <p class="workshop-text -blue">令和6年6月1日(土)～10月31日(木)まで</p>
         </div>
       </div>
     </div>
@@ -167,9 +163,9 @@
     }
   }
 
-  .workshop-title.-bottom {
-    margin-top: 30px;
-  }
+  // .workshop-title.-bottom {
+  //   margin-top: 30px;
+  // }
 
   .workshop-top {
     margin-top: 30px;
@@ -200,10 +196,11 @@
     text-align: center;
     background-color: #ed6c00;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 19px;
     padding: 10px 0;
     margin-top: 0;
     margin-bottom: 0;
+    font-weight: 700;
   }
 
   .workshop-heading.-blue {
@@ -253,11 +250,13 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 60px;
     line-height: 1.5;
   }
 
   .workshop-bottom.-yellow {
     text-align: center;
+    padding-bottom: 0;
     span {
       background: #ffff8d;
       padding: 1px;
@@ -291,7 +290,7 @@
     color: #000;
     border: 2px solid #1da1f2;
     padding: 8px 0;
-    margin: 36px 0 12px;
+    margin: 0 0 12px;
   }
 
   @media print, screen and (max-width: 1000px) {
