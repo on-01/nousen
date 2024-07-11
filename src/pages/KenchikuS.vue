@@ -53,6 +53,8 @@
               "
             />
 
+            <ScheduleKenchiku title="１・２級建築施工管理技士 試験日程" />
+
             <Support title="＼＼建設業を応援しよう／／" />
 
             <!-- <QualityKenchiku
@@ -765,6 +767,7 @@
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
   import WorkshopKenchiku from "../components/licensePage/WorkshopKenchiku.vue";
+  import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -830,6 +833,7 @@
       SetCourse2,
       QualityKenchiku,
       WorkshopKenchiku,
+      ScheduleKenchiku,
     },
     data() {
       return {
