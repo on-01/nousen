@@ -288,7 +288,7 @@
 
   .workshop-text.-ryoukin.-orange {
     background-color: #ed6c00;
-    border-top: solid 1px;
+    border: solid 1px #000;
     color: #ffffff;
     font-weight: 700;
   }
@@ -308,9 +308,18 @@
   .workshop-text:nth-of-type(3),
   .workshop-text:nth-of-type(4) {
     border-left: none;
-    @media print, screen and (max-width: 1024px) {
-      border-left: solid 1px;
-    }
+    // @media print, screen and (max-width: 1024px) {
+    //   border-left: solid 1px;
+    // }
+  }
+
+  .workshop-text.-ryoukin.-orange:nth-of-type(2),
+  .workshop-text.-ryoukin.-orange:nth-of-type(3),
+  .workshop-text.-ryoukin.-orange:nth-of-type(4) {
+    border-left: none;
+    // @media print, screen and (max-width: 1024px) {
+    //   border-left: solid 1px;
+    // }
   }
 
   .workshop-bottom {
