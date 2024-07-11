@@ -89,7 +89,8 @@
     width: 100%;
     font-family: "Meiryo", sans-serif;
     background-color: #fff;
-    margin: 20px auto 0;
+    // margin: 20px auto 0;
+    margin: 0 auto;
     z-index: 0;
     position: relative;
   }
