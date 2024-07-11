@@ -112,10 +112,10 @@
               </div>
             </td>
           </tr>
+          <p>
+            ※一次のみの受験申込は、インターネット申込になります。インターネット環境がない方は、試験機関にお問合せください
+          </p>
         </table>
-        <p>
-          ※一次のみの受験申込は、インターネット申込になります。インターネット環境がない方は、試験機関にお問合せください
-        </p>
       </div>
     </div>
   </div>
@@ -196,7 +196,7 @@
   .schedule-th {
     background: #249ef0;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 2px;
     border-bottom: 1px solid #000;
     font-size: 20px;
   }
@@ -204,15 +204,15 @@
     width: 20%;
   }
   .schedule-th.-second {
-    width: 10%;
+    width: 12%;
     border-left: 1px solid #000;
   }
   .schedule-th.-third {
-    width: 35%;
+    width: 31%;
     border-left: 1px solid #000;
   }
   .schedule-th.-forth {
-    width: 10%;
+    width: 12%;
     border-left: 1px solid #000;
   }
 
