@@ -304,6 +304,8 @@
 
   .schedule-table-bottomTable {
     min-width: 1110px;
+    margin-top: 20px;
+    margin-bottom: 2px;
   }
 
   .bottomTable__wrap {
@@ -311,6 +313,9 @@
   }
 
   .bottomTable__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .bottomTable__text {
@@ -323,6 +328,7 @@
     color: #fff;
     padding-top: 2px;
     font-size: 20px;
+    font-weight: 700;
   }
 
   .bottomTable__text.-center {
