@@ -102,8 +102,51 @@
     <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
 
     <div class="add">
-      <p class="add-title">学習内容</p>
+      <p class="add-title">受講料金</p>
       <div class="add-wrapper">
+        <div class="workshop-content">
+          <p class="workshop-text -ryoukin -orange"></p>
+          <p class="workshop-text -ryoukin">一次・二次セット</p>
+          <p class="workshop-text -ryoukin">一次コース</p>
+          <p class="workshop-text -ryoukin">二次コース</p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text -ryoukin">通学</p>
+          <p class="workshop-text -ryoukin">
+            ４１,０００円
+            <br />
+            (税込４５,１００円)
+          </p>
+          <p class="workshop-text -ryoukin">
+            ３３,０００円
+            <br />
+            (税込３６,３００円)
+          </p>
+          <p class="workshop-text -ryoukin">
+            １６,２００円
+            <br />
+            (税込１７,８２０円)
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text -ryoukin">オンライン</p>
+          <p class="workshop-text -ryoukin">
+            ３９,０００円
+            <br />
+            (税込４２,９００円)
+          </p>
+          <p class="workshop-text -ryoukin">
+            ３０,０００円
+            <br />
+            (税込３３,０００円)
+          </p>
+          <p class="workshop-text -ryoukin">
+            １６,２００円
+            <br />
+            (税込１７,８２０円)
+          </p>
+        </div>
+
         <p class="add-text1">【一次コース】</p>
         <p class="add-text2">
           ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -229,6 +272,14 @@
     span {
       color: red;
     }
+  }
+
+  .workshop-text.-ryoukin {
+    width: calc(100% / 4);
+  }
+
+  .workshop-text.-ryoukin.-orange {
+    background-color: #ed6c00;
   }
 
   .workshop-text.-blue {
