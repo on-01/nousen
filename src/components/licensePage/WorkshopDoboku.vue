@@ -278,11 +278,16 @@
 
   .workshop-text.-ryoukin {
     width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .workshop-text.-ryoukin.-orange {
     background-color: #ed6c00;
     border-top: solid 1px;
+    color: #ffffff;
+    font-weight: 700;
   }
 
   .workshop-text.-blue {
