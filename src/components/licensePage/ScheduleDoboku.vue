@@ -257,7 +257,7 @@
     border-bottom: 1px solid #000;
   }
   .schedule-table-padding {
-    padding: 17px 0;
+    padding: 3px 0;
   }
   .schedule-table-padding-type2 {
     padding: 3px 0;
