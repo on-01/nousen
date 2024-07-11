@@ -105,14 +105,14 @@
       <p class="add-title">受講料金</p>
       <div class="add-wrapper">
         <div class="add-tableWrap">
-          <div class="workshop-content">
+          <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -orange"></p>
             <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
             <p class="workshop-text -ryoukin -orange">一次コース</p>
             <p class="workshop-text -ryoukin -orange">二次コース</p>
           </div>
-          <div class="workshop-content">
-            <p class="workshop-text -ryoukin">通学</p>
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -bold">通学</p>
             <p class="workshop-text -ryoukin">
               ４１,０００円
               <br />
@@ -129,8 +129,8 @@
               (税込１７,８２０円)
             </p>
           </div>
-          <div class="workshop-content">
-            <p class="workshop-text -ryoukin">オンライン</p>
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -bold">オンライン</p>
             <p class="workshop-text -ryoukin">
               ３９,０００円
               <br />
@@ -261,6 +261,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .workshop-content {
+    min-width: 755px;
+  }
 
   .workshop-text {
     width: calc(100% / 3);
@@ -287,6 +290,10 @@
     background-color: #ed6c00;
     border-top: solid 1px;
     color: #ffffff;
+    font-weight: 700;
+  }
+
+  .workshop-text.-ryoukin.-bold {
     font-weight: 700;
   }
 
@@ -355,6 +362,13 @@
 
   .add-tableWrap {
     margin: 30px 0;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
