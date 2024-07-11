@@ -104,8 +104,53 @@
     <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
 
     <div class="add">
-      <p class="add-title">学習内容</p>
+      <p class="add-title">受講料金</p>
       <div class="add-wrapper">
+        <div class="add-tableWrap">
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -orange"></p>
+            <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
+            <p class="workshop-text -ryoukin -orange">一次コース</p>
+            <p class="workshop-text -ryoukin -orange">二次コース</p>
+          </div>
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -bold">通学</p>
+            <p class="workshop-text -ryoukin">
+              ４１,０００円
+              <br />
+              (税込４５,１００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              ３３,０００円
+              <br />
+              (税込３６,３００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              １６,２００円
+              <br />
+              (税込１７,８２０円)
+            </p>
+          </div>
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -bold">オンライン</p>
+            <p class="workshop-text -ryoukin">
+              ３９,０００円
+              <br />
+              (税込４２,９００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              ３０,０００円
+              <br />
+              (税込３３,０００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              １６,２００円
+              <br />
+              (税込１７,８２０円)
+            </p>
+          </div>
+        </div>
+
         <p class="add-text1">【一次コース】</p>
         <p class="add-text2">
           ✅共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
@@ -213,6 +258,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .workshop-content {
+    min-width: 755px;
+  }
 
   .workshop-text {
     width: calc(100% / 3);
@@ -228,6 +276,24 @@
     }
   }
 
+  .workshop-text.-ryoukin {
+    width: calc(100% / 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .workshop-text.-ryoukin.-orange {
+    background-color: #ed6c00;
+    border: solid 1px #000;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .workshop-text.-ryoukin.-bold {
+    font-weight: 700;
+  }
+
   .workshop-text.-blue {
     width: calc(100% / 2);
     span {
@@ -236,11 +302,21 @@
   }
 
   .workshop-text:nth-of-type(2),
-  .workshop-text:nth-of-type(3) {
+  .workshop-text:nth-of-type(3),
+  .workshop-text:nth-of-type(4) {
     border-left: none;
-    @media print, screen and (max-width: 1024px) {
-      border-left: solid 1px;
-    }
+    // @media print, screen and (max-width: 1024px) {
+    //   border-left: solid 1px;
+    // }
+  }
+
+  .workshop-text.-ryoukin.-orange:nth-of-type(2),
+  .workshop-text.-ryoukin.-orange:nth-of-type(3),
+  .workshop-text.-ryoukin.-orange:nth-of-type(4) {
+    border-left: none;
+    // @media print, screen and (max-width: 1024px) {
+    //   border-left: solid 1px;
+    // }
   }
 
   .workshop-bottom {
@@ -288,6 +364,17 @@
     border: 2px solid #1da1f2;
     padding: 8px 0;
     margin: 0 0 12px;
+  }
+
+  .add-tableWrap {
+    margin: 30px 0;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
