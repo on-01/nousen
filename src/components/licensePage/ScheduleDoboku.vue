@@ -202,7 +202,7 @@
     font-size: 20px;
   }
   .schedule-table {
-    border: 2px solid #000;
+    border: 1px solid #000;
     width: 100%;
   }
   .schedule-th {
