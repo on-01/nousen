@@ -54,6 +54,10 @@
               "
             />
 
+            <div class="bg-lightBlue">
+              <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
+            </div>
+
             <Support title="＼＼建設業を応援しよう／／" />
 
             <!-- <QualityDoboku
@@ -703,6 +707,7 @@
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityDoboku from "../components/licensePage/QualityDoboku.vue";
   import WorkshopDoboku from "../components/licensePage/WorkshopDoboku.vue";
+  import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -769,6 +774,7 @@
       Discount,
       SetCourse2,
       WorkshopDoboku,
+      ScheduleDoboku,
     },
     data() {
       return {
