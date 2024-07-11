@@ -113,7 +113,18 @@
             </td>
           </tr>
         </table>
-        <p>
+        <div class="schedule-table-bottomTable bottomTable">
+          <div class="bottomTable__wrap">
+            <div class="bottomTable__text -blue">試験期間</div>
+            <div class="bottomTable__text -center">
+              一般財団法人 全国建設研修センター
+            </div>
+            <div class="bottomTable__text -bottom">
+              TEL ０４２－３００－６８６０（土日・祝日・年末年始除く）
+            </div>
+          </div>
+        </div>
+        <p class="schedule-table-bottomText">
           ※一次のみの受験申込は、インターネット申込になります。インターネット環境がない方は、試験機関にお問合せください
         </p>
       </div>
@@ -180,7 +191,8 @@
     width: 10%;
     height: 4px;
     // background: #249ef0;
-    margin: 20px auto 30px;
+    // margin: 20px auto 30px;
+    margin: 10px auto 0;
     border-radius: 8px;
   }
   .schedule-tableTitle {
@@ -284,6 +296,43 @@
   .schedule-price-type2 {
     display: block;
     transform: translateY(10px);
+  }
+
+  .schedule-table-bottomText {
+    min-width: 1110px;
+  }
+
+  .schedule-table-bottomTable {
+    min-width: 1110px;
+  }
+
+  .bottomTable__wrap {
+    display: flex;
+  }
+
+  .bottomTable__text {
+  }
+
+  .bottomTable__text {
+    border: 1px solid #000;
+  }
+
+  .bottomTable__text.-blue {
+    width: 20%;
+    background: #249ef0;
+    color: #fff;
+    padding-top: 2px;
+    font-size: 20px;
+  }
+
+  .bottomTable__text.-center {
+    width: 40%;
+    border-left: none;
+  }
+
+  .bottomTable__text.-bottom {
+    width: 40%;
+    border-left: none;
   }
 
   @media print, screen and (max-width: 1110px) {
