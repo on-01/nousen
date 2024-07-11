@@ -60,17 +60,13 @@
             </td>
           </tr>
           <tr>
-            <td
-              class="schedule-td-bold schedule-td-border-none schedule-table-padding"
-            >
+            <td class="schedule-td-border-none schedule-padding-none">
               <div class="schedule-table-flex">
                 <div class="schedule-td-bold schedule-td-flex-left">
                   ２級前期
                 </div>
                 <div class="schedule-td-flex-right">
-                  <p class="schedule-td-flex-right-top schedule-table-padding">
-                    一次
-                  </p>
+                  <p class="schedule-table-padding">一次</p>
                 </div>
               </div>
             </td>
@@ -257,7 +253,7 @@
     border-bottom: 1px solid #000;
   }
   .schedule-table-padding {
-    padding: 17px 0;
+    padding: 3px 0;
   }
   .schedule-table-padding-type2 {
     padding: 3px 0;
