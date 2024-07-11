@@ -54,9 +54,7 @@
               "
             />
 
-            <div class="bg-lightBlue">
-              <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
-            </div>
+            <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
 
             <Support title="＼＼建設業を応援しよう／／" />
 
