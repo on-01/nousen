@@ -263,7 +263,8 @@
   }
 
   .workshop-text {
-    width: calc(100% / 3);
+    // width: calc(100% / 3);
+    width: calc(100% / 2);
     border: solid 1px;
     border-top: none;
     text-align: center;
