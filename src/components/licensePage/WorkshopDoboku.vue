@@ -12,9 +12,9 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース(2日間)</p>
           <p class="workshop-text">【終了】</p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -bottom">後期(定員30名)</p>
         <div class="workshop-content">
@@ -23,9 +23,9 @@
             8月31日(土)～9月1日(日)9:30～17:00
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p>
+          </p> -->
         </div>
         <div class="workshop-content">
           <p class="workshop-text">二次コース(1日間)</p>
@@ -33,10 +33,10 @@
             9月15日(日)10:00～16:00
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
             / 施工計画
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -61,9 +61,9 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース(約12時間)</p>
           <p class="workshop-text">【終了】</p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -bottom">後期</p>
         <div class="workshop-content">
@@ -72,9 +72,9 @@
             令和6年9月5日(木)～10月31日(木)まで
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p>
+          </p> -->
         </div>
         <div class="workshop-content">
           <p class="workshop-text">二次コース(約5時間)</p>
@@ -82,10 +82,10 @@
             令和6年9月18日(水)～10月31日(木)まで
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
             / 施工計画
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
@@ -266,7 +266,8 @@
   }
 
   .workshop-text {
-    width: calc(100% / 3);
+    // width: calc(100% / 3);
+    width: calc(100% / 2);
     border: solid 1px;
     border-top: none;
     text-align: center;
