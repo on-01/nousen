@@ -12,10 +12,10 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース(2日間)</p>
           <p class="workshop-text">【終了】</p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
             応用能力問題・法規)
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -bottom">後期(定員30名)</p>
         <div class="workshop-content">
@@ -24,10 +24,10 @@
             10月12日(土)～13日(日)9:30～17:00
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
             応用能力問題・法規)
-          </p>
+          </p> -->
         </div>
         <div class="workshop-content">
           <p class="workshop-text">二次コース(1日間)</p>
@@ -35,9 +35,9 @@
             10月19日(土)10:00～16:00
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             施工経験記述 / 施工用語 / 工程管理 / 法規 / 施工技術 / その他
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -62,10 +62,10 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース(約12時間)</p>
           <p class="workshop-text">【終了】</p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
             応用能力問題・法規)
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -bottom">後期</p>
         <div class="workshop-content">
@@ -74,10 +74,10 @@
             令和6年10月17日(木)～11月30日(土)まで
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
             応用能力問題・法規)
-          </p>
+          </p> -->
         </div>
         <div class="workshop-content">
           <p class="workshop-text">二次コース(約5時間)</p>
@@ -85,9 +85,9 @@
             令和6年10月23日(水)～11月30日(土)まで
             <span>【受付中】</span>
           </p>
-          <p class="workshop-text">
+          <!-- <p class="workshop-text">
             施工経験記述 / 施工用語 / 工程管理 / 法規 / 施工技術 / その他
-          </p>
+          </p> -->
         </div>
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
