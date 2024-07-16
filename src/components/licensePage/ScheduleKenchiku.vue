@@ -34,18 +34,18 @@
                 >
                   ※
                 </p>
-                <p class="schedule-table-padding">２月２３日（金）</p>
+                <p class="schedule-table-padding">２月９日（金）</p>
               </div>
             </td>
-            <td>３月２２日（金）～４月５日（金）</td>
+            <td>２月２２日（金）～３月８日（金）</td>
             <td class="schedule-padding-none">
               <div>
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  ７月７日（日）
+                  ７月２１日（日）
                 </p>
-                <p class="schedule-table-padding">１０月６日（日）</p>
+                <p class="schedule-table-padding">１０月２０日（日）</p>
               </div>
             </td>
             <td class="schedule-padding-none">
@@ -53,7 +53,7 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  ８月１５日（木）
+                  ８月２３日（金）
                 </p>
                 <p class="schedule-table-padding">令和７年１月１０日（金）</p>
               </div>
@@ -71,9 +71,9 @@
               </div>
             </td>
             <td>※</td>
-            <td>３月６日（木）～３月２１日（木）</td>
-            <td>６月２日（日）</td>
-            <td>７月２日（火）</td>
+            <td>２月９日（木）～３月８日（金）</td>
+            <td>６月９日（日）</td>
+            <td>７月１０日（水）</td>
           </tr>
           <tr>
             <td class="schedule-td-border-none schedule-padding-none">
@@ -96,31 +96,31 @@
                 >
                   ※
                 </p>
-                <p class="schedule-table-padding">６月１７日(月)</p>
+                <p class="schedule-table-padding">６月２６日(水)</p>
               </div>
             </td>
-            <td>７月３日（水）～７月１７日（水）</td>
-            <td>１０月２７（日）</td>
+            <td>７月１０日（水）～７月２４日（水）</td>
+            <td>１１月２４（日）</td>
             <td class="schedule-padding-none">
               <div>
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  １２月４日（火）
+                  令和７年１月１０日（金）
                 </p>
-                <p class="schedule-table-padding">令和７年２月５日（水）</p>
+                <p class="schedule-table-padding">令和７年２月７日（金）</p>
               </div>
             </td>
           </tr>
         </table>
         <div class="schedule-table-bottomTable bottomTable">
           <div class="bottomTable__wrap">
-            <div class="bottomTable__text -blue">試験期間</div>
+            <div class="bottomTable__text -blue">試験機関</div>
             <div class="bottomTable__text -center">
-              一般財団法人 全国建設研修センター
+              一般財団法人 建設業振興基金
             </div>
             <div class="bottomTable__text -bottom">
-              TEL ０４２－３００－６８６０（土日・祝日・年末年始除く）
+              TEL ０３－５４７３－１５８１（土日・祝日・年末年始除く）
             </div>
           </div>
         </div>
