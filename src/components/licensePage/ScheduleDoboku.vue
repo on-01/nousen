@@ -115,7 +115,7 @@
         </table>
         <div class="schedule-table-bottomTable bottomTable">
           <div class="bottomTable__wrap">
-            <div class="bottomTable__text -blue">試験期間</div>
+            <div class="bottomTable__text -blue">試験機関</div>
             <div class="bottomTable__text -center">
               一般財団法人 全国建設研修センター
             </div>
