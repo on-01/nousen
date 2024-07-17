@@ -183,7 +183,8 @@
     margin: 0;
   }
   .add-text1.-mt {
-    margin-top: 10px;
+    // margin-top: 10px;
+    margin-top: 9px;
   }
   .add-text2 {
     font-size: 16px;
