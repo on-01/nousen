@@ -124,9 +124,9 @@
               (税込３６,３００円)
             </p>
             <p class="workshop-text -ryoukin">
-              １６,２００円
+              １６,３００円
               <br />
-              (税込１７,８２０円)
+              (税込１７,９３０円)
             </p>
           </div>
           <div class="workshop-content -ryoukin">
@@ -142,9 +142,9 @@
               (税込３３,０００円)
             </p>
             <p class="workshop-text -ryoukin">
-              １６,２００円
+              １６,３００円
               <br />
-              (税込１７,８２０円)
+              (税込１７,９３０円)
             </p>
           </div>
         </div>
