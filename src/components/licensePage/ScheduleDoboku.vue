@@ -222,16 +222,16 @@
     border-left: 1px solid #000;
   }
   .schedule-th.-third {
-    width: 31%;
+    width: 27%;
     border-left: 1px solid #000;
   }
   .schedule-th.-forth {
-    width: 12%;
+    width: 19%;
     border-left: 1px solid #000;
   }
 
   .schedule-th.-fifth {
-    width: 25%;
+    width: 22%;
     border-left: 1px solid #000;
   }
 
@@ -251,10 +251,10 @@
     align-items: center;
   }
   .schedule-td-flex-left {
-    width: 40%;
+    width: 50%;
   }
   .schedule-td-flex-right {
-    width: 60%;
+    width: 50%;
     border-left: 1px solid #000;
   }
   .schedule-tr-border-none {
