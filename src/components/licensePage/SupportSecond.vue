@@ -46,7 +46,7 @@
       </div>
     </div> -->
     <div class="support-wrap -second">
-      <p class="support-title">ミライを創る【創業支援割引制度】</p>
+      <p class="support-title">ミライを創ろう【創業支援割引制度】</p>
       <div class="support">
         <div class="support-description -second">
           <!-- <p>ミライを創る【創業支援割引制度】</p> -->
@@ -70,8 +70,8 @@
               能センは建設業の発展に微力ながら尽力させていただきます！
             </p>
             <br />
-            <p>※創業日から数えて２年以内の企業が対象になります。</p>
-            <p>※他の割引とは併用できません。</p>
+            <p>※創業日から数えて２年以内の企業が対象になります</p>
+            <p>※他の割引とは併用できません</p>
           </div>
         </div>
       </div>
