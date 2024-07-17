@@ -166,7 +166,7 @@
   }
   .schedule-inner {
     padding: 20px 10px;
-    max-width: 930px;
+    max-width: 1012px;
     width: 100%;
     margin: 0 auto;
   }
@@ -301,11 +301,11 @@
   }
 
   .schedule-table-bottomText {
-    min-width: 930px;
+    min-width: 1012px;
   }
 
   .schedule-table-bottomTable {
-    min-width: 930px;
+    min-width: 1012px;
     margin-top: 20px;
     margin-bottom: 2px;
   }
@@ -361,7 +361,7 @@
       overflow-x: auto;
     }
     .schedule-table {
-      min-width: 930px;
+      min-width: 1012px;
     }
   }
 </style>
