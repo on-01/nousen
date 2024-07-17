@@ -270,7 +270,7 @@
     padding: 8px 0;
   }
   .schedule-table-padding-type2 {
-    padding: 3px 0;
+    padding: 8px 0;
   }
   .schedule-table-note {
     color: red;
