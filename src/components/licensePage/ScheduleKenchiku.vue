@@ -120,7 +120,9 @@
               一般財団法人 建設業振興基金
             </div>
             <div class="bottomTable__text -bottom">
-              TEL ０３－５４７３－１５８１（土日・祝日・年末年始除く）
+              TEL ０３－５４７３－１５８１
+              <br />
+              （土日・祝日・年末年始除く）
             </div>
           </div>
         </div>
@@ -164,7 +166,7 @@
   }
   .schedule-inner {
     padding: 20px 10px;
-    max-width: 1170px;
+    max-width: 930px;
     width: 100%;
     margin: 0 auto;
   }
@@ -265,7 +267,7 @@
     border-bottom: 1px solid #000;
   }
   .schedule-table-padding {
-    padding: 3px 0;
+    padding: 8px 0;
   }
   .schedule-table-padding-type2 {
     padding: 3px 0;
@@ -299,11 +301,11 @@
   }
 
   .schedule-table-bottomText {
-    min-width: 1110px;
+    min-width: 930px;
   }
 
   .schedule-table-bottomTable {
-    min-width: 1110px;
+    min-width: 930px;
     margin-top: 20px;
     margin-bottom: 2px;
   }
@@ -326,7 +328,7 @@
     width: 20%;
     background: #249ef0;
     color: #fff;
-    padding-top: 2px;
+    padding-top: 5px;
     font-size: 20px;
     font-weight: 700;
   }
@@ -359,7 +361,7 @@
       overflow-x: auto;
     }
     .schedule-table {
-      min-width: 1110px;
+      min-width: 930px;
     }
   }
 </style>
