@@ -12,7 +12,7 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
-      <div class="lecture-section -bottom">
+      <!-- <div class="lecture-section -bottom">
         <figure class="lecture-image">
           <img :src="imagePath2" />
         </figure>
@@ -23,7 +23,7 @@
           <br />
           <p class="lecture-title -small" v-html="title4"></p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
