@@ -46,7 +46,7 @@
         解説付きの解答で理解度UP！問題の考え方から解き方まで丁寧に説明します。
       </p>
       <div class="lecture-section -center">
-        <figure class="exam-bottom-image">
+        <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
             alt="電験三種"
@@ -215,7 +215,7 @@
     flex-direction: row-reverse;
     margin-top: 40px;
     .lecture-description {
-      margin-left: 40px;
+      // margin-left: 40px;
       padding-right: 0;
     }
     .lecture-image {
