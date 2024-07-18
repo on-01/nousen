@@ -28,7 +28,7 @@
       <p class="sub-title">
         <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
         | -->
-        <a href="https://doboku.nouryoku.com/">通学講座</a>
+        <a href="https://nousen.blog/tugaku-d/">通学講座</a>
         |
         <a href="https://doboku-online.nouryoku.com/">オンライン講座</a>
         <!-- |
