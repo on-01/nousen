@@ -27,7 +27,7 @@
                   {{ hall }}
                 </p>
                 <div class="address" v-html="richtextToHTML(address)"></div>
-                <!-- 土木、建築のみ表示される画像 -->
+                <!-- 電験３のみ表示される画像 -->
                 <img
                   class="address-map-img"
                   src="../../assets/img/license_page/venue-map2.jpg"
