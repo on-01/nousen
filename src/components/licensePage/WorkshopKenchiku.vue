@@ -325,6 +325,10 @@
     }
   }
 
+  .workshop-address {
+    margin: 0;
+  }
+
   .workshop-address.-bold {
     font-weight: 700;
   }
@@ -367,8 +371,14 @@
   .workshop-flex {
     display: flex;
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+
+    img {
+      width: 43%;
+    }
   }
 
   .add {
@@ -415,6 +425,14 @@
   @media print, screen and (max-width: 1000px) {
     .add {
       padding: 0 20px;
+    }
+
+    .workshop-flex {
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
     }
   }
 </style>
