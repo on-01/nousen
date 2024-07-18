@@ -323,9 +323,9 @@
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
             />
-
-            <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
-
+            <div class="bg-white">
+              <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
+            </div>
             <WorkshopDoboku />
 
             <div class="bg-white">
