@@ -71,7 +71,7 @@
         <div class="workshop-content">
           <p class="workshop-text">一次コース(約12時間)</p>
           <p class="workshop-text">
-            令和6年10月17日(木)～11月30日(土)まで
+            10月17日(木)～11月30日(土)まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -82,7 +82,7 @@
         <div class="workshop-content">
           <p class="workshop-text">二次コース(約5時間)</p>
           <p class="workshop-text">
-            令和6年10月23日(水)～11月30日(土)まで
+            10月23日(水)～11月30日(土)まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -94,7 +94,7 @@
           <p class="workshop-text -blue">
             一次コース(約12時間) / 二次コース(約5時間)
           </p>
-          <p class="workshop-text -blue">令和6年6月1日(土)～11月30日(土)まで</p>
+          <p class="workshop-text -blue">6月1日(土)～11月30日(土)まで</p>
         </div>
       </div>
     </div>
@@ -229,8 +229,8 @@
   }
 
   .workshop-box {
-    max-width: 1200px;
-    min-width: 1200px;
+    max-width: 900px;
+    min-width: 900px;
     margin: 0 auto;
   }
 
