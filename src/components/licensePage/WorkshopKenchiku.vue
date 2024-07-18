@@ -351,7 +351,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     line-height: 1.5;
   }
 
