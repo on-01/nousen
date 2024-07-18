@@ -47,6 +47,35 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
+    <div class="workshop-flex">
+      <div>
+        <p class="workshop-address -bold">東京会場 練馬産業会館</p>
+        <a
+          href="http://www.nerima-sanren.jp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          http://www.nerima-sanren.jp/
+        </a>
+        <p class="workshop-address">
+          最寄り駅 西武池袋線「桜台」駅 南口
+          <br />
+          徒歩5分（池袋からお越しの際は各駅停車をご利用ください）
+          <br />
+          西武池袋線「練馬」駅 南口 徒歩6分
+          <br />
+          都営大江戸線「練馬駅」A1出口より徒歩6分
+          <br />
+          駐車場のご用意がございません。公共の交通機関をご利用ください。
+        </p>
+      </div>
+      <img
+        class="address-map-img"
+        src="../../assets/img/license_page/venue-map.jpg"
+        alt="会場までの地図"
+      />
+    </div>
+
     <p class="workshop-title -bottom">
       ２級土木施工管理技士 オンライン講座(WEB講座)
     </p>
@@ -215,6 +244,7 @@
   .workshop-top {
     margin-top: 30px;
     text-align: center;
+    padding: 0 40px;
     font-weight: 700;
   }
 
@@ -305,6 +335,14 @@
     }
   }
 
+  .workshop-address {
+    margin: 0;
+  }
+
+  .workshop-address.-bold {
+    font-weight: 700;
+  }
+
   .workshop-text:nth-of-type(2),
   .workshop-text:nth-of-type(3),
   .workshop-text:nth-of-type(4) {
@@ -327,7 +365,9 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     line-height: 1.5;
   }
 
@@ -337,6 +377,20 @@
     span {
       background: #ffff8d;
       padding: 1px;
+    }
+  }
+
+  .workshop-flex {
+    display: flex;
+    // width: 100%;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: center;
+
+    img {
+      width: 43%;
     }
   }
 
@@ -384,6 +438,23 @@
   @media print, screen and (max-width: 1000px) {
     .add {
       padding: 0 20px;
+    }
+
+    .workshop-flex {
+      flex-direction: column;
+      row-gap: 15px;
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  @media print, screen and (max-width: 480px) {
+    .workshop-flex {
+      img {
+        width: 100%;
+      }
     }
   }
 </style>
