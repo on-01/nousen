@@ -51,7 +51,13 @@
     <div class="workshop-flex">
       <div>
         <p class="workshop-address -bold">東京会場 練馬産業会館</p>
-        <a href="http://www.nerima-sanren.jp/">http://www.nerima-sanren.jp/</a>
+        <a
+          href="http://www.nerima-sanren.jp/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          http://www.nerima-sanren.jp/
+        </a>
         <p class="workshop-address">
           最寄り駅 西武池袋線「桜台」駅 南口
           <br />
