@@ -437,9 +437,19 @@
       padding: 0 20px;
     }
 
+    .workshop-top {
+      padding: 0 20px;
+    }
+
+    .workshop-bottom {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
     .workshop-flex {
       flex-direction: column;
       row-gap: 15px;
+      padding: 0 20px;
 
       img {
         width: 50%;
