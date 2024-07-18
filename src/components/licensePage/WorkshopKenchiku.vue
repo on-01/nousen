@@ -48,7 +48,7 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
-    <div class="workshop-flex">
+    <!-- <div class="workshop-flex">
       <div>
         <p class="workshop-text -bold">東京会場 練馬産業会館</p>
         <a href="http://www.nerima-sanren.jp/">http://www.nerima-sanren.jp/</a>
@@ -69,7 +69,7 @@
         src="../../assets/img/license_page/venue-map.jpg"
         alt="会場までの地図"
       />
-    </div>
+    </div> -->
 
     <p class="workshop-title -bottom">
       ２級建築施工管理技士 オンライン講座(WEB講座)
