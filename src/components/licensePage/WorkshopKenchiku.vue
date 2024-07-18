@@ -235,6 +235,7 @@
   .workshop-top {
     margin-top: 30px;
     text-align: center;
+    padding: 0 40px;
     font-weight: 700;
   }
 
@@ -356,6 +357,8 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
     line-height: 1.5;
   }
 
@@ -370,7 +373,7 @@
 
   .workshop-flex {
     display: flex;
-    width: 100%;
+    // width: 100%;
     padding: 0 40px;
     max-width: 980px;
     margin: 20px auto 30px;
