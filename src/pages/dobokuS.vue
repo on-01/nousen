@@ -1068,6 +1068,10 @@
     padding-bottom: 110px;
   }
 
+  .bg-white {
+    background-color: #ffffff;
+  }
+
   .bg-white_type2 {
     background-color: #ffffff;
     padding-top: 60px;
