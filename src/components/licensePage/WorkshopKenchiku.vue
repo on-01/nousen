@@ -440,4 +440,12 @@
       }
     }
   }
+
+  @media print, screen and (max-width: 480px) {
+    .workshop-flex {
+      img {
+        width: 100%;
+      }
+    }
+  }
 </style>
