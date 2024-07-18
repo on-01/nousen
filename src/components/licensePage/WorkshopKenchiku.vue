@@ -48,6 +48,29 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
+    <div class="workshop-flex">
+      <div>
+        <p class="workshop-text -bold">東京会場 練馬産業会館</p>
+        <a href="http://www.nerima-sanren.jp/">http://www.nerima-sanren.jp/</a>
+        <p class="workshop-text">
+          最寄り駅 西武池袋線「桜台」駅 南口
+          <br />
+          徒歩5分（池袋からお越しの際は各駅停車をご利用ください）
+          <br />
+          西武池袋線「練馬」駅 南口 徒歩6分
+          <br />
+          都営大江戸線「練馬駅」A1出口より徒歩6分
+          <br />
+          駐車場のご用意がございません。公共の交通機関をご利用ください。
+        </p>
+      </div>
+      <img
+        class="address-map-img"
+        src="../../assets/img/license_page/venue-map.jpg"
+        alt="会場までの地図"
+      />
+    </div>
+
     <p class="workshop-title -bottom">
       ２級建築施工管理技士 オンライン講座(WEB講座)
     </p>
@@ -300,6 +323,10 @@
     span {
       color: red;
     }
+  }
+
+  .workshop-text.-bold {
+    font-weight: 700;
   }
 
   .workshop-text:nth-of-type(2),
