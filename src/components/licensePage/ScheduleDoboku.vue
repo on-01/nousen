@@ -165,9 +165,9 @@
     margin: 0;
   }
   .schedule-inner {
-    padding: 20px 10px;
+    padding: 20px 0 20px 10px;
     max-width: 930px;
-    width: 100%;
+    // width: 100%;
     margin: 0 auto;
   }
   .schedule-title {
