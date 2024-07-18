@@ -429,9 +429,10 @@
 
     .workshop-flex {
       flex-direction: column;
+      row-gap: 15px;
 
       img {
-        width: 100%;
+        width: 50%;
       }
     }
   }
