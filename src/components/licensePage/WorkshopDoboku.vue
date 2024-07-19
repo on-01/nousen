@@ -30,7 +30,6 @@
           <p class="workshop-text -first">後期</p>
           <div class="workshop-text -second">
             <p class="workshop-border">一次コース(2日間)</p>
-            <br />
             <p class="workshop-border -none">二次コース(1日間)</p>
           </div>
           <div class="workshop-text -third">
@@ -38,7 +37,6 @@
               8月31日(土)～9月1日(日)9:30～17:00
               <span>【受付中】</span>
             </p>
-            <br />
             <p class="workshop-border -none">
               9月15日(日)10:00～16:00
               <span>【受付中】</span>
@@ -359,9 +357,13 @@
   .workshop-text.-second {
     width: 35%;
     border-left: none;
+    display: flex;
+    flex-direction: column;
   }
   .workshop-text.-third {
     width: 50%;
+    display: flex;
+    flex-direction: column;
   }
 
   .workshop-border {
@@ -372,6 +374,7 @@
 
   .workshop-border.-none {
     border-bottom: none;
+    padding-top: 10px;
   }
 
   .workshop-text.-ryoukin {
