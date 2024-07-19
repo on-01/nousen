@@ -105,43 +105,55 @@
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
-        <p class="workshop-heading">前期</p>
+        <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text">一次コース(約12時間)</p>
-          <p class="workshop-text">【終了】</p>
-          <!-- <p class="workshop-text">
-            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p> -->
-        </div>
-        <p class="workshop-heading -bottom">後期</p>
-        <div class="workshop-content">
-          <p class="workshop-text">一次コース(約12時間)</p>
-          <p class="workshop-text">
-            9月5日(木)～10月31日(木)まで
-            <span>【受付中】</span>
-          </p>
+          <p class="workshop-text -first -orange"></p>
+          <p class="workshop-text -second -orange">コース</p>
+          <p class="workshop-text -third -orange">配信日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">二次コース(約5時間)</p>
+          <p class="workshop-text -first">前期</p>
+          <p class="workshop-text -second">一次コース(約12時間)</p>
+          <p class="workshop-text -third">【終了】</p>
+          <!-- <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p> -->
+        </div>
+        <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
+        <div class="workshop-content">
+          <p class="workshop-text -first">後期</p>
+          <div class="workshop-text -second">
+            <p class="workshop-border">一次コース（2日間）</p>
+            <p class="workshop-border -none">二次コース（1日）</p>
+          </div>
+          <div class="workshop-text -third">
+            <p class="workshop-border">
+              9月5日(木)～10月31日(木)まで
+              <span>【受付中】</span>
+            </p>
+            <p class="workshop-border -none">
+              9月18日(水)～10月31日(木)まで
+              <span>【受付中】</span>
+            </p>
+          </div>
+          <!-- <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p> -->
+        </div>
+        <!-- <div class="workshop-content">
+          <p class="workshop-text">二次コース(1日間)</p>
           <p class="workshop-text">
-            9月18日(水)～10月31日(木)まで
+            9月15日(日)10:00～16:00
             <span>【受付中】</span>
           </p>
-          <!-- <p class="workshop-text">
+          <p class="workshop-text">
             施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
             / 施工計画
-          </p> -->
-        </div>
-        <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
-        <div class="workshop-content">
-          <p class="workshop-text -blue">
-            一次コース(約12時間) / 二次コース(約5時間)
           </p>
-          <p class="workshop-text -blue">6月1日(土)～10月31日(木)まで</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <p class="workshop-bottom -yellow">
