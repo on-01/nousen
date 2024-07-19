@@ -8,36 +8,55 @@
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
-        <p class="workshop-heading">前期</p>
+        <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text">一次コース(2日間)</p>
-          <p class="workshop-text">【終了】</p>
+          <p class="workshop-text -first -orange"></p>
+          <p class="workshop-text -second -orange">コース</p>
+          <p class="workshop-text -third -orange">講習日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
-        <p class="workshop-heading -bottom">後期(定員30名)</p>
         <div class="workshop-content">
-          <p class="workshop-text">一次コース(2日間)</p>
-          <p class="workshop-text">
-            8月31日(土)～9月1日(日)9:30～17:00
+          <p class="workshop-text -first">前期</p>
+          <p class="workshop-text -second">一次コース(2日間)</p>
+          <p class="workshop-text -third">【終了】</p>
+          <!-- <p class="workshop-text">
+            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
+          </p> -->
+        </div>
+        <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
+        <div class="workshop-content">
+          <p class="workshop-text -first">後期</p>
+          <div class="workshop-text -second">
+            <p>一次コース(2日間)</p>
+            <br />
+            <p>二次コース(1日間)</p>
+          </div>
+          <div class="workshop-text -third">
+            <p>8月31日(土)～9月1日(日)9:30～17:00</p>
             <span>【受付中】</span>
-          </p>
+            <br />
+            <p>
+              9月15日(日)10:00～16:00
+              <span>【受付中】</span>
+            </p>
+          </div>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
-        <div class="workshop-content">
+        <!-- <div class="workshop-content">
           <p class="workshop-text">二次コース(1日間)</p>
           <p class="workshop-text">
             9月15日(日)10:00～16:00
             <span>【受付中】</span>
           </p>
-          <!-- <p class="workshop-text">
+          <p class="workshop-text">
             施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
             / 施工計画
-          </p> -->
-        </div>
+          </p>
+        </div> -->
       </div>
     </div>
     <p class="workshop-bottom -yellow">
@@ -308,6 +327,22 @@
     span {
       color: red;
     }
+  }
+
+  .workshop-text.-orange {
+    background-color: #ed6c00;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .workshop-text.-first {
+    width: 10%;
+  }
+  .workshop-text.-second {
+    width: 40%;
+  }
+  .workshop-text.-third {
+    width: 50%;
   }
 
   .workshop-text.-ryoukin {
