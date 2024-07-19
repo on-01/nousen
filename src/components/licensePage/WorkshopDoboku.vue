@@ -333,18 +333,13 @@
     background-color: #ed6c00;
     color: #ffffff;
     font-weight: 700;
+    border: solid 1px #000;
   }
   .workshop-text.-first.-orange {
-    border-top: solid 1px #000;
-    border-left: solid 1px #000;
   }
   .workshop-text.-second.-orange {
-    border-top: solid 1px #000;
-    border-left: solid 1px #000;
   }
   .workshop-text.-third.-orange {
-    border-top: solid 1px #000;
-    border-right: solid 1px #000;
   }
 
   .workshop-text.-first {
@@ -375,6 +370,7 @@
   .workshop-border.-none {
     border-bottom: none;
     padding-top: 10px;
+    padding-bottom: 0;
   }
 
   .workshop-text.-ryoukin {
