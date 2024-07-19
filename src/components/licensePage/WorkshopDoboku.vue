@@ -154,6 +154,13 @@
             / 施工計画
           </p>
         </div> -->
+        <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
+        <div class="workshop-content">
+          <p class="workshop-text -blue">
+            一次コース(約12時間) / 二次コース(約5時間)
+          </p>
+          <p class="workshop-text -blue">6月1日(土)～10月31日(木)まで</p>
+        </div>
       </div>
     </div>
     <p class="workshop-bottom -yellow">
