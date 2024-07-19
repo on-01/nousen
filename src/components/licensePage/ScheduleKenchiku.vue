@@ -218,7 +218,7 @@
     width: 20%;
   }
   .schedule-th.-second {
-    width: 12%;
+    width: 14%;
     border-left: 1px solid #000;
   }
   .schedule-th.-third {
@@ -226,7 +226,7 @@
     border-left: 1px solid #000;
   }
   .schedule-th.-forth {
-    width: 19%;
+    width: 17%;
     border-left: 1px solid #000;
   }
 
