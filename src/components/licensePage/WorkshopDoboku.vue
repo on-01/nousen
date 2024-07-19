@@ -30,7 +30,7 @@
           <p class="workshop-text -first">後期</p>
           <div class="workshop-text -second">
             <p class="workshop-border">一次コース(2日間)</p>
-            <p class="workshop-border -none">二次コース(1日間)</p>
+            <p class="workshop-border -none">二次コース(1日)</p>
           </div>
           <div class="workshop-text -third">
             <p class="workshop-border">
