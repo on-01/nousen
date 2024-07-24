@@ -20,19 +20,19 @@
         <div class="body" v-if="isOpen">
           <div class="body-inner">
             <div class="details" v-html="richtextToHTML(details)"></div>
-            <div class="address-map">
+            <!-- <div class="address-map">
               <div class="address-wrap">
                 <p class="address-title">
                   <span>{{ city }}会場</span>
                   {{ hall }}
                 </p>
                 <div class="address" v-html="richtextToHTML(address)"></div>
-                <!-- 土木、建築のみ表示される画像 -->
-                <!-- <img
+                土木、建築のみ表示される画像
+                <img
                   class="address-map-img"
                   src="../../assets/img/license_page/venue-map.jpg"
                   alt="会場までの地図"
-                /> -->
+                />
               </div>
 
               <div class="map">
@@ -54,7 +54,7 @@
                   />
                 </GmapMap>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </transition>
