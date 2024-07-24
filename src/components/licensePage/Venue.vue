@@ -20,7 +20,7 @@
         <div class="body" v-if="isOpen">
           <div class="body-inner">
             <div class="details" v-html="richtextToHTML(details)"></div>
-            <div class="address-map">
+            <!-- <div class="address-map">
               <div class="address-wrap">
                 <p class="address-title">
                   <span>{{ city }}会場</span>
@@ -47,7 +47,7 @@
                   />
                 </GmapMap>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </transition>
