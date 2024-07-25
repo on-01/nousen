@@ -109,6 +109,7 @@
       <div>
         <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
+          class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
           alt=""
         />
@@ -507,7 +508,7 @@
       flex-direction: column;
       row-gap: 20px;
       img {
-        width: 100%;
+        width: 70%;
       }
     }
   }
@@ -522,6 +523,12 @@
       font-size: 20px;
       margin-bottom: 20px;
     }
+  }
+
+  .flex-img {
+    margin-top: 70px;
+    @media print, screen and (max-width: 920px) {
+     margin-top: 0;
   }
 
   .add {
