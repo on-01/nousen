@@ -3,21 +3,40 @@
     <div class="pv-wrap">
       <p class="pv-title">{{ movieTitle }}</p>
       <div class="pv">
-        <p class="pv-description">{{ description }}</p>
-        <div class="pv-movie" v-if="movie">
-          <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <iframe
-            width="560"
-            height="315"
-            :src="`https://www.youtube.com/embed/${movie}`" 
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+        <div>
+          <p class="pv-description">{{ description }}</p>
+          <div class="pv-movie" v-if="movie">
+            <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe
+              width="560"
+              height="315"
+              :src="`https://www.youtube.com/embed/${movie}`"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="pv-img" v-if="!movie && image">
+            <img :src="image" alt="" />
+          </div>
         </div>
-        <div class="pv-img" v-if="!movie && image">
-          <img :src="image" alt="" />
+        <div>
+          <p class="pv-description">{{ description }}</p>
+          <div class="pv-movie" v-if="movie">
+            <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/watch?v=DVz-tCUTXHk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="pv-img" v-if="!movie && image">
+            <img :src="image" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -49,6 +68,7 @@
     width: 800px;
     margin: 0 auto;
     padding: 0 3em 5rem;
+    display: flex;
     @media print, screen and (max-width: 1001px) {
       width: 90%;
       padding: 0rem 0rem 2rem;
