@@ -102,6 +102,7 @@
       <div>
         <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
+          class="flex-img -right"
           src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
           alt=""
         />
@@ -499,17 +500,9 @@
     margin: 20px auto 30px;
     column-gap: 14px;
     justify-content: space-between;
-    img {
-      width: 80%;
-      display: block;
-      margin: 0 auto;
-    }
     @media print, screen and (max-width: 920px) {
       flex-direction: column;
       row-gap: 20px;
-      img {
-        width: 70%;
-      }
     }
   }
 
@@ -526,6 +519,15 @@
   }
 
   .flex-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    @media print, screen and (max-width: 920px) {
+      width: 70%;
+    }
+  }
+
+  .flex-img.-right {
     margin-top: 70px;
     @media print, screen and (max-width: 920px) {
       margin-top: 0;
