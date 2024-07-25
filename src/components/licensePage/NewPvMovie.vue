@@ -3,7 +3,7 @@
     <div class="pv-wrap">
       <p class="pv-title">{{ movieTitle }}</p>
       <div class="pv">
-        <div>
+        <div class="pv-content">
           <p class="pv-description">{{ description }}</p>
           <div class="pv-movie" v-if="movie">
             <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
@@ -21,7 +21,7 @@
             <img :src="image" alt="" />
           </div>
         </div>
-        <div>
+        <div class="pv-content">
           <p class="pv-description">電験三種 基礎講座 ヒルヒホッフの第１法則</p>
           <div class="pv-movie">
             <iframe
@@ -73,10 +73,19 @@
     display: flex;
     column-gap: 30px;
     @media print, screen and (max-width: 1001px) {
+      flex-direction: column;
       width: 90%;
       padding: 0rem 0rem 2rem;
     }
   }
+
+  .pv-content {
+    width: 50%;
+    @media print, screen and (max-width: 1001px) {
+      width: 100%;
+    }
+  }
+
   .pv-title {
     line-height: 1.3;
     font-size: 28px;
