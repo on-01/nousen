@@ -68,7 +68,7 @@
 
     <div class="workshop-flex">
       <div>
-        <p class="workshop-address -bold">東京会場 練馬産業会館</p>
+        <p class="workshop-address -bold">東京会場 練馬産業会館（30名限定）</p>
         <a
           href="http://www.nerima-sanren.jp/"
           target="_blank"
@@ -98,6 +98,10 @@
     <p class="workshop-title -bottom">
       ２級建築施工管理技士 オンライン講座(WEB講座)
     </p>
+    <div class="workshop-flex-img">
+      <img src="../../assets/img/license_page/doboku_s/doboku-pc.jpg" alt="" />
+      <img src="../../assets/img/license_page/doboku_s/doboku-sp.jpg" alt="" />
+    </div>
     <p class="workshop-top">
       能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
@@ -126,8 +130,8 @@
         <div class="workshop-content">
           <p class="workshop-text -first">後期</p>
           <div class="workshop-text -second">
-            <p class="workshop-border">一次コース（2日間）</p>
-            <p class="workshop-border -none">二次コース（1日）</p>
+            <p class="workshop-border">一次コース(約12時間)</p>
+            <p class="workshop-border -none">二次コース(約5時間)</p>
           </div>
           <div class="workshop-text -third">
             <p class="workshop-border">
@@ -163,6 +167,9 @@
         </div>
       </div>
     </div>
+    <p class="workshop-bottom -yellow">
+      <span>最大34時間分の動画視聴！！</span>
+    </p>
     <p class="workshop-bottom -yellow">
       <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
@@ -451,6 +458,7 @@
   .workshop-bottom.-yellow {
     text-align: center;
     padding-bottom: 0;
+    font-weight: 700;
     span {
       background: #ffff8d;
       padding: 1px;
@@ -469,6 +477,15 @@
     img {
       width: 43%;
     }
+  }
+
+  .workshop-flex-img {
+    display: flex;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: center;
   }
 
   .add {
