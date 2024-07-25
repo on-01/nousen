@@ -100,14 +100,14 @@
     </p>
     <div class="workshop-flex-img">
       <div>
-        <p>自宅はPCで大画面視聴</p>
+        <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
           src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
           alt=""
         />
       </div>
       <div>
-        <p>電車の中でもスマホで勉強</p>
+        <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
           src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
           alt=""
@@ -498,6 +498,22 @@
     margin: 20px auto 30px;
     column-gap: 14px;
     justify-content: center;
+    @media print, screen and (max-width: 920px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+
+  .workshop-flex-text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    @media print, screen and (max-width: 920px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
   }
 
   .add {
