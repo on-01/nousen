@@ -393,6 +393,19 @@
               />
             </a>
           </figure>
+          <figure>
+            <a
+              href="https://ecnavi.jp/ad/10712720/show/?frame=search"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="../assets/img/common/public_media_11.jpg"
+                alt="ECナビ"
+                class="public-media-flex-image"
+              />
+            </a>
+          </figure>
         </div>
       </div>
 
