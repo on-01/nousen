@@ -33,6 +33,9 @@
               allowfullscreen
             ></iframe>
           </div>
+          <!-- <div class="pv-img" v-if="!movie && image">
+            <img :src="image" alt="" />
+          </div> -->
         </div>
       </div>
     </div>
@@ -61,10 +64,12 @@
     position: relative;
   }
   .pv {
-    width: 800px;
+    // width: 800px;
+    width: 1070px;
     margin: 0 auto;
     padding: 0 3em 5rem;
     display: flex;
+    column-gap: 30px;
     @media print, screen and (max-width: 1001px) {
       width: 90%;
       padding: 0rem 0rem 2rem;
