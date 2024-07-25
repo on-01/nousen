@@ -497,10 +497,18 @@
     max-width: 980px;
     margin: 20px auto 30px;
     column-gap: 14px;
-    justify-content: center;
+    justify-content: space-between;
+    img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
     @media print, screen and (max-width: 920px) {
       flex-direction: column;
       row-gap: 20px;
+      img {
+        width: 100%;
+      }
     }
   }
 
