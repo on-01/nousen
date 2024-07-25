@@ -102,7 +102,7 @@
       <div>
         <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
-          class="flex-img -right"
+          class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
           alt=""
         />
@@ -110,7 +110,7 @@
       <div>
         <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
-          class="flex-img"
+          class="flex-img -right"
           src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
           alt=""
         />

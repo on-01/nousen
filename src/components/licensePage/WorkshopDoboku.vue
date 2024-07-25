@@ -68,7 +68,7 @@
 
     <div class="workshop-flex">
       <div>
-        <p class="workshop-address -bold">東京会場 練馬産業会館</p>
+        <p class="workshop-address -bold">東京会場 練馬産業会館（30名限定）</p>
         <a
           href="http://www.nerima-sanren.jp/"
           target="_blank"
@@ -95,9 +95,33 @@
       />
     </div>
 
+    <p class="workshop-bottom">
+      ※受検種別に関しましては「土木」を対象にした講習になります
+      <br />
+      「鋼構造物塗装」「薬液注入」の質問対応はできます。
+    </p>
+
     <p class="workshop-title -bottom">
       ２級土木施工管理技士 オンライン講座(WEB講座)
     </p>
+    <div class="workshop-flex-img">
+      <div>
+        <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
+        <img
+          class="flex-img"
+          src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
+        <img
+          class="flex-img -right"
+          src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
+          alt=""
+        />
+      </div>
+    </div>
     <p class="workshop-top">
       能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
@@ -126,8 +150,8 @@
         <div class="workshop-content">
           <p class="workshop-text -first">後期</p>
           <div class="workshop-text -second">
-            <p class="workshop-border">一次コース（2日間）</p>
-            <p class="workshop-border -none">二次コース（1日）</p>
+            <p class="workshop-border">一次コース(約12時間)</p>
+            <p class="workshop-border -none">二次コース(約5時間)</p>
           </div>
           <div class="workshop-text -third">
             <p class="workshop-border">
@@ -163,6 +187,9 @@
         </div>
       </div>
     </div>
+    <p class="workshop-bottom -yellow">
+      <span>最大34時間分の動画視聴！！</span>
+    </p>
     <p class="workshop-bottom -yellow">
       <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
@@ -456,6 +483,7 @@
   .workshop-bottom.-yellow {
     text-align: center;
     padding-bottom: 0;
+    font-weight: 700;
     span {
       background: #ffff8d;
       padding: 1px;
@@ -473,6 +501,47 @@
 
     img {
       width: 43%;
+    }
+  }
+
+  .workshop-flex-img {
+    display: flex;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: space-between;
+    @media print, screen and (max-width: 920px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+
+  .workshop-flex-text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    @media print, screen and (max-width: 920px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .flex-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    @media print, screen and (max-width: 920px) {
+      width: 70%;
+    }
+  }
+
+  .flex-img.-right {
+    margin-top: 70px;
+    @media print, screen and (max-width: 920px) {
+      margin-top: 0;
     }
   }
 
