@@ -81,7 +81,8 @@
   .pv-content {
     width: 50%;
     @media print, screen and (max-width: 1001px) {
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
     }
   }
 
@@ -105,8 +106,11 @@
     font-size: 14px;
     font-weight: 700;
     text-align: center;
+    @media print, screen and (max-width: 1001px) {
+      font-size: 24px;
+    }
     @media print, screen and (max-width: 560px) {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
   .pv-movie {
