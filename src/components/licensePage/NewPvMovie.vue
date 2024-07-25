@@ -27,9 +27,11 @@
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/watch?v=DVz-tCUTXHk"
+              src="https://www.youtube.com/embed/DVz-tCUTXHk?si=bpy8CYTzussU8nkE"
+              title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
           </div>
