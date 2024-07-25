@@ -99,8 +99,20 @@
       ２級建築施工管理技士 オンライン講座(WEB講座)
     </p>
     <div class="workshop-flex-img">
-      <img src="../../assets/img/license_page/doboku_s/doboku-pc.jpg" alt="" />
-      <img src="../../assets/img/license_page/doboku_s/doboku-sp.jpg" alt="" />
+      <div>
+        <p>自宅はPCで大画面視聴</p>
+        <img
+          src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <p>電車の中でもスマホで勉強</p>
+        <img
+          src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
+          alt=""
+        />
+      </div>
     </div>
     <p class="workshop-top">
       能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
