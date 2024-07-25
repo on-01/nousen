@@ -35,9 +35,9 @@
               allowfullscreen
             ></iframe>
           </div>
-          <!-- <div class="pv-img" v-if="!movie && image">
+          <div class="pv-img" v-if="!movie && image">
             <img :src="image" alt="" />
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
