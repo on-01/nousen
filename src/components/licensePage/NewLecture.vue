@@ -115,6 +115,7 @@
 
   .lecture-image {
     width: 48%;
+    text-align: center;
   }
   .lecture-description {
     width: 48%;
