@@ -47,22 +47,11 @@
   }
   .pv {
     width: 800px;
-    // max-width: 1070px;
     margin: 0 auto;
     padding: 0 3em 5rem;
-    // display: flex;
-    // column-gap: 30px;
     @media print, screen and (max-width: 1001px) {
-      // flex-direction: column;
+      width: 90%;
       padding: 0rem 0rem 2rem;
-    }
-  }
-
-  .pv-content {
-    width: 50%;
-    @media print, screen and (max-width: 1001px) {
-      width: 80%;
-      margin: 0 auto;
     }
   }
 
@@ -83,14 +72,10 @@
   .pv-description {
     line-height: 1.3;
     font-size: 20px;
-    // font-size: 14px;
     font-weight: 700;
     text-align: center;
-    // @media print, screen and (max-width: 1001px) {
-    //   font-size: 24px;
-    // }
     @media print, screen and (max-width: 560px) {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
   .pv-movie {
