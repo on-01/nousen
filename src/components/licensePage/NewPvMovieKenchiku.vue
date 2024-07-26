@@ -49,7 +49,7 @@
     width: 800px;
     // max-width: 1070px;
     margin: 0 auto;
-    padding: 2rem 3em 5rem;
+    padding: 0 3em 5rem;
     // display: flex;
     // column-gap: 30px;
     @media print, screen and (max-width: 1001px) {
