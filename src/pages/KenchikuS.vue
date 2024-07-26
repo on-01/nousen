@@ -335,7 +335,7 @@
               "
             />
 
-            <NewPvMovie
+            <NewPvMovieKenchiku
               :movie="$static.kenchikuOnline.mediaYoutube"
               :image="
                 $static.kenchikuOnline.mediaImg
@@ -744,7 +744,7 @@
   import Campaign from "@/components/licensePage/Campaign.vue";
   import Study from "@/components/licensePage/Study.vue";
   import Linelink from "@/components/licensePage/Linelink.vue";
-  import NewPvMovie from "../components/licensePage/NewPvMovie.vue";
+  import NewPvMovieKenchiku from "../components/licensePage/NewPvMovieKenchiku.vue";
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
@@ -812,7 +812,7 @@
       Campaign,
       Study,
       Linelink,
-      NewPvMovie,
+      NewPvMovieKenchiku,
       Method,
       Support,
       SupportSecond,
