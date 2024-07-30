@@ -12,7 +12,7 @@
         <div class="campaign-description">
           <p class="campaign-topic -red">
             第三弾【￥10,000 off】早割キャンペーン（オンライン講座）
-            <span style="color: black">【終了】</span>
+            <!-- <span style="color: black">【終了】</span> -->
           </p>
           <ul class="campaign-content">
             <li class="campaign-emphasis">
