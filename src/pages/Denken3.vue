@@ -520,7 +520,7 @@
             <div v-show="isActive === 1">
               <!-- <h3 class="body-title">オンライン講座</h3> -->
               <CourseOverview2 title="オンライン講座" />
-              <Info
+              <InfoDenken3
                 :courseOutline="richtextToHTML($static.online.courseOutline)"
                 :apply="richtextToHTML($static.online.apply)"
               />
@@ -620,6 +620,7 @@
   import Quality from "../components/licensePage/Quality.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
+  import InfoDenken3 from "@/components/licensePage/InfoDenken3.vue";
   import Venue from "@/components/licensePage/Venue.vue";
   import VenueAddMapDenken3 from "@/components/licensePage/VenueAddMapDenken3.vue";
   import Application from "@/components/licensePage/Application.vue";
@@ -692,6 +693,7 @@
       Quality,
       // News,
       Info,
+      InfoDenken3,
       Venue,
       VenueAddMapDenken3,
       Application,
