@@ -95,10 +95,10 @@
       />
     </div>
 
-    <p class="workshop-bottom">
-      ※受検種別に関しましては「土木」を対象にした講習になります
+    <p class="workshop-bottom -map">
+      ※受検種別に関しましては『土木』を対象にした講習になります。
       <br />
-      「鋼構造物塗装」「薬液注入」の質問対応はできます。
+      『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
     </p>
 
     <p class="workshop-title -bottom">
@@ -478,6 +478,10 @@
     padding-left: 40px;
     padding-right: 40px;
     line-height: 1.5;
+  }
+
+  .workshop-bottom.-map {
+    padding-bottom: 60px;
   }
 
   .workshop-bottom.-yellow {

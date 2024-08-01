@@ -484,7 +484,7 @@
     // width: 100%;
     padding: 0 40px;
     max-width: 980px;
-    margin: 20px auto 30px;
+    margin: 20px auto 60px;
     column-gap: 14px;
     justify-content: center;
 
