@@ -103,7 +103,7 @@
   .pv-description {
     line-height: 1.3;
     // font-size: 20px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     text-align: center;
     @media print, screen and (max-width: 1001px) {
