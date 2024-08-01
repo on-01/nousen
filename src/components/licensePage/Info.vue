@@ -50,12 +50,12 @@
         <p class="media-description">{{ mediaDescription }}</p>
       </div>
     </section>
-    <!-- <section class="online apply info-section" v-if="apply">
+    <section class="online apply info-section" v-if="apply">
       <div class="head">お申し込みから受講までの流れ</div>
       <div class="body">
         <div class="body-inner" v-html="apply"></div>
       </div>
-    </section> -->
+    </section>
     <!-- オンライン講座 ↑ -->
   </div>
 </template>
