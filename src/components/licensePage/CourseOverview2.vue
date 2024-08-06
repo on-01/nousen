@@ -389,6 +389,9 @@
     font-size: 16px;
     line-height: 1.6;
     margin: 0;
+    a {
+      text-decoration: underline;
+    }
   }
 
   @media print, screen and (max-width: 1170px) {
