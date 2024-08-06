@@ -20,7 +20,7 @@
           <div class="courseOverview-flex-right">
             <img
               class="courseOverview-flex-image"
-              src="../../assets/img/license_page/denken3/denken3_courseOverview_2.jpg"
+              src="../../assets/img/license_page/denken3/denken3_courseOverview_5.jpg"
               alt="電験三種"
             />
           </div>
