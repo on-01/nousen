@@ -22,13 +22,13 @@
           </div>
         </div>
         <div class="pv-content">
-          <p class="pv-description">電験三種 基礎講座 ヒルヒホッフの第１法則</p>
+          <p class="pv-description">電験三種 基礎講座 オームの法則</p>
           <div class="pv-movie">
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/DVz-tCUTXHk?si=bpy8CYTzussU8nkE"
-              title="YouTube video player"
+              width="966"
+              height="543"
+              src="https://www.youtube.com/embed/DNO5fAcs1jk"
+              title="【能セン】電験三種 基礎講座～オームの法則～"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
