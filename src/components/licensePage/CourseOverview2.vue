@@ -120,7 +120,7 @@
             <tr>
               <th>サポート体制</th>
               <td>
-                <p>・過去に撮影した動画が全て見放題（約44時間）</p>
+                <p>・過去に撮影した動画が全て見放題（約54時間）</p>
                 <p>・質問用紙が最大4枚</p>
                 <p>
                   ・質問用紙・提出課題の提出期限延長（令和6年度下期試験日まで）
@@ -156,9 +156,55 @@
               </td>
             </tr>
           </table>
-          <p class="courseOverview-text -type4">
+          <!-- <p class="courseOverview-text -type4">
             ※令和６年度に撮影した動画になります。
-          </p>
+          </p> -->
+          <div class="workshop-flow">
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">
+                【お申し込みから受講までの流れ】
+              </p>
+              <p class="workshop-flow-text">
+                1.&nbsp;お申込みフォームまたはFAXでお申し込み
+                <br />
+                2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
+                <br />
+                3.&nbsp;詳細メールに記載されたURLから動画配信サイトにアクセスして講座を受講
+              </p>
+            </div>
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+              <p class="workshop-flow-text">
+                動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+                <br />
+                専用アプリなどをインストールする必要はなく、操作も簡単です。
+                <br />
+                高いセキュリティ性により安心してご利用いただけます。
+                <br />
+                ※本講座は、1IDにつき1名様のみ受講可能です。
+              </p>
+            </div>
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">
+                &#x26a0;お申し込みの前にご確認ください
+                <br />
+                ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください。
+              </p>
+              <p class="workshop-flow-text">
+                <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
+                <br />
+                画面に表示されるユーザー名およびパスワード欄には「livetest55」と入力してログインしてください。
+                <br />
+                ※当日に視聴できない場合のお問い合わせには対応できないことがございます。
+              </p>
+            </div>
+            <p class="workshop-flow-heading">
+              ■推奨環境については、以下をご覧ください。
+            </p>
+            <p class="workshop-flow-text">
+              <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -318,6 +364,33 @@
     line-height: 1.8;
     text-align: center;
   }
+
+  .workshop-flow {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 0 40px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0 20px;
+    }
+  }
+
+  .workshop-flow-box {
+    margin-bottom: 20px;
+  }
+
+  .workshop-flow-heading {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .workshop-flow-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+
   @media print, screen and (max-width: 1170px) {
     .courseOverview {
       width: 90%;
