@@ -366,12 +366,12 @@
   }
 
   .workshop-flow {
-    margin: 0 auto 20px auto;
+    // margin: 0 auto 20px auto;
     width: 100%;
-    max-width: 900px;
-    padding: 0 40px;
+    // max-width: 900px;
+    // padding: 0 40px;
     @media print, screen and (max-width: 1000px) {
-      padding: 0 20px;
+      // padding: 0 20px;
     }
   }
 
