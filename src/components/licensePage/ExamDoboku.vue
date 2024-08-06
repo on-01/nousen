@@ -125,7 +125,8 @@
   }
 
   .exam-image figure {
-    width: 30%;
+    // width: 30%;
+    width: 27%;
     margin: 0 auto;
   }
 
