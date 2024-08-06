@@ -14,7 +14,7 @@
               最新の受験対策講座をお届けします！
             </p>
             <p class="courseOverview-text -type1 -center">
-              過去の動画も見放題です！
+              最大１００時間の動画視聴が可能！
             </p>
           </div>
           <div class="courseOverview-flex-right">
@@ -26,7 +26,7 @@
           </div>
         </div>
         <br />
-        <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
+        <!-- <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
         <p class="courseOverview-text -type3">
           ▶ネット端末があれば、電車の中や職場など場所を選ばず何度でも視聴が可能。
           <br />
@@ -39,7 +39,7 @@
         <p class="courseOverview-text -type2">③オリジナル教材</p>
         <p class="courseOverview-text -type3">
           ▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。
-        </p>
+        </p> -->
         <div class="online-flex">
           <figure class="online-flex-image">
             <img
