@@ -1,6 +1,37 @@
 <template>
   <div class="exam">
     <div class="exam-inner">
+      <p class="exam-title">提出課題で実力診断ができる！</p>
+      <p class="exam-line"></p>
+      <div class="exam-image -center">
+        <figure>
+          <img
+            src="../../assets/img/license_page/denken3/denken3_exam_5.jpg"
+            alt="電験三種"
+          />
+        </figure>
+        <figure>
+          <img
+            src="../../assets/img/license_page/denken3/denken3_exam_6.jpg"
+            alt="電験三種"
+          />
+        </figure>
+      </div>
+      <!-- <p class="exam-note">
+        <i class="scroll-animation-item">
+          通学講座・オンライン講座で予想模擬試験
+        </i>
+      </p> -->
+      <p class="exam-text">
+        4科目分の提出課題と終了試験問題を通じて、ご自身の実力をより正確に評価することができます。
+        <br />
+        これらの課題や試験問題は、それぞれの科目における理解度や知識の深さを測るために設計されており、学習の進捗を確認しながら、弱点や改善点を見つけ出す手助けとなります。
+        <br />
+        <br />
+        また、終了試験問題は実際の試験環境に近い形式で提供されるため、試験対策にも非常に有益です。
+        <br />
+        これらを活用することで、より効果的な学習計画を立てることができ、学習成果を最大限に引き出すことが可能になります。
+      </p>
       <p class="exam-title">{{ title }}</p>
       <p class="exam-line"></p>
       <div class="exam-image">
@@ -130,6 +161,10 @@
     display: flex;
     justify-content: space-between;
     margin: 24px auto;
+  }
+
+  .exam-image.-center {
+    justify-content: center;
   }
 
   .exam-image figure {
