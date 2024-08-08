@@ -9,14 +9,14 @@
             src="../../assets/img/license_page/denken3/denken3_exam_5.jpg"
             alt="電験三種"
           />
-          <p class="exam-text"><span>【提出課題】</span></p>
+          <p class="exam-heading">【提出課題】</p>
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_6.jpg"
             alt="電験三種"
           />
-          <p class="exam-text"><span>【終了試験問題】</span></p>
+          <p class="exam-heading">【終了試験問題】</p>
         </figure>
       </div>
       <!-- <p class="exam-note">
@@ -184,6 +184,13 @@
     max-width: 100%;
     margin: 0 auto;
     display: block;
+  }
+
+  .exam-heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0 20px;
   }
 
   .exam-text {
