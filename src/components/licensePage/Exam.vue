@@ -9,12 +9,14 @@
             src="../../assets/img/license_page/denken3/denken3_exam_5.jpg"
             alt="電験三種"
           />
+          <p class="exam-text"><span>【提出課題】</span></p>
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_6.jpg"
             alt="電験三種"
           />
+          <p class="exam-text"><span>【終了試験問題】</span></p>
         </figure>
       </div>
       <!-- <p class="exam-note">
@@ -22,7 +24,7 @@
           通学講座・オンライン講座で予想模擬試験
         </i>
       </p> -->
-      <p class="exam-text">
+      <p class="exam-text -top">
         4科目分の提出課題と終了試験問題を通じて、ご自身の実力をより正確に評価することができます。
         <br />
         これらの課題や試験問題は、それぞれの科目における理解度や知識の深さを測るために設計されており、学習の進捗を確認しながら、弱点や改善点を見つけ出す手助けとなります。
@@ -190,6 +192,10 @@
     line-height: 1.8;
     margin-top: 20px;
     margin: 0;
+  }
+
+  .exam-text.-top {
+    margin-bottom: 50px;
   }
 
   .exam-note {
