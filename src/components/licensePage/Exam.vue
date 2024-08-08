@@ -165,6 +165,11 @@
 
   .exam-image.-center {
     justify-content: center;
+    column-gap: 60px;
+
+    figure {
+      margin: 0;
+    }
   }
 
   .exam-image figure {
