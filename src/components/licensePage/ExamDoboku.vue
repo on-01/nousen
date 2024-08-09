@@ -189,7 +189,7 @@
   }
 
   .exam-text.-top {
-    max-width: 765px;
+    max-width: 510px;
     margin: 0 auto 50px auto;
   }
 
