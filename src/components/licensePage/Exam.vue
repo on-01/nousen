@@ -202,7 +202,8 @@
   }
 
   .exam-text.-top {
-    margin-bottom: 50px;
+    max-width: 765px;
+    margin: 0 auto 50px auto;
   }
 
   .exam-note {
