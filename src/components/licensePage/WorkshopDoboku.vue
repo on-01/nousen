@@ -321,6 +321,7 @@
   .workshop {
     background-color: #fff;
     font-family: メイリオ, sans-serif;
+    overflow: hidden;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */
     &::-webkit-scrollbar {
