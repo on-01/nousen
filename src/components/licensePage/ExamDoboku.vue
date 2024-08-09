@@ -1,6 +1,34 @@
 <template>
   <div class="exam">
     <div class="exam-inner">
+      <p class="exam-title">一次検定の実力診断は提出課題！</p>
+      <p class="exam-line"></p>
+      <div class="exam-image -center">
+        <figure>
+          <img
+            src="../../assets/img/license_page/denken3/denken3_exam_7.jpg"
+            alt="電験三種"
+          />
+        </figure>
+      </div>
+      <p class="exam-note">
+        <i class="scroll-animation-item">
+          100点満点で図書カードをプレゼント！【提出課題】
+        </i>
+      </p>
+      <p class="exam-text -top">
+        ◆ 実力診断として実施してください
+        <br />
+        ◆ 試験時間　５０分
+        <br />
+        <br />
+        ◆ 問題数　全２０問
+        <br />
+        見事全問正解した暁には【図書カード】をプレゼントします！
+        <br />
+        <br />
+        全問正解に向けて勉強頑張りましょう！！
+      </p>
       <p class="exam-title">{{ title }}</p>
       <p class="exam-line"></p>
       <div class="exam-image">
@@ -81,7 +109,7 @@
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 20px auto 0;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
@@ -124,6 +152,15 @@
     margin: 24px auto;
   }
 
+  .exam-image.-center {
+    justify-content: center;
+    column-gap: 60px;
+
+    figure {
+      margin: 0;
+    }
+  }
+
   .exam-image figure {
     // width: 30%;
     width: 27%;
@@ -136,12 +173,24 @@
     display: block;
   }
 
+  .exam-heading {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0 20px;
+  }
+
   .exam-text {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.8;
     margin-top: 20px;
     margin: 0;
+  }
+
+  .exam-text.-top {
+    max-width: 765px;
+    margin: 0 auto 50px auto;
   }
 
   .exam-note {
@@ -162,8 +211,7 @@
     margin-top: 48px;
   }
   .exam-bottom-image {
-    // width: 54%;
-    width: 38%;
+    width: 54%;
     margin: 0;
   }
   .exam-bottom-description {
@@ -193,138 +241,6 @@
   }
   .exam-bottom-wrap {
     padding: 18px 0;
-  }
-
-  .lecture {
-    width: 100%;
-    background-color: #fff;
-    margin: 0 auto;
-    font-family: "メイリオ", sans-serif;
-  }
-  .lecture-inner {
-    max-width: 1170px;
-    width: 100%;
-    padding: 30px 0 0;
-    margin: 0 auto;
-  }
-
-  .lecture-section {
-    display: flex;
-    justify-content: space-between;
-  }
-  .lecture-section.-center {
-    flex-direction: row-reverse;
-    margin-top: 40px;
-    .lecture-description {
-      // margin-left: 40px;
-      padding-right: 0;
-    }
-    .lecture-image {
-      width: 38%;
-      img {
-        width: 50%;
-        margin-left: 100px;
-      }
-    }
-  }
-  .lecture-section.-bottom {
-    margin-top: 18px;
-    padding-bottom: 40px;
-  }
-
-  .lecture-image {
-    width: 48%;
-  }
-  .lecture-description {
-    width: 48%;
-    padding-right: 20px;
-  }
-
-  .lecture-title {
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .lecture-title.-small {
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: left;
-  }
-  .lecture-line {
-    width: 20%;
-    height: 4px;
-    background: #249ef0;
-    margin: 20px auto 20px;
-    border-radius: 8px;
-  }
-  .lecture-text,
-  .lecture-bold {
-    font-size: 16px;
-    line-height: 2;
-  }
-
-  .lecture-text {
-    margin-top: 0;
-  }
-
-  .lecture-bold {
-    font-weight: bold;
-    margin-bottom: 0;
-  }
-
-  .lecture-book-images {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 48%;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-  }
-  .lecture-book-image {
-    width: 28%;
-    margin: 0;
-  }
-  .lecture-teacher {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0;
-  }
-  .lecture-profile {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-  }
-  .add {
-    padding: 10px 30px 40px;
-  }
-  .add-wrapper {
-    max-width: 755px;
-    margin: 0 auto;
-  }
-  .add-text1 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0;
-  }
-  .add-text2 {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-  }
-
-  .add-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    color: #000;
-    border: 2px solid #1da1f2;
-    padding: 8px 0;
-    margin: 36px 0 12px;
   }
 
   @media print, screen and (max-width: 1100px) {
@@ -365,49 +281,6 @@
     }
     .exam-image figure img {
       max-width: 96%;
-    }
-    .lecture-section {
-      flex-wrap: wrap;
-    }
-
-    .lecture-section.-center {
-      justify-content: center;
-      .lecture-description {
-        margin-left: auto;
-      }
-      .lecture-image {
-        width: 50%;
-        img {
-          width: 100%;
-          margin-left: 0;
-        }
-      }
-    }
-
-    .lecture-image {
-      width: 100%;
-    }
-    .lecture-description {
-      width: 90%;
-      margin-top: 20px;
-      padding-right: 0;
-      margin: 18px auto;
-    }
-    .lecture-book-images {
-      width: 90%;
-      margin: 0 auto;
-    }
-
-    .lecture-title {
-      font-size: 24px;
-    }
-    .lecture-text,
-    .lecture-bold {
-      font-size: 16px;
-      line-height: 1.6;
-    }
-    .add {
-      padding: 0 20px 30px;
     }
   }
   @media print, screen and (max-width: 800px) {
