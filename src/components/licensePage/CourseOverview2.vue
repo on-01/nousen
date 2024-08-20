@@ -76,6 +76,11 @@
                 </p>
               </th>
               <td>
+                <p>
+                  <span class="red">
+                    【早割キャンペーン】8月1日（木）～10月31日（木）まで！
+                  </span>
+                </p>
                 <p><span>令和7年3月23日（日）まで配信</span></p>
                 <p class="courseOverview-td-text">
                   <del>147,400円</del>
