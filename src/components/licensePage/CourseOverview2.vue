@@ -14,6 +14,9 @@
               最新の受験対策講座をお届けします！
             </p>
             <p class="courseOverview-text -type1 -center">
+              最新動画＋過去動画で、
+            </p>
+            <p class="courseOverview-text -type1 -center">
               最大１００時間の動画視聴が可能！
             </p>
           </div>
