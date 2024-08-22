@@ -28,6 +28,24 @@
             />
           </div>
         </div>
+        <div class="workshop-flex-img">
+          <div>
+            <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
+            <img
+              class="flex-img"
+              src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
+            <img
+              class="flex-img -right"
+              src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
+              alt=""
+            />
+          </div>
+        </div>
         <br />
         <!-- <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
         <p class="courseOverview-text -type3">
@@ -390,6 +408,61 @@
     font-size: 20px;
     line-height: 1.8;
     text-align: center;
+  }
+
+  .workshop-flex {
+    display: flex;
+    // width: 100%;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: center;
+
+    img {
+      width: 43%;
+    }
+  }
+
+  .workshop-flex-img {
+    display: flex;
+    padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: space-between;
+    @media print, screen and (max-width: 920px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+
+  .workshop-flex-text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    @media print, screen and (max-width: 920px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .flex-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    @media print, screen and (max-width: 920px) {
+      width: 70%;
+    }
+  }
+
+  .flex-img.-right {
+    margin-top: 70px;
+    @media print, screen and (max-width: 920px) {
+      margin-top: 0;
+    }
   }
 
   .workshop-flow {
