@@ -446,12 +446,12 @@
       }
     }
 
-    // .flex-img.-right {
-    //   margin-top: 70px;
-    //   @media print, screen and (max-width: 920px) {
-    //     margin-top: 0;
-    //   }
-    // }
+    .flex-img.-right {
+      margin-top: 40px;
+      @media print, screen and (max-width: 920px) {
+        margin-top: 0;
+      }
+    }
   }
 
   .workshop-flex-text {
