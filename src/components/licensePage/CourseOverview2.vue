@@ -43,7 +43,7 @@
         <p class="courseOverview-text -type3">
           ▶【合格】のために作られた講師執筆のテキスト、重要な例題を集めた問題集、実力診断に最適な添削課題が付属します。通学講座と同じものを使用。
         </p> -->
-        <div class="online-flex">
+        <!-- <div class="online-flex">
           <figure class="online-flex-image">
             <img
               src="../../assets/img/license_page/denken3/denken3_completion.jpg"
@@ -61,7 +61,7 @@
               ぜひ、修了証を手に入れてください！
             </p>
           </div>
-        </div>
+        </div> -->
         <!-- <p class="courseOverview-text -type4">
           ※試験内容やその他電気事業法や法令・法律は
           改訂/改定されて行くので最新の試験対策講座をおすすめいたします
@@ -164,6 +164,25 @@
               </td>
             </tr>
           </table>
+          <div class="online-flex">
+            <figure class="online-flex-image">
+              <img
+                src="../../assets/img/license_page/denken3/denken3_completion.jpg"
+                alt="電験三種"
+              />
+            </figure>
+            <div class="online-flex-description">
+              <p>
+                視聴率95%以上で修了証が発行！
+                <br />
+                会社で提出が必要な方も
+                <br />
+                勉強のモチベーションにも
+                <br />
+                ぜひ、修了証を手に入れてください！
+              </p>
+            </div>
+          </div>
           <!-- <p class="courseOverview-text -type4">
             ※令和６年度に撮影した動画になります。
           </p> -->
