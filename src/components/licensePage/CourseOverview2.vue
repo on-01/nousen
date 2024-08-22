@@ -413,7 +413,7 @@
   .workshop-flex {
     display: flex;
     // width: 100%;
-    padding: 0 40px;
+    // padding: 0 40px;
     max-width: 980px;
     margin: 20px auto 30px;
     column-gap: 14px;
@@ -440,23 +440,24 @@
       width: 80%;
       display: block;
       margin: 0 auto;
+      margin-top: 20px;
       @media print, screen and (max-width: 920px) {
         width: 70%;
       }
     }
 
-    .flex-img.-right {
-      margin-top: 70px;
-      @media print, screen and (max-width: 920px) {
-        margin-top: 0;
-      }
-    }
+    // .flex-img.-right {
+    //   margin-top: 70px;
+    //   @media print, screen and (max-width: 920px) {
+    //     margin-top: 0;
+    //   }
+    // }
   }
 
   .workshop-flex-text {
     font-weight: 700;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 40px;
     margin-top: 0;
     @media print, screen and (max-width: 920px) {
