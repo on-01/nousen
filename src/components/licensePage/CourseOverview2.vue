@@ -427,7 +427,7 @@
   .workshop-flex-img {
     display: flex;
     padding: 0 40px;
-    max-width: 980px;
+    // max-width: 980px;
     margin: 20px auto 30px;
     column-gap: 14px;
     justify-content: space-between;
@@ -437,7 +437,7 @@
     }
 
     .flex-img {
-      width: 80%;
+      width: 90%;
       display: block;
       margin: 0 auto;
       margin-top: 20px;
