@@ -37,7 +37,7 @@
 
 <style lang="scss" scoped>
   .exam {
-    max-width: 1170px;
+    // max-width: 1170px;
     width: 100%;
     background-color: #fff;
     margin: 0 auto;
@@ -113,7 +113,7 @@
   }
 
   .exam-text.-top {
-    max-width: 510px;
+    max-width: 514px;
     margin: 0 auto 50px auto;
   }
 
@@ -308,7 +308,7 @@
 
   @media print, screen and (max-width: 1000px) {
     .exam {
-      width: 90%;
+      width: 100%;
     }
     .exam-inner {
       padding: 0px 0px 40px;
