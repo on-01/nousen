@@ -7,7 +7,7 @@
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_7.jpg"
-            alt="電験三種"
+            alt="土木施工管理技士 講習会 通信講座"
           />
         </figure>
       </div>
@@ -34,19 +34,19 @@
         <figure>
           <img
             src="../../assets/img/license_page/doboku_s/doboku_exam_1.jpg"
-            alt="電験三種"
+            alt="土木施工管理技士 講習会 通信講座"
           />
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/doboku_s/doboku_exam_2.jpg"
-            alt="電験三種"
+            alt="土木施工管理技士 講習会 通信講座"
           />
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/doboku_s/doboku_exam_3.jpg"
-            alt="電験三種"
+            alt="土木施工管理技士 講習会 通信講座"
           />
         </figure>
       </div>
@@ -76,7 +76,7 @@
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
-            alt="電験三種"
+            alt="土木施工管理技士 講習会 通信講座"
           />
         </figure>
         <div class="lecture-description">

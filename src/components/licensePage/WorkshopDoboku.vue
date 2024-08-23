@@ -110,7 +110,7 @@
         <img
           class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
-          alt=""
+          alt="土木施工管理技士 講習会 通信講座"
         />
       </div>
       <div>
@@ -118,7 +118,7 @@
         <img
           class="flex-img -right"
           src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
-          alt=""
+          alt="土木施工管理技士 講習会 通信講座"
         />
       </div>
     </div>
