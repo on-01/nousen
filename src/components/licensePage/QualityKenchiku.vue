@@ -13,7 +13,7 @@
             <span>1</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_1" alt="建築施工管理技士 講座 講習会" />
+            <img :src="imagePath_1" alt="建築施工管理技士 講習会 通信講座" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -33,7 +33,7 @@
             <span>2</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_2" alt="建築施工管理技士 講座 講習会" />
+            <img :src="imagePath_2" alt="建築施工管理技士 講習会 通信講座" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -53,7 +53,7 @@
             <span>3</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_3" alt="建築施工管理技士 講座 講習会" />
+            <img :src="imagePath_3" alt="建築施工管理技士 講習会 通信講座" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
