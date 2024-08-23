@@ -6,7 +6,7 @@
         <figure>
           <img
             src="../../assets/img/license_page/kenchiku_s/kenchiku_exam.jpg"
-            alt="電験三種"
+            alt="建築施工管理技士 講習会 通信講座"
           />
         </figure>
       </div>
