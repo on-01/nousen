@@ -88,6 +88,7 @@
   .exam-image.-center {
     justify-content: center;
     column-gap: 60px;
+    padding-top: 30px;
 
     figure {
       margin: 0;
