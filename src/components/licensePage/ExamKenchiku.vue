@@ -1,7 +1,6 @@
 <template>
   <div class="exam">
     <div class="exam-inner">
-      <p class="exam-title">わかるまで質問してください。</p>
       <div class="exam-image -center">
         <figure>
           <img
@@ -10,6 +9,7 @@
           />
         </figure>
       </div>
+      <p class="exam-title">わかるまで質問してください。</p>
       <p class="exam-note">
         <i class="scroll-animation-item">何回でも質問に対応いたします！</i>
       </p>
@@ -54,6 +54,8 @@
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .exam-note::v-deep i {
@@ -94,7 +96,7 @@
 
   .exam-image figure {
     // width: 30%;
-    width: 27%;
+    width: 50%;
     margin: 0 auto;
   }
 
