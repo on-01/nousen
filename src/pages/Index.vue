@@ -120,7 +120,8 @@
                 給水装置工事
                 <br />
                 主任技術者
-                <br />
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
