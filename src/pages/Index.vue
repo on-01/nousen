@@ -56,6 +56,7 @@
                 第一種
                 <br />
                 電気工事士
+                <IconOnline iconClass="online_icon_index" />
               </div>
             </div>
             <div class="item item03 denkikouji" key="item03">
@@ -65,6 +66,7 @@
                 第二種
                 <br />
                 電気工事士
+                <IconOnline iconClass="online_icon_index" />
               </div>
             </div>
             <div class="item item04 doboku" key="item04">
@@ -94,7 +96,8 @@
                 1・2級
                 <br />
                 管工事施工管理技士
-                <br />
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
@@ -105,7 +108,8 @@
                 1・2級
                 <br />
                 電気工事施工管理技士
-                <br />
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
