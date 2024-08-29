@@ -325,6 +325,7 @@
             />
             <WorkshopDoboku />
             <div class="bg-white">
+              <ExamKenchiku />
               <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
             </div>
 
