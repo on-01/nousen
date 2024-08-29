@@ -418,7 +418,7 @@
         <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline.svg"
-            alt="能センが選ばれる5つの理由"
+            alt="能センが選ばれる3つの理由"
           />
         </h2>
         <div class="reason-wrapper">
@@ -499,7 +499,7 @@
               </svg>
             </a>
           </div>
-          <Reason
+          <!-- <Reason
             reasonNumber="3"
             myTitle="合格に特化した教材"
             :myImage="'front/section02_background.jpg'"
@@ -509,9 +509,9 @@
             :explanation="[
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
             ]"
-          />
+          /> -->
           <Reason
-            reasonNumber="4"
+            reasonNumber="3"
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
             :myImageSp="'front/section03_background_sp.jpg'"
@@ -524,7 +524,7 @@
             moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
             moreText="オンライン相談はこちら"
           />
-          <Reason
+          <!-- <Reason
             reasonNumber="5"
             myTitle="常識破りのサービス"
             :myImage="'front/section04_background.jpg'"
@@ -537,7 +537,7 @@
               '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
               '<i class=scroll-animation-item>振替ができる</i>。<br>直前に都合が悪くなった時も大丈夫！<br>通学→オンライン、来年度に振替も対応可能。<br><span>(別途手数料が発生します)</span>',
             ]"
-          />
+          /> -->
         </div>
 
         <div class="last-message">
