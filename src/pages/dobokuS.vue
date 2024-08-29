@@ -703,6 +703,7 @@
   import WorkshopDoboku from "../components/licensePage/WorkshopDoboku.vue";
   import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
+  import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -771,6 +772,7 @@
       WorkshopDoboku,
       ScheduleDoboku,
       ExamDoboku,
+      ExamKenchiku,
     },
     data() {
       return {
