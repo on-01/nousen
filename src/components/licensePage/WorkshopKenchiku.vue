@@ -2,7 +2,7 @@
   <div class="workshop">
     <p class="workshop-title">２級建築施工管理技士 通学講座(講習会)</p>
     <p class="workshop-top">
-      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会になっています。
+      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
       <br />
       経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
     </p>
@@ -359,8 +359,8 @@
   }
 
   .workshop-box {
-    max-width: 900px;
-    min-width: 900px;
+    max-width: 850px;
+    min-width: 850px;
     margin: 0 auto;
   }
 
