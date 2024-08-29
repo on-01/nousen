@@ -437,7 +437,7 @@
     }
 
     .flex-img {
-      width: 90%;
+      width: 80%;
       display: block;
       margin: 0 auto;
       margin-top: 20px;
@@ -457,7 +457,7 @@
   .workshop-flex-text {
     font-weight: 700;
     text-align: center;
-    font-size: 28px;
+    font-size: 27px;
     margin-bottom: 40px;
     margin-top: 0;
     @media print, screen and (max-width: 920px) {
