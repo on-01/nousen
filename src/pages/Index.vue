@@ -417,7 +417,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline.svg"
+            src="../assets/img/front/reason_main_headline2.svg"
             alt="能センが選ばれる3つの理由"
           />
         </h2>
