@@ -549,6 +549,9 @@
     img {
       width: 43%;
     }
+    a {
+      text-decoration: underline;
+    }
   }
 
   .workshop-flex-img {
