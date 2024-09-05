@@ -966,7 +966,18 @@ query {
 <style lang="scss" scoped>
   .top-banner {
     max-width: 600px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 40px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      @media print, screen and (max-width: 1000px) {
+        width: 70%;
+      }
+    }
   }
   .home {
     padding-bottom: 100px;
