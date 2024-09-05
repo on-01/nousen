@@ -430,14 +430,14 @@
     // max-width: 980px;
     margin: 20px auto 30px;
     column-gap: 14px;
-    justify-content: space-between;
+    justify-content: center;
     @media print, screen and (max-width: 920px) {
       flex-direction: column;
       row-gap: 20px;
     }
 
     .flex-img {
-      width: 80%;
+      width: 70%;
       display: block;
       margin: 0 auto;
       margin-top: 20px;
@@ -457,7 +457,7 @@
   .workshop-flex-text {
     font-weight: 700;
     text-align: center;
-    font-size: 27px;
+    font-size: 26px;
     margin-bottom: 40px;
     margin-top: 0;
     @media print, screen and (max-width: 920px) {
