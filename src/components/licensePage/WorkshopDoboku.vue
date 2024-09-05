@@ -221,7 +221,7 @@
         <p class="workshop-flow-heading">
           &#x26a0;お申し込みの前にご確認ください
           <br />
-          ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください。
+          ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください
         </p>
         <p class="workshop-flow-text">
           <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
@@ -232,7 +232,7 @@
         </p>
       </div>
       <p class="workshop-flow-heading">
-        ■推奨環境については、以下をご覧ください。
+        ■推奨環境については、以下をご覧ください
       </p>
       <p class="workshop-flow-text">
         <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
