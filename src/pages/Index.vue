@@ -964,6 +964,10 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .top-banner {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
   .home {
     padding-bottom: 100px;
     @media print, screen and (max-width: 1000px) {
