@@ -177,6 +177,15 @@
         ></iframe>
       </div>
 
+      <div class="top-banner">
+        <a href="https://nousen.blog/mangadayo/">
+          <img
+            src="../assets/img/front/front-banner1.jpg"
+            alt="マンガでわかる能センとは！"
+          />
+        </a>
+      </div>
+
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
