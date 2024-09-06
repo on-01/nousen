@@ -95,6 +95,12 @@
       />
     </div>
 
+    <p class="workshop-bottom -map">
+      ※受検種別に関しましては『土木』を対象にした講習になります。
+      <br />
+      『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
+    </p>
+
     <div class="ocha-flex">
       <img
         class="address-map-img"
@@ -114,12 +120,6 @@
         </p>
       </div>
     </div>
-
-    <p class="workshop-bottom -map">
-      ※受検種別に関しましては『土木』を対象にした講習になります。
-      <br />
-      『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
-    </p>
 
     <p class="workshop-title -bottom">
       ２級土木施工管理技士 オンライン講座(WEB講座)
@@ -621,11 +621,16 @@
     padding: 0 40px;
     max-width: 780px;
     margin: 20px auto 30px;
-    column-gap: 40px;
+    column-gap: 18%;
     justify-content: center;
+
+    img {
+      width: 30%;
+    }
   }
 
   .ocha-content {
+    width: 52%;
     .ocha-text {
       margin: 0;
     }
