@@ -620,17 +620,41 @@
     // width: 100%;
     padding: 0 40px;
     max-width: 780px;
-    margin: 20px auto 30px;
+    margin: 0 auto 30px;
     column-gap: 18%;
     justify-content: center;
+    @media print, screen and (max-width: 1000px) {
+      column-gap: 24px;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    @media print, screen and (max-width: 769px) {
+      flex-direction: column;
+    }
 
     img {
       width: 30%;
+      @media print, screen and (max-width: 1000px) {
+        width: 40%;
+      }
+      @media print, screen and (max-width: 769px) {
+        margin: 0 auto;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 70%;
+      }
     }
   }
 
   .ocha-content {
     width: 52%;
+    @media print, screen and (max-width: 1000px) {
+      width: calc(60% - 24px);
+    }
+    @media print, screen and (max-width: 769px) {
+      width: 100%;
+      margin-top: 20px;
+    }
     .ocha-text {
       margin: 0;
     }
