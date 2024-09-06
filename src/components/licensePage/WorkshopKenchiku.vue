@@ -95,6 +95,26 @@
       />
     </div>
 
+    <div class="ocha-flex">
+      <img
+        class="address-map-img"
+        src="../../assets/img/license_page/ocha-img.jpg"
+        alt="おーいお茶の画像"
+      />
+      <div class="ocha-content">
+        <p class="ocha-text">
+          講習会ではおーいお茶をお配りしております。
+          <br />
+          おーいお茶にはカフェインやカテキンが含まれており、これらには【集中力】【記憶力】を向上させる効果があるとされています。
+        </p>
+        <p class="ocha-text-bottom">
+          受講生の皆様が少しでも合格に近づけるよう、
+          <br />
+          能センは努めてまいります。
+        </p>
+      </div>
+    </div>
+
     <p class="workshop-title -bottom">
       ２級建築施工管理技士 オンライン講座(WEB講座)
     </p>
@@ -577,6 +597,55 @@
     margin-top: 70px;
     @media print, screen and (max-width: 920px) {
       margin-top: 0;
+    }
+  }
+
+  .ocha-flex {
+    display: flex;
+    // width: 100%;
+    padding: 0 40px;
+    max-width: 780px;
+    margin: 0 auto 30px;
+    column-gap: 18%;
+    justify-content: center;
+    @media print, screen and (max-width: 1000px) {
+      column-gap: 24px;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    @media print, screen and (max-width: 769px) {
+      flex-direction: column;
+    }
+
+    img {
+      width: 30%;
+      @media print, screen and (max-width: 1000px) {
+        width: 40%;
+      }
+      @media print, screen and (max-width: 769px) {
+        margin: 0 auto;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 70%;
+      }
+    }
+  }
+
+  .ocha-content {
+    width: 52%;
+    @media print, screen and (max-width: 1000px) {
+      width: calc(60% - 24px);
+    }
+    @media print, screen and (max-width: 769px) {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .ocha-text {
+      margin: 0;
+    }
+    .ocha-text-bottom {
+      margin: 20px 0 0;
+      font-weight: 700;
     }
   }
 
