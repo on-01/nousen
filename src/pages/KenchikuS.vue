@@ -363,12 +363,6 @@
               :imagePath3="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
               "
-              title2="勉強計画表で最短合格へ"
-              title3="能センの教材、副教材全てが合格へと通じています！"
-              text2="勉強の計画を立てることは、勉強をスムーズに進めるために、とても効果的な方法だと言われています。能センでは計画に沿った勉強で最短合格ができるように、勉強計画表をお渡ししています。"
-              :imagePath2="
-                require('../assets/img/license_page/doboku_s/doboku_lecture2.jpg')
-              "
               teacher="井岡和雄 先生"
               profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
