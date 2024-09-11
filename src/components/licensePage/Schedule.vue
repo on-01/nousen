@@ -269,7 +269,7 @@
     text-align: center;
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
-    margin-top: 0 auto;
+    margin: 0 auto;
     max-width: 995px;
     @media print, screen and (max-width: 768px) {
       font-size: 20px;
@@ -384,6 +384,7 @@
     }
     .schedule-title {
       font-size: 20px;
+      max-width: 811px;
     }
     .schedule-tableTitle {
       font-size: 16px;
