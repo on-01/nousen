@@ -253,6 +253,7 @@
     max-width: 1027px;
     // width: 100%;
     margin: 5px auto 0 auto;
+    background-color: #fff;
   }
   .schedule-title {
     // font-weight: bold;
