@@ -376,7 +376,6 @@
   @media print, screen and (max-width: 1110px) {
     .schedule-inner {
       padding: 20px;
-      max-width: 803px;
     }
     .schedule-details {
       padding-right: 0px;
@@ -384,7 +383,6 @@
     }
     .schedule-title {
       font-size: 20px;
-      max-width: 811px;
     }
     .schedule-tableTitle {
       font-size: 16px;
