@@ -248,7 +248,7 @@
   }
   .schedule-inner {
     padding: 20px 10px;
-    max-width: 1170px;
+    max-width: 1027px;
     width: 100%;
     margin: 0 auto;
   }
