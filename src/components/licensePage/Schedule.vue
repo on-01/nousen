@@ -394,4 +394,10 @@
       min-width: 1110px;
     }
   }
+
+  @media print, screen and (max-width: 1000px) {
+    .schedule {
+      width: 90%;
+    }
+  }
 </style>
