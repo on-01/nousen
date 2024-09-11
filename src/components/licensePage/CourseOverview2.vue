@@ -457,7 +457,7 @@
   .workshop-flex-text {
     font-weight: 700;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 40px;
     margin-top: 0;
     @media print, screen and (max-width: 920px) {
