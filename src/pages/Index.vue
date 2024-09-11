@@ -1939,6 +1939,7 @@ query {
     margin: 0;
     width: 33.33%;
     display: flex;
+    justify-content: center;
   }
   .public-media-flex figure a {
     position: relative;
