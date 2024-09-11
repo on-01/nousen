@@ -244,9 +244,6 @@
     padding-left: 20px;
   }
 
-  .schedule p {
-    margin: 0;
-  }
   .schedule-inner {
     // padding: 20px 10px;
     padding: 20px 0;
@@ -254,6 +251,9 @@
     // width: 100%;
     margin: 5px auto 0 auto;
     background-color: #fff;
+    p {
+      margin: 0;
+    }
   }
   .schedule-title {
     // font-weight: bold;
@@ -269,7 +269,8 @@
     text-align: center;
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
-    margin-top: 0;
+    margin-top: 0 auto;
+    max-width: 995px;
     @media print, screen and (max-width: 768px) {
       font-size: 20px;
     }
