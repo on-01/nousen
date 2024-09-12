@@ -217,7 +217,10 @@
   .reason-more {
     display: block;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 310px;
+    @media print, screen and (min-width: 1001px) {
+      margin-bottom: 200px;
+    }
   }
   .reason-more-inner {
     background-color: #f4891e;
