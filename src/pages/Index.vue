@@ -423,6 +423,12 @@
         </div>
       </div>
 
+      <Reason
+        moreLinkCheck="1"
+        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+        moreText="オンライン相談はこちら"
+      />
+
       <section class="section03">
         <h2 class="section-title">
           <img
@@ -519,7 +525,7 @@
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
             ]"
           /> -->
-          <Reason
+          <!-- <Reason
             reasonNumber="3"
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
@@ -532,6 +538,17 @@
             moreLinkCheck="1"
             moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
             moreText="オンライン相談はこちら"
+          /> -->
+          <Reason
+            reasonNumber="3"
+            myTitle="信頼の実績と歴史"
+            :myImage="'front/section03_background.jpg'"
+            :myImageSp="'front/section03_background_sp.jpg'"
+            myCatch="40年で10万人以上の受講生。"
+            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
+            :explanation="[
+              '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
+            ]"
           />
           <!-- <Reason
             reasonNumber="5"
