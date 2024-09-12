@@ -1106,7 +1106,7 @@
     margin-top: 30px;
   }
   .bg-lightBlue {
-    padding-top: 20px;
+    // padding-top: 20px;
     // padding-bottom: 40px;
     background: #ebf7ff;
   }

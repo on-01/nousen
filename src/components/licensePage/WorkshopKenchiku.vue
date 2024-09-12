@@ -554,7 +554,7 @@
 
   .workshop-bottom.-left {
     text-align: left;
-    max-width: 560px;
+    max-width: 650px;
     margin: 0 auto;
   }
 
