@@ -123,7 +123,7 @@
       『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
     </p>
 
-    <p class="workshop-bottom -map">
+    <p class="workshop-bottom -map -left">
       <b>写真撮影について</b>
       <br />
       能センでは、休憩時間中に限り、SNS用などの写真撮影・動画撮影を大歓迎しています。
@@ -565,6 +565,10 @@
       background: #ffff8d;
       padding: 1px;
     }
+  }
+
+  .workshop-bottom.-left {
+    text-align: left;
   }
 
   .workshop-flex {
