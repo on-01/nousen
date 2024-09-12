@@ -296,6 +296,10 @@
           &:nth-child(6) {
             width: 232px;
           }
+          &:nth-child(1),
+          &:nth-child(2) {
+            margin-right: 45px;
+          }
         }
       }
     }
