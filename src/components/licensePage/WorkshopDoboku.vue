@@ -66,6 +66,26 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
+    <div class="ocha-flex">
+      <img
+        class="address-map-img"
+        src="../../assets/img/license_page/ocha-img.jpg"
+        alt="おーいお茶の画像"
+      />
+      <div class="ocha-content">
+        <p class="ocha-text">
+          講習会ではおーいお茶をお配りしております。
+          <br />
+          おーいお茶にはカフェインやカテキンが含まれており、これらには【集中力】【記憶力】を向上させる効果があるとされています。
+        </p>
+        <p class="ocha-text-bottom">
+          受講生の皆様が少しでも合格に近づけるよう、
+          <br />
+          能センは努めてまいります。
+        </p>
+      </div>
+    </div>
+
     <div class="workshop-flex">
       <div>
         <p class="workshop-address -bold">東京会場 練馬産業会館（30名限定）</p>
@@ -100,26 +120,6 @@
       <br />
       『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
     </p>
-
-    <div class="ocha-flex">
-      <img
-        class="address-map-img"
-        src="../../assets/img/license_page/ocha-img.jpg"
-        alt="おーいお茶の画像"
-      />
-      <div class="ocha-content">
-        <p class="ocha-text">
-          講習会ではおーいお茶をお配りしております。
-          <br />
-          おーいお茶にはカフェインやカテキンが含まれており、これらには【集中力】【記憶力】を向上させる効果があるとされています。
-        </p>
-        <p class="ocha-text-bottom">
-          受講生の皆様が少しでも合格に近づけるよう、
-          <br />
-          能センは努めてまいります。
-        </p>
-      </div>
-    </div>
 
     <p class="workshop-title -bottom">
       ２級土木施工管理技士 オンライン講座(WEB講座)
