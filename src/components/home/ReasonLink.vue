@@ -218,7 +218,7 @@
     display: block;
     text-align: center;
     margin: 0 auto 310px;
-    @media print, screen and (min-width: 1001px) {
+    @media print, screen and (max-width: 1000px) {
       margin-bottom: 200px;
     }
   }
