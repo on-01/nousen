@@ -85,10 +85,10 @@
 <style lang="scss" scoped>
   .support-wrap {
     // max-width: 1170px;
+    background-color: #eaf7ff;
     max-width: 100%;
     width: 100%;
     font-family: "Meiryo", sans-serif;
-    background-color: #fff;
     // margin: 20px auto 0;
     margin: 0 auto;
     z-index: 0;
@@ -101,6 +101,7 @@
     margin: 0;
   }
   .support-title {
+    max-width: 1170px;
     line-height: 1.3;
     font-size: 28px;
     font-weight: 700;
@@ -115,8 +116,11 @@
     }
   }
   .support {
-    margin: 0 auto;
-    padding: 1em 4rem 2rem;
+    max-width: 1170px;
+    margin: 5px auto 0;
+    padding: 1em 0 2rem;
+    // padding: 1em 4rem 2rem;
+    background-color: #fff;
     @media print, screen and (max-width: 1000px) {
       padding: 1rem 2rem;
     }
