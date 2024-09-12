@@ -292,8 +292,8 @@
           font-size: 12px;
         }
         @media print, screen and(min-width: 1001px) {
-          &:nth-child(3),
-          &:nth-child(5) {
+          &:nth-child(4),
+          &:nth-child(6) {
             width: 232px;
           }
         }
