@@ -423,7 +423,7 @@
         </div>
       </div>
 
-      <Reason
+      <ReasonLink
         moreLinkCheck="1"
         moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
         moreText="オンライン相談はこちら"
@@ -889,6 +889,7 @@ query {
   import News from "@/components/home/News.vue";
   import IconOnline from "@/components/icons/IconOnline.vue";
   import MyModal from "@/components/MyModal.vue";
+  import ReasonLink from "../components/home/ReasonLink.vue";
 
   export default {
     name: "home",
@@ -896,6 +897,7 @@ query {
       IconBase,
       IconDoubleArrowRight,
       Reason,
+      ReasonLink,
       News,
       IconOnline,
       MyModal,
