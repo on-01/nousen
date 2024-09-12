@@ -569,6 +569,8 @@
 
   .workshop-bottom.-left {
     text-align: left;
+    max-width: 560px;
+    margin: 0 auto;
   }
 
   .workshop-flex {
