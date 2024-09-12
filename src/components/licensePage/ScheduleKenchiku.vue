@@ -144,6 +144,7 @@
 
 <style lang="scss" scoped>
   .schedule {
+    max-width: 1027px;
     // max-width: 1170px;
     width: 100%;
     background-color: #fff;
@@ -153,6 +154,9 @@
     position: relative;
     font-family: "Meiryo", sans-serif;
     font-size: 14px;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
   }
 
   .schedule-details {
