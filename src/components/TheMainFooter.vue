@@ -48,6 +48,11 @@
                 <g-link to="/benefits">給付制度</g-link>
               </p>
               <p class="information_list">
+                <g-link to="https://nousen.blog/oshiharaihouhou/">
+                  お支払い方法
+                </g-link>
+              </p>
+              <p class="information_list">
                 <g-link to="/guide">特定商取引法に基づく表記</g-link>
               </p>
               <p class="information_list">
@@ -287,7 +292,6 @@
           font-size: 12px;
         }
         @media print, screen and(min-width: 1001px) {
-          &:nth-child(1),
           &:nth-child(3),
           &:nth-child(5) {
             width: 232px;
