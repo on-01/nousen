@@ -93,15 +93,18 @@
     margin: 0 auto;
     z-index: 0;
     position: relative;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
   }
   .support-wrap.-second {
     margin-top: 0;
   }
   .support-wrap p {
-    margin: 0;
+    margin: 0 auto;
   }
   .support-title {
-    max-width: 1170px;
+    max-width: 995px;
     line-height: 1.3;
     font-size: 28px;
     font-weight: 700;
@@ -109,14 +112,14 @@
     background-color: #ed6c00;
     padding: 1rem;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     @media print, screen and (max-width: 560px) {
       font-size: 16px;
     }
   }
   .support {
-    max-width: 1170px;
+    max-width: 1027px;
     margin: 5px auto 0;
     padding: 1em 0 2rem;
     // padding: 1em 4rem 2rem;
