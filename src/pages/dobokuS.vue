@@ -53,12 +53,12 @@
                 require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
               "
             />
+            <div class="bg-lightBlue -pd100">
+              <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
 
-            <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
+              <Support title="＼＼建設業を応援しよう／／" />
 
-            <Support title="＼＼建設業を応援しよう／／" />
-
-            <!-- <QualityDoboku
+              <!-- <QualityDoboku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -75,7 +75,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.jpg')
               "
             /> -->
-            <div class="bg-lightBlue -pd100">
+
               <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#doboku" class="exam-link">
                   試験概要はこちら

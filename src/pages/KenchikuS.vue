@@ -52,12 +52,12 @@
                 require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
               "
             />
+            <div class="bg-lightBlue -pd100">
+              <ScheduleKenchiku title="１・２級建築施工管理技士 試験日程" />
 
-            <ScheduleKenchiku title="１・２級建築施工管理技士 試験日程" />
+              <Support title="＼＼建設業を応援しよう／／" />
 
-            <Support title="＼＼建設業を応援しよう／／" />
-
-            <!-- <QualityKenchiku
+              <!-- <QualityKenchiku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -75,9 +75,9 @@
               "
             /> -->
 
-            <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
+              <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
 
-            <!-- <PvMovie
+              <!-- <PvMovie
             :movie="$static.kenchikuOnline.mediaYoutube"
             :image="
               $static.kenchikuOnline.mediaImg
@@ -86,7 +86,7 @@
             description="合格者を多数輩出した井岡先生による1級建築施工の無料動画をご覧ください。"
         /> -->
 
-            <!-- <NewPvMovie
+              <!-- <NewPvMovie
               :movie="$static.kenchikuOnline.mediaYoutube"
               :image="
                 $static.kenchikuOnline.mediaImg
@@ -203,7 +203,6 @@
               </div>
             </section> -->
 
-            <div class="bg-lightBlue -pd100">
               <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#kenchiku" class="exam-link">
                   試験概要はこちら
