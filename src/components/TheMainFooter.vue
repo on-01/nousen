@@ -134,6 +134,13 @@
                 width="200px"
               />
             </a>
+            <a href="http://www.nerima-sanren.jp/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner5.jpg"
+                alt="バナー 練馬産業連合会"
+                width="200px"
+              />
+            </a>
             <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
               <g-image
                 src="../assets/img/common/banner3.jpg"
