@@ -159,6 +159,12 @@
           </table>
         </div>
       </div>
+      <p class="content-bottom-bold">写真撮影について</p>
+      <p class="content-bottom">
+        能センでは、休憩時間中に限り、SNS用などの写真撮影・動画撮影を大歓迎しています。
+        <br />
+        撮影した写真や動画は、ぜひSNSにアップしていただけると嬉しいです。
+      </p>
     </div>
   </div>
 </template>
@@ -316,6 +322,16 @@
     line-height: 1.8;
     text-align: center;
   }
+
+  .content-bottom-bold {
+    font-weight: 700;
+    margin: 20px 0;
+  }
+
+  .content-bottom {
+    margin: 0;
+  }
+
   @media print, screen and (max-width: 1170px) {
     .courseOverview {
       width: 90%;
