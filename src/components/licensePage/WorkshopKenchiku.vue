@@ -621,7 +621,7 @@
     // width: 100%;
     padding: 0 40px;
     max-width: 780px;
-    margin: 0 auto 30px;
+    margin: 15px auto 45px;
     column-gap: 18%;
     justify-content: center;
     @media print, screen and (max-width: 1000px) {

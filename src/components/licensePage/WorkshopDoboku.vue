@@ -35,11 +35,11 @@
           <div class="workshop-text -third">
             <p class="workshop-border">
               8月31日(土)～9月1日(日)9:30～17:00
-              <span>【受付中】</span>
+              <span>【終了】</span>
             </p>
             <p class="workshop-border -none">
               9月15日(日)10:00～16:00
-              <span>【受付中】</span>
+              <span>【終了】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -636,7 +636,7 @@
     // width: 100%;
     padding: 0 40px;
     max-width: 780px;
-    margin: 0 auto 30px;
+    margin: 15px auto 45px;
     column-gap: 18%;
     justify-content: center;
     @media print, screen and (max-width: 1000px) {
