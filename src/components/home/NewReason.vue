@@ -218,15 +218,16 @@
     border-bottom: 5px solid #000;
     display: inline-block;
     padding: 20px;
-    max-width: 380px;
+    max-width: 300px;
     width: 100%;
     font-weight: 700;
-    font-size: 30px;
     letter-spacing: 0.18em;
     text-align: center;
+    margin-top: 30px;
     p {
-      line-height: 2em;
+      line-height: 1.7;
       margin-top: 1.5em;
+      font-size: 16px;
       span {
       }
     }
