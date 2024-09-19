@@ -3,7 +3,6 @@
     <div class="cheer-inner">
       <div class="cheer-section">
           <p class="cheer-title" v-html="text"></p>
-          <p class="cheer-line"></p>
         </div>
         <figure class="cheer-image">
           <g-image :src="imagePath" :alt="altText" />
