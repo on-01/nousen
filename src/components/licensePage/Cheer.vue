@@ -2,7 +2,6 @@
   <div class="cheer">
     <div class="cheer-inner">
       <div class="cheer-section">
-        <!-- <div class="cheer-description"> -->
           <p class="cheer-title" v-html="text"></p>
           <p class="cheer-line"></p>
         </div>
