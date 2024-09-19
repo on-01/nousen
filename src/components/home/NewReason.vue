@@ -29,7 +29,7 @@
           を盛り込んだ講習が特徴。
         </p>
       </div>
-      <div class="index-boxContent">
+      <div class="index-boxContent -center">
         <p>
           近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。
           <br />
