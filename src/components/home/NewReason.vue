@@ -218,8 +218,8 @@
     border-bottom: 5px solid #000;
     display: inline-block;
     padding: 20px;
-    max-width: 600px;
-    // width: 100%;
+    max-width: 380px;
+    width: 100%;
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 0.18em;
@@ -256,6 +256,10 @@
     display: block;
     background-color: #fff;
     padding: 8px 3px;
+  }
+
+  .index-img {
+    margin: 0;
   }
 
   .index-textImg {
