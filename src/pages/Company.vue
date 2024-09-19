@@ -371,7 +371,7 @@ query {
   .company-image img {
     margin: 40px auto 0;
     display: block;
-    width: 100%;
+    width: 90%;
   }
 
   .last-message {
