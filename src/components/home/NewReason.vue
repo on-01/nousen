@@ -80,7 +80,7 @@
             という方は是非！
           </p>
         </div>
-        <figure class="index-textImg">
+        <figure class="index-textImg -bottom">
           <img src="../../assets/img/front/section05_title2.svg" />
         </figure>
         <div class="index-boxContent">
@@ -219,7 +219,7 @@
     display: inline-block;
     padding: 20px;
     max-width: 600px;
-    width: 100%;
+    // width: 100%;
     font-weight: 700;
     font-size: 30px;
     letter-spacing: 0.18em;
@@ -227,6 +227,8 @@
     p {
       line-height: 2em;
       margin-top: 1.5em;
+      span {
+      }
     }
   }
 
@@ -240,6 +242,7 @@
     position: relative;
     p {
       margin: 0;
+      font-size: 20px;
     }
   }
 
@@ -257,6 +260,11 @@
 
   .index-textImg {
     max-width: 150px;
+    margin: 0 auto;
+  }
+
+  .index-textImg.-bottom {
+    max-width: 220px;
     margin: 0 auto;
   }
 
