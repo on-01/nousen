@@ -202,6 +202,9 @@
 
   .index-content {
     width: calc(100% / 3);
+    @media print, screen and (max-width: 1142px) {
+      width: 100%;
+    }
   }
 
   .index-title {
