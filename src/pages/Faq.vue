@@ -22,8 +22,9 @@
           qText="お申込みの締め切りはありますか？"
           aText="直前まで受付しております。"
         >
-        通学講座：空きがあれば前日まで受付<br>
-        オンライン講座：試験の７日前まで受付
+          通学講座：空きがあれば前日まで受付
+          <br />
+          オンライン講座：試験の７日前まで受付
         </FaqCard>
         <FaqCard
           qText="受験資格があるか知りたいのですが…。"
@@ -34,8 +35,7 @@
         <FaqCard
           qText="お申込み後の流れを教えてください。"
           aText="銀行振込・カード払いの方は、ご入金後に教材・受講書類を発送いたします。コレクト便をご希望の方は受付後すぐに代金引換で教材・受講書類を発送いたします。"
-        >
-        </FaqCard>
+        ></FaqCard>
         <FaqCard
           qText="通学講座・オンライン講座・通信講座のキャンセルはできますか？"
           aText="オンライン講座・通信講座は原則キャンセルができません。通学講座の場合はキャンセル可能ですが、キャンセル料金が発生します。 "
@@ -44,11 +44,11 @@
           <br />
           教材をお引き取り頂いた上で下記の内容でのご返金となります。
           <br />
-          ● 入金後～講習日31日前  ・・・ 70％ご返金。
+          ● 入金後～講習日31日前 ・・・ 70％ご返金。
           <br />
           ● 講習日30日前～15日前 ・・・ 50％ご返金。
           <br />
-          ● 講習日14日前～当日     ・・・ キャンセルできません。
+          ● 講習日14日前～当日 ・・・ キャンセルできません。
           <br />
           受講者様のご変更や、他に会場がある場合のご変更、来年度への振替は対応可能ですのでお気軽にお問い合わせください。
           <br />
@@ -98,7 +98,12 @@
           qText="支払方法について。クレジットカードは利用できますか？"
           aText="クレジットカード及びデビットカードでのお支払い可能です。"
         >
-        対応しているクレジットカード(デビットカード)は、Visa、Mastercard、American Express、JCB、Diners Club、Discoverです。
+          対応しているクレジットカード(デビットカード)は、Visa、Mastercard、American
+          Express、JCB、Diners Club、Discoverです。
+          <br />
+          <a class="cardlink" href="https://nousen.blog/oshiharaihouhou/">
+            お支払い方法について
+          </a>
         </FaqCard>
         <FaqCard
           qText="CPDSとはなんですか？"
@@ -126,58 +131,63 @@ query {
 </static-query>
 
 <script>
-import Hero from "@/components/Hero.vue";
-import FaqCard from "@/components/faq/FaqCard.vue";
-export default {
-  metaInfo() {
-    return {
-      titleTemplate: "よくあるご質問｜能セン-合格への近道-",
-      meta: [
-        {
-          name: "description",
-          content:
-            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能センのホームページです。よくお寄せ頂くご質問にQ&A形式でお答えしています。"
-        },
-        {
-          key: `og:title`,
-          property: `og:title`,
-          content: `よくあるご質問｜能セン-合格への近道-`
-          // content: `よくあるご質問 | ${this.$static.metadata.siteName}`,
-        },
-        {
-          key: `og:url`,
-          property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/faq`
-        }
-      ]
-    };
-  },
-  components: {
-    Hero,
-    FaqCard
-  }
-};
+  import Hero from "@/components/Hero.vue";
+  import FaqCard from "@/components/faq/FaqCard.vue";
+  export default {
+    metaInfo() {
+      return {
+        titleTemplate: "よくあるご質問｜能セン-合格への近道-",
+        meta: [
+          {
+            name: "description",
+            content:
+              "電気、建築、設備関連を中心とした受験対策講習会を開催しています能センのホームページです。よくお寄せ頂くご質問にQ&A形式でお答えしています。",
+          },
+          {
+            key: `og:title`,
+            property: `og:title`,
+            content: `よくあるご質問｜能セン-合格への近道-`,
+            // content: `よくあるご質問 | ${this.$static.metadata.siteName}`,
+          },
+          {
+            key: `og:url`,
+            property: `og:url`,
+            content: `${this.$static.metadata.siteUrl}/faq`,
+          },
+        ],
+      };
+    },
+    components: {
+      Hero,
+      FaqCard,
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.faq {
-  padding-bottom: 100px;
-}
-.contents {
-  max-width: 730px;
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 100px;
-  @media print, screen and (max-width: 1000px) {
-    width: 90%;
+  .faq {
+    padding-bottom: 100px;
   }
-}
-.intro {
-  padding: 100px 0;
-  text-align: center;
-  font-weight: bold;
-  @media print, screen and (max-width: 1000px) {
-    padding: 50px 0;
+  .contents {
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
   }
-}
+  .intro {
+    padding: 100px 0;
+    text-align: center;
+    font-weight: bold;
+    @media print, screen and (max-width: 1000px) {
+      padding: 50px 0;
+    }
+  }
+  .cardlink {
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 20px;
+  }
 </style>
