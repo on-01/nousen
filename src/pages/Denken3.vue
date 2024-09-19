@@ -14,11 +14,8 @@
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
           <Cheer
-            text="能センは<br>
-                  電験男子・電験女子を<br>
-                  応援します！"
             :imagePath="
-              require('../assets/img/license_page/denken3/denken3_point.jpg')
+              require('../assets/img/license_page/denken3/denken3_point2.jpg')
             "
             altText="電験三種 講座"
           />
