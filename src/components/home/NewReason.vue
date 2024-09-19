@@ -203,6 +203,7 @@
     letter-spacing: 0.2em;
     position: relative;
     text-align: center;
+    font-weight: 700;
 
     span {
       color: #ed6c00;
@@ -223,12 +224,6 @@
     font-size: 30px;
     letter-spacing: 0.18em;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     p {
       line-height: 2em;
       margin-top: 1.5em;
@@ -258,6 +253,11 @@
     display: block;
     background-color: #fff;
     padding: 8px 3px;
+  }
+
+  .index-textImg {
+    max-width: 150px;
+    margin: 0 auto;
   }
 
   .reason-contents + .reason-contents {
