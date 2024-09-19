@@ -41,94 +41,88 @@
       </div>
     </div>
     <!-- 2 -->
-    <div class="index-wrapper -second">
-      <div class="index-content">
-        <p class="index-title">
-          <span>2</span>
-          えらべる学習スタイル
+    <div class="index-content -second">
+      <p class="index-title">
+        <span>2</span>
+        えらべる学習スタイル
+      </p>
+      <figure class="index-img">
+        <img src="../../assets/img/front/section05_background.jpg" />
+      </figure>
+      <div class="index-topContent">
+        <p>
+          間近で学べる通学講座
+          <br />
+          いつでも手元でオンライン講座
         </p>
-        <figure class="index-img">
-          <img src="../../assets/img/front/section05_background.jpg" />
-        </figure>
-        <div class="index-topContent">
-          <p>
-            間近で学べる通学講座
-            <br />
-            いつでも手元でオンライン講座
-          </p>
-        </div>
+      </div>
 
-        <figure class="index-textImg">
-          <img src="../../assets/img/front/section05_title1.svg" />
-        </figure>
-        <div class="index-boxContent">
-          <p>
-            <i class="scroll-animation-item">
-              「100回同じ質問をしても、100回笑顔でお答えします。」
-            </i>
-            <br />
-            分からないことを聞くことが、合格への近道です。
-            <br />
-            <br />
-            同じ目的をもった受講生たちと、生の講義を受けることで、
-            <br />
-            集中して学ぶことができます。
-            <br />
-            <i class="scroll-animation-item">
-              自主的に勉強が始められない・・・
-            </i>
-            という方は是非！
-          </p>
-        </div>
-        <figure class="index-textImg -bottom">
-          <img src="../../assets/img/front/section05_title2.svg" />
-        </figure>
-        <div class="index-boxContent">
-          <p>
-            『スマホの中の先生は、２４時間授業中』
-            <br />
-            スマホがあれば、電車の中や職場など場所を選ばず
-            <i class="scroll-animation-item">何度でも動画を見て勉強が可能！</i>
-            <br />
-            短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。
-          </p>
-        </div>
+      <figure class="index-textImg">
+        <img src="../../assets/img/front/section05_title1.svg" />
+      </figure>
+      <div class="index-boxContent">
+        <p>
+          <i class="scroll-animation-item">
+            「100回同じ質問をしても、100回笑顔でお答えします。」
+          </i>
+          <br />
+          分からないことを聞くことが、合格への近道です。
+          <br />
+          <br />
+          同じ目的をもった受講生たちと、生の講義を受けることで、
+          <br />
+          集中して学ぶことができます。
+          <br />
+          <i class="scroll-animation-item">自主的に勉強が始められない・・・</i>
+          という方は是非！
+        </p>
+      </div>
+      <figure class="index-textImg -bottom">
+        <img src="../../assets/img/front/section05_title2.svg" />
+      </figure>
+      <div class="index-boxContent">
+        <p>
+          『スマホの中の先生は、２４時間授業中』
+          <br />
+          スマホがあれば、電車の中や職場など場所を選ばず
+          <i class="scroll-animation-item">何度でも動画を見て勉強が可能！</i>
+          <br />
+          短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。
+        </p>
       </div>
     </div>
     <!-- 3 -->
-    <div class="index-wrapper -third">
-      <div class="index-content">
-        <p class="index-title">
-          <span>3</span>
-          信頼の実績と歴史
+    <div class="index-content -third">
+      <p class="index-title">
+        <span>3</span>
+        信頼の実績と歴史
+      </p>
+      <figure class="index-img">
+        <img src="../../assets/img/front/section03_background.jpg" />
+      </figure>
+      <div class="index-topContent">
+        <p>
+          40年で10万人以上の受講生。
+          <br />
+          <span>
+            （旧能力開発研修センターとノウハウを全て引き継いだ
+            <br />
+            現(株)NOUSENとの累計になります。）
+          </span>
         </p>
-        <figure class="index-img">
-          <img src="../../assets/img/front/section03_background.jpg" />
-        </figure>
-        <div class="index-topContent">
-          <p>
-            40年で10万人以上の受講生。
-            <br />
-            <span>
-              （旧能力開発研修センターとノウハウを全て引き継いだ
-              <br />
-              現(株)NOUSENとの累計になります。）
-            </span>
-          </p>
-        </div>
+      </div>
 
-        <div class="index-boxContent">
-          <p>
-            受講生の皆さまが合格できるよう、最大限のサポートを続けていきます！
-            <br />
-            疑問や不安があれば、いつでも気軽にご相談ください。
-            <br />
-            共に目標を達成するため、私たちは全力で支えます！
-            <br />
-            <br />
-            能セン事務局 一同
-          </p>
-        </div>
+      <div class="index-boxContent">
+        <p>
+          受講生の皆さまが合格できるよう、最大限のサポートを続けていきます！
+          <br />
+          疑問や不安があれば、いつでも気軽にご相談ください。
+          <br />
+          共に目標を達成するため、私たちは全力で支えます！
+          <br />
+          <br />
+          能セン事務局 一同
+        </p>
       </div>
     </div>
   </div>
@@ -193,7 +187,7 @@
   .index-wrapper {
     display: flex;
     justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 20px;
     padding: 0 20px;
   }
 
