@@ -436,8 +436,9 @@
             alt="能センが選ばれる3つの理由"
           />
         </h2>
-        <div class="reason-wrapper">
-          <Reason
+        <NewReason />
+        <!-- <div class="reason-wrapper"> -->
+        <!-- <Reason
             reasonNumber="1"
             myTitle="わかりやすい講習"
             :myImage="'front/section01_background.jpg'"
@@ -449,8 +450,8 @@
               '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
             ]"
             moreLinkCheck="1"
-          />
-          <Reason
+          /> -->
+        <!-- <Reason
             reasonNumber="2"
             myTitle="えらべる学習スタイル"
             :myImage="'front/section05_background.jpg'"
@@ -484,9 +485,9 @@
               //   ]
               // }
             ]"
-          />
+          /> -->
 
-          <div class="btn__apply">
+        <!-- <div class="btn__apply">
             <a @click="openModal">
               <span>お申込みはこちら</span>
               <svg
@@ -513,8 +514,8 @@
                 </g>
               </svg>
             </a>
-          </div>
-          <!-- <Reason
+          </div> -->
+        <!-- <Reason
             reasonNumber="3"
             myTitle="合格に特化した教材"
             :myImage="'front/section02_background.jpg'"
@@ -525,7 +526,7 @@
               'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
             ]"
           /> -->
-          <!-- <Reason
+        <!-- <Reason
             reasonNumber="3"
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
@@ -539,7 +540,7 @@
             moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
             moreText="オンライン相談はこちら"
           /> -->
-          <Reason
+        <!-- <Reason
             reasonNumber="3"
             myTitle="信頼の実績と歴史"
             :myImage="'front/section03_background.jpg'"
@@ -549,8 +550,8 @@
             :explanation="[
               '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
             ]"
-          />
-          <!-- <Reason
+          /> -->
+        <!-- <Reason
             reasonNumber="5"
             myTitle="常識破りのサービス"
             :myImage="'front/section04_background.jpg'"
@@ -564,7 +565,7 @@
               '<i class=scroll-animation-item>振替ができる</i>。<br>直前に都合が悪くなった時も大丈夫！<br>通学→オンライン、来年度に振替も対応可能。<br><span>(別途手数料が発生します)</span>',
             ]"
           /> -->
-        </div>
+        <!-- </div> -->
 
         <div class="last-message">
           <div class="last-message-flex">
@@ -890,6 +891,7 @@ query {
   import IconOnline from "@/components/icons/IconOnline.vue";
   import MyModal from "@/components/MyModal.vue";
   import ReasonLink from "../components/home/ReasonLink.vue";
+  import NewReason from "../components/home/NewReason.vue";
 
   export default {
     name: "home",
@@ -901,6 +903,7 @@ query {
       News,
       IconOnline,
       MyModal,
+      NewReason,
     },
     metaInfo() {
       return {
