@@ -120,7 +120,7 @@
         margin-top: 10px;
         margin-left: 40px;
       }
-      .cardlink {
+      .cardlink-black {
         font-weight: 700;
         text-decoration: underline;
         margin-top: 20px;
@@ -128,7 +128,7 @@
           color: #000;
         }
       }
-      .cardlink.-orange {
+      .cardlink-orange {
         a {
           color: #e2690d;
           text-decoration: underline;

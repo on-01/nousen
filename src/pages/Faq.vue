@@ -101,7 +101,7 @@
           対応しているクレジットカード(デビットカード)は、Visa、Mastercard、American
           Express、JCB、Diners Club、Discoverです。
           <br />
-          <a class="cardlink" href="https://nousen.blog/oshiharaihouhou/">
+          <a class="cardlink-black" href="https://nousen.blog/oshiharaihouhou/">
             お支払い方法について
           </a>
         </FaqCard>
@@ -112,7 +112,7 @@
           講習会など学習の記録を登録し、必要な場合に学習履歴の証明書を発行するシステムで能センでも１・２級土木施工管理技士の一部の講座は指定を受けております。
           <br />
           <a
-            class="cardlink -orange"
+            class="cardlink-orange"
             href="https://www.ejcm.or.jp/about-cpds/"
             target="_blank"
           >
