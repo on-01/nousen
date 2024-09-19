@@ -1,6 +1,6 @@
 <template>
   <!-- 1 -->
-  <div class="index-wrapper scroll-animation-item">
+  <div class="index-wrapper">
     <div class="index-content">
       <p class="index-title">
         <span>1</span>
@@ -200,6 +200,10 @@
     }
   }
 
+  .index-content {
+    width: calc(100% / 3);
+  }
+
   .index-title {
     font-size: 27px;
     color: #ed6c00;
@@ -241,13 +245,16 @@
     padding: 30px 10px;
     font-size: 18px;
     border: 4px solid #000;
-    margin: 50px auto 0;
+    margin: 70px auto 0;
     font-weight: 700;
     text-align: center;
     position: relative;
     p {
       margin: 0;
       font-size: 10px;
+    }
+    @media print, screen and (max-width: 1142px) {
+      max-width: 600px;
     }
   }
 
@@ -273,6 +280,12 @@
     img {
       object-fit: cover;
       height: 100%;
+    }
+    @media print, screen and (max-width: 1142px) {
+      img {
+        margin: 0 auto;
+        display: block;
+      }
     }
   }
 
