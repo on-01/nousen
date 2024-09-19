@@ -111,7 +111,11 @@
         >
           講習会など学習の記録を登録し、必要な場合に学習履歴の証明書を発行するシステムで能センでも１・２級土木施工管理技士の一部の講座は指定を受けております。
           <br />
-          <a href="https://www.ejcm.or.jp/about-cpds/" target="_blank">
+          <a
+            class="cardlink -orange"
+            href="https://www.ejcm.or.jp/about-cpds/"
+            target="_blank"
+          >
             詳しくはこちらのサイト
           </a>
           をご覧ください。
@@ -185,10 +189,15 @@ query {
       padding: 50px 0;
     }
   }
-  .a .a-content .cardlink a {
-    font-weight: 700;
-    text-decoration: underline;
-    margin-top: 20px;
-    color: #000;
+  .a-content {
+    .cardlink {
+      font-weight: 700;
+      text-decoration: underline;
+      margin-top: 20px;
+      color: #000;
+    }
+    .cardlink.-orange {
+      color: #e2690d;
+    }
   }
 </style>
