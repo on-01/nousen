@@ -189,6 +189,9 @@
     justify-content: space-between;
     column-gap: 20px;
     padding: 0 20px;
+    @media print, screen and (max-width: 1142px) {
+      flex-direction: column;
+    }
   }
 
   .index-title {
@@ -202,7 +205,6 @@
     span {
       color: #ed6c00;
       font-size: 45px;
-      margin-right: 0.5em;
     }
   }
 
@@ -239,7 +241,7 @@
     position: relative;
     p {
       margin: 0;
-      font-size: 20px;
+      font-size: 12px;
     }
   }
 
@@ -257,6 +259,11 @@
 
   .index-img {
     margin: 0;
+    height: 250px;
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
   }
 
   .index-textImg {
