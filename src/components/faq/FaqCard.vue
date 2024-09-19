@@ -124,15 +124,11 @@
         font-weight: 700;
         text-decoration: underline;
         margin-top: 20px;
-        a {
-          color: #000;
-        }
+        color: #000;
       }
       .cardlink-orange {
         text-decoration: underline;
-        a {
-          color: #e2690d;
-        }
+        color: #e2690d;
       }
     }
   }
