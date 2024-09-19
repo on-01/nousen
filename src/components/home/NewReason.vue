@@ -60,7 +60,7 @@
       <figure class="index-textImg">
         <img src="../../assets/img/front/section05_title1.svg" />
       </figure>
-      <div class="index-boxContent">
+      <div class="index-boxContent -center">
         <p>
           <i class="scroll-animation-item">
             「100回同じ質問をしても、100回笑顔でお答えします。」
@@ -80,7 +80,7 @@
       <figure class="index-textImg -bottom">
         <img src="../../assets/img/front/section05_title2.svg" />
       </figure>
-      <div class="index-boxContent">
+      <div class="index-boxContent -center">
         <p>
           『スマホの中の先生は、２４時間授業中』
           <br />
@@ -247,8 +247,12 @@
     position: relative;
     p {
       margin: 0;
-      font-size: 12px;
+      font-size: 10px;
     }
+  }
+
+  .index-boxContent.-center {
+    margin-top: 20px;
   }
 
   .index-boxContent::before {
