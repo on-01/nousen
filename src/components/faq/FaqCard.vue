@@ -120,10 +120,20 @@
         margin-top: 10px;
         margin-left: 40px;
       }
-      // a {
-      //   color: #e2690d;
-      //   text-decoration: underline;
-      // }
+      .cardlink {
+        font-weight: 700;
+        text-decoration: underline;
+        margin-top: 20px;
+        a {
+          color: #000;
+        }
+      }
+      .cardlink.-orange {
+        a {
+          color: #e2690d;
+          text-decoration: underline;
+        }
+      }
     }
   }
 
