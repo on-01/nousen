@@ -2,7 +2,7 @@
   <div class="cheer">
     <div class="cheer-inner">
       <div class="cheer-section">
-        <div class="cheer-description">
+        <!-- <div class="cheer-description"> -->
           <p class="cheer-title" v-html="text"></p>
           <p class="cheer-line"></p>
         </div>
@@ -66,7 +66,9 @@
     justify-content: space-between;
   }
   .cheer-image {
-    width: 48%;
+    // width: 48%;
+    width: 72%;
+    margin: 0 auto;
   }
   .cheer-description {
     width: 48%;
