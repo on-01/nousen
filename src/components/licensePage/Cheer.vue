@@ -2,13 +2,11 @@
   <div class="cheer">
     <div class="cheer-inner">
       <div class="cheer-section">
-          <p class="cheer-title" v-html="text"></p>
-        </div>
-        <figure class="cheer-image">
-          <g-image :src="imagePath" :alt="altText" />
-        </figure>
+        <p class="cheer-title" v-html="text"></p>
       </div>
-
+      <figure class="cheer-image">
+        <g-image :src="imagePath" :alt="altText" />
+      </figure>
       <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
@@ -107,7 +105,7 @@
       padding-top: 0px;
     }
     .cheer-image {
-      width: 100%;
+      width: 80%;
     }
     .cheer-image img {
       display: block;
