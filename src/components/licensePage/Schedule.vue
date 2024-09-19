@@ -2,7 +2,7 @@
   <div class="schedule">
     <p class="schedule-title">{{ title }}</p>
     <div class="schedule-inner">
-      <div class="schedule-line"></div>
+      <!-- <div class="schedule-line"></div> -->
       <!-- <p class="schedule-tableTitle">
         令和６年度　第三種電気主任技術者　各種日程
       </p> -->
@@ -246,7 +246,7 @@
 
   .schedule-inner {
     // padding: 20px 10px;
-    padding: 20px 0;
+    padding: 40px 0 20px;
     max-width: 1027px;
     // width: 100%;
     margin: 5px auto 0 auto;

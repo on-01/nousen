@@ -117,7 +117,9 @@
           <div class="bottomTable__wrap">
             <div class="bottomTable__text -blue">試験機関</div>
             <div class="bottomTable__text -center">
-              一般財団法人 建設業振興基金
+              <a href="https://www.kensetsu-kikin.or.jp/">
+                一般財団法人 建設業振興基金
+              </a>
             </div>
             <div class="bottomTable__text -bottom">
               TEL ０３－５４７３－１５８１
@@ -342,6 +344,9 @@
   .bottomTable__text.-center {
     width: 40%;
     border-left: none;
+    a {
+      text-decoration: underline;
+    }
   }
 
   .bottomTable__text.-bottom {
