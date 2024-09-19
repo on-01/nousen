@@ -117,7 +117,9 @@
           <div class="bottomTable__wrap">
             <div class="bottomTable__text -blue">試験機関</div>
             <div class="bottomTable__text -center">
-              一般財団法人 全国建設研修センター
+              <a href="https://www.jctc.jp/">
+                一般財団法人 全国建設研修センター
+              </a>
             </div>
             <div class="bottomTable__text -bottom">
               TEL ０４２－３００－６８６０
@@ -342,6 +344,9 @@
   .bottomTable__text.-center {
     width: 40%;
     border-left: none;
+    a {
+      text-decoration: underline;
+    }
   }
 
   .bottomTable__text.-bottom {
