@@ -185,9 +185,14 @@ query {
       padding: 50px 0;
     }
   }
-  .cardlink {
-    font-weight: 700;
-    text-decoration: underline;
-    margin-top: 20px;
+  .a-content {
+    .cardlink {
+      font-weight: 700;
+      text-decoration: underline;
+      margin-top: 20px;
+      a {
+        color: #000;
+      }
+    }
   }
 </style>
