@@ -129,9 +129,9 @@
         }
       }
       .cardlink-orange {
+        text-decoration: underline;
         a {
           color: #e2690d;
-          text-decoration: underline;
         }
       }
     }
