@@ -254,7 +254,7 @@
     position: relative;
     p {
       margin: 0;
-      font-size: 10px;
+      font-size: 12px;
     }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;
