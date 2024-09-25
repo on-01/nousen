@@ -1478,21 +1478,21 @@ query {
           display: none;
         }
       }
-      &:before {
-        content: "";
-        height: 200px;
-        width: 5px;
-        background-color: #000;
-        display: block;
-        position: relative;
-        left: 0;
-        right: 0;
-        margin: auto;
-        margin-top: 30px;
-        @media print, screen and (max-width: 1000px) {
-          height: 100px;
-        }
-      }
+      // &:before {
+      //   content: "";
+      //   height: 200px;
+      //   width: 5px;
+      //   background-color: #000;
+      //   display: block;
+      //   position: relative;
+      //   left: 0;
+      //   right: 0;
+      //   margin: auto;
+      //   margin-top: 30px;
+      //   @media print, screen and (max-width: 1000px) {
+      //     height: 100px;
+      //   }
+      // }
     }
   }
   .last-message-flex {

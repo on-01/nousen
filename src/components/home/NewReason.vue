@@ -114,7 +114,9 @@
 
       <div class="index-boxContent">
         <p>
-          受講生の皆さまが合格できるよう、最大限のサポートを続けていきます！
+          <i class="scroll-animation-item">
+            受講生の皆さまが合格できるよう、最大限のサポートを続けていきます！
+          </i>
           <br />
           疑問や不安があれば、いつでも気軽にご相談ください。
           <br />
@@ -236,7 +238,10 @@
     p {
       line-height: 1.7;
       margin-top: 1.5em;
-      font-size: 16px;
+      font-size: 18px;
+      @media print, screen and (max-width: 1000px) {
+        font-size: 16px;
+      }
       span {
         font-size: 9px;
         display: block;
@@ -254,7 +259,10 @@
     position: relative;
     p {
       margin: 0;
-      font-size: 12px;
+      font-size: 15px;
+      @media print, screen and (max-width: 1000px) {
+        font-size: 12px;
+      }
     }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;

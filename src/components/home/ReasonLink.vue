@@ -221,7 +221,7 @@
     margin: 0 auto 240px;
     @media print, screen and (max-width: 1000px) {
       // margin-bottom: 200px;
-      margin-bottom: 110px;
+      margin-bottom: 80px;
     }
   }
   .reason-more-inner {
