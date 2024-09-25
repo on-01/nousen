@@ -235,11 +235,14 @@
     letter-spacing: 0.18em;
     text-align: center;
     margin: 30px auto 0;
+    @media print, screen and (max-width: 1142px) {
+      margin-top: 0;
+    }
     p {
       line-height: 1.7;
       margin-top: 1.5em;
       font-size: 18px;
-      @media print, screen and (max-width: 1000px) {
+      @media print, screen and (max-width: 768px) {
         font-size: 16px;
       }
       span {
@@ -257,15 +260,16 @@
     font-weight: 700;
     text-align: center;
     position: relative;
+    @media print, screen and (max-width: 1142px) {
+      max-width: 600px;
+      margin-top: 30px;
+    }
     p {
       margin: 0;
       font-size: 15px;
-      @media print, screen and (max-width: 1000px) {
+      @media print, screen and (max-width: 768px) {
         font-size: 12px;
       }
-    }
-    @media print, screen and (max-width: 1142px) {
-      max-width: 600px;
     }
   }
 
@@ -288,17 +292,18 @@
   .index-img {
     margin: 0;
     height: 250px;
+    @media print, screen and (max-width: 1142px) {
+      height: auto;
+    }
     img {
       object-fit: cover;
       height: 100%;
       width: 75%;
       display: block;
       margin: 0 auto;
-    }
-    @media print, screen and (max-width: 1142px) {
-      img {
-        margin: 0 auto;
-        display: block;
+      @media print, screen and (max-width: 1142px) {
+        width: 100%;
+        max-width: 500px;
       }
     }
   }
