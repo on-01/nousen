@@ -5,7 +5,9 @@
         <p class="cheer-title" v-html="text"></p>
       </div>
       <figure class="cheer-image">
-        <g-image :src="imagePath" :alt="altText" />
+        <a href="https://denken.nouryoku.com/online">
+          <g-image :src="imagePath" :alt="altText" />
+        </a>
       </figure>
       <div class="bg-white_type2">
         <div class="exam-link-wrapper">
@@ -63,7 +65,8 @@
   }
   .cheer-image {
     // width: 48%;
-    width: 72%;
+    // width: 72%;
+    width: 65%;
     margin: 0 auto;
   }
   .cheer-description {
