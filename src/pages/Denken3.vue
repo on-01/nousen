@@ -148,7 +148,7 @@
               "
               text_2="初めて受験する方におすすめするのが、能センの基礎講座です。専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。しばらく理系の学習から離れていた方はこの機会にご活用ください。"
               :imagePath_2="
-                require('../assets/img/license_page/denken3/denken3_quality_2-2.jpg')
+                require('../assets/img/license_page/denken3/denken3_quality_2-2_2.jpg')
               "
               text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
               :imagePath_3="
