@@ -57,10 +57,10 @@
         </p>
       </div>
 
-      <figure class="index-textImg">
-        <img src="../../assets/img/front/section05_title1.svg" />
-      </figure>
       <div class="index-boxContent -center">
+        <figure class="index-textImg">
+          <img src="../../assets/img/front/section05_title1.svg" />
+        </figure>
         <p>
           <i class="scroll-animation-item">
             「100回同じ質問をしても、100回笑顔でお答えします。」
@@ -77,10 +77,10 @@
           という方は是非！
         </p>
       </div>
-      <figure class="index-textImg -bottom">
-        <img src="../../assets/img/front/section05_title2.svg" />
-      </figure>
       <div class="index-boxContent -center">
+        <figure class="index-textImg -bottom">
+          <img src="../../assets/img/front/section05_title2.svg" />
+        </figure>
         <p>
           『スマホの中の先生は、２４時間授業中』
           <br />
@@ -253,7 +253,7 @@
     padding: 30px 10px;
     font-size: 18px;
     border: 4px solid #000;
-    margin: 70px auto 0;
+    margin: 30px auto 0;
     font-weight: 700;
     text-align: center;
     position: relative;
@@ -270,7 +270,7 @@
   }
 
   .index-boxContent.-center {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .index-boxContent::before {
@@ -305,12 +305,12 @@
 
   .index-textImg {
     max-width: 150px;
-    margin: 20px auto 0;
+    margin: 0 auto 10px;
   }
 
   .index-textImg.-bottom {
     max-width: 220px;
-    margin: 20px auto 0;
+    margin: 0 auto 10px;
   }
 
   .reason-contents + .reason-contents {
