@@ -7,7 +7,7 @@
         わかりやすい講習
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section01_background.jpg" />
+        <img src="../../assets/img/front/section01_background-1.jpg" />
       </figure>
       <div class="index-topContent">
         <p>
@@ -47,7 +47,7 @@
         えらべる学習スタイル
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section05_background.jpg" />
+        <img src="../../assets/img/front/section05_background-1.jpg" />
       </figure>
       <div class="index-topContent">
         <p>
@@ -98,7 +98,7 @@
         信頼の実績と歴史
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section03_background.jpg" />
+        <img src="../../assets/img/front/section03_background-1.jpg" />
       </figure>
       <div class="index-topContent">
         <p>
@@ -291,7 +291,9 @@
     img {
       object-fit: cover;
       height: 100%;
-      width: 100%;
+      width: 75%;
+      display: block;
+      margin: 0 auto;
     }
     @media print, screen and (max-width: 1142px) {
       img {
