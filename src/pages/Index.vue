@@ -1355,7 +1355,8 @@ query {
     }
     &:before {
       content: "";
-      height: 500px;
+      // height: 500px;
+      height: 305px;
       width: 5px;
       background-color: #000;
       display: block;
@@ -1366,7 +1367,8 @@ query {
       margin: auto;
       z-index: -2;
       @media print, screen and (max-width: 1000px) {
-        height: 300px;
+        // height: 300px;
+        height: 220px;
       }
     }
     &:after {
@@ -1376,13 +1378,15 @@ query {
       background-color: #000;
       display: block;
       position: absolute;
-      top: 473px;
+      // top: 473px;
+      top: 278px;
       left: -20px;
       right: 0;
       margin: auto;
       transform: rotate(-45deg);
       @media print, screen and (max-width: 1000px) {
-        top: 274px;
+        // top: 274px;
+        top: 196px;
       }
     }
     .section-title {
@@ -1391,13 +1395,14 @@ query {
       margin: 0 auto;
       background-color: #fff;
       position: absolute;
-      top: 200px;
+      // top: 200px;
+      top: 0;
       left: 0;
       right: 0;
       padding: 50px 0;
       @media print, screen and (max-width: 1000px) {
         width: 90%;
-        top: 30px;
+        top: 0;
         max-width: 250px;
         padding: 20px 0;
       }
