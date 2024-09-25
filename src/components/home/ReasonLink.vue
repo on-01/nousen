@@ -217,9 +217,11 @@
   .reason-more {
     display: block;
     text-align: center;
-    margin: 0 auto 310px;
+    // margin: 0 auto 310px;
+    margin: 0 auto 240px;
     @media print, screen and (max-width: 1000px) {
-      margin-bottom: 200px;
+      // margin-bottom: 200px;
+      margin-bottom: 110px;
     }
   }
   .reason-more-inner {
