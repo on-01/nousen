@@ -342,7 +342,7 @@
   }
 
   .bottomTable__text.-center {
-    width: 40%;
+    width: 41%;
     border-left: none;
     a {
       text-decoration: underline;
@@ -350,7 +350,7 @@
   }
 
   .bottomTable__text.-bottom {
-    width: 40%;
+    width: 39%;
     border-left: none;
   }
 
