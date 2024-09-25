@@ -29,7 +29,7 @@
           を盛り込んだ講習が特徴。
         </p>
       </div>
-      <div class="index-boxContent -center">
+      <div class="index-boxContent">
         <p>
           近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。
           <br />
@@ -234,7 +234,8 @@
     font-weight: 700;
     letter-spacing: 0.18em;
     text-align: center;
-    margin: 30px auto 0;
+    // margin: 30px auto 0;
+    margin: 0 auto;
     @media print, screen and (max-width: 1142px) {
       margin-top: 0;
     }
@@ -275,6 +276,7 @@
 
   .index-boxContent.-center {
     margin-top: 30px;
+    padding-top: 20px;
   }
 
   .index-boxContent::before {
