@@ -135,10 +135,12 @@
         <div class="bottomTable__wrap">
           <div class="bottomTable__text -blue">試験機関</div>
           <div class="bottomTable__text -center">
-            <a href="https://www.jctc.jp/">一般財団法人 全国建設研修センター</a>
+            <a href="https://www.shiken.or.jp/">
+              一般財団法人 電気技術者試験センター
+            </a>
           </div>
           <div class="bottomTable__text -bottom">
-            TEL ０４２－３００－６８６０
+            TEL ０３－３５５２－７６９１
             <br />
             （土日・祝日・年末年始除く）
           </div>
