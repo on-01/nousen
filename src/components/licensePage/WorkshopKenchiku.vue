@@ -726,7 +726,7 @@
   }
 
   .add-tableWrap {
-    margin: 30px 0;
+    margin: 30px auto;
     overflow: scroll;
     max-width: 755px;
     -ms-overflow-style: none; /* IE, Edge 対応 */
