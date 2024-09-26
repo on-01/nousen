@@ -131,6 +131,20 @@
         </table>
       </div>
 
+      <div class="schedule-table-bottomTable bottomTable">
+        <div class="bottomTable__wrap">
+          <div class="bottomTable__text -blue">試験機関</div>
+          <div class="bottomTable__text -center">
+            <a href="https://www.jctc.jp/">一般財団法人 全国建設研修センター</a>
+          </div>
+          <div class="bottomTable__text -bottom">
+            TEL ０４２－３００－６８６０
+            <br />
+            （土日・祝日・年末年始除く）
+          </div>
+        </div>
+      </div>
+
       <div class="schedule-details">
         <p>
           <span class="schedule-table-note">※１</span>
@@ -393,6 +407,47 @@
     .schedule-table {
       min-width: 1110px;
     }
+  }
+  .schedule-table-bottomTable {
+    min-width: 930px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+
+  .bottomTable__wrap {
+    display: flex;
+  }
+
+  .bottomTable__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottomTable__text {
+    border: 1px solid #000;
+  }
+
+  .bottomTable__text.-blue {
+    width: 20%;
+    background: #249ef0;
+    color: #fff;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .bottomTable__text.-center {
+    width: 41%;
+    border-left: none;
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  .bottomTable__text.-bottom {
+    width: 39%;
+    border-left: none;
   }
 
   @media print, screen and (max-width: 1000px) {
