@@ -309,28 +309,30 @@
             </p>
           </div>
         </div>
-
-        <p class="add-text1">【一次コース】</p>
-        <p class="add-text2">
-          ✅共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
-          応用能力問題・法規)
+        <p class="add-title">学習内容</p>
+        <div class="add-studyWrap">
+          <p class="add-text1">【一次コース】</p>
+          <p class="add-text2">
+            ✅共通科目(建築学・施工・施工管理法)/ 選択科目(☆新設
+            応用能力問題・法規)
+            <br />
+            ▶試験に出るポイントを絞った講座内容
+            <br />
+            問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
+            <br />
+            １７歳以上の学生や、二次試験の受験資格に満たない方にもおすすめ！
+          </p>
           <br />
-          ▶試験に出るポイントを絞った講座内容
-          <br />
-          問題演習が多く、用語解説、ポイント解説、実際の現場での経験談など。
-          <br />
-          １７歳以上の学生や、二次試験の受験資格に満たない方にもおすすめ！
-        </p>
-        <br />
-        <p class="add-text1">【二次コース】</p>
-        <p class="add-text2">
-          ✅施工経験記述 / 施工用語 / 工程管理 / 法規 / 施工技術 / その他
-          <br />
-          ▶ 二次試験対策＋経験記述の添削付き
-          <br />
-          経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
-          ポイント及び注意点までをわかり易く説明いたします。
-        </p>
+          <p class="add-text1">【二次コース】</p>
+          <p class="add-text2">
+            ✅施工経験記述 / 施工用語 / 工程管理 / 法規 / 施工技術 / その他
+            <br />
+            ▶ 二次試験対策＋経験記述の添削付き
+            <br />
+            経験記述問題の対策が中心になります。経験記述試験はどのような問題が出題されるのか、書き方から
+            ポイント及び注意点までをわかり易く説明いたします。
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -700,7 +702,6 @@
     max-width: 1170px;
   }
   .add-wrapper {
-    max-width: 755px;
     margin: 0 auto;
   }
   .add-text1 {
@@ -727,12 +728,18 @@
   .add-tableWrap {
     margin: 30px 0;
     overflow: scroll;
+    max-width: 755px;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */
     &::-webkit-scrollbar {
       /* Chrome, Safari 対応 */
       display: none;
     }
+  }
+
+  .add-studyWrap {
+    max-width: 755px;
+    margin: 0 auto;
   }
 
   @media print, screen and (max-width: 1000px) {
