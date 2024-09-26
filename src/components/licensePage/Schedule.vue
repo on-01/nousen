@@ -129,20 +129,19 @@
                 </td> -->
           </tr>
         </table>
-      </div>
-
-      <div class="schedule-table-bottomTable bottomTable">
-        <div class="bottomTable__wrap">
-          <div class="bottomTable__text -blue">試験機関</div>
-          <div class="bottomTable__text -center">
-            <a href="https://www.shiken.or.jp/">
-              一般財団法人 電気技術者試験センター
-            </a>
-          </div>
-          <div class="bottomTable__text -bottom">
-            TEL ０３－３５５２－７６９１
-            <br />
-            （土日・祝日・年末年始除く）
+        <div class="schedule-table-bottomTable bottomTable">
+          <div class="bottomTable__wrap">
+            <div class="bottomTable__text -blue">試験機関</div>
+            <div class="bottomTable__text -center">
+              <a href="https://www.shiken.or.jp/">
+                一般財団法人 電気技術者試験センター
+              </a>
+            </div>
+            <div class="bottomTable__text -bottom">
+              TEL ０３－３５５２－７６９１
+              <br />
+              （土日・祝日・年末年始除く）
+            </div>
           </div>
         </div>
       </div>
@@ -389,31 +388,10 @@
     transform: translateY(10px);
   }
 
-  @media print, screen and (max-width: 1110px) {
-    .schedule-inner {
-      padding: 20px;
-    }
-    .schedule-details {
-      padding-right: 0px;
-      padding-left: 0px;
-    }
-    .schedule-title {
-      font-size: 20px;
-    }
-    .schedule-tableTitle {
-      font-size: 16px;
-    }
-    .schedule-table-wrap {
-      overflow-x: auto;
-    }
-    .schedule-table {
-      min-width: 1110px;
-    }
-  }
   .schedule-table-bottomTable {
-    min-width: 930px;
+    // min-width: 930px;
     margin-top: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
   }
 
   .bottomTable__wrap {
@@ -450,6 +428,32 @@
   .bottomTable__text.-bottom {
     width: 39%;
     border-left: none;
+  }
+
+  @media print, screen and (max-width: 1110px) {
+    .schedule-inner {
+      padding: 20px;
+    }
+    .schedule-details {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+    .schedule-title {
+      font-size: 20px;
+    }
+    .schedule-tableTitle {
+      font-size: 16px;
+    }
+    .schedule-table-wrap {
+      overflow-x: auto;
+    }
+    .schedule-table {
+      min-width: 1110px;
+    }
+
+    .schedule-table-bottomTable {
+      min-width: 1110px;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
