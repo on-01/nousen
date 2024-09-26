@@ -312,7 +312,7 @@
           </div>
         </div>
 
-        <p class="add-title">受講料金</p>
+        <p class="add-title">学習内容</p>
         <p class="add-text1">【一次コース】</p>
         <p class="add-text2">
           ✅土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
