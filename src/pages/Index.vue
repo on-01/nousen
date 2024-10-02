@@ -167,8 +167,8 @@
           <p>【 全ての受験生へ 】</p>
           <iframe
             class="top-youtube-movie"
-            width="800"
-            height="450"
+            width="600"
+            height="320"
             src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X"
             title="YouTube video player"
             frameborder="0"
@@ -987,16 +987,21 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .top-ctaFlex {
+    display: flex;
+    align-items: center;
+  }
   .top-banner {
-    max-width: 600px;
+    // max-width: 600px;
     margin: 0 auto;
+    width: 50%;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 40px;
     }
     img {
       display: block;
-      margin: 0 auto;
-      width: 90%;
+      margin: 56px auto 0;
+      width: 85%;
       @media print, screen and (max-width: 1000px) {
         width: 70%;
       }
@@ -1922,6 +1927,7 @@ query {
     font-weight: bold;
     font-size: 28px;
     font-family: "メイリオ", sans-serif;
+    width: 50%;
   }
 
   .top-youtube p {
