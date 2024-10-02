@@ -990,6 +990,7 @@ query {
   .top-ctaFlex {
     display: flex;
     align-items: center;
+    padding: 0 20px;
   }
   .top-banner {
     // max-width: 600px;
@@ -1000,7 +1001,7 @@ query {
     }
     img {
       display: block;
-      margin: 56px auto 0;
+      margin: 56px 0 0 56px;
       width: 85%;
       @media print, screen and (max-width: 1000px) {
         width: 70%;
