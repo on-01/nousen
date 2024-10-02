@@ -18,11 +18,11 @@
       </div>
       <div class="index-boxContent">
         <p>
-          講師の全員が、建設・電気・設備等さまざまな現場で
+          講師の全員が、建設・電気・設備等、現場で
           <i class="scroll-animation-item">
             長いキャリアをもつ現役及び元技術者
           </i>
-          です。
+          。
           <br />
           豊富な現場経験のもと、みなさんが
           <i class="scroll-animation-item">共感できるエピソード</i>
@@ -114,7 +114,7 @@
 
       <div class="index-boxContent">
         <p>
-          受講生の皆さまへ
+          <span>受講生の皆さまへ</span>
           <br />
           <br />
           <i class="scroll-animation-item">
@@ -274,6 +274,10 @@
       @media print, screen and (max-width: 768px) {
         font-size: 12px;
       }
+    }
+    span {
+      font-size: 17px;
+      font-weight: 700;
     }
   }
 
