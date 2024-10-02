@@ -32,63 +32,63 @@ query News {
 </static-query>
 
 <script>
-import { INLINES } from "@contentful/rich-text-types";
-import { documentToHtmlString } from "../../../node_modules/@contentful/rich-text-html-renderer";
-const options = {
-  //contentfulのエディタで設定したassetへのリンクを変換
-  renderNode: {
-    [INLINES.ASSET_HYPERLINK]: node =>
-      `<a href="${node.data.target.fields.file.url}">${
-        node.content[0].value
-      }</a>`
-  }
-};
+  import { INLINES } from "@contentful/rich-text-types";
+  import { documentToHtmlString } from "../../../node_modules/@contentful/rich-text-html-renderer";
+  const options = {
+    //contentfulのエディタで設定したassetへのリンクを変換
+    renderNode: {
+      [INLINES.ASSET_HYPERLINK]: (node) =>
+        `<a href="${node.data.target.fields.file.url}">${node.content[0].value}</a>`,
+    },
+  };
 
-export default {
-  name: "news",
-  methods: {
-    richtextToHTML(content) {
-      const richtextString = documentToHtmlString(content, options)
-        .replace(/\n/g, `</br>`)
-        .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
-      return richtextString;
-    }
-  }
-};
+  export default {
+    name: "news",
+    methods: {
+      richtextToHTML(content) {
+        const richtextString = documentToHtmlString(content, options)
+          .replace(/\n/g, `</br>`)
+          .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
+        return richtextString;
+      },
+    },
+  };
 </script>
 <style lang="scss" scoped>
-.news-wrapper {
-  max-width: 860px;
-  border-top: 5px solid #3b241a;
-  border-bottom: 5px solid #3b241a;
-  height: 536px;
-  overflow-y: scroll;
-  margin: 0 auto;
-  position: relative;
-  background-color: #fff;
-  font-family: 'メイリオ', sans-serif;
-}
-.section-title {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 1.17em;
-}
-.news-article {
-  margin: 30px;
-}
-.news-date {
-  font-weight: bold;
-  color: #f4891e;
-  font-style: italic;
-  font-size: 25px;
-  @media print, screen and (max-width: 1000px) {
-    font-size: 20px;
+  .news-wrapper {
+    // max-width: 860px;
+    max-width: 800px;
+    border-top: 5px solid #3b241a;
+    border-bottom: 5px solid #3b241a;
+    // height: 536px;
+    height: 500px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    font-family: "メイリオ", sans-serif;
   }
-}
-.news-content::v-deep p:first-child {
-  margin-top: 0;
-}
-.news-content::v-deep a {
-  text-decoration: underline;
-}
+  .section-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.17em;
+  }
+  .news-article {
+    margin: 30px;
+  }
+  .news-date {
+    font-weight: bold;
+    color: #f4891e;
+    font-style: italic;
+    font-size: 25px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 20px;
+    }
+  }
+  .news-content::v-deep p:first-child {
+    margin-top: 0;
+  }
+  .news-content::v-deep a {
+    text-decoration: underline;
+  }
 </style>
