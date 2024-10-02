@@ -228,11 +228,11 @@
 
   .index-topContent {
     background-color: #fff;
-    border-top: 5px solid #000;
-    border-bottom: 5px solid #000;
+    // border-top: 5px solid #000;
+    // border-bottom: 5px solid #000;
     display: block;
     padding: 20px;
-    max-width: 300px;
+    max-width: 330px;
     width: 100%;
     font-weight: 700;
     letter-spacing: 0.18em;
@@ -245,12 +245,12 @@
     p {
       line-height: 1.7;
       margin-top: 1.5em;
-      font-size: 18px;
+      font-size: 20px;
       @media print, screen and (max-width: 768px) {
         font-size: 16px;
       }
       span {
-        font-size: 9px;
+        font-size: 10px;
         display: block;
       }
     }
