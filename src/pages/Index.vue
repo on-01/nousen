@@ -162,28 +162,29 @@
         <p class="section-name">News</p>
         <News />
       </section>
+      <div class="top-ctaFlex">
+        <div class="top-youtube">
+          <p>【 全ての受験生へ 】</p>
+          <iframe
+            class="top-youtube-movie"
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-      <div class="top-youtube">
-        <p>【 全ての受験生へ 】</p>
-        <iframe
-          class="top-youtube-movie"
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-
-      <div class="top-banner">
-        <a href="https://nousen.blog/mangadayo/">
-          <img
-            src="../assets/img/front/front-banner1.jpg"
-            alt="マンガでわかる能センとは！"
-          />
-        </a>
+        <div class="top-banner">
+          <a href="https://nousen.blog/mangadayo/">
+            <img
+              src="../assets/img/front/front-banner1.jpg"
+              alt="マンガでわかる能センとは！"
+            />
+          </a>
+        </div>
       </div>
 
       <section class="voice">
