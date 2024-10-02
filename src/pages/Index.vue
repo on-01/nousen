@@ -991,20 +991,25 @@ query {
     display: flex;
     align-items: center;
     padding: 0 20px;
+    @media print, screen and (max-width: 1150px) {
+      flex-direction: column;
+    }
   }
   .top-banner {
     // max-width: 600px;
     margin: 0 auto;
     width: 50%;
-    @media print, screen and (max-width: 1000px) {
+    @media print, screen and (max-width: 1150px) {
       margin-bottom: 40px;
+      width: 100%;
     }
     img {
       display: block;
       margin: 56px 0 0 56px;
       width: 85%;
-      @media print, screen and (max-width: 1000px) {
+      @media print, screen and (max-width: 1150px) {
         width: 70%;
+        margin: 0 auto;
       }
     }
   }
@@ -1929,6 +1934,9 @@ query {
     font-size: 28px;
     font-family: "メイリオ", sans-serif;
     width: 50%;
+    @media print, screen and (max-width: 1150px) {
+      width: 100%;
+    }
   }
 
   .top-youtube p {
