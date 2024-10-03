@@ -569,6 +569,12 @@
         moreText="オンライン相談はこちら"
       />
       <section class="section03">
+        <h2 class="section-title">
+          <img
+            src="../assets/img/front/reason_main_headline3.svg"
+            alt="能センの社会貢献活動"
+          />
+        </h2>
         <div class="last-message">
           <div class="last-message-flex">
             <img
@@ -1376,7 +1382,7 @@ query {
       background-color: #000;
       display: block;
       position: relative;
-      top: 0px;
+      top: 5px;
       left: 0;
       right: 0;
       margin: auto;
@@ -1394,7 +1400,7 @@ query {
       display: block;
       position: absolute;
       // top: 473px;
-      top: 278px;
+      top: 283px;
       left: -20px;
       right: 0;
       margin: auto;
