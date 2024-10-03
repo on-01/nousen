@@ -460,6 +460,9 @@
     .schedule-table-bottomTable {
       min-width: 1110px;
     }
+    .bottomTable__wrap {
+      width: 100%;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
