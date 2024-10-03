@@ -474,7 +474,7 @@
 
               <SupportSecond title="＼＼建設業を応援しよう／／" />
 
-              <Fsc title="持続可能なミライへ" />
+              <!-- <Fsc title="持続可能なミライへ" /> -->
 
               <div class="exam-link-wrapper -border">
                 <div class="exam-link-flex">
