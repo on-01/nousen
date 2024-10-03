@@ -434,6 +434,9 @@
   }
 
   @media print, screen and (max-width: 1110px) {
+    .schedule {
+      width: 90%;
+    }
     .schedule-inner {
       padding: 20px;
     }
@@ -460,8 +463,5 @@
   }
 
   @media print, screen and (max-width: 1000px) {
-    .schedule {
-      width: 90%;
-    }
   }
 </style>
