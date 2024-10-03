@@ -187,6 +187,145 @@
         </div>
       </div>
 
+      <section class="section03">
+        <h2 class="section-title">
+          <img
+            src="../assets/img/front/reason_main_headline2.svg"
+            alt="能センが選ばれる3つの理由"
+          />
+        </h2>
+        <NewReason />
+        <!-- <div class="reason-wrapper"> -->
+        <!-- <Reason
+            reasonNumber="1"
+            myTitle="わかりやすい講習"
+            :myImage="'front/section01_background.jpg'"
+            :myImageSp="'front/section01_background_sp.jpg'"
+            myCatch="必要なことだけ、<br>
+              「合格」に近づきます。"
+            :explanation="[
+              '講師の全員が、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ講習が特徴。',
+              '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
+            ]"
+            moreLinkCheck="1"
+          /> -->
+        <!-- <Reason
+            reasonNumber="2"
+            myTitle="えらべる学習スタイル"
+            :myImage="'front/section05_background.jpg'"
+            :myImageSp="'front/section05_background_sp.jpg'"
+            myCatch="間近で学べる通学講座<br>
+              いつでも手元でオンライン講座"
+            :littleTitle="'front/section05_title1.svg'"
+            :explanationGroup="[
+              {
+                title: 'front/section05_title1.svg',
+                titleAlt: '通学講座',
+                texts: [
+                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔でお答えします。」</i><br>分からないことを聞くことが、合格への近道です。<br><br>同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！',
+                ],
+              },
+              {
+                title: 'front/section05_title2.svg',
+                titleAlt: 'オンライン講座',
+                texts: [
+                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。',
+                ],
+                // movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
+                // movieText:
+                //   '※動画は第三種電気主任技術者の講義です。基礎講座の動画を一部、3分程度ご覧いただけます。'
+              },
+              // {
+              //   title: 'front/section05_title3.svg',
+              //   titleAlt: '通学＋オンラインで、より万全に',
+              //   texts: [
+              //     '例えば「通学講座にオンライン講座を追加」の場合、<i class=scroll-animation-item>オンライン講座の受講料は最大７０％割引。</i><br>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
+              //   ]
+              // }
+            ]"
+          /> -->
+
+        <!-- <div class="btn__apply">
+            <a @click="openModal">
+              <span>お申込みはこちら</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 18 18"
+                aria-labelledby="box"
+                role="presentation"
+                class="icon"
+                data-v-2d92a3c2=""
+                data-v-0aac86ab=""
+              >
+                <title id="box" lang="en" data-v-2d92a3c2="">box icon</title>
+                <g fill="currentColor" data-v-2d92a3c2="">
+                  <g data-v-0aac86ab="" data-v-2d92a3c2="">
+                    <path
+                      d="M.17,8A5.06,5.06,0,0,1,5.23,2.94a5.11,5.11,0,0,1,4,1.89h4.22a2.43,2.43,0,0,1,0,4.85H10A5.07,5.07,0,0,1,.17,8ZM8.94,6.44H8.85a.79.79,0,0,1-.73-.36,3.47,3.47,0,1,0,.52,2.6A.8.8,0,0,1,9.42,8h4a.8.8,0,1,0,0-1.6H8.94Z"
+                    ></path>
+                    <path
+                      d="M7.74,5.65V7.19a2.54,2.54,0,0,1-5.08,0V5.65a2.54,2.54,0,0,1,5.08-.23A.89.89,0,0,1,7.74,5.65ZM4.27,7.19a.94.94,0,0,0,1.87.14V5.65a.94.94,0,0,0-1.87-.14V7.19Z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div> -->
+        <!-- <Reason
+            reasonNumber="3"
+            myTitle="合格に特化した教材"
+            :myImage="'front/section02_background.jpg'"
+            :myImageSp="'front/section02_background_sp.jpg'"
+            myCatch="教科書の作者が<br>
+              解説するから的確です。"
+            :explanation="[
+              'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
+            ]"
+          /> -->
+        <!-- <Reason
+            reasonNumber="3"
+            myTitle="信頼の実績と歴史"
+            :myImage="'front/section03_background.jpg'"
+            :myImageSp="'front/section03_background_sp.jpg'"
+            myCatch="40年で10万人以上の受講生。"
+            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
+            :explanation="[
+              '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
+            ]"
+            moreLinkCheck="1"
+            moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+            moreText="オンライン相談はこちら"
+          /> -->
+        <!-- <Reason
+            reasonNumber="3"
+            myTitle="信頼の実績と歴史"
+            :myImage="'front/section03_background.jpg'"
+            :myImageSp="'front/section03_background_sp.jpg'"
+            myCatch="40年で10万人以上の受講生。"
+            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
+            :explanation="[
+              '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
+            ]"
+          /> -->
+        <!-- <Reason
+            reasonNumber="5"
+            myTitle="常識破りのサービス"
+            :myImage="'front/section04_background.jpg'"
+            :myImageSp="'front/section04_background_sp.jpg'"
+            myCatch="「あればいいな」を<br>ご提供しています。"
+            :explanation="[
+              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span>合格を目指している方を応援します！',
+              '受講費は、<br><i class=scroll-animation-item>リーズナブルでシンプル。</i><br><span>教材・添削費用などすべて含んでわかりやすく設定</span>',
+              '他校では<i class=scroll-animation-item>受講費と添削費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
+              '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
+              '<i class=scroll-animation-item>振替ができる</i>。<br>直前に都合が悪くなった時も大丈夫！<br>通学→オンライン、来年度に振替も対応可能。<br><span>(別途手数料が発生します)</span>',
+            ]"
+          /> -->
+        <!-- </div> -->
+      </section>
+
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
@@ -429,145 +568,7 @@
         moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
         moreText="オンライン相談はこちら"
       />
-
       <section class="section03">
-        <h2 class="section-title">
-          <img
-            src="../assets/img/front/reason_main_headline2.svg"
-            alt="能センが選ばれる3つの理由"
-          />
-        </h2>
-        <NewReason />
-        <!-- <div class="reason-wrapper"> -->
-        <!-- <Reason
-            reasonNumber="1"
-            myTitle="わかりやすい講習"
-            :myImage="'front/section01_background.jpg'"
-            :myImageSp="'front/section01_background_sp.jpg'"
-            myCatch="必要なことだけ、<br>
-              「合格」に近づきます。"
-            :explanation="[
-              '講師の全員が、建設・電気・設備等さまざまな現場で<i class=scroll-animation-item>長いキャリアをもつ現役及び元技術者</i>です。</span><br>豊富な現場経験のもと、みなさんが<i class=scroll-animation-item>共感できるエピソード</i>を盛り込んだ講習が特徴。',
-              '近年の出題傾向、関連業種の現況、法制度の変更などもしっかりサポート。<br>「試験までに特に学習すべき項目」「捨てるべき項目」を明確にお伝えします。<br>それが、<i class=scroll-animation-item>合格への近道です！</i>',
-            ]"
-            moreLinkCheck="1"
-          /> -->
-        <!-- <Reason
-            reasonNumber="2"
-            myTitle="えらべる学習スタイル"
-            :myImage="'front/section05_background.jpg'"
-            :myImageSp="'front/section05_background_sp.jpg'"
-            myCatch="間近で学べる通学講座<br>
-              いつでも手元でオンライン講座"
-            :littleTitle="'front/section05_title1.svg'"
-            :explanationGroup="[
-              {
-                title: 'front/section05_title1.svg',
-                titleAlt: '通学講座',
-                texts: [
-                  '<i class=scroll-animation-item>「100回同じ質問をしても、100回笑顔でお答えします。」</i><br>分からないことを聞くことが、合格への近道です。<br><br>同じ目的をもった受講生たちと、生の講義を受けることで、<br>集中して学ぶことができます。<br><i class=scroll-animation-item>自主的に勉強が始められない・・・</i>という方は是非！',
-                ],
-              },
-              {
-                title: 'front/section05_title2.svg',
-                titleAlt: 'オンライン講座',
-                texts: [
-                  '『スマホの中の先生は、２４時間授業中』<br>スマホがあれば、電車の中や職場など場所を選ばず<i class=scroll-animation-item>何度でも動画を見て勉強が可能！</i><br>短時間でも学習でき、時間をおいて続きから、または学びたい項目だけ視聴できます。',
-                ],
-                // movieSrc: 'https://www.youtube.com/embed/xquePEivmr8',
-                // movieText:
-                //   '※動画は第三種電気主任技術者の講義です。基礎講座の動画を一部、3分程度ご覧いただけます。'
-              },
-              // {
-              //   title: 'front/section05_title3.svg',
-              //   titleAlt: '通学＋オンラインで、より万全に',
-              //   texts: [
-              //     '例えば「通学講座にオンライン講座を追加」の場合、<i class=scroll-animation-item>オンライン講座の受講料は最大７０％割引。</i><br>共通のテキストで原則は講義内容も同じなので会場で学習した内容を繰り返し復習できます。'
-              //   ]
-              // }
-            ]"
-          /> -->
-
-        <!-- <div class="btn__apply">
-            <a @click="openModal">
-              <span>お申込みはこちら</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                viewBox="0 0 18 18"
-                aria-labelledby="box"
-                role="presentation"
-                class="icon"
-                data-v-2d92a3c2=""
-                data-v-0aac86ab=""
-              >
-                <title id="box" lang="en" data-v-2d92a3c2="">box icon</title>
-                <g fill="currentColor" data-v-2d92a3c2="">
-                  <g data-v-0aac86ab="" data-v-2d92a3c2="">
-                    <path
-                      d="M.17,8A5.06,5.06,0,0,1,5.23,2.94a5.11,5.11,0,0,1,4,1.89h4.22a2.43,2.43,0,0,1,0,4.85H10A5.07,5.07,0,0,1,.17,8ZM8.94,6.44H8.85a.79.79,0,0,1-.73-.36,3.47,3.47,0,1,0,.52,2.6A.8.8,0,0,1,9.42,8h4a.8.8,0,1,0,0-1.6H8.94Z"
-                    ></path>
-                    <path
-                      d="M7.74,5.65V7.19a2.54,2.54,0,0,1-5.08,0V5.65a2.54,2.54,0,0,1,5.08-.23A.89.89,0,0,1,7.74,5.65ZM4.27,7.19a.94.94,0,0,0,1.87.14V5.65a.94.94,0,0,0-1.87-.14V7.19Z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-            </a>
-          </div> -->
-        <!-- <Reason
-            reasonNumber="3"
-            myTitle="合格に特化した教材"
-            :myImage="'front/section02_background.jpg'"
-            :myImageSp="'front/section02_background_sp.jpg'"
-            myCatch="教科書の作者が<br>
-              解説するから的確です。"
-            :explanation="[
-              'ほとんどの講習で、<i class=scroll-animation-item>担当講師が執筆したテキスト</i>（教科書）を使用。<br>作者本人が説明するから、<i class=scroll-animation-item>受験対策に必要な箇所を的確に解説</i>できます。<br><br>最新の情報や臨時の対策などは、補足資料で１００％サポートします！',
-            ]"
-          /> -->
-        <!-- <Reason
-            reasonNumber="3"
-            myTitle="信頼の実績と歴史"
-            :myImage="'front/section03_background.jpg'"
-            :myImageSp="'front/section03_background_sp.jpg'"
-            myCatch="40年で10万人以上の受講生。"
-            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
-            :explanation="[
-              '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
-            ]"
-            moreLinkCheck="1"
-            moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-            moreText="オンライン相談はこちら"
-          /> -->
-        <!-- <Reason
-            reasonNumber="3"
-            myTitle="信頼の実績と歴史"
-            :myImage="'front/section03_background.jpg'"
-            :myImageSp="'front/section03_background_sp.jpg'"
-            myCatch="40年で10万人以上の受講生。"
-            myCatchSmall="（旧能力開発研修センターとノウハウを全て引き継いだ<br>現(株)NOUSENとの累計になります。）"
-            :explanation="[
-              '受講生に合格して頂く為に、最大限のサポートを続けていきます！',
-            ]"
-          /> -->
-        <!-- <Reason
-            reasonNumber="5"
-            myTitle="常識破りのサービス"
-            :myImage="'front/section04_background.jpg'"
-            :myImageSp="'front/section04_background_sp.jpg'"
-            myCatch="「あればいいな」を<br>ご提供しています。"
-            :explanation="[
-              '<i class=scroll-animation-item>合格応援割引制度</i>が使えます。<br><span>(女子割・学割・再受講割・団体割など)</span>合格を目指している方を応援します！',
-              '受講費は、<br><i class=scroll-animation-item>リーズナブルでシンプル。</i><br><span>教材・添削費用などすべて含んでわかりやすく設定</span>',
-              '他校では<i class=scroll-animation-item>受講費と添削費</i>が<br>別のケースもありますが、<br>能センはそんな常識を破ります。',
-              '<i class=scroll-animation-item>会場変更が自由。</i><br>直前にご都合が悪くなった、<br>という場合も大丈夫！<br>別日程の会場や他地域の会場など、<br>希望によっていつでも変更が可能です。',
-              '<i class=scroll-animation-item>振替ができる</i>。<br>直前に都合が悪くなった時も大丈夫！<br>通学→オンライン、来年度に振替も対応可能。<br><span>(別途手数料が発生します)</span>',
-            ]"
-          /> -->
-        <!-- </div> -->
-
         <div class="last-message">
           <div class="last-message-flex">
             <img
