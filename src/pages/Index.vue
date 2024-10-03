@@ -992,8 +992,10 @@ query {
     display: flex;
     align-items: center;
     padding: 0 20px;
+    margin-bottom: 235px;
     @media print, screen and (max-width: 1150px) {
       flex-direction: column;
+      margin-bottom: 45px;
     }
   }
   .top-banner {
