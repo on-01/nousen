@@ -174,7 +174,8 @@
     // padding: 20px 0 20px 10px;
     // padding: 40px 0 40px 10px;
     padding: 60px 10px 60px 10px;
-    max-width: 1012px;
+    // max-width: 1012px;
+    max-width: 930px;
     // width: 100%;
     margin: 0 auto;
   }
@@ -313,7 +314,8 @@
   }
 
   .schedule-table-bottomTable {
-    min-width: 1012px;
+    // min-width: 1012px;
+    min-width: 930px;
     margin-top: 20px;
     margin-bottom: 2px;
   }
