@@ -305,7 +305,8 @@
   }
   .schedule-table {
     border: 2px solid #000;
-    width: 100%;
+    width: 93%;
+    margin: 0 auto;
   }
   .schedule-th {
     background: #249ef0;
@@ -396,6 +397,8 @@
 
   .bottomTable__wrap {
     display: flex;
+    width: 93%;
+    margin: 0 auto;
   }
 
   .bottomTable__text {
