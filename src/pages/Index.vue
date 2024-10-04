@@ -628,7 +628,7 @@
                 「適切な森林管理」を認証する国際的な制度です。
               </p>
               <p class="last-message-flexText">
-                FSC認証についての詳細は、リンクをご参照ください。
+                FSC認証についての詳細は、以下のリンクをご参照ください。
                 <br />
                 [
                 <a href="https://shitte-erabo.net/aboutfsc/certification/">
@@ -1614,6 +1614,10 @@ query {
       font-size: 15px;
       margin: 10px 0 0;
       line-height: 1.5;
+
+      span {
+        font-weight: 700;
+      }
     }
   }
 
