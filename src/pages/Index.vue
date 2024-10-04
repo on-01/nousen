@@ -1586,9 +1586,16 @@ query {
     margin: 40px auto 0;
     // align-items: center;
     justify-content: space-between;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      row-gap: 40px;
+    }
 
     .last-message-flex-box {
       width: 50%;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
       img {
         width: 63%;
         display: block;
@@ -1605,6 +1612,11 @@ query {
       border: solid 2px #333333;
       background-color: #00af50;
       width: 75%;
+      @media print, screen and (max-width: 570px) {
+        font-size: 20px;
+        padding: 0 20px;
+        width: 85%;
+      }
     }
     .last-message-flexText-bold {
       text-align: center;
@@ -1679,11 +1691,11 @@ query {
     .last-message-description::after {
       display: none;
     }
-    .last-message-flex {
-      width: 100%;
-      max-width: 560px;
-      flex-wrap: wrap;
-    }
+    // .last-message-flex {
+    //   width: 100%;
+    //   max-width: 560px;
+    //   flex-wrap: wrap;
+    // }
     .last-message-logo {
       width: 100%;
     }
