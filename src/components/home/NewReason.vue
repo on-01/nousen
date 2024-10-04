@@ -209,6 +209,11 @@
       width: 100%;
     }
   }
+  .index-content.-third {
+    @media print, screen and (max-width: 1142px) {
+      margin-bottom: 40px;
+    }
+  }
 
   .index-title {
     font-size: 27px;
