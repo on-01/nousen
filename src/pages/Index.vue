@@ -598,9 +598,11 @@
                 「こどもの未来応援基金」は、子どもの貧困対策を進めるための
                 <br />
                 官民連携プロジェクトの一環として、2015年に創設されました。
+              </p>
+              <p class="last-message-flexText">
+                こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。
                 <br />
-                <br />
-                こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。[
+                [
                 <a href="https://kodomohinkon.go.jp/">
                   https://kodomohinkon.go.jp/
                 </a>
@@ -624,9 +626,11 @@
                 FSC認証とは、持続可能な森林の活用・保全を目的とし、
                 <br />
                 「適切な森林管理」を認証する国際的な制度です。
+              </p>
+              <p class="last-message-flexText">
+                FSC認証についての詳細は、リンクをご参照ください。
                 <br />
-                <br />
-                FSC認証についての詳細は、リンクをご参照ください。[
+                [
                 <a href="https://shitte-erabo.net/aboutfsc/certification/">
                   https://shitte-erabo.net/aboutfsc/certification/
                 </a>
@@ -1543,7 +1547,8 @@ query {
     }
     .last-message {
       // max-width: 970px;
-      max-width: 1090px;
+      max-width: 1300px;
+      padding: 0 20px;
       width: 100%;
       margin: 0 auto;
       overflow: hidden;
@@ -1576,32 +1581,39 @@ query {
   .last-message-flex {
     display: flex;
     margin: 20px auto 0;
-    align-items: center;
+    // align-items: center;
     justify-content: space-between;
 
     .last-message-flex-box {
-      width: 50%;
+      img {
+        width: 63%;
+        display: block;
+        margin: 20px auto 10px;
+      }
     }
     .last-message-flexTitle {
-      font-size: 28px;
-      padding: 10px 40px;
+      font-size: 24px;
+      padding: 0 40px;
       text-align: center;
       color: white;
       font-weight: 700;
-      margin: 0;
+      margin: 0 auto;
       border: solid 2px #333333;
       background-color: #00af50;
+      width: 75%;
     }
     .last-message-flexText-bold {
       text-align: center;
       font-size: 15px;
       font-weight: 700;
       margin: 0;
+      line-height: 1.5;
     }
     .last-message-flexText {
       text-align: center;
       font-size: 15px;
-      margin: 0;
+      margin: 10px 0 0;
+      line-height: 1.5;
     }
   }
 
