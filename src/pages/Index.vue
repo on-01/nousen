@@ -1061,6 +1061,9 @@ query {
     margin-bottom: 235px;
     @media print, screen and (max-width: 1150px) {
       flex-direction: column;
+    }
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
       margin-bottom: 45px;
     }
   }
@@ -1549,7 +1552,7 @@ query {
       // max-width: 970px;
       max-width: 1300px;
       padding: 0 20px;
-      width: 100%;
+      // width: 100%;
       margin: 0 auto;
       overflow: hidden;
       font-family: "メイリオ", sans-serif;
@@ -1580,11 +1583,12 @@ query {
   }
   .last-message-flex {
     display: flex;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
     // align-items: center;
     justify-content: space-between;
 
     .last-message-flex-box {
+      width: 50%;
       img {
         width: 63%;
         display: block;
