@@ -577,7 +577,63 @@
         </h2>
         <div class="last-message">
           <div class="last-message-flex">
-            <img
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
+                「こどもの未来応援基金への寄付」
+              </p>
+              <img
+                src="../assets/img/common/social_image1.jpg"
+                alt="「こどもの未来応援基金への寄付」"
+              />
+              <p class="last-message-flexText-bold">
+                日本を元気に！
+                <br />
+                子どもたちが夢と希望を持って働ける世の中へ。
+              </p>
+              <p class="last-message-flexText">
+                能センでは、
+                <span>受講生1名につき100円</span>
+                を「こどもの未来応援基金」へ寄付いたします。
+                <br />
+                「こどもの未来応援基金」は、子どもの貧困対策を進めるための
+                <br />
+                官民連携プロジェクトの一環として、2015年に創設されました。
+                <br />
+                <br />
+                こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。[
+                <a href="https://kodomohinkon.go.jp/">
+                  https://kodomohinkon.go.jp/
+                </a>
+                ]
+              </p>
+            </div>
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
+                環境への配慮～持続可能なミライへ～
+              </p>
+              <img
+                src="../assets/img/common/social_image2.jpg"
+                alt="環境への配慮～持続可能なミライへ～"
+              />
+              <p class="last-message-flexText-bold">
+                能センでは、すべてのプリントや資料に
+                <br />
+                FSC認証を受けたエコペーパーを使用しております。
+              </p>
+              <p class="last-message-flexText">
+                FSC認証とは、持続可能な森林の活用・保全を目的とし、
+                <br />
+                「適切な森林管理」を認証する国際的な制度です。
+                <br />
+                <br />
+                FSC認証についての詳細は、リンクをご参照ください。[
+                <a href="https://shitte-erabo.net/aboutfsc/certification/">
+                  https://shitte-erabo.net/aboutfsc/certification/
+                </a>
+                ]
+              </p>
+            </div>
+            <!-- <img
               src="../assets/img/common/social_image.jpg"
               alt="子供の未来は日本の未来"
               class="last-message-logo"
@@ -613,7 +669,7 @@
                 ２０１５年に創設されました。
                 <br />
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -1486,14 +1542,15 @@ query {
       }
     }
     .last-message {
-      max-width: 970px;
+      // max-width: 970px;
+      max-width: 1090px;
       width: 100%;
       margin: 0 auto;
       overflow: hidden;
       font-family: "メイリオ", sans-serif;
-      @media print, screen and (max-width: 1000px) {
-        width: 90%;
-      }
+      // @media print, screen and (max-width: 1000px) {
+      //   width: 90%;
+      // }
       .under_display {
         @media print, screen and (min-width: 1001px) {
           display: none;
@@ -1519,6 +1576,33 @@ query {
   .last-message-flex {
     display: flex;
     margin: 20px auto 0;
+    align-items: center;
+    justify-content: space-between;
+
+    .last-message-flex-box {
+      width: 50%;
+    }
+    .last-message-flexTitle {
+      font-size: 28px;
+      padding: 10px 40px;
+      text-align: center;
+      color: white;
+      font-weight: 700;
+      margin: 0;
+      border: solid 2px #333333;
+      background-color: #00af50;
+    }
+    .last-message-flexText-bold {
+      text-align: center;
+      font-size: 15px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .last-message-flexText {
+      text-align: center;
+      font-size: 15px;
+      margin: 0;
+    }
   }
 
   .last-message-flex p {
@@ -1529,7 +1613,7 @@ query {
   }
   .last-message-description {
     width: 55%;
-    background: #fff8cc;
+    // background: #fff8cc;
     padding-left: 8%;
     position: relative;
   }
