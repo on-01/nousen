@@ -57,11 +57,13 @@ query News {
 <style lang="scss" scoped>
   .news-wrapper {
     // max-width: 860px;
-    max-width: 800px;
+    // max-width: 800px;
+    max-width: 725px;
     border-top: 5px solid #3b241a;
     border-bottom: 5px solid #3b241a;
     // height: 536px;
-    height: 500px;
+    // height: 500px;
+    height: 435px;
     overflow-y: scroll;
     margin: 0 auto;
     position: relative;
@@ -70,7 +72,8 @@ query News {
   }
   .section-title {
     text-align: center;
-    margin-top: 50px;
+    // margin-top: 50px;
+    margin-top: 25px;
     font-size: 1.17em;
   }
   .news-article {
