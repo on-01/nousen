@@ -1077,8 +1077,14 @@ query {
     }
     img {
       display: block;
-      margin: 56px 0 0 56px;
+      margin: 56px 0 0 100px;
       width: 75%;
+      @media print, screen and (max-width: 1300px) {
+        margin-right: 130px;
+      }
+      @media print, screen and (max-width: 1210px) {
+        margin-right: auto;
+      }
       @media print, screen and (max-width: 1150px) {
         width: 70%;
         margin: 0 auto;
