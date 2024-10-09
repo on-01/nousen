@@ -167,8 +167,8 @@
           <p>【 全ての受験生へ 】</p>
           <iframe
             class="top-youtube-movie"
-            width="600"
-            height="320"
+            width="700"
+            height="420"
             src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X"
             title="YouTube video player"
             frameborder="0"
@@ -1078,7 +1078,7 @@ query {
     img {
       display: block;
       margin: 56px 0 0 56px;
-      width: 85%;
+      width: 75%;
       @media print, screen and (max-width: 1150px) {
         width: 70%;
         margin: 0 auto;
