@@ -11,9 +11,11 @@
       </figure>
       <div class="index-topContent">
         <p>
-          必要なことだけ、
-          <br />
-          「合格」に近づきます。
+          <i class="scroll-animation-item">
+            必要なことだけ、
+            <br />
+            「合格」に近づきます。
+          </i>
         </p>
       </div>
       <div class="index-boxContent">
@@ -49,9 +51,11 @@
       </figure>
       <div class="index-topContent">
         <p>
-          間近で学べる通学講座
-          <br />
-          いつでも手元でオンライン講座
+          <i class="scroll-animation-item">
+            間近で学べる通学講座
+            <br />
+            いつでも手元でオンライン講座
+          </i>
         </p>
       </div>
 
@@ -100,7 +104,7 @@
       </figure>
       <div class="index-topContent">
         <p>
-          40年で10万人以上の受講生。
+          <i class="scroll-animation-item">40年で10万人以上の受講生。</i>
           <br />
           <span>
             （旧能力開発研修センターとノウハウを全て引き継いだ
