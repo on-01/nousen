@@ -1588,7 +1588,7 @@ query {
   }
   .last-message-flex {
     display: flex;
-    margin: 40px auto 0;
+    margin: 80px auto 0;
     // align-items: center;
     justify-content: space-between;
     @media print, screen and (max-width: 1000px) {
