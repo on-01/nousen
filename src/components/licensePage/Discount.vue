@@ -184,6 +184,9 @@
     .discount-inner {
       padding: 40px;
     }
+    .discount-small {
+      font-size: 12px;
+    }
   }
 
   @media print, screen and (max-width: 768px) {
