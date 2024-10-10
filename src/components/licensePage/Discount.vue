@@ -24,7 +24,7 @@
           若チャレ割
           <br />
           <p class="discount-small">（若者チャレンジ応援割）</p>
-          <span class="arrow">▶︎</span>
+          <span class="arrow -waka">▶︎</span>
         </div>
         <p class="discount-flex-right">
           受講料
@@ -144,6 +144,9 @@
     font-size: 18px;
     position: absolute;
     right: 0;
+  }
+  .discount-flex-left .arrow.-waka {
+    top: 32px;
   }
   .discount-flex-left br {
     display: none;
