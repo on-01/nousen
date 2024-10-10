@@ -451,7 +451,7 @@
           </figure>
           <figure>
             <a
-              href="https://www.innovations-i.com/biz-db/?id=2615"
+              href="https://www.innovations-i.com/release/1497812.html"
               target="_blank"
               rel="noopener noreferrer"
             >
