@@ -20,11 +20,9 @@
       </div>
       <div class="discount-flex">
         <div class="discount-flex-left">
-          <p class="discount-left-text">
-            若チャレ割
-            <br />
-            <span class="discount-small">（若者チャレンジ応援割）</span>
-          </p>
+          若チャレ割
+          <!-- <br /> -->
+          <!-- <p class="discount-small">（若者チャレンジ応援割）</p> -->
           <span class="arrow">▶︎</span>
         </div>
         <p class="discount-flex-right">
@@ -177,10 +175,6 @@
   .discount-small {
     margin: 0;
     font-size: 16px;
-  }
-
-  .discount-left-text {
-    font-size: 28px;
   }
 
   @media print, screen and (max-width: 1000px) {
