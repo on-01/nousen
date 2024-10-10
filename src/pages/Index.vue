@@ -402,6 +402,11 @@
           </div>
         </div>
       </section>
+      <ReasonLink
+        moreLinkCheck="1"
+        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+        moreText="オンライン相談はこちら"
+      />
 
       <div class="public-media">
         <p>【 メディア掲載実績 】</p>
@@ -563,11 +568,6 @@
         </div>
       </div>
 
-      <ReasonLink
-        moreLinkCheck="1"
-        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-        moreText="オンライン相談はこちら"
-      />
       <section class="section03">
         <h2 class="section-title">
           <img
