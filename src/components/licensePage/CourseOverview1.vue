@@ -81,7 +81,7 @@
                   ▶️【セット割】129,800円：４科目セット
                 </p>
                 <p class="courseOverview-td-text">
-                  <span class="red">【無料】&emsp;</span>
+                  <span class="red">【無料】</span>
                   ：基礎の基礎　&nbsp;9:30-12:00（講座説明会＋基礎の基礎講座)
                 </p>
                 <p>15,400円：基礎（１日）　9:30-17:00</p>
