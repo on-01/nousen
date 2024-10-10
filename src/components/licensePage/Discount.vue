@@ -13,6 +13,7 @@
         <p class="discount-flex-right">
           受講料
           <br />
+          各
           <span>5000</span>
           円割引！
           <br />
@@ -27,8 +28,6 @@
         </div>
         <p class="discount-flex-right">
           受講料
-          <br />
-          各
           <span>5000</span>
           円割引！
         </p>
