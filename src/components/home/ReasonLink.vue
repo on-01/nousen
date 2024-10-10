@@ -218,7 +218,7 @@
     display: block;
     text-align: center;
     // margin: 0 auto 310px;
-    margin: 0 auto 240px;
+    margin: 0 auto 60px;
     @media print, screen and (max-width: 1000px) {
       // margin-bottom: 200px;
       margin-bottom: 80px;
@@ -233,6 +233,9 @@
     font-weight: bold;
     margin-top: 100px;
     font-size: 20px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 40px;
+    }
     .icon {
       margin-left: 10px;
     }
