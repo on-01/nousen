@@ -13,6 +13,21 @@
         <p class="discount-flex-right">
           受講料
           <br />
+          <span>5000</span>
+          円割引！
+          <br />
+        </p>
+      </div>
+      <div class="discount-flex">
+        <p class="discount-flex-left">
+          若チャレ割
+          <br />
+          <p class="discount-small">（若者チャレンジ応援割）</p>
+          <span class="arrow">▶︎</span>
+        </p>
+        <p class="discount-flex-right">
+          受講料
+          <br />
           各
           <span>5000</span>
           円割引！
@@ -20,9 +35,7 @@
       </div>
       <div class="discount-flex">
         <p class="discount-flex-left -sp">
-          女子・学生
-          <br />
-          応援割
+          女子応援割
           <span class="arrow">▶︎</span>
         </p>
         <p class="discount-flex-right">
@@ -62,7 +75,7 @@
         <p>※割引の併用はできません（キャンペーンコードは別）</p>
         <p>※再受講割引は過去に受講された方（同じ科目が対象）</p>
         <p>
-          ※学割の方はお問い合わせフォームから学生証の画像を送付していただきます
+          ※若チャレ割（若者チャレンジ応援割）は20歳以下の若者が対象になります。
         </p>
         <p>※団体割は新規のお申込みが対象になります</p>
         <p>※模擬試験は再受講割の対象外になります</p>
@@ -157,6 +170,11 @@
     font-size: 16px;
     line-height: 1.8;
     margin: 0;
+  }
+
+  .discount-small {
+    margin: 0;
+    font-size: 16px;
   }
 
   @media print, screen and (max-width: 1000px) {
