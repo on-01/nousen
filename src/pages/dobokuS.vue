@@ -14,7 +14,7 @@
           />
           <CheerDoboku
             text="能センは<br>
-              土木男子・土木女子を<br>
+              建設業で働く人々を<br>
               応援します！"
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')

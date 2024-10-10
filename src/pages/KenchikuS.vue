@@ -14,7 +14,7 @@
           />
           <CheerKenchiku
             text="能センは<br>
-              建設男子・建設女子を<br>
+              建設業で働く人々を<br>
               応援します！"
             :imagePath="
               require('../assets/img/license_page/kenchiku_s/kenchiku_point2.jpg')
