@@ -325,7 +325,11 @@
           /> -->
         <!-- </div> -->
       </section>
-
+      <ReasonLink
+        moreLinkCheck="1"
+        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+        moreText="オンライン相談はこちら"
+      />
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
@@ -402,11 +406,6 @@
           </div>
         </div>
       </section>
-      <ReasonLink
-        moreLinkCheck="1"
-        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-        moreText="オンライン相談はこちら"
-      />
 
       <div class="public-media">
         <p>【 メディア掲載実績 】</p>
@@ -2094,9 +2093,12 @@ query {
     }
   }
   .public-media {
-    margin: 20px auto;
+    margin: 20px auto 225px;
     max-width: 800px;
     background: #fff;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 100px;
+    }
   }
   .public-media p {
     margin: 0 0 20px 0;
