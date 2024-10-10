@@ -146,7 +146,7 @@
     right: 0;
   }
   .discount-flex-left .arrow.-waka {
-    top: 32px;
+    top: 25px;
   }
   .discount-flex-left br {
     display: none;
