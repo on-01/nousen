@@ -692,14 +692,16 @@
                 建設業界の発展と新規企業の成長を支援するため、
                 <br />
                 創業2年以内の個人事業主および法人企業様向けに
-                <span>受講料を20％割引</span>
+                <span class="red">受講料を20％割引</span>
                 でご提供します。
               </p>
               <p class="last-message-flexText">
                 <span>対象者:&nbsp;</span>
                 創業2年以内の個人事業主および法人企業の従業員様
+                <br />
                 <span>割引率:&nbsp;</span>
                 受講料20％割引
+                <br />
                 <span>必要事項:&nbsp;</span>
                 特に提出書類は不要ですが、以下の情報が必要となります。
               </p>
@@ -1688,6 +1690,9 @@ query {
 
     .last-message-flexTitle {
       background-color: #ed6c00;
+    }
+    .red {
+      color: red;
     }
   }
 
