@@ -695,7 +695,7 @@
                 <span class="red">受講料を20％割引</span>
                 でご提供します。
               </p>
-              <p class="last-message-flexText">
+              <p class="last-message-flexText -center">
                 <span>対象者:&nbsp;</span>
                 創業2年以内の個人事業主および法人企業の従業員様
                 <br />
@@ -1693,6 +1693,11 @@ query {
     }
     .red {
       color: red;
+    }
+    .last-message-flexText.-center {
+      text-align: left;
+      margin: 10px auto 0;
+      max-width: 500px;
     }
   }
 
