@@ -1687,6 +1687,9 @@ query {
 
   .last-message-flex.-bottom {
     justify-content: center;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 40px;
+    }
 
     .last-message-flexTitle {
       background-color: #ed6c00;
