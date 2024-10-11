@@ -674,6 +674,47 @@
               </p>
             </div> -->
           </div>
+          <div class="last-message-flex -bottom">
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
+                建設業の発展と新規企業の成長をサポート！
+              </p>
+              <img
+                src="../assets/img/common/social_image3.jpg"
+                alt="建設業の発展と新規企業の成長をサポート！"
+              />
+              <p class="last-message-flexText-bold">
+                建設業界の発展と新規企業の成長をサポート!
+                <br />
+                ミライを創ろう【創業支援割引制度】
+              </p>
+              <p class="last-message-flexText">
+                建設業界の発展と新規企業の成長を支援するため、
+                <br />
+                創業2年以内の個人事業主および法人企業様向けに
+                <span>受講料を20％割引</span>
+                でご提供します。
+              </p>
+              <p class="last-message-flexText">
+                <span>対象者:&nbsp;</span>
+                創業2年以内の個人事業主および法人企業の従業員様
+                <span>割引率:&nbsp;</span>
+                受講料20％割引
+                <span>必要事項:&nbsp;</span>
+                特に提出書類は不要ですが、以下の情報が必要となります。
+              </p>
+              <p class="last-message-flexText">
+                <span>・本社住所 ・代表電話番号　・代表者氏名</span>
+              </p>
+              <p class="last-message-flexText">
+                能センは、このプログラムを通じて、建設業界の新しい担い手を応援し、
+                <br />
+                業界全体の持続的な発展に貢献したいと考えています。
+                <br />
+                皆様の挑戦を、私たちも全力でサポートさせていただきます。
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="btn__apply __bottom">
@@ -1639,6 +1680,14 @@ query {
       span {
         font-weight: 700;
       }
+    }
+  }
+
+  .last-message-flex.-bottom {
+    justify-content: center;
+
+    .last-message-flexTitle {
+      background-color: #ed6c00;
     }
   }
 
