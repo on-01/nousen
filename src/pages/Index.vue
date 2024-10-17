@@ -406,171 +406,172 @@
           </div>
         </div>
       </section>
-
-      <div class="public-media">
-        <h2 class="section-title">
-          <img
-            src="../assets/img/front/reason_main_headline4.svg"
-            alt="メディア掲載実績"
-          />
-        </h2>
-        <div class="public-media-flex">
-          <figure>
-            <a
-              href="https://www.kentsu.co.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_1.jpg"
-                alt="建通新聞"
-                class="public-media-flex-image -type1"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://www.ohmsha.co.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_2.jpg"
-                alt="オーム社"
-                class="public-media-flex-image -type2"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://kigyo.gmo/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_3.jpg"
-                alt="企業の窓口"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://www.innovations-i.com/release/1497812.html"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_10.jpg"
-                alt="イノベーションズアイ"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-        </div>
-        <div class="public-media-flex">
-          <figure>
+      <section class="section03">
+        <div class="public-media">
+          <h2 class="section-title">
             <img
-              src="../assets/img/common/public_media_4.png"
-              alt="リセラム"
-              class="public-media-flex-image"
+              src="../assets/img/front/reason_main_headline4.svg"
+              alt="メディア掲載実績"
             />
-          </figure>
-          <figure>
-            <a
-              href="https://context-japan.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          </h2>
+          <div class="public-media-flex">
+            <figure>
+              <a
+                href="https://www.kentsu.co.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_1.jpg"
+                  alt="建通新聞"
+                  class="public-media-flex-image -type1"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://www.ohmsha.co.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_2.jpg"
+                  alt="オーム社"
+                  class="public-media-flex-image -type2"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://kigyo.gmo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_3.jpg"
+                  alt="企業の窓口"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://www.innovations-i.com/release/1497812.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_10.jpg"
+                  alt="イノベーションズアイ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="public-media-flex">
+            <figure>
               <img
-                src="../assets/img/common/public_media_5.jpg"
-                alt="コンテキストジャパン"
+                src="../assets/img/common/public_media_4.png"
+                alt="リセラム"
                 class="public-media-flex-image"
               />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://news.mynavi.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_6.png"
-                alt="マイナビ"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://context-japan.co.jp/ryokin/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/banner3.jpg"
-                alt="料金相場.jp"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
+            </figure>
+            <figure>
+              <a
+                href="https://context-japan.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_5.jpg"
+                  alt="コンテキストジャパン"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://news.mynavi.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_6.png"
+                  alt="マイナビ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://context-japan.co.jp/ryokin/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/banner3.jpg"
+                  alt="料金相場.jp"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="public-media-flex">
+            <figure>
+              <a
+                href="https://denkikoujishi-goukaku.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_7.jpg"
+                  alt="電気の資格"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://x-work.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_8.jpg"
+                  alt="クロスワーク"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://shikakutimes.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_9.jpg"
+                  alt="資格times"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://ecnavi.jp/ad/10712720/show/?frame=search"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_11.jpg"
+                  alt="ECナビ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
         </div>
-        <div class="public-media-flex">
-          <figure>
-            <a
-              href="https://denkikoujishi-goukaku.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_7.jpg"
-                alt="電気の資格"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://x-work.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_8.jpg"
-                alt="クロスワーク"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://shikakutimes.jp/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_9.jpg"
-                alt="資格times"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-          <figure>
-            <a
-              href="https://ecnavi.jp/ad/10712720/show/?frame=search"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../assets/img/common/public_media_11.jpg"
-                alt="ECナビ"
-                class="public-media-flex-image"
-              />
-            </a>
-          </figure>
-        </div>
-      </div>
+      </section>
 
       <section class="section03">
         <h2 class="section-title">
