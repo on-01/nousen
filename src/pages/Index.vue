@@ -1700,16 +1700,25 @@ query {
     .last-message-flex-box {
       img {
         width: 80%;
+        @media print, screen and (max-width: 1000px) {
+          width: 63%;
+        }
       }
     }
 
     .last-message-flexText-bold {
       font-size: 17px;
+      @media print, screen and (max-width: 1000px) {
+        font-size: 15px;
+      }
     }
 
     .last-message-flexTitle {
       background-color: #ed6c00;
       padding: 10px 50px;
+      @media print, screen and (max-width: 1000px) {
+        padding: 0 40px;
+      }
     }
     .red {
       color: red;
