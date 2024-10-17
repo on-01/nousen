@@ -2252,9 +2252,9 @@ query {
     background-color: #fff;
     width: 100%;
     padding: 40px 0;
-    margin-bottom: 235px;
+    margin-bottom: 190px;
     @media print, screen and (max-width: 1170px) {
-      margin-bottom: 235px;
+      margin-bottom: 190px;
     }
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 65px;
