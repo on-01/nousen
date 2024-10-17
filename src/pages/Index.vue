@@ -164,7 +164,7 @@
       </section>
       <div class="top-ctaFlex">
         <div class="top-youtube">
-          <p>【 全ての受験生へ 】</p>
+          <!-- <p>【 全ての受験生へ 】</p> -->
           <iframe
             class="top-youtube-movie"
             width="700"
@@ -1119,7 +1119,7 @@ query {
     }
     img {
       display: block;
-      margin: 56px 0 0 100px;
+      margin: 56px 0 0 50px;
       width: 75%;
       @media print, screen and (max-width: 1300px) {
         margin-left: 130px;
@@ -2126,8 +2126,10 @@ query {
     font-size: 28px;
     font-family: "メイリオ", sans-serif;
     width: 50%;
+    margin-left: 50px;
     @media print, screen and (max-width: 1150px) {
       width: 100%;
+      margin-left: 0;
     }
   }
 
