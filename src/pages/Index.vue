@@ -583,9 +583,7 @@
         <div class="last-message">
           <div class="last-message-flex">
             <div class="last-message-flex-box">
-              <p class="last-message-flexTitle">
-                「こどもの未来応援基金への寄付」
-              </p>
+              <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
                 src="../assets/img/common/social_image1.jpg"
                 alt="「こどもの未来応援基金への寄付」"
@@ -2254,6 +2252,13 @@ query {
     background-color: #fff;
     width: 100%;
     padding: 40px 0;
+    margin-bottom: 235px;
+    @media print, screen and (max-width: 1170px) {
+      margin-bottom: 235px;
+    }
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 45px;
+    }
   }
   .voice-inner {
     max-width: 1090px;
