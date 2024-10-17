@@ -1696,8 +1696,19 @@ query {
       margin-top: 40px;
     }
 
+    .last-message-flex-box {
+      img {
+        width: 80%;
+      }
+    }
+
+    .last-message-flexText-bold {
+      font-size: 17px;
+    }
+
     .last-message-flexTitle {
       background-color: #ed6c00;
+      padding: 10px 50px;
     }
     .red {
       color: red;
