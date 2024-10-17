@@ -2257,7 +2257,7 @@ query {
       margin-bottom: 235px;
     }
     @media print, screen and (max-width: 1000px) {
-      margin-bottom: 45px;
+      margin-bottom: 65px;
     }
   }
   .voice-inner {
