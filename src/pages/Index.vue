@@ -408,7 +408,12 @@
       </section>
 
       <div class="public-media">
-        <p>【 メディア掲載実績 】</p>
+        <h2 class="section-title">
+          <img
+            src="../assets/img/front/reason_main_headline4.svg"
+            alt="メディア掲載実績"
+          />
+        </h2>
         <div class="public-media-flex">
           <figure>
             <a
