@@ -78,10 +78,10 @@
                 </p>
                 <p class="courseOverview-td-text">
                   <del>138,600円</del>
-                  ▶️【セット割】129,800円：【４科目】完全制覇セット
+                  ▶️【セット割】132,000円：【４科目】完全制覇セット
                 </p>
-                <p class="courseOverview-td-text">
-                  <span class="red">【無料】</span>
+                <p>
+                  <span class="red courseOverview-td-text">【無料】</span>
                   ：基礎の基礎　&nbsp;9:30-12:00（講座説明会＋基礎の基礎講座)
                 </p>
                 <p>15,400円：基礎（１日）　9:30-17:00</p>
