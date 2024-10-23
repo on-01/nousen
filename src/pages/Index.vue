@@ -703,12 +703,12 @@
                 でご提供します。
               </p>
               <p class="last-message-flexText -center">
-                <span>対象者:&nbsp;</span>
+                <!-- <span>対象者:&nbsp;</span>
                 創業2年以内の個人事業主および法人企業の従業員様
                 <br />
                 <span>割引率:&nbsp;</span>
                 受講料20％割引
-                <br />
+                <br /> -->
                 <span>必要事項:&nbsp;</span>
                 特に提出書類は不要ですが、以下の情報が必要となります。
               </p>
@@ -1734,7 +1734,7 @@ query {
 
     .last-message-flexTitle {
       background-color: #ed6c00;
-      padding: 10px 50px;
+      padding: 10px 90px;
       @media print, screen and (max-width: 1000px) {
         padding: 0 40px;
       }
