@@ -1741,6 +1741,9 @@ query {
       @media print, screen and (max-width: 1000px) {
         padding: 0 40px;
       }
+      @media print, screen and (max-width: 570px) {
+        padding: 0 20px;
+      }
     }
     .red {
       color: red;
