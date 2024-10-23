@@ -218,10 +218,10 @@
     display: block;
     text-align: center;
     // margin: 0 auto 310px;
-    margin: 0 auto 60px;
+    margin: 0 auto 24px;
     @media print, screen and (max-width: 1000px) {
       // margin-bottom: 200px;
-      margin-bottom: 80px;
+      margin-bottom: 24px;
     }
   }
   .reason-more-inner {
