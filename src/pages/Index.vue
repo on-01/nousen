@@ -1108,14 +1108,17 @@ query {
     text-align: center;
     margin: 0;
     a {
+      width: 375px;
       background-color: #f4891e;
       display: inline-block;
       color: #fff;
       text-align: center;
-      padding: 10px 3em;
+      padding: 10px 0;
       font-weight: 700;
-      margin-top: 100px;
       font-size: 20px;
+    }
+    @media print, screen and (max-width: 1170px) {
+      margin-bottom: 40px;
     }
   }
   .top-ctaFlex {
