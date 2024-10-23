@@ -2181,7 +2181,7 @@ query {
     }
   }
   .public-media {
-    margin: 20px auto 225px;
+    margin: 50px auto 225px;
     max-width: 800px;
     background: #fff;
     @media print, screen and (max-width: 1000px) {
