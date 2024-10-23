@@ -330,6 +330,9 @@
         moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
         moreText="オンライン相談はこちら"
       />
+      <div class="reason-link">
+        <a href="https://www.nouryoku.com/contact/">お問い合わせはこちら</a>
+      </div>
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
@@ -1100,6 +1103,21 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .reason-link {
+    display: block;
+    text-align: center;
+    margin: 0;
+    a {
+      background-color: #f4891e;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      padding: 10px 3em;
+      font-weight: 700;
+      margin-top: 100px;
+      font-size: 20px;
+    }
+  }
   .top-ctaFlex {
     display: flex;
     align-items: center;
