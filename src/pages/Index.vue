@@ -1116,6 +1116,9 @@ query {
       padding: 10px 0;
       font-weight: 700;
       font-size: 20px;
+      @media print, screen and (max-width: 375px) {
+        width: 100%;
+      }
     }
     @media print, screen and (max-width: 1170px) {
       margin-bottom: 40px;
