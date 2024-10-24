@@ -562,7 +562,6 @@ query {
 
   .last-message {
     max-width: 970px;
-    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     font-family: "メイリオ", sans-serif;
