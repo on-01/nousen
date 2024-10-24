@@ -474,6 +474,9 @@ query {
     font-family: "メイリオ", sans-serif;
     background: #ebf7ff;
   }
+  .purpose {
+    margin-bottom: 380px;
+  }
   .contents {
     max-width: 970px;
     width: 100%;
@@ -621,7 +624,9 @@ query {
 
   .section03 {
     position: relative;
-    margin-top: -225px;
+    background: white;
+    margin: -225px calc(50% - 50vw) 0;
+    width: 100vw;
     // z-index: -1;
     @media print, screen and (max-width: 1000px) {
       margin-top: -55px;
@@ -638,7 +643,7 @@ query {
       left: 0;
       right: 0;
       margin: auto;
-      z-index: -2;
+      z-index: 0;
       @media print, screen and (max-width: 1000px) {
         // height: 300px;
         height: 220px;
