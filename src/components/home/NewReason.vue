@@ -265,7 +265,7 @@
       font-size: 24px;
       font-weight: 700;
       line-height: 1.5;
-      margin: 0;
+      margin: 0 0 8px;
     }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;
