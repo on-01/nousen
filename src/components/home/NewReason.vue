@@ -19,6 +19,7 @@
         </p>
       </div>
       <div class="index-boxContent">
+        <p class="boxContent-bold">スーパー講師陣が合格支援</p>
         <p>
           講師の全員が、建設・電気・設備等、現場で
           長いキャリアをもつ現役及び元技術者。
@@ -260,6 +261,12 @@
     font-weight: 700;
     text-align: center;
     position: relative;
+    .boxContent-bold {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 0;
+    }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;
       margin-top: 30px;
