@@ -565,7 +565,6 @@ query {
     margin: 0 auto;
     overflow: hidden;
     font-family: "メイリオ", sans-serif;
-    padding-bottom: 50px;
   }
 
   .last-message-flex {
@@ -782,6 +781,7 @@ query {
     margin: 80px auto 0;
     // align-items: center;
     justify-content: space-between;
+    overflow: hidden;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
       row-gap: 40px;
