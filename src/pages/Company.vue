@@ -474,9 +474,6 @@ query {
     font-family: "メイリオ", sans-serif;
     background: #ebf7ff;
   }
-  .purpose {
-    margin-bottom: 380px;
-  }
   .contents {
     max-width: 970px;
     width: 100%;
@@ -493,6 +490,12 @@ query {
     margin-top: 50px;
     @media print, screen and (max-width: 1000px) {
       padding: 50px 5%;
+    }
+  }
+  .purpose {
+    margin-bottom: 380px;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 40px;
     }
   }
   .section-title {
@@ -565,6 +568,7 @@ query {
     margin: 0 auto;
     overflow: hidden;
     font-family: "メイリオ", sans-serif;
+    padding-bottom: 50px;
   }
 
   .last-message-flex {
