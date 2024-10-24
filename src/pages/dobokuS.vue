@@ -308,6 +308,7 @@
               "
             />
 
+            <WorkshopDoboku />
             <NewPvMovieDoboku
               movieTitle="土木施工管理技士の講習会動画をご視聴ください"
               description="合格者を多数輩出！大嶋先生の無料動画です！"
@@ -323,7 +324,6 @@
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
             />
-            <WorkshopDoboku />
             <div class="bg-white">
               <ExamKenchiku />
               <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
