@@ -34,12 +34,10 @@
           </div>
           <div class="workshop-text -third">
             <p class="workshop-border">
-              10月12日(土)～13日(日)9:30～17:00
-              <span>【受付中】</span>
+              10月12日(土)～13日(日)9:30～17:00【終了】
             </p>
             <p class="workshop-border -none">
-              10月19日(土)10:00～16:00
-              <span>【受付中】</span>
+              10月19日(土)09:30～16:00【終了】
             </p>
           </div>
           <!-- <p class="workshop-text">
