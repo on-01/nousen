@@ -24,7 +24,7 @@
           <p class="campaign-topic">過去の試験問題を進呈</p>
           <!-- <p class="campaign-summary">過去の試験問題を進呈します</p> -->
           <ul class="campaign-content">
-            <li>・【通学】過去３年分を印刷して進呈(必要な方は5年分)</li>
+            <li>・【通学】過去５年分を印刷して進呈</li>
             <li>・【オンライン】過去５年分をダウンロード</li>
             <li>一次・二次共に問題・解答解説付きになります。</li>
           </ul>
