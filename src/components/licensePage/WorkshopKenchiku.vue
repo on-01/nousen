@@ -36,9 +36,7 @@
             <p class="workshop-border">
               10月12日(土)～13日(日)9:30～17:00【終了】
             </p>
-            <p class="workshop-border -none">
-              10月19日(土)09:30～16:00【終了】
-            </p>
+            <p class="workshop-border -none">10月19日(土)9:30～16:00【終了】</p>
           </div>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
