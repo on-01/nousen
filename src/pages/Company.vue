@@ -627,6 +627,7 @@ query {
   .section03 {
     position: relative;
     background: white;
+    margin-bottom: 50px;
     // margin: -225px calc(50% - 50vw) 0;
     // width: 100vw;
     // z-index: -1;
@@ -747,7 +748,7 @@ query {
     .last-message {
       // max-width: 970px;
       max-width: 1300px;
-      padding: 0 20px;
+      padding: 0 20px 40px;
       // width: 100%;
       margin: 0 auto;
       overflow: hidden;
