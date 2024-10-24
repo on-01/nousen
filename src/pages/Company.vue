@@ -115,77 +115,75 @@
             </ol>
           </div>
         </section>
-
-        <section class="section03">
-          <h2 class="section-title">
-            <img
-              src="../assets/img/front/reason_main_headline3.svg"
-              alt="能センの社会貢献活動"
-            />
-          </h2>
-          <div class="last-message">
-            <div class="last-message-flex">
-              <div class="last-message-flex-box">
-                <p class="last-message-flexTitle">
-                  こどもの未来応援基金への寄付
-                </p>
-                <img
-                  src="../assets/img/common/social_image1.jpg"
-                  alt="「こどもの未来応援基金への寄付」"
-                />
-                <p class="last-message-flexText-bold">
-                  日本を元気に！
-                  <br />
-                  子どもたちが夢と希望を持って働ける世の中へ。
-                </p>
-                <p class="last-message-flexText">
-                  能センでは、
-                  <span>受講生1名につき100円</span>
-                  を「こどもの未来応援基金」へ寄付いたします。
-                  <br />
-                  「こどもの未来応援基金」は、子どもの貧困対策を進めるための
-                  <br />
-                  官民連携プロジェクトの一環として、2015年に創設されました。
-                </p>
-                <p class="last-message-flexText">
-                  こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。
-                  <br />
-                  [
-                  <a href="https://kodomohinkon.go.jp/">
-                    https://kodomohinkon.go.jp/
-                  </a>
-                  ]
-                </p>
-              </div>
-              <div class="last-message-flex-box">
-                <p class="last-message-flexTitle">
-                  環境への配慮～持続可能なミライへ～
-                </p>
-                <img
-                  src="../assets/img/common/social_image2.jpg"
-                  alt="環境への配慮～持続可能なミライへ～"
-                />
-                <p class="last-message-flexText-bold">
-                  能センでは、すべてのプリントや資料に
-                  <br />
-                  FSC認証を受けたエコペーパーを使用しております。
-                </p>
-                <p class="last-message-flexText">
-                  FSC認証とは、持続可能な森林の活用・保全を目的とし、
-                  <br />
-                  「適切な森林管理」を認証する国際的な制度です。
-                </p>
-                <p class="last-message-flexText">
-                  FSC認証についての詳細は、以下のリンクをご参照ください。
-                  <br />
-                  [
-                  <a href="https://shitte-erabo.net/aboutfsc/certification/">
-                    https://shitte-erabo.net/aboutfsc/certification/
-                  </a>
-                  ]
-                </p>
-              </div>
-              <!-- <img
+      </div>
+      <section class="section03">
+        <h2 class="section-title">
+          <img
+            src="../assets/img/front/reason_main_headline3.svg"
+            alt="能センの社会貢献活動"
+          />
+        </h2>
+        <div class="last-message">
+          <div class="last-message-flex">
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
+              <img
+                src="../assets/img/common/social_image1.jpg"
+                alt="「こどもの未来応援基金への寄付」"
+              />
+              <p class="last-message-flexText-bold">
+                日本を元気に！
+                <br />
+                子どもたちが夢と希望を持って働ける世の中へ。
+              </p>
+              <p class="last-message-flexText">
+                能センでは、
+                <span>受講生1名につき100円</span>
+                を「こどもの未来応援基金」へ寄付いたします。
+                <br />
+                「こどもの未来応援基金」は、子どもの貧困対策を進めるための
+                <br />
+                官民連携プロジェクトの一環として、2015年に創設されました。
+              </p>
+              <p class="last-message-flexText">
+                こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。
+                <br />
+                [
+                <a href="https://kodomohinkon.go.jp/">
+                  https://kodomohinkon.go.jp/
+                </a>
+                ]
+              </p>
+            </div>
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
+                環境への配慮～持続可能なミライへ～
+              </p>
+              <img
+                src="../assets/img/common/social_image2.jpg"
+                alt="環境への配慮～持続可能なミライへ～"
+              />
+              <p class="last-message-flexText-bold">
+                能センでは、すべてのプリントや資料に
+                <br />
+                FSC認証を受けたエコペーパーを使用しております。
+              </p>
+              <p class="last-message-flexText">
+                FSC認証とは、持続可能な森林の活用・保全を目的とし、
+                <br />
+                「適切な森林管理」を認証する国際的な制度です。
+              </p>
+              <p class="last-message-flexText">
+                FSC認証についての詳細は、以下のリンクをご参照ください。
+                <br />
+                [
+                <a href="https://shitte-erabo.net/aboutfsc/certification/">
+                  https://shitte-erabo.net/aboutfsc/certification/
+                </a>
+                ]
+              </p>
+            </div>
+            <!-- <img
               src="../assets/img/common/social_image.jpg"
               alt="子供の未来は日本の未来"
               class="last-message-logo"
@@ -222,82 +220,82 @@
                 <br />
               </p>
             </div> -->
-            </div>
-            <div class="last-message-flex -bottom">
-              <div class="last-message-flex-box">
-                <p class="last-message-flexTitle">
-                  建設業の発展と新規企業の成長をサポート！
-                </p>
-                <img
-                  src="../assets/img/common/social_image3.jpg"
-                  alt="建設業の発展と新規企業の成長をサポート！"
-                />
-                <p class="last-message-flexText-bold">
-                  建設業界の発展と新規企業の成長をサポート!
-                  <br />
-                  ミライを創ろう【創業支援割引制度】
-                </p>
-                <p class="last-message-flexText">
-                  建設業界の発展と新規企業の成長を支援するため、
-                  <br />
-                  創業2年以内の個人事業主および法人企業様向けに
-                  <span class="red">受講料を20％割引</span>
-                  でご提供します。
-                </p>
-                <p class="last-message-flexText -center">
-                  <!-- <span>対象者:&nbsp;</span>
+          </div>
+          <div class="last-message-flex -bottom">
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
+                建設業の発展と新規企業の成長をサポート！
+              </p>
+              <img
+                src="../assets/img/common/social_image3.jpg"
+                alt="建設業の発展と新規企業の成長をサポート！"
+              />
+              <p class="last-message-flexText-bold">
+                建設業界の発展と新規企業の成長をサポート!
+                <br />
+                ミライを創ろう【創業支援割引制度】
+              </p>
+              <p class="last-message-flexText">
+                建設業界の発展と新規企業の成長を支援するため、
+                <br />
+                創業2年以内の個人事業主および法人企業様向けに
+                <span class="red">受講料を20％割引</span>
+                でご提供します。
+              </p>
+              <p class="last-message-flexText -center">
+                <!-- <span>対象者:&nbsp;</span>
                 創業2年以内の個人事業主および法人企業の従業員様
                 <br />
                 <span>割引率:&nbsp;</span>
                 受講料20％割引
                 <br /> -->
-                  <span>必要事項:&nbsp;</span>
-                  特に提出書類は不要ですが、以下の情報が必要となります。
-                </p>
-                <p class="last-message-flexText">
-                  <span>・本社住所 ・代表電話番号　・代表者氏名</span>
-                </p>
-                <p class="last-message-flexText">
-                  能センは、このプログラムを通じて、建設業界の新しい担い手を応援し、
-                  <br />
-                  業界全体の持続的な発展に貢献したいと考えています。
-                  <br />
-                  皆様の挑戦を、私たちも全力でサポートさせていただきます。
-                </p>
-              </div>
+                <span>必要事項:&nbsp;</span>
+                特に提出書類は不要ですが、以下の情報が必要となります。
+              </p>
+              <p class="last-message-flexText">
+                <span>・本社住所 ・代表電話番号　・代表者氏名</span>
+              </p>
+              <p class="last-message-flexText">
+                能センは、このプログラムを通じて、建設業界の新しい担い手を応援し、
+                <br />
+                業界全体の持続的な発展に貢献したいと考えています。
+                <br />
+                皆様の挑戦を、私たちも全力でサポートさせていただきます。
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="btn__apply __bottom">
-            <a @click="openModal">
-              <span>お申込みはこちら</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                viewBox="0 0 18 18"
-                aria-labelledby="box"
-                role="presentation"
-                class="icon"
-                data-v-2d92a3c2=""
-                data-v-0aac86ab=""
-              >
-                <title id="box" lang="en" data-v-2d92a3c2="">box icon</title>
-                <g fill="currentColor" data-v-2d92a3c2="">
-                  <g data-v-0aac86ab="" data-v-2d92a3c2="">
-                    <path
-                      d="M.17,8A5.06,5.06,0,0,1,5.23,2.94a5.11,5.11,0,0,1,4,1.89h4.22a2.43,2.43,0,0,1,0,4.85H10A5.07,5.07,0,0,1,.17,8ZM8.94,6.44H8.85a.79.79,0,0,1-.73-.36,3.47,3.47,0,1,0,.52,2.6A.8.8,0,0,1,9.42,8h4a.8.8,0,1,0,0-1.6H8.94Z"
-                    ></path>
-                    <path
-                      d="M7.74,5.65V7.19a2.54,2.54,0,0,1-5.08,0V5.65a2.54,2.54,0,0,1,5.08-.23A.89.89,0,0,1,7.74,5.65ZM4.27,7.19a.94.94,0,0,0,1.87.14V5.65a.94.94,0,0,0-1.87-.14V7.19Z"
-                    ></path>
-                  </g>
+        <div class="btn__apply __bottom">
+          <a @click="openModal">
+            <span>お申込みはこちら</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              viewBox="0 0 18 18"
+              aria-labelledby="box"
+              role="presentation"
+              class="icon"
+              data-v-2d92a3c2=""
+              data-v-0aac86ab=""
+            >
+              <title id="box" lang="en" data-v-2d92a3c2="">box icon</title>
+              <g fill="currentColor" data-v-2d92a3c2="">
+                <g data-v-0aac86ab="" data-v-2d92a3c2="">
+                  <path
+                    d="M.17,8A5.06,5.06,0,0,1,5.23,2.94a5.11,5.11,0,0,1,4,1.89h4.22a2.43,2.43,0,0,1,0,4.85H10A5.07,5.07,0,0,1,.17,8ZM8.94,6.44H8.85a.79.79,0,0,1-.73-.36,3.47,3.47,0,1,0,.52,2.6A.8.8,0,0,1,9.42,8h4a.8.8,0,1,0,0-1.6H8.94Z"
+                  ></path>
+                  <path
+                    d="M7.74,5.65V7.19a2.54,2.54,0,0,1-5.08,0V5.65a2.54,2.54,0,0,1,5.08-.23A.89.89,0,0,1,7.74,5.65ZM4.27,7.19a.94.94,0,0,0,1.87.14V5.65a.94.94,0,0,0-1.87-.14V7.19Z"
+                  ></path>
                 </g>
-              </svg>
-            </a>
-          </div>
-        </section>
-
+              </g>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <div class="company">
         <Fsc title="持続可能なミライへ" />
 
         <div class="last-message">
@@ -493,9 +491,9 @@ query {
     }
   }
   .purpose {
-    margin-bottom: 380px;
+    margin-bottom: 270px;
     @media print, screen and (max-width: 1000px) {
-      margin-bottom: 40px;
+      margin-bottom: 110px;
     }
   }
   .section-title {
@@ -629,8 +627,8 @@ query {
   .section03 {
     position: relative;
     background: white;
-    margin: -225px calc(50% - 50vw) 0;
-    width: 100vw;
+    // margin: -225px calc(50% - 50vw) 0;
+    // width: 100vw;
     // z-index: -1;
     @media print, screen and (max-width: 1000px) {
       margin-top: -55px;
