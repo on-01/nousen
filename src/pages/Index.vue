@@ -755,6 +755,53 @@
           </a>
         </div>
       </section>
+
+      <section class="section03">
+        <h2 class="section-title">
+          <img
+            src="../assets/img/front/reason_main_headline4.svg"
+            alt="キャリアサポート"
+          />
+        </h2>
+        <div class="careerSupport">
+          <div class="careerSupport-inner">
+            <div class="careerSupport-flex">
+              <figure class="careerSupport-img">
+                <img
+                  src="../assets/img/front/career1.jpg"
+                  alt="資格取得後のキャリアサポート"
+                />
+              </figure>
+              <div class="careerSupport-wrap">
+                <p class="careerSupport-title">資格取得後のキャリアサポート</p>
+                <p class="careerSupport-text">
+                  能センでは、資格取得後の就職活動をサポートするため、求人相談サービスを提供しています。電験三種や施工管理技士など、取得した資格に応じて、個々のスキルや希望に合った職場を見つけるお手伝いをいたします。最新の転職サイト求人情報や業界の動向を基に、キャリアアップを目指す方のご相談にも応じます。資格を活かした新しいキャリアの第一歩を、サポートいたします。
+                </p>
+                <div class="careerSupport-link">
+                  <a href="https://www.birumen-navi.com/">
+                    <img
+                      src="../assets/img/front/career2.jpg"
+                      alt="ビルメン転職ナビ"
+                    />
+                  </a>
+                  <a href="https://denken.birumen-navi.com/">
+                    <img
+                      src="../assets/img/front/career3.jpg"
+                      alt="電験転職ナビ"
+                    />
+                  </a>
+                  <a href="https://sekou.birumen-navi.com/">
+                    <img
+                      src="../assets/img/front/career4.jpg"
+                      alt="施工管理転職ナビ"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <MyModal @close="closeModal" v-if="modal">
       <!-- default スロットコンテンツ -->
@@ -1803,6 +1850,24 @@ query {
   }
   .last-message-text3 a {
     text-decoration: underline;
+  }
+
+  .careerSupport-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .careerSupport-title {
+    margin: 0;
+    border: solid 1px #000;
+    padding: 2px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .careerSupport-text {
+    margin: 0;
+    font-size: 15px;
   }
 
   @media print, screen and (max-width: 1000px) {
