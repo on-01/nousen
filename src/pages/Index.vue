@@ -1853,7 +1853,7 @@ query {
   }
 
   .careerSupport {
-    max-width: 1300px;
+    max-width: 1060px;
     padding: 0 20px;
     margin: 40px auto 0 auto;
     font-family: メイリオ, sans-serif;
@@ -1865,6 +1865,7 @@ query {
   }
 
   .careerSupport-img {
+    margin: 0;
     width: 50%;
   }
 
@@ -1892,7 +1893,10 @@ query {
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    bottom: 0;
+    bottom: -66px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
   }
 
   @media print, screen and (max-width: 1000px) {
