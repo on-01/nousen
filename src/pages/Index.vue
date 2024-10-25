@@ -1874,16 +1874,18 @@ query {
   }
 
   .careerSupport-title {
-    margin: 0;
-    border: solid 1px #000;
+    margin: 0 auto;
+    border: solid 2px #000;
     padding: 2px;
     font-size: 24px;
     font-weight: 700;
     text-align: center;
+    max-width: 380px;
   }
   .careerSupport-text {
-    margin: 0;
+    margin: 20px auto 0;
     font-size: 15px;
+    max-width: 400px;
   }
   .careerSupport-link {
     position: absolute;
