@@ -759,7 +759,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline4.svg"
+            src="../assets/img/front/reason_main_headline5.svg"
             alt="キャリアサポート"
           />
         </h2>
@@ -1676,7 +1676,7 @@ query {
       max-width: 1300px;
       padding: 0 20px;
       // width: 100%;
-      margin: 0 auto;
+      margin: 0 auto 250px auto;
       overflow: hidden;
       font-family: "メイリオ", sans-serif;
       // @media print, screen and (max-width: 1000px) {
@@ -1852,9 +1852,25 @@ query {
     text-decoration: underline;
   }
 
+  .careerSupport {
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 40px auto 0 auto;
+    font-family: メイリオ, sans-serif;
+  }
+
   .careerSupport-flex {
     display: flex;
     justify-content: space-between;
+  }
+
+  .careerSupport-img {
+    width: 50%;
+  }
+
+  .careerSupport-wrap {
+    width: 50%;
+    position: relative;
   }
 
   .careerSupport-title {
@@ -1868,6 +1884,13 @@ query {
   .careerSupport-text {
     margin: 0;
     font-size: 15px;
+  }
+  .careerSupport-link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    bottom: 0;
   }
 
   @media print, screen and (max-width: 1000px) {
