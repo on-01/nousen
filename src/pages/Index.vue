@@ -1857,21 +1857,35 @@ query {
     padding: 0 20px;
     margin: 40px auto 50px;
     font-family: メイリオ, sans-serif;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 210px;
+    }
   }
 
   .careerSupport-flex {
     display: flex;
     justify-content: space-between;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
   }
 
   .careerSupport-img {
     margin: 0;
     width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      margin: 0 auto;
+      width: 70%;
+    }
   }
 
   .careerSupport-wrap {
     width: 50%;
     position: relative;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .careerSupport-title {
@@ -1887,6 +1901,9 @@ query {
     margin: 20px auto 0;
     font-size: 15px;
     max-width: 400px;
+    @media print, screen and (max-width: 1000px) {
+      max-width: 560px;
+    }
   }
   .careerSupport-link {
     position: absolute;
@@ -1897,6 +1914,10 @@ query {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    @media print, screen and (max-width: 1000px) {
+      width: 35%;
+      bottom: -190px;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
