@@ -1682,6 +1682,9 @@ query {
       // @media print, screen and (max-width: 1000px) {
       //   width: 90%;
       // }
+      @media print, screen and (max-width: 1000px) {
+        margin-bottom: 80px;
+      }
       .under_display {
         @media print, screen and (min-width: 1001px) {
           display: none;
