@@ -1855,7 +1855,7 @@ query {
   .careerSupport {
     max-width: 1060px;
     padding: 0 20px;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 50px;
     font-family: メイリオ, sans-serif;
   }
 
@@ -1893,7 +1893,7 @@ query {
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    bottom: -66px;
+    bottom: -80px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
