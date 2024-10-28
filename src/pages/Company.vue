@@ -295,7 +295,7 @@
           </a>
         </div>
       </section>
-      <div class="company">
+      <!-- <div class="company">
         <Fsc title="持続可能なミライへ" />
 
         <div class="last-message">
@@ -340,7 +340,7 @@
           </div>
         </div>
 
-        <!-- <section class="session section">
+        <section class="session section">
           <h3 class="section-title">開催された主な講習会・研修会</h3>
           <div class="content">
             <h4 class="section-contents-title">
@@ -418,8 +418,8 @@
               </p>
             </div>
           </div>
-        </section> -->
-      </div>
+        </section>
+      </div> -->
     </div>
   </Layout>
 </template>
@@ -468,7 +468,7 @@ query {
 
 <style lang="scss" scoped>
   .company {
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
     font-family: "メイリオ", sans-serif;
     background: #ebf7ff;
   }
@@ -625,7 +625,7 @@ query {
   .section03 {
     position: relative;
     background: white;
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
     // margin: -225px calc(50% - 50vw) 0;
     // width: 100vw;
     // z-index: -1;
