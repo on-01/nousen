@@ -1858,9 +1858,10 @@ query {
   .careerSupport {
     max-width: 1060px;
     padding: 0 20px;
-    margin: 40px auto 50px;
+    margin: 60px auto 80px;
     font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
+      margin-top: 40px;
       margin-bottom: 210px;
     }
   }
@@ -1913,13 +1914,14 @@ query {
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    bottom: -80px;
+    bottom: -110px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 20px;
     @media print, screen and (max-width: 1000px) {
       width: 35%;
       bottom: -190px;
+      row-gap: 10px;
     }
   }
 
