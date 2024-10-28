@@ -262,10 +262,11 @@
     text-align: center;
     position: relative;
     .boxContent-bold {
-      font-size: 24px;
+      font-size: 24.75px;
+      color: #f4891e;
       font-weight: 700;
-      line-height: 1.5;
-      margin: 0 0 8px;
+      line-height: 1;
+      margin: 0 0 10px;
     }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;
