@@ -494,7 +494,7 @@
               <NewApplication
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
-                :faxLink="require('@/assets/img/company/sanshu.pdf')"
+                :faxLink="faxLinkPath"
               />
             </div>
             <div v-show="isActive === 3">
@@ -511,7 +511,7 @@
                 personalFormLink="/denken3-application"
                 businessFormText="通信講座のお申込み（法人）"
                 businessFormLink="/denken3-application-business"
-                :faxLink="require('@/assets/img/company/sanshu.pdf')"
+                :faxLink="faxLinkPath"
               />
             </div>
             <div v-show="isActive === 1">
@@ -527,7 +527,7 @@
                 personalFormLink="/denken3-application"
                 businessFormText="オンライン講座へのお申込み（法人）"
                 businessFormLink="/denken3-application-business"
-                :faxLink="require('@/assets/img/company/sanshu.pdf')"
+                :faxLink="faxLinkPath"
               />
             </div>
             <ContactInfo
@@ -715,6 +715,7 @@
         isActive: 1,
         isVoice: 0,
         isActiveTop: 2,
+        faxLinkPath: require('@/assets/img/company/sanshu.pdf'), 
       };
     },
     methods: {
