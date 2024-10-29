@@ -12,10 +12,8 @@
         <IconFingerRight />
       </IconBase>
     </a>
-    <p class="fax-link">
-      <a href="../../assets/img/company/sanshu.pdf" target="_blank">
-        FAXお申込み用紙(PDF)
-      </a>
+    <p class="fax-link" v-if="faxLink">
+      <a href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
   </div>
 </template>
