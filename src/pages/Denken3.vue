@@ -638,6 +638,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
+  import sanshuPdf from '@/assets/img/company/sanshu.pdf';
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -715,7 +716,7 @@
         isActive: 1,
         isVoice: 0,
         isActiveTop: 2,
-        faxLinkPath: require('@/assets/img/company/sanshu.pdf'), 
+        faxLinkPath: sanshuPdf, 
       };
     },
     methods: {
