@@ -491,7 +491,7 @@ query {
     }
   }
   .purpose {
-    margin-bottom: 270px;
+    margin-bottom: 135px;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 110px;
     }
