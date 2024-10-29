@@ -491,10 +491,9 @@
                 :benefits="richtextToHTML($static.tuugaku.benefits)"
                 :cpds="richtextToHTML($static.tuugaku.cpds)"
               />
-              <NewApplication
+              <NewApplicationDenken3
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
-                :faxLink="faxLinkPath"
               />
             </div>
             <div v-show="isActive === 3">
@@ -506,12 +505,11 @@
                 :benefits="richtextToHTML($static.tuushin.benefits)"
                 :cpds="richtextToHTML($static.tuushin.cpds)"
               />
-              <NewApplication
+              <NewApplicationDenken3
                 personalFormText="通信講座のお申込み（個人）"
                 personalFormLink="/denken3-application"
                 businessFormText="通信講座のお申込み（法人）"
                 businessFormLink="/denken3-application-business"
-                :faxLink="faxLinkPath"
               />
             </div>
             <div v-show="isActive === 1">
@@ -522,12 +520,11 @@
                 :apply="richtextToHTML($static.online.apply)"
               />
               <div id="apply-section"></div>
-              <NewApplication
+              <NewApplicationDenken3
                 personalFormText="オンライン講座へのお申込み（個人）"
                 personalFormLink="/denken3-application"
                 businessFormText="オンライン講座へのお申込み（法人）"
                 businessFormLink="/denken3-application-business"
-                :faxLink="faxLinkPath"
               />
             </div>
             <ContactInfo
@@ -621,7 +618,8 @@
   import Venue from "@/components/licensePage/Venue.vue";
   import VenueAddMapDenken3 from "@/components/licensePage/VenueAddMapDenken3.vue";
   import Application from "@/components/licensePage/Application.vue";
-  import NewApplication from "@/components/licensePage/NewApplication.vue";
+  // import NewApplication from "@/components/licensePage/NewApplication.vue";
+  import NewApplicationDenken3 from "@/components/licensePage/NewApplicationDenken3.vue";
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
   import IconArrowRight from "@/components/icons/IconArrowRight.vue";
@@ -638,7 +636,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
-  import sanshuPdf from '@/assets/img/company/sanshu.pdf';
+import NewApplicationDenken3 from "../components/licensePage/NewApplicationDenken3.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -695,7 +693,8 @@
       Venue,
       VenueAddMapDenken3,
       Application,
-      NewApplication,
+      // NewApplication,
+      NewApplicationDenken3,
       IconBase,
       IconDoubleArrowRight,
       IconArrowRight,
@@ -716,7 +715,6 @@
         isActive: 1,
         isVoice: 0,
         isActiveTop: 2,
-        faxLinkPath: sanshuPdf, 
       };
     },
     methods: {
