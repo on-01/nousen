@@ -13,7 +13,7 @@
       </IconBase>
     </a>
     <p class="fax-link">
-      <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
+      <a href="/sanshu.pdf" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
   </div>
 </template>
@@ -33,11 +33,6 @@
       },
       personalFormLink: String,
       businessFormLink: String,
-    },
-    data() {
-      return {
-        faxLink: require('@/assets/img/company/sanshu.pdf')  // faxLinkをdataで直接設定
-      }
     },
     components: {
       IconBase,
