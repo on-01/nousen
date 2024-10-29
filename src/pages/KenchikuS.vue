@@ -603,11 +603,11 @@
                   :benefits="richtextToHTML($static.kenchiku1.benefits)"
                   :cpds="richtextToHTML($static.kenchiku1.cpds)"
                 />
-                <!-- <NewApplication
+                <NewApplication
                   personalFormLink="/kenchiku-s-application"
                   businessFormLink="/kenchiku-s-application-business"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-                /> -->
+                />
               </div>
               <div v-show="isActive === 3">
                 <h3 class="body-title">2級通学講座</h3>
