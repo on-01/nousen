@@ -491,11 +491,11 @@
                 :benefits="richtextToHTML($static.tuugaku.benefits)"
                 :cpds="richtextToHTML($static.tuugaku.cpds)"
               />
-              <!-- <NewApplication
+              <NewApplication
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
-              /> -->
+              />
             </div>
             <div v-show="isActive === 3">
               <!-- <h3 class="body-title">通信講座</h3> -->
@@ -506,13 +506,13 @@
                 :benefits="richtextToHTML($static.tuushin.benefits)"
                 :cpds="richtextToHTML($static.tuushin.cpds)"
               />
-              <!-- <NewApplication
+              <NewApplication
                 personalFormText="通信講座のお申込み（個人）"
                 personalFormLink="/denken3-application"
                 businessFormText="通信講座のお申込み（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
-              /> -->
+              />
             </div>
             <div v-show="isActive === 1">
               <!-- <h3 class="body-title">オンライン講座</h3> -->
@@ -522,13 +522,13 @@
                 :apply="richtextToHTML($static.online.apply)"
               />
               <div id="apply-section"></div>
-              <!-- <NewApplication
+              <NewApplication
                 personalFormText="オンライン講座へのお申込み（個人）"
                 personalFormLink="/denken3-application"
                 businessFormText="オンライン講座へのお申込み（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/2n5AY16NQIzLmshSXSnId4/7c8d94a4a988e9568482580bb9f8db46/__________________FAX.pdf"
-              /> -->
+              />
             </div>
             <ContactInfo
               title="受講に関するご相談は<br>

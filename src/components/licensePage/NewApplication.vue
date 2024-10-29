@@ -13,7 +13,7 @@
       </IconBase>
     </a>
     <p class="fax-link" v-if="faxLink">
-      <a href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
+      <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
   </div>
 </template>

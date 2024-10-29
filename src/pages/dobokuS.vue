@@ -545,11 +545,11 @@
                   :benefits="richtextToHTML($static.doboku1.benefits)"
                   :cpds="richtextToHTML($static.doboku1.cpds)"
                 />
-                <!-- <NewApplication
+                <NewApplication
                   personalFormLink="/doboku-s-application"
                   businessFormLink="/doboku-s-application-business"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-                /> -->
+                />
               </div>
               <div v-show="isActive === 3">
                 <h3 class="body-title">2級通学講座</h3>
