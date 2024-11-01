@@ -384,6 +384,10 @@
     justify-content: space-between;
     max-width: 980px;
     padding: 0 40px;
+
+    img {
+      width: 50%;
+    }
   }
 
   .workshop-top {
