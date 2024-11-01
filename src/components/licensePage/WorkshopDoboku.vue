@@ -36,7 +36,7 @@
             <p class="workshop-border">
               8月31日(土)～9月1日(日)9:30～17:00【終了】
             </p>
-            <p class="workshop-border -none">9月15日(日)10:00～16:00【終了】</p>
+            <p class="workshop-border -none">9月15日(日)9:30～16:00【終了】</p>
           </div>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
