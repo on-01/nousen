@@ -334,6 +334,8 @@
               "
             />
 
+            <WorkshopKenchiku />
+
             <NewPvMovieKenchiku
               :movie="$static.kenchikuOnline.mediaYoutube"
               :image="
@@ -385,7 +387,6 @@
               "
             />
 
-            <WorkshopKenchiku />
             <div class="bg-white">
               <ExamKenchiku />
               <SetCourse2 title="通学＋オンラインセット" />
