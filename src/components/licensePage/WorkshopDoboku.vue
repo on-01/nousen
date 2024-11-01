@@ -1,6 +1,10 @@
 <template>
   <div class="workshop">
     <p class="workshop-title">２級土木施工管理技士 通学講座(講習会)</p>
+    <div class="workshop-topImg">
+      <img src="../../assets/img/license_page/workshop-img1.jpg" alt="" />
+      <img src="../../assets/img/license_page/workshop-img2.jpg" alt="" />
+    </div>
     <p class="workshop-top">
       お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
       <br />
@@ -374,6 +378,12 @@
   // .workshop-title.-bottom {
   //   margin-top: 30px;
   // }
+  .workshop-topImg {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
 
   .workshop-top {
     margin-top: 30px;
