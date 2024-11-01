@@ -406,8 +406,8 @@
   }
 
   .workshop-box {
-    max-width: 850px;
-    min-width: 850px;
+    max-width: 800px;
+    min-width: 800px;
     margin: 0 auto;
   }
 
