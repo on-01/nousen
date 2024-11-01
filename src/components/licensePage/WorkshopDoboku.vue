@@ -380,9 +380,10 @@
   // }
   .workshop-topImg {
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px auto;
     justify-content: space-between;
+    max-width: 980px;
+    padding: 0 40px;
   }
 
   .workshop-top {
