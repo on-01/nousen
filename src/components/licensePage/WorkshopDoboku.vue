@@ -384,9 +384,14 @@
     justify-content: space-between;
     max-width: 980px;
     padding: 0 40px;
-
+    @media print, screen and (max-width: 1000px) {
+      padding: 0 20px;
+    }
     img {
-      width: 50%;
+      width: 47%;
+      @media print, screen and (max-width: 1000px) {
+        width: 48%;
+      }
     }
   }
 
