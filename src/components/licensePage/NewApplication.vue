@@ -12,6 +12,14 @@
         <IconFingerRight />
       </IconBase>
     </a>
+    <div class="experience-link">
+      <a
+        class="application-link -blue"
+        href="https://business.form-mailer.jp/fms/d8f3692b263372"
+      >
+        無料体験講座（基礎の基礎）お申込み
+      </a>
+    </div>
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
@@ -25,11 +33,11 @@
     props: {
       personalFormText: {
         type: String,
-        default: "講習会へのお申し込み（個人）",
+        default: "講習会へのお申込み（個人）",
       },
       businessFormText: {
         type: String,
-        default: "講習会へのお申し込み（法人）",
+        default: "講習会へのお申込み（法人）",
       },
       personalFormLink: String,
       businessFormLink: String,
