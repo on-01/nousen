@@ -797,9 +797,8 @@
   }
 
   .add-tableWrap {
-    margin: 30px auto;
-    overflow: scroll;
     max-width: 800px;
+    min-width: 800px;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */
     &::-webkit-scrollbar {
