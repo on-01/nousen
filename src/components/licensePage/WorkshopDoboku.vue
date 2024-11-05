@@ -67,7 +67,7 @@
         <p class="workshop-text -ryoukin -orange">二次コース</p>
       </div>
       <div class="workshop-content -ryoukin">
-        <p class="workshop-text -ryoukin -bold">通学</p>
+        <p class="workshop-text -ryoukin -bold">受講料</p>
         <p class="workshop-text -ryoukin">
           ４１,０００円
           <br />
@@ -242,7 +242,7 @@
             <p class="workshop-text -ryoukin -orange">二次コース</p>
           </div>
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -bold">オンライン</p>
+            <p class="workshop-text -ryoukin -bold">受講料</p>
             <p class="workshop-text -ryoukin">
               ３９,０００円
               <br />
@@ -806,7 +806,7 @@
   }
 
   .add-tableWrap {
-    max-width: 755px;
+    max-width: 800px;
     margin: 30px auto;
     overflow: scroll;
     -ms-overflow-style: none; /* IE, Edge 対応 */
