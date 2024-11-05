@@ -18,6 +18,9 @@
         href="https://business.form-mailer.jp/fms/d8f3692b263372"
       >
         無料体験講座（基礎の基礎）お申込み
+        <IconBase class="icon" width="25" height="25">
+          <IconFingerRight />
+        </IconBase>
       </a>
     </div>
     <p class="fax-link" v-if="faxLink">
@@ -79,6 +82,11 @@
       width: 90%;
     }
   }
+  .application-link.-blue {
+    background-color: #00a2e8;
+    border: 3px solid #00a2e8;
+  }
+
   .application-link.-right {
     margin-left: 0.5%;
     @media print, screen and (max-width: 1000px) {
@@ -92,8 +100,11 @@
     }
   }
   .fax-link {
-    margin-top: 50px;
+    margin-top: 60px;
     color: #ed6c00;
     text-decoration: underline;
+  }
+  .experience-link {
+    margin-top: 60px;
   }
 </style>
