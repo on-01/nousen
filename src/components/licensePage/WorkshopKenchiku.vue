@@ -59,6 +59,32 @@
         </div> -->
       </div>
     </div>
+    <div class="add-tableWrap">
+      <div class="workshop-content -ryoukin">
+        <p class="workshop-text -ryoukin -orange"></p>
+        <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
+        <p class="workshop-text -ryoukin -orange">一次コース</p>
+        <p class="workshop-text -ryoukin -orange">二次コース</p>
+      </div>
+      <div class="workshop-content -ryoukin">
+        <p class="workshop-text -ryoukin -bold">通学</p>
+        <p class="workshop-text -ryoukin">
+          ４１,０００円
+          <br />
+          (税込４５,１００円)
+        </p>
+        <p class="workshop-text -ryoukin">
+          ３３,０００円
+          <br />
+          (税込３６,３００円)
+        </p>
+        <p class="workshop-text -ryoukin">
+          １６,３００円
+          <br />
+          (税込１７,９３０円)
+        </p>
+      </div>
+    </div>
     <p class="workshop-bottom -yellow">
       <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
@@ -202,6 +228,32 @@
             / 施工計画
           </p>
         </div> -->
+        <div class="add-tableWrap">
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -orange"></p>
+            <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
+            <p class="workshop-text -ryoukin -orange">一次コース</p>
+            <p class="workshop-text -ryoukin -orange">二次コース</p>
+          </div>
+          <div class="workshop-content -ryoukin">
+            <p class="workshop-text -ryoukin -bold">オンライン</p>
+            <p class="workshop-text -ryoukin">
+              ３９,０００円
+              <br />
+              (税込４２,９００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              ３０,０００円
+              <br />
+              (税込３３,０００円)
+            </p>
+            <p class="workshop-text -ryoukin">
+              １６,３００円
+              <br />
+              (税込１７,９３０円)
+            </p>
+          </div>
+        </div>
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
           <p class="workshop-text -blue">
@@ -263,9 +315,9 @@
       </p>
     </div>
     <div class="add">
-      <p class="add-title">受講料金</p>
+      <!-- <p class="add-title">受講料金</p> -->
       <div class="add-wrapper">
-        <div class="add-tableWrap">
+        <!-- <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -orange"></p>
             <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
@@ -308,7 +360,7 @@
               (税込１７,９３０円)
             </p>
           </div>
-        </div>
+        </div> -->
         <p class="add-title">学習内容</p>
         <div class="add-studyWrap">
           <p class="add-text1">【一次コース】</p>
