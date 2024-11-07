@@ -108,7 +108,7 @@
 
       <div class="index-boxContent">
         <p>
-          <span>受講生の皆さまへ</span>
+          <span class="boxContent-bold -right">受講生の皆さまへ</span>
           <br />
           <br />
           皆さまが無事に合格できるよう、私たちは最大限のサポートを提供し続けます。
@@ -262,11 +262,14 @@
     text-align: center;
     position: relative;
     .boxContent-bold {
-      font-size: 24.75px;
-      color: #f4891e;
+      font-size: 23px;
+      color: #f4881e;
       font-weight: 700;
       line-height: 1;
       margin: 0 0 10px;
+    }
+    .boxContent-bold.-right {
+      margin: 0;
     }
     @media print, screen and (max-width: 1142px) {
       max-width: 600px;
