@@ -11,17 +11,17 @@
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic -red">
-            第三弾【￥10,000 off】早割キャンペーン（オンライン講座）
+            令和７年度 第一弾【￥10,000 off】早割キャンペーン（通学講座）
             <!-- <span style="color: black">【終了】</span> -->
           </p>
           <ul class="campaign-content">
             <li class="campaign-emphasis">
-              ・下期試験に向けた早割キャンペーンは8月1日（木）～10月31日（木）まで！
+              ・上期試験に向けた早割キャンペーンは１１月1日（金）～令和７年３月1日（土）まで！
             </li>
             <li>
-              ・オンライン講座の全科目セット・４科目セットのお申込みの方が対象になります
+              ・通学講座の全科目セット・４科目セットのお申込みの方が対象です
             </li>
-            <li>早いスタートが合格への近道です！</li>
+            <li>教材を先にお届けするので、すぐに学習を始められます！</li>
           </ul>
         </div>
       </div>
