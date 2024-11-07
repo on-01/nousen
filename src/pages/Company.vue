@@ -857,7 +857,7 @@ query {
 
     .last-message-flexTitle {
       background-color: #ed6c00;
-      padding: 10px 90px;
+      padding: 10px 90px 10px 100px;
       @media print, screen and (max-width: 1000px) {
         padding: 0 40px;
       }
