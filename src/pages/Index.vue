@@ -624,7 +624,7 @@
         </div>
       </section>
 
-      <section class="section03">
+      <section class="section03 -bottom">
         <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline3.svg"
@@ -1210,10 +1210,10 @@ query {
     }
   }
   .home {
-    padding-bottom: 100px;
-    @media print, screen and (max-width: 1000px) {
-      padding-bottom: 50px;
-    }
+    // padding-bottom: 100px;
+    // @media print, screen and (max-width: 1000px) {
+    //   padding-bottom: 50px;
+    // }
   }
   .section01 {
     background-image: url("../assets/img/front/section01/main_background.jpg");
@@ -1708,6 +1708,10 @@ query {
       // }
     }
   }
+  .section03.-bottom {
+    margin-top: 170px;
+  }
+
   .last-message-flex {
     display: flex;
     margin: 80px auto 0;
