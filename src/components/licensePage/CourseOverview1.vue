@@ -45,7 +45,7 @@
             <tr>
               <th>
                 会場
-                <p class="courseOverview-th-text">（令和6年度は東京会場）</p>
+                <p class="courseOverview-th-text">（令和７年度は東京会場）</p>
               </th>
               <td>
                 <p>
@@ -54,7 +54,7 @@
                     class="courseOverview-link"
                     target="_blank"
                   >
-                    専売ビル（8階）
+                    専売ビル（３階）
                   </a>
                 </p>
                 <p>所在地</p>
@@ -82,7 +82,7 @@
                 </p>
                 <p>
                   <span class="red courseOverview-td-text">【無料】</span>
-                  ：基礎の基礎　&nbsp;&nbsp;&nbsp;9:30-12:00（講座説明会＋基礎の基礎講座)
+                  ：基礎の基礎　&nbsp;&nbsp;&nbsp;9:30-12:00（講座説明・講座体験・基礎数学・抽選会・個別相談会）
                 </p>
                 <p>15,400円：基礎（１日）　9:30-17:00</p>
                 <p>31,900円：理論（２日間）9:30-17:00</p>
