@@ -152,7 +152,7 @@
               "
               text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
               :imagePath_3="
-                require('../assets/img/license_page/denken3/denken3_quality_3.jpg')
+                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
               "
             />
 
