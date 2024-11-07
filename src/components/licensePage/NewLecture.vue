@@ -38,6 +38,12 @@
 
       <div class="add">
         <p class="add-title">学習内容</p>
+        <p class="add-text1">【基礎の基礎】</p>
+        <p class="add-text2">
+          無料体験会・講座説明・電気数学の基礎・質疑応答・抽選会（電験Tシャツが当たる！）・個別相談会
+          <br />
+          ※ 全科目セットの方はこの日から受講開始になります
+        </p>
         <p class="add-text1">【基礎講座】</p>
         <p class="add-text2">
           電気数学の基礎【四則計算(加減乗除)・比例・反比例・指数法則と対数関数・二次方程式の根・分数式・連立方程式・三角関数・ベクトルと正弦波交流】・科目学習のポイント
@@ -200,8 +206,9 @@
     font-weight: 700;
     line-height: 1;
     text-align: center;
-    color: #000;
-    border: 2px solid #1da1f2;
+    color: #fff;
+    // border: 2px solid #1da1f2;
+    background-color: #1da1f2;
     padding: 8px 0;
     margin: 36px 0 12px;
   }
