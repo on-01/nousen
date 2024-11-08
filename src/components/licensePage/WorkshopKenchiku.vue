@@ -14,9 +14,9 @@
       <div class="workshop-box">
         <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first -orange"></p>
-          <p class="workshop-text -second -orange">コース</p>
-          <p class="workshop-text -third -orange">講習日程</p>
+          <p class="workshop-text -first -yellow"></p>
+          <p class="workshop-text -second -yellow">コース</p>
+          <p class="workshop-text -third -yellow">講習日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
@@ -182,9 +182,9 @@
       <div class="workshop-box">
         <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first -orange"></p>
-          <p class="workshop-text -second -orange">コース</p>
-          <p class="workshop-text -third -orange">配信日程</p>
+          <p class="workshop-text -first -yellow"></p>
+          <p class="workshop-text -second -yellow">コース</p>
+          <p class="workshop-text -third -yellow">配信日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
@@ -513,11 +513,8 @@
     font-weight: 700;
     border: solid 1px #000;
   }
-  .workshop-text.-first.-orange {
-  }
-  .workshop-text.-second.-orange {
-  }
-  .workshop-text.-third.-orange {
+  .workshop-text.-yellow {
+    background-color: #fff8cc;
   }
 
   .workshop-text.-first {
