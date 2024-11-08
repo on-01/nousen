@@ -129,6 +129,10 @@
     background-color: #ed6c00;
     border: 3px solid #ed6c00;
     border-radius: 10px;
+    font-weight: 700;
+    svg {
+      margin-top: -3px;
+    }
     @media print, screen and (max-width: 1000px) {
       display: block;
       margin: 0 auto;
