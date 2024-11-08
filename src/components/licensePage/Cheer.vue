@@ -9,6 +9,19 @@
           <g-image :src="imagePath" :alt="altText" />
         </a>
       </figure>
+
+      <div class="experience-link">
+        <a
+          class="application-link -blue"
+          href="https://business.form-mailer.jp/fms/d8f3692b263372"
+        >
+          無料体験講座（基礎の基礎）お申込み
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
+        </a>
+      </div>
+
       <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
@@ -89,6 +102,29 @@
     background: #249ef0;
     margin: 0 auto 20px;
     border-radius: 8px;
+  }
+
+  .application-link {
+    margin: 0 auto;
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #ed6c00;
+    border: 3px solid #ed6c00;
+    border-radius: 10px;
+    @media print, screen and (max-width: 1000px) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
+  .application-link.-blue {
+    background-color: #00a2e8;
+    border: 3px solid #00a2e8;
   }
 
   @media print, screen and (max-width: 1200px) {
