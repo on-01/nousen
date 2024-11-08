@@ -5,7 +5,7 @@
         <p class="cheer-title" v-html="text"></p>
       </div>
       <figure class="cheer-image">
-        <a href="https://denken.nouryoku.com/online">
+        <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
           <g-image :src="imagePath" :alt="altText" />
         </a>
       </figure>
