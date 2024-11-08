@@ -525,6 +525,7 @@
   }
   .workshop-text.-yellow {
     background-color: #fff8cc;
+    border-top: solid 1px #000;
   }
 
   .workshop-text.-first {
