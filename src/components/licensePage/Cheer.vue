@@ -48,11 +48,21 @@
 </template>
 
 <script>
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+
   export default {
     props: {
       text: String,
       imagePath: String,
       altText: String,
+      personalFormLink: String,
+      businessFormLink: String,
+      faxLink: String,
+    },
+    components: {
+      IconBase,
+      IconFingerRight,
     },
   };
 </script>
