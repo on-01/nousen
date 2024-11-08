@@ -114,6 +114,11 @@
     border-radius: 8px;
   }
 
+  .experience-link {
+    text-align: center;
+    margin-top: 40px;
+  }
+
   .application-link {
     margin: 0 auto;
     color: #fff;
