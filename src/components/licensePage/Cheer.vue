@@ -116,8 +116,11 @@
 
   .experience-link {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 10px;
+    @media print, screen and (max-width: 1150px) {
+      margin-top: 40px;
+    }
   }
 
   .application-link {
