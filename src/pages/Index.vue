@@ -1210,10 +1210,10 @@ query {
     }
   }
   .home {
-    // padding-bottom: 100px;
-    // @media print, screen and (max-width: 1000px) {
-    //   padding-bottom: 50px;
-    // }
+    margin-bottom: -120px;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 0;
+    }
   }
   .section01 {
     background-image: url("../assets/img/front/section01/main_background.jpg");
