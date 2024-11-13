@@ -15,7 +15,7 @@
           />
           <Cheer
             :imagePath="
-              require('../assets/img/license_page/denken3/denken3_point3.jpg')
+              require('../assets/img/license_page/denken3/denken3_point4.jpg')
             "
             altText="電験三種 講座"
           />
