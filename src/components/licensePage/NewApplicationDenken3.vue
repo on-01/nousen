@@ -12,6 +12,17 @@
         <IconFingerRight />
       </IconBase>
     </a>
+    <div class="experience-link">
+      <a
+        class="application-link -blue"
+        href="https://business.form-mailer.jp/fms/d8f3692b263372"
+      >
+        無料体験講座（基礎の基礎）お申込み
+        <IconBase class="icon" width="25" height="25">
+          <IconFingerRight />
+        </IconBase>
+      </a>
+    </div>
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
