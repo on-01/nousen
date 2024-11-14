@@ -327,8 +327,7 @@
               :imagePath_2="
                 require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
               "
-              text_3="受講生のライフスタイルに合った講座を選択可能。【通学】または【オンライン】講座。どちらも教材や講座内容は同じです。<br>
-                    提出していただく経験記述の課題は講師自ら個別に添削し、高得点となるように直し、助言を入れてお返しいたします。"
+              text_3="受講生のライフスタイルに合わせて【通学】または【オンライン】講座を選択可能。どちらも教材や講座内容は同じです。<br>提出いただく経験記述の課題は、講師が個別に添削し、高得点が狙えるよう修正とアドバイスを加えて<strong>最短1日</strong>でお返しいたします。"
               :imagePath_3="
                 require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
               "
