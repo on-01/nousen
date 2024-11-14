@@ -260,7 +260,7 @@
           <p class="workshop-text -blue">
             一次コース(約12時間) / 二次コース(約5時間)
           </p>
-          <p class="workshop-text -blue">6月1日(土)～10月31日(木)まで</p>
+          <p class="workshop-text -blue">6月1日(土)～11月30日(土)まで</p>
         </div>
       </div>
     </div>
