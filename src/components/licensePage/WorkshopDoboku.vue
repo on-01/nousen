@@ -529,11 +529,6 @@
     border-top: solid 1px #000;
     font-weight: 700;
   }
-  .workshop-text.-blue {
-    background-color: #fff8cc;
-    border-top: solid 1px #000;
-    font-weight: 700;
-  }
 
   .workshop-text.-first {
     width: 15%;
