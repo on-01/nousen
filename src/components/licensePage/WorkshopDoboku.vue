@@ -59,10 +59,10 @@
         </div> -->
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -orange"></p>
-            <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
-            <p class="workshop-text -ryoukin -orange">一次コース</p>
-            <p class="workshop-text -ryoukin -orange">二次コース</p>
+            <p class="workshop-text -ryoukin -yellow"></p>
+            <p class="workshop-text -ryoukin -yellow">一次・二次セット</p>
+            <p class="workshop-text -ryoukin -yellow">一次コース</p>
+            <p class="workshop-text -ryoukin -yellow">二次コース</p>
           </div>
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -bold">受講料</p>
@@ -237,10 +237,10 @@
         </div> -->
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -orange"></p>
-            <p class="workshop-text -ryoukin -orange">一次・二次セット</p>
-            <p class="workshop-text -ryoukin -orange">一次コース</p>
-            <p class="workshop-text -ryoukin -orange">二次コース</p>
+            <p class="workshop-text -ryoukin -yellow"></p>
+            <p class="workshop-text -ryoukin -yellow">一次・二次セット</p>
+            <p class="workshop-text -ryoukin -yellow">一次コース</p>
+            <p class="workshop-text -ryoukin -yellow">二次コース</p>
           </div>
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -bold">受講料</p>
@@ -486,7 +486,8 @@
   }
 
   .workshop-heading.-blue {
-    background-color: #2a78fe;
+    // background-color: #2a78fe;
+    background-color: #006bad;
   }
 
   .workshop-heading.-bottom {
@@ -524,6 +525,11 @@
     border: solid 1px #000;
   }
   .workshop-text.-yellow {
+    background-color: #fff8cc;
+    border-top: solid 1px #000;
+    font-weight: 700;
+  }
+  .workshop-text.-blue {
     background-color: #fff8cc;
     border-top: solid 1px #000;
     font-weight: 700;
