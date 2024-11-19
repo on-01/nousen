@@ -12,14 +12,14 @@
         <img
           class="fixed-note-icon"
           src="../assets/img/icon/note.svg"
-          alt=""
+          alt="電験三種 講習会 通信講座"
           width="64"
           height="36"
         />
         <button class="fixed-note-close" @click="closeNote">
           <img
             src="../assets/img/icon/plus.svg"
-            alt="閉じる"
+            alt="電験三種 講習会 通信講座"
             width="25"
             height="25"
           />
@@ -30,7 +30,10 @@
       <section class="section01 hero-inner">
         <div class="qualification-list-wrapper">
           <figure class="top_left">
-            <img src="../assets/img/common/top-left.jpg" alt="" />
+            <img
+              src="../assets/img/common/top-left.jpg"
+              alt="電験三種 講習会 通信講座"
+            />
           </figure>
           <transition-group
             v-if="afterImgLoad"
@@ -131,22 +134,25 @@
                 <source
                   media="(min-width: 1001px)"
                   srcset="../assets/img/front/section01/main_catch.svg"
-                  alt="「合格のミライヘ」確実な受験対策講座。"
+                  alt="電験三種 講習会 通信講座"
                 />
                 <source
                   media="(max-width: 1000px)"
                   srcset="../assets/img/front/section01/main_catch_sp.svg"
-                  alt="「合格のミライヘ」確実な受験対策講座。"
+                  alt="電験三種 講習会 通信講座"
                 />
                 <img
                   src="../assets/img/front/section01/main_catch.svg"
-                  alt="「合格のミライヘ」確実な受験対策講座。"
+                  alt="電験三種 講習会 通信講座"
                 />
               </picture>
             </div>
           </transition-group>
           <figure class="top_right">
-            <img src="../assets/img/common/top-right.jpg" alt="" />
+            <img
+              src="../assets/img/common/top-right.jpg"
+              alt="電験三種 講習会 通信講座"
+            />
           </figure>
         </div>
         <!-- <div class="scroll_top" id="js-scroll_top">
@@ -182,7 +188,7 @@
           <a href="https://nousen.blog/mangadayo/">
             <img
               src="../assets/img/front/front-banner1.jpg"
-              alt="マンガでわかる能センとは！"
+              alt="電験三種 講習会 通信講座"
             />
           </a>
         </div>
@@ -192,7 +198,7 @@
         <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline2.svg"
-            alt="能センが選ばれる3つの理由"
+            alt="電験三種 講習会 通信講座"
           />
         </h2>
         <NewReason />
@@ -345,7 +351,7 @@
                   <figure>
                     <img
                       src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                      alt="電験三種"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </figure>
                   <p>
@@ -358,7 +364,7 @@
                   <figure>
                     <img
                       src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                      alt="電験三種"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </figure>
                   <p>
@@ -373,7 +379,7 @@
                   <figure>
                     <img
                       src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                      alt="電験三種"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </figure>
                   <p>
@@ -386,7 +392,7 @@
                   <figure>
                     <img
                       src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                      alt="電験三種"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </figure>
                   <p>
@@ -415,7 +421,7 @@
           <h2 class="section-title">
             <img
               src="../assets/img/front/reason_main_headline4.svg"
-              alt="メディア掲載実績"
+              alt="電験三種 講習会 通信講座"
             />
           </h2>
           <div class="public-media-flex">
@@ -427,7 +433,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_1.jpg"
-                  alt="建通新聞"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image -type1"
                 />
               </a>
@@ -440,7 +446,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_2.jpg"
-                  alt="オーム社"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image -type2"
                 />
               </a>
@@ -453,7 +459,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_3.jpg"
-                  alt="企業の窓口"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -466,7 +472,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_10.jpg"
-                  alt="イノベーションズアイ"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -476,7 +482,7 @@
             <figure>
               <img
                 src="../assets/img/common/public_media_4.png"
-                alt="リセラム"
+                alt="電験三種 講習会 通信講座"
                 class="public-media-flex-image"
               />
             </figure>
@@ -488,7 +494,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_5.jpg"
-                  alt="コンテキストジャパン"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -501,7 +507,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_6.png"
-                  alt="マイナビ"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -514,7 +520,7 @@
               >
                 <img
                   src="../assets/img/common/banner3.jpg"
-                  alt="料金相場.jp"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -529,7 +535,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_7.jpg"
-                  alt="電気の資格"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -542,7 +548,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_8.jpg"
-                  alt="クロスワーク"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -555,7 +561,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_9.jpg"
-                  alt="資格times"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -568,7 +574,7 @@
               >
                 <img
                   src="../assets/img/common/public_media_11.jpg"
-                  alt="ECナビ"
+                  alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </a>
@@ -581,7 +587,7 @@
         <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline5.svg"
-            alt="キャリアサポート"
+            alt="電験三種 講習会 通信講座"
           />
         </h2>
         <div class="careerSupport">
@@ -590,7 +596,7 @@
               <figure class="careerSupport-img">
                 <img
                   src="../assets/img/front/career1.jpg"
-                  alt="資格取得後のキャリアサポート"
+                  alt="電験三種 講習会 通信講座"
                 />
               </figure>
               <div class="careerSupport-wrap">
@@ -602,19 +608,19 @@
                   <a href="https://www.birumen-navi.com/">
                     <img
                       src="../assets/img/front/career2.jpg"
-                      alt="ビルメン転職ナビ"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </a>
                   <a href="https://denken.birumen-navi.com/">
                     <img
                       src="../assets/img/front/career3.jpg"
-                      alt="電験転職ナビ"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </a>
                   <a href="https://sekou.birumen-navi.com/">
                     <img
                       src="../assets/img/front/career4.jpg"
-                      alt="施工管理転職ナビ"
+                      alt="電験三種 講習会 通信講座"
                     />
                   </a>
                 </div>
@@ -628,7 +634,7 @@
         <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline3.svg"
-            alt="能センの社会貢献活動"
+            alt="電験三種 講習会 通信講座"
           />
         </h2>
         <div class="last-message">
@@ -637,7 +643,7 @@
               <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
                 src="../assets/img/common/social_image1.jpg"
-                alt="「こどもの未来応援基金への寄付」"
+                alt="電験三種 講習会 通信講座"
               />
               <p class="last-message-flexText-bold">
                 日本を元気に！
@@ -669,7 +675,7 @@
               </p>
               <img
                 src="../assets/img/common/social_image2.jpg"
-                alt="環境への配慮～持続可能なミライへ～"
+                alt="電験三種 講習会 通信講座"
               />
               <p class="last-message-flexText-bold">
                 能センでは、すべてのプリントや資料に
@@ -736,7 +742,7 @@
               </p>
               <img
                 src="../assets/img/common/social_image3.jpg"
-                alt="建設業の発展と新規企業の成長をサポート！"
+                alt="電験三種 講習会 通信講座"
               />
               <p class="last-message-flexText-bold">
                 建設業界の発展と新規企業の成長をサポート!
@@ -808,7 +814,10 @@
       <!-- default スロットコンテンツ -->
       <div class="modal-application">
         <div class="form item">
-          <img src="../assets/img/common/session.svg" alt="講習会お申し込み" />
+          <img
+            src="../assets/img/common/session.svg"
+            alt="電験三種 講習会 通信講座"
+          />
         </div>
         <ul>
           <li class="denken">
