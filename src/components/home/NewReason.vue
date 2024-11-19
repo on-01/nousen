@@ -7,7 +7,10 @@
         わかりやすい講習
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section01_background-1.jpg" />
+        <img
+          src="../../assets/img/front/section01_background-1.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
       </figure>
       <div class="index-topContent">
         <p>
@@ -43,7 +46,10 @@
         えらべる学習スタイル
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section05_background-1.jpg" />
+        <img
+          src="../../assets/img/front/section05_background-1.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
       </figure>
       <div class="index-topContent">
         <p>
@@ -57,7 +63,10 @@
 
       <div class="index-boxContent -center">
         <figure class="index-textImg">
-          <img src="../../assets/img/front/section05_title1.svg" />
+          <img
+            src="../../assets/img/front/section05_title1.svg"
+            alt="電験三種 講習会 通信講座"
+          />
         </figure>
         <p>
           「100回同じ質問をしても、100回笑顔でお答えします。」
@@ -74,7 +83,10 @@
       </div>
       <div class="index-boxContent -center">
         <figure class="index-textImg -bottom">
-          <img src="../../assets/img/front/section05_title2.svg" />
+          <img
+            src="../../assets/img/front/section05_title2.svg"
+            alt="電験三種 講習会 通信講座"
+          />
         </figure>
         <p>
           『スマホの中の先生は、２４時間授業中』
@@ -92,7 +104,10 @@
         信頼の実績と歴史
       </p>
       <figure class="index-img">
-        <img src="../../assets/img/front/section03_background-1.jpg" />
+        <img
+          src="../../assets/img/front/section03_background-1.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
       </figure>
       <div class="index-topContent">
         <p>
