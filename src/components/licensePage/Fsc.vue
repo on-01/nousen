@@ -6,6 +6,7 @@
           <img
             class="fsc-flex-image"
             src="../../assets/img/license_page/denken3/fsc.png"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </div>
         <div class="fsc-flex-right">

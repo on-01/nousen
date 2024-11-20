@@ -7,14 +7,14 @@
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_5.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
           <p class="exam-heading">【提出課題】</p>
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_6.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
           <p class="exam-heading">【終了試験問題】</p>
         </figure>
@@ -40,19 +40,19 @@
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_3.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_1.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </figure>
         <figure>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_2.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </figure>
       </div>
@@ -101,7 +101,7 @@
         <figure class="exam-bottom-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_4.jpg"
-            alt="電験三種"
+            alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </figure>
       </div>

@@ -13,7 +13,10 @@
             <span>1</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_1" alt="電験三種 講座" />
+            <img
+              :src="imagePath_1"
+              alt="電験三種 講習会 通信講座 オンライン講座"
+            />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -34,7 +37,10 @@
           </div>
           <figure class="quality-image">
             <a href="https://denken.nouryoku.com/kiso-kouza?_fsi=18qTQM4E">
-              <img :src="imagePath_2" alt="電験三種 講座" />
+              <img
+                :src="imagePath_2"
+                alt="電験三種 講習会 通信講座 オンライン講座"
+              />
             </a>
           </figure>
           <div class="quality-description">
@@ -55,7 +61,10 @@
             <span>3</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_3" alt="電験三種" />
+            <img
+              :src="imagePath_3"
+              alt="電験三種 講習会 通信講座 オンライン講座"
+            />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
