@@ -217,11 +217,11 @@
           <div class="workshop-text -third">
             <p class="workshop-border">
               9月5日(木)～10月31日(木)まで
-              <span>【受付中】</span>
+              <span>【終了】</span>
             </p>
             <p class="workshop-border -none">
               9月18日(水)～10月31日(木)まで
-              <span>【受付中】</span>
+              <span>【終了】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
