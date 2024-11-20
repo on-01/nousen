@@ -59,13 +59,17 @@
         </div> -->
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -yellow"></p>
+            <p class="workshop-text -ryoukin -yellow">受講料</p>
             <p class="workshop-text -ryoukin -yellow">一次・二次セット</p>
             <p class="workshop-text -ryoukin -yellow">一次コース</p>
             <p class="workshop-text -ryoukin -yellow">二次コース</p>
           </div>
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -bold">受講料</p>
+            <p class="workshop-text -ryoukin">
+              教材費・添削費・配送料
+              <br />
+              全て込み
+            </p>
             <p class="workshop-text -ryoukin">
               ４１,０００円
               <br />
@@ -77,9 +81,9 @@
               (税込３６,３００円)
             </p>
             <p class="workshop-text -ryoukin">
-              １６,３００円
+              １６,５００円
               <br />
-              (税込１７,９３０円)
+              (税込１８,１５０円)
             </p>
           </div>
         </div>
@@ -231,13 +235,17 @@
         </div> -->
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -yellow"></p>
+            <p class="workshop-text -ryoukin -yellow">受講料</p>
             <p class="workshop-text -ryoukin -yellow">一次・二次セット</p>
             <p class="workshop-text -ryoukin -yellow">一次コース</p>
             <p class="workshop-text -ryoukin -yellow">二次コース</p>
           </div>
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -bold">受講料</p>
+            <p class="workshop-text -ryoukin">
+              教材費・添削費・配送料
+              <br />
+              全て込み
+            </p>
             <p class="workshop-text -ryoukin">
               ３９,０００円
               <br />
@@ -249,9 +257,9 @@
               (税込３３,０００円)
             </p>
             <p class="workshop-text -ryoukin">
-              １６,３００円
+              １６,５００円
               <br />
-              (税込１７,９３０円)
+              (税込１８,１５０円)
             </p>
           </div>
         </div>
