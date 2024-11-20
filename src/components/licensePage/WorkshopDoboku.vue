@@ -423,6 +423,9 @@
     -webkit-box-shadow: 0 5px 1px #006bad;
     box-shadow: 0 5px 1px #006bad;
     margin-top: 0;
+    max-width: 1175px;
+    margin-left: auto;
+    margin-right: auto;
     @media print, screen and (max-width: 768px) {
       font-size: 20px;
     }
