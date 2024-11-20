@@ -791,9 +791,11 @@
     line-height: 1;
     text-align: center;
     color: #000;
-    border: 2px solid #1da1f2;
+    // border: 2px solid #1da1f2;
     padding: 8px 0;
     margin: 0 0 12px;
+    background: #1da1f2;
+    color: #ffffff;
   }
 
   .add-tableWrap {
