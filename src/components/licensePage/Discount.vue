@@ -3,7 +3,10 @@
     <div class="discount-inner">
       <p class="discount-title">{{ title }}</p>
       <figure class="discount-image">
-        <img src="../../assets/img/license_page/discount.jpeg" />
+        <img
+          src="../../assets/img/license_page/discount.jpeg"
+          alt="電験三種 講習会 通信講座 オンライン講座"
+        />
       </figure>
       <div class="discount-flex">
         <p class="discount-flex-left">

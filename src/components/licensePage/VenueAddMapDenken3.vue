@@ -31,7 +31,7 @@
                 <img
                   class="address-map-img"
                   src="../../assets/img/license_page/venue-map2.jpg"
-                  alt="会場までの地図"
+                  alt="電験三種 講習会 通信講座 オンライン講座"
                 />
               </div>
 
