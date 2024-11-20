@@ -1219,7 +1219,7 @@ query {
     }
   }
   .home {
-    margin-bottom: -120px;
+    margin-bottom: -200px;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 0;
     }
