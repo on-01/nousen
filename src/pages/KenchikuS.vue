@@ -537,7 +537,7 @@
             <div class="bg-white_type2">
               <DiscountKenchiku title="合格応援割START！" />
 
-              <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecondKenchiku title="＼＼建設業を応援しよう／／" />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -768,6 +768,7 @@
   import WorkshopKenchiku from "../components/licensePage/WorkshopKenchiku.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
+  import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -816,6 +817,7 @@
       Method,
       Support,
       SupportSecond,
+      SupportSecondKenchiku,
       LectureKenchiku,
       Discount,
       DiscountKenchiku,

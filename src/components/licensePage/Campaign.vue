@@ -4,7 +4,10 @@
     <div class="campaign-inner">
       <div class="campaign-section">
         <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_1-1.jpg" />
+          <img
+            src="../../assets/img/license_page/campaign_1-1.jpg"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic">旧テキストを進呈</p>
@@ -18,7 +21,10 @@
       </div>
       <div class="campaign-section">
         <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_2.jpg" />
+          <img
+            src="../../assets/img/license_page/campaign_2.jpg"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic">過去の試験問題を進呈</p>
@@ -32,7 +38,10 @@
       </div>
       <div class="campaign-section">
         <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_3.jpg" />
+          <img
+            src="../../assets/img/license_page/campaign_3.jpg"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic">願書取り寄せサービス</p>
@@ -55,7 +64,10 @@
       </div>
       <div class="campaign-section">
         <figure class="campaign-image">
-          <img src="../../assets/img/license_page/campaign_4.jpg" />
+          <img
+            src="../../assets/img/license_page/campaign_4.jpg"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic">施工経験記述添削サービス</p>
