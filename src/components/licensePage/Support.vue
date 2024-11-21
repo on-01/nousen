@@ -13,19 +13,19 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_1.jpg"
-              alt="みんなの建設業Q&A50"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
-              alt="建設業ウエルカム"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_3.png"
-              alt="建設産業ガイドブック"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
         </div>
