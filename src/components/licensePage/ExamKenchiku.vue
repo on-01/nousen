@@ -5,7 +5,7 @@
         <figure>
           <img
             src="../../assets/img/license_page/kenchiku_s/kenchiku_exam.jpg"
-            alt="建築施工管理技士 講習会 通信講座"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
       </div>
@@ -28,7 +28,7 @@
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
-            alt="土木施工管理技士 講習会 通信講座"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
         <div class="lecture-description">
