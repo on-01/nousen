@@ -3,7 +3,7 @@
     <div class="lecture-inner">
       <div class="lecture-section">
         <figure class="lecture-image">
-          <img :src="imagePath" />
+          <img :src="imagePath" :alt="altText" />
         </figure>
         <div class="lecture-description">
           <p class="lecture-title" v-html="title"></p>
@@ -39,6 +39,7 @@
       text2: String,
       imagePath: String,
       imagePath2: String,
+      altText: String,
     },
   };
 </script>
