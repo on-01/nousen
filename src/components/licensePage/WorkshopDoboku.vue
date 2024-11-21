@@ -2,8 +2,14 @@
   <div class="workshop">
     <p class="workshop-title">２級土木施工管理技士 通学講座(講習会)</p>
     <div class="workshop-topImg">
-      <img src="../../assets/img/license_page/workshop-img1.jpg" alt="" />
-      <img src="../../assets/img/license_page/workshop-img2.jpg" alt="" />
+      <img
+        src="../../assets/img/license_page/workshop-img1.jpg"
+        alt="土木施工管理技士 講習会 通信講座 web講座"
+      />
+      <img
+        src="../../assets/img/license_page/workshop-img2.jpg"
+        alt="土木施工管理技士 講習会 通信講座 web講座"
+      />
     </div>
     <p class="workshop-top">
       お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
@@ -101,7 +107,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/ocha-img.jpg"
-        alt="おーいお茶の画像"
+        alt="土木施工管理技士 講習会 通信講座 web講座"
       />
       <div class="ocha-content">
         <p class="ocha-text">
@@ -144,7 +150,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/venue-map.jpg"
-        alt="会場までの地図"
+        alt="土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
 
@@ -171,7 +177,7 @@
         <img
           class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
-          alt="土木施工管理技士 講習会 通信講座"
+          alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
       <div>
@@ -179,7 +185,7 @@
         <img
           class="flex-img -right"
           src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
-          alt="土木施工管理技士 講習会 通信講座"
+          alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
     </div>
