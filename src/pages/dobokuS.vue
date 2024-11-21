@@ -14,11 +14,12 @@
           />
           <CheerDoboku
             text="能センは<br>
-              建設業で働く人々を<br>
-              応援します！"
+    建設業で働く人々を<br>
+    応援します！"
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
             "
+            altText="土木施工管理技士 講習会 通信講座 web講座"
           />
 
           <!-- トップ部分タブ切り替え -->
