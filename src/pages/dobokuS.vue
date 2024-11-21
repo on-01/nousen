@@ -472,7 +472,7 @@
             <CampaignDoboku day="2" date="7/15(祝)" />
 
             <div class="bg-white_type2">
-              <Discount title="合格応援割START！" />
+              <DiscountDoboku title="合格応援割START！" />
 
               <SupportSecond title="＼＼建設業を応援しよう／／" />
 
@@ -707,6 +707,7 @@
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
+  import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -772,6 +773,7 @@
       ContactInfo,
       Fsc,
       Discount,
+      DiscountDoboku,
       SetCourse2,
       WorkshopDoboku,
       ScheduleDoboku,

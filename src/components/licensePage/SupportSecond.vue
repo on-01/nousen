@@ -52,7 +52,10 @@
           <!-- <p>ミライを創る【創業支援割引制度】</p> -->
         </div>
         <figure class="support-figure">
-          <img src="../../assets/img/license_page/support_4.jpg" alt="" />
+          <img
+            src="../../assets/img/license_page/support_4.jpg"
+            alt="土木施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="support-notes -second">
           <p>
