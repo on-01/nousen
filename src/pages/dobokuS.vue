@@ -53,11 +53,12 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
               "
+              altText="土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
 
-              <Support title="＼＼建設業を応援しよう／／" />
+              <SupportDoboku title="＼＼建設業を応援しよう／／" />
 
               <!-- <QualityDoboku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
@@ -704,6 +705,7 @@
   import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
+  import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -752,6 +754,7 @@
       NewPvMovieDoboku,
       Method,
       Support,
+      SupportDoboku,
       SupportSecond,
       Lecture,
       CheerDoboku,
