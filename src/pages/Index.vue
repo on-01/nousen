@@ -1953,6 +1953,10 @@ query {
     @media print, screen and (max-width: 1000px) {
       max-width: 580px;
     }
+
+    span {
+      font-weight: 700;
+    }
   }
 
   .careerSupport-img {
