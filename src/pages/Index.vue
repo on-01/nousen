@@ -626,6 +626,41 @@
                 </div>
               </div>
             </div>
+            <div class="careerSupport-flex -reverse">
+              <figure class="careerSupport-img">
+                <img
+                  src="../assets/img/front/career5.jpg"
+                  alt="電験三種 講習会 通信講座"
+                />
+                <a
+                  href="https://forms.gle/8yh77CvPD4Sc4KU7A"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/front/career6.jpg"
+                    alt="電験三種 講習会 通信講座"
+                  />
+                </a>
+              </figure>
+              <div class="careerSupport-wrap">
+                <p class="careerSupport-title">転職支援サービスMyStyle</p>
+                <p class="careerSupport-text">
+                  <span>施工管理技士や電験三種の資格を生かそう！</span>
+                  <br />
+                  【MyStyle転職】では資格を活かせる職場の紹介や求人情報の提供に加え、独自のワークシートを使った自己理解のサポートも行っています。これにより、転職をゴールとせず、その後のキャリアプランまで見据えた総合的な支援を実現しています。
+                </p>
+                <p class="careerSupport-bottomText">
+                  【 MyStyle転職の特徴 】
+                  <br />
+                  ・「履歴書」や「職務経歴書」の添削だけでなく、応募先企業に合わせた面接対策も丁寧にサポート
+                  <br />
+                  ・常時11万件以上の求人情報から、ご希望に合ったお仕事をご紹介します
+                  <br />
+                  ・独自のワークシートで自己理解を深め、理想のキャリア像を明確に。自信を持って強みを伝えられるようサポートします
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -1887,6 +1922,10 @@ query {
       flex-direction: column;
       row-gap: 20px;
     }
+  }
+
+  .careerSupport-flex.-reverse {
+    flex-direction: row-reverse;
   }
 
   .careerSupport-img {
