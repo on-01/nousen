@@ -1754,6 +1754,9 @@ query {
   }
   .section03.-bottom {
     margin-top: 80px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -160px;
+    }
   }
 
   .last-message-flex {
@@ -1927,6 +1930,10 @@ query {
   .careerSupport-flex.-reverse {
     flex-direction: row-reverse;
     margin-top: 190px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column-reverse;
+      margin-top: 220px;
+    }
 
     .careerSupport-img {
       max-width: 400px;
@@ -1943,6 +1950,9 @@ query {
   .careerSupport-bottomText {
     max-width: 950px;
     margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      max-width: 580px;
+    }
   }
 
   .careerSupport-img {
