@@ -1753,7 +1753,7 @@ query {
     }
   }
   .section03.-bottom {
-    margin-top: 170px;
+    margin-top: 80px;
   }
 
   .last-message-flex {
@@ -1931,7 +1931,18 @@ query {
     .careerSupport-img {
       max-width: 400px;
       margin: 0 auto;
+
+      a {
+        display: block;
+        margin: 30px auto 0;
+        max-width: 230px;
+      }
     }
+  }
+
+  .careerSupport-bottomText {
+    max-width: 950px;
+    margin: 0 auto;
   }
 
   .careerSupport-img {
