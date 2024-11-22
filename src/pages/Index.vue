@@ -1992,6 +1992,9 @@ query {
     @media print, screen and (max-width: 1000px) {
       max-width: 560px;
     }
+    span {
+      font-weight: 700;
+    }
   }
   .careerSupport-link {
     position: absolute;
