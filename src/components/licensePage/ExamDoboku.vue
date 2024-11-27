@@ -72,14 +72,14 @@
         <br />
         解説付きの解答で理解度UP！問題の考え方から解き方まで丁寧に説明します。
       </p>
-      <div class="lecture-section -center">
+      <!-- <div class="lecture-section -center">
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
-        <!-- <div class="lecture-description">
+        <div class="lecture-description">
           <p class="lecture-title">勉強計画を立てて最短合格へ</p>
           <p class="lecture-line"></p>
           <p class="lecture-text">
@@ -90,8 +90,8 @@
           <p class="lecture-title -small">
             能センの教材、副教材全てが合格へと通じています！
           </p>
-        </div> -->
-      </div>
+        </div>
+      </div> -->
     </div>
   </div>
 </template>
