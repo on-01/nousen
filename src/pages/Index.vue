@@ -1936,7 +1936,7 @@ query {
     }
 
     .careerSupport-img {
-      max-width: 400px;
+      max-width: 450px;
       margin: 0 auto;
 
       a {
