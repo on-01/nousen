@@ -72,7 +72,7 @@
         <br />
         解説付きの解答で理解度UP！問題の考え方から解き方まで丁寧に説明します。
       </p>
-      <!-- <div class="lecture-section -center">
+      <div class="lecture-section -center">
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
@@ -91,7 +91,7 @@
             能センの教材、副教材全てが合格へと通じています！
           </p>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
