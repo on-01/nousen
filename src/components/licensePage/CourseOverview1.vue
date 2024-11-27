@@ -15,7 +15,9 @@
             <p class="courseOverview-title">{{ title }}</p>
             <div class="courseOverview-line"></div>
             <p class="courseOverview-text -type1 -center">
-              東京・名古屋・大阪
+              10日間で70時間の講習会
+              <br />
+              科目ごとの受講も可能！
               <br />
               業界支持率No.1の圧倒的なわかりやすさ！
             </p>
