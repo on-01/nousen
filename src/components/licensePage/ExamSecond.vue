@@ -24,7 +24,7 @@
         学習内容そのものではなく学習の方法に関する問い合わせもOKです！
       </p>
 
-      <div class="lecture-section -center">
+      <!-- <div class="lecture-section -center">
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
@@ -43,7 +43,7 @@
             能センの教材、副教材全てが合格へと通じています！
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
