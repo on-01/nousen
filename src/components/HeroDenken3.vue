@@ -30,7 +30,8 @@
         <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a>
         |
         <a href="https://taiken.nouryoku.com/">無料体験講座</a>
-        |
+        <span class="-sp-none">|</span>
+        <br class="-pc-none" />
         <a href="https://denken.nouryoku.com/online">オンライン講座</a>
         |
         <a href="https://t.kouza.nouryoku.com/">通信講座</a>
@@ -132,7 +133,7 @@
     .sub-title {
       margin: 0;
       letter-spacing: 0.1em;
-      font-size: 18px;
+      font-size: 15px;
       font-family: "メイリオ", sans-serif;
       font-weight: 600;
       text-align: center;
@@ -166,6 +167,18 @@
     .title-wrapper {
       top: 60%;
       padding: 1.2rem;
+    }
+  }
+
+  .-sp-none {
+    @media print, screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  .-pc-none {
+    display: none;
+    @media print, screen and (max-width: 767px) {
+      display: inline-block;
     }
   }
 </style>
