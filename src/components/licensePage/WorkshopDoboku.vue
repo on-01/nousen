@@ -573,6 +573,7 @@
     width: 60%;
     // display: flex;
     // flex-direction: column;
+    border-left: none;
   }
 
   .workshop-border {
@@ -583,7 +584,7 @@
 
   .workshop-border.-none {
     border-bottom: none;
-    padding-top: 10px;
+    // padding-top: 10px;
     padding-bottom: 0;
   }
 
