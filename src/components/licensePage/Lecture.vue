@@ -26,7 +26,7 @@
       </div> -->
       <p class="book-title">最新の人気テキストを使用</p>
       <div class="lecture-section -book">
-        <div class="book-wrap">
+        <div class="book-wrap -left">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-book1.jpg"
             alt=""
@@ -42,7 +42,7 @@
             短時間で理解できるように、イラストや図表を豊富に取り入れ、わかりやすく要点を解説し、無駄の少ない効率の良い学習ができるように構成しています。
           </p>
         </div>
-        <div class="book-wrap">
+        <div class="book-wrap -right">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-book2.jpg"
             alt=""
@@ -96,6 +96,40 @@
   .lecture-section {
     display: flex;
     justify-content: space-between;
+  }
+
+  .lecture-section.-book {
+    grid-column: 20px;
+    margin-top: 80px;
+  }
+
+  .book-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-bottom: solid 3px #249ef0;
+  }
+
+  .book-wrap {
+    p {
+      margin: 0;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .book-wrap.-left {
+    img {
+      width: 60%;
+    }
+  }
+
+  .book-text700 {
+    font-weight: 700;
   }
 
   .lecture-section.-bottom {
@@ -177,10 +211,6 @@
     border: 2px solid #1da1f2;
     padding: 8px 0;
     margin: 36px 0 12px;
-  }
-
-  .book-text700 {
-    font-weight: 700;
   }
 
   @media print, screen and (max-width: 1000px) {
