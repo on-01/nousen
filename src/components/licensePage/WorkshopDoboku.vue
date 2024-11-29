@@ -20,33 +20,39 @@
       <div class="workshop-box">
         <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first -yellow"></p>
-          <p class="workshop-text -second -yellow">コース</p>
+          <p class="workshop-text -first -yellow">コース</p>
+          <!-- <p class="workshop-text -second -yellow">コース</p> -->
           <p class="workshop-text -third -yellow">講習日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">前期</p>
-          <p class="workshop-text -second">一次コース(2日間)</p>
-          <p class="workshop-text -third">【終了】</p>
+          <p class="workshop-text -first">一次コース(2日間/15時間)</p>
+          <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
+          <p class="workshop-text -third">
+            4月26日(土)～27日(日)9:30～17:00
+            <span>【準備中】</span>
+          </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">後期</p>
-          <div class="workshop-text -second">
+          <p class="workshop-text -first">二次コース(1日/6.5時間)</p>
+          <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(2日間)</p>
             <p class="workshop-border -none">二次コース(1日)</p>
-          </div>
+          </div> -->
           <div class="workshop-text -third">
-            <p class="workshop-border">
+            <!-- <p class="workshop-border">
               8月31日(土)～9月1日(日)9:30～17:00【終了】
+            </p> -->
+            <p class="workshop-border -none">
+              9月15日(日)9:30～16:00
+              <span>【準備中】</span>
             </p>
-            <p class="workshop-border -none">9月15日(日)9:30～16:00【終了】</p>
           </div>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -198,36 +204,39 @@
       <div class="workshop-box">
         <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first -yellow"></p>
-          <p class="workshop-text -second -yellow">コース</p>
+          <p class="workshop-text -first -yellow">コース</p>
+          <!-- <p class="workshop-text -second -yellow">コース</p> -->
           <p class="workshop-text -third -yellow">配信日程</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">前期</p>
-          <p class="workshop-text -second">一次コース(約12時間)</p>
-          <p class="workshop-text -third">【終了】</p>
+          <p class="workshop-text -first">一次コース(約12時間)</p>
+          <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
+          <p class="workshop-text -third">
+            5月2日(金)～10月31日(木)まで
+            <span>【準備中】</span>
+          </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">後期</p>
-          <div class="workshop-text -second">
+          <p class="workshop-text -first">二次コース(約5.5時間)</p>
+          <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(約12時間)</p>
             <p class="workshop-border -none">二次コース(約5時間)</p>
-          </div>
+          </div> -->
           <div class="workshop-text -third">
-            <p class="workshop-border">
+            <!-- <p class="workshop-border">
               9月5日(木)～10月31日(木)まで
               <span>【終了】</span>
-            </p>
+            </p> -->
             <p class="workshop-border -none">
-              9月18日(水)～10月31日(木)まで
-              <span>【終了】</span>
+              9月11日(木)～10月31日(金)まで
+              <span>【準備中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -548,7 +557,7 @@
   }
 
   .workshop-text.-first {
-    width: 15%;
+    width: 40%;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -561,7 +570,7 @@
     flex-direction: column;
   }
   .workshop-text.-third {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
   }
