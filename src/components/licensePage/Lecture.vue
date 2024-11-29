@@ -99,16 +99,23 @@
   }
 
   .lecture-section.-book {
-    grid-column: 20px;
+    column-gap: 20px;
+    row-gap: 50px;
     margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+      margin: 40px auto 0;
+    }
   }
 
   .book-title {
     font-size: 28px;
     font-weight: 700;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin: 30px 20px 0;
     border-bottom: solid 3px #249ef0;
   }
 
@@ -116,6 +123,10 @@
     width: 50%;
     p {
       margin: 0;
+
+      @media print, screen and (max-width: 1000px) {
+        padding: 0 50px;
+      }
     }
     img {
       display: block;
@@ -125,7 +136,12 @@
 
   .book-wrap.-left {
     img {
-      width: 60%;
+      width: 56%;
+    }
+  }
+  .book-wrap.-right {
+    img {
+      width: 56%;
     }
   }
 
@@ -136,6 +152,10 @@
   .book-text700.-first {
     font-weight: 700;
     margin-top: 10px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
   }
 
   .lecture-section.-bottom {
