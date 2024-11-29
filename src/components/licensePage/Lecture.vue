@@ -31,7 +31,7 @@
             src="../../assets/img/license_page/doboku_s/lecture-book1.jpg"
             alt=""
           />
-          <p class="book-text700">【一次コース】</p>
+          <p class="book-text700 -first">【一次コース】</p>
           <p class="book-text700">
             図解でよくわかる 2級土木施工管理技術検定 第1次検定 2024年版
           </p>
@@ -47,7 +47,7 @@
             src="../../assets/img/license_page/doboku_s/lecture-book2.jpg"
             alt=""
           />
-          <p class="book-text700">【二次コース】</p>
+          <p class="book-text700 -first">【二次コース】</p>
           <p class="book-text700">
             これだけマスター 2級土木施工管理技士 第二次検定
           </p>
@@ -113,6 +113,7 @@
   }
 
   .book-wrap {
+    width: 50%;
     p {
       margin: 0;
     }
@@ -130,6 +131,11 @@
 
   .book-text700 {
     font-weight: 700;
+  }
+
+  .book-text700.-first {
+    font-weight: 700;
+    margin-top: 10px;
   }
 
   .lecture-section.-bottom {
