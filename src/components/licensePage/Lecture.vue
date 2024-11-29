@@ -24,6 +24,41 @@
           <p class="lecture-title -small" v-html="title4"></p>
         </div>
       </div> -->
+      <p class="book-title">最新の人気テキストを使用</p>
+      <div class="lecture-section -book">
+        <div class="book-wrap">
+          <img
+            src="../../assets/img/license_page/doboku_s/lecture-book1.jpg"
+            alt=""
+          />
+          <p class="book-text700">【一次コース】</p>
+          <p class="book-text700">
+            図解でよくわかる 2級土木施工管理技術検定 第1次検定 2024年版
+          </p>
+          <p class="book-text">
+            「2級土木施工管理技術検定
+            第1次検定(学科試験)」を受験される方を対象とした、厳選された過去問題とテキストを兼ねた解説書です。
+            <br />
+            短時間で理解できるように、イラストや図表を豊富に取り入れ、わかりやすく要点を解説し、無駄の少ない効率の良い学習ができるように構成しています。
+          </p>
+        </div>
+        <div class="book-wrap">
+          <img
+            src="../../assets/img/license_page/doboku_s/lecture-book2.jpg"
+            alt=""
+          />
+          <p class="book-text700">【二次コース】</p>
+          <p class="book-text700">
+            これだけマスター 2級土木施工管理技士 第二次検定
+          </p>
+          <p class="book-text">
+            2級土木施工管理技士　第二次検定対策書の決定版！経験記述（60文例）が必ず役に立つ！！2級土木施工管理技術検定の第二次検定は経験を重視した試検内容となっています。記述形式で出題される問題は記述量が多いうえ、出題範囲も広く、ポイントをしっかりおさえておく必要があります。
+          </p>
+          <p class="book-text700">
+            能センと仲が良いオーム社さんのテキストです。
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -142,6 +177,10 @@
     border: 2px solid #1da1f2;
     padding: 8px 0;
     margin: 36px 0 12px;
+  }
+
+  .book-text700 {
+    font-weight: 700;
   }
 
   @media print, screen and (max-width: 1000px) {
