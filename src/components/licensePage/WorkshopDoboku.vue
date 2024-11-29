@@ -541,6 +541,7 @@
     margin-bottom: 0;
     span {
       color: red;
+      font-weight: 700;
     }
   }
 
@@ -610,7 +611,6 @@
     width: calc(100% / 2);
     span {
       color: red;
-      font-weight: 700;
     }
   }
 

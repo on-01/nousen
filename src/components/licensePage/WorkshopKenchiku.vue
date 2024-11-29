@@ -531,6 +531,7 @@
     margin-bottom: 0;
     span {
       color: red;
+      font-weight: 700;
     }
   }
 
