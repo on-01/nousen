@@ -558,7 +558,7 @@
 
   .workshop-text.-first {
     width: 40%;
-    font-weight: 700;
+    // font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -571,8 +571,8 @@
   }
   .workshop-text.-third {
     width: 60%;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
   }
 
   .workshop-border {
@@ -609,6 +609,7 @@
     width: calc(100% / 2);
     span {
       color: red;
+      font-weight: 700;
     }
   }
 
