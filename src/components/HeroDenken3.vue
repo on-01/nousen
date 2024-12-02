@@ -30,8 +30,7 @@
         <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a>
         |
         <a href="https://taiken.nouryoku.com/">無料体験講座</a>
-        <span class="-sp-none">|</span>
-        <br class="-pc-none" />
+        <br />
         <a href="https://denken.nouryoku.com/online">オンライン講座</a>
         |
         <a href="https://t.kouza.nouryoku.com/">通信講座</a>
