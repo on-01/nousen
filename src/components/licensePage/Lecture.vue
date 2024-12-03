@@ -135,7 +135,7 @@
 
   .book-wrap.-left {
     img {
-      width: 56%;
+      width: 46%;
       @media print, screen and (max-width: 1000px) {
         width: 50%;
       }
@@ -143,7 +143,7 @@
   }
   .book-wrap.-right {
     img {
-      width: 56%;
+      width: 46%;
       @media print, screen and (max-width: 1000px) {
         width: 50%;
       }
