@@ -297,6 +297,9 @@
   }
   .courseOverview-td-text {
     font-weight: 700;
+    a {
+      text-decoration: underline;
+    }
   }
   .courseOverview td span {
     font-weight: 700;
