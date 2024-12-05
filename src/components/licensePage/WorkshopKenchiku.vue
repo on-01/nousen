@@ -218,7 +218,7 @@
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(約5時間)</p>
+          <p class="workshop-text -first">二次コース(約5.5時間)</p>
           <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(約12時間)</p>
             <p class="workshop-border -none">二次コース(約5時間)</p>
