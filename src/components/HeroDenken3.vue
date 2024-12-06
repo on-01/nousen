@@ -122,7 +122,7 @@
     .title {
       margin: 0;
       letter-spacing: 0.3em;
-      font-size: 22px;
+      font-size: 24px;
       font-family: "メイリオ", sans-serif;
       text-align: center;
       @media print, screen and (max-width: 1000px) {
@@ -132,7 +132,7 @@
     .sub-title {
       margin: 0;
       letter-spacing: 0.1em;
-      font-size: 15px;
+      font-size: 22px;
       font-family: "メイリオ", sans-serif;
       font-weight: 600;
       text-align: center;
