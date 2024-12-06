@@ -114,7 +114,7 @@
     background-color: #fff;
     border-radius: 8px;
     color: #000;
-    padding: 0.8em 114px;
+    padding: 0.8em 76px;
     border: 6px solid #1d9bf0;
     @media print, screen and (max-width: 1000px) {
       padding: 1em;
