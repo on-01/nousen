@@ -1,7 +1,12 @@
 <template>
   <div class="contactInfo">
     <div class="contactInfo-inner">
-      <p class="contactInfo-title" v-html="title"></p>
+      <p class="contactInfo-title -red" v-html="title"></p>
+      <p class="contactInfo-title">
+        【お電話】【フォーム】【オンライン】
+        <br />
+        お気軽にお問い合わせください。
+      </p>
       <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" />
       <div class="contactInfo-link -tel">
         <a href="tel:012054728">
@@ -38,9 +43,6 @@
     border-radius: 12px;
     font-family: メイリオ, sans-serif;
     margin: 40px auto 0;
-    span {
-      color: red;
-    }
   }
   .contactInfo-inner {
     position: relative;
@@ -52,6 +54,9 @@
     font-weight: 700;
     text-align: center;
     line-height: 1.7;
+  }
+  .contactInfo-title.-red {
+    color: red;
   }
   .contactInfo-icon {
     position: absolute;
