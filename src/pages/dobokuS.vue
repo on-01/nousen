@@ -595,11 +595,7 @@
                 />
               </div>
 
-              <ContactInfo
-                title="受講に関するご相談は<br>
-            【お電話】【フォーム】【オンライン】<br>
-            お気軽にお問い合わせください。"
-              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
           </div>
         </header>
