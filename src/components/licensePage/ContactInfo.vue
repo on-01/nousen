@@ -38,6 +38,9 @@
     border-radius: 12px;
     font-family: メイリオ, sans-serif;
     margin: 40px auto 0;
+    span {
+      color: red;
+    }
   }
   .contactInfo-inner {
     position: relative;
@@ -49,9 +52,6 @@
     font-weight: 700;
     text-align: center;
     line-height: 1.7;
-    span {
-      color: red;
-    }
   }
   .contactInfo-icon {
     position: absolute;
