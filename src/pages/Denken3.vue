@@ -530,7 +530,7 @@
                 faxLink="/sanshu.pdf"
               />
             </div>
-            <ContactInfo title="<span>受講に関するご相談・資料請求は</span>" />
+            <ContactInfo title="受講に関するご相談・資料請求は" />
           </div>
         </div>
 
