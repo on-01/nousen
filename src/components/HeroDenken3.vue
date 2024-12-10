@@ -144,7 +144,7 @@
       }
     }
     .sub-title.-link {
-      font-size: 20px;
+      font-size: 18px;
       @media print, screen and (max-width: 1000px) {
         font-size: 15px;
       }
