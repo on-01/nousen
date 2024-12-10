@@ -24,7 +24,7 @@
         <br />
         目標達成の未来へ
       </p>
-      <p class="sub-title">
+      <p class="sub-title -link">
         <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
         |
         <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a>
@@ -136,6 +136,15 @@
       font-family: "メイリオ", sans-serif;
       font-weight: 600;
       text-align: center;
+      @media print, screen and (max-width: 1000px) {
+        font-size: 15px;
+      }
+      @media print, screen and (max-width: 560px) {
+        font-size: 12px;
+      }
+    }
+    .sub-title.-link {
+      font-size: 20px;
       @media print, screen and (max-width: 1000px) {
         font-size: 15px;
       }
