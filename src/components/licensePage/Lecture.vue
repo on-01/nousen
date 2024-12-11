@@ -235,6 +235,10 @@
     }
   }
 
+  .lecture-section.-counterplan {
+    padding: 0 20px;
+  }
+
   .counterplan-title {
     font-size: 28px;
     font-weight: 700;
@@ -245,9 +249,6 @@
 
   .counterplan-wrap {
     width: calc(100% / 3);
-    p {
-      margin: 0;
-    }
     img {
       display: block;
       margin: 0 auto;
@@ -259,14 +260,19 @@
     font-size: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #249ef0;
+    text-align: center;
+    margin: 10px 0;
   }
 
   .counterplan-text {
+    margin: 0;
   }
 
   .counterplan-text.-yellow {
     background: #ffff8d;
     font-weight: 700;
+    display: inline-block;
+    line-height: 1;
   }
 
   .lecture-section.-bottom {
