@@ -259,6 +259,7 @@
     }
     @media print, screen and (max-width: 1000px) {
       width: 90%;
+      margin: 0 auto;
     }
   }
 
@@ -274,6 +275,9 @@
   .counterplan-text {
     margin: 0;
     line-height: 1.5;
+    span {
+      font-weight: 700;
+    }
   }
 
   .counterplan-text.-yellow {
