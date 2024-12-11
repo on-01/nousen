@@ -59,6 +59,75 @@
           </p>
         </div>
       </div>
+
+      <p class="counterplan-title">第一次検定 試験対策</p>
+      <div class="lecture-section -counterplan">
+        <div class="counterplan-wrap">
+          <p class="counterplan-head">過去問5年分</p>
+          <img
+            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
+            alt=""
+          />
+          <p class="counterplan-text -yellow">過去問5年分を進呈</p>
+          <p class="counterplan-head">
+            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
+            <span>過去5年分の過去問題</span>
+            を提供いたします。
+            <br />
+            この貴重な教材を試験対策にぜひご活用ください。
+          </p>
+        </div>
+        <div class="counterplan-wrap">
+          <p class="counterplan-head">一次検定 提出課題</p>
+          <img
+            src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
+            alt=""
+          />
+          <p class="counterplan-text -yellow">
+            100点満点で図書カードをプレゼント！
+          </p>
+          <p class="counterplan-head">
+            提出課題 / 解答解説
+            <br />
+            ◆ 実力診断として実施してください
+            <br />
+            ◆ 試験時間：50分
+            <br />
+            ◆ 問題数：全20問
+            <br />
+            問題を解きながら、実力をチェックしてみましょう！
+            <br />
+            解答を提出していただいたうえで、見事全問正解された方には、
+            <span>【図書カード】</span>
+            をプレゼントいたします！
+          </p>
+        </div>
+        <div class="counterplan-wrap">
+          <p class="counterplan-head">一次検定 予想模擬試験</p>
+          <img
+            src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
+            alt=""
+          />
+          <p class="counterplan-text -yellow">
+            一次試験の総仕上げ【予想模擬試験】
+          </p>
+          <p class="counterplan-head">
+            模擬試験/解答解説
+            <br />
+            ◆ 学習の総仕上げとして実施してください
+            <br />
+            ◆ 試験時間：130分
+            <br />
+            ◆ 問題数：全61問
+            <br />
+            最新の本試験出題傾向を徹底分析した一次試験対策の予想問題を、解答解説付きでご提供します。
+            <br />
+            一次試験完全突破を目指す最終ステージの模擬試験です！
+            <br />
+            この予想問題をしっかり解いて、自信を持って試験に臨みましょう。
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -161,6 +230,18 @@
     @media print, screen and (max-width: 1000px) {
       margin-top: 30px;
     }
+  }
+
+  .counterplan-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 20px 0;
+    border: solid 3px red;
+  }
+
+  .counterplan-wrap {
+    width: calc(100% / 3);
   }
 
   .lecture-section.-bottom {
