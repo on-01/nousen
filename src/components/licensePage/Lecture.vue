@@ -240,6 +240,8 @@
     column-gap: 20px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
@@ -258,8 +260,7 @@
       margin: 0 auto;
     }
     @media print, screen and (max-width: 1000px) {
-      width: 90%;
-      margin: 0 auto;
+      width: 100%;
     }
   }
 
