@@ -238,6 +238,9 @@
   .lecture-section.-counterplan {
     padding: 0 20px;
     column-gap: 20px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
   .counterplan-title {
@@ -254,6 +257,9 @@
       display: block;
       margin: 0 auto;
     }
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
   }
 
   .counterplan-head {
@@ -267,6 +273,7 @@
 
   .counterplan-text {
     margin: 0;
+    line-height: 1.5;
   }
 
   .counterplan-text.-yellow {
