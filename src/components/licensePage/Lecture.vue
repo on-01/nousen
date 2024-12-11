@@ -65,11 +65,12 @@
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
           <img
+            class="counterplan-img -first"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt=""
           />
           <p class="counterplan-text -yellow">過去問5年分を進呈</p>
-          <p class="counterplan-head">
+          <p class="counterplan-text">
             2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
             <span>過去5年分の過去問題</span>
             を提供いたします。
@@ -80,13 +81,14 @@
         <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 提出課題</p>
           <img
+            class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
             alt=""
           />
           <p class="counterplan-text -yellow">
             100点満点で図書カードをプレゼント！
           </p>
-          <p class="counterplan-head">
+          <p class="counterplan-text">
             提出課題 / 解答解説
             <br />
             ◆ 実力診断として実施してください
@@ -105,13 +107,14 @@
         <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 予想模擬試験</p>
           <img
+            class="counterplan-img -third"
             src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
             alt=""
           />
           <p class="counterplan-text -yellow">
             一次試験の総仕上げ【予想模擬試験】
           </p>
-          <p class="counterplan-head">
+          <p class="counterplan-text">
             模擬試験/解答解説
             <br />
             ◆ 学習の総仕上げとして実施してください
@@ -242,6 +245,28 @@
 
   .counterplan-wrap {
     width: calc(100% / 3);
+    p {
+      margin: 0;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .counterplan-head {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #249ef0;
+  }
+
+  .counterplan-text {
+  }
+
+  .counterplan-text.-yellow {
+    background: #ffff8d;
+    font-weight: 700;
   }
 
   .lecture-section.-bottom {
