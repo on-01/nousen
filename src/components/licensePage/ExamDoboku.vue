@@ -1,7 +1,7 @@
 <template>
   <div class="exam">
     <div class="exam-inner">
-      <p class="exam-title">一次検定の実力診断は提出課題！</p>
+      <!-- <p class="exam-title">一次検定の実力診断は提出課題！</p>
       <p class="exam-line"></p>
       <div class="exam-image -center">
         <figure>
@@ -71,7 +71,7 @@
         <span>・模擬試験（解答解説）</span>
         <br />
         解説付きの解答で理解度UP！問題の考え方から解き方まで丁寧に説明します。
-      </p>
+      </p> -->
       <div class="lecture-section -center">
         <figure class="lecture-image">
           <img
