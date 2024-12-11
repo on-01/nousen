@@ -237,6 +237,7 @@
 
   .lecture-section.-counterplan {
     padding: 0 20px;
+    column-gap: 20px;
   }
 
   .counterplan-title {
@@ -261,7 +262,7 @@
     padding-bottom: 10px;
     border-bottom: 2px solid #249ef0;
     text-align: center;
-    margin: 10px 0;
+    margin: 40px 0 15px;
   }
 
   .counterplan-text {
@@ -273,6 +274,15 @@
     font-weight: 700;
     display: inline-block;
     line-height: 1;
+    margin-top: 20px;
+  }
+
+  .counterplan-img.-second {
+    width: 46%;
+  }
+
+  .counterplan-img.-third {
+    width: 94%;
   }
 
   .lecture-section.-bottom {
