@@ -86,7 +86,7 @@
                   <span class="red courseOverview-td-text">【無料】</span>
                   ：
                   <a href="https://taiken.nouryoku.com/">基礎の基礎</a>
-                  　&nbsp;&nbsp;&nbsp;9:30-12:00（講座体験・基礎数学・抽選会・個別相談会）
+                  　&nbsp;&nbsp;9:30-12:00（講座体験・基礎数学・抽選会・個別相談会）
                 </p>
                 <p>16,500円：基礎（１日）　9:30-17:00</p>
                 <p>31,900円：理論（２日間）9:30-17:00</p>
