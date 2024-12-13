@@ -32,7 +32,7 @@
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
           <p class="workshop-text -third">
             5月3日(土)～4日(日) 9:30～17:00
-            <span>【準備中】</span>
+            <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -51,7 +51,7 @@
             </p> -->
             <p class="workshop-border -none">
               10月12日(日) 9:30～16:00
-              <span>【準備中】</span>
+              <span>【受付中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -83,14 +83,14 @@
               全て込み
             </p>
             <p class="workshop-text -ryoukin">
-              41,000円
+              42,000円
               <br />
-              (税込45,100円)
+              (税込46,200円)
             </p>
             <p class="workshop-text -ryoukin">
-              33,000円
+              34,000円
               <br />
-              (税込36,300円)
+              (税込37,400円)
             </p>
             <p class="workshop-text -ryoukin">
               16,500円
@@ -210,7 +210,7 @@
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
             5月9日(金)～11月30日(日)まで
-            <span>【準備中】</span>
+            <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -230,7 +230,7 @@
             </p> -->
             <p class="workshop-border -none">
               10月15日(水)～11月30日(日)まで
-              <span>【準備中】</span>
+              <span>【受付中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -267,9 +267,9 @@
               (税込42,900円)
             </p>
             <p class="workshop-text -ryoukin">
-              30,000円
+              31,000円
               <br />
-              (税込33,000円)
+              (税込34,100円)
             </p>
             <p class="workshop-text -ryoukin">
               16,500円
@@ -283,7 +283,7 @@
           <p class="workshop-text -blue">
             一次コース(約12時間) / 二次コース(約5時間)
           </p>
-          <p class="workshop-text -blue">6月1日(土)～11月30日(土)まで</p>
+          <p class="workshop-text -blue">2月1日(日)～11月30日(日)まで</p>
         </div>
       </div>
     </div>
