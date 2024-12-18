@@ -71,7 +71,7 @@
             />
 
             <div class="bg-lightBlue">
-              <Schedule title="令和６年度 第三種電気主任技術者 試験日程" />
+              <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
 
               <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#denken" class="exam-link">
