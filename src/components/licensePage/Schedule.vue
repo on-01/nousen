@@ -11,8 +11,8 @@
           <tr>
             <th class="schedule-th -first">項目</th>
             <!-- <th class="schedule-th -second">令和５年度 下期試験</th> -->
-            <th class="schedule-th -third">令和６年度 上期試験</th>
-            <th class="schedule-th -forth">令和６年度 下期試験</th>
+            <th class="schedule-th -third">令和6年度 下期試験</th>
+            <th class="schedule-th -forth">令和7年度 上期試験</th>
           </tr>
           <tr>
             <td class="schedule-td-border-none schedule-padding-none">
@@ -41,11 +41,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和６年７月４日（木）～７月２８日（日）
+                  令和7年2月6日（木）～3月2日（日）
                   <br />
-                  （２５日間）
+                  （25日間）
                 </p>
-                <p class="schedule-table-padding">令和６年８月１８日（日）</p>
+                <p class="schedule-table-padding">令和7年3月23日（日）</p>
               </div>
             </td>
             <td class="schedule-padding-none">
@@ -53,11 +53,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和７年２月６日（木）～３月２日（日）
+                  令和7年7月17日（木）～8月10日（日）
                   <br />
-                  （２５日間）
+                  （25日間）
                 </p>
-                <p class="schedule-table-padding">令和７年３月２３日（日）</p>
+                <p class="schedule-table-padding">令和7年8月31日（日）</p>
               </div>
             </td>
           </tr>
@@ -72,8 +72,8 @@
               に同じです。
             </td>
             <!-- <td>１１月１３日（月）～１１月３０日（木）</td> -->
-            <td>５月２０日（月）～６月６日（木）</td>
             <td>１１月１１日（月）～１１月２８日（木）</td>
+            <td>５月２０日（月）～６月６日（木）</td>
           </tr>
           <tr>
             <td
@@ -82,8 +82,8 @@
               試験結果発表日（筆記方式）
             </td>
             <!-- <td>令和６年４月頃</td> -->
-            <td>令和６年９月頃</td>
-            <td>令和７年４月頃</td>
+            <td>令和7年4月頃</td>
+            <td>令和7年9月頃</td>
           </tr>
           <tr class="schedule-tr-border-none">
             <td class="schedule-td-border-none schedule-padding-none">
