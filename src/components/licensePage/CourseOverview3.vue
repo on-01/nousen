@@ -14,10 +14,12 @@
           <div class="courseOverview-flex-right">
             <p class="courseOverview-title">{{ title }}</p>
             <div class="courseOverview-line"></div>
-            <p class="courseOverview-text -type1 -center">通信６ヶ月コース</p>
+            <p class="courseOverview-text -type1 -center">
+              令和7年度 通信6ヶ月コース
+            </p>
             <p class="courseOverview-text -type1 -center">添削・質問用紙は</p>
             <p class="courseOverview-text -type1 -center">
-              　最大24ヶ月間サポート！
+              　最大24ヶ月間のサポート！
             </p>
           </div>
         </div>
