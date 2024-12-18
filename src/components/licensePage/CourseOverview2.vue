@@ -8,7 +8,7 @@
             <p class="courseOverview-title">{{ title }}</p>
             <div class="courseOverview-line"></div>
             <p class="courseOverview-text -type1 -center">
-              令和６年度 全期間対応
+              令和7年度 全期間対応
             </p>
             <p class="courseOverview-text -type1 -center">
               最新の受験対策講座をお届けします！
