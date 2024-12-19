@@ -130,7 +130,7 @@
         </div>
       </div>
       <p class="counterplan-title">第二次検定 試験対策</p>
-      <div class="lecture-section -counterplan">
+      <div class="lecture-section -counterplan2">
         <div class="counterplan-wrap">
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
@@ -283,6 +283,32 @@
       width: 90%;
       margin: 0 auto;
     }
+  }
+  
+  .lecture-section.-counterplan2 {
+    padding: 0 20px;
+    column-gap: 20px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .counterplan-wrap {
+    width: calc(100% / 2);
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+  .counterplan-img.-first {
+    width: 94%;
+  }
+  .counterplan-img.-second {
+    width: 94%;
+  }
   }
 
   .counterplan-title {
