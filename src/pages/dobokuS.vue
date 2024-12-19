@@ -469,7 +469,7 @@
               </div>
             </section>
 
-            <CampaignDoboku day="2" date="7/15(祝)" />
+            <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
               <DiscountDoboku title="合格応援割START！" />
