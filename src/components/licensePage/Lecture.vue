@@ -69,7 +69,9 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt=""
           />
-          <p class="counterplan-text -yellow">過去問5年分を進呈</p>
+          <p class="counterplan-text -yellow">
+            過去問５年分を進呈（一次・二次共に）
+          </p>
           <p class="counterplan-text">
             2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
             <span>過去5年分の過去問題</span>
@@ -250,7 +252,7 @@
     font-weight: 700;
     text-align: center;
     margin: 30px 20px 0;
-    border: solid 3px red;
+    border: solid 3px #ff843a;
   }
 
   .counterplan-wrap {
