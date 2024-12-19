@@ -304,10 +304,10 @@
     }
   }
   .counterplan-img.-first {
-    width: 94%;
+    width: 63%;
   }
   .counterplan-img.-second {
-    width: 94%;
+    width: 63%;
   }
   }
 
