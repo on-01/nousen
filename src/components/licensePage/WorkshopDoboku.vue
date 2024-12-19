@@ -809,6 +809,11 @@
   .workshop-completionWrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .workshop-completionImage {
+    width: 50%;
   }
 
   .workshop-completionText {
