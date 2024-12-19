@@ -810,10 +810,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media print, screen and (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
   }
 
   .workshop-completionImage {
     width: 50%;
+    @media print, screen and (max-width: 768px) {
+      width: 80%;
+    }
   }
 
   .workshop-completionText {
@@ -822,8 +829,11 @@
     font-size: 20px;
     line-height: 1.8;
     text-align: center;
+    @media print, screen and (max-width: 768px) {
+      line-height: 1.6;
+      font-size: 18px;
+    }
   }
-
   .workshop-flow {
     margin: 0 auto 20px auto;
     max-width: 900px;
