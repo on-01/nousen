@@ -50,7 +50,7 @@
               10月12日(土)～13日(日)9:30～17:00【終了】
             </p> -->
             <p class="workshop-border -none">
-              10月12日(日) 9:30～16:00
+              10月5日(日) 9:30～16:00
               <span>【受付中】</span>
             </p>
           </div>
@@ -209,7 +209,7 @@
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            5月9日(金)～11月30日(日)まで
+            5月9日(金)～11月16日(日)まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -229,7 +229,7 @@
               <span>【受付中】</span>
             </p> -->
             <p class="workshop-border -none">
-              10月16日(木)～11月30日(日)まで
+              10月8日(水)～11月16日(日)まで
               <span>【受付中】</span>
             </p>
           </div>
