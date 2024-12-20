@@ -294,6 +294,26 @@
       <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
     <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
+
+    <div class="workshop-completion">
+      <div class="workshop-completionWrap">
+        <img
+          class="workshop-completionImage"
+          src="../../assets/img/license_page/workshop-completion.jpg"
+          alt="土木施工管理技士 講習会 通信講座 web講座"
+        />
+        <p class="workshop-completionText">
+          視聴率95%以上で修了証が発行！
+          <br />
+          会社で提出が必要な方や
+          <br />
+          勉強のモチベーションUPに、
+          <br />
+          修了証を手に入れましょう！
+        </p>
+      </div>
+    </div>
+
     <div class="workshop-flow">
       <div class="workshop-flow-box">
         <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
@@ -760,6 +780,44 @@
     .ocha-text-bottom {
       margin: 20px 0 0;
       font-weight: 700;
+    }
+  }
+
+  .workshop-completion {
+    margin: 0 auto 20px auto;
+    max-width: 900px;
+    padding: 0 40px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0 20px;
+    }
+  }
+
+  .workshop-completionWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media print, screen and (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+
+  .workshop-completionImage {
+    width: 50%;
+    @media print, screen and (max-width: 768px) {
+      width: 80%;
+    }
+  }
+
+  .workshop-completionText {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    @media print, screen and (max-width: 768px) {
+      line-height: 1.6;
+      font-size: 18px;
     }
   }
 
