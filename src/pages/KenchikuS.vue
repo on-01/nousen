@@ -55,7 +55,7 @@
               altText="建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
-              <ScheduleKenchiku title="１・２級建築施工管理技士 試験日程" />
+              <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" />
 
               <Support title="＼＼建設業を応援しよう／／" />
 

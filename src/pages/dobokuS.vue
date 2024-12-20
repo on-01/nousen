@@ -56,7 +56,7 @@
               altText="土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
-              <ScheduleDoboku title="１・２級土木施工管理技士 試験日程" />
+              <ScheduleDoboku title="令和7年度 土木施工管理技士 試験日程" />
 
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
 
