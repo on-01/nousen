@@ -211,7 +211,8 @@
   .lecture-section.-center {
     flex-direction: row-reverse;
     justify-content: center;
-    margin: 40px auto 0;
+    margin: 0 auto;
+    padding-top: 40px;
     max-width: 1106px;
     .lecture-description {
       // margin-left: 40px;
