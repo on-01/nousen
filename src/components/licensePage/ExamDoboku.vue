@@ -256,6 +256,7 @@
   }
   .lecture-section.-center {
     flex-direction: row-reverse;
+    padding-top: 40px;
     // margin-top: 40px;
     .lecture-description {
       // margin-left: 40px;
