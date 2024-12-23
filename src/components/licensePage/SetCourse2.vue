@@ -40,7 +40,9 @@
       </div>
     </div>
     <div class="setCourse-inner">
-      <p class="setCourse-text">後から追加(70%割引)することもできます！</p>
+      <p class="setCourse-text -table">
+        後から追加(70%割引)することもできます！
+      </p>
       <div class="setCourse-tableWrap">
         <div class="setCourse-table">
           <ul class="setCourse-tableFlex">
@@ -135,6 +137,10 @@
     padding-top: 10px;
     margin: 0;
   }
+
+  .setCourse-text.-table {
+    font-size: 24px;
+  }
   .setCourse-explanation {
     padding: 30px 10px;
     font-size: 18px;
@@ -208,6 +214,7 @@
   }
   .setCourse-tableWrap {
     overflow: hidden;
+    margin: 10px 0 40px;
   }
   .setCourse-table {
     max-width: 800px;
@@ -226,6 +233,7 @@
     border-right: solid 1px black;
     padding: 10px 0;
     text-align: center;
+    line-height: 1.5;
   }
 
   .setCourse-tableItem.-yellow {
