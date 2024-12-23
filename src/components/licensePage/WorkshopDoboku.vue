@@ -440,26 +440,28 @@
         </div>
       </div>
       <div class="add-wrapper">
-        <div class="add-flex">
-          <figure class="add-flexImg">
-            <img
-              src="../../assets/img/license_page/otoriyose.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
-            />
-          </figure>
-          <div class="add-flexTextWrap">
-            <p class="add-flexText -red">願書取り寄せサービス</p>
-            <p class="add-flexText">
-              受験願書（一次二次用・二次用）を無料でお送りいたします
-              <br />
-              ・２種類ありますので、申込みの際にお間違えのない様にして下さい
-              <br />
-              ・願書提出期日2日前までに講座をお申込みの方が対象です
-            </p>
-            <p class="add-flexText -bold">
-              ※
-              一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します。
-            </p>
+        <div class="add-studyWrap">
+          <div class="add-flex">
+            <figure class="add-flexImg">
+              <img
+                src="../../assets/img/license_page/otoriyose.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </figure>
+            <div class="add-flexTextWrap">
+              <p class="add-flexText -red">願書取り寄せサービス</p>
+              <p class="add-flexText">
+                受験願書（一次二次用・二次用）を無料でお送りいたします
+                <br />
+                ・２種類ありますので、申込みの際にお間違えのない様にして下さい
+                <br />
+                ・願書提出期日2日前までに講座をお申込みの方が対象です
+              </p>
+              <p class="add-flexText -bold">
+                ※
+                一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します。
+              </p>
+            </div>
           </div>
         </div>
       </div>
