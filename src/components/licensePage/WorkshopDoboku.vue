@@ -441,10 +441,12 @@
       </div>
       <div class="add-wrapper">
         <div class="add-flex">
-          <img
-            src="../../assets/img/license_page/otoriyose.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
-          />
+          <figure class="add-flexImg">
+            <img
+              src="../../assets/img/license_page/otoriyose.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
+          </figure>
           <div class="add-flexTextWrap">
             <p class="add-flexText -red">願書取り寄せサービス</p>
             <p class="add-flexText">
@@ -937,6 +939,11 @@
     justify-content: center;
     column-gap: 24px;
   }
+
+  .add-flexImg {
+    width: 50%;
+  }
+
   .add-flexTextWrap {
     width: 50%;
   }
