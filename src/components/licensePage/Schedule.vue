@@ -431,6 +431,7 @@
   .bottomTable__text.-bottom {
     width: 39%;
     border-left: none;
+    text-align: center;
   }
 
   @media print, screen and (max-width: 1110px) {
