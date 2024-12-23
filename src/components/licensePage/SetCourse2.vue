@@ -36,8 +36,58 @@
           <del>36,300円</del>
           ▶️23,309円（追加割）
         </p>
-        <p>※後から追加（70%割引）することもできます</p>
         <p>※教材および添削は共通のため、追加されません</p>
+      </div>
+    </div>
+    <div class="setCourse-inner">
+      <p class="setCourse-text">後から追加(70%割引)することもできます！</p>
+      <div class="setCourse-tableWrap">
+        <div class="setCourse-table">
+          <ul class="setCourse-tableFlex">
+            <li class="setCourse-tableItem -yellow">コース</li>
+            <li class="setCourse-tableItem -yellow">通学追加</li>
+            <li class="setCourse-tableItem -yellow">オンライン追加</li>
+          </ul>
+          <ul class="setCourse-tableFlex">
+            <li class="setCourse-tableItem">一次・二次セット</li>
+            <li class="setCourse-tableItem">
+              13,860円
+              <br />
+              (46,200円の70%割引)
+            </li>
+            <li class="setCourse-tableItem">
+              12,870円
+              <br />
+              (42,900円の70%割引)
+            </li>
+          </ul>
+          <ul class="setCourse-tableFlex">
+            <li class="setCourse-tableItem">一次コース</li>
+            <li class="setCourse-tableItem">
+              11,230円
+              <br />
+              (37,400円の70%割引)
+            </li>
+            <li class="setCourse-tableItem">
+              10,230円
+              <br />
+              (34,100円の70%割引)
+            </li>
+          </ul>
+          <ul class="setCourse-tableFlex">
+            <li class="setCourse-tableItem">二次コース</li>
+            <li class="setCourse-tableItem">
+              5,445円
+              <br />
+              (18,150円の70%割引)
+            </li>
+            <li class="setCourse-tableItem">
+              5,445円
+              <br />
+              (18,150円の70%割引)
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -154,6 +204,31 @@
   }
   .setCourse-menu span {
     font-size: 20px;
+    font-weight: 700;
+  }
+  .setCourse-tableWrap {
+    overflow: hidden;
+  }
+  .setCourse-table {
+    max-width: 800px;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  .setCourse-tableFlex {
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    display: flex;
+  }
+
+  .setCourse-tableItem {
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .setCourse-tableItem.-yellow {
+    background-color: #fff8cc;
     font-weight: 700;
   }
   @media print, screen and (max-width: 768px) {
