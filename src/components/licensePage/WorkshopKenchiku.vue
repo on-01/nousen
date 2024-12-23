@@ -429,6 +429,32 @@
           </p>
         </div>
       </div>
+      <div class="add-wrapper">
+        <div class="add-studyWrap">
+          <div class="add-flex">
+            <figure class="add-flexImg">
+              <img
+                src="../../assets/img/license_page/otoriyose.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </figure>
+            <div class="add-flexTextWrap">
+              <p class="add-flexText -red">願書取り寄せサービス</p>
+              <p class="add-flexText">
+                受験願書（一次二次用・二次用）を無料でお送りいたします
+                <br />
+                ・２種類ありますので、申込みの際にお間違えのない様にして下さい
+                <br />
+                ・願書提出期日2日前までに講座をお申込みの方が対象です
+              </p>
+              <p class="add-flexText -bold">
+                ※
+                一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -896,6 +922,49 @@
   .add-studyWrap {
     max-width: 755px;
     margin: 0 auto;
+  }
+
+  .add-flex {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+
+    @media print, screen and (max-width: 1000px) {
+      padding-bottom: 40px;
+      flex-direction: column;
+    }
+  }
+
+  .add-flexImg {
+    width: 50%;
+    margin: 0;
+    @media print, screen and (max-width: 1000px) {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .add-flexTextWrap {
+    width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+
+  .add-flexText {
+    margin: 0;
+    line-height: 1.5;
+  }
+  .add-flexText.-red {
+    color: red;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .add-flexText.-bold {
+    font-weight: 700;
+    margin-top: 5px;
   }
 
   @media print, screen and (max-width: 1000px) {
