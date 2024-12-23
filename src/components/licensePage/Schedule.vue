@@ -32,8 +32,8 @@
             </td>
             <!-- <td class="schedule-padding-none">
                     <div>
-                        <p class="schedule-td-flex-right-top schedule-table-padding">令和６年２月１日（木）～２月２５日（日）</p>
-                        <p class="schedule-table-padding">令和６年３月２４日（日）</p>
+                        <p class="schedule-td-flex-right-top schedule-table-padding">令和６年２月１日(木)～２月２５日(日)</p>
+                        <p class="schedule-table-padding">令和６年３月２４日(日)</p>
                     </div>
                 </td> -->
             <td class="schedule-padding-none">
@@ -41,11 +41,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和7年2月6日（木）～3月2日（日）
+                  令和7年2月6日(木)～3月2日(日)
                   <br />
-                  （25日間）
+                  (25日間)
                 </p>
-                <p class="schedule-table-padding">令和7年3月23日（日）</p>
+                <p class="schedule-table-padding">令和7年3月23日(日)</p>
               </div>
             </td>
             <td class="schedule-padding-none">
@@ -53,11 +53,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和7年7月17日（木）～8月10日（日）
+                  令和7年7月17日(木)～8月10日(日)
                   <br />
-                  （25日間）
+                  (25日間)
                 </p>
-                <p class="schedule-table-padding">令和7年8月31日（日）</p>
+                <p class="schedule-table-padding">令和7年8月31日(日)</p>
               </div>
             </td>
           </tr>
@@ -71,15 +71,15 @@
               <br />
               に同じです。
             </td>
-            <!-- <td>１１月１３日（月）～１１月３０日（木）</td> -->
-            <td>１１月１１日（月）～１１月２８日（木）</td>
-            <td>５月２０日（月）～６月６日（木）</td>
+            <!-- <td>１１月１３日(月)～１１月３０日(木)</td> -->
+            <td>11月11日(月)～11月28日(木)</td>
+            <td>5月20日(月)～6月6日(木)</td>
           </tr>
           <tr>
             <td
               class="schedule-td-bold schedule-td-border-none schedule-table-padding"
             >
-              試験結果発表日（筆記方式）
+              試験結果発表日(筆記方式)
             </td>
             <!-- <td>令和６年４月頃</td> -->
             <td>令和7年4月頃</td>
@@ -91,7 +91,7 @@
                 <div class="schedule-td-bold schedule-td-flex-left">
                   受験手数料
                   <br />
-                  （非課税）
+                  (非課税)
                 </div>
                 <div class="schedule-td-flex-right">
                   <p class="schedule-td-flex-right-top">
@@ -100,7 +100,7 @@
                     による申込み
                   </p>
                   <p>
-                    書面（郵送）
+                    書面(郵送)
                     <br />
                     による申込み
                   </p>
@@ -116,9 +116,9 @@
             <td colspan="2" class="schedule-padding-none">
               <div>
                 <p class="schedule-td-flex-right-top">
-                  <span class="schedule-price-type1">７，７００円</span>
+                  <span class="schedule-price-type1">7,700円</span>
                 </p>
-                <p><span class="schedule-price-type2">８，１００円</span></p>
+                <p><span class="schedule-price-type2">8,100円</span></p>
               </div>
             </td>
             <!-- <td class="schedule-padding-none" style="border-left: none;">
@@ -138,9 +138,9 @@
               </a>
             </div>
             <div class="bottomTable__text -bottom">
-              TEL ０３－３５５２－７６９１
+              TEL 03-3552-7691
               <br />
-              （土日・祝日・年末年始除く）
+              (土日・祝日・年末年始除く)
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@
       <div class="schedule-details">
         <p>
           <span class="schedule-table-note">※１</span>
-          CBT方式（パソコンでの受験）
+          CBT方式(パソコンでの受験)
         </p>
         <p>所定の期間内に試験会場、試験日時を選択することが可能です。</p>
         <p>
@@ -166,7 +166,7 @@
         <br />
         <p class="schedule-emphasis-text">【受験申請】</p>
         <p>
-          ・電験三種の申込方法はインターネットと書面の２種類があります。（令和６年度からは原則インターネット申込みになります）
+          ・電験三種の申込方法はインターネットと書面の2種類があります。(令和６年度からは原則インターネット申込みになります)
         </p>
         <p>・筆記方式かCBT方式、どちらの方式で受験をするかを選びます。</p>
         <p>・CBT方式の試験を欠席した場合、筆記方式の試験は受験できません。</p>
@@ -200,7 +200,7 @@
           のサイトでご確認ください。
         </p>
         <p>2.受験申込書を記入する</p>
-        <p>3.受験手数料を納付する（ゆうちょ銀行で支払い）</p>
+        <p>3.受験手数料を納付する(ゆうちょ銀行で支払い)</p>
         <p>4.郵送にて願書を提出</p>
         <p>5.試験日の約2週間前に受験票が郵送される</p>
         <br />
@@ -225,7 +225,7 @@
         <br />
         <p>問い合わせ先</p>
         <p>一般財団法人 電気技術者試験センター 本部事務局</p>
-        <p>TEL 03-3552-7691　9時から17時15分まで（土・日・祝日を除く）</p>
+        <p>TEL 03-3552-7691　9時から17時15分まで(土・日・祝日を除く)</p>
       </div>
     </div>
   </div>
@@ -305,7 +305,7 @@
   }
   .schedule-table {
     border: 2px solid #000;
-    width: 93%;
+    width: 88%;
     margin: 0 auto;
   }
   .schedule-th {
@@ -397,7 +397,7 @@
 
   .bottomTable__wrap {
     display: flex;
-    width: 93%;
+    width: 88%;
     margin: 0 auto;
   }
 
