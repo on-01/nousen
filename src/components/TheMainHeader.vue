@@ -753,6 +753,8 @@
       justify-content: space-between;
       display: flex;
       flex-wrap: wrap;
+      max-width: 800px;
+      margin-left: auto;
     }
   }
   .pagelink-title-session {
