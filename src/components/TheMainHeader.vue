@@ -753,7 +753,7 @@
       justify-content: space-between;
       display: flex;
       flex-wrap: wrap;
-      max-width: 800px;
+      max-width: 760px;
       margin-left: auto;
     }
   }
