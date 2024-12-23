@@ -327,8 +327,8 @@
               altText="土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-white">
-              <ExamSecond />
               <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
+              <ExamSecond />
             </div>
 
             <div class="bg-white">

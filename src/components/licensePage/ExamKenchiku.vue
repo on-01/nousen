@@ -1,6 +1,26 @@
 <template>
   <div class="exam">
     <div class="exam-inner">
+      <div class="lecture-section -center">
+        <figure class="lecture-image">
+          <img
+            src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
+            alt="建築施工管理技士 講習会 通信講座 web講座"
+          />
+        </figure>
+        <div class="lecture-description">
+          <p class="lecture-title">勉強計画を立てて最短合格へ</p>
+          <p class="lecture-line"></p>
+          <p class="lecture-text">
+            勉強の計画を立てることは、勉強をスムーズに進めるために、とても効果的な方法だと言われています。
+            <br />
+            能センでは計画に沿った勉強で最短合格ができるように、勉強計画表をお渡ししています。
+          </p>
+          <p class="lecture-title -small">
+            能センの教材、副教材全てが合格へと通じています！
+          </p>
+        </div>
+      </div>
       <div class="exam-image -center">
         <figure>
           <img
@@ -23,27 +43,6 @@
         <br />
         学習内容そのものではなく学習の方法に関する問い合わせもOKです！
       </p>
-
-      <div class="lecture-section -center">
-        <figure class="lecture-image">
-          <img
-            src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
-          />
-        </figure>
-        <div class="lecture-description">
-          <p class="lecture-title">勉強計画を立てて最短合格へ</p>
-          <p class="lecture-line"></p>
-          <p class="lecture-text">
-            勉強の計画を立てることは、勉強をスムーズに進めるために、とても効果的な方法だと言われています。
-            <br />
-            能センでは計画に沿った勉強で最短合格ができるように、勉強計画表をお渡ししています。
-          </p>
-          <p class="lecture-title -small">
-            能センの教材、副教材全てが合格へと通じています！
-          </p>
-        </div>
-      </div>
     </div>
   </div>
 </template>
