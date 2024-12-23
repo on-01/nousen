@@ -74,10 +74,10 @@
               <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
 
               <div class="exam-link-wrapper -column">
-                <g-link to="/licenses/#denken" class="exam-link">
+                <!-- <g-link to="/licenses/#denken" class="exam-link">
                   試験概要はこちら
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
+                </g-link> -->
                 <g-link
                   to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
                   class="online-link"
