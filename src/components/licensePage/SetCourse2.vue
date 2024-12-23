@@ -213,8 +213,10 @@
     font-weight: 700;
   }
   .setCourse-tableWrap {
-    overflow: hidden;
+    overflow: scroll;
     margin: 10px 0 40px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   .setCourse-table {
     max-width: 800px;
