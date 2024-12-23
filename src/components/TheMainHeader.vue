@@ -134,11 +134,11 @@
               </ul>
             </div>
           </div>
-          <div class="pagelink-title">
+          <!-- <div class="pagelink-title">
             <g-link to="/licenses">
               <p>試験概要</p>
             </g-link>
-          </div>
+          </div> -->
           <div class="pagelink-title">
             <g-link to="/teachers">
               <p>スーパー講師陣</p>
