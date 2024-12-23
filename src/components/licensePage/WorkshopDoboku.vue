@@ -939,15 +939,30 @@
   .add-flex {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
+    margin-top: 50px;
+
+    @media print, screen and (max-width: 1000px) {
+      padding-bottom: 40px;
+      flex-direction: column;
+    }
   }
 
   .add-flexImg {
     width: 50%;
+    margin: 0;
+    @media print, screen and (max-width: 1000px) {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   .add-flexTextWrap {
     width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .add-flexText {
@@ -957,9 +972,11 @@
   .add-flexText.-red {
     color: red;
     font-weight: 700;
+    margin-bottom: 5px;
   }
   .add-flexText.-bold {
     font-weight: 700;
+    margin-top: 5px;
   }
   @media print, screen and (max-width: 1000px) {
     .add {
