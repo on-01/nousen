@@ -104,9 +104,9 @@
   .support-wrap.-second {
     margin-top: 50px;
   }
-  .support-wrap p {
-    margin: 0;
-  }
+  // .support-wrap p {
+  //   margin: 0;
+  // }
   .support-title {
     line-height: 1.3;
     font-size: 28px;
@@ -229,6 +229,7 @@
     max-width: 620px;
     p {
       white-space: nowrap;
+      margin: 0;
       @media print, screen and (max-width: 768px) {
         white-space: normal;
       }
