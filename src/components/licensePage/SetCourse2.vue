@@ -216,12 +216,12 @@
   }
   .setCourse-tableFlex {
     border-top: solid 1px black;
-    border-right: solid 1px black;
+    border-left: solid 1px black;
     display: flex;
   }
 
   .setCourse-tableItem {
-    border-bottom: solid 1px black;
+    width: calc(100% / 3);
     border-right: solid 1px black;
     padding: 10px 0;
     text-align: center;
