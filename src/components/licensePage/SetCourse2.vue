@@ -213,6 +213,7 @@
     max-width: 800px;
     min-width: 800px;
     margin: 0 auto;
+    border-bottom: solid 1px black;
   }
   .setCourse-tableFlex {
     border-top: solid 1px black;
