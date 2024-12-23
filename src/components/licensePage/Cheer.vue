@@ -27,14 +27,14 @@
           <div class="exam-link-flex">
             <g-link to="/denken3-application" class="application-form-link">
               お申込みはこちら（個人）
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+              <!-- <IconBase class="icon"><IconDoubleArrowRight /></IconBase> -->
             </g-link>
             <g-link
               to="/denken3-application-business"
               class="application-form-link"
             >
               お申込みはこちら（法人）
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+              <!-- <IconBase class="icon"><IconDoubleArrowRight /></IconBase> -->
             </g-link>
           </div>
 
