@@ -575,13 +575,13 @@
                 講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
               </div>
-              <div
+              <!-- <div
                 :class="['tab', { active: isActive === 2 }]"
                 v-on:click="tabToggle(2)"
               >
                 1級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div>
+              </div> -->
               <div
                 :class="['tab', { active: isActive === 3 }]"
                 v-on:click="tabToggle(3)"
