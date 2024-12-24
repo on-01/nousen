@@ -957,7 +957,7 @@
     text-align: center;
     margin-top: -70px;
     font-weight: bold;
-    justify-content: space-between;
+    justify-content: center;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
       margin-top: -20vw;
