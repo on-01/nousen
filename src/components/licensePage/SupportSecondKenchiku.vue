@@ -116,7 +116,7 @@
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
-    max-width: 1070px;
+    max-width: 1038px;
     box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     @media print, screen and (max-width: 560px) {
       font-size: 16px;
