@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <p class="counterplan-title">第一次検定 試験対策</p>
+      <p class="counterplan-title -top">第一次検定 試験対策</p>
       <div class="lecture-section -counterplan">
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
@@ -142,14 +142,21 @@
             専門講師が記述式の第二次検定を添削指導します！
           </p>
           <p class="counterplan-text">
-            二次コースでは、講座料金に経験記述の添削が1回分含まれています。<br>
-            ※追加での添削は、1回につき2,750円で何回でも承ります。<br>
-            専用プリントを使用し、指定の期日内にご自身の経験記述を作成してご提出ください。<br>
-            講師が個別に添削し、より高得点を狙えるように修正やアドバイスを行います。<br>
+            二次コースでは、講座料金に経験記述の添削が1回分含まれています。
+            <br />
+            ※追加での添削は、1回につき2,750円で何回でも承ります。
+            <br />
+            専用プリントを使用し、指定の期日内にご自身の経験記述を作成してご提出ください。
+            <br />
+            講師が個別に添削し、より高得点を狙えるように修正やアドバイスを行います。
+            <br />
             <span>最短1日</span>でお返しいたします。
           </p>
-          <p class="counterplan-text -bold">※他社では添削費が別のところがございますのでお気を付けください<br>
-            ※PDFでのご提出は最短１日でお返しいたします</p>
+          <p class="counterplan-text -bold">
+            ※他社では添削費が別のところがございますのでお気を付けください
+            <br />
+            ※PDFでのご提出は最短１日でお返しいたします
+          </p>
         </div>
         <div class="counterplan-wrap">
           <p class="counterplan-head">二次試験対策㊙資料</p>
@@ -162,11 +169,17 @@
             「2級土木施工管理技士の二次試験がどうしても突破できない…」
           </p>
           <p class="counterplan-text">
-            そんな悩みを抱える受験者の方に朗報です！<br>
-            多くの方がつまずく二次試験。その原因を解決するために、私たちは<br>
-            2級土木施工管理技士 二次試験合格のための極秘資料をご用意しました！<br>
-            この資料には、実践的な解答例 や 試験の出題傾向、さらに高得点を狙う記述のポイントを網羅。<br>
-            特に、経験記述の暗記方法やスムーズに書けるコツをわかりやすく解説しています。<br>
+            そんな悩みを抱える受験者の方に朗報です！
+            <br />
+            多くの方がつまずく二次試験。その原因を解決するために、私たちは
+            <br />
+            2級土木施工管理技士 二次試験合格のための極秘資料をご用意しました！
+            <br />
+            この資料には、実践的な解答例 や
+            試験の出題傾向、さらに高得点を狙う記述のポイントを網羅。
+            <br />
+            特に、経験記述の暗記方法やスムーズに書けるコツをわかりやすく解説しています。
+            <br />
             これを読めば、「なぜ二次試験に通らなかったのか」が明確になり、次の試験で結果を出せる自信が手に入ります！
           </p>
         </div>
@@ -284,7 +297,7 @@
       margin: 0 auto;
     }
   }
-  
+
   .lecture-section.-counterplan2 {
     padding: 0 20px;
     column-gap: 20px;
@@ -294,21 +307,21 @@
       margin: 0 auto;
     }
     .counterplan-wrap {
-    width: calc(100% / 2);
-    img {
-      display: block;
-      margin: 0 auto;
+      width: calc(100% / 2);
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
     }
-    @media print, screen and (max-width: 1000px) {
-      width: 100%;
+    .counterplan-img.-first {
+      width: 63%;
     }
-  }
-  .counterplan-img.-first {
-    width: 63%;
-  }
-  .counterplan-img.-second {
-    width: 63%;
-  }
+    .counterplan-img.-second {
+      width: 63%;
+    }
   }
 
   .counterplan-title {
@@ -317,6 +330,10 @@
     text-align: center;
     margin: 30px 20px 0;
     border: solid 3px #ff843a;
+  }
+
+  .counterplan-title.-top {
+    margin-top: 60px;
   }
 
   .counterplan-wrap {
