@@ -34,18 +34,18 @@
                 >
                   ※
                 </p>
-                <p class="schedule-table-padding">２月９日（金）</p>
+                <p class="schedule-table-padding">1月31日(金)</p>
               </div>
             </td>
-            <td>２月２２日（金）～３月８日（金）</td>
+            <td>2月14日(金)～2月28日(金)</td>
             <td class="schedule-padding-none">
               <div>
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  ７月２１日（日）
+                  7月20日(日)
                 </p>
-                <p class="schedule-table-padding">１０月２０日（日）</p>
+                <p class="schedule-table-padding">10月19日(日)</p>
               </div>
             </td>
             <td class="schedule-padding-none">
@@ -53,9 +53,9 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  ８月２３日（金）
+                  8月22日(金)
                 </p>
-                <p class="schedule-table-padding">令和７年１月１０日（金）</p>
+                <p class="schedule-table-padding">令和&nbsp;8年&nbsp;1月09日(金)</p>
               </div>
             </td>
           </tr>
@@ -71,9 +71,9 @@
               </div>
             </td>
             <td>※</td>
-            <td>２月９日（木）～３月８日（金）</td>
-            <td>６月９日（日）</td>
-            <td>７月１０日（水）</td>
+            <td>2月07日(金)～2月28日(金)</td>
+            <td>6月08日(日)</td>
+            <td>7月09日(水)</td>
           </tr>
           <tr>
             <td class="schedule-td-border-none schedule-padding-none">
@@ -96,19 +96,19 @@
                 >
                   ※
                 </p>
-                <p class="schedule-table-padding">６月２６日(水)</p>
+                <p class="schedule-table-padding">6月25日(水)</p>
               </div>
             </td>
-            <td>７月１０日（水）～７月２４日（水）</td>
-            <td>１１月２４（日）</td>
+            <td>7月09日(水)～7月23日(水)</td>
+            <td>11月09(日)</td>
             <td class="schedule-padding-none">
               <div>
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和７年１月１０日（金）
+                  12月22日(金)
                 </p>
-                <p class="schedule-table-padding">令和７年２月７日（金）</p>
+                <p class="schedule-table-padding">令和&nbsp;8年&nbsp;2月06日(金)</p>
               </div>
             </td>
           </tr>
@@ -124,7 +124,7 @@
             <div class="bottomTable__text -bottom">
               TEL ０３－５４７３－１５８１
               <br />
-              （土日・祝日・年末年始除く）
+              (土日・祝日・年末年始除く)
             </div>
           </div>
         </div>
