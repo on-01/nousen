@@ -300,7 +300,7 @@
         <img
           class="workshop-completionImage"
           src="../../assets/img/license_page/workshop-completion.jpg"
-          alt="土木施工管理技士 講習会 通信講座 web講座"
+          alt="建築施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
           視聴率95%以上で修了証が発行！
@@ -435,7 +435,7 @@
             <figure class="add-flexImg">
               <img
                 src="../../assets/img/license_page/otoriyose.jpg"
-                alt="土木施工管理技士 講習会 通信講座 web講座"
+                alt="建築施工管理技士 講習会 通信講座 web講座"
               />
             </figure>
             <div class="add-flexTextWrap">
