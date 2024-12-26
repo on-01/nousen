@@ -122,7 +122,7 @@
               </a>
             </div>
             <div class="bottomTable__text -bottom">
-              TEL ０３－５４７３－１５８１
+              TEL 03-5473-1581
               <br />
               (土日・祝日・年末年始除く)
             </div>
