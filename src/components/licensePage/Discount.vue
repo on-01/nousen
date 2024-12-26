@@ -26,7 +26,7 @@
         <div class="discount-flex-left">
           若チャレ割
           <br />
-          <p class="discount-small">（若者チャレンジ応援割）</p>
+          <p class="discount-small">（若者チャレンジ応援割！20歳以下対象）</p>
           <span class="arrow -waka">▶︎</span>
         </div>
         <p class="discount-flex-right">
@@ -39,6 +39,18 @@
       <div class="discount-flex">
         <p class="discount-flex-left -sp">
           女子応援割
+          <span class="arrow">▶︎</span>
+        </p>
+        <p class="discount-flex-right">
+          受講料
+          <br />
+          <span>2000</span>
+          円割引！
+        </p>
+      </div>
+      <div class="discount-flex">
+        <p class="discount-flex-left -sp">
+          シニア応援割
           <span class="arrow">▶︎</span>
         </p>
         <p class="discount-flex-right">
