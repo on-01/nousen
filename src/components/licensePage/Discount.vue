@@ -49,10 +49,12 @@
         </p>
       </div>
       <div class="discount-flex">
-        <p class="discount-flex-left -sp">
+        <div class="discount-flex-left">
           シニア応援割
-          <span class="arrow">▶︎</span>
-        </p>
+          <br />
+          <p class="discount-small">（60歳以上対象）</p>
+          <span class="arrow -waka">▶︎</span>
+        </div>
         <p class="discount-flex-right">
           受講料
           <br />
