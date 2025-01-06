@@ -163,6 +163,15 @@
               <p>能センSHOP</p>
             </g-link>
           </div>
+          <div class="pagelink-title">
+            <a
+              href="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/?_fsi=18qTQM4E"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>オンライン相談</p>
+            </a>
+          </div>
         </section>
 
         <section class="navi-inner nav-inner02 underdisplay">
@@ -753,7 +762,7 @@
       justify-content: space-between;
       display: flex;
       flex-wrap: wrap;
-      max-width: 760px;
+      // max-width: 760px;
       margin-left: auto;
     }
   }

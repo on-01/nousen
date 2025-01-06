@@ -2,12 +2,12 @@
   <div :class="displayNone">
     <div class="sp_online_infomation">
       <p class="sp_online_infomation_text">
-        ２０２６年Ｗ杯&nbsp;目指せサッカー日本代表！
+        新年あけましておめでとうございます
       </p>
     </div>
     <div class="online_infomation">
       <p class="online_infomation_text">
-        ２０２６年Ｗ杯&nbsp;目指せサッカー日本代表！
+        新年あけましておめでとうございます
       </p>
     </div>
   </div>
