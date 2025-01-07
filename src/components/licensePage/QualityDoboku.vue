@@ -1,6 +1,10 @@
 <template>
   <div class="quality">
     <div class="quality-wrap">
+      <div class="quality-topTextWrap">
+        <p class="quality-topText">人材開発支援助成金</p>
+        <p class="quality-topText">人材育成支援コース 対象講座</p>
+      </div>
       <p class="quality-mainTitle">
         短期間で合格する
         <br />
@@ -197,6 +201,22 @@
   .quality-text {
     font-size: 15px;
     line-height: 1.8;
+    margin: 0;
+  }
+
+  .quality-topTextWrap {
+    padding: 10px 20px;
+    border: solid 2px #000;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 42px auto 0;
+  }
+
+  .quality-topText {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
     margin: 0;
   }
 
