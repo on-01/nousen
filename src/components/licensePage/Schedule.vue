@@ -41,11 +41,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和7年2月6日(木)～3月2日(日)
+                  2月6日(木)～3月2日(日)
                   <br />
                   (25日間)
                 </p>
-                <p class="schedule-table-padding">令和7年3月23日(日)</p>
+                <p class="schedule-table-padding">3月23日(日)</p>
               </div>
             </td>
             <td class="schedule-padding-none">
@@ -53,11 +53,11 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和7年7月17日(木)～8月10日(日)
+                  7月17日(木)～8月10日(日)
                   <br />
                   (25日間)
                 </p>
-                <p class="schedule-table-padding">令和7年8月31日(日)</p>
+                <p class="schedule-table-padding">8月31日(日)</p>
               </div>
             </td>
           </tr>
@@ -82,8 +82,8 @@
               試験結果発表日(筆記方式)
             </td>
             <!-- <td>令和６年４月頃</td> -->
-            <td>令和7年4月頃</td>
-            <td>令和7年9月頃</td>
+            <td>4月頃</td>
+            <td>9月頃</td>
           </tr>
           <tr class="schedule-tr-border-none">
             <td class="schedule-td-border-none schedule-padding-none">
@@ -305,7 +305,7 @@
   }
   .schedule-table {
     border: 2px solid #000;
-    width: 88%;
+    width: 83%;
     margin: 0 auto;
   }
   .schedule-th {
@@ -397,7 +397,7 @@
 
   .bottomTable__wrap {
     display: flex;
-    width: 88%;
+    width: 83%;
     margin: 0 auto;
   }
 
