@@ -91,7 +91,7 @@
           </ul>
         </div>
       </div>
-      <p class="table-text">
+      <p class="table-text -bottom">
         ※教材および添削は共通のため、追加されません
         <br />
         ※通学とオンライン講座の内容は原則同じですが、会場によって講師や一部内容が異なる場合があります
@@ -219,7 +219,7 @@
   }
   .setCourse-tableWrap {
     overflow: scroll;
-    margin: 10px 0 40px;
+    margin: 10px 0 20px;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
@@ -251,6 +251,10 @@
   .table-text {
     margin: 0;
     text-align: center;
+  }
+
+  .table-text.-bottom {
+    margin-bottom: 20px;
   }
 
   @media print, screen and (max-width: 768px) {
