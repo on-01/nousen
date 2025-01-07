@@ -249,7 +249,7 @@
   }
 
   .table-text {
-    margin: 10px 0 0;
+    margin: 0;
     text-align: center;
   }
 
