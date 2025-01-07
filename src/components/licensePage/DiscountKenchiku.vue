@@ -26,7 +26,7 @@
         <div class="discount-flex-left">
           若チャレ割
           <br />
-          <p class="discount-small">（若者チャレンジ応援割！20歳以下対象）</p>
+          <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
           <span class="arrow -waka">▶︎</span>
         </div>
         <p class="discount-flex-right">
