@@ -36,12 +36,12 @@
           <del>36,300円</del>
           ▶️23,309円（追加割）
         </p>
-        <p>※教材および添削は共通のため、追加されません</p>
       </div>
     </div>
     <div class="setCourse-inner">
-      <p class="setCourse-text -table">
-        後から追加(70%割引)することもできます！
+      <p class="setCourse-text -table">後から追加することも可能です！</p>
+      <p class="table-text">
+        同じ科目を（通常料金70%引きの価格で）追加できます。
       </p>
       <div class="setCourse-tableWrap">
         <div class="setCourse-table">
@@ -242,6 +242,12 @@
     background-color: #fff8cc;
     font-weight: 700;
   }
+
+  .table-text {
+    margin: 10px 0 0;
+    text-align: center;
+  }
+
   @media print, screen and (max-width: 768px) {
     .setCourse-inner {
       padding: 20px;
