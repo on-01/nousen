@@ -215,6 +215,8 @@
 
   .quality-topText {
     font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
     text-align: center;
     margin: 0;
   }
