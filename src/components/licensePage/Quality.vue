@@ -25,7 +25,7 @@
           <div class="quality-description">
             <p class="quality-title">
               <i class="scroll-animation-item">
-                科目合格率95%
+                科目合格率82%以上※
                 <br />
                 合格に特化した教材を使用
               </i>
