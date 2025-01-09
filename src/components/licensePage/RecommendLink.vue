@@ -1,6 +1,7 @@
 <template>
   <div class="contactInfo">
     <div class="contactInfo-inner">
+      <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" />
       <p class="recommend-heding">
         受験初めての方、試験情報など知りたい方はこちらのサイトをオススメします。
       </p>
@@ -213,11 +214,11 @@
 
 <style lang="scss" scoped>
   .contactInfo {
-    width: 1027px;
+    width: 967px;
     background-color: #fff;
     font-family: メイリオ, sans-serif;
     margin: 40px auto 0;
-    padding: 20px;
+    padding: 20px 30px;
   }
   .contactInfo-inner {
     border: 4px solid #f4891e;
