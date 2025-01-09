@@ -289,7 +289,7 @@
   }
   @media print, screen and (max-width: 1000px) {
     .contactInfo {
-      width: 90%;
+      width: 83.4%;
       margin: 40px auto 0;
     }
     .contactInfo-inner {
