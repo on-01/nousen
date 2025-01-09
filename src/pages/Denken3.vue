@@ -121,7 +121,8 @@
                 boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
               />
 
-              <blog title="電験三種（第三種電気主任技術者）の新記事ブログ" />
+              <!-- <blog title="電験三種（第三種電気主任技術者）の新記事ブログ" /> -->
+              <RecommendLink />
 
               <div style="padding-bottom: 100px">
                 <ContactInfo
@@ -634,6 +635,7 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
+  import RecommendLink from "../components/licensePage/RecommendLink.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -705,6 +707,7 @@
       Discount,
       Blog,
       Fsc,
+      RecommendLink,
     },
     data() {
       return {
