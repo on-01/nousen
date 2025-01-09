@@ -531,8 +531,8 @@
   }
 
   .workshop-box {
-    max-width: 800px;
-    min-width: 800px;
+    max-width: 670px;
+    min-width: 670px;
     margin: 0 auto;
   }
 
@@ -561,9 +561,9 @@
     display: flex;
     justify-content: space-between;
   }
-  .workshop-content {
-    min-width: 755px;
-  }
+  // .workshop-content {
+  //   min-width: 755px;
+  // }
 
   .workshop-text {
     // width: calc(100% / 3);
@@ -908,8 +908,8 @@
   }
 
   .add-tableWrap {
-    max-width: 800px;
-    min-width: 800px;
+    max-width: 670px;
+    min-width: 670px;
     margin: 20px auto 0 auto;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */
