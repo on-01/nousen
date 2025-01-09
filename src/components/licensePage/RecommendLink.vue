@@ -282,6 +282,10 @@
     span {
       font-weight: 700;
     }
+    a {
+      text-decoration: underline;
+      color: #249ef0;
+    }
   }
   @media print, screen and (max-width: 1000px) {
     .contactInfo {
