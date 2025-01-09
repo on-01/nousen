@@ -73,7 +73,9 @@
             過去問５年分を進呈（一次・二次共に）
           </p>
           <p class="counterplan-text">
-            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には<span>過去5年分の過去問題</span>を提供いたします。
+            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
+            <span>過去5年分の過去問題</span>
+            を提供いたします。
             <br />
             この貴重な教材を試験対策にぜひご活用ください。
           </p>
@@ -99,7 +101,9 @@
             <br />
             問題を解きながら、実力をチェックしてみましょう！
             <br />
-            解答を提出していただいたうえで、見事全問正解された方には、<span>【図書カード】</span>をプレゼントいたします！
+            解答を提出していただいたうえで、見事全問正解された方には、
+            <span>【図書カード】</span>
+            をプレゼントいたします！
           </p>
         </div>
         <div class="counterplan-wrap">
@@ -142,23 +146,34 @@
             専門講師が記述式の第二次検定を添削指導します！
           </p>
           <p class="counterplan-text">
-            <span>二次コースの特長</span><br>
-            <span>&emsp;・講座料金に添削1回分が含まれる</span><br>
-            &emsp;追加添削は1回2,750円（税込）。<br>
-            <span>&emsp;・専用プリントで簡単対応</span><br>
-            &emsp;指定テンプレートに記述して提出。<br>
-            <span>&emsp;・最短1日でフィードバック</span><br>
-            &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。<br>
-            他社では添削費用が別途かかる場合も。PDF提出なら<span>最短1日</span>で返却可能です。
+            <span>二次コースの特長</span>
+            <br />
+            <span>&emsp;・講座料金に添削1回分が含まれる</span>
+            <br />
+            &emsp;追加添削は1回2,750円（税込）。
+            <br />
+            <span>&emsp;・専用プリントで簡単対応</span>
+            <br />
+            &emsp;指定テンプレートに記述して提出。
+            <br />
+            <span>&emsp;・最短1日でフィードバック</span>
+            <br />
+            &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。
+            <br />
+            他社では添削費用が別途かかる場合も。PDF提出なら
+            <span>最短1日</span>
+            で返却可能です。
           </p>
-          <p class="counterplan-text -yellow">
-            経験記述添削のみのサービス
-          </p>
+          <p class="counterplan-text -yellow">経験記述添削のみのサービス</p>
           <p class="counterplan-text">
-            講座なしで添削を希望する方向け。<br>
-            <span>・料金：3,800円（税込4,180円）</span><br>
-            <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span><br>
-            &emsp;土木・鋼構造物塗装・薬液注入の全種別対応。<br>
+            講座なしで添削を希望する方向け。
+            <br />
+            <span>・料金：3,800円（税込4,180円）</span>
+            <br />
+            <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
+            <br />
+            &emsp;土木・鋼構造物塗装・薬液注入の全種別対応。
+            <br />
           </p>
         </div>
         <div class="counterplan-wrap">
@@ -332,7 +347,9 @@
     font-weight: 700;
     text-align: center;
     margin: 30px 20px 0;
-    border: solid 3px #ff843a;
+    background-color: #ff843a;
+    color: white;
+    box-shadow: 0 5px 1px #a14900;
   }
 
   .counterplan-title.-top {
