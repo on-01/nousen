@@ -209,7 +209,7 @@
     padding: 5px 10px;
     border: solid 2px #000;
     background-color: #fff;
-    max-width: 390px;
+    max-width: 280px;
     margin: 42px auto 0;
   }
 
