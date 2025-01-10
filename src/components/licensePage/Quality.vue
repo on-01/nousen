@@ -206,15 +206,15 @@
   }
 
   .quality-topTextWrap {
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: solid 2px #000;
     background-color: #fff;
-    max-width: 500px;
+    max-width: 390px;
     margin: 42px auto 0;
   }
 
   .quality-topText {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
     text-align: center;
