@@ -205,7 +205,7 @@
   }
 
   .quality-topTextWrap {
-    padding: 5px 10px;
+    padding: 2px 10px;
     border: solid 2px #000;
     background-color: #fff;
     max-width: 280px;
