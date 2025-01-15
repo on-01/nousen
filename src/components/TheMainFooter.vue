@@ -45,7 +45,7 @@
                 <g-link to="/company">会社概要</g-link>
               </p>
               <p class="information_list">
-                <g-link to="/benefits">給付制度</g-link>
+                <g-link to="/benefits">給付・助成金制度</g-link>
               </p>
               <p class="information_list">
                 <g-link to="https://nousen.blog/oshiharaihouhou/">
