@@ -310,6 +310,23 @@
     </p>
     <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
 
+    <div class="workshop-orangeLine">
+      <div class="workshop-orangeLine__inner">
+        <img
+          class="workshop-orangeLine__icon"
+          src="../../assets/img/icon/note.svg"
+        />
+        <p class="workshop-orangeLine__heading">
+          オンライン＋通学の組み合わせセットにも対応
+        </p>
+        <p class="workshop-orangeLine__text">
+          一次コース【オンライン】＋二次コース【通学】 ▶️40,800円(税込44,880円)
+          <br />
+          一次コース【通学】＋二次コース【オンライン】 ▶️40,800円(税込44,880円)
+        </p>
+      </div>
+    </div>
+
     <div class="workshop-completion">
       <div class="workshop-completionWrap">
         <img

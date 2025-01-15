@@ -109,6 +109,23 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
+    <div class="workshop-orangeLine">
+      <div class="workshop-orangeLine__inner">
+        <img
+          class="workshop-orangeLine__icon"
+          src="../../assets/img/icon/note.svg"
+        />
+        <p class="workshop-orangeLine__heading">
+          通学＋オンラインの組み合わせセットにも対応
+        </p>
+        <p class="workshop-orangeLine__text">
+          一次コース【通学】＋二次コース【オンライン】 ▶️40,800円(税込44,880円)
+          <br />
+          一次コース【オンライン】＋二次コース【通学】 ▶️40,800円(税込44,880円)
+        </p>
+      </div>
+    </div>
+
     <div class="ocha-flex">
       <img
         class="address-map-img"
@@ -298,6 +315,23 @@
       <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
     <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
+
+    <div class="workshop-orangeLine">
+      <div class="workshop-orangeLine__inner">
+        <img
+          class="workshop-orangeLine__icon"
+          src="../../assets/img/icon/note.svg"
+        />
+        <p class="workshop-orangeLine__heading">
+          オンライン＋通学の組み合わせセットにも対応
+        </p>
+        <p class="workshop-orangeLine__text">
+          一次コース【オンライン】＋二次コース【通学】 ▶️40,800円(税込44,880円)
+          <br />
+          一次コース【通学】＋二次コース【オンライン】 ▶️40,800円(税込44,880円)
+        </p>
+      </div>
+    </div>
 
     <div class="workshop-completion">
       <div class="workshop-completionWrap">
@@ -883,6 +917,53 @@
     margin: 0;
     a {
       text-decoration: underline;
+    }
+  }
+
+  .workshop-orangeLine {
+    overflow: scroll;
+    padding: 0 30px;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
+  }
+
+  .workshop-orangeLine__inner {
+    margin: 20px auto 40px;
+    padding: 20px;
+    border: 4px solid #f4891e;
+    border-radius: 12px;
+    max-width: 652px;
+    // min-width: 652px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: -20px;
+    top: -18px;
+    width: 54px;
+  }
+
+  .workshop-orangeLine__heading {
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+
+  .workshop-orangeLine__text {
+    margin: 10px 0 0;
+    line-height: 1.7;
+    text-align: center;
+    @media print, screen and (max-width: 768px) {
+      text-align: left;
     }
   }
 
