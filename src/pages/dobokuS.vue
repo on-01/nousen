@@ -504,8 +504,8 @@
 
             <section class="tab-wrapper">
               <div
-                :class="['tab', { active: isActive === 1 }]"
-                v-on:click="tabToggle(1)"
+                :class="['tab', { active: isActive === 3 }]"
+                v-on:click="tabToggle(3)"
               >
                 オンライン
                 <br class="underdisplay" />
@@ -520,8 +520,8 @@
                 <IconBase class="icon"><IconArrowRight /></IconBase>
               </div> -->
               <div
-                :class="['tab', { active: isActive === 3 }]"
-                v-on:click="tabToggle(3)"
+                :class="['tab', { active: isActive === 1 }]"
+                v-on:click="tabToggle(1)"
               >
                 2級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
@@ -553,7 +553,7 @@
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />
               </div>
-              <div v-show="isActive === 3">
+              <div v-show="isActive === 1">
                 <h3 class="body-title">2級通学講座</h3>
                 <h3 class="body-title">各会場の開催日程</h3>
                 <VenueAddMap
@@ -578,7 +578,7 @@
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />
               </div>
-              <div v-show="isActive === 1">
+              <div v-show="isActive === 3">
                 <h3 class="body-title">オンライン講座</h3>
                 <Info
                   :courseOutline="
