@@ -17,7 +17,7 @@
               建設業で働く人々を<br>
               応援します！"
             :imagePath="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_point2.jpg')
+              require('../assets/img/license_page/kenchiku_s/kenchiku_point3.jpg')
             "
             altText="建築施工管理技士 講習会 通信講座 web講座"
           />
