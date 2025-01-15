@@ -894,6 +894,14 @@
   .workshop-orangeLine {
     overflow: scroll;
     padding: 0 30px;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE, Edge 対応 */
+    scrollbar-width: none; /* Firefox 対応 */
+
+    &::-webkit-scrollbar {
+      /* Chrome, Safari 対応 */
+      display: none;
+    }
   }
 
   .workshop-orangeLine__inner {
@@ -910,7 +918,7 @@
 
   .workshop-orangeLine__icon {
     position: absolute;
-    left: -43px;
+    left: -20px;
     top: -18px;
     width: 54px;
   }
