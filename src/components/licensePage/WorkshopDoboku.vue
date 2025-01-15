@@ -286,9 +286,7 @@
         </div>
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
-          <p class="workshop-text -blue">
-            一次コース(約12時間) / 二次コース(約5時間)
-          </p>
+          <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
           <p class="workshop-text -blue">2月1日(日)～10月31日(金)まで</p>
         </div>
       </div>
