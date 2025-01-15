@@ -78,7 +78,7 @@
           </div>
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin">
-              教材費・添削費・配送料
+              教材・添削費・配送料
               <br />
               全て込み
             </p>
@@ -167,11 +167,11 @@
     </p>
 
     <p class="workshop-bottom -map -left">
-      <b>写真撮影について</b>
+      <b>📷写真撮影について</b>
       <br />
-      能センでは、休憩時間中に限り、SNS用などの写真撮影・動画撮影を大歓迎しています。
+      能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
       <br />
-      撮影した写真や動画は、ぜひSNSにアップしていただけると嬉しいです。
+      撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
     </p>
 
     <p class="workshop-title -bottom">
@@ -263,7 +263,7 @@
           </div>
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin">
-              教材費・添削費・配送料
+              教材・添削費・配送料
               <br />
               全て込み
             </p>
