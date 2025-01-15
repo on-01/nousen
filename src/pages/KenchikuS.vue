@@ -5,7 +5,7 @@
         <header class="header">
           <HeroKenchiku
             :backImgOver="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero.jpg')
+              require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero2.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和7年度前期 / 令和7年度後期"
