@@ -141,7 +141,7 @@
           </div> -->
           <div class="pagelink-title">
             <g-link to="/teachers">
-              <p>スーパー講師陣</p>
+              <p>信頼の講師陣</p>
             </g-link>
           </div>
           <div class="pagelink-title">
@@ -152,6 +152,11 @@
           <div class="pagelink-title">
             <g-link to="/private-lecture">
               <p>出張講習のご案内</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
+            <g-link to="https://nousen.blog/go-kakuouen/">
+              <p>合格応援割引制度</p>
             </g-link>
           </div>
           <div class="pagelink-title">
