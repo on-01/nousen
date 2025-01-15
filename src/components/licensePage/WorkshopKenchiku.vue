@@ -891,12 +891,18 @@
     }
   }
 
+  .workshop-orangeLine {
+    overflow: scroll;
+    padding: 0 30px;
+  }
+
   .workshop-orangeLine__inner {
-    margin: 20px auto 0;
+    margin: 20px auto 40px;
     padding: 20px;
     border: 4px solid #f4891e;
     border-radius: 12px;
-    max-width: 700px;
+    max-width: 652px;
+    min-width: 652px;
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
@@ -904,8 +910,8 @@
 
   .workshop-orangeLine__icon {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -43px;
+    top: -18px;
     width: 54px;
   }
 
