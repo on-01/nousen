@@ -6,9 +6,7 @@
       </p>
     </div>
     <div class="online_infomation">
-      <p class="online_infomation_text">
-        新年あけましておめでとうございます
-      </p>
+      <p class="online_infomation_text">新年あけましておめでとうございます</p>
     </div>
   </div>
 </template>
@@ -39,7 +37,7 @@
       font-size: 12px;
       // width: 230px;
       width: 245px;
-      left: 0;
+      left: 100px;
     }
     & p {
       margin: 0;

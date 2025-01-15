@@ -733,7 +733,7 @@
     font-weight: bold;
     @media print, screen and(min-width: 1001px) {
       right: 3%;
-      max-width: 900px;
+      max-width: 1000px;
       width: 100%;
       margin-top: 70px;
     }
