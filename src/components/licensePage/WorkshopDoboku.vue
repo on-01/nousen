@@ -539,8 +539,8 @@
   }
 
   .workshop-box {
-    max-width: 670px;
-    min-width: 670px;
+    max-width: 700px;
+    min-width: 700px;
     margin: 0 auto;
   }
 
@@ -918,8 +918,8 @@
   }
 
   .add-tableWrap {
-    max-width: 670px;
-    min-width: 670px;
+    max-width: 700px;
+    min-width: 700px;
     margin: 20px auto 0 auto;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */

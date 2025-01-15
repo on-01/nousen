@@ -109,6 +109,23 @@
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
 
+    <div class="workshop-orangeLine">
+      <div class="workshop-orangeLine__inner">
+        <img
+          class="workshop-orangeLine__icon"
+          src="../../assets/img/icon/note.svg"
+        />
+        <p class="workshop-orangeLine__heading">
+          通学＋オンラインの組み合わせセットにも対応
+        </p>
+        <p class="workshop-orangeLine__text">
+          一次コース【通学】＋二次コース【オンライン】 ▶️40,800円(税込44,880円)
+          <br />
+          一次コース【オンライン】＋二次コース【通学】 ▶️40,800円(税込44,880円)
+        </p>
+      </div>
+    </div>
+
     <div class="ocha-flex">
       <img
         class="address-map-img"
@@ -529,8 +546,8 @@
   }
 
   .workshop-box {
-    max-width: 670px;
-    min-width: 670px;
+    max-width: 700px;
+    min-width: 700px;
     margin: 0 auto;
   }
 
@@ -874,6 +891,34 @@
     }
   }
 
+  .workshop-orangeLine__inner {
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: 4px solid #f4891e;
+    border-radius: 12px;
+    max-width: 700px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .workshop-orangeLine__heading {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .workshop-orangeLine__text {
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .add {
     padding: 10px 30px 30px;
     margin: 0 auto;
@@ -906,8 +951,8 @@
   }
 
   .add-tableWrap {
-    max-width: 670px;
-    min-width: 670px;
+    max-width: 700px;
+    min-width: 700px;
     margin: 20px auto 0 auto;
     -ms-overflow-style: none; /* IE, Edge 対応 */
     scrollbar-width: none; /* Firefox 対応 */
