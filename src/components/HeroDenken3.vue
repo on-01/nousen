@@ -174,7 +174,7 @@
     }
     .title-wrapper {
       top: 60%;
-      padding: 1.2rem;
+      padding: 1rem 62px;
     }
   }
 
