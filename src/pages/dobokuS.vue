@@ -503,7 +503,7 @@
             </div>
 
             <section class="tab-wrapper">
-              <div
+              <!-- <div
                 :class="['tab', { active: isActive === 3 }]"
                 v-on:click="tabToggle(3)"
               >
@@ -511,7 +511,7 @@
                 <br class="underdisplay" />
                 講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div>
+              </div> -->
               <!-- <div
                 :class="['tab', { active: isActive === 2 }]"
                 v-on:click="tabToggle(2)"
