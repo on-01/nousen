@@ -893,7 +893,7 @@
 
   .workshop-orangeLine__inner {
     margin: 20px auto 0;
-    padding: 10px 20px;
+    padding: 20px;
     border: 4px solid #f4891e;
     border-radius: 12px;
     max-width: 700px;
@@ -906,16 +906,18 @@
     position: absolute;
     left: 0;
     top: 0;
+    width: 54px;
   }
 
   .workshop-orangeLine__heading {
     font-weight: 700;
     text-align: center;
+    margin: 0;
   }
 
   .workshop-orangeLine__text {
-    margin-top: 10px;
-    line-height: 1.5;
+    margin: 10px 0 0;
+    line-height: 1.7;
     text-align: center;
   }
 
