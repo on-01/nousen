@@ -303,9 +303,11 @@
           &:nth-child(6) {
             width: 232px;
           }
-          &:nth-child(1),
-          &:nth-child(2) {
+          &:nth-child(1) {
             margin-right: 45px;
+          }
+          &:nth-child(2) {
+            margin-right: 30px;
           }
         }
       }
