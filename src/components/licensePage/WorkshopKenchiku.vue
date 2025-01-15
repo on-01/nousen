@@ -910,7 +910,7 @@
     border: 4px solid #f4891e;
     border-radius: 12px;
     max-width: 652px;
-    min-width: 652px;
+    // min-width: 652px;
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
@@ -933,6 +933,9 @@
     margin: 10px 0 0;
     line-height: 1.7;
     text-align: center;
+    @media print, screen and (max-width: 768px) {
+      text-align: left;
+    }
   }
 
   .add {
