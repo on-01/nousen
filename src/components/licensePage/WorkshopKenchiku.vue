@@ -484,26 +484,26 @@
                 一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します
               </p>
             </div>
+          </div>
 
-            <div class="workshop-orangeLine">
-              <div class="workshop-orangeLine__inner">
-                <img
-                  class="workshop-orangeLine__icon"
-                  src="../../assets/img/icon/note.svg"
-                />
-                <p class="workshop-orangeLine__heading">
-                  経験記述の添削のみにも対応
-                </p>
-                <p class="workshop-orangeLine__text">
-                  講座なしで添削のみを希望する方向け。
-                  <br />
-                  料金：3,800円（税込4,180円）
-                  <br />
-                  　内容：添削1回＋二次試験対応テキスト
-                  <br />
-                  土木・鋼構造物塗装・薬液注入の全種別対応
-                </p>
-              </div>
+          <div class="workshop-orangeLine">
+            <div class="workshop-orangeLine__inner">
+              <img
+                class="workshop-orangeLine__icon"
+                src="../../assets/img/icon/note.svg"
+              />
+              <p class="workshop-orangeLine__heading">
+                経験記述の添削のみにも対応
+              </p>
+              <p class="workshop-orangeLine__text">
+                講座なしで添削のみを希望する方向け。
+                <br />
+                料金：3,800円（税込4,180円）
+                <br />
+                　内容：添削1回＋二次試験対応テキスト
+                <br />
+                土木・鋼構造物塗装・薬液注入の全種別対応
+              </p>
             </div>
           </div>
         </div>
