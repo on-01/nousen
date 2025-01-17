@@ -486,8 +486,8 @@
             </div>
           </div>
 
-          <div class="workshop-orangeLine">
-            <div class="workshop-orangeLine__inner">
+          <div class="workshop-orangeLine -gansho">
+            <div class="workshop-orangeLine__inner -gansho">
               <img
                 class="workshop-orangeLine__icon"
                 src="../../assets/img/icon/note.svg"
@@ -930,16 +930,11 @@
   }
 
   .workshop-orangeLine {
-    overflow: scroll;
     padding: 0 30px;
-    overflow: scroll;
-    -ms-overflow-style: none; /* IE, Edge 対応 */
-    scrollbar-width: none; /* Firefox 対応 */
+  }
 
-    &::-webkit-scrollbar {
-      /* Chrome, Safari 対応 */
-      display: none;
-    }
+  .workshop-orangeLine.-gansho {
+    padding: 0;
   }
 
   .workshop-orangeLine__inner {
@@ -952,6 +947,11 @@
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
   }
 
   .workshop-orangeLine__icon {
