@@ -495,6 +495,27 @@
               </p>
             </div>
           </div>
+
+          <div class="workshop-orangeLine -gansho">
+            <div class="workshop-orangeLine__inner -gansho">
+              <img
+                class="workshop-orangeLine__icon"
+                src="../../assets/img/icon/note.svg"
+              />
+              <p class="workshop-orangeLine__heading">
+                経験記述の添削のみにも対応
+              </p>
+              <p class="workshop-orangeLine__text">
+                講座なしで添削のみを希望する方向け。
+                <br />
+                料金：3,800円（税込4,180円）
+                <br />
+                　内容：添削1回＋二次試験対応テキスト
+                <br />
+                土木・鋼構造物塗装・薬液注入の全種別対応
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -921,16 +942,11 @@
   }
 
   .workshop-orangeLine {
-    overflow: scroll;
     padding: 0 30px;
-    overflow: scroll;
-    -ms-overflow-style: none; /* IE, Edge 対応 */
-    scrollbar-width: none; /* Firefox 対応 */
+  }
 
-    &::-webkit-scrollbar {
-      /* Chrome, Safari 対応 */
-      display: none;
-    }
+  .workshop-orangeLine.-gansho {
+    padding: 0 0 40px;
   }
 
   .workshop-orangeLine__inner {
@@ -943,6 +959,15 @@
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+    }
   }
 
   .workshop-orangeLine__icon {
