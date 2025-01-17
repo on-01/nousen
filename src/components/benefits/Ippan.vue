@@ -12,19 +12,22 @@
           <h4 class="section-title-inner">どんな制度？特徴は？</h4>
         </div>
         <p class="point">
-          <IconBase class="icon" width="30" height="30"
-            ><IconFingerDiagonallyUp /></IconBase
-          >受講料の20％が支給されます
+          <IconBase class="icon" width="30" height="30">
+            <IconFingerDiagonallyUp />
+          </IconBase>
+          受講料の20％が支給されます
         </p>
         <p class="point">
-          <IconBase class="icon" width="30" height="30"
-            ><IconFingerDiagonallyUp /></IconBase
-          >何度でも利用できます(過去に給付を受けられた方は支給されてから3年以上経過していること)
+          <IconBase class="icon" width="30" height="30">
+            <IconFingerDiagonallyUp />
+          </IconBase>
+          何度でも利用できます(過去に給付を受けられた方は支給されてから3年以上経過していること)
         </p>
         <p class="point">
-          <IconBase class="icon" width="30" height="30"
-            ><IconFingerDiagonallyUp /></IconBase
-          >試験の受験有無・合否に関係なく、申請することができます
+          <IconBase class="icon" width="30" height="30">
+            <IconFingerDiagonallyUp />
+          </IconBase>
+          試験の受験有無・合否に関係なく、申請することができます
         </p>
       </section>
       <section class="section">
@@ -34,7 +37,8 @@
         <p>1～3の要件全てに当てはまる方が対象です。</p>
         <dl class="check">
           <dt>
-            <IconBase class="icon"><IconCheck /></IconBase>その1
+            <IconBase class="icon"><IconCheck /></IconBase>
+            その1
           </dt>
           <dd>雇用保険に3年以上加入している</dd>
         </dl>
@@ -43,7 +47,8 @@
         </p>
         <dl class="check">
           <dt>
-            <IconBase class="icon"><IconCheck /></IconBase>その2
+            <IconBase class="icon"><IconCheck /></IconBase>
+            その2
           </dt>
           <dd>
             受講する講座の課題で定められた基準点以上の成績をクリアすること
@@ -51,7 +56,8 @@
         </dl>
         <dl class="check">
           <dt>
-            <IconBase class="icon"><IconCheck /></IconBase>その3
+            <IconBase class="icon"><IconCheck /></IconBase>
+            その3
           </dt>
           <dd>受講費用を自己負担でお支払いされた方(会社の経費等は対象外)</dd>
         </dl>
@@ -87,7 +93,8 @@
           <p>最初に自分と受講講座が制度の対象かを確認します。</p>
           <p>給付制度を利用したい旨を講座申込書に記載します。</p>
           <p>
-            受講スタート！<br />
+            受講スタート！
+            <br />
             必須課題を期間内に提出、修了課題で基準点(60点)以上の獲得が給付を受ける条件のひとつとなっています。
           </p>
           <p>
@@ -106,9 +113,10 @@
         <a
           href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/kyouiku.html"
           target="_blank"
-          class="link"
-          >厚生労働省の教育訓練給付制度に関するホームページへ</a
+          class="link -bold"
         >
+          厚生労働省の教育訓練給付制度に関するホームページへ
+        </a>
       </section>
       <section class="section">
         <div class="section-title">
@@ -123,92 +131,95 @@
 </template>
 
 <script>
-import IconBase from '@/components/IconBase.vue';
-import IconFingerDiagonallyUp from '@/components/icons/IconFingerDiagonallyUp.vue';
-import IconCheck from '@/components/icons/IconCheck.vue';
-export default {
-  components: {
-    IconBase,
-    IconFingerDiagonallyUp,
-    IconCheck,
-  },
-};
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
+  import IconCheck from "@/components/icons/IconCheck.vue";
+  export default {
+    components: {
+      IconBase,
+      IconFingerDiagonallyUp,
+      IconCheck,
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.header {
-  margin-bottom: 70px;
-}
-.title {
-  color: #ed6c00;
-  text-align: center;
-}
-.sub-title {
-  font-weight: bold;
-  text-align: center;
-}
-.section-title-inner {
-  font-size: 17px;
-  display: inline-block;
-  font-weight: bold;
-  border-bottom: 2px solid #ed6c00;
-  margin-top: 0;
-}
-.point {
-  font-weight: bold;
-  .icon {
+  .header {
+    margin-bottom: 70px;
+  }
+  .title {
     color: #ed6c00;
-    vertical-align: bottom;
+    text-align: center;
   }
-}
-.check {
-  font-weight: bold;
-  display: flex;
-  @media print, screen and (max-width: 1000px) {
-    display: block;
-  }
-  .icon {
-    color: #ed6c00;
-    margin-right: 5px;
-  }
-  dd {
-    margin-left: 30px;
-    @media print, screen and (max-width: 1000px) {
-      margin-left: 0px;
-    }
-  }
-}
-.list {
-  li {
+  .sub-title {
     font-weight: bold;
-    &:before {
-      content: '●';
-      font-size: 0.8em;
+    text-align: center;
+  }
+  .section-title-inner {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid #ed6c00;
+    margin-top: 0;
+  }
+  .point {
+    font-weight: bold;
+    .icon {
       color: #ed6c00;
-      margin-right: 5px;
+      vertical-align: bottom;
     }
   }
-}
-.flow {
-  font-weight: bold;
-  p {
-    margin: 0;
-    &:not(:last-child):after {
-      content: '▼';
-      color: #ed6c00;
-      margin-right: 5px;
+  .check {
+    font-weight: bold;
+    display: flex;
+    @media print, screen and (max-width: 1000px) {
       display: block;
     }
+    .icon {
+      color: #ed6c00;
+      margin-right: 5px;
+    }
+    dd {
+      margin-left: 30px;
+      @media print, screen and (max-width: 1000px) {
+        margin-left: 0px;
+      }
+    }
   }
-}
-.link {
-  text-decoration: underline;
-}
-.content-inner {
-  border-top: 1px dotted #000;
-}
-.section {
-  border-bottom: 1px dotted #000;
-  padding: 50px 0;
-}
+  .list {
+    li {
+      font-weight: bold;
+      &:before {
+        content: "●";
+        font-size: 0.8em;
+        color: #ed6c00;
+        margin-right: 5px;
+      }
+    }
+  }
+  .flow {
+    font-weight: bold;
+    p {
+      margin: 0;
+      &:not(:last-child):after {
+        content: "▼";
+        color: #ed6c00;
+        margin-right: 5px;
+        display: block;
+      }
+    }
+  }
+  .link {
+    text-decoration: underline;
+  }
+  .link.-bold {
+    font-weight: 700;
+  }
+  .content-inner {
+    border-top: 1px dotted #000;
+  }
+  .section {
+    border-bottom: 1px dotted #000;
+    padding: 50px 0;
+  }
 </style>
