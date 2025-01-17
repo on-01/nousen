@@ -934,7 +934,7 @@
   }
 
   .workshop-orangeLine.-gansho {
-    padding: 0;
+    padding: 0 0 40px;
   }
 
   .workshop-orangeLine__inner {
@@ -952,6 +952,7 @@
   .workshop-orangeLine__inner.-gansho {
     max-width: 708px;
     margin-top: 40px;
+    margin-bottom: 0;
   }
 
   .workshop-orangeLine__icon {
