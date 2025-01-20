@@ -201,7 +201,7 @@
           </div>
           <div class="pagelink-title">
             <g-link to="/benefits">
-              <p>給付制度</p>
+              <p>給付・助成金制度</p>
             </g-link>
           </div>
           <div class="pagelink-title">
