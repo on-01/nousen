@@ -150,13 +150,13 @@
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/private-lecture">
-              <p>出張講習のご案内</p>
+            <g-link to="https://nousen.blog/go-kakuouen/">
+              <p>合格応援割引制度</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="https://nousen.blog/go-kakuouen/">
-              <p>合格応援割引制度</p>
+            <g-link to="/private-lecture">
+              <p>出張講習</p>
             </g-link>
           </div>
           <div class="pagelink-title">
