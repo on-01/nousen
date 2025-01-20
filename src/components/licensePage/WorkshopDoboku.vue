@@ -108,7 +108,7 @@
     <p class="workshop-bottom">
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
-    <p class="workshop-bottom -left">
+    <p class="workshop-bottom -leftText">
       <span>【締め切りについて】</span>
       <br />
       お席に空きがあれば講習日前日まで受付しております。お問い合わせください。
@@ -754,7 +754,7 @@
     line-height: 1.5;
   }
 
-  .workshop-bottom.-left {
+  .workshop-bottom.-leftText {
     margin-top: 10px;
     text-align: left;
     span {
