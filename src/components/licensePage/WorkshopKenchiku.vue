@@ -108,6 +108,11 @@
     <p class="workshop-bottom">
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
     </p>
+    <p class="workshop-bottom -leftText">
+      <span>【締め切りについて】</span>
+      <br />
+      お席に空きがあれば講習日前日まで受付しております。お問い合わせください。
+    </p>
 
     <div class="workshop-orangeLine">
       <div class="workshop-orangeLine__inner">
@@ -733,10 +738,20 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     line-height: 1.5;
+  }
+
+  .workshop-bottom.-leftText {
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 590px;
+    text-align: left;
+    span {
+      font-weight: 700;
+    }
   }
 
   .workshop-bottom.-yellow {
@@ -938,7 +953,7 @@
   }
 
   .workshop-orangeLine__inner {
-    margin: 20px auto 40px;
+    margin: 40px auto;
     padding: 20px;
     border: 4px solid #f4891e;
     border-radius: 12px;
