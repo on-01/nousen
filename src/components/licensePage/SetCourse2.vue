@@ -224,8 +224,8 @@
     scrollbar-width: none;
   }
   .setCourse-table {
-    max-width: 700px;
-    min-width: 700px;
+    max-width: 600px;
+    min-width: 600px;
     margin: 0 auto;
     border-bottom: solid 1px black;
   }
