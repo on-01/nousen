@@ -815,6 +815,8 @@
           </div>
         </div>
 
+        <ContactInfo title="受講に関するご相談・資料請求は" />
+
         <div class="btn__apply __bottom">
           <a @click="openModal">
             <span>お申込みはこちら</span>
