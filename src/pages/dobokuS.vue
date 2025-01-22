@@ -833,16 +833,16 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 180px 0;
+    padding: 60px 0 20px 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 150px 0;
     }
   }
-  .exam-link-wrapper.-border {
-    border-bottom: 5px solid #1d9bf0;
-  }
+  // .exam-link-wrapper.-border {
+  //   border-bottom: 5px solid #1d9bf0;
+  // }
   .exam-link,
   .application-form-link,
   .online-link {
@@ -1086,6 +1086,7 @@
   .bg-white_type2 {
     background-color: #ffffff;
     padding-top: 60px;
+    padding-bottom: 85px;
   }
 
   .credit-image {
