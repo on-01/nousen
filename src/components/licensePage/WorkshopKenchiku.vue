@@ -303,7 +303,7 @@
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
           <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
-          <p class="workshop-text -blue">2月1日(日)～11月30日(日)まで</p>
+          <p class="workshop-text -blue">2月1日(日)～11月16日(日)まで</p>
         </div>
       </div>
     </div>
