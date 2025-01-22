@@ -23,6 +23,7 @@
           💻 無料オンライン相談
         </a>
       </div>
+      <p class="contactInfo-title">資格取得アドバイザーがいつでもサポート！</p>
     </div>
   </div>
 </template>
