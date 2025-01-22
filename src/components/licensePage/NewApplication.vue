@@ -1,6 +1,6 @@
 <template>
   <div class="application">
-    <a :href="personalFormLink" class="application-link -left">
+    <!-- <a :href="personalFormLink" class="application-link -left">
       {{ personalFormText }}
       <IconBase class="icon" width="25" height="25">
         <IconFingerRight />
@@ -11,7 +11,7 @@
       <IconBase class="icon" width="25" height="25">
         <IconFingerRight />
       </IconBase>
-    </a>
+    </a> -->
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
@@ -46,7 +46,6 @@
   .application {
     font-weight: bold;
     margin: 0 auto;
-    margin-top: 100px;
     text-align: center;
     font-size: 18px;
     @media print, screen and (max-width: 480px) {
@@ -89,7 +88,7 @@
     }
   }
   .fax-link {
-    margin-top: 60px;
+    margin-top: 0;
     color: #ed6c00;
     text-decoration: underline;
   }
