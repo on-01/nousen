@@ -837,7 +837,7 @@
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
-      padding: 40px 0 150px 0;
+      padding: 40px 0 20px 0;
     }
   }
   // .exam-link-wrapper.-border {

@@ -563,10 +563,14 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
+              <NewApplication
+                faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
 
-            <section class="tab-wrapper">
-              <!-- <div
+            <!-- <section class="tab-wrapper">
+              <div
                 :class="['tab', { active: isActive === 3 }]"
                 v-on:click="tabToggle(3)"
               >
@@ -574,14 +578,14 @@
                 <br class="underdisplay" />
                 講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div> -->
-              <!-- <div
+              </div>
+              <div
                 :class="['tab', { active: isActive === 2 }]"
                 v-on:click="tabToggle(2)"
               >
                 1級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div> -->
+              </div>
               <div
                 :class="['tab', { active: isActive === 1 }]"
                 v-on:click="tabToggle(1)"
@@ -589,8 +593,8 @@
                 2級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
               </div>
-            </section>
-            <div class="body">
+            </section> -->
+            <!-- <div class="body">
               <div v-show="isActive === 2">
                 <h3 class="body-title">1級通学講座</h3>
                 <h3 class="body-title">各会場の開催日程</h3>
@@ -649,17 +653,8 @@
                   "
                   :apply="richtextToHTML($static.kenchikuOnline.apply)"
                 />
-                <NewApplication
-                  personalFormText="オンライン講座へのお申込み（個人）"
-                  personalFormLink="/kenchiku-s-application"
-                  businessFormText="オンライン講座へのお申込み（法人）"
-                  businessFormLink="/kenchiku-s-application-business"
-                  faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-                />
               </div>
-
-              <ContactInfo title="受講に関するご相談・資料請求は" />
-            </div>
+            </div> -->
           </div>
         </header>
       </div>
@@ -886,12 +881,12 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 180px 0;
+    padding: 60px 0 20px 0;
     display: flex;
     flex-direction: column;
     border-bottom: 5px solid #1d9bf0;
     @media print, screen and (max-width: 1000px) {
-      padding: 40px 0 150px 0;
+      padding: 40px 0 20px 0;
     }
   }
   .exam-link-wrapper.-border {
