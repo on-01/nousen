@@ -500,10 +500,14 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
+              <NewApplication
+                faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
-
+            <!-- 
             <section class="tab-wrapper">
-              <!-- <div
+              <div
                 :class="['tab', { active: isActive === 3 }]"
                 v-on:click="tabToggle(3)"
               >
@@ -511,14 +515,14 @@
                 <br class="underdisplay" />
                 講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div> -->
-              <!-- <div
+              </div>
+              <div
                 :class="['tab', { active: isActive === 2 }]"
                 v-on:click="tabToggle(2)"
               >
                 1級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
-              </div> -->
+              </div>
               <div
                 :class="['tab', { active: isActive === 1 }]"
                 v-on:click="tabToggle(1)"
@@ -526,8 +530,8 @@
                 2級通学講座
                 <IconBase class="icon"><IconArrowRight /></IconBase>
               </div>
-            </section>
-            <div class="body">
+            </section> -->
+            <!-- <div class="body">
               <div v-show="isActive === 2">
                 <h3 class="body-title">1級通学講座</h3>
                 <h3 class="body-title">各会場の開催日程</h3>
@@ -596,7 +600,7 @@
               </div>
 
               <ContactInfo title="受講に関するご相談・資料請求は" />
-            </div>
+            </div> -->
           </div>
         </header>
       </div>
