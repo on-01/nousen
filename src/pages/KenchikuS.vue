@@ -884,7 +884,7 @@
     padding: 60px 0 20px 0;
     display: flex;
     flex-direction: column;
-    border-bottom: 5px solid #1d9bf0;
+    // border-bottom: 5px solid #1d9bf0;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 20px 0;
     }
