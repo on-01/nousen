@@ -889,9 +889,9 @@
       padding: 40px 0 20px 0;
     }
   }
-  .exam-link-wrapper.-border {
-    border-bottom: 5px solid #1d9bf0;
-  }
+  // .exam-link-wrapper.-border {
+  //   border-bottom: 5px solid #1d9bf0;
+  // }
   .exam-link,
   .application-form-link,
   .online-link {
@@ -1131,6 +1131,7 @@
   .bg-white_type2 {
     background-color: #ffffff;
     padding-top: 60px;
+    padding-bottom: 85px;
   }
 
   .credit-image {
