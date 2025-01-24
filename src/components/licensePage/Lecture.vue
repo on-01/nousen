@@ -370,10 +370,10 @@
   .counterplan-head {
     font-weight: 700;
     font-size: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #249ef0;
+    // padding-bottom: 10px;
+    // border-bottom: 2px solid #249ef0;
     text-align: center;
-    margin: 40px 0 15px;
+    margin: 40px 0 5px;
   }
 
   .counterplan-text {
