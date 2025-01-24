@@ -1103,6 +1103,7 @@ query {
   import MyModal from "@/components/MyModal.vue";
   import ReasonLink from "../components/home/ReasonLink.vue";
   import NewReason from "../components/home/NewReason.vue";
+  import ContactInfo from "../components/licensePage/ContactInfo.vue";
 
   export default {
     name: "home",
@@ -1115,6 +1116,7 @@ query {
       IconOnline,
       MyModal,
       NewReason,
+      ContactInfo,
     },
     metaInfo() {
       return {
