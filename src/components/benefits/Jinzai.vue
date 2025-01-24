@@ -22,6 +22,9 @@
           </IconBase>
           中小企業：受講料の45% が支給されます
           <br />
+          <IconBase class="icon" width="30" height="30">
+            <IconFingerDiagonallyUp />
+          </IconBase>
           中小企業以外：受講料の30%が支給されます
         </p>
       </section>
