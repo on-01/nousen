@@ -1,21 +1,28 @@
 <template>
   <div class="content">
     <header class="header">
-      <h3 class="title">人材開発支援助成金<span>一般訓練コース</span></h3>
+      <h3 class="title">
+        人材開発支援助成金
+        <span>（人材育成支援コース）</span>
+      </h3>
       <p class="sub-title">
-        旧キャリア形成促進助成金。労働者の職業訓練開発にかかる経費や賃金の一部を助成する制度です。<br />
+        人材開発支援助成金は、事業主が労働者に専門知識や技能を習得させる職業訓練を計画的に実施した場合、訓練費や賃金の一部を助成する制度です。
+        <br />
         事業者様が利用できます。
       </p>
     </header>
     <div class="content-inner">
       <section class="section">
         <div class="section-title">
-          <h4 class="section-title-inner">どんな制度？特徴は？</h4>
+          <h4 class="section-title-inner">助成金額は？</h4>
         </div>
         <p class="point">
-          <IconBase class="icon" width="30" height="30"
-            ><IconFingerDiagonallyUp /></IconBase
-          >受講料の30％が支給されます。(生産性要件を満たす場合は45％)
+          <IconBase class="icon" width="30" height="30">
+            <IconFingerDiagonallyUp />
+          </IconBase>
+          中小企業：受講料の45% が支給されます
+          <br />
+          中小企業以外：受講料の30%が支給されます
         </p>
       </section>
       <section class="section">
@@ -26,7 +33,11 @@
           <dt>
             <IconBase class="icon"><IconCheck /></IconBase>
           </dt>
-          <dd>雇用保険適用事業所の事業主であること</dd>
+          <dd>
+            対象者は、雇用保険の被保険者であることが原則です。
+            <br />
+            （正社員や一定の要件を満たすパート・アルバイトも含む場合があります。）
+          </dd>
         </dl>
         <p>
           ※ほか、条件の詳細については下記厚生労働省のサイトでご確認ください。
@@ -37,16 +48,19 @@
           <h4 class="section-title-inner">どの講座で利用できるの？</h4>
         </div>
         <p>
-          能センでは１講座あたり講習時間が２０時間以上の下記が対象講座になっています。
+          1講座あたりの学習時間が10時間以上のものが、対象講座となっています。
         </p>
         <ul class="list">
-          <li>第一種電気工事士(筆記・技能セット)</li>
-          <li>第二種電気工事士(筆記・技能セット)</li>
-          <li>第三種電気主任技術者(※通学講座で合計4日以上ご参加頂いた場合)</li>
+          <li>第三種電気主任技術者 全科目セット</li>
+          <li>第三種電気主任技術者 4科目セット</li>
+          <li>第三種電気主任技術者 理論</li>
+          <li>第三種電気主任技術者 電力</li>
+          <li>第三種電気主任技術者 機械</li>
+          <li>第三種電気主任技術者 法規</li>
+          <li>2級土木施工管理技士 一次コース</li>
+          <li>2級建築施工管理技士 一次コース</li>
         </ul>
-        <p>
-          ※復職後、再就職後の方は10時間以上の講座(2日以上実施の全講座)が支給対象になる場合がありますのでお問い合わせください。
-        </p>
+        <p>※各講座の通学講座・オンライン講座・通信講座 全てが対象になります</p>
       </section>
       <section class="section">
         <div class="section-title">
@@ -71,8 +85,9 @@
           href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
           target="_blank"
           class="link"
-          >厚生労働省の人材開発支援助成金に関するホームページへ</a
         >
+          厚生労働省の人材開発支援助成金に関するホームページへ
+        </a>
       </section>
       <section class="section">
         <div class="section-title">
@@ -87,89 +102,89 @@
 </template>
 
 <script>
-import IconBase from '@/components/IconBase.vue';
-import IconFingerDiagonallyUp from '@/components/icons/IconFingerDiagonallyUp.vue';
-import IconCheck from '@/components/icons/IconCheck.vue';
-export default {
-  components: {
-    IconBase,
-    IconFingerDiagonallyUp,
-    IconCheck,
-  },
-};
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
+  import IconCheck from "@/components/icons/IconCheck.vue";
+  export default {
+    components: {
+      IconBase,
+      IconFingerDiagonallyUp,
+      IconCheck,
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.header {
-  margin-bottom: 70px;
-}
-.title {
-  color: #ed6c00;
-  text-align: center;
-}
-.sub-title {
-  font-weight: bold;
-  text-align: center;
-}
-.section-title-inner {
-  font-size: 17px;
-  display: inline-block;
-  font-weight: bold;
-  border-bottom: 2px solid #ed6c00;
-  margin-top: 0;
-}
-.point {
-  font-weight: bold;
-  .icon {
+  .header {
+    margin-bottom: 70px;
+  }
+  .title {
     color: #ed6c00;
-    vertical-align: bottom;
+    text-align: center;
   }
-}
-.check {
-  font-weight: bold;
-  display: flex;
-  .icon {
-    color: #ed6c00;
-    margin-right: 5px;
-  }
-  dd {
-    margin-left: 30px;
-    @media print, screen and (max-width: 1000px) {
-      margin-left: 0px;
-    }
-  }
-}
-.list {
-  li {
+  .sub-title {
     font-weight: bold;
-    &:before {
-      content: '●';
-      font-size: 0.8em;
+    text-align: center;
+  }
+  .section-title-inner {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid #ed6c00;
+    margin-top: 0;
+  }
+  .point {
+    font-weight: bold;
+    .icon {
+      color: #ed6c00;
+      vertical-align: bottom;
+    }
+  }
+  .check {
+    font-weight: bold;
+    display: flex;
+    .icon {
       color: #ed6c00;
       margin-right: 5px;
     }
-  }
-}
-.flow {
-  font-weight: bold;
-  p {
-    margin: 0;
-    &:not(:last-child):after {
-      content: '▼';
-      color: #ed6c00;
-      margin-right: 5px;
-      display: block;
+    dd {
+      margin-left: 30px;
+      @media print, screen and (max-width: 1000px) {
+        margin-left: 0px;
+      }
     }
   }
-}
-.link {
-  text-decoration: underline;
-}
-.content-inner {
-  border-top: 1px dotted #000;
-}
-.section {
-  border-bottom: 1px dotted #000;
-  padding: 50px 0;
-}
+  .list {
+    li {
+      font-weight: bold;
+      &:before {
+        content: "●";
+        font-size: 0.8em;
+        color: #ed6c00;
+        margin-right: 5px;
+      }
+    }
+  }
+  .flow {
+    font-weight: bold;
+    p {
+      margin: 0;
+      &:not(:last-child):after {
+        content: "▼";
+        color: #ed6c00;
+        margin-right: 5px;
+        display: block;
+      }
+    }
+  }
+  .link {
+    text-decoration: underline;
+  }
+  .content-inner {
+    border-top: 1px dotted #000;
+  }
+  .section {
+    border-bottom: 1px dotted #000;
+    padding: 50px 0;
+  }
 </style>

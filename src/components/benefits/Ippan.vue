@@ -66,7 +66,9 @@
         <div class="section-title">
           <h4 class="section-title-inner">どの講座で利用できるの？</h4>
         </div>
-        <p>能センでは下記が対象講座になっています。</p>
+        <p>
+          能センでは下記が対象講座になっています。（令和7年度後期から対応予定）
+        </p>
         <ul class="list">
           <li>
             第三種電気主任技術者 早期スタート基礎付
