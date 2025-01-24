@@ -815,7 +815,7 @@
           </div>
         </div>
 
-        <ContactInfo title="受講に関するご相談・資料請求は" />
+        <ContactInfoIndex title="受講に関するご相談・資料請求は" />
 
         <div class="btn__apply __bottom">
           <a @click="openModal">
@@ -1103,7 +1103,7 @@ query {
   import MyModal from "@/components/MyModal.vue";
   import ReasonLink from "../components/home/ReasonLink.vue";
   import NewReason from "../components/home/NewReason.vue";
-  import ContactInfo from "../components/licensePage/ContactInfo.vue";
+  import ContactInfoIndex from "../components/licensePage/ContactInfoIndex.vue";
 
   export default {
     name: "home",
@@ -1116,7 +1116,7 @@ query {
       IconOnline,
       MyModal,
       NewReason,
-      ContactInfo,
+      ContactInfoIndex,
     },
     metaInfo() {
       return {
@@ -1725,14 +1725,14 @@ query {
       max-width: 1300px;
       padding: 0 20px;
       // width: 100%;
-      margin: 0 auto 250px auto;
+      margin: 0 auto 60px auto;
       overflow: hidden;
       font-family: "メイリオ", sans-serif;
       // @media print, screen and (max-width: 1000px) {
       //   width: 90%;
       // }
       @media print, screen and (max-width: 1000px) {
-        margin-bottom: 80px;
+        margin-bottom: 40px;
       }
       .under_display {
         @media print, screen and (min-width: 1001px) {
