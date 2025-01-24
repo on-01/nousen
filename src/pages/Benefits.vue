@@ -20,12 +20,12 @@
           >
             人材開発支援助成金
           </div>
-          <div
+          <!-- <div
             :class="['tab', { active: isActive === 3 }]"
             v-on:click="tabToggle(3)"
           >
             民間派遣型スキルアップ助成金
-          </div>
+          </div> -->
         </div>
         <div class="contents-wrapper">
           <Ippan v-show="isActive === 1" />
@@ -109,6 +109,7 @@ query {
   }
   .tab-wrapper {
     display: flex;
+    justify-content: center;
     .tab {
       cursor: pointer;
       background-color: #e6e6e6;
