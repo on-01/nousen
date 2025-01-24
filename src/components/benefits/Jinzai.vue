@@ -135,6 +135,9 @@
     font-weight: bold;
     border-bottom: 2px solid #ed6c00;
     margin-top: 0;
+    a {
+      font-weight: 700;
+    }
   }
   .point {
     font-weight: bold;
