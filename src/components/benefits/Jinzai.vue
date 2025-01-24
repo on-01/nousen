@@ -135,9 +135,6 @@
     font-weight: bold;
     border-bottom: 2px solid #ed6c00;
     margin-top: 0;
-    a {
-      font-weight: 700;
-    }
   }
   .point {
     font-weight: bold;
@@ -192,5 +189,8 @@
   .section {
     border-bottom: 1px dotted #000;
     padding: 50px 0;
+    a {
+      font-weight: 700;
+    }
   }
 </style>
