@@ -579,6 +579,8 @@
                 />
               </a>
             </figure>
+          </div>
+          <div class="public-media-flex">
             <figure>
               <a
                 href="https://www.iid.co.jp/contents-education/"
