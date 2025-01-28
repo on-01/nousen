@@ -579,6 +579,32 @@
                 />
               </a>
             </figure>
+            <figure>
+              <a
+                href="https://www.iid.co.jp/contents-education/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_12.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="https://www.brush-up.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_13.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
           </div>
         </div>
       </section>

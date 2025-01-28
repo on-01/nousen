@@ -146,7 +146,7 @@
           </div>
           <div class="pagelink-title">
             <g-link to="/faq">
-              <p>よくあるご質問</p>
+              <p>よくある質問</p>
             </g-link>
           </div>
           <div class="pagelink-title">
@@ -156,7 +156,7 @@
           </div>
           <div class="pagelink-title">
             <g-link to="/private-lecture">
-              <p>出張講習</p>
+              <p>出張講習のすすめ</p>
             </g-link>
           </div>
           <div class="pagelink-title">
