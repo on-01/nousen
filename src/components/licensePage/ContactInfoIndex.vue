@@ -96,7 +96,7 @@
   @media print, screen and (max-width: 768px) {
     .contactInfo {
       width: 90%;
-      margin: 40px auto 0;
+      margin: 40px auto 30px;
     }
     .contactInfo-inner {
       padding: 0.8em;
