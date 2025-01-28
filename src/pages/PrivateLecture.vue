@@ -8,7 +8,7 @@
         :backImgUnder="
           require('../assets/img/private_lecture/private_lecture_hero_sp.jpg')
         "
-        title="出張講習のご案内"
+        title="出張講習のすすめ"
       />
       <div class="contents">
         <section class="message">
@@ -152,7 +152,7 @@ import ContactInfo from '../components/licensePage/ContactInfo.vue';
 export default {
   metaInfo() {
     return {
-      titleTemplate: "出張講習のご案内｜能セン-合格への近道-",
+      titleTemplate: "出張講習のすすめ｜能セン-合格への近道-",
       meta: [
         {
           name: "description",
@@ -162,7 +162,7 @@ export default {
         {
           key: `og:title`,
           property: `og:title`,
-          content: `出張講習のご案内｜能セン-合格への近道-`
+          content: `出張講習のすすめ｜能セン-合格への近道-`
           // content: `出張講習 | ${this.$static.metadata.siteName}`,
         },
         {

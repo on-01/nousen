@@ -54,7 +54,7 @@ query {
     name: "benefits",
     metaInfo() {
       return {
-        titleTemplate: "給付制度｜能セン-合格への近道",
+        titleTemplate: "給付・助成金制度｜能セン-合格への近道",
         meta: [
           {
             name: "description",
@@ -64,7 +64,7 @@ query {
           {
             key: `og:title`,
             property: `og:title`,
-            content: `給付制度｜能セン-合格への近道`,
+            content: `給付・助成金制度｜能セン-合格への近道"`,
             // content: `給付制度 | ${this.$static.metadata.siteName}`,
           },
           {
