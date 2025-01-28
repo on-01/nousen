@@ -2,11 +2,11 @@
   <div :class="displayNone">
     <div class="sp_online_infomation">
       <p class="sp_online_infomation_text">
-        新年あけましておめでとうございます
+        春の訪れを感じる季節となりました。
       </p>
     </div>
     <div class="online_infomation">
-      <p class="online_infomation_text">新年あけましておめでとうございます</p>
+      <p class="online_infomation_text">春の訪れを感じる季節となりました。</p>
     </div>
   </div>
 </template>
