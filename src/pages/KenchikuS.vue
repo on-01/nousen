@@ -1129,7 +1129,8 @@
   }
 
   .bg-white_type2 {
-    background-color: #ffffff;
+    // background-color: #ffffff;
+    background-color: #ebf7ff;
     padding-top: 60px;
     padding-bottom: 85px;
   }
