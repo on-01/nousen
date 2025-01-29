@@ -103,6 +103,7 @@
   }
   .support-wrap.-second {
     margin-top: 50px;
+    background-color: #ebf7ff;
   }
   // .support-wrap p {
   //   margin: 0;
@@ -126,7 +127,9 @@
   .support {
     margin: 0 auto;
     padding: 1em 4rem 2rem;
-    max-width: 1170px;
+    // max-width: 1170px;
+    max-width: 942px;
+    background-color: white;
     @media print, screen and (max-width: 1000px) {
       padding: 1rem 2rem;
     }
