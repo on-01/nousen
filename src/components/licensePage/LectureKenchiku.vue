@@ -82,7 +82,7 @@
       <div class="lecture-section -book">
         <div class="book-wrap -left">
           <img
-            src="../../assets/img/license_page/kenchiku_s/lecture-book1.jpg"
+            src="../../assets/img/license_page/kenchiku_s/lecture-book1.png"
             alt="建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【一次・二次コース】</p>
