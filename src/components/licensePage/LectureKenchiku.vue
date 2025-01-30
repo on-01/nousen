@@ -384,9 +384,9 @@
   }
   .book-wrap.-right {
     img {
-      width: 40%;
+      width: 87%;
       @media print, screen and (max-width: 1000px) {
-        width: 50%;
+        width: 80%;
       }
     }
   }
@@ -496,7 +496,7 @@
   }
 
   .counterplan-img.-second {
-    width: 46%;
+    width: 51%;
   }
 
   .counterplan-img.-third {
