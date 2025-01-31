@@ -251,7 +251,7 @@
               <span>【受付中】</span>
             </p> -->
             <p class="workshop-border -none">
-              10月8日(水)～11月16日(日)まで
+              5月中旬～11月16日(日)まで
               <span>【受付中】</span>
             </p>
           </div>
