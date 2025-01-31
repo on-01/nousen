@@ -580,7 +580,7 @@
               </a>
             </figure>
           </div>
-          <div class="public-media-flex">
+          <div class="public-media-flex -bottom">
             <figure>
               <a
                 href="https://www.iid.co.jp/contents-education/"
@@ -2464,6 +2464,9 @@ query {
   .public-media-flex {
     display: flex;
     margin: 12px 0;
+  }
+  .public-media-flex.-bottom {
+    width: 75%;
   }
   .public-media-flex figure {
     margin: 0;
