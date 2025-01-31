@@ -182,7 +182,7 @@
       />
     </div>
 
-    <p class="workshop-bottom -left">
+    <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
       能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
@@ -752,6 +752,10 @@
     span {
       font-weight: 700;
     }
+  }
+
+  .workshop-bottom.-map {
+    padding-bottom: 60px;
   }
 
   .workshop-bottom.-yellow {
