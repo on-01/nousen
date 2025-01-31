@@ -532,7 +532,7 @@
               </div>
             </section>
 
-            <Campaign day="2" date="7/22(月)" />
+            <!-- <Campaign day="2" date="7/22(月)" /> -->
 
             <div class="bg-white_type2">
               <DiscountKenchiku title="合格応援割START！" />
