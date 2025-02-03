@@ -4,7 +4,7 @@
       <Hero
         :backImgOver="require('../assets/img/faq/faq_hero.jpg')"
         :backImgUnder="require('../assets/img/faq/faq_hero_sp.jpg')"
-        title="よくあるご質問"
+        title="よくある質問"
       />
       <div class="contents">
         <p class="intro">
@@ -144,7 +144,7 @@ query {
   export default {
     metaInfo() {
       return {
-        titleTemplate: "よくあるご質問｜能セン-合格への近道-",
+        titleTemplate: "よくある質問｜能セン-合格への近道-",
         meta: [
           {
             name: "description",
@@ -154,7 +154,7 @@ query {
           {
             key: `og:title`,
             property: `og:title`,
-            content: `よくあるご質問｜能セン-合格への近道-`,
+            content: `よくある質問｜能セン-合格への近道-`,
             // content: `よくあるご質問 | ${this.$static.metadata.siteName}`,
           },
           {
