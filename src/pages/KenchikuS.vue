@@ -394,7 +394,7 @@
             />
 
             <div class="bg-white">
-              <ExamKenchiku />
+              <!-- <ExamKenchiku /> -->
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 

@@ -326,10 +326,10 @@
               "
               altText="土木施工管理技士 講習会 通信講座 web講座"
             />
-            <div class="bg-white">
+            <!-- <div class="bg-white">
               <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
               <ExamSecond />
-            </div>
+            </div> -->
 
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
