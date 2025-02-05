@@ -28,7 +28,7 @@
               :class="['tab', { active: isActiveTop === 1 }]"
               v-on:click="tabToggleTop(1)"
             >
-              試験情報
+              試験概要
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
