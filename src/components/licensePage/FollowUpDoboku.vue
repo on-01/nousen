@@ -5,10 +5,12 @@
         <p class="follow-title">勉強フォローアップサービス</p>
         <div class="follow-wrap">
           <div class="follow-flex">
-            <img
-              src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
-            />
+            <div class="follow-imgWrap">
+              <img
+                src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </div>
             <div class="follow-textWrap">
               <p class="follow-heading">勉強計画を立てて最短合格へ</p>
               <p class="follow-text">
@@ -23,10 +25,12 @@
             </div>
           </div>
           <div class="follow-flex">
-            <img
-              src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
-            />
+            <div class="follow-imgWrap">
+              <img
+                src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </div>
             <div class="follow-textWrap">
               <p class="follow-heading">リマインダーメールサービス</p>
               <p class="follow-text">
@@ -41,10 +45,12 @@
             </div>
           </div>
           <div class="follow-flex">
-            <img
-              src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
-            />
+            <div class="follow-imgWrap">
+              <img
+                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </div>
             <div class="follow-textWrap">
               <p class="follow-heading">資格取得アドバイザーの質問サポート</p>
               <p class="follow-text">
@@ -95,7 +101,7 @@
 
   .follow-content {
     padding: 20px;
-    border: 2px solid #1d9bf0;
+    border: 4px solid #1d9bf0;
   }
 
   .follow-title {
@@ -104,13 +110,12 @@
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
-    padding-bottom: 10px;
   }
 
   .follow-title::after {
     position: absolute;
     content: "";
-    width: 100px;
+    width: 252px;
     height: 3px;
     background: #ff843a;
     bottom: 0;
@@ -119,14 +124,20 @@
   }
 
   .follow-wrap {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   .follow-flex {
     display: flex;
   }
 
+  .follow-imgWrap {
+    width: 40%;
+  }
+
   .follow-textWrap {
+    width: 60%;
+    max-width: 560px;
   }
 
   .follow-heading {
