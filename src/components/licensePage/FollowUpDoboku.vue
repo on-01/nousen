@@ -88,9 +88,10 @@
 <style lang="scss" scoped>
   .follow {
     max-width: 1170px;
-    width: 100%;
+    // width: 100%;
     background-color: #fff;
     margin: 0 auto;
+    padding: 0 24px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
@@ -113,6 +114,9 @@
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 24px;
+    }
   }
 
   .follow-title::after {
@@ -133,10 +137,16 @@
   .follow-flex {
     display: flex;
     margin-top: 40px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
   .follow-imgWrap {
     width: 40%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
 
     img {
       display: block;
@@ -159,6 +169,11 @@
   .follow-textWrap {
     width: 60%;
     max-width: 560px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+    }
   }
 
   .follow-heading {
