@@ -1130,6 +1130,9 @@
   .bg-lightBlue.-pd100 {
     padding-bottom: 110px;
   }
+  .bg-white {
+    background-color: #ffffff;
+  }
 
   .bg-white_type2 {
     // background-color: #ffffff;
