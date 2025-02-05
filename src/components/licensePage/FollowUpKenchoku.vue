@@ -185,6 +185,7 @@
   .follow-text {
     font-size: 16px;
     margin: 0;
+    line-height: 1.5;
     span {
       font-weight: 700;
     }
