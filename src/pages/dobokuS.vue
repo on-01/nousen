@@ -326,10 +326,11 @@
               "
               altText="土木施工管理技士 講習会 通信講座 web講座"
             />
-            <!-- <div class="bg-white">
-              <ExamDoboku title="一次検定完全攻略！予想模擬試験" />
-              <ExamSecond />
-            </div> -->
+            <div class="bg-white">
+              <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
+              <!-- <ExamSecond /> -->
+              <FollowUpDoboku />
+            </div>
 
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
@@ -709,6 +710,7 @@
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
   import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
+  import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -781,6 +783,7 @@
       ExamDoboku,
       ExamKenchiku,
       ExamSecond,
+      FollowUpDoboku,
     },
     data() {
       return {
