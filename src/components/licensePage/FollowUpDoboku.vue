@@ -7,6 +7,7 @@
           <div class="follow-flex">
             <div class="follow-imgWrap">
               <img
+                class="img-1"
                 src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
                 alt="土木施工管理技士 講習会 通信講座 web講座"
               />
@@ -27,6 +28,7 @@
           <div class="follow-flex">
             <div class="follow-imgWrap">
               <img
+                class="img-2"
                 src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
                 alt="土木施工管理技士 講習会 通信講座 web講座"
               />
@@ -47,6 +49,7 @@
           <div class="follow-flex">
             <div class="follow-imgWrap">
               <img
+                class="img-3"
                 src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
                 alt="土木施工管理技士 講習会 通信講座 web講座"
               />
@@ -129,10 +132,28 @@
 
   .follow-flex {
     display: flex;
+    margin-top: 40px;
   }
 
   .follow-imgWrap {
     width: 40%;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .img-1 {
+      width: 35%;
+    }
+
+    .img-2 {
+      width: 55%;
+    }
+
+    .img-3 {
+      width: 75%;
+    }
   }
 
   .follow-textWrap {
