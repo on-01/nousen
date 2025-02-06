@@ -35,7 +35,7 @@
           <br />
           筆記方式：所定の期日、会場にて開催する従来の試験と同様に行われる試験。
         </p>
-        <p class="test-index">&emsp;インターネット申込み方法</p>
+        <p class="test-index -ml10">インターネット申込み方法</p>
         <p class="test-text">
           1. 一般財団法人
           <a
@@ -53,7 +53,7 @@
           <br />
           4.試験日の約2週間前に受験票が郵送される
         </p>
-        <p class="test-index -mt20">&emsp;書面申込み方法</p>
+        <p class="test-index -mt20 -ml10">書面申込み方法</p>
         <p class="test-text">
           1.受験案内 / 願書を入手する　願書の入手方法は
           <a
@@ -305,20 +305,23 @@
   }
 
   .test-text-yellow {
+    position: relative;
     display: inline-block;
     line-height: 1.5;
     font-weight: 700;
     margin: 30px 0 0;
+    z-index: 3;
   }
 
   .test-text-yellow::after {
     position: absolute;
     content: "";
     width: 100%;
-    height: 2px;
+    height: 6px;
     background: #ffff8d;
     left: 0;
-    bottom: 0;
+    bottom: 2px;
+    z-index: -1;
   }
 
   .test-heading {
@@ -355,20 +358,25 @@
     span {
       display: inline-block;
       position: relative;
+      z-index: 3;
     }
     span::after {
       position: absolute;
       content: "";
       width: 100%;
-      height: 2px;
+      height: 6px;
       background: #ffff8d;
       left: 0;
-      bottom: 0;
+      bottom: 2px;
+      z-index: -1;
     }
   }
 
   .-mt20 {
     margin-top: 20px;
+  }
+  .-ml10 {
+    margin-left: 10px;
   }
 
   @media print, screen and (max-width: 1000px) {
