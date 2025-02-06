@@ -273,7 +273,7 @@
     background-color: #eae3db;
     background-color: rgba(244, 137, 30, 0.1);
     padding: 30px 45px;
-    margin-top: 40px;
+    margin-top: 20px;
 
     a {
       color: #1da1f2;
@@ -343,6 +343,10 @@
     margin: 0 auto;
     max-width: 980px;
     font-weight: 700;
+    @media print, screen and (max-width: 1110px) {
+      font-size: 24px;
+      padding: 8px;
+    }
   }
 
   .test-index {
@@ -392,6 +396,7 @@
 
   .-first {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   @media print, screen and (max-width: 1000px) {
