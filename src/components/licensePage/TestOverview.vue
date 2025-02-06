@@ -235,8 +235,8 @@
   }
 
   .test-inner {
-    padding: 0 0 40px;
-    max-width: 1027px;
+    padding: 0 50px 40px;
+    max-width: 927px;
     margin: 0 auto;
     background-color: #fff;
   }
@@ -264,6 +264,7 @@
     position: relative;
     border: solid 2px #f4891e;
     background-color: #eae3db;
+    background-color: rgba(244, 137, 30, 0.8);
     padding: 30px 20px;
     margin-top: 40px;
   }
