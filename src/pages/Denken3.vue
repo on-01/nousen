@@ -72,6 +72,7 @@
 
             <div class="bg-lightBlue">
               <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
+              <TestOverview />
 
               <div class="exam-link-wrapper -column">
                 <!-- <g-link to="/licenses/#denken" class="exam-link">
@@ -637,6 +638,7 @@
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import RecommendLink from "../components/licensePage/RecommendLink.vue";
+  import TestOverview from "../components/licensePage/TestOverview.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -709,6 +711,7 @@
       Blog,
       Fsc,
       RecommendLink,
+      TestOverview,
     },
     data() {
       return {

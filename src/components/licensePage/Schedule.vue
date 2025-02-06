@@ -146,7 +146,7 @@
         </div>
       </div>
 
-      <div class="schedule-details">
+      <!-- <div class="schedule-details">
         <p>
           <span class="schedule-table-note">※１</span>
           CBT方式(パソコンでの受験)
@@ -226,7 +226,7 @@
         <p>問い合わせ先</p>
         <p>一般財団法人 電気技術者試験センター 本部事務局</p>
         <p>TEL 03-3552-7691　9時から17時15分まで(土・日・祝日を除く)</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
