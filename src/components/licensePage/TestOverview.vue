@@ -35,7 +35,7 @@
           <br />
           筆記方式：所定の期日、会場にて開催する従来の試験と同様に行われる試験。
         </p>
-        <p class="test-index -ml10">インターネット申込み方法</p>
+        <p class="test-index -ml10 -mt20">インターネット申込み方法</p>
         <p class="test-text">
           1. 一般財団法人
           <a
