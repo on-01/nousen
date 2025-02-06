@@ -21,7 +21,7 @@
       <p class="test-text-yellow">
         正式名称は「電気主任技術者試験」といい、第三種から第一種に分類されている国家資格です。
       </p>
-      <p class="test-heading">受験申請</p>
+      <p class="test-heading -mt40">受験申請</p>
       <div class="test-wrap -white">
         <p class="test-text">
           ・電験三種の申込方法はインターネットと書面の2種類があります
@@ -103,7 +103,7 @@
         </p>
       </div>
       <div class="test-wrap -white">
-        <p class="test-text -mt20">
+        <p class="test-text">
           CBT方式とは｢Computer Based Testing｣の略で、CBT試験会場に準備されてある
           <br />
           パソコンとマウスを使って実施する試験方式です。画面に表示される問題を解き、マウスで選択するなどの方法で解答します。CBT方式と筆記方式のうち、どちらかを選択して受験します。
@@ -332,7 +332,7 @@
     border: solid 3px #1da1f2;
     padding: 10px;
     line-height: 1.3;
-    margin: 40px auto 0;
+    margin: 0 auto;
     max-width: 980px;
     font-weight: 700;
   }
@@ -374,6 +374,9 @@
 
   .-mt20 {
     margin-top: 20px;
+  }
+  .-mt40 {
+    margin-top: 40px;
   }
   .-ml10 {
     margin-left: 10px;
