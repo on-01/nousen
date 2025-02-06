@@ -264,9 +264,13 @@
     position: relative;
     border: solid 2px #f4891e;
     background-color: #eae3db;
-    background-color: rgba(244, 137, 30, 0.8);
-    padding: 30px 20px;
+    background-color: rgba(244, 137, 30, 0.1);
+    padding: 30px 45px;
     margin-top: 40px;
+
+    a {
+      color: #1da1f2;
+    }
   }
 
   .test-wrap.-orange.-pt10 {
@@ -281,18 +285,18 @@
   .test-wrap.-orange::after {
     content: "”";
     color: #f4891e;
-    width: 20px;
-    height: 20px;
-    right: 0;
-    bottom: 0;
+    font-size: 60px;
+    line-height: 1;
+    right: 20px;
+    bottom: -30px;
   }
   .test-wrap.-orange::before {
     content: "“";
     color: #f4891e;
-    width: 20px;
-    height: 20px;
-    left: 0;
-    top: 0;
+    font-size: 60px;
+    line-height: 1;
+    left: 20px;
+    top: 5px;
   }
 
   .test-text {
@@ -347,6 +351,7 @@
 
   .test-other-text {
     line-height: 1.5;
+    margin: 0;
     span {
       display: inline-block;
       position: relative;
