@@ -1,7 +1,7 @@
 <template>
   <div class="test">
-    <p class="test-title">第三種電気主任技術者試験</p>
     <div class="test-inner">
+      <p class="test-title">第三種電気主任技術者試験</p>
       <div class="test-wrap -orange">
         <p class="test-text">
           電気主任技術者試験は、法令に基づく技術者選任のための人材創出を目的とし、さらに電気・電子工学・保安等における高度な知識・能力の証として毎年多くの受験申請を受けている。
@@ -84,7 +84,7 @@
         </p>
       </div>
       <p class="test-heading">CBT試験とは</p>
-      <div class="test-wrap -orange -pt10">
+      <div class="test-wrap -orange">
         <p class="test-text">
           一般財団法人電気技術者試験センターでは、令和５年度に実施する第三種電気主任技術者試験から、これまでの筆記方式（問題用紙とマークシートを用いて行う試験方式）に加えて、パソコンを用いて行うCBT方式（Computer
           Based
@@ -136,9 +136,7 @@
           <br />
           ※CBT方式では、受験票の送付はありません。
         </p>
-      </div>
-      <p class="test-index -mt20">試験地一覧</p>
-      <div class="test-wrap -white">
+        <p class="test-index -mt20">試験地一覧</p>
         <p class="test-text">
           【北海道地区】旭川市・北見市・札幌市・釧路市・室蘭市・函館市
           <br />
@@ -162,7 +160,7 @@
         </p>
       </div>
       <p class="test-heading">出題範囲</p>
-      <div class="test-wrap -orange -pt10">
+      <div class="test-wrap -orange">
         <p class="test-text">
           <span>令和7年度出題範囲</span>
           <br />
@@ -193,7 +191,9 @@
         <p class="test-other-text">
           【電力】
           <br />
-          電気エネルギーの生産から流通までの技術的知識とその応用力を問う。発変電・蓄電・送配電の各種電気工作物は我が国の国土上にネットワークとして広がり、生活と産業を維持する上で重要なインフラを形成している。これらの設計・建設・運転に関する技術の基礎的理解に関する出題を行うとともに、電気エネルギー供給面における安全確保と災害・事故対応、環境の保全、再生可能エネルギー等の新技術への対応といった応用面等について問う。また、電気材料及び高電圧工学についても出題範囲とする。
+          電気エネルギーの生産から流通までの技術的知識とその応用力を問う。
+          <span>発変電・蓄電</span>
+          ・送配電の各種電気工作物は我が国の国土上にネットワークとして広がり、生活と産業を維持する上で重要なインフラを形成している。これらの設計・建設・運転に関する技術の基礎的理解に関する出題を行うとともに、電気エネルギー供給面における安全確保と災害・事故対応、環境の保全、再生可能エネルギー等の新技術への対応といった応用面等について問う。また、電気材料及び高電圧工学についても出題範囲とする。
         </p>
       </div>
       <div class="test-other">
@@ -235,7 +235,7 @@
   }
 
   .test-inner {
-    padding: 40px 0;
+    padding: 0 0 40px;
     max-width: 1027px;
     margin: 0 auto;
     background-color: #fff;
@@ -247,7 +247,7 @@
     background-color: #1da1f2;
     padding: 1rem;
     line-height: 1.3;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     max-width: 980px;
   }
 
@@ -264,7 +264,8 @@
     position: relative;
     border: solid 2px #f4891e;
     background-color: #eae3db;
-    padding: 30px 10px 0;
+    padding: 30px 20px;
+    margin-top: 40px;
   }
 
   .test-wrap.-orange.-pt10 {
@@ -299,10 +300,20 @@
   }
 
   .test-text-yellow {
-    margin-top: 30px;
+    display: inline-block;
     line-height: 1.5;
     font-weight: 700;
-    margin: 0;
+    margin: 30px 0 0;
+  }
+
+  .test-text-yellow::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #ffff8d;
+    left: 0;
+    bottom: 0;
   }
 
   .test-heading {
@@ -311,10 +322,11 @@
     text-align: center;
     background-color: white;
     border: solid 3px #1da1f2;
-    padding: 1rem;
+    padding: 10px;
     line-height: 1.3;
     margin: 40px auto 0;
     max-width: 980px;
+    font-weight: 700;
   }
 
   .test-index {
@@ -334,6 +346,19 @@
 
   .test-other-text {
     line-height: 1.5;
+    span {
+      display: inline-block;
+      position: relative;
+    }
+    span::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: #ffff8d;
+      left: 0;
+      bottom: 0;
+    }
   }
 
   .-mt20 {
