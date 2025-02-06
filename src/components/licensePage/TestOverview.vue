@@ -2,7 +2,7 @@
   <div class="test">
     <div class="test-inner">
       <p class="test-title">第三種電気主任技術者試験</p>
-      <div class="test-wrap -orange">
+      <div class="test-wrap -orange -first">
         <p class="test-text">
           電気主任技術者試験は、法令に基づく技術者選任のための人材創出を目的とし、さらに電気・電子工学・保安等における高度な知識・能力の証として毎年多くの受験申請を受けている。
           <br />
@@ -232,6 +232,9 @@
     position: relative;
     font-family: "Meiryo", sans-serif;
     font-size: 16px;
+    @media print, screen and (max-width: 1110px) {
+      width: 90%;
+    }
   }
 
   .test-inner {
@@ -239,6 +242,10 @@
     max-width: 927px;
     margin: 0 auto;
     background-color: #fff;
+    @media print, screen and (max-width: 1110px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
   .test-title {
     font-size: 28px;
@@ -306,23 +313,24 @@
 
   .test-text-yellow {
     position: relative;
-    display: inline-block;
+    display: inline;
     line-height: 1.5;
     font-weight: 700;
     margin: 30px 0 0;
     z-index: 3;
+    background: linear-gradient(transparent 60%, #ffff8d 0%);
   }
 
-  .test-text-yellow::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 6px;
-    background: #ffff8d;
-    left: 0;
-    bottom: 2px;
-    z-index: -1;
-  }
+  // .test-text-yellow::after {
+  //   position: absolute;
+  //   content: "";
+  //   width: 100%;
+  //   height: 6px;
+  //   background: #ffff8d;
+  //   left: 0;
+  //   bottom: 2px;
+  //   z-index: -1;
+  // }
 
   .test-heading {
     font-size: 28px;
@@ -380,6 +388,10 @@
   }
   .-ml10 {
     margin-left: 10px;
+  }
+
+  .-first {
+    margin-bottom: 20px;
   }
 
   @media print, screen and (max-width: 1000px) {
