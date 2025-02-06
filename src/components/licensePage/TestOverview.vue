@@ -256,6 +256,7 @@
     line-height: 1.3;
     margin: 0 auto 40px;
     max-width: 980px;
+    font-weight: 700;
   }
 
   .test-wrap {
@@ -368,20 +369,21 @@
     line-height: 1.5;
     margin: 0;
     span {
-      display: inline-block;
+      display: inline;
       position: relative;
       z-index: 3;
+      background: linear-gradient(transparent 60%, #ffff8d 0%);
     }
-    span::after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 6px;
-      background: #ffff8d;
-      left: 0;
-      bottom: 2px;
-      z-index: -1;
-    }
+    // span::after {
+    //   position: absolute;
+    //   content: "";
+    //   width: 100%;
+    //   height: 6px;
+    //   background: #ffff8d;
+    //   left: 0;
+    //   bottom: 2px;
+    //   z-index: -1;
+    // }
   }
 
   .-mt20 {
