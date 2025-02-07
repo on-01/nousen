@@ -100,6 +100,7 @@
                   </span>
                 </p> -->
                 <p><span>令和8年7月31日まで配信します！</span></p>
+                <p><span>配信期間 最大15ヶ月 / サポート期間24ヶ月</span></p>
                 <p>（昨年度の動画は直ぐにご視聴できます）</p>
                 <p class="courseOverview-td-text">
                   <del>147,400円</del>
