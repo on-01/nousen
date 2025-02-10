@@ -87,8 +87,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 1170px;
-    // width: 100%;
+    max-width: 1050px;
     background-color: #fff;
     margin: 0 auto;
     padding: 0 24px;
@@ -97,15 +96,13 @@
     font-family: "メイリオ", sans-serif;
   }
   .follow-inner {
-    max-width: 1170px;
-    width: 100%;
     padding: 60px 0 30px;
     margin: 0 auto;
   }
 
   .follow-content {
     padding: 20px;
-    border: 4px solid #1d9bf0;
+    border: 4px solid black;
   }
 
   .follow-title {
