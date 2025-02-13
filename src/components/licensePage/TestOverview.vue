@@ -248,7 +248,7 @@
           法規:16:25-17:30（65分）
         </p>
         <div class="test-flex -mt20">
-          <p class="test-index">【CBT試験時間】</p>
+          <p class="test-index">CBT方式</p>
           <p class="test-text">：PC上で五肢択一方式</p>
         </div>
         <p class="test-text">
@@ -641,7 +641,7 @@
 
   .test-table-left {
     width: 30%;
-    font-size: 700px;
+    font-weight: 700px;
   }
 
   .test-table-right {
