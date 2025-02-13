@@ -98,7 +98,7 @@
 
   .test-inner {
     position: relative;
-    padding: 80px 50px 40px;
+    padding: 100px 50px 40px;
     max-width: 927px;
     margin: 0 auto;
     background-color: #fff;
@@ -296,12 +296,14 @@
   }
 
   .study-title-img {
+    position: absolute;
     width: 140px;
     margin-right: 0;
     margin-left: auto;
     display: block;
     height: auto;
-    transform: translateY(20px);
+    right: 30px;
+    top: 10px;
     &:before {
       width: 100%;
       height: 100%;
