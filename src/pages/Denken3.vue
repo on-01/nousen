@@ -88,7 +88,8 @@
                 </g-link>
               </div>
 
-              <Study
+              <StudyDenken3 />
+              <!-- <Study
                 studySlug="denken"
                 name1="電験三種の合格に必要な勉強時間"
                 time1="1,000"
@@ -102,7 +103,7 @@
                 ただし、1000時間は目安であり、自身の進捗状況や理解度に合わせて、柔軟にスケジュールを調整することが重要です。<br>
                 また、定期的な復習や自己評価も忘れずに行い、学習効果を高めることを意識しましょう。<br>
                 特に理系の科目が多いため、理系出身かどうかや理系科目の得意不得意も影響を与えます。"
-              />
+              /> -->
 
               <Method
                 text="電験三種の勉強は、理論、電力または機械、法規の順番で進めると効果的です。<br>
@@ -635,6 +636,7 @@
   import Fsc from "../components/licensePage/Fsc.vue";
   import RecommendLink from "../components/licensePage/RecommendLink.vue";
   import TestOverview from "../components/licensePage/TestOverview.vue";
+  import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -708,6 +710,7 @@
       Fsc,
       RecommendLink,
       TestOverview,
+      StudyDenken3,
     },
     data() {
       return {

@@ -572,17 +572,6 @@
     background: linear-gradient(transparent 60%, #ffff8d 0%);
   }
 
-  // .test-text-yellow::after {
-  //   position: absolute;
-  //   content: "";
-  //   width: 100%;
-  //   height: 6px;
-  //   background: #ffff8d;
-  //   left: 0;
-  //   bottom: 2px;
-  //   z-index: -1;
-  // }
-
   .test-heading {
     font-size: 28px;
     color: black;
@@ -629,16 +618,6 @@
       z-index: 3;
       background: linear-gradient(transparent 60%, #ffff8d 0%);
     }
-    // span::after {
-    //   position: absolute;
-    //   content: "";
-    //   width: 100%;
-    //   height: 6px;
-    //   background: #ffff8d;
-    //   left: 0;
-    //   bottom: 2px;
-    //   z-index: -1;
-    // }
   }
 
   .test-table {
