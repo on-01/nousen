@@ -203,7 +203,7 @@
           電気エネルギーの利用、電気機器に関する技術的知識とその応用力を問う。生活・産業の維持に電気は不可欠であり、これらの基本的要素となるパワーエレクトロニクス、電動機応用、照明、電熱、電気化学、電気加工、自動制御、メカトロニクス並びに情報伝送及び処理等について近年の技術の進歩を考慮しつつ問う。また、燃料電池などのクリーンエネルギーや太陽光発電などの再生可能エネルギーとその有効利用のためのバッテリーを含む，エネルギーマネージメントなどの基礎的知識についても出題範囲とする。
         </p>
       </div>
-      <div class="test-other">
+      <div class="test-other -bottom">
         <p class="test-other-text">
           【法規】
           <br />
@@ -267,7 +267,7 @@
           <br />
           &emsp;・試験と試験の間、席で勉強することは認められています。次の試験に向けた準備をしましょう。
         </p>
-        <div class="test-other -bottom">
+        <div class="test-other">
           <p class="test-index">電卓について</p>
           <p class="test-other-text">
             試験では、四則演算、開平計算（√）を行うための電卓を使用することができます。
@@ -531,10 +531,15 @@
   .test-text {
     line-height: 1.5;
     margin: 0;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   .test-flex {
     display: flex;
+    align-items: baseline;
   }
 
   .test-text-yellow {
@@ -576,6 +581,7 @@
   }
 
   .test-index {
+    font-size: 18px;
     line-height: 1.5;
     margin: 0 0 10px;
     font-weight: 700;
