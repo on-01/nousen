@@ -1,9 +1,8 @@
 <template>
   <div class="test">
-    <div class="study-title-img"></div>
-
     <div class="test-inner">
-      <p class="test-heading">受験申請</p>
+      <div class="study-title-img"></div>
+      <p class="test-heading">電験三種の勉強時間は？</p>
       <div class="test-wrap -white">
         <p class="test-text-yellow">
           正式名称は「電気主任技術者試験」といい、第三種から第一種に分類されている国家資格です。
@@ -92,7 +91,8 @@
   }
 
   .test-inner {
-    padding: 0 50px 40px;
+    position: relative;
+    padding: 80px 50px 40px;
     max-width: 927px;
     margin: 0 auto;
     background-color: #fff;
@@ -184,6 +184,7 @@
     position: relative;
     display: inline;
     line-height: 1.5;
+    font-size: 18px;
     font-weight: 700;
     margin: 30px 0 0;
     z-index: 3;
