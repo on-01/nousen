@@ -303,7 +303,7 @@
     display: block;
     height: auto;
     right: 30px;
-    top: 10px;
+    top: 30px;
     &:before {
       width: 100%;
       height: 100%;
