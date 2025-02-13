@@ -212,11 +212,26 @@
         </p>
       </div>
       <p class="test-heading">出題形式</p>
+      <div class="test-wrap -orange">
+        <p class="test-text">
+          電圧5万ボルト未満の事業用電気工作物の主任技術者として必要な知識について、次の方法・内容により学科試験を行います。
+          <br />
+          <br />
+          引用元：
+          <a
+            href="https://www.shiken.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般社団法人電気技術者試験センター
+          </a>
+        </p>
+      </div>
       <div class="test-wrap -white">
         <div class="test-flex">
           <p class="test-index">筆記方式</p>
           <p class="test-text">
-            各科目の解答方式は、マークシートに記入する五肢択一方式
+            ：各科目の解答方式は、マークシートに記入する五肢択一方式
           </p>
         </div>
         <p class="test-text">
@@ -232,9 +247,9 @@
           <br />
           法規:16:25-17:30（65分）
         </p>
-        <div class="test-flex">
-          <p class="test-index -mt20">【CBT試験時間】</p>
-          <p class="test-text">PC上で五肢択一方式</p>
+        <div class="test-flex -mt20">
+          <p class="test-index">【CBT試験時間】</p>
+          <p class="test-text">：PC上で五肢択一方式</p>
         </div>
         <p class="test-text">
           試験期間内（25日間）に実地します。科目ごとに別日で受験することが可能です。
@@ -252,7 +267,7 @@
           <br />
           &emsp;・試験と試験の間、席で勉強することは認められています。次の試験に向けた準備をしましょう。
         </p>
-        <div class="test-other">
+        <div class="test-other -bottom">
           <p class="test-index">電卓について</p>
           <p class="test-other-text">
             試験では、四則演算、開平計算（√）を行うための電卓を使用することができます。
@@ -271,6 +286,151 @@
             ●定規付き電卓
           </p>
         </div>
+      </div>
+      <p class="test-heading">出題範囲・問題数・配点</p>
+      <div class="test-wrap -white">
+        <ul class="test-table">
+          <li>
+            <p class="test-table-left">
+              【理論】
+              <br />
+              出題範囲
+            </p>
+            <p class="test-table-right">
+              電気理論、電子理論、電気計測及び電子計測に関するもの
+            </p>
+          </li>
+          <li>
+            <p class="test-table-left">試験時間</p>
+            <p class="test-table-right">90分</p>
+          </li>
+          <li>
+            <p class="test-table-left">問題数・配点</p>
+            <p class="test-table-right">
+              A問題14問×各5点
+              <br />
+              B問題3問（選択問題含む）×各10点
+            </p>
+          </li>
+        </ul>
+        <ul class="test-table">
+          <li>
+            <p class="test-table-left">
+              【電力】
+              <br />
+              出題範囲
+            </p>
+            <p class="test-table-right">
+              発電所及び変電所の設計及び運転、送電線路及び配電線路（屋内配線を含む。）
+              <br />
+              の設計及び運用並びに電気材料に関するもの
+            </p>
+          </li>
+          <li>
+            <p class="test-table-left">試験時間</p>
+            <p class="test-table-right">90分</p>
+          </li>
+          <li>
+            <p class="test-table-left">問題数・配点</p>
+            <p class="test-table-right">
+              A問題14問×各5点
+              <br />
+              B問題3問×各10点
+            </p>
+          </li>
+        </ul>
+        <ul class="test-table">
+          <li>
+            <p class="test-table-left">
+              【機械】
+              <br />
+              出題範囲
+            </p>
+            <p class="test-table-right">
+              電気機器、パワーエレクトロニクス、電動機応用、照明、電熱、電気化学、
+              <br />
+              電気加工、自動制御、メカトロニクス並びに電力システムに関する情報伝送及び
+              <br />
+              処理に関するもの
+            </p>
+          </li>
+          <li>
+            <p class="test-table-left">試験時間</p>
+            <p class="test-table-right">90分</p>
+          </li>
+          <li>
+            <p class="test-table-left">問題数・配点</p>
+            <p class="test-table-right">
+              A問題14問×各5点
+              <br />
+              B問題3問×各10点
+            </p>
+          </li>
+        </ul>
+        <ul class="test-table">
+          <li>
+            <p class="test-table-left">
+              【法規】
+              <br />
+              出題範囲
+            </p>
+            <p class="test-table-right">
+              電気法規（保安に関するものに限る）及び電気施設管理に関するもの
+              <br />
+              ※「電気設備の技術基準の解釈について」（経済産業省の審査基準）に関するも
+              のを含みます。
+            </p>
+          </li>
+          <li>
+            <p class="test-table-left">試験時間</p>
+            <p class="test-table-right">60分</p>
+          </li>
+          <li>
+            <p class="test-table-left">問題数・配点</p>
+            <p class="test-table-right">
+              A問題10問×各6点
+              <br />
+              B問題3問×各13～14点
+            </p>
+          </li>
+        </ul>
+      </div>
+      <p class="test-heading">合格基準・難易度</p>
+      <div class="test-wrap -white">
+        <p class="test-index">合格基準</p>
+        <p class="test-text">
+          <span>各科目ともに原則６０点（※１）</span>
+          <br />
+          なお、試験の難易度等から調整（※２）する場合があります。
+          <br />
+          ※１ 試験では、受験者本人は得点を知ることができます
+          <br />
+          ※２
+          ＣＢＴ方式で受験した科目の結果は、試験から約２週間以降に申込マイページから確認できます
+          <br />
+          <br />
+          <a
+            href="https://www.shiken.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般社団法人電気技術者試験センター
+          </a>
+        </p>
+        <p class="test-index -mt20">難易度</p>
+        <p class="test-text">
+          第三種電気主任技術者の試験難易度ですが、かなり難しい資格になります。難易度★★★★
+          <br />
+          毎年全科目合格率が約15％前後で他の国家資格と比較しても難易度が高めの資格と言えます。
+          <br />
+          受験者10人につき1～2人程度しか合格できない難関な資格になります。
+          <br />
+          多くの受験生が科目別合格制度を使って合格を目指しています。
+        </p>
+        <p class="test-index -mt20">科目別合格制度（科目合格留保制度）</p>
+        <p class="test-text">
+          電験三種の試験は科目ごとに合格不合格が決まり、４科目すべてに合格すれば第三種電気主任技術者の免状が交付されます。また、４科目中、一部の科目だけ合格した場合は、「科目合格」となり、最初に合格した試験以降、その申請により最大で連続して５回まで当該科目の試験が免除されます。難易度が高くても合格は目指せます！
+        </p>
       </div>
     </div>
   </div>
@@ -430,6 +590,10 @@
     border-radius: 12px;
   }
 
+  .test-other.-bottom {
+    margin-bottom: 30px;
+  }
+
   .test-other-text {
     line-height: 1.5;
     margin: 0;
@@ -449,6 +613,33 @@
     //   bottom: 2px;
     //   z-index: -1;
     // }
+  }
+
+  .test-table {
+    border: #f4891e solid 1px;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 10px 5px;
+    }
+
+    li:not(:first-child) {
+      border-top: #f4891e solid 1px;
+    }
+  }
+
+  .test-table:not(:first-of-type) {
+    margin-top: 30px;
+  }
+
+  .test-table-left {
+    width: 30%;
+    font-size: 700px;
+  }
+
+  .test-table-right {
+    border-left: #f4891e solid 1px;
   }
 
   .-mt20 {
