@@ -58,8 +58,6 @@
             <div class="bg-lightBlue -pd100">
               <ScheduleDoboku title="令和7年度 土木施工管理技士 試験日程" />
 
-              <SupportDoboku title="＼＼建設業を応援しよう／／" />
-
               <!-- <QualityDoboku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
@@ -476,6 +474,7 @@
               <DiscountDoboku title="合格応援割START！" />
 
               <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportDoboku title="＼＼建設業を応援しよう／／" />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 

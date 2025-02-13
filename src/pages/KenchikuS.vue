@@ -57,8 +57,6 @@
             <div class="bg-lightBlue -pd100">
               <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" />
 
-              <Support title="＼＼建設業を応援しよう／／" />
-
               <!-- <QualityKenchiku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
@@ -539,6 +537,7 @@
               <DiscountKenchiku title="合格応援割START！" />
 
               <SupportSecondKenchiku title="＼＼建設業を応援しよう／／" />
+              <Support title="＼＼建設業を応援しよう／／" />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
