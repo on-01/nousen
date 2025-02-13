@@ -432,6 +432,21 @@
           電験三種の試験は科目ごとに合格不合格が決まり、４科目すべてに合格すれば第三種電気主任技術者の免状が交付されます。また、４科目中、一部の科目だけ合格した場合は、「科目合格」となり、最初に合格した試験以降、その申請により最大で連続して５回まで当該科目の試験が免除されます。難易度が高くても合格は目指せます！
         </p>
       </div>
+      <p class="test-heading">試験実地機関（試験お問い合わせ先）</p>
+      <div class="test-wrap -white">
+        <p class="test-text -fz18">一般財団法人 電気技術者試験センター</p>
+        <p class="test-text">
+          TEL 03-3552-7691　9時から17時15分まで（土・日・祝日を除く）
+          <br />
+          <a
+            href="https://www.shiken.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.shiken.or.jp/
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -537,6 +552,11 @@
     }
   }
 
+  .test-text.-fz18 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
   .test-flex {
     display: flex;
     align-items: baseline;
@@ -635,16 +655,20 @@
     th {
       border-right: #f4891e solid 1px;
       border-bottom: #f4891e solid 1px;
-      width: 30%;
+      width: 20%;
       padding: 8px;
       font-weight: 700;
+      display: flex;
+      align-items: center;
     }
 
     td {
       border-bottom: #f4891e solid 1px;
-      width: 70%;
+      width: 80%;
       padding: 5px 0;
       padding: 8px;
+      display: flex;
+      align-items: center;
     }
   }
 
