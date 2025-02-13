@@ -622,22 +622,27 @@
   }
 
   .test-table {
-    border: #f4891e solid 1px;
+    border-top: #f4891e solid 1px;
+    border-left: #f4891e solid 1px;
+    border-right: #f4891e solid 1px;
+    width: 90%;
+    margin: 0 auto;
 
     tr {
       display: flex;
-      align-items: center;
     }
 
     th {
       border-right: #f4891e solid 1px;
+      border-bottom: #f4891e solid 1px;
       width: 30%;
-      font-weight: 700px;
       padding: 8px;
       font-weight: 700;
     }
 
     td {
+      border-bottom: #f4891e solid 1px;
+      width: 70%;
       padding: 5px 0;
       padding: 8px;
     }
