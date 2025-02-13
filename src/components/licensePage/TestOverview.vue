@@ -289,111 +289,111 @@
       </div>
       <p class="test-heading">出題範囲・問題数・配点</p>
       <div class="test-wrap -white">
-        <ul class="test-table">
-          <li>
-            <p class="test-table-left">
+        <table class="test-table">
+          <tr>
+            <th class="test-table-left">
               【理論】
               <br />
               出題範囲
-            </p>
-            <p class="test-table-right">
+            </th>
+            <td class="test-table-right">
               電気理論、電子理論、電気計測及び電子計測に関するもの
-            </p>
-          </li>
-          <li>
-            <p class="test-table-left">試験時間</p>
-            <p class="test-table-right">90分</p>
-          </li>
-          <li>
-            <p class="test-table-left">問題数・配点</p>
-            <p class="test-table-right">
+            </td>
+          </tr>
+          <tr>
+            <th class="test-table-left">試験時間</th>
+            <td class="test-table-right">90分</td>
+          </tr>
+          <tr>
+            <th class="test-table-left">問題数・配点</th>
+            <td class="test-table-right">
               A問題14問×各5点
               <br />
               B問題3問（選択問題含む）×各10点
-            </p>
-          </li>
-        </ul>
-        <ul class="test-table">
-          <li>
-            <p class="test-table-left">
+            </td>
+          </tr>
+        </table>
+        <table class="test-table">
+          <tr>
+            <th class="test-table-left">
               【電力】
               <br />
               出題範囲
-            </p>
-            <p class="test-table-right">
+            </th>
+            <td class="test-table-right">
               発電所及び変電所の設計及び運転、送電線路及び配電線路（屋内配線を含む。）
               <br />
               の設計及び運用並びに電気材料に関するもの
-            </p>
-          </li>
-          <li>
-            <p class="test-table-left">試験時間</p>
-            <p class="test-table-right">90分</p>
-          </li>
-          <li>
-            <p class="test-table-left">問題数・配点</p>
-            <p class="test-table-right">
+            </td>
+          </tr>
+          <tr>
+            <th class="test-table-left">試験時間</th>
+            <td class="test-table-right">90分</td>
+          </tr>
+          <tr>
+            <th class="test-table-left">問題数・配点</th>
+            <td class="test-table-right">
               A問題14問×各5点
               <br />
               B問題3問×各10点
-            </p>
-          </li>
-        </ul>
-        <ul class="test-table">
-          <li>
-            <p class="test-table-left">
+            </td>
+          </tr>
+        </table>
+        <table class="test-table">
+          <tr>
+            <th class="test-table-left">
               【機械】
               <br />
               出題範囲
-            </p>
-            <p class="test-table-right">
+            </th>
+            <td class="test-table-right">
               電気機器、パワーエレクトロニクス、電動機応用、照明、電熱、電気化学、
               <br />
               電気加工、自動制御、メカトロニクス並びに電力システムに関する情報伝送及び
               <br />
               処理に関するもの
-            </p>
-          </li>
-          <li>
-            <p class="test-table-left">試験時間</p>
-            <p class="test-table-right">90分</p>
-          </li>
-          <li>
-            <p class="test-table-left">問題数・配点</p>
-            <p class="test-table-right">
+            </td>
+          </tr>
+          <tr>
+            <th class="test-table-left">試験時間</th>
+            <td class="test-table-right">90分</td>
+          </tr>
+          <tr>
+            <th class="test-table-left">問題数・配点</th>
+            <td class="test-table-right">
               A問題14問×各5点
               <br />
               B問題3問×各10点
-            </p>
-          </li>
-        </ul>
-        <ul class="test-table">
-          <li>
-            <p class="test-table-left">
+            </td>
+          </tr>
+        </table>
+        <table class="test-table">
+          <tr>
+            <th class="test-table-left">
               【法規】
               <br />
               出題範囲
-            </p>
-            <p class="test-table-right">
+            </th>
+            <td class="test-table-right">
               電気法規（保安に関するものに限る）及び電気施設管理に関するもの
               <br />
               ※「電気設備の技術基準の解釈について」（経済産業省の審査基準）に関するも
               のを含みます。
-            </p>
-          </li>
-          <li>
-            <p class="test-table-left">試験時間</p>
-            <p class="test-table-right">60分</p>
-          </li>
-          <li>
-            <p class="test-table-left">問題数・配点</p>
-            <p class="test-table-right">
+            </td>
+          </tr>
+          <tr>
+            <th class="test-table-left">試験時間</th>
+            <td class="test-table-right">60分</td>
+          </tr>
+          <tr>
+            <th class="test-table-left">問題数・配点</th>
+            <td class="test-table-right">
               A問題10問×各6点
               <br />
               B問題3問×各13～14点
-            </p>
-          </li>
-        </ul>
+            </td>
+          </tr>
+        </table>
       </div>
       <p class="test-heading">合格基準・難易度</p>
       <div class="test-wrap -white">
@@ -624,28 +624,27 @@
   .test-table {
     border: #f4891e solid 1px;
 
-    li {
+    tr {
       display: flex;
       align-items: center;
-      padding: 10px 5px;
     }
 
-    li:not(:first-child) {
-      border-top: #f4891e solid 1px;
+    th {
+      border-right: #f4891e solid 1px;
+      width: 30%;
+      font-weight: 700px;
+      padding: 8px;
+      font-weight: 700;
+    }
+
+    td {
+      padding: 5px 0;
+      padding: 8px;
     }
   }
 
   .test-table:not(:first-of-type) {
     margin-top: 30px;
-  }
-
-  .test-table-left {
-    width: 30%;
-    font-weight: 700px;
-  }
-
-  .test-table-right {
-    border-left: #f4891e solid 1px;
   }
 
   .-mt20 {
