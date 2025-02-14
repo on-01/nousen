@@ -410,11 +410,11 @@
           <br />
           <br />
           <a
-            href="https://www.shiken.or.jp/"
+            href="https://moshikomi-shiken.jp/ecee/search/public/pbt_result/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター　合格者受験番号検索
           </a>
         </p>
         <p class="test-index -mt20">難易度</p>
