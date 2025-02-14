@@ -56,6 +56,7 @@
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" />
+              <TestOverviewKenchiku />
 
               <!-- <QualityKenchiku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
@@ -757,6 +758,7 @@
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
   import FollowUpKenchoku from "../components/licensePage/FollowUpKenchoku.vue";
+  import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -827,6 +829,7 @@
       ScheduleKenchiku,
       ExamKenchiku,
       FollowUpKenchoku,
+      TestOverviewKenchiku,
     },
     data() {
       return {
