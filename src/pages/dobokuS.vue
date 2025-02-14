@@ -242,11 +242,7 @@
             /> -->
 
               <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
-              <ContactInfo
-                title="受講に関するご相談は<br>
-            【お電話】【フォーム】【オンライン】<br>
-            お気軽にお問い合わせください。"
-              />
+              <ContactInfo title="受講に関するご相談は" />
 
               <Linelink
                 text="能センLINE公式アカウント開設しました。<br>
