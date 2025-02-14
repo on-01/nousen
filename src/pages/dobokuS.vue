@@ -57,6 +57,7 @@
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleDoboku title="令和7年度 土木施工管理技士 試験日程" />
+              <TestOverviewDoboku />
 
               <!-- <QualityDoboku
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
@@ -706,6 +707,7 @@
   import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
+  import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -779,6 +781,7 @@
       ExamKenchiku,
       ExamSecond,
       FollowUpDoboku,
+      TestOverviewDoboku,
     },
     data() {
       return {
