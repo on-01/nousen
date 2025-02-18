@@ -28,34 +28,30 @@
       <div class="lecture-section -book">
         <div class="book-wrap -left">
           <img
-            src="../../assets/img/license_page/doboku_s/lecture-book1.jpg"
+            src="../../assets/img/license_page/doboku_s/lecture-book3.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="book-text700 -first">【一次コース】</p>
+          <p class="book-text700 -first">【一次・二次コース】</p>
           <p class="book-text700">
-            図解でよくわかる 2級土木施工管理技術検定 第1次検定 2025年版
+            ２級土木施工管理技士　要点テキスト　令和7年度版
           </p>
           <p class="book-text">
-            「2級土木施工管理技術検定
-            第1次検定(学科試験)」を受験される方を対象とした、厳選された過去問題とテキストを兼ねた解説書です。
+            「2級土木施工管理技術検定」を受験される方を対象とした、厳選された過去問題とテキストを兼ねた解説書です。
             <br />
             短時間で理解できるように、イラストや図表を豊富に取り入れ、わかりやすく要点を解説し、無駄の少ない効率の良い学習ができるように構成しています。
           </p>
         </div>
         <div class="book-wrap -right">
           <img
-            src="../../assets/img/license_page/doboku_s/lecture-book2.jpg"
+            src="../../assets/img/license_page/doboku_s/lecture-book4.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="book-text700 -first">【二次コース】</p>
-          <p class="book-text700">
-            これだけマスター 2級土木施工管理技士 第二次検定
-          </p>
+          <p class="book-text700 -first">【旧二次テキストはプレゼント】</p>
+          <p class="book-text700">２級土木施工管理技士　実地試験テキスト</p>
           <p class="book-text">
-            2級土木施工管理技士　第二次検定対策書の決定版！経験記述（60文例）が必ず役に立つ！！2級土木施工管理技術検定の第二次検定は経験を重視した試検内容となっています。記述形式で出題される問題は記述量が多いうえ、出題範囲も広く、ポイントをしっかりおさえておく必要があります。
-          </p>
-          <p class="book-text700">
-            能センと仲が良いオーム社さんのテキストです。
+            能センで使用していたオリジナルテキストです。2級土木施工管理技術検定の第二次検定は経験を重視した試検内容となっています。
+            <br />
+            記述形式で出題される問題は記述量が多いうえ、出題範囲も広く、ポイントをしっかりおさえておく必要があります。
           </p>
         </div>
       </div>
