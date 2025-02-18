@@ -533,7 +533,7 @@
             <div class="bg-white_type2">
               <DiscountKenchiku title="合格応援割START！" />
 
-              <SupportSecondKenchiku title="＼＼建設業を応援しよう／／" />
+              <SupportSecondKenchiku title="ミライを創ろう" />
               <Support title="＼＼建設業を応援しよう／／" />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->

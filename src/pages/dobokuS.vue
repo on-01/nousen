@@ -470,7 +470,7 @@
             <div class="bg-white_type2">
               <DiscountDoboku title="合格応援割START！" />
 
-              <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
