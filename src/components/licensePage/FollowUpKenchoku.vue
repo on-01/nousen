@@ -13,7 +13,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">勉強計画を立てて最短合格へ</p>
+              <p class="follow-heading">①勉強計画を立てて最短合格へ</p>
               <p class="follow-text">
                 2級建築施工管理技士の試験合格を目指すなら、効率的な勉強計画が成功の鍵を握ります。計画的に学習を進めることで、無駄なく知識を身につけ、最短ルートで合格へと近づくことができます。
                 <br />
@@ -34,7 +34,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">リマインダーメールサービス</p>
+              <p class="follow-heading">②リマインダーメールサービス</p>
               <p class="follow-text">
                 試験日をうっかり忘れてしまうこと、ありませんか？
                 <br />
@@ -55,7 +55,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">資格取得アドバイザーの質問サポート</p>
+              <p class="follow-heading">③資格取得アドバイザーの質問サポート</p>
               <p class="follow-text">
                 学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
                 <br />
