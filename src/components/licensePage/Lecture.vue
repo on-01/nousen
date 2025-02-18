@@ -282,7 +282,7 @@
   }
   .book-wrap.-right {
     img {
-      width: 40%;
+      width: 42%;
       @media print, screen and (max-width: 1000px) {
         width: 50%;
       }
