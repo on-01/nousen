@@ -746,14 +746,18 @@
     border-top: #f4891e solid 1px;
     border-left: #f4891e solid 1px;
     border-right: #f4891e solid 1px;
+    width: 50%;
 
     tr {
       border-bottom: #f4891e solid 1px;
     }
 
+    th {
+      background-color: rgba(244, 137, 30, 0.1);
+    }
+
     th:not(:first-of-type) {
       border-left: #f4891e solid 1px;
-      background-color: rgba(244, 137, 30, 0.1);
       text-align: left;
     }
     td:not(:first-of-type) {
