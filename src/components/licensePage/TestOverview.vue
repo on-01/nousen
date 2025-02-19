@@ -742,6 +742,29 @@
     }
   }
 
+  .test-table-second {
+    border-top: #f4891e solid 1px;
+    border-left: #f4891e solid 1px;
+    border-right: #f4891e solid 1px;
+
+    tr {
+      border-bottom: #f4891e solid 1px;
+    }
+
+    th:not(:first-of-type) {
+      border-left: #f4891e solid 1px;
+      background-color: rgba(244, 137, 30, 0.1);
+      text-align: left;
+    }
+    td:not(:first-of-type) {
+      border-left: #f4891e solid 1px;
+    }
+    th,
+    td {
+      padding: 10px;
+    }
+  }
+
   .test-table:not(:first-of-type) {
     margin-top: 30px;
   }
