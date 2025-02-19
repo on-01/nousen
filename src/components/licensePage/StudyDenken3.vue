@@ -120,7 +120,7 @@
         <div class="test-img">
           <img
             class="flex-img -right"
-            src="../../assets/img/license_page/denken3/denken3_study_1.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt="電験三種 講習会 通信講座 オンライン講座"
           />
         </div>
