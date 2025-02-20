@@ -473,6 +473,7 @@
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
+              <Merumaga />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -710,6 +711,7 @@
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
+  import Merumaga from "../components/licensePage/Merumaga.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -785,6 +787,7 @@
       FollowUpDoboku,
       TestOverviewDoboku,
       Gansho,
+      Merumaga,
     },
     data() {
       return {
