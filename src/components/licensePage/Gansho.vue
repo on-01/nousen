@@ -51,16 +51,18 @@
 
 <style lang="scss" scoped>
   .gansho {
-    max-width: 720px;
-    margin: 0 auto 40px;
+    max-width: 768px;
+    margin: 0 auto;
     padding: 0 24px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
+    padding-bottom: 40px;
   }
 
   .gansho-content {
     background-color: #fff8cc;
+    padding: 0 24px;
   }
   .gansho-inner {
     padding: 30px 60px;
@@ -84,6 +86,10 @@
     column-gap: 40px;
     margin: 40px auto 0 auto;
     max-width: 95%;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      row-gap: 30px;
+    }
   }
 
   .gansho-box {
@@ -93,6 +99,9 @@
     font-weight: 700;
     text-align: center;
     padding: 5px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .gansho-head {
