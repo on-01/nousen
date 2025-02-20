@@ -468,8 +468,8 @@
       </div>
       <div class="add-wrapper">
         <div class="add-studyWrap">
-          <div class="add-flex">
-            <!-- <figure class="add-flexImg">
+          <!-- <div class="add-flex">
+            <figure class="add-flexImg">
               <img
                 src="../../assets/img/license_page/otoriyose.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
