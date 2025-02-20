@@ -91,7 +91,7 @@
     width: 100%;
     font-family: "Meiryo", sans-serif;
     // margin: 20px auto 0;
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
     z-index: 0;
     position: relative;
     @media print, screen and (max-width: 1000px) {
