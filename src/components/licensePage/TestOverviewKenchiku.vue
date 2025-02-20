@@ -67,13 +67,13 @@
             <th>第二次検定のみ</th>
           </tr>
           <tr>
-            <td bgcolor="#c3def3" color="#006bad">新規受検</td>
+            <td bgcolor="#c3def3" class="c-blue">新規受検</td>
             <td><span>ネット申請</span></td>
             <td><span>書面申請</span></td>
             <td><span>書面申請</span></td>
           </tr>
           <tr>
-            <td bgcolor="#c3def3" color="#006bad">再受検</td>
+            <td bgcolor="#c3def3" class="c-blue">再受検</td>
             <td><span>ネット申請</span></td>
             <td>
               <span>ネット申請</span>
@@ -323,6 +323,8 @@
   }
 
   .test-table-kenchiku {
+    width: 100%;
+    text-align: center;
     border-top: #dfdfdf solid 1px;
     border-left: #dfdfdf solid 1px;
     border-right: #dfdfdf solid 1px;
@@ -335,8 +337,13 @@
     }
 
     td {
+      border-right: #dfdfdf solid 1px;
       border-bottom: #dfdfdf solid 1px;
     }
+  }
+
+  .c-blue {
+    color: #006bad;
   }
 
   .-mt20 {
