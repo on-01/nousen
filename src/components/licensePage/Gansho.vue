@@ -49,7 +49,7 @@
 
 <style lang="scss" scoped>
   .gansho {
-    max-width: 1050px;
+    max-width: 720px;
     background-color: #fff8cc;
     margin: 0 auto;
     padding: 0 24px;
@@ -63,6 +63,7 @@
   }
 
   .gansho-top-text {
+    margin: 0;
     font-weight: 700;
     font-size: 40px;
     span {
@@ -76,11 +77,24 @@
     justify-content: space-between;
     margin-top: 40px;
     column-gap: 40px;
+    margin: 0 auto;
+    max-width: 90%;
   }
 
   .gansho-box {
+    width: 50%;
     background-color: #ed6c00;
     color: white;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .gansho-head {
+    text-decoration: underline;
+  }
+  .gansho-price {
+  }
+  .gansho-text {
   }
 
   .gansho-bottom-text {
