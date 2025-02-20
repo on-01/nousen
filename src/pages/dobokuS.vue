@@ -325,6 +325,7 @@
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
               <!-- <ExamSecond /> -->
               <FollowUpDoboku />
+              <Gansho />
             </div>
 
             <div class="bg-white">
@@ -708,6 +709,7 @@
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
+  import Gansho from "../components/licensePage/Gansho.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -782,6 +784,7 @@
       ExamSecond,
       FollowUpDoboku,
       TestOverviewDoboku,
+      Gansho,
     },
     data() {
       return {
