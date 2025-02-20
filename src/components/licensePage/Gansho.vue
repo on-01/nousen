@@ -1,40 +1,42 @@
 <template>
   <div class="gansho">
-    <div class="gansho-inner">
-      <p class="gansho-top-text">令和7年度</p>
-      <p class="gansho-top-text">
-        <span>願書</span>
-        取り寄せサポート！
-      </p>
-      <div class="gansho-wrap">
-        <div class="gansho-box">
-          <p class="gansho-head">願書代</p>
-          <p class="gansho-price">&yen;０</p>
-          <p class="gansho-text">能センが負担します！</p>
+    <div class="gansho-content">
+      <div class="gansho-inner">
+        <p class="gansho-top-text">令和7年度</p>
+        <p class="gansho-top-text">
+          <span>願書</span>
+          取り寄せサポート！
+        </p>
+        <div class="gansho-wrap">
+          <div class="gansho-box">
+            <p class="gansho-head">願書代</p>
+            <p class="gansho-price">&yen;０</p>
+            <p class="gansho-text">能センが負担します！</p>
+          </div>
+          <div class="gansho-box">
+            <p class="gansho-head">記入サポート</p>
+            <p class="gansho-price">&yen;０</p>
+            <p class="gansho-text">
+              初受験の方への
+              <br />
+              記入アドバイスもします
+            </p>
+          </div>
         </div>
-        <div class="gansho-box">
-          <p class="gansho-head">記入サポート</p>
-          <p class="gansho-price">&yen;０</p>
-          <p class="gansho-text">
-            初受験の方への
-            <br />
-            記入アドバイスもします
-          </p>
-        </div>
+        <p class="gansho-bottom-text">
+          受験願書（一次二次用・二次用）を無料でお送りいたします。
+          <br />
+          ・サイトお申込みフォームからお選びください
+          <br />
+          ・２種類ありますので、申込みの際にお間違えのない様にして下さい
+          <br />
+          ・願書提出期日2日前までに講座をお申込みの方が対象です
+          <br />
+          <span>
+            ※一次試験は願書の提出が不要で、インターネットからのお申込みで手続きが完了します
+          </span>
+        </p>
       </div>
-      <p class="gansho-bottom-text">
-        受験願書（一次二次用・二次用）を無料でお送りいたします。
-        <br />
-        ・サイトお申込みフォームからお選びください
-        <br />
-        ・２種類ありますので、申込みの際にお間違えのない様にして下さい
-        <br />
-        ・願書提出期日2日前までに講座をお申込みの方が対象です
-        <br />
-        <span>
-          ※一次試験は願書の提出が不要で、インターネットからのお申込みで手続きが完了します
-        </span>
-      </p>
     </div>
   </div>
 </template>
@@ -50,12 +52,15 @@
 <style lang="scss" scoped>
   .gansho {
     max-width: 720px;
-    background-color: #fff8cc;
     margin: 0 auto 40px;
     padding: 0 24px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
+  }
+
+  .gansho-content {
+    background-color: #fff8cc;
   }
   .gansho-inner {
     padding: 30px 60px;
