@@ -58,7 +58,7 @@
     font-family: "メイリオ", sans-serif;
   }
   .gansho-inner {
-    padding: 30px;
+    padding: 30px 60px;
     margin: 0 auto;
   }
 
@@ -66,8 +66,9 @@
     margin: 0;
     font-weight: 700;
     font-size: 40px;
+    line-height: 1.2;
     span {
-      font-size: 48px;
+      font-size: 60px;
       color: red;
     }
   }
@@ -75,10 +76,9 @@
   .gansho-wrap {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
     column-gap: 40px;
-    margin: 0 auto;
-    max-width: 90%;
+    margin: 40px auto 0 auto;
+    max-width: 95%;
   }
 
   .gansho-box {
@@ -91,10 +91,16 @@
 
   .gansho-head {
     text-decoration: underline;
+    margin: 0;
+    font-size: 40px;
   }
   .gansho-price {
+    margin: 0;
+    font-size: 60px;
   }
   .gansho-text {
+    margin: 0;
+    font-size: 24px;
   }
 
   .gansho-bottom-text {
