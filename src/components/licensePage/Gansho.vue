@@ -51,7 +51,7 @@
   .gansho {
     max-width: 720px;
     background-color: #fff8cc;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     padding: 0 24px;
     z-index: 0;
     position: relative;
@@ -87,6 +87,7 @@
     color: white;
     font-weight: 700;
     text-align: center;
+    padding: 5px;
   }
 
   .gansho-head {
@@ -96,14 +97,19 @@
   }
   .gansho-price {
     margin: 0;
-    font-size: 60px;
+    font-size: 100px;
+    line-height: 1;
   }
   .gansho-text {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 1.8;
   }
 
   .gansho-bottom-text {
     margin-top: 40px;
+    span {
+      font-weight: 700;
+    }
   }
 </style>
