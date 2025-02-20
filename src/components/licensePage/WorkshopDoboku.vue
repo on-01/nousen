@@ -478,7 +478,7 @@
       </div>
       <div class="add-wrapper">
         <div class="add-studyWrap">
-          <div class="add-flex">
+          <!-- <div class="add-flex">
             <figure class="add-flexImg">
               <img
                 src="../../assets/img/license_page/otoriyose.jpg"
@@ -499,7 +499,7 @@
                 一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します
               </p>
             </div>
-          </div>
+          </div> -->
 
           <div class="workshop-orangeLine -gansho">
             <div class="workshop-orangeLine__inner -gansho">

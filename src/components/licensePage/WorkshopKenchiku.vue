@@ -469,7 +469,7 @@
       <div class="add-wrapper">
         <div class="add-studyWrap">
           <div class="add-flex">
-            <figure class="add-flexImg">
+            <!-- <figure class="add-flexImg">
               <img
                 src="../../assets/img/license_page/otoriyose.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
@@ -489,7 +489,7 @@
                 一次試験は、願書の提出が不要で、インターネットからの申し込みで手続きが完了します
               </p>
             </div>
-          </div>
+          </div> -->
 
           <div class="workshop-orangeLine -gansho">
             <div class="workshop-orangeLine__inner -gansho">

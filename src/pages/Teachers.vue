@@ -4,7 +4,7 @@
       <Hero
         :backImgOver="require('../assets/img/teachers/teachers_hero.jpg')"
         :backImgUnder="require('../assets/img/teachers/teachers_hero_sp.jpg')"
-        title="スーパー講師陣"
+        title="信頼の講師陣"
       />
       <div class="contents">
         <div
@@ -57,64 +57,64 @@ query {
 </static-query>
 
 <script>
-import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
-import Hero from "@/components/Hero.vue";
-import Teacher from "@/components/teachers/Teacher.vue";
-export default {
-  mame: "teachers",
-  metaInfo() {
-    return {
-      titleTemplate: "スーパー講師陣｜能セン-合格への近道",
-      meta: [
-        {
-          name: "description",
-          content:
-            "受験対策講習会を開催しています能センのホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。"
-        },
-        {
-          key: `og:title`,
-          property: `og:title`,
-          content: `スーパー講師陣｜能セン-合格への近道`
-          // content: `講師を知る | ${this.$static.metadata.siteName}`,
-        },
-        {
-          key: `og:url`,
-          property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/teachers`
-        }
-      ]
-    };
-  },
-  components: {
-    Hero,
-    Teacher
-  },
-  methods: {
-    richtextToHTML(content) {
-      //  const richtextString = documentToHtmlString(JSON.parse(content));
-      const richtextString = documentToHtmlString(content)
-        .replace(/\n/g, `</br>`)
-        .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
-      return richtextString;
-    }
-  }
-};
+  import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
+  import Hero from "@/components/Hero.vue";
+  import Teacher from "@/components/teachers/Teacher.vue";
+  export default {
+    mame: "teachers",
+    metaInfo() {
+      return {
+        titleTemplate: "信頼の講師陣｜能セン-合格への近道",
+        meta: [
+          {
+            name: "description",
+            content:
+              "受験対策講習会を開催しています能センのホームページです。能センの講習を担当する自慢の講師陣をご紹介しています。熱意溢れる先生方からのワンポイントアドバイスもございます。",
+          },
+          {
+            key: `og:title`,
+            property: `og:title`,
+            content: `信頼の講師陣｜能セン-合格への近道`,
+            // content: `講師を知る | ${this.$static.metadata.siteName}`,
+          },
+          {
+            key: `og:url`,
+            property: `og:url`,
+            content: `${this.$static.metadata.siteUrl}/teachers`,
+          },
+        ],
+      };
+    },
+    components: {
+      Hero,
+      Teacher,
+    },
+    methods: {
+      richtextToHTML(content) {
+        //  const richtextString = documentToHtmlString(JSON.parse(content));
+        const richtextString = documentToHtmlString(content)
+          .replace(/\n/g, `</br>`)
+          .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
+        return richtextString;
+      },
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.teachers {
-  padding-bottom: 100px;
-}
-.contents {
-  max-width: 950px;
-  width: 100%;
-  margin: 0 auto;
-}
-.teacher-introduce {
-  transform: translateY(100px);
-  transition: transform 0.3s ease-in-out;
-}
-.is-show + .teacher-introduce {
-  transform: translateY(0);
-}
+  .teachers {
+    padding-bottom: 100px;
+  }
+  .contents {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .teacher-introduce {
+    transform: translateY(100px);
+    transition: transform 0.3s ease-in-out;
+  }
+  .is-show + .teacher-introduce {
+    transform: translateY(0);
+  }
 </style>
