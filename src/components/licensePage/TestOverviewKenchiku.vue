@@ -92,6 +92,28 @@
           </tr>
         </table>
       </div>
+      <p class="test-heading">受験手数料</p>
+      <div class="test-wrap -white">
+        <p class="test-text -fz18">
+          第一次検定：12,300円（非課税）
+          <br />
+          第二次検定：12,300円（非課税）
+        </p>
+        <p class="test-text">
+          ※一次二次を同時に申請される場合、第二次検定の受検手数料は、第一次検定合格後にお支払いいただきます。詳細は第一次検定合格通知にてご確認ください
+        </p>
+      </div>
+      <p class="test-heading">試験地</p>
+      <div class="test-wrap -white">
+        <p class="test-text -fz18">
+          札幌・仙台・東京・新潟・名古屋・大阪・広島・高松・福岡・沖縄←文字一個大きく
+          <br />
+          ※会場確保の都合上、やむを得ず近郊の府県等で実施する場合もあります
+        </p>
+        <p class="test-text">
+          ※会場確保の都合上、やむを得ず近郊の府県等で実施する場合もあります
+        </p>
+      </div>
     </div>
   </div>
 </template>
