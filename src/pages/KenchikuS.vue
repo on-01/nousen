@@ -391,6 +391,7 @@
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
               <FollowUpKenchoku />
+              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -759,6 +760,7 @@
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
   import FollowUpKenchoku from "../components/licensePage/FollowUpKenchoku.vue";
   import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
+  import Gansho from "../components/licensePage/Gansho.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -830,6 +832,7 @@
       ExamKenchiku,
       FollowUpKenchoku,
       TestOverviewKenchiku,
+      Gansho,
     },
     data() {
       return {
