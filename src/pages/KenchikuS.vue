@@ -536,6 +536,7 @@
 
               <SupportSecondKenchiku title="ミライを創ろう" />
               <Support title="＼＼建設業を応援しよう／／" />
+              <MerumagaKenchiku />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -761,6 +762,7 @@
   import FollowUpKenchoku from "../components/licensePage/FollowUpKenchoku.vue";
   import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
+  import MerumagaKenchiku from "../components/licensePage/MerumagaKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -833,6 +835,7 @@
       FollowUpKenchoku,
       TestOverviewKenchiku,
       Gansho,
+      MerumagaKenchiku,
     },
     data() {
       return {
