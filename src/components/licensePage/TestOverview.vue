@@ -750,7 +750,7 @@
     @media print, screen and (max-width: 1000px) {
       width: 70%;
     }
-    @media print, screen and (max-width: 768px) {
+    @media print, screen and (max-width: 769px) {
       width: 100%;
     }
 
