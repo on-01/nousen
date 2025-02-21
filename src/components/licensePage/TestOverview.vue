@@ -747,6 +747,12 @@
     border-left: #f4891e solid 1px;
     border-right: #f4891e solid 1px;
     width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 70%;
+    }
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
+    }
 
     tr {
       border-bottom: #f4891e solid 1px;
