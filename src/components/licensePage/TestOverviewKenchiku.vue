@@ -339,6 +339,15 @@
     td {
       border-right: #dfdfdf solid 1px;
       border-bottom: #dfdfdf solid 1px;
+      padding: 10px;
+      font-weight: 700;
+
+      span {
+        background-color: #286d45;
+        color: white;
+        padding: 5px 16px;
+        border-radius: 5px;
+      }
     }
   }
 
