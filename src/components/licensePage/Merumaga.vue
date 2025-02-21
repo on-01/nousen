@@ -86,7 +86,7 @@
   }
   .merumaga {
     margin: 0 auto;
-    padding: 1em 4rem 2rem;
+    padding: 2em 4rem;
     max-width: 942px;
     background-color: white;
     @media print, screen and (max-width: 1000px) {
@@ -98,12 +98,15 @@
     font-size: 28px;
     margin: 0;
     position: relative;
+    font-weight: 700;
+    text-align: center;
   }
 
   .merumaga-title::after {
+    position: absolute;
     content: "";
-    width: 300px;
-    height: 3px;
+    width: 200px;
+    height: 4px;
     background: #ed6c00;
     bottom: 0;
     left: 50%;
@@ -122,5 +125,16 @@
   .merumaga-form {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+
+    img {
+      width: 60px;
+      margin-right: 10px;
+    }
+  }
+
+  form {
+    display: flex;
+    align-items: center;
   }
 </style>
