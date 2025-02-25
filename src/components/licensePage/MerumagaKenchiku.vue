@@ -7,13 +7,17 @@
           能センのメールマガジンでは、2級建築施工管理技士に関する最新情報や試験対策、勉強法、申請手続きなど、資格取得に役立つ様々な情報を定期的にお届けします。
           <br />
           <br />
-          <span>試験情報</span>：最新の試験日程や受験資格、申請方法について
+          <span>試験情報</span>
+          ：最新の試験日程や受験資格、申請方法について
           <br />
-          <span>試験対策</span>：効果的な学習方法や過去問、模擬試験などの勉強リソース
+          <span>試験対策</span>
+          ：効果的な学習方法や過去問、模擬試験などの勉強リソース
           <br />
-          <span>資格取得のメリット</span>：資格取得後のキャリアアップや転職活動に役立つ情報
+          <span>資格取得のメリット</span>
+          ：資格取得後のキャリアアップや転職活動に役立つ情報
           <br />
-          <span>キャンペーン情報</span>：教材や通信講座の割引情報、講習会のご案内など
+          <span>キャンペーン情報</span>
+          ：教材や通信講座の割引情報、講習会のご案内など
           <br />
           <br />
           このメールマガジンを購読することで、2級建築施工管理技士の資格取得を目指す方々にとって有益な情報をいち早くキャッチし、スムーズに目標を達成する手助けとなります。
@@ -33,7 +37,11 @@
             accept-charset="UTF-8"
           >
             <input type="text" name="add_mail" />
-            <input type="button" value="登録する" @click="submitForm" />
+            <input
+              type="button"
+              value="登録する"
+              onClick="MLFormSubmitOnlyIn('登録する');"
+            />
             <br />
             <input type="hidden" name="sb_reg" value="" />
             <br />
@@ -46,24 +54,21 @@
 </template>
 
 <script>
-  export default {
-    methods: {
-      submitForm() {
-        const form = document.forms["ml_form_only_in"];
-        form.target = "tml_form";
-        form.sb_reg.value = "登録する";
-        const orgCharset = document.charset;
-        document.charset = "UTF-8";
-        window.open(
-          "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
-          "tml_form",
-          "width=400,height=300,menubar=no,toolbar=no"
-        );
-        form.submit();
-        document.charset = orgCharset;
-      },
-    },
-  };
+  function MLFormSubmitOnlyIn(strButton) {
+    var obj;
+    obj = window.open(
+      "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
+      "tml_form",
+      "width=400,height=300,menubar=no,toolbar=no"
+    );
+    document.ml_form_only_in.target = "tml_form";
+    document.ml_form_only_in.sb_reg.value = strButton;
+
+    org = document.charset;
+    document.charset = "UTF-8";
+    document.ml_form_only_in.submit();
+    document.charset = org;
+  }
 </script>
 
 <style lang="scss" scoped>
