@@ -104,6 +104,8 @@ query {
     background-color: white;
     font-family: "メイリオ", sans-serif;
     padding: 30px 0;
+    margin: 0 auto;
+    max-width: 580px;
   }
 
   .thanks-title {
@@ -113,14 +115,16 @@ query {
     position: relative;
     line-height: 1.5;
     font-weight: 700;
+    text-align: center;
   }
 
   .thanks-title::after {
     position: absolute;
     content: "";
     height: 2px;
-    width: 100%;
+    width: 87%;
     background: gray;
+    opacity: 0.5;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
