@@ -536,7 +536,7 @@
 
               <SupportSecondKenchiku title="ミライを創ろう" />
               <Support title="＼＼建設業を応援しよう／／" />
-              <MerumagaKenchiku />
+              <!-- <MerumagaKenchiku /> -->
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
