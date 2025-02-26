@@ -133,7 +133,7 @@
   .quality-header {
     display: flex;
     font-weight: bold;
-    background-color: #249ef0;
+    background-color: #1262b2;
     color: #fff;
     padding: 0 12px;
     position: relative;
@@ -187,7 +187,7 @@
   .quality-line {
     width: 20%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 16px auto;
     border-radius: 8px;
   }

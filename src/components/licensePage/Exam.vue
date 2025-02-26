@@ -156,7 +156,7 @@
   .exam-line {
     width: 20%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 20px auto;
     border-radius: 8px;
   }
@@ -242,7 +242,7 @@
   .exam-bottom-line {
     width: 40%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 10px auto;
     border-radius: 8px;
   }
