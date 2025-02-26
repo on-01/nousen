@@ -152,7 +152,7 @@
     font-size: 28px;
     color: white;
     text-align: center;
-    background-color: #1da1f2;
+    background-color: #1262b2;
     padding: 1rem;
     line-height: 1.3;
     margin: 0 auto 40px;
@@ -242,7 +242,7 @@
     color: black;
     text-align: center;
     background-color: white;
-    border: solid 3px #1da1f2;
+    border: solid 3px #1262b2;
     padding: 10px;
     line-height: 1.3;
     margin: 0 auto;
