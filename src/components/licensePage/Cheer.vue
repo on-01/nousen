@@ -109,7 +109,7 @@
   .cheer-line {
     width: 50%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 0 auto 20px;
     border-radius: 8px;
   }
@@ -146,8 +146,8 @@
     }
   }
   .application-link.-blue {
-    background-color: #00a2e8;
-    border: 3px solid #00a2e8;
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
   }
 
   @media print, screen and (max-width: 1200px) {
@@ -196,7 +196,7 @@
   }
 
   .denken3 .cheer {
-    border-bottom: 5px solid #1d9bf0;
+    border-bottom: 5px solid #1262b2;
   }
 
   .exam-link-wrapper {

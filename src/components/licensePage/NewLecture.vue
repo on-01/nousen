@@ -138,7 +138,7 @@
   .lecture-line {
     width: 20%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 20px auto 20px;
     border-radius: 8px;
   }
@@ -208,7 +208,7 @@
     text-align: center;
     color: #fff;
     // border: 2px solid #1da1f2;
-    background-color: #1da1f2;
+    background-color: #1262b2;
     padding: 8px 0;
     margin: 36px 0 12px;
   }

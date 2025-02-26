@@ -84,7 +84,7 @@
   .fsc-line {
     width: 10%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 10px auto 0;
     border-radius: 8px;
   }

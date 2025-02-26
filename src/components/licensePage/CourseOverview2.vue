@@ -319,7 +319,7 @@
   .courseOverview-line {
     width: 10%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 20px auto;
     border-radius: 8px;
   }

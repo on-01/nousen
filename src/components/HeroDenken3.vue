@@ -115,7 +115,7 @@
     border-radius: 8px;
     color: #000;
     padding: 0.8em 95px;
-    border: 6px solid #1d9bf0;
+    border: 6px solid #1262b2;
     @media print, screen and (max-width: 1000px) {
       padding: 1em;
     }

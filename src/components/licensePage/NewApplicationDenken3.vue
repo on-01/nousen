@@ -83,8 +83,8 @@
     }
   }
   .application-link.-blue {
-    background-color: #00a2e8;
-    border: 3px solid #00a2e8;
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
   }
 
   .application-link.-right {
