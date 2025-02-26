@@ -1514,9 +1514,9 @@ query {
     }
   }
   .denken {
-    color: #1d9bf0;
+    color: #1262b2;
     span {
-      background-color: #1d9bf0;
+      background-color: #1262b2;
     }
   }
   .denkikouji {

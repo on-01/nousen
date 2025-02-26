@@ -209,7 +209,7 @@
     // border-top: 2px solid #f4f0ed;
     margin-bottom: 20px;
     position: relative;
-    border-top: 5px solid #1d9bf0;
+    border-top: 5px solid #1262b2;
   }
   .denken3-template .main-footer {
     border-top: none;
