@@ -357,7 +357,7 @@
     font-weight: 700;
     text-align: center;
     margin: 30px 20px 0;
-    border-bottom: solid 3px #249ef0;
+    border-bottom: solid 3px #1262b2;
   }
 
   .book-wrap {
@@ -526,7 +526,7 @@
   .lecture-line {
     width: 20%;
     height: 4px;
-    background: #249ef0;
+    background: #1262b2;
     margin: 20px auto 20px;
     border-radius: 8px;
   }

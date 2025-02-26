@@ -52,11 +52,11 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #1da1f2;
+    background-color: #1262b2;
     padding: 1rem;
     text-align: center;
     margin: 0;
-    box-shadow: 0px 5px 1px rgba(0, 107, 173, 1);
+    // box-shadow: 0px 5px 1px rgba(0, 107, 173, 1);
     @media print, screen and (max-width: 560px) {
       font-size: 20px;
     }

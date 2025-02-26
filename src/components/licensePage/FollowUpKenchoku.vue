@@ -102,7 +102,7 @@
 
   .follow-content {
     padding: 20px;
-    border: 4px solid #7f7f7f;
+    border: 4px solid #1262b2;
   }
 
   .follow-title {
