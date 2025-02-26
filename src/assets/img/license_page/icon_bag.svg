@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21.61"><title>アセット 12x@a</title><g id="レイヤー_2" data-name="レイヤー 2"><g id="contents"><rect y="6.5" width="24" height="15.11" style="fill:#1D9BF0"/><path d="M7,8.61V3.44A2.44,2.44,0,0,1,9.44,1h5.12A2.44,2.44,0,0,1,17,3.44V7.83" style="fill:none;stroke:#1D9BF0;stroke-miterlimit:10;stroke-width:2px"/><line y1="13" x2="24" y2="13" style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21.61">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #1262b2;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #1262b2;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2" data-name="レイヤー 2">
+    <g id="contents">
+      <rect class="cls-3" y="6.5" width="24" height="15.11"/>
+      <path class="cls-1" d="M7,8.61V3.44c0-1.35,1.09-2.44,2.44-2.44h5.12c1.35,0,2.44,1.09,2.44,2.44,0,0,0,0,0,0v4.39"/>
+      <line class="cls-2" y1="13" x2="24" y2="13"/>
+    </g>
+  </g>
+</svg>
