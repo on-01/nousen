@@ -544,11 +544,11 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #1da1f2;
+    background-color: #1262b2;
     padding: 1rem;
     text-align: center;
-    -webkit-box-shadow: 0 5px 1px #006bad;
-    box-shadow: 0 5px 1px #006bad;
+    // -webkit-box-shadow: 0 5px 1px #006bad;
+    // box-shadow: 0 5px 1px #006bad;
     margin-top: 0;
     max-width: 1175px;
     margin-left: auto;
@@ -1034,7 +1034,7 @@
     // border: 2px solid #1da1f2;
     padding: 8px 0;
     margin: 0 0 12px;
-    background: #1da1f2;
+    background: #1262b2;
     color: #ffffff;
   }
 
