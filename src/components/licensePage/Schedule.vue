@@ -279,7 +279,7 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #1da1f2;
+    background-color: #1262b2;
     padding: 1rem;
     text-align: center;
     -webkit-box-shadow: 0 5px 1px #006bad;
@@ -309,7 +309,7 @@
     margin: 0 auto;
   }
   .schedule-th {
-    background: #249ef0;
+    background: #1262b2;
     color: #fff;
     padding-top: 20px;
     border-bottom: 1px solid #000;
@@ -413,7 +413,7 @@
 
   .bottomTable__text.-blue {
     width: 20%;
-    background: #249ef0;
+    background: #1262b2;
     color: #fff;
     padding-top: 5px;
     font-size: 20px;
@@ -423,9 +423,9 @@
   .bottomTable__text.-center {
     width: 41%;
     border-left: none;
-    a {
-      text-decoration: underline;
-    }
+    // a {
+    //   text-decoration: underline;
+    // }
   }
 
   .bottomTable__text.-bottom {
