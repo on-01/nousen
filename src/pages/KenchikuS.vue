@@ -884,20 +884,20 @@
   .header {
     background-color: #fff8cc;
     // border-bottom: 5px solid #ed7d31;
-    border-bottom: 5px solid #1d9bf0;
+    border-bottom: 5px solid #1262b2;
   }
   .exam-link-wrapper {
     text-align: center;
     padding: 60px 0 20px 0;
     display: flex;
     flex-direction: column;
-    // border-bottom: 5px solid #1d9bf0;
+    // border-bottom: 5px solid #1262b2;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 20px 0;
     }
   }
   // .exam-link-wrapper.-border {
-  //   border-bottom: 5px solid #1d9bf0;
+  //   border-bottom: 5px solid #1262b2;
   // }
   .exam-link,
   .application-form-link,
@@ -918,7 +918,7 @@
   }
   .exam-link {
     width: 300px;
-    background-color: #1d9bf0;
+    background-color: #1262b2;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;
@@ -974,7 +974,7 @@
       // background-color: #f2f2f2;
       // background-color: #fff7d5;
       background-color: #ebf7ff;
-      border: 5px solid #1d9bf0;
+      border: 5px solid #1262b2;
       // border: 5px solid #ed7d31;
       border-radius: 20px;
       border-bottom-left-radius: 0;
@@ -1093,7 +1093,7 @@
         content: "";
         width: 70px;
         // border-bottom: 5px solid #ed7d31;
-        border-bottom: 5px solid #1d9bf0;
+        border-bottom: 5px solid #1262b2;
         display: block;
         margin: 0 auto;
         margin-top: 10px;
