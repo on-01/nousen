@@ -1,10 +1,16 @@
 <template>
   <div class="quality">
     <div class="quality-wrap">
-      <div class="quality-topTextWrap">
-        <p class="quality-topText">人材開発支援助成金</p>
-        <p class="quality-topText">人材育成支援コース 対象講座</p>
-      </div>
+      <a
+        href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="quality-topTextWrap">
+          <p class="quality-topText">人材開発支援助成金</p>
+          <p class="quality-topText">人材育成支援コース 対象講座</p>
+        </div>
+      </a>
       <p class="quality-mainTitle">
         短期間で合格する
         <br />
