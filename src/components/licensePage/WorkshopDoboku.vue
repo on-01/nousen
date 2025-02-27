@@ -1450,6 +1450,7 @@
       padding: 5px;
       text-align: left;
       vertical-align: text-top;
+      width: 32%;
     }
 
     td {
