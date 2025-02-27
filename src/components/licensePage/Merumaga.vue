@@ -37,7 +37,7 @@
             accept-charset="UTF-8"
           >
             <input type="text" name="add_mail" />
-            <input type="button" value="登録する" @click="submitForm" />
+            <input type="button" value="登録する" @click="MLFormSubmitOnlyIn" />
             <br />
             <input type="hidden" name="sb_reg" value="" />
             <br />
@@ -52,7 +52,7 @@
 <script>
   export default {
     methods: {
-      submitForm() {
+      MLFormSubmitOnlyIn() {
         const form = document.forms["ml_form_only_in"];
         form.target = "tml_form";
         form.sb_reg.value = "登録する";
