@@ -87,7 +87,7 @@
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                 </g-link>
               </div>
-
+              <MeritDenken3 />
               <StudyDenken3 />
               <!-- <Study
                 studySlug="denken"
@@ -637,6 +637,7 @@
   import RecommendLink from "../components/licensePage/RecommendLink.vue";
   import TestOverview from "../components/licensePage/TestOverview.vue";
   import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
+  import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -711,6 +712,7 @@
       RecommendLink,
       TestOverview,
       StudyDenken3,
+      MeritDenken3,
     },
     data() {
       return {
