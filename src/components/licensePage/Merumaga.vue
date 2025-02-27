@@ -50,62 +50,6 @@
   </section>
 </template>
 
-<!-- <script>
-  export default {
-    methods: {
-      MLFormSubmitOnlyIn() {
-        const form = document.forms["ml_form_only_in"];
-        form.target = "tml_form";
-        form.sb_reg.value = "登録する";
-        const orgCharset = document.charset;
-        document.charset = "UTF-8";
-        window.open(
-          "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
-          "tml_form",
-          "width=400,height=300,menubar=no,toolbar=no"
-        );
-        form.submit();
-        document.charset = orgCharset;
-      },
-    },
-  };
-</script> -->
-
-<!-- <script>
-  function MLFormSubmitOnlyIn(strButton) {
-    var obj;
-    obj = window.open(
-      "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
-      "tml_form",
-      "width=400,height=300,menubar=no,toolbar=no"
-    );
-    document.ml_form_only_in.target = "tml_form";
-    document.ml_form_only_in.sb_reg.value = strButton;
-
-    var org = document.charset;
-    document.charset = "UTF-8";
-    document.ml_form_only_in.submit();
-    document.charset = org;
-  }
-</script> -->
-
-<!-- <script>
-  function MLFormSubmitOnlyIn(strButton) {
-    var obj;
-    obj = window.open(
-      "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
-      "tml_form",
-      "width=400,height=300,menubar=no,toolbar=no"
-    );
-    document.ml_form_only_in.target = "tml_form";
-    document.ml_form_only_in.sb_reg.value = strButton;
-
-    org = document.charset;
-    document.charset = "UTF-8";
-    document.ml_form_only_in.submit();
-    document.charset = org;
-  }
-</script> -->
 <script>
   export default {
     data() {
