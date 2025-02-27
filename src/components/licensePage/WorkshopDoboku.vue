@@ -750,6 +750,7 @@
                     <span>再受講割引が適用</span>
                     <br />
                     ・その他
+                    <br />
                     <span class="-red">【合格応援割引制度】</span>
                     あり
                   </td>
@@ -1411,7 +1412,8 @@
   .workshopTable-title {
     text-align: center;
     color: white;
-    padding: 5px 0;
+    font-weight: 700;
+    padding: 8px 0;
     font-size: 28px;
     line-height: 1.5;
     margin: 0;
@@ -1439,6 +1441,8 @@
       border-right: solid 1px black;
       border-bottom: solid 1px black;
       padding: 5px;
+      text-align: center;
+      vertical-align: text-top;
     }
 
     td {
