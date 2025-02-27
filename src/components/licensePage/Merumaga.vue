@@ -37,14 +37,17 @@
             accept-charset="UTF-8"
           >
             <input type="text" name="add_mail" />
+
             <input
               type="button"
               value="登録する"
-              onclick="MLFormSubmitOnlyIn('登録する');"
+              onClick="MLFormSubmitOnlyIn('登録する');"
             />
             <br />
+
             <input type="hidden" name="sb_reg" value="" />
             <br />
+
             <input type="hidden" name="identity" value="*TWDtQn;" />
           </form>
         </div>
@@ -74,7 +77,7 @@
   };
 </script> -->
 
-<script>
+<!-- <script>
   function MLFormSubmitOnlyIn(strButton) {
     var obj;
     obj = window.open(
@@ -86,6 +89,24 @@
     document.ml_form_only_in.sb_reg.value = strButton;
 
     var org = document.charset;
+    document.charset = "UTF-8";
+    document.ml_form_only_in.submit();
+    document.charset = org;
+  }
+</script> -->
+
+<script>
+  function MLFormSubmitOnlyIn(strButton) {
+    var obj;
+    obj = window.open(
+      "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
+      "tml_form",
+      "width=400,height=300,menubar=no,toolbar=no"
+    );
+    document.ml_form_only_in.target = "tml_form";
+    document.ml_form_only_in.sb_reg.value = strButton;
+
+    org = document.charset;
     document.charset = "UTF-8";
     document.ml_form_only_in.submit();
     document.charset = org;
