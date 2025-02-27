@@ -98,7 +98,7 @@
   .test {
     width: 100%;
     background-color: #eaf7ff;
-    margin: 0 auto;
+    margin: 0 auto 40px;
     z-index: 0;
     position: relative;
     font-family: "Meiryo", sans-serif;
