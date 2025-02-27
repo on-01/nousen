@@ -30,24 +30,18 @@
             alt="建築施工管理技士 講習会 通信講座 web講座"
           />
           <form
-            name="ml_form_only_in"
-            id="ml_form_only_in"
+            ref="mlForm"
             method="post"
             action="http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php?page=MailReg"
             accept-charset="UTF-8"
           >
-            <input type="text" name="add_mail" />
-
+            <input type="text" v-model="email" name="add_mail" />
             <input
               type="button"
               value="登録する"
-              onClick="MLFormSubmitOnlyIn('登録する');"
+              @click="MLFormSubmitOnlyIn('登録する')"
             />
-            <br />
-
-            <input type="hidden" name="sb_reg" value="" />
-            <br />
-
+            <input type="hidden" name="sb_reg" v-model="sbReg" />
             <input type="hidden" name="identity" value="*TWDtQn;" />
           </form>
         </div>
@@ -95,7 +89,7 @@
   }
 </script> -->
 
-<script>
+<!-- <script>
   function MLFormSubmitOnlyIn(strButton) {
     var obj;
     obj = window.open(
@@ -111,6 +105,32 @@
     document.ml_form_only_in.submit();
     document.charset = org;
   }
+</script> -->
+<script>
+  export default {
+    data() {
+      return {
+        email: "",
+        sbReg: "",
+      };
+    },
+    methods: {
+      MLFormSubmitOnlyIn(strButton) {
+        this.sbReg = strButton;
+
+        // 新しいウィンドウを開く
+        const formWindow = window.open(
+          "http://xs003050.xsrv.jp/xmailinglist/nousen_news7/mail.php",
+          "tml_form",
+          "width=400,height=300,menubar=no,toolbar=no"
+        );
+
+        // フォームを送信
+        this.$refs.mlForm.target = "tml_form";
+        this.$refs.mlForm.submit();
+      },
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
