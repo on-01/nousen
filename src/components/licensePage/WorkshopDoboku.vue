@@ -1404,9 +1404,15 @@
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
-  .workshopTable-wrapper {
+  .workshopTable-wrapper:not(:first-of-type) {
+    @media print, screen and (max-width: 1000px) {
+      margin: 40px 0;
+    }
   }
 
   .workshopTable-title {
@@ -1431,6 +1437,7 @@
     border-top: solid 1px black;
     border-right: solid 1px black;
     border-left: solid 1px black;
+    margin-top: 20px;
 
     tr {
     }
@@ -1441,7 +1448,7 @@
       border-right: solid 1px black;
       border-bottom: solid 1px black;
       padding: 5px;
-      text-align: center;
+      text-align: left;
       vertical-align: text-top;
     }
 
