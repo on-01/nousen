@@ -473,7 +473,7 @@
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
-              <!-- <MerumagaDoboku /> -->
+              <MerumagaDoboku />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
