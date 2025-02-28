@@ -590,6 +590,10 @@
     @media print, screen and (max-width: 1110px) {
       width: 90%;
     }
+
+    a {
+      color: #1da1f2;
+    }
   }
 
   .test-inner {
