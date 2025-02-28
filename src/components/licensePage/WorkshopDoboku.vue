@@ -750,9 +750,9 @@
                     <span>再受講割引が適用</span>
                     <br />
                     ・その他
-                    <br />
                     <span class="-red">【合格応援割引制度】</span>
                     あり
+                    <br />
                   </td>
                 </tr>
                 <tr>
