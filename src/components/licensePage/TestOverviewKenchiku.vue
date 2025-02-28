@@ -28,7 +28,7 @@
           施工管理技士は、工事品質の確保と、許可の取得や工事の受注に直結する、建設業にとって重要な国家資格となっています。
         </p>
       </div>
-      <p class="test-title">1級 建築施工管理技士技術検定</p>
+      <p class="test-title -mb0">1級 建築施工管理技士技術検定</p>
       <div class="test-wrap -white">
         <p class="test-index">1級建築施工管理技士技術検定とは</p>
         <p class="test-text">
@@ -361,6 +361,10 @@
   }
   .-ml10 {
     margin-left: 10px;
+  }
+
+  .-mb0 {
+    margin-bottom: 0;
   }
 
   .-first {
