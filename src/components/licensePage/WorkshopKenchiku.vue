@@ -743,6 +743,7 @@
                     <span class="-red">【合格応援割引制度】</span>
                     あり
                     <br />
+                    &emsp;
                   </td>
                 </tr>
                 <tr>
