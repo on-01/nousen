@@ -91,6 +91,45 @@
             </td>
           </tr>
         </table>
+        <p class="test-text -mt20">
+          <span>■インターネット申込み方法</span>
+          <br />
+          1.
+          <a
+            href="https://www.kensetsu-kikin.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般財団法人 建設業振興基金
+          </a>
+          にアクセスする
+          <br />
+          2.申込画面で必要事項を入力する
+          <br />
+          3.受験手数料を支払う（個人申請の場合、クレジットカード・コンビニ払い選択可）br
+          4.試験日の約2週間前に受験票が郵送される
+          <br />
+          <br />
+          <span>■書面申込み方法</span>
+          <br />
+          1.受験案内 / 願書を入手する　願書の入手方法は
+          <a
+            href="https://www.kensetsu-kikin.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般財団法人 建設業振興基金
+          </a>
+          のサイトでご確認ください。
+          <br />
+          2.受験申込書を記入する
+          <br />
+          3.受験手数料を納付する（ゆうちょ銀行で支払い）
+          <br />
+          4.郵送にて願書を提出
+          <br />
+          5.試験日の約2週間前に受験票が郵送される
+        </p>
       </div>
       <p class="test-heading">受験手数料</p>
       <div class="test-wrap -white">
@@ -135,6 +174,10 @@
     font-size: 16px;
     @media print, screen and (max-width: 1110px) {
       width: 90%;
+    }
+
+    a {
+      color: #1da1f2;
     }
   }
 
