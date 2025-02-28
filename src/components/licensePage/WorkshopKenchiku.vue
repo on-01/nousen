@@ -512,6 +512,281 @@
             </div>
           </div>
         </div>
+        <div class="workshop-table workshopTable">
+          <div class="workshopTable-content">
+            <div class="workshopTable-wrapper">
+              <p class="workshopTable-title -orange">通学講座（講習会）</p>
+              <table class="workshopTable-box">
+                <tr>
+                  <th>講習日程</th>
+                  <td>
+                    一次：4月26日(土)～27日(日)9:30～17:00
+                    <br />
+                    二次：9月14日(日)9:30～16:00
+                  </td>
+                </tr>
+                <tr>
+                  <th>講習場所</th>
+                  <td>
+                    練馬産業会館（2階）
+                    <br />
+                    西武池袋線「桜台」駅 南口 徒歩5分
+                    <br />
+                    西武池袋線「練馬」駅 南口 徒歩6分
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    受講料
+                    <br />
+                    （消費税・教材・添削費・送料込み）
+                  </th>
+                  <td>
+                    42,000円（税込46,200円）：一次・二次セット
+                    <br />
+                    34,000円（税込37,400円）：一次コース
+                    <br />
+                    16,500円（税込18,150円）：二次コース
+                  </td>
+                </tr>
+                <tr>
+                  <th>カリキュラム</th>
+                  <td>
+                    ・学習と範囲別の課題に取り組み実力をつける
+                    <br />
+                    ・合格点の60点を超える力を身につける
+                  </td>
+                </tr>
+                <tr>
+                  <th>教材/資料</th>
+                  <td>
+                    ・2級土木施工管理技士 要点テキスト
+                    <br />
+                    ・一次検定 予想模擬試験 問題 / 解答解説
+                    <br />
+                    ・一次検定 提出課題
+                    <br />
+                    ・二次試験対策㊙経験記述例
+                    <br />
+                    ・二次試験問題 出題方式の変更に係る記述方法
+                    <br />
+                    ・経験記述の添削（1回分 別途追加可能）
+                    <br />
+                    ・過去問題5年分
+                    <br />
+                    ・勉強計画表
+                    <br />
+                    ・試験日程一覧
+                    <br />
+                    ・二次試験問題 出題方式の変更に係る記述方法
+                    <br />
+                    ・旧二次テキスト
+                    <span class="-red">(プレゼント)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><span class="-red">建設業を応援しよう</span></th>
+                  <td>
+                    ご希望の方に進呈
+                    <br />
+                    ■みんなの建設業Q&A50
+                    <br />
+                    ■建設産業ガイドブック
+                  </td>
+                </tr>
+                <tr>
+                  <th>サポート体制</th>
+                  <td>
+                    ・会場でのご質問対応
+                    <br />
+                    ・メール・お電話でも質問対応
+                    <br />
+                    ・当日欠席してオンライン通信講座に無料振替
+                    <br />
+                    ・万が一不合格の場合は
+                    <span>再受講割引が適用</span>
+                    <br />
+                    ・その他
+                    <span class="-red">【合格応援割引制度】</span>
+                    あり
+                  </td>
+                </tr>
+                <tr>
+                  <th>勉強を続けられる工夫</th>
+                  <td>
+                    <span>勉強計画表</span>
+                    ：1日でどこまで進めるか計画して、それを達成できたかをチェック
+                    <br />
+                    <span>リマインドメールサービス</span>
+                    ：試験の90日前、60日前、30日前、10日前に進捗状況をサポートするメールをお届け
+                  </td>
+                </tr>
+                <tr>
+                  <th><span class="-red">お得なキャンペーン</span></th>
+                  <td>
+                    ・
+                    <a
+                      href="https://page.line.me/947ygtge?openQrModal=true"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      LINEお友達登録
+                    </a>
+                    で５００円割引キャンペーン（他割引と併用可）
+                    <br />
+                    ・
+                    <a
+                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      人材開発支援助成金
+                    </a>
+                    （人材育成支援コース）
+                    <br />
+                    ・その他
+                    <span class="-red">【創業支援割引制度】</span>
+                    あり
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="workshopTable-wrapper">
+              <p class="workshopTable-title -blue">オンライン通信講座</p>
+              <table class="workshopTable-box">
+                <tr>
+                  <th>配信日程</th>
+                  <td>
+                    一次：5月2日(金)～10月31日(金)まで
+                    <br />
+                    二次：9月18日(木)～10月31日(金)まで
+                  </td>
+                </tr>
+                <tr>
+                  <th>配信環境</th>
+                  <td>
+                    PC、タブレット、スマホ
+                    <br />
+                    インターネット接続環境があれば、いつでも、どこでも、何度でも最良の講義が受講できます。
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    受講料
+                    <br />
+                    （消費税・教材・添削費・送料込み）
+                  </th>
+                  <td>
+                    39,000円（税込42,900円）：一次・二次セット
+                    <br />
+                    31,000円（税込34,100円）：一次コース
+                    <br />
+                    16,500円（税込18,150円）：二次コース
+                  </td>
+                </tr>
+                <tr>
+                  <th>カリキュラム</th>
+                  <td>
+                    ・学習と範囲別の課題に取り組み実力をつける
+                    <br />
+                    ・合格点の60点を超える力を身につける
+                  </td>
+                </tr>
+                <tr>
+                  <th>教材/資料</th>
+                  <td>
+                    ・2級土木施工管理技士 要点テキスト
+                    <br />
+                    ・一次検定 予想模擬試験 問題 / 解答解説
+                    <br />
+                    ・一次検定 提出課題
+                    <br />
+                    ・二次試験対策㊙経験記述例
+                    <br />
+                    ・二次試験問題 出題方式の変更に係る記述方法
+                    <br />
+                    ・経験記述の添削（1回分 別途追加可能）
+                    <br />
+                    ・過去問題5年分
+                    <br />
+                    ・勉強計画表
+                    <br />
+                    ・試験日程一覧
+                    <br />
+                    ・二次試験問題 出題方式の変更に係る記述方法
+                    <br />
+                    ・旧二次テキスト
+                    <span class="-red">(プレゼント)</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><span class="-red">建設業を応援しよう</span></th>
+                  <td>
+                    ご希望の方に進呈
+                    <br />
+                    ■みんなの建設業Q&A50
+                    <br />
+                    ■建設産業ガイドブック
+                  </td>
+                </tr>
+                <tr>
+                  <th>サポート体制</th>
+                  <td>
+                    ・過去に撮影した動画が見放題
+                    <br />
+                    ・メール・お電話で質問対応
+                    <br />
+                    ・万が一不合格の場合は
+                    <span>再受講割引が適用</span>
+                    <br />
+                    ・その他
+                    <br />
+                    <span class="-red">【合格応援割引制度】</span>
+                    あり
+                  </td>
+                </tr>
+                <tr>
+                  <th>勉強を続けられる工夫</th>
+                  <td>
+                    <span>勉強計画表</span>
+                    ：1日でどこまで進めるか計画して、それを達成できたかをチェック
+                    <br />
+                    <span>リマインドメールサービス</span>
+                    ：試験の90日前、60日前、30日前、10日前に進捗状況をサポートするメールをお届け
+                  </td>
+                </tr>
+                <tr>
+                  <th><span class="-red">お得なキャンペーン</span></th>
+                  <td>
+                    ・
+                    <a
+                      href="https://page.line.me/947ygtge?openQrModal=true"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      LINEお友達登録
+                    </a>
+                    で５００円割引キャンペーン（他割引と併用可）
+                    <br />
+                    ・
+                    <a
+                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      人材開発支援助成金
+                    </a>
+                    （人材育成支援コース）
+                    <br />
+                    ・その他
+                    <span class="-red">【創業支援割引制度】</span>
+                    あり
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1112,6 +1387,76 @@
       img {
         width: 50%;
       }
+    }
+  }
+  .workshop-table {
+    overflow-x: scroll;
+  }
+
+  .workshopTable-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
+  }
+
+  .workshopTable-wrapper:not(:first-of-type) {
+    @media print, screen and (max-width: 1000px) {
+      margin: 40px 0;
+    }
+  }
+
+  .workshopTable-title {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 8px 0;
+    font-size: 28px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .workshopTable-title.-orange {
+    background-color: #f4891e;
+  }
+
+  .workshopTable-title.-blue {
+    background-color: #1262b2;
+  }
+
+  .workshopTable-box {
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    margin-top: 20px;
+
+    tr {
+    }
+
+    th {
+      background-color: #fff8cc;
+      font-weight: 700;
+      border-right: solid 1px black;
+      border-bottom: solid 1px black;
+      padding: 5px;
+      text-align: left;
+      vertical-align: text-top;
+      width: 32%;
+    }
+
+    td {
+      border-bottom: solid 1px black;
+      padding: 5px;
+    }
+
+    span {
+      font-weight: 700;
+    }
+
+    .-red {
+      color: red;
     }
   }
 
