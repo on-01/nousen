@@ -2,7 +2,6 @@
   <div class="schedule">
     <p class="schedule-title">{{ title }}</p>
     <div class="schedule-inner">
-      <div class="schedule-line"></div>
       <!-- <p class="schedule-tableTitle">
         令和６年度　第三種電気主任技術者　各種日程
       </p> -->
@@ -177,7 +176,7 @@
   .schedule-inner {
     // padding: 20px 0 20px 10px;
     // padding: 40px 0 40px 10px;
-    padding: 60px 10px 60px 10px;
+    padding: 40px 10px 60px 10px;
     // max-width: 1012px;
     max-width: 930px;
     // width: 100%;
@@ -223,7 +222,7 @@
   .schedule-th {
     background: #1262b2;
     color: #fff;
-    padding-top: 2px;
+    padding: 6.5px 0;
     border-bottom: 1px solid #000;
     font-size: 20px;
   }
@@ -332,6 +331,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 6px 0;
   }
 
   .bottomTable__text {
