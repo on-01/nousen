@@ -1,7 +1,7 @@
 <template>
   <div class="test">
     <div class="test-inner">
-      <p class="test-title">験三種を取得するメリット・デメリット</p>
+      <p class="test-title">電験三種を取得するメリット・デメリット</p>
       <div class="test-wrap -white">
         <p class="test-text">
           電験三種の取得メリットについては、細かく書くと沢山出てきます。
@@ -17,7 +17,9 @@
           <br />
           常に求人募集している
           <br />
-          長期的に食べていけるbr 将来的に人手不足が見込まれる
+          長期的に食べていける
+          <br />
+          将来的に人手不足が見込まれる
           <br />
           実務経験なしでも取得できる
           <br />
