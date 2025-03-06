@@ -94,9 +94,9 @@
     margin: 0 auto;
     z-index: 0;
     position: relative;
-    @media print, screen and (max-width: 1000px) {
-      width: 90%;
-    }
+    // @media print, screen and (max-width: 1000px) {
+    //   width: 90%;
+    // }
   }
   .support-wrap.-second {
     margin-top: 0;
@@ -105,7 +105,7 @@
     margin: 0 auto;
   }
   .support-title {
-    max-width: 995px;
+    max-width: 1038px;
     line-height: 1.3;
     font-size: 28px;
     font-weight: 700;
@@ -120,7 +120,7 @@
     }
   }
   .support {
-    max-width: 1027px;
+    max-width: 1070px;
     margin: 5px auto 0;
     padding: 1em 0 2rem;
     // padding: 1em 4rem 2rem;
