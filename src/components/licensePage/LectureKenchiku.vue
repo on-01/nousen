@@ -526,7 +526,7 @@
   .lecture-line {
     width: 20%;
     height: 4px;
-    background: #1262b2;
+    background: #ff843a;
     margin: 20px auto 20px;
     border-radius: 8px;
   }
