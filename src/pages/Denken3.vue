@@ -491,6 +491,7 @@
                 :benefits="richtextToHTML($static.tuugaku.benefits)"
                 :cpds="richtextToHTML($static.tuugaku.cpds)"
               />
+              <Merumaga />
               <NewApplicationDenken3
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
@@ -506,6 +507,7 @@
                 :benefits="richtextToHTML($static.tuushin.benefits)"
                 :cpds="richtextToHTML($static.tuushin.cpds)"
               />
+              <Merumaga />
               <NewApplicationDenken3
                 personalFormText="通信講座のお申込み（個人）"
                 personalFormLink="/denken3-application"
