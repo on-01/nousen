@@ -69,13 +69,13 @@
         </p>
         <p class="test-index -ml10 -mt20">インターネット申込み方法</p>
         <p class="test-text">
-          1. 一般財団法人
+          1.
           <a
             href="https://www.shiken.or.jp/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
           にアクセスする
           <br />
