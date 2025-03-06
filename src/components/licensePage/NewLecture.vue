@@ -210,7 +210,7 @@
     // border: 2px solid #1da1f2;
     background-color: #1262b2;
     padding: 8px 0;
-    margin: 36px 0 12px;
+    margin: 50px 0 30px;
   }
 
   @media print, screen and (max-width: 1000px) {
