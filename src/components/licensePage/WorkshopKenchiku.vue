@@ -877,7 +877,7 @@
 
   .workshop-heading.-blue {
     // background-color: #2a78fe;
-    background-color: #006bad;
+    background-color: #1262b2;
   }
 
   .workshop-heading.-bottom {
@@ -1154,7 +1154,7 @@
   .workshop-completion {
     margin: 0 auto 20px auto;
     max-width: 900px;
-    padding: 0 40px;
+    padding: 40px 40px 0;
     @media print, screen and (max-width: 1000px) {
       padding: 0 20px;
     }
@@ -1270,7 +1270,7 @@
   }
 
   .add {
-    padding: 10px 30px 30px;
+    padding: 30px 30px 30px;
     margin: 0 auto;
     max-width: 1170px;
   }
@@ -1295,7 +1295,7 @@
     color: #000;
     // border: 2px solid #1da1f2;
     padding: 8px 0;
-    margin: 0 0 12px;
+    margin: 0 0 30px;
     background: #1262b2;
     color: #ffffff;
   }
@@ -1394,6 +1394,12 @@
     column-gap: 40px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
+    }
+  }
+
+  .workshopTable-wrapper {
+    a {
+      color: #1da1f2;
     }
   }
 
