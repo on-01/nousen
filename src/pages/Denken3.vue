@@ -9,7 +9,7 @@
               require('../assets/img/license_page/denken3/denken3_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和6年度下期/令和7年度上期"
+            headTitle="令和7年度上期/令和7年度下期"
             title="第三種電気主任技術者"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
@@ -522,6 +522,7 @@
                 :apply="richtextToHTML($static.online.apply)"
               />
               <div id="apply-section"></div>
+              <Merumaga />
               <NewApplicationDenken3
                 personalFormText="オンライン講座へのお申込み（個人）"
                 personalFormLink="/denken3-application"
@@ -638,6 +639,7 @@
   import TestOverview from "../components/licensePage/TestOverview.vue";
   import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
   import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
+  import Merumaga from "../components/licensePage/Merumaga.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -713,6 +715,7 @@
       TestOverview,
       StudyDenken3,
       MeritDenken3,
+      Merumaga,
     },
     data() {
       return {
@@ -819,7 +822,8 @@
     padding: 7px 30px;
   }
   .application-form-link {
-    background-color: #ed6c00;
+    // background-color: #ed6c00;
+    background-color: #ff4500;
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
