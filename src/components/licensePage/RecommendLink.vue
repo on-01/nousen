@@ -215,7 +215,7 @@
 <style lang="scss" scoped>
   .contactInfo {
     width: 967px;
-    background-color: #fff;
+    background-color: #ebf7ff;
     font-family: メイリオ, sans-serif;
     margin: 40px auto 0;
     padding: 20px 30px;
@@ -225,6 +225,7 @@
     border-radius: 12px;
     position: relative;
     padding: 1.2em 2.4em;
+    background-color: white;
   }
   .contactInfo-title {
     margin: 0;
