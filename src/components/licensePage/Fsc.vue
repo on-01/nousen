@@ -82,7 +82,7 @@
     font-size: 28px;
   }
   .fsc-line {
-    width: 10%;
+    width: 22%;
     height: 4px;
     background: #00a73c;
     margin: 10px auto 0;
