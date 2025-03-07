@@ -11,8 +11,7 @@
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic -red">
-            令和７年度 第一弾【￥10,000 off】早割キャンペーン（通学講座）
-            <span style="color: black">【終了】</span>
+            令和７年度 第一弾【￥10,000 off】早割キャンペーン（通学講座）<span style="color: black">【終了】</span>
           </p>
           <ul class="campaign-content">
             <li class="campaign-emphasis">
