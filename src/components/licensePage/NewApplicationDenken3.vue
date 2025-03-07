@@ -71,8 +71,8 @@
     width: 100%;
     padding: 20px 50px;
     text-align: center;
-    background-color: #ed6c00;
-    border: 3px solid #ed6c00;
+    background-color: #ff4500;
+    border: 3px solid #ff4500;
     border-radius: 10px;
     @media print, screen and (max-width: 1000px) {
       display: block;
