@@ -11,6 +11,13 @@
           <p class="quality-topText">人材育成支援コース 対象講座</p>
         </div>
       </a>
+      <div class="quality-topImg">
+        <img
+          class="flex-img -right"
+          src="../../assets/img/license_page/denken3/denken3_quality_kokuban.jpg"
+          alt="電験三種 講習会 通信講座 オンライン講座"
+        />
+      </div>
       <p class="quality-mainTitle">
         【完全攻略】できる
         <br />
