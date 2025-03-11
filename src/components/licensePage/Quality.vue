@@ -234,6 +234,11 @@
     margin: 0;
   }
 
+  .quality-topImg {
+    margin: 30px auto 0 auto;
+    width: 80%;
+  }
+
   @media print, screen and (max-width: 1000px) {
     .quality {
       padding-bottom: 40px;
