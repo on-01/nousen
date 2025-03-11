@@ -22,27 +22,21 @@
         </a>
       </div>
 
-      <div class="bg-white_type2">
+      <!-- <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
             <g-link to="/denken3-application" class="application-form-link">
               お申込みはこちら（個人）
-              <!-- <IconBase class="icon"><IconDoubleArrowRight /></IconBase> -->
             </g-link>
             <g-link
               to="/denken3-application-business"
               class="application-form-link"
             >
               お申込みはこちら（法人）
-              <!-- <IconBase class="icon"><IconDoubleArrowRight /></IconBase> -->
             </g-link>
           </div>
-
-          <!-- <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure> -->
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
