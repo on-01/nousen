@@ -96,6 +96,39 @@
           </div>
         </div>
       </div>
+      <div class="quality-basis">
+        <p class="basis-title">初学者も安心！基礎講座からしっかり学べます。</p>
+        <div class="basis-wrap">
+          <div class="basis-img">
+            <img
+              class="flex-img -right"
+              src="../../assets/img/license_page/denken3/denken3_quality_basis.jpg"
+              alt="電験三種 講習会 通信講座 オンライン講座"
+            />
+          </div>
+          <div class="basis-textWrap">
+            <p class="basis-head">初学者の方へ</p>
+            <p class="basis-text">
+              ・数学や物理に自信がない、特に文系出身で理系科目が苦手な方
+              <br />
+              ・電験三種の勉強を始めたいが、どこから手をつければよいかわからない方
+              <br />
+              ・基礎からしっかりと学び、無理なく理解を深めていきたい方
+            </p>
+            <p class="basis-head">電験三種の試験範囲を知りたい方へ</p>
+            <p class="basis-text">
+              ・電験三種で出題される科目やその内容について、全体像をつかみたい方
+              <br />
+              ・各科目の重要ポイントや学習の進め方を知りたい方
+              <br />
+              ・どのような知識が求められるのか、事前に把握して効率的に勉強したい方
+            </p>
+          </div>
+        </div>
+        <p class="basis-bottom">
+          「数学が苦手でも大丈夫！電験三種の全体像を基礎から学ぼう」
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -237,6 +270,63 @@
   .quality-topImg {
     margin: 30px auto 0 auto;
     width: 80%;
+  }
+
+  .quality-basis {
+    padding: 30px;
+    background-color: #fff;
+  }
+
+  .basis-title {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .basis-title::after {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 4px;
+    background: #1262b2;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+  }
+
+  .basis-wrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .basis-img {
+    width: 30%;
+  }
+
+  .basis-textWrap {
+    width: 70%;
+  }
+
+  .basis-head {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .basis-text {
+    margin: 5px 0 0;
+  }
+
+  .basis-bottom {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0 0;
   }
 
   @media print, screen and (max-width: 1000px) {
