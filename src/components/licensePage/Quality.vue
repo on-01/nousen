@@ -285,6 +285,12 @@
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 30px;
+    }
+    @media print, screen and (max-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   .basis-title::after {
@@ -300,25 +306,43 @@
   }
 
   .basis-wrap {
-    margin-top: 40px;
+    margin: 40px auto 0;
     display: flex;
     justify-content: center;
+    max-width: 975px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
   .basis-img {
     width: 35%;
+    @media print, screen and (max-width: 1000px) {
+      margin: 0 auto;
+      width: 50%;
+    }
   }
 
   .basis-textWrap {
     width: 65%;
     margin-left: 30px;
     margin-top: 30px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 
   .basis-head {
     font-weight: 700;
     font-size: 26px;
     margin: 0;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 20px;
+    }
+    @media print, screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   .basis-head.-bottom {
@@ -328,6 +352,9 @@
   .basis-text {
     margin: 5px 0 0;
     font-size: 18px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
   }
 
   .basis-bottom {
@@ -335,8 +362,15 @@
     font-weight: 700;
     text-align: center;
     margin: 30px 0 0;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
     text-decoration-color: #ffff8d;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 24px;
+    }
+    @media print, screen and (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
