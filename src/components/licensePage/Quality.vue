@@ -276,6 +276,9 @@
     padding: 30px 50px;
     background-color: #fff;
     margin-top: 40px;
+    @media print, screen and (max-width: 768px) {
+      padding: 30px 20px;
+    }
   }
 
   .basis-title {
@@ -353,7 +356,7 @@
     margin: 5px 0 0;
     font-size: 18px;
     @media print, screen and (max-width: 1000px) {
-      font-size: 16px;
+      font-size: 15px;
     }
   }
 
