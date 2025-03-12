@@ -281,7 +281,7 @@
   .basis-title {
     position: relative;
     text-align: center;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
@@ -290,7 +290,7 @@
   .basis-title::after {
     position: absolute;
     content: "";
-    width: 20%;
+    width: 30%;
     height: 4px;
     background: #1262b2;
     border-radius: 8px;
@@ -312,11 +312,12 @@
   .basis-textWrap {
     width: 65%;
     margin-left: 30px;
+    margin-top: 30px;
   }
 
   .basis-head {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     margin: 0;
   }
 
@@ -326,11 +327,11 @@
 
   .basis-text {
     margin: 5px 0 0;
-    font-weight: 18px;
+    font-size: 18px;
   }
 
   .basis-bottom {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
     text-align: center;
     margin: 30px 0 0;
