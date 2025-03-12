@@ -273,8 +273,9 @@
   }
 
   .quality-basis {
-    padding: 30px;
+    padding: 30px 50px;
     background-color: #fff;
+    margin-top: 40px;
   }
 
   .basis-title {
@@ -294,22 +295,23 @@
     background: #1262b2;
     border-radius: 8px;
     bottom: 0;
-    left: 0;
+    left: 50%;
     transform: translateX(-50%);
   }
 
   .basis-wrap {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
   }
 
   .basis-img {
-    width: 30%;
+    width: 35%;
   }
 
   .basis-textWrap {
-    width: 70%;
+    width: 65%;
+    margin-left: 30px;
   }
 
   .basis-head {
