@@ -281,7 +281,7 @@
   .basis-title {
     position: relative;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
@@ -325,10 +325,12 @@
   }
 
   .basis-bottom {
-    font-size: 28px;
+    display: inline;
+    font-size: 32px;
     font-weight: 700;
     text-align: center;
     margin: 30px 0 0;
+    background: linear-gradient(transparent 70%, #ffff8d 30%);
   }
 
   @media print, screen and (max-width: 1000px) {
