@@ -115,7 +115,7 @@
               <br />
               ・基礎からしっかりと学び、無理なく理解を深めていきたい方
             </p>
-            <p class="basis-head">電験三種の試験範囲を知りたい方へ</p>
+            <p class="basis-head -bottom">電験三種の試験範囲を知りたい方へ</p>
             <p class="basis-text">
               ・電験三種で出題される科目やその内容について、全体像をつかみたい方
               <br />
@@ -316,21 +316,26 @@
 
   .basis-head {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0;
+  }
+
+  .basis-head.-bottom {
+    margin-top: 20px;
   }
 
   .basis-text {
     margin: 5px 0 0;
+    font-weight: 18px;
   }
 
   .basis-bottom {
-    display: inline;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     margin: 30px 0 0;
-    background: linear-gradient(transparent 70%, #ffff8d 30%);
+    text-decoration: underline;
+    text-decoration-color: #ffff8d;
   }
 
   @media print, screen and (max-width: 1000px) {
