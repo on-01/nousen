@@ -343,9 +343,9 @@
     font-weight: 700;
     text-align: center;
     margin: 30px 20px 0;
-    background-color: #ff843a;
+    background-color: #1262b2;
     color: white;
-    box-shadow: 0 5px 1px #a14900;
+    box-shadow: 0 5px 1px #1262b2;
   }
 
   .counterplan-title.-top {
