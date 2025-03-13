@@ -11,7 +11,8 @@
         </figure>
         <div class="campaign-description">
           <p class="campaign-topic -red">
-            令和７年度 第一弾【￥10,000 off】早割キャンペーン（通学講座）<span style="color: black">【終了】</span>
+            令和７年度 第一弾【￥10,000 off】早割キャンペーン（通学講座）
+            <span style="color: black">【終了】</span>
           </p>
           <ul class="campaign-content">
             <li class="campaign-emphasis">
@@ -116,11 +117,11 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #ed6c00;
+    background-color: #ff4500;
     padding: 1rem;
     text-align: center;
     margin: 0;
-    box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
+    box-shadow: 0px 5px 1px rgba(255, 69, 0, 1);
     @media print, screen and (max-width: 560px) {
       font-size: 20px;
     }
