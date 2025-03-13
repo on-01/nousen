@@ -47,7 +47,7 @@
         <br />
         解説付きの解答で理解度UP！30分程度のポイント解説の講習（オンライン講座では動画）があり、問題の考え方を丁寧に指導します。
       </p>
-      <p class="exam-title">提出課題で実力診断ができる！</p>
+      <p class="exam-title -bottom">提出課題で実力診断ができる！</p>
       <p class="exam-line"></p>
       <div class="exam-image -center">
         <figure>
@@ -138,6 +138,10 @@
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
+  }
+
+  .exam-title.-bottom {
+    margin-top: 40px;
   }
 
   .exam-note::v-deep i {
