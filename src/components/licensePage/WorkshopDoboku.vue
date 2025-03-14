@@ -652,7 +652,11 @@
                     </a>
                     （人材育成支援コース）
                     <br />
-                    ・その他
+                    ・
+                    <span class="-red">【願書取り寄せサポート</span>
+                    あり
+                    <br />
+                    ・
                     <span class="-red">【創業支援割引制度】</span>
                     あり
                   </td>
@@ -785,7 +789,11 @@
                     </a>
                     （人材育成支援コース）
                     <br />
-                    ・その他
+                    ・
+                    <span class="-red">【願書取り寄せサポート</span>
+                    あり
+                    <br />
+                    ・
                     <span class="-red">【創業支援割引制度】</span>
                     あり
                   </td>
@@ -1395,6 +1403,7 @@
   }
   .workshop-table {
     overflow-x: scroll;
+    margin-top: 20px;
   }
 
   .workshopTable-content {

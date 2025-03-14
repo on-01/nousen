@@ -75,16 +75,15 @@
             <td>11月11日(月)～11月28日(木)</td>
             <td>5月19日(月)～6月05日(木)</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td
               class="schedule-td-bold schedule-td-border-none schedule-table-padding"
             >
               試験結果発表日(筆記方式)
             </td>
-            <!-- <td>令和６年４月頃</td> -->
             <td>4月頃</td>
             <td>9月頃</td>
-          </tr>
+          </tr> -->
           <tr class="schedule-tr-border-none">
             <td class="schedule-td-border-none schedule-padding-none">
               <div class="schedule-table-flex">
@@ -305,7 +304,7 @@
   }
   .schedule-table {
     border: 2px solid #000;
-    width: 83%;
+    width: 76%;
     margin: 0 auto;
   }
   .schedule-th {
@@ -397,7 +396,7 @@
 
   .bottomTable__wrap {
     display: flex;
-    width: 83%;
+    width: 76%;
     margin: 0 auto;
   }
 
