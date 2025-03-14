@@ -653,7 +653,7 @@
                     （人材育成支援コース）
                     <br />
                     ・
-                    <span class="-red">【願書取り寄せサポート</span>
+                    <span class="-red">【願書取り寄せサポート】</span>
                     あり
                     <br />
                     ・
@@ -790,7 +790,7 @@
                     （人材育成支援コース）
                     <br />
                     ・
-                    <span class="-red">【願書取り寄せサポート</span>
+                    <span class="-red">【願書取り寄せサポート】</span>
                     あり
                     <br />
                     ・
