@@ -84,6 +84,69 @@
           電気の保安などのお仕事は、人々の生活や生命に繋がるお仕事になるので、責任が増えるのは当然かもしれません。
         </p>
       </div>
+      <p class="test-title">電気主任技術者のお仕事・業務内容</p>
+      <div class="test-wrap -white">
+        <p class="test-index">電気主任技術者の主な業務内容とは？</p>
+        <p class="test-text">
+          電気主任技術者は、電気設備の点検作業を中心に、以下のような業務を担当します。
+          <br />
+          <br />
+          ・電圧や電流の計測・記録
+          <br />
+          ・絶縁体の抵抗測定
+          <br />
+          ・配線のネジ確認
+          <br />
+          ・非常用発電機の点検
+          <br />
+          ・設備の清掃作業（ほこりの除去が事故防止に貢献します）
+          <br />
+          <br />
+          また、設備に故障が見つかった場合には、原因の特定や修理工事の判断を行い、必要に応じて電気工事士に修理を依頼します。これらの作業は、電気設備の正確な動作と安全性を確保するために非常に重要です。
+          <br />
+          電験三種の資格があれば、様々な場所で活躍できます！
+          <br />
+          中小規模の工場や建設現場、太陽光発電所、商業施設、病院などで、保安監督業務を担当することが可能です。
+          <br />
+          <br />
+          <span class="line-yellow">
+            電気主任技術者のお仕事探しには、【転職支援サービスMyStyle】をおすすめします！
+          </span>
+          <br />
+          <br />
+          【 MyStyle転職の特徴 】
+          <br />
+          ・「履歴書」や「職務経歴書」の添削だけでなく、応募先企業に合わせた面接対策も丁寧にサポート
+          <br />
+          ・常時11万件以上の求人情報から、ご希望に合ったお仕事をご紹介します
+          <br />
+          ・独自のワークシートで自己理解を深め、理想のキャリア像を明確に。自信を持って強みを伝えられるようサポートします
+        </p>
+        <div class="merit-img">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfl9urUd8_08nWA4iZL0PGSjDMbJ8KgqE6zB6YKEQ8qR3odXg/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="left"
+              src="../../assets/img/front/career5.jpg"
+              alt="電験三種 講習会 通信講座 オンライン講座"
+            />
+          </a>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfl9urUd8_08nWA4iZL0PGSjDMbJ8KgqE6zB6YKEQ8qR3odXg/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="right"
+              src="../../assets/img/front/career6.jpg"
+              alt="電験三種 講習会 通信講座 オンライン講座"
+            />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -354,6 +417,25 @@
     display: inline;
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0) 60%, #ffff8d 0);
+  }
+
+  .merit-img {
+    display: flex;
+    flex-direction: center;
+    column-gap: 40px;
+    margin-top: 30px;
+
+    a {
+      display: block;
+    }
+
+    .left {
+      width: 55%;
+    }
+
+    .right {
+      width: 45%;
+    }
   }
 
   @media print, screen and (max-width: 1000px) {
