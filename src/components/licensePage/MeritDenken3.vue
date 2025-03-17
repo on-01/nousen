@@ -124,23 +124,23 @@
         </p>
         <div class="merit-img">
           <a
+            class="left"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfl9urUd8_08nWA4iZL0PGSjDMbJ8KgqE6zB6YKEQ8qR3odXg/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              class="left"
               src="../../assets/img/front/career5.jpg"
               alt="電験三種 講習会 通信講座 オンライン講座"
             />
           </a>
           <a
+            class="right"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfl9urUd8_08nWA4iZL0PGSjDMbJ8KgqE6zB6YKEQ8qR3odXg/viewform"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              class="right"
               src="../../assets/img/front/career6.jpg"
               alt="電験三種 講習会 通信講座 オンライン講座"
             />
@@ -422,19 +422,33 @@
   .merit-img {
     display: flex;
     flex-direction: center;
-    column-gap: 40px;
+    align-items: center;
+    column-gap: 88px;
     margin-top: 30px;
-
-    a {
-      display: block;
+    @media print, screen and (max-width: 768px) {
+      column-gap: 40px;
+    }
+    @media print, screen and (max-width: 480px) {
+      column-gap: 20px;
     }
 
     .left {
-      width: 55%;
+      width: 49%;
+      margin-left: 40px;
+      display: block;
+      @media print, screen and (max-width: 768px) {
+        margin-left: 0;
+        width: 58%;
+      }
     }
 
     .right {
-      width: 45%;
+      width: 28%;
+      display: block;
+      @media print, screen and (max-width: 768px) {
+        margin-left: 0;
+        width: 37%;
+      }
     }
   }
 
