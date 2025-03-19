@@ -4,12 +4,13 @@
       <div class="cheer-section">
         <p class="cheer-title" v-html="text"></p>
       </div>
-      <figure class="cheer-image">
-        <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
-          <g-image :src="imagePath" :alt="altText" />
-        </a>
-      </figure>
 
+      <div class="cheer-topImg">
+        <img
+          src="../../assets/img/license_page/denken3/denken3_cheer_1.jpg"
+          alt="電験三種 講習会 通信講座 オンライン講座"
+        />
+      </div>
       <div class="experience-link">
         <a
           class="application-link -blue"
@@ -22,6 +23,11 @@
         </a>
       </div>
 
+      <figure class="cheer-image">
+        <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
+          <g-image :src="imagePath" :alt="altText" />
+        </a>
+      </figure>
       <!-- <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
@@ -162,6 +168,7 @@
     }
     .cheer-image {
       width: 80%;
+      margin-top: 40px;
     }
     .cheer-image img {
       display: block;
