@@ -91,7 +91,7 @@
     img {
       display: block;
       margin: 0 auto;
-      width: 50%;
+      width: 49%;
       @media print, screen and (max-width: 768px) {
         width: 60%;
       }
