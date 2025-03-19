@@ -11,6 +11,13 @@
         </figure>
       </div>
 
+      <div class="cheer-topImg">
+        <img
+          src="../../assets/img/license_page/kenchiku_s/kenchiku_cheer_1.jpg"
+          alt="２級建築施工管理技士 講習会 通信講座 web講座"
+        />
+      </div>
+
       <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
@@ -68,6 +75,20 @@
   }
   .cheer-image {
     width: 48%;
+  }
+
+  .cheer-topImg {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 65%;
+      @media print, screen and (max-width: 768px) {
+        width: 80%;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 86%;
+      }
+    }
   }
   .cheer-description {
     width: 48%;

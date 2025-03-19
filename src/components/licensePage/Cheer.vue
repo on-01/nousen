@@ -1,15 +1,16 @@
 <template>
   <div class="cheer">
     <div class="cheer-inner">
-      <div class="cheer-section">
+      <!-- <div class="cheer-section">
         <p class="cheer-title" v-html="text"></p>
-      </div>
-      <figure class="cheer-image">
-        <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
-          <g-image :src="imagePath" :alt="altText" />
-        </a>
-      </figure>
+      </div> -->
 
+      <div class="cheer-topImg">
+        <img
+          src="../../assets/img/license_page/denken3/denken3_cheer_1.jpg"
+          alt="電験三種 講習会 通信講座 オンライン講座"
+        />
+      </div>
       <div class="experience-link">
         <a
           class="application-link -blue"
@@ -22,6 +23,11 @@
         </a>
       </div>
 
+      <figure class="cheer-image">
+        <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
+          <g-image :src="imagePath" :alt="altText" />
+        </a>
+      </figure>
       <!-- <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
@@ -80,6 +86,20 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .cheer-topImg {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      @media print, screen and (max-width: 768px) {
+        width: 60%;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 86%;
+      }
+    }
+  }
   .cheer-image {
     // width: 48%;
     // width: 72%;
@@ -110,11 +130,8 @@
 
   .experience-link {
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    @media print, screen and (max-width: 1150px) {
-      margin-top: 40px;
-    }
+    margin-top: 30px;
+    margin-bottom: 60px;
   }
 
   .application-link {
@@ -162,6 +179,7 @@
     }
     .cheer-image {
       width: 80%;
+      margin-top: 40px;
     }
     .cheer-image img {
       display: block;
