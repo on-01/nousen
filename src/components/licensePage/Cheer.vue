@@ -1,9 +1,9 @@
 <template>
   <div class="cheer">
     <div class="cheer-inner">
-      <div class="cheer-section">
+      <!-- <div class="cheer-section">
         <p class="cheer-title" v-html="text"></p>
-      </div>
+      </div> -->
 
       <div class="cheer-topImg">
         <img
@@ -86,6 +86,20 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .cheer-topImg {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      @media print, screen and (max-width: 768px) {
+        width: 60%;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 86%;
+      }
+    }
+  }
   .cheer-image {
     // width: 48%;
     // width: 72%;
@@ -116,11 +130,8 @@
 
   .experience-link {
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 10px;
-    @media print, screen and (max-width: 1150px) {
-      margin-top: 40px;
-    }
+    margin-top: 30px;
+    margin-bottom: 60px;
   }
 
   .application-link {

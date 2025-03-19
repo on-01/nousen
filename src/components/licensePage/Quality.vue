@@ -280,6 +280,10 @@
     background-color: #fff;
     margin-top: 40px;
     border: solid 4px #1262b2;
+    max-width: 828px;
+    margin-left: auto;
+    margin-right: auto;
+
     @media print, screen and (max-width: 768px) {
       padding: 30px 20px;
     }
@@ -288,7 +292,7 @@
   .basis-title {
     position: relative;
     text-align: center;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
@@ -297,6 +301,9 @@
     }
     @media print, screen and (max-width: 768px) {
       font-size: 24px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 20px;
     }
   }
 
@@ -342,13 +349,16 @@
 
   .basis-head {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 20px;
     margin: 0;
     @media print, screen and (max-width: 1000px) {
       font-size: 20px;
     }
     @media print, screen and (max-width: 768px) {
       font-size: 18px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 16px;
     }
   }
 
@@ -358,14 +368,17 @@
 
   .basis-text {
     margin: 5px 0 0;
-    font-size: 18px;
+    font-size: 15px;
     @media print, screen and (max-width: 1000px) {
       font-size: 15px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 14px;
     }
   }
 
   .basis-bottom {
-    font-size: 35px;
+    font-size: 27px;
     font-weight: 700;
     text-align: center;
     margin: 30px 0 0;
@@ -377,6 +390,9 @@
     }
     @media print, screen and (max-width: 768px) {
       font-size: 20px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 18px;
     }
   }
 

@@ -76,6 +76,21 @@
   .cheer-image {
     width: 48%;
   }
+
+  .cheer-topImg {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 65%;
+      @media print, screen and (max-width: 768px) {
+        width: 80%;
+      }
+      @media print, screen and (max-width: 480px) {
+        width: 86%;
+      }
+    }
+  }
+
   .cheer-description {
     width: 48%;
   }
