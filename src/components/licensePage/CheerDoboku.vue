@@ -17,28 +17,6 @@
           alt="２級土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
-
-      <div class="bg-white_type2">
-        <div class="exam-link-wrapper">
-          <div class="exam-link-flex">
-            <g-link to="/doboku-s-application" class="application-form-link">
-              お申込みはこちら（個人）
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-            <g-link
-              to="/doboku-s-application-business"
-              class="application-form-link"
-            >
-              お申込みはこちら（法人）
-              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-            </g-link>
-          </div>
-
-          <!-- <figure class="credit-image">
-                <img src="../assets/img/common/credit.jpg" />
-              </figure> -->
-        </div>
-      </div>
     </div>
   </div>
 </template>
