@@ -124,13 +124,13 @@
     max-width: 1170px;
     width: 100%;
     background-color: #fff;
-    margin: 20px auto 0;
+    margin: 50px auto 0;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
   }
   .exam-inner {
-    padding: 0 80px 60px;
+    padding: 0 80px 90px;
   }
 
   .exam-title {
@@ -141,7 +141,7 @@
   }
 
   .exam-title.-bottom {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 
   .exam-note::v-deep i {
@@ -227,7 +227,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 48px;
+    margin-top: 78px;
   }
   .exam-bottom-image {
     width: 54%;
