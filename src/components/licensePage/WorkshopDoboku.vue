@@ -1091,6 +1091,10 @@
     padding-bottom: 60px;
   }
 
+  .workshop-bottom.-map.-left {
+    padding-bottom: 20px;
+  }
+
   .workshop-bottom.-yellow {
     text-align: center;
     padding-bottom: 0;
@@ -1572,6 +1576,10 @@
       padding: 7px 15px;
       width: 80%;
     }
+  }
+
+  .bg-white_type2 {
+    padding-bottom: 40px;
   }
 
   @media print, screen and (max-width: 480px) {
