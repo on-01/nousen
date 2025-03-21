@@ -190,6 +190,28 @@
       撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
     </p>
 
+    <div class="bg-white_type2">
+      <div class="exam-link-wrapper">
+        <div class="exam-link-flex">
+          <g-link to="/kenchiku-s-application" class="application-form-link">
+            お申込みはこちら（個人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link
+            to="/kenchiku-s-application-business"
+            class="application-form-link"
+          >
+            お申込みはこちら（法人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+        </div>
+
+        <!-- <figure class="credit-image">
+                <img src="../assets/img/common/credit.jpg" />
+              </figure> -->
+      </div>
+    </div>
+
     <p class="workshop-title -bottom">
       ２級建築施工管理技士 オンライン通信講座(WEB講座)
     </p>
@@ -395,6 +417,29 @@
         <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
       </p>
     </div>
+
+    <div class="bg-white_type2">
+      <div class="exam-link-wrapper">
+        <div class="exam-link-flex">
+          <g-link to="/kenchiku-s-application" class="application-form-link">
+            お申込みはこちら（個人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+          <g-link
+            to="/kenchiku-s-application-business"
+            class="application-form-link"
+          >
+            お申込みはこちら（法人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link>
+        </div>
+
+        <!-- <figure class="credit-image">
+                <img src="../assets/img/common/credit.jpg" />
+              </figure> -->
+      </div>
+    </div>
+
     <div class="add">
       <!-- <p class="add-title">受講料金</p> -->
       <div class="add-wrapper">
@@ -1467,6 +1512,58 @@
 
     .-red {
       color: red;
+    }
+  }
+
+  .exam-link-wrapper {
+    text-align: center;
+    padding: 30px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    @media print, screen and (max-width: 1000px) {
+      padding: 40px 0 0 0;
+    }
+  }
+
+  .exam-link-flex {
+    display: flex;
+    margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      max-width: 480px;
+      justify-content: center;
+      row-gap: 25px;
+    }
+  }
+
+  .application-form-link {
+    background-color: #ff4500;
+    margin-top: 25px;
+    width: 370px;
+    padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+
+    @media print, screen and (max-width: 480px) {
+      width: 90%;
+    }
+  }
+
+  .exam-link,
+  .application-form-link,
+  .online-link {
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 17px;
+    box-sizing: border-box;
+    font-family: "メイリオ", sans-serif;
+    @media print, screen and (max-width: 370px) {
+      padding: 7px 15px;
+      width: 80%;
     }
   }
 
