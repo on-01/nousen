@@ -792,7 +792,7 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 110px 0;
+    padding: 60px 0 150px 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
