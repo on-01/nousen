@@ -165,6 +165,8 @@
               description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
             />
 
+            <OmNoHousoku />
+
             <NewLecture
               title="業界トップのわかりやすさ！<br>大嶋先生の講習"
               bold="電験三種の講師歴３５年以上のベテラン講師<br>電気保安功労者経済産業大臣賞を受賞した実力派！"
@@ -642,6 +644,7 @@
   import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
   import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
   import Merumaga from "../components/licensePage/Merumaga.vue";
+  import OmNoHousoku from "../components/licensePage/OmNoHousoku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -718,6 +721,7 @@
       StudyDenken3,
       MeritDenken3,
       Merumaga,
+      OmNoHousoku,
     },
     data() {
       return {
