@@ -69,7 +69,6 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 1050px;
     background-color: #ebf7ff;
     margin: 0 auto;
     padding: 0 24px;
@@ -78,8 +77,9 @@
     font-family: "メイリオ", sans-serif;
   }
   .follow-inner {
-    padding: 30px 0;
+    padding: 0 0 50px;
     margin: 0 auto;
+    max-width: 1000px;
   }
 
   .follow-content {
@@ -154,6 +154,10 @@
       max-width: 100%;
       margin-top: 20px;
     }
+  }
+
+  .follow-textWrap:not(:first-of-type) {
+    margin-top: 20px;
   }
 
   .follow-heading {
