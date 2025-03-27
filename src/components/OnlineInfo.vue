@@ -1,10 +1,12 @@
 <template>
   <div :class="displayNone">
     <div class="sp_online_infomation">
-      <p class="sp_online_infomation_text">満足度No.1の資格合格スクール！</p>
+      <p class="sp_online_infomation_text">
+        【満足度No.1】資格合格支援スクール！
+      </p>
     </div>
     <div class="online_infomation">
-      <p class="online_infomation_text">満足度No.1の資格合格スクール！</p>
+      <p class="online_infomation_text">【満足度No.1】資格合格支援スクール！</p>
     </div>
   </div>
 </template>

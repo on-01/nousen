@@ -140,7 +140,7 @@
     color: #1da1f2;
     border: 2px solid #1da1f2;
     padding: 8px 0;
-    margin: 24px 0 12px;
+    margin: 48px 0 12px;
   }
   .setCourse-menu {
     font-size: 18px;

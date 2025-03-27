@@ -81,33 +81,6 @@
         <br />
         これらを活用することで、より効果的な学習計画を立てることができ、学習成果を最大限に引き出すことが可能になります。
       </p>
-      <div class="exam-bottom-section">
-        <div class="exam-bottom-description">
-          <p class="exam-bottom-title">勉強計画を立てて最短合格へ</p>
-          <p class="exam-bottom-line"></p>
-          <div class="exam-bottom-text">
-            電験三種資格取得には長期間の勉強が必要です。
-            <br />
-            能センでは、計画に沿った勉強で最短合格ができるように、二つのシートをお渡ししています。
-            <br />
-            勉強計画を立てることは、勉強をスムーズに進めるためにとても効果的な方法だと言われています。
-            <br />
-            <div class="exam-bottom-wrap">
-              <span>・電験三種 勉強計画表</span>
-              <br />
-              <span>・電験三種 勉強チェックシート</span>
-              <br />
-            </div>
-            <span>能センの教材、副教材全てが合格へと通じています！</span>
-          </div>
-        </div>
-        <figure class="exam-bottom-image">
-          <img
-            src="../../assets/img/license_page/denken3/denken3_exam_4.jpg"
-            alt="電験三種 講習会 通信講座 オンライン講座"
-          />
-        </figure>
-      </div>
     </div>
   </div>
 </template>

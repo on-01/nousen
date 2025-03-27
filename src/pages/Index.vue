@@ -1232,6 +1232,7 @@ query {
     text-align: center;
     margin: 0;
     a {
+      border-radius: 10px;
       width: 375px;
       background-color: #f4891e;
       display: inline-block;

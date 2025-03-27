@@ -225,6 +225,7 @@
     }
   }
   .reason-more-inner {
+    border-radius: 10px;
     background-color: #f4891e;
     display: inline-block;
     color: #fff;
