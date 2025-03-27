@@ -15,19 +15,13 @@
       <div class="lecture-section -bottom">
         <div class="lecture-book-images">
           <figure class="lecture-book-image">
-            <a href="https://www.ohmsha.co.jp/book/9784274502552/">
-              <g-image :src="imageBook1" :alt="altBook1" />
-            </a>
+            <g-image :src="imageBook1" :alt="altBook1" />
           </figure>
           <figure class="lecture-book-image">
-            <a href="https://www.ohmsha.co.jp/book/9784274506307/">
-              <g-image :src="imageBook2" :alt="altBook2" />
-            </a>
+            <g-image :src="imageBook2" :alt="altBook2" />
           </figure>
           <figure class="lecture-book-image">
-            <a href="https://www.denkishoin.co.jp/products/view/1315">
-              <g-image :src="imageBook3" :alt="altBook3" />
-            </a>
+            <g-image :src="imageBook3" :alt="altBook3" />
           </figure>
         </div>
         <div class="lecture-description">
