@@ -208,7 +208,7 @@
               <!-- <CourseOverview
               title="通 学 講 座"
             /> -->
-
+              <FollowUpDenken3 />
               <SetCourse title="通学＋オンラインセット" />
             </div>
 
@@ -645,6 +645,7 @@
   import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
   import Merumaga from "../components/licensePage/Merumaga.vue";
   import OmNoHousoku from "../components/licensePage/OmNoHousoku.vue";
+  import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -722,6 +723,7 @@
       MeritDenken3,
       Merumaga,
       OmNoHousoku,
+      FollowUpDenken3,
     },
     data() {
       return {
