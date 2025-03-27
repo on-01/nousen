@@ -8,7 +8,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-1"
-                src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
+                src="../../assets/img/license_page/denken3/follow-img1.jpg"
                 alt="電験三種 講習会 通信講座 オンライン講座"
               />
             </div>
@@ -34,7 +34,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/denken3/follow-img1.jpg"
+                src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
                 alt="電験三種 講習会 通信講座 オンライン講座"
               />
             </div>
@@ -158,7 +158,7 @@
     }
 
     .img-1 {
-      width: 35%;
+      width: 70%;
     }
 
     .img-2 {
