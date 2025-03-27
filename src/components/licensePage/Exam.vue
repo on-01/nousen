@@ -104,7 +104,7 @@
     font-family: "メイリオ", sans-serif;
   }
   .exam-inner {
-    padding: 0 80px 90px;
+    padding: 0 80px;
   }
 
   .exam-title {
