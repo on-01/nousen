@@ -130,7 +130,7 @@
 
   .experience-link {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 60px;
   }
 

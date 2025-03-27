@@ -40,6 +40,7 @@
     & p {
       margin: 0;
       line-height: 2.5em;
+      font-size: 14px;
     }
   }
 

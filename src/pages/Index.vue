@@ -4,9 +4,9 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            令和７年度 電験三種オンライン講座 受付スタート！
+            令和7年度 電験三種 基礎の基礎＋基礎講座
             <br />
-            令和6年度の動画＋令和7年度の最新動画で最短合格を目指そう！
+            4/5(土)・4/6(日) 東京会場【受付中】
           </g-link>
         </p>
         <img
