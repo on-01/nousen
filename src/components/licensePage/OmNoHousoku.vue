@@ -9,7 +9,7 @@
             <p class="follow-text">
               オームの法則は、ドイツの物理学者ゲオルク・オーム（またはヘンリー・キャベンディッシュ）が発見した、
               <br />
-              電圧（V）、電流（I）、抵抗（R）の関係を示す法則です
+              電圧（V）、電流（I）、抵抗（R）の関係を示す法則です。
             </p>
           </div>
           <div class="follow-textWrap">
@@ -83,7 +83,7 @@
   }
 
   .follow-content {
-    padding: 20px;
+    padding: 20px 20px 40px;
     border: 4px solid #1262b2;
     background-color: #fff;
   }
@@ -94,6 +94,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: 28px;
+    padding-bottom: 12px;
     @media print, screen and (max-width: 1000px) {
       font-size: 24px;
     }
