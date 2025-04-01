@@ -10,17 +10,19 @@
           </p>
         </div>
         <div class="support-flex">
-          <figure class="support-image">
-            <img
-              src="../../assets/img/license_page/support_1.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
-            />
+          <div>
+            <figure class="support-image">
+              <img
+                src="../../assets/img/license_page/support_1.jpg"
+                alt="土木施工管理技士 講習会 通信講座 web講座"
+              />
+            </figure>
             <p>
               みんなの建設業Q&A
               <br />
               東京建設業協会
             </p>
-          </figure>
+          </div>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
@@ -61,19 +63,15 @@
           </figure>
           <figure class="support-image"></figure>
         </div>
-        <ul class="support-list">
-          <li>■みんなの建設業Q&A50　一般社団法人東京建設業協会　人材支援課</li>
-          <li>
-            ■建設産業ガイドブック　建設産業人材確保・育成推進協議会（人材協）
-          </li>
-          <li>■建設業ウエルカム(最新号)　厚生労働省 建設労働者育成支援事業</li>
-        </ul>
         <div class="support-notes">
           <p>
-            ※ご希望の方は、受講お申込みの際に入力フォームの該当欄に✓（チェック）を入れてください
+            ※ご希望の方は、受講お申込み時に入力フォームの該当欄へ✓（チェック）を入れてください
           </p>
           <p>
             ※企業担当者・学生の方は、お問い合わせフォームよりご連絡いただければ無料送付いたします
+          </p>
+          <p>
+            ※時期によっては在庫切れの場合がございます。あらかじめご了承ください
           </p>
         </div>
       </div>
