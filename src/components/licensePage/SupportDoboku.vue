@@ -10,19 +10,17 @@
           </p>
         </div>
         <div class="support-flex">
-          <div>
-            <figure class="support-image">
-              <img
-                src="../../assets/img/license_page/support_1.jpg"
-                alt="土木施工管理技士 講習会 通信講座 web講座"
-              />
-            </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_1.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
             <p>
               みんなの建設業Q&A
               <br />
               東京建設業協会
             </p>
-          </div>
+          </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
