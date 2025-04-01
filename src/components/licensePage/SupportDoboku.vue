@@ -28,6 +28,30 @@
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_5.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_6.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_7.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_8.jpg"
+              alt="土木施工管理技士 講習会 通信講座 web講座"
+            />
+          </figure>
         </div>
         <ul class="support-list">
           <li>■みんなの建設業Q&A50　一般社団法人東京建設業協会　人材支援課</li>
@@ -142,7 +166,8 @@
     width: 30%;
     max-height: 400px;
     transform: scale(0.9);
-
+    margin-left: 10px;
+    margin-right: 10px;
     @media print, screen and (max-width: 768px) {
       width: 100%;
       margin-top: 20px;
