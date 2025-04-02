@@ -3,7 +3,10 @@
     <div class="privacy">
       <Hero backImgOver="" backImgUnder="" title="反社会的勢力排除宣言" />
       <div class="anti-img">
-        <img src="../assets/img/anti.jpg" alt="反社会的勢力排除宣言" />
+        <img
+          src="../assets/img/license_page/anti.jpg"
+          alt="反社会的勢力排除宣言"
+        />
       </div>
       <div class="contents">
         <section class="section">
