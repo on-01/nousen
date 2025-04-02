@@ -59,7 +59,7 @@
                 <g-link to="/privacy">プライバシーポリシー</g-link>
               </p>
               <p class="information_list">
-                <g-link to="/AntiSocialForce">反社会的勢力排除宣言</g-link>
+                <g-link to="/anti-social-force">反社会的勢力排除宣言</g-link>
               </p>
               <p class="information_list">
                 <g-link to="https://nousen.blog/koushiuketuke/">
