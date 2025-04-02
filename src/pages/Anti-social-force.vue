@@ -46,6 +46,40 @@
                 弊社は個人・法人問わず詐欺的行為には断固とした対応を行います。
               </p>
             </div>
+            <h4 class="section-contents-title">３．反社会的勢力との関係遮断</h4>
+            <div>
+              <p>
+                当社は、反社会的勢力との関係を一切遮断するために、代表取締役以下、組織全体として断固たる姿勢で一切の取引を遮断します。
+              </p>
+            </div>
+            <h4 class="section-contents-title">
+              ４．不当要求の拒絶および法的対応
+            </h4>
+            <div>
+              <p>
+                当社は、反社会的勢力からの不当要求は断固拒絶し、民事と刑事の両面から法的措置を講じます。
+              </p>
+            </div>
+            <h4 class="section-contents-title">５．労働契約・雇用契約の禁止</h4>
+            <div>
+              <p>
+                当社は、反社会的勢力による被害を防止するために、反社会的勢力との雇用契約その他一切の労働契約を締結しません。
+              </p>
+            </div>
+            <h4 class="section-contents-title">
+              ６．反社会的勢力排除条項の規定
+            </h4>
+            <div>
+              <p>
+                当社は、反社会的勢力が取引先となって不当要求を行う場合の被害を防止するため、当社が締結する契約書等に反社会的勢力排除条項を規定するとともに、契約締結後に契約の相手方が反社会的勢力であると判明した場合は契約を解消します。
+              </p>
+            </div>
+            <h4 class="section-contents-title">７．外部専門機関との連携</h4>
+            <div>
+              <p>
+                当社は、警察、暴力団追放運動推進センター、弁護士等の外部専門機関と連携して、反社会的勢力の排除に取り組みます。
+              </p>
+            </div>
           </div>
           <div class="credit">
             令和６年１月１日
@@ -110,7 +144,7 @@ query {
   .contents {
     max-width: 970px;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px auto 0;
     background-color: #fff;
     @media print, screen and (max-width: 1000px) {
       width: 90%;
@@ -145,5 +179,12 @@ query {
     text-align: right;
     padding-top: 50px;
     border-top: 1px dashed #808080;
+  }
+  .anti-img {
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+    }
   }
 </style>
