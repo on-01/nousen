@@ -140,12 +140,14 @@
   }
   .support-image {
     width: 30%;
-    max-height: 400px;
+    max-height: 292px;
     transform: scale(0.9);
-
+    margin-left: 10px;
+    margin-right: 10px;
     @media print, screen and (max-width: 768px) {
       width: 100%;
       margin-top: 20px;
+      max-height: 400px;
     }
   }
 

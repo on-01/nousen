@@ -26,18 +26,37 @@
               src="../../assets/img/license_page/support_2.png"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              建設業ウェルカム
+              <br />
+              厚生労働省
+              <br />
+              建設労働者育成支援事業
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_3.png"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              建設産業ガイドブック
+              <br />
+              建設産業人材確保
+              <br />
+              育成推進協議会
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_5.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              建設業の働き方改革
+              <br />
+              東京建設業協会
+            </p>
           </figure>
         </div>
         <div class="support-flex">
@@ -46,18 +65,35 @@
               src="../../assets/img/license_page/support_6.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              ビルドＡＬＬ（2024）
+              <br />
+              「建設業界を志す学生
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_7.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              ビルドＡＬＬ（2024）
+              <br />
+              「明確なビジョンが見えていない学生」
+              <br />
+              東京建設業協会
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_8.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              災害対策ハンドブック
+              <br />
+              東京建設業協会
+            </p>
           </figure>
           <figure class="support-image"></figure>
         </div>
@@ -175,6 +211,7 @@
     @media print, screen and (max-width: 768px) {
       width: 100%;
       margin-top: 20px;
+      max-height: 400px;
     }
   }
 
