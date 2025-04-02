@@ -15,33 +15,97 @@
               src="../../assets/img/license_page/support_1.jpg"
               alt="建築施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              みんなの建設業Q&A
+              <br />
+              東京建設業協会
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
               alt="建築施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              建設業ウェルカム
+              <br />
+              厚生労働省
+              <br />
+              建設労働者育成支援事業
+            </p>
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_3.png"
               alt="建築施工管理技士 講習会 通信講座 web講座"
             />
+            <p class="support-text">
+              建設産業ガイドブック
+              <br />
+              建設産業人材確保
+              <br />
+              育成推進協議会
+            </p>
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_5.jpg"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
+            />
+            <p class="support-text">
+              建設業の働き方改革
+              <br />
+              東京建設業協会
+            </p>
           </figure>
         </div>
-        <ul class="support-list">
-          <li>■みんなの建設業Q&A50　一般社団法人東京建設業協会　人材支援課</li>
-          <li>
-            ■建設産業ガイドブック　建設産業人材確保・育成推進協議会（人材協）
-          </li>
-          <li>■建設業ウエルカム(最新号)　厚生労働省 建設労働者育成支援事業</li>
-        </ul>
+        <div class="support-flex -bottom">
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_6.jpg"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
+            />
+            <p class="support-text">
+              ビルドＡＬＬ（2024）
+              <br />
+              「建設業界を志す学生
+            </p>
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_7.jpg"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
+            />
+            <p class="support-text">
+              ビルドＡＬＬ（2024）
+              <br />
+              「明確なビジョンが見えていない学生」
+              <br />
+              東京建設業協会
+            </p>
+          </figure>
+          <figure class="support-image">
+            <img
+              src="../../assets/img/license_page/support_8.jpg"
+              alt="建築施工管理技士 講習会 通信講座 web講座"
+            />
+            <p class="support-text">
+              災害対策ハンドブック
+              <br />
+              東京建設業協会
+            </p>
+          </figure>
+          <figure class="support-image"></figure>
+        </div>
         <div class="support-notes">
           <p>
-            ※ご希望の方は、受講お申込みの際に入力フォームの該当欄に✓（チェック）を入れてください
+            ※ご希望の方は、受講お申込み時に入力フォームの該当欄へ✓（チェック）を入れてください
           </p>
           <p>
             ※企業担当者・学生の方は、お問い合わせフォームよりご連絡いただければ無料送付いたします
+          </p>
+          <p>
+            ※時期によっては在庫切れの場合がございます。あらかじめご了承ください
           </p>
         </div>
       </div>
@@ -131,22 +195,35 @@
   }
   .support-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 900px;
     margin: 0 auto;
     @media print, screen and (max-width: 768px) {
       flex-flow: wrap;
     }
   }
+
+  .support-flex.-bottom {
+    margin-top: 30px;
+  }
   .support-image {
     width: 30%;
-    max-height: 400px;
+    max-height: 292px;
     transform: scale(0.9);
-
+    margin-left: 10px;
+    margin-right: 10px;
     @media print, screen and (max-width: 768px) {
       width: 100%;
       margin-top: 20px;
+      max-height: 400px;
     }
+  }
+
+  .support-text {
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+    font-weight: 700;
   }
 
   .support-image img {
@@ -198,11 +275,12 @@
   }
 
   .support-notes {
-    margin: 30px auto 0;
+    margin: 90px auto 0;
     text-align: center;
     max-width: 700px;
     @media print, screen and (max-width: 768px) {
       max-width: 100%;
+      margin-top: 30px;
     }
     p {
       font-size: 16px;
