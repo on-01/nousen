@@ -95,6 +95,7 @@
               東京建設業協会
             </p>
           </figure>
+          <figure class="support-image"></figure>
         </div>
         <div class="support-notes">
           <p>
