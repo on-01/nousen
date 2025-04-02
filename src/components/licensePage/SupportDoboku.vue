@@ -15,7 +15,7 @@
               src="../../assets/img/license_page/support_1.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
             />
-            <p>
+            <p class="support-text">
               みんなの建設業Q&A
               <br />
               東京建設業協会
@@ -168,7 +168,7 @@
   }
   .support-image {
     width: 30%;
-    max-height: 400px;
+    max-height: 292px;
     transform: scale(0.9);
     margin-left: 10px;
     margin-right: 10px;
@@ -176,6 +176,13 @@
       width: 100%;
       margin-top: 20px;
     }
+  }
+
+  .support-text {
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+    font-weight: 700;
   }
 
   .support-image img {
