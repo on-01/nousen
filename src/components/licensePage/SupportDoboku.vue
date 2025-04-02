@@ -59,7 +59,7 @@
             </p>
           </figure>
         </div>
-        <div class="support-flex">
+        <div class="support-flex -bottom">
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_6.jpg"
@@ -202,6 +202,10 @@
       flex-flow: wrap;
     }
   }
+
+  .support-flex.-bottom {
+    margin-top: 30px;
+  }
   .support-image {
     width: 30%;
     max-height: 292px;
@@ -271,11 +275,12 @@
   }
 
   .support-notes {
-    margin: 30px auto 0;
+    margin: 90px auto 0;
     text-align: center;
     max-width: 700px;
     @media print, screen and (max-width: 768px) {
       max-width: 100%;
+      margin-top: 30px;
     }
     p {
       font-size: 16px;
