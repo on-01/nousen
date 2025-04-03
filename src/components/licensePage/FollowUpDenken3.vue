@@ -129,13 +129,19 @@
     width: 252px;
     height: 3px;
     background: #ff843a;
-    bottom: 0;
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
+    @media print, screen and (max-width: 1000px) {
+      bottom: 0;
+    }
   }
 
   .follow-wrap {
-    margin-top: 30px;
+    margin-top: 50px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
   }
 
   .follow-flex {
