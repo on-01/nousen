@@ -4,9 +4,9 @@
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           <g-link to="/denken3">
-            令和7年度 電験三種 基礎の基礎＋基礎講座
+            令和7年度 電験三種【理論】講習会
             <br />
-            4/5(土)・4/6(日) 東京会場【受付中】
+            4/19(土)・4/20(日) 東京会場【受付中】
           </g-link>
         </p>
         <img
