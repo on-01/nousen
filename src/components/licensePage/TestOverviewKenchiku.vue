@@ -222,7 +222,11 @@
           </tr>
           <tr>
             <td bgcolor="#c3def3" class="c-blue">再受検</td>
-            <td>再受検制度はありません</td>
+            <td>
+              再受検制度は
+              <br />
+              ありません
+            </td>
             <td>
               <span>ネット申請</span>
               <br />
