@@ -189,6 +189,101 @@
           特に建設業界では、技術者の資格取得が企業の信用や受注に影響を与えるため、キャリアアップを目指す方にとって有益な資格です。
         </p>
       </div>
+      <p class="test-heading">受験申請</p>
+      <div class="test-wrap -white">
+        <p class="test-text">
+          2級建築施工管理技士技術検定の受験申請は、
+          <a
+            href="https://www.fcip-shiken.jp/ken1/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            公益財団法人建設業振興基金
+          </a>
+          が実施しており、毎年一定の期間に申し込みを受け付けています。
+          <br />
+          <br />
+          初めて第二次検定を受検する場合（一次二次同時申請を含む、以下同じ）は、実務経験審査が必要となりますので、書面にて申請を行う必要があります。願書を購入して申請手続きを行ってください。
+          <br />
+          ただし、平成15年度以降に新規で第二次検定を受検されたことがある方は、過去提出いただいた実務経験証明書等を参照しますので、同じ級・種目・試験区分の受検申請に限り、実務経験証明書等を省略した再受検申請が可能です（欠席者を含み、辞退者を除きます）。
+        </p>
+        <table class="test-table-kenchiku">
+          <tr>
+            <th>&emsp;</th>
+            <th>第一次検定のみ</th>
+            <th>一次二次同時</th>
+            <th>第二次検定のみ</th>
+          </tr>
+          <tr>
+            <td bgcolor="#c3def3" class="c-blue">新規受検</td>
+            <td><span>ネット申請</span></td>
+            <td><span>書面申請</span></td>
+            <td><span>書面申請</span></td>
+          </tr>
+          <tr>
+            <td bgcolor="#c3def3" class="c-blue">再受検</td>
+            <td>
+              再受検制度は
+              <br />
+              ありません
+            </td>
+            <td>
+              <span>ネット申請</span>
+              <br />
+              または
+              <br />
+              <span>書類申請</span>
+            </td>
+            <td>
+              <span>ネット申請</span>
+              <br />
+              または
+              <br />
+              <span>書類申請</span>
+            </td>
+          </tr>
+        </table>
+        <p class="test-text -mt20">
+          <span>■インターネット申込み方法</span>
+          <br />
+          1.
+          <a
+            href="https://www.kensetsu-kikin.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般財団法人 建設業振興基金
+          </a>
+          にアクセスする
+          <br />
+          2.申込画面で必要事項を入力する
+          <br />
+          3.受験手数料を支払う（個人申請の場合、クレジットカード・コンビニ払い選択可）
+          <br />
+          4.試験日の約2週間前に受験票が郵送される
+          <br />
+          <br />
+          <span>■書面申込み方法</span>
+          <br />
+          1.受験案内 / 願書を入手する　願書の入手方法は
+          <a
+            href="https://www.kensetsu-kikin.or.jp/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            一般財団法人 建設業振興基金
+          </a>
+          のサイトでご確認ください。
+          <br />
+          2.受験申込書を記入する
+          <br />
+          3.受験手数料を納付する（ゆうちょ銀行で支払い）
+          <br />
+          4.郵送にて願書を提出
+          <br />
+          5.試験日の約2週間前に受験票が郵送される
+        </p>
+      </div>
     </div>
   </div>
 </template>
