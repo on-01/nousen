@@ -68,7 +68,7 @@
             <p class="support-text">
               ビルドＡＬＬ（2024）
               <br />
-              「建設業界を志す学生
+              「建設業界を志す学生」
             </p>
           </figure>
           <figure class="support-image">
