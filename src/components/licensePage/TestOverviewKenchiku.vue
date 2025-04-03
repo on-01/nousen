@@ -132,7 +132,7 @@
           5.試験日の約2週間前に受験票が郵送される
         </p>
       </div>
-      <p class="test-heading">受験手数料</p>
+      <p class="test-heading">受検手数料</p>
       <div class="test-wrap -white">
         <p class="test-text -fz18">
           第一次検定：12,300円（非課税）
@@ -282,6 +282,17 @@
           4.郵送にて願書を提出
           <br />
           5.試験日の約2週間前に受験票が郵送される
+        </p>
+      </div>
+      <p class="test-heading">受検手数料</p>
+      <div class="test-wrap -white">
+        <p class="test-text -fz18">
+          第一次検定：6,150円（非課税）
+          <br />
+          第二次検定：6,150円（非課税）
+        </p>
+        <p class="test-text">
+          ※第一次・第二次検定へ同時申請をされる場合、12,300円（非課税）を一括して納付いただきます
         </p>
       </div>
     </div>
