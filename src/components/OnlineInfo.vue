@@ -22,7 +22,7 @@
   .online_infomation {
     display: none;
     @media print, screen and(min-width: 1000px) {
-      background: var(--orange);
+      background: #1262b2;
       color: #fff;
       font-weight: bold;
       font-size: 12px;
@@ -47,7 +47,7 @@
   }
 
   .sp_online_infomation {
-    background: var(--orange);
+    background: #1262b2;
     color: #fff;
     font-weight: bold;
     font-size: 16px;
