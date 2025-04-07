@@ -182,7 +182,7 @@
         <section class="navi-inner nav-inner02 underdisplay">
           <a @click="openModal">
             <img
-              src="../assets/img/common/toggle_menu/application_button.svg"
+              src="../assets/img/common/toggle_menu/application_button1.svg"
               alt="講習会お申し込み"
             />
           </a>
