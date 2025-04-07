@@ -69,6 +69,8 @@
               ビルドＡＬＬ（2024）
               <br />
               「建設業界を志す学生」
+              <br />
+              東京建設業界
             </p>
           </figure>
           <figure class="support-image">
