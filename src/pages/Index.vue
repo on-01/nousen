@@ -1327,7 +1327,7 @@ query {
     font-weight: bold;
     font-size: 15px;
     line-height: 1.5em;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and (max-width: 1000px) {
       text-align: center;
     }
