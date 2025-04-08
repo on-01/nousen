@@ -1327,7 +1327,7 @@ query {
     font-weight: bold;
     font-size: 15px;
     line-height: 1.5em;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and (max-width: 1000px) {
       text-align: center;
     }
@@ -1616,7 +1616,7 @@ query {
       margin-top: -50px;
       margin-bottom: 0;
       padding: 5px 0;
-      font-family: "メイリオ", sans-serif;
+      font-family: Noto Sans JP, sans-serif;
       // &:after {
       //   content: "";
       //   height: 200px;
@@ -2345,7 +2345,7 @@ query {
     text-justify: inter-ideograph;
     text-justify: inter-character;
     line-height: 1.7;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     @media screen and(max-width: 1000px) {
       line-height: 1.5;
       font-size: 12px;

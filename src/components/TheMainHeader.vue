@@ -182,7 +182,7 @@
         <section class="navi-inner nav-inner02 underdisplay">
           <a @click="openModal">
             <img
-              src="../assets/img/common/toggle_menu/application_button.svg"
+              src="../assets/img/common/toggle_menu/application_button1.svg"
               alt="講習会お申し込み"
             />
           </a>
@@ -205,6 +205,11 @@
             </g-link>
           </div>
           <div class="pagelink-title">
+            <g-link to="https://nousen.blog/oshiharaihouhou/">
+              <p>お支払い方法</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
             <g-link to="/guide">
               <p>特定商取引法に基づく表記</p>
             </g-link>
@@ -212,6 +217,16 @@
           <div class="pagelink-title">
             <g-link to="/privacy">
               <p>プライバシーポリシー</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
+            <g-link to="/anti-social-force">
+              <p>反社会的勢力排除宣言</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
+            <g-link to="https://nousen.blog/koushiuketuke/">
+              <p>講師募集について</p>
             </g-link>
           </div>
         </section>
@@ -782,6 +797,7 @@
   }
   .pagelink-title {
     position: relative;
+    font-family: Noto Sans JP, sans-serif;
     // margin: 0 10px;
     p {
       display: inline-block;
