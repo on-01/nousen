@@ -1231,6 +1231,7 @@ query {
     display: block;
     text-align: center;
     margin: 0;
+    font-family: Noto Sans JP, sans-serif;
     a {
       border-radius: 10px;
       width: 375px;
