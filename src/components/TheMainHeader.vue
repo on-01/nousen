@@ -797,6 +797,7 @@
   }
   .pagelink-title {
     position: relative;
+    font-family: Noto Sans JP, sans-serif;
     // margin: 0 10px;
     p {
       display: inline-block;
