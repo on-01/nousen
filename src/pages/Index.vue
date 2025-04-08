@@ -133,7 +133,7 @@
               <picture>
                 <source
                   media="(min-width: 1001px)"
-                  srcset="../assets/img/front/section01/main_catch.svg"
+                  srcset="../assets/img/front/section01/main_catch2.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <source
@@ -142,7 +142,7 @@
                   alt="電験三種 講習会 通信講座"
                 />
                 <img
-                  src="../assets/img/front/section01/main_catch.svg"
+                  src="../assets/img/front/section01/main_catch2.svg"
                   alt="電験三種 講習会 通信講座"
                 />
               </picture>
