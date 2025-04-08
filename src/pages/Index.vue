@@ -2536,7 +2536,7 @@ query {
     width: 100%;
     background-color: #d8efff;
     margin: 0 auto;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     padding: 20px 40px;
   }
   .voice-content {
