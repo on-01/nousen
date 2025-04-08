@@ -1231,6 +1231,7 @@ query {
     display: block;
     text-align: center;
     margin: 0;
+    font-family: Noto Sans JP, sans-serif;
     a {
       border-radius: 10px;
       width: 375px;
@@ -1756,7 +1757,7 @@ query {
       // width: 100%;
       margin: 0 auto 60px auto;
       overflow: hidden;
-      font-family: "メイリオ", sans-serif;
+      font-family: Noto Sans JP, sans-serif;
       // @media print, screen and (max-width: 1000px) {
       //   width: 90%;
       // }
@@ -2004,6 +2005,7 @@ query {
   .careerSupport-wrap {
     width: 50%;
     position: relative;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -2535,7 +2537,7 @@ query {
     width: 100%;
     background-color: #d8efff;
     margin: 0 auto;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     padding: 20px 40px;
   }
   .voice-content {
