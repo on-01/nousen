@@ -207,6 +207,7 @@
     justify-content: space-between;
     column-gap: 20px;
     padding: 0 20px;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and (max-width: 1142px) {
       flex-direction: column;
     }
