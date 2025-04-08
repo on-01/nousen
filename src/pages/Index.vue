@@ -1616,7 +1616,7 @@ query {
       margin-top: -50px;
       margin-bottom: 0;
       padding: 5px 0;
-      font-family: "メイリオ", sans-serif;
+      font-family: Noto Sans JP, sans-serif;
       // &:after {
       //   content: "";
       //   height: 200px;
