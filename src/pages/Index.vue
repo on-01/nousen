@@ -2345,7 +2345,7 @@ query {
     text-justify: inter-ideograph;
     text-justify: inter-character;
     line-height: 1.7;
-    font-family: "メイリオ", sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     @media screen and(max-width: 1000px) {
       line-height: 1.5;
       font-size: 12px;
