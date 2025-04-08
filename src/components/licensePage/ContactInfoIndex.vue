@@ -42,7 +42,7 @@
     background-color: #fff;
     border: 4px solid #f4891e;
     border-radius: 12px;
-    font-family: メイリオ, sans-serif;
+    font-family: Noto Sans JP, sans-serif;
     margin: 40px auto 250px;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 50px;
