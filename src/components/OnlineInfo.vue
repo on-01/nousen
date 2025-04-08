@@ -43,6 +43,7 @@
       margin: 0;
       line-height: 2.5em;
       font-size: 13px;
+      font-family: Noto Sans JP, sans-serif;
     }
   }
 
