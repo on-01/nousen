@@ -373,6 +373,6 @@
   }
 
   .scroll-animation-item.is-show {
-    background-position: 0% 0;
+    background-position: 0% 5px;
   }
 </style>
