@@ -197,7 +197,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline2.svg"
+            src="../assets/img/front/reason_main_headline2-1.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
@@ -420,7 +420,7 @@
         <div class="public-media">
           <h2 class="section-title">
             <img
-              src="../assets/img/front/reason_main_headline4.svg"
+              src="../assets/img/front/reason_main_headline4-1.svg"
               alt="電験三種 講習会 通信講座"
             />
           </h2>
@@ -614,7 +614,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline5.svg"
+            src="../assets/img/front/reason_main_headline5-1.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
@@ -696,7 +696,7 @@
       <section class="section03 -bottom">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline3.svg"
+            src="../assets/img/front/reason_main_headline3-1.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
