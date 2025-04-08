@@ -138,7 +138,7 @@
                 />
                 <source
                   media="(max-width: 1000px)"
-                  srcset="../assets/img/front/section01/main_catch_sp.svg"
+                  srcset="../assets/img/front/section01/main_catch_sp2.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <img
