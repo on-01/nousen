@@ -1514,20 +1514,20 @@ query {
     }
   }
   .denken {
-    color: #1262b2;
+    // color: #1262b2;
     span {
       background-color: #1262b2;
     }
   }
   .denkikouji {
-    color: #b60081;
+    // color: #b60081;
     span {
       background-color: #b60081;
     }
   }
   .denkikoujisekou,
   .kankouji {
-    color: #00a73c;
+    // color: #00a73c;
     span {
       background-color: #00a73c;
     }
@@ -1535,13 +1535,13 @@ query {
 
   .kenchiku,
   .doboku {
-    color: #ed7d31;
+    // color: #ed7d31;
     span {
       background-color: #ed7d31;
     }
   }
   .kyuusui {
-    color: #00afcc;
+    // color: #00afcc;
     span {
       background-color: #00afcc;
     }
@@ -2027,6 +2027,7 @@ query {
     }
     span {
       font-weight: 700;
+      font-size: 17px;
     }
   }
   .careerSupport-link {
@@ -2622,6 +2623,7 @@ query {
   }
   .voice-item:first-of-type p {
     width: 100%;
+    font-weight: 500;
   }
   .voice-upImage img {
     margin: 20px auto 0;
