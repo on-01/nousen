@@ -3,11 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          <g-link to="/denken3">
-            令和7年度 ２級土木施工管理技士【一次試験対策】講習会
-            <br />
-            4/26(土)・4/27(日) 東京会場【受付中】
-          </g-link>
+          令和7年度 ２級土木施工管理技士【一次試験対策】講習会
+          <br />
+          4/26(土)・4/27(日) 東京会場【受付中】
         </p>
         <img
           class="fixed-note-icon"
