@@ -294,6 +294,7 @@
     p {
       margin: 0;
       font-size: 15px;
+      font-weight: 500;
       @media print, screen and (max-width: 768px) {
         font-size: 12px;
       }

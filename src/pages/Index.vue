@@ -2027,6 +2027,7 @@ query {
     }
     span {
       font-weight: 700;
+      font-size: 17px;
     }
   }
   .careerSupport-link {
@@ -2622,6 +2623,7 @@ query {
   }
   .voice-item:first-of-type p {
     width: 100%;
+    font-weight: 500;
   }
   .voice-upImage img {
     margin: 20px auto 0;
