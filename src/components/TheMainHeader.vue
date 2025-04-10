@@ -42,7 +42,7 @@
           </div>
           <div class="contact item">
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/img/common/contact.svg" alt="お問い合わせ" />
+              <img src="../assets/img/common/contact1.svg" alt="お問い合わせ" />
             </g-link>
           </div>
         </div>
