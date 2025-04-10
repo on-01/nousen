@@ -218,6 +218,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 10px;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and(max-width: 1000px) {
       padding: 10px 0 100px;
       width: 90%;
@@ -237,7 +238,7 @@
           font-size: 15px;
           margin: 0;
           font-weight: bold;
-          font-family: "メイリオ", sans-serif;
+          // font-family: "メイリオ", sans-serif;
           @media print, screen and(max-width: 1000px) {
             font-size: 12px;
           }
@@ -261,7 +262,7 @@
       font-size: 13px;
       line-height: 1.5em;
       display: block;
-      font-family: "メイリオ", sans-serif;
+      // font-family: "メイリオ", sans-serif;
       @media print, screen and(max-width: 1000px) {
         font-size: 10px;
         transform: scale(0.9);
@@ -279,7 +280,7 @@
     .information {
       font-weight: bold;
       max-width: 750px;
-      font-family: "メイリオ", sans-serif;
+      // font-family: "メイリオ", sans-serif;
       @media print, screen and(min-width: 1001px) {
         width: 100%;
         display: flex;
@@ -340,7 +341,7 @@
     }
     .message {
       // font-family: serif;
-      font-family: "メイリオ", sans-serif;
+      // font-family: "メイリオ", sans-serif;
       font-size: 16px;
       margin-bottom: 0;
       margin-top: 0;
