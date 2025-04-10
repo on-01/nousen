@@ -186,7 +186,7 @@
   .add-text1 {
     font-size: 18px;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0 0;
   }
   .add-text1.-mt {
     margin-top: 10px;

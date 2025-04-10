@@ -778,6 +778,7 @@
   .nav-inner01 {
     position: relative;
     font-size: 15px;
+    font-weight: 500;
     @media print, screen and(min-width: 1001px) {
       justify-content: space-between;
       display: flex;
