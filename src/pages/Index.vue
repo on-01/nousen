@@ -40,7 +40,7 @@
             tag="div"
             class="qualification-list-wrap"
           >
-            <div class="item item01 denken" key="item01">
+            <div class="item item01" key="item01">
               <g-link to="/denken3">
                 <span>電験</span>
                 <br />
@@ -51,7 +51,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item02 denkikouji" key="item02">
+            <div class="item item02" key="item02">
               <div class="link-none">
                 <span>電気工事士</span>
                 <br />
@@ -81,7 +81,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item05 kenchiku" key="item05">
+            <div class="item item05" key="item05">
               <g-link to="/kenchiku-s">
                 <span>施工管理技士</span>
                 <br />
@@ -91,7 +91,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item06 kankouji" key="item06">
+            <div class="item item06" key="item06">
               <g-link>
                 <span>施工管理技士</span>
                 <br />
@@ -103,7 +103,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item07 denkikoujisekou" key="item07">
+            <div class="item item07" key="item07">
               <g-link>
                 <span>施工管理技士</span>
                 <br />
@@ -115,7 +115,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item08 kyuusui" key="item08">
+            <div class="item item08" key="item08">
               <g-link>
                 <span>給水装置工事</span>
                 <br />
