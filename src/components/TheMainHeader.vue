@@ -37,12 +37,12 @@
           </div>
           <div class="form item">
             <a @click="openModal">
-              <img src="../assets/img/common/session.svg" alt="講座お申込み" />
+              <img src="../assets/img/common/session1.svg" alt="講座お申込み" />
             </a>
           </div>
           <div class="contact item">
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/img/common/contact.svg" alt="お問い合わせ" />
+              <img src="../assets/img/common/contact1.svg" alt="お問い合わせ" />
             </g-link>
           </div>
         </div>
@@ -188,7 +188,7 @@
           </a>
           <g-link to="/contact" target="_blank" rel="noopener noreferrer">
             <img
-              src="../assets/img/common/toggle_menu/contact_button.svg"
+              src="../assets/img/common/toggle_menu/contact_button1.svg"
               alt="お問い合わせ"
             />
           </g-link>
