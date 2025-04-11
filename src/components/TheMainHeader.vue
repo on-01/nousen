@@ -698,7 +698,6 @@
       &.form {
         flex-shrink: 0;
         transform: scale(1);
-        margin-top: 10px;
         @media print, screen and(max-width: 560px) {
           transform: scale(1);
         }
