@@ -37,12 +37,20 @@
           </div>
           <div class="form item">
             <a @click="openModal">
-              <img src="../assets/img/common/session1.svg" alt="講座お申込み" />
+              <img
+                class="h18"
+                src="../assets/img/common/session1.svg"
+                alt="講座お申込み"
+              />
             </a>
           </div>
           <div class="contact item">
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/img/common/contact1.svg" alt="お問い合わせ" />
+              <img
+                class="h18"
+                src="../assets/img/common/contact1.svg"
+                alt="お問い合わせ"
+              />
             </g-link>
           </div>
         </div>
@@ -655,6 +663,9 @@
     }
   }
   .application {
+    .h18 {
+      height: 18px;
+    }
     position: relative;
     font-size: 20px;
     width: 100%;
@@ -683,7 +694,7 @@
       &.contact,
       &.form {
         flex-shrink: 0;
-        transform: scale(1.1);
+        transform: scale(1);
         @media print, screen and(max-width: 560px) {
           transform: scale(1);
         }
