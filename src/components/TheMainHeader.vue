@@ -47,7 +47,7 @@
           <div class="contact item">
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
               <img
-                class="h18"
+                class="h14"
                 src="../assets/img/common/contact1.svg"
                 alt="お問い合わせ"
               />
@@ -666,6 +666,9 @@
     .h18 {
       height: 18px;
     }
+    .h14 {
+      height: 14px;
+    }
     position: relative;
     font-size: 20px;
     width: 100%;
@@ -695,6 +698,7 @@
       &.form {
         flex-shrink: 0;
         transform: scale(1);
+        margin-top: 10px;
         @media print, screen and(max-width: 560px) {
           transform: scale(1);
         }
@@ -755,7 +759,8 @@
     z-index: 100;
     top: 0;
     transition: height 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
-    color: #3b241a;
+    // color: #3b241a;
+    color: #000;
     font-weight: bold;
     @media print, screen and(min-width: 1001px) {
       right: 3%;
