@@ -37,12 +37,20 @@
           </div>
           <div class="form item">
             <a @click="openModal">
-              <img src="../assets/img/common/session.svg" alt="講座お申込み" />
+              <img
+                class="h18"
+                src="../assets/img/common/session1.svg"
+                alt="講座お申込み"
+              />
             </a>
           </div>
           <div class="contact item">
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
-              <img src="../assets/img/common/contact.svg" alt="お問い合わせ" />
+              <img
+                class="h14"
+                src="../assets/img/common/contact1.svg"
+                alt="お問い合わせ"
+              />
             </g-link>
           </div>
         </div>
@@ -188,7 +196,7 @@
           </a>
           <g-link to="/contact" target="_blank" rel="noopener noreferrer">
             <img
-              src="../assets/img/common/toggle_menu/contact_button.svg"
+              src="../assets/img/common/toggle_menu/contact_button1.svg"
               alt="お問い合わせ"
             />
           </g-link>
@@ -655,6 +663,12 @@
     }
   }
   .application {
+    .h18 {
+      height: 18px;
+    }
+    .h14 {
+      height: 14px;
+    }
     position: relative;
     font-size: 20px;
     width: 100%;
@@ -683,7 +697,7 @@
       &.contact,
       &.form {
         flex-shrink: 0;
-        transform: scale(1.1);
+        transform: scale(1);
         @media print, screen and(max-width: 560px) {
           transform: scale(1);
         }
@@ -744,7 +758,8 @@
     z-index: 100;
     top: 0;
     transition: height 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
-    color: #3b241a;
+    // color: #3b241a;
+    color: #000;
     font-weight: bold;
     @media print, screen and(min-width: 1001px) {
       right: 3%;
