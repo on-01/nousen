@@ -57,37 +57,37 @@ query {
       };
     },
 
-    mounted() {
-      (function () {
-        var uqid = "ad5bd9cGM8364M65";
-        var gid = "228";
-        var uid =
-          Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
+    // mounted() {
+    //   (function () {
+    //     var uqid = "ad5bd9cGM8364M65";
+    //     var gid = "228";
+    //     var uid =
+    //       Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
 
-        // 直前のページ（リファラー）のパスからuid2を取得
-        var referrerPath = new URL(document.referrer).pathname;
-        var uid2 = referrerPath.replace(/^\/|\/$/g, ""); // パスの前後スラッシュを除去
+    //     // 直前のページ（リファラー）のパスからuid2を取得
+    //     var referrerPath = new URL(document.referrer).pathname;
+    //     var uid2 = referrerPath.replace(/^\/|\/$/g, ""); // パスの前後スラッシュを除去
 
-        var af = "";
-        var pid = "";
-        var amount = "";
+    //     var af = "";
+    //     var pid = "";
+    //     var amount = "";
 
-        var a = document.createElement("script");
-        a.src = "//act.gro-fru.net/ac/action_js.php";
-        a.id = "afadaction-" + Date.now();
-        a.addEventListener("load", function () {
-          new fpcAction(a.id).groupAction(
-            gid,
-            af,
-            [uid, uid2],
-            pid,
-            amount,
-            uqid
-          );
-        });
-        document.head.appendChild(a);
-      })();
-    },
+    //     var a = document.createElement("script");
+    //     a.src = "//act.gro-fru.net/ac/action_js.php";
+    //     a.id = "afadaction-" + Date.now();
+    //     a.addEventListener("load", function () {
+    //       new fpcAction(a.id).groupAction(
+    //         gid,
+    //         af,
+    //         [uid, uid2],
+    //         pid,
+    //         amount,
+    //         uqid
+    //       );
+    //     });
+    //     document.head.appendChild(a);
+    //   })();
+    // },
   };
 </script>
 
