@@ -1982,6 +1982,7 @@ query {
   .careerSupport-bottomText {
     max-width: 950px;
     margin: 0 auto;
+    font-family: Noto Sans JP, sans-serif;
     @media print, screen and (max-width: 1000px) {
       max-width: 580px;
     }
