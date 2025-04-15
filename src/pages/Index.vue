@@ -42,8 +42,8 @@
           >
             <div class="item item01 denken" key="item01">
               <g-link to="/denken3">
-                <span>電験</span>
-                <br />
+                <!-- <span>電験</span>
+                <br /> -->
                 第三種
                 <br />
                 電気主任技術者
@@ -53,8 +53,8 @@
             </div>
             <div class="item item02 denkikouji" key="item02">
               <div class="link-none">
-                <span>電気工事士</span>
-                <br />
+                <!-- <span>電気工事士</span>
+                <br /> -->
                 第一種
                 <br />
                 電気工事士
@@ -63,8 +63,8 @@
             </div>
             <div class="item item03 denkikouji" key="item03">
               <div class="link-none">
-                <span>電気工事士</span>
-                <br />
+                <!-- <span>電気工事士</span>
+                <br /> -->
                 第二種
                 <br />
                 電気工事士
@@ -73,8 +73,8 @@
             </div>
             <div class="item item04 doboku" key="item04">
               <g-link to="/doboku-s">
-                <span>施工管理技士</span>
-                <br />
+                <!-- <span>施工管理技士</span>
+                <br /> -->
                 1・2級
                 <br />
                 土木施工管理技士
@@ -83,8 +83,8 @@
             </div>
             <div class="item item05 kenchiku" key="item05">
               <g-link to="/kenchiku-s">
-                <span>施工管理技士</span>
-                <br />
+                <!-- <span>施工管理技士</span>
+                <br /> -->
                 1・2級
                 <br />
                 建築施工管理技士
@@ -93,8 +93,8 @@
             </div>
             <div class="item item06 kankouji" key="item06">
               <g-link>
-                <span>施工管理技士</span>
-                <br />
+                <!-- <span>施工管理技士</span>
+                <br /> -->
                 1・2級
                 <br />
                 管工事施工管理技士
@@ -105,8 +105,8 @@
             </div>
             <div class="item item07 denkikoujisekou" key="item07">
               <g-link>
-                <span>施工管理技士</span>
-                <br />
+                <!-- <span>施工管理技士</span>
+                <br /> -->
                 1・2級
                 <br />
                 電気工事施工管理技士
@@ -117,8 +117,8 @@
             </div>
             <div class="item item08 kyuusui" key="item08">
               <g-link>
-                <span>給水装置工事</span>
-                <br />
+                <!-- <span>給水装置工事</span>
+                <br /> -->
                 給水装置工事
                 <br />
                 主任技術者
