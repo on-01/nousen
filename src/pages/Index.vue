@@ -1100,7 +1100,6 @@ query Index {
   allContentfulNewsPost(limit:5) {
     edges {
       node {
-        title
         date
         createdAt
         updatedAt
