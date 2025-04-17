@@ -819,6 +819,7 @@
       display: inline-block;
       margin: 0;
       line-height: 3em;
+      font-weight: 700;
       @media print, screen and(max-width: 1000px) {
         background-color: #fff;
         padding-right: 10px;
