@@ -20,7 +20,6 @@ query News {
   allContentfulNewsPost(limit:5) {
     edges {
       node {
-        title
         date(format: "Y.M.D")
         createdAt(format: "Y.M.D")
         updatedAt(format: "Y.M.D")
