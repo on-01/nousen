@@ -817,7 +817,7 @@
     // margin: 0 10px;
     p {
       display: inline-block;
-      margin: 0;
+      margin: 0 0;
       line-height: 3em;
       font-weight: 700;
       @media print, screen and(max-width: 1000px) {
