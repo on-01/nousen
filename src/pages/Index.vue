@@ -131,16 +131,16 @@
               <picture>
                 <source
                   media="(min-width: 1001px)"
-                  srcset="../assets/img/front/section01/main_catch2.svg"
+                  srcset="../assets/img/front/section01/main_catch3.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <source
                   media="(max-width: 1000px)"
-                  srcset="../assets/img/front/section01/main_catch_sp2.svg"
+                  srcset="../assets/img/front/section01/main_catch_sp3.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <img
-                  src="../assets/img/front/section01/main_catch2.svg"
+                  src="../assets/img/front/section01/main_catch3.svg"
                   alt="電験三種 講習会 通信講座"
                 />
               </picture>
