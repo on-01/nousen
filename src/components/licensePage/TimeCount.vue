@@ -84,16 +84,15 @@
   }
 
   .time-wrapper {
-    width: 200%;
     background-color: #1262b2;
-    padding: 20px;
+    padding: 10px;
   }
 
   .time-heading {
-    font-size: 38px;
+    font-size: 42px;
     color: #fff;
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 10px;
     line-height: 1.5;
     text-align: center;
   }
@@ -101,17 +100,18 @@
   ul {
     display: flex;
     justify-content: center;
-    column-gap: 40px;
+    column-gap: 20px;
   }
 
   li {
     width: 50%;
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 12px;
+    align-items: flex-end;
   }
 
   .text-top {
@@ -123,7 +123,7 @@
   }
 
   .text-bottom {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     text-align: center;
     line-height: 1.5;
