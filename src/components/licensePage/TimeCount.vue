@@ -73,6 +73,7 @@
 
 <style lang="scss" scoped>
   .time {
+    background: #fff;
     padding-top: 40px;
     font-family: "メイリオ", sans-serif;
   }
@@ -115,7 +116,7 @@
   }
 
   .text-top {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     line-height: 1.5;
@@ -123,7 +124,7 @@
   }
 
   .text-bottom {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
     line-height: 1.5;
@@ -134,6 +135,7 @@
     margin: 0;
     font-size: 20px;
     font-weight: 700;
+    line-height: 1;
     span {
       color: #ff4500;
       font-size: 32px;
