@@ -13,6 +13,7 @@
             title="第三種電気主任技術者"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
+          <TimeCount />
           <Cheer
             :imagePath="
               require('../assets/img/license_page/denken3/denken3_point5.jpg')
@@ -646,6 +647,7 @@
   import Merumaga from "../components/licensePage/Merumaga.vue";
   import OmNoHousoku from "../components/licensePage/OmNoHousoku.vue";
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
+  import TimeCount from "../components/licensePage/TimeCount.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -724,6 +726,7 @@
       Merumaga,
       OmNoHousoku,
       FollowUpDenken3,
+      TimeCount,
     },
     data() {
       return {
