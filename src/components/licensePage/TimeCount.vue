@@ -1,35 +1,33 @@
 <template>
-  <Layout>
-    <div class="time">
-      <div class="time-inner">
-        <div class="time-wrapper">
-          <p class="time-heading">次回試験日まで</p>
-          <ul>
-            <li>
-              <div class="time-text">
-                <p class="text-top">上期(8月)試験</p>
-                <p class="text-bottom">{{ targetDateFormatted1 }}まであと</p>
-              </div>
-              <p class="time-day">
-                <span>{{ remainingDays1 }}</span>
-                日
-              </p>
-            </li>
-            <li>
-              <div class="time-text">
-                <p class="text-top">下期(3月)試験</p>
-                <p class="text-bottom">{{ targetDateFormatted2 }}まであと</p>
-              </div>
-              <p class="time-day">
-                <span>{{ remainingDays2 }}</span>
-                日
-              </p>
-            </li>
-          </ul>
-        </div>
+  <div class="time">
+    <div class="time-inner">
+      <div class="time-wrapper">
+        <p class="time-heading">次回試験日まで</p>
+        <ul>
+          <li>
+            <div class="time-text">
+              <p class="text-top">上期(8月)試験</p>
+              <p class="text-bottom">{{ targetDateFormatted1 }}まであと</p>
+            </div>
+            <p class="time-day">
+              <span>{{ remainingDays1 }}</span>
+              日
+            </p>
+          </li>
+          <li>
+            <div class="time-text">
+              <p class="text-top">下期(3月)試験</p>
+              <p class="text-bottom">{{ targetDateFormatted2 }}まであと</p>
+            </div>
+            <p class="time-day">
+              <span>{{ remainingDays2 }}</span>
+              日
+            </p>
+          </li>
+        </ul>
       </div>
     </div>
-  </Layout>
+  </div>
 </template>
 
 <script>
