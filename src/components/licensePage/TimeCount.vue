@@ -79,9 +79,13 @@
   }
 
   .time-inner {
-    width: 100%;
     max-width: 600px;
     margin: 0 auto;
+
+    @media print, screen and (max-width: 768px) {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
   }
 
   .time-wrapper {
@@ -96,12 +100,19 @@
     margin: 0 0 10px;
     line-height: 1.5;
     text-align: center;
+    @media print, screen and (max-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   ul {
     display: flex;
     justify-content: center;
     column-gap: 20px;
+    @media print, screen and (max-width: 768px) {
+      row-gap: 18px;
+      flex-direction: column;
+    }
   }
 
   li {
@@ -113,6 +124,10 @@
     justify-content: center;
     column-gap: 12px;
     align-items: flex-end;
+    @media print, screen and (max-width: 768px) {
+      flex-direction: row;
+      width: auto;
+    }
   }
 
   .text-top {
