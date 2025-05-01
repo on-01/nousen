@@ -12,6 +12,7 @@
             title="1・2級 土木施工管理技士"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
+          <TimeCountDoboku />
           <CheerDoboku
             text="能センは<br>
     建設業で働く人々を<br>
@@ -712,6 +713,7 @@
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
+  import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -788,6 +790,7 @@
       TestOverviewDoboku,
       Gansho,
       MerumagaDoboku,
+      TimeCountDoboku,
     },
     data() {
       return {
