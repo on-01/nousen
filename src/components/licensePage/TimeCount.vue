@@ -79,7 +79,7 @@
   }
 
   .time-inner {
-    max-width: 600px;
+    max-width: 625px;
     margin: 0 auto;
 
     @media print, screen and (max-width: 768px) {
