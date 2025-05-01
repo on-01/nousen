@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 ２級土木施工管理技士【一次試験対策】講習会
+          令和7年度 電験三種【電力】講習会
           <br />
-          4/26(土)・4/27(日) 東京会場【受付中】
+          5/10(土)・5/11(日) 東京会場【受付中】
         </p>
         <img
           class="fixed-note-icon"
