@@ -12,6 +12,8 @@
             title="1・2級 建築施工管理技士"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
+          <TimeCountKenchiku />
+
           <CheerKenchiku
             text="能センは<br>
               建設業で働く人々を<br>
@@ -763,6 +765,7 @@
   import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaKenchiku from "../components/licensePage/MerumagaKenchiku.vue";
+  import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -836,6 +839,7 @@
       TestOverviewKenchiku,
       Gansho,
       MerumagaKenchiku,
+      TimeCountKenchiku,
     },
     data() {
       return {

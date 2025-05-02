@@ -6,7 +6,7 @@
         <ul>
           <li>
             <div class="time-text">
-              <p class="text-top">上期(8月)試験</p>
+              <p class="text-top">前期(6月)試験</p>
               <p class="text-bottom">{{ targetDateFormatted1 }}まであと</p>
             </div>
             <p class="time-day">
@@ -16,7 +16,7 @@
           </li>
           <li>
             <div class="time-text">
-              <p class="text-top">下期(3月)試験</p>
+              <p class="text-top">後期(10月)試験</p>
               <p class="text-bottom">{{ targetDateFormatted2 }}まであと</p>
             </div>
             <p class="time-day">
@@ -34,8 +34,8 @@
   export default {
     data() {
       return {
-        targetDate1: new Date("2025-08-31"),
-        targetDate2: new Date("2026-03-22"),
+        targetDate1: new Date("2025-06-01"),
+        targetDate2: new Date("2025-10-26"),
         today: new Date(),
       };
     },
