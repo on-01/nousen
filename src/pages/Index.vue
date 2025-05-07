@@ -1228,7 +1228,7 @@ query {
     display: block;
     text-align: center;
     margin: 0;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     a {
       border-radius: 10px;
       width: 375px;
@@ -1325,7 +1325,7 @@ query {
     font-weight: bold;
     font-size: 15px;
     line-height: 1.5em;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       text-align: center;
     }
@@ -1614,7 +1614,7 @@ query {
       margin-top: -50px;
       margin-bottom: 0;
       padding: 5px 0;
-      font-family: Noto Sans JP, sans-serif;
+      font-family: メイリオ, sans-serif;
       // &:after {
       //   content: "";
       //   height: 200px;
@@ -1754,7 +1754,7 @@ query {
       // width: 100%;
       margin: 0 auto 60px auto;
       overflow: hidden;
-      font-family: Noto Sans JP, sans-serif;
+      font-family: メイリオ, sans-serif;
       // @media print, screen and (max-width: 1000px) {
       //   width: 90%;
       // }
@@ -1981,7 +1981,7 @@ query {
   .careerSupport-bottomText {
     max-width: 950px;
     margin: 0 auto;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       max-width: 580px;
     }
@@ -2003,7 +2003,7 @@ query {
   .careerSupport-wrap {
     width: 50%;
     position: relative;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -2346,7 +2346,7 @@ query {
     text-justify: inter-ideograph;
     text-justify: inter-character;
     line-height: 1.7;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media screen and(max-width: 1000px) {
       line-height: 1.5;
       font-size: 12px;
@@ -2536,7 +2536,7 @@ query {
     width: 100%;
     background-color: #d8efff;
     margin: 0 auto;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     padding: 20px 40px;
   }
   .voice-content {

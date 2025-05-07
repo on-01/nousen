@@ -234,7 +234,7 @@
     font-weight: bold;
     margin-top: 100px;
     font-size: 20px;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       margin-top: 40px;
     }

@@ -67,7 +67,7 @@ query News {
     margin: 0 auto;
     position: relative;
     background-color: #fff;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
   }
   .section-title {
     text-align: center;

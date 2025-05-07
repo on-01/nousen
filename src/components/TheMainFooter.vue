@@ -218,7 +218,7 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 10px;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and(max-width: 1000px) {
       padding: 10px 0 100px;
       width: 90%;
