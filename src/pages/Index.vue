@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 電験三種【電力】講習会
+          令和7年度 電験三種【機械】講習会
           <br />
-          5/10(土)・5/11(日) 東京会場【受付中】
+          6/7(土)・6/8(日) 東京会場【受付中】
         </p>
         <img
           class="fixed-note-icon"
