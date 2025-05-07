@@ -31,8 +31,7 @@
           <p class="workshop-text -first">一次コース(2日間/15時間)</p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
           <p class="workshop-text -third">
-            4月26日(土)～27日(日)9:30～17:00
-            <span>【受付中】</span>
+            4月26日(土)～27日(日)9:30～17:00 【終了】
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
