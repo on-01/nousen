@@ -37,7 +37,7 @@
     z-index: 0;
     position: relative;
     margin-top: 80px;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       width: 90%;
     }

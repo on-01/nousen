@@ -39,7 +39,7 @@
             <a @click="openModal">
               <img
                 class="h18"
-                src="../assets/img/common/session1.svg"
+                src="../assets/img/common/session2.svg"
                 alt="講座お申込み"
               />
             </a>
@@ -48,7 +48,7 @@
             <g-link to="/contact" target="_blank" rel="noopener noreferrer">
               <img
                 class="h14"
-                src="../assets/img/common/contact1.svg"
+                src="../assets/img/common/contact2.svg"
                 alt="お問い合わせ"
               />
             </g-link>
@@ -190,13 +190,13 @@
         <section class="navi-inner nav-inner02 underdisplay">
           <a @click="openModal">
             <img
-              src="../assets/img/common/toggle_menu/application_button1.svg"
+              src="../assets/img/common/toggle_menu/application_button2.svg"
               alt="講習会お申し込み"
             />
           </a>
           <g-link to="/contact" target="_blank" rel="noopener noreferrer">
             <img
-              src="../assets/img/common/toggle_menu/contact_button1.svg"
+              src="../assets/img/common/toggle_menu/contact_button2.svg"
               alt="お問い合わせ"
             />
           </g-link>
@@ -813,7 +813,7 @@
   }
   .pagelink-title {
     position: relative;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     // margin: 0 10px;
     p {
       display: inline-block;

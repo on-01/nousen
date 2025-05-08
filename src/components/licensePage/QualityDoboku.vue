@@ -123,7 +123,7 @@
     margin-bottom: 30px;
     text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
       -1px -1px 0 #000;
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: メイリオ, sans-serif;
   }
 
   .quality-mainTitle br {

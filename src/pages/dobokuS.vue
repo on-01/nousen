@@ -12,7 +12,7 @@
             title="1・2級 土木施工管理技士"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
-          <TimeCountDoboku />
+          <!-- <TimeCountDoboku /> -->
           <CheerDoboku
             text="能センは<br>
     建設業で働く人々を<br>

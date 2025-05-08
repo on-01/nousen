@@ -12,7 +12,7 @@
             title="1・2級 建築施工管理技士"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
-          <TimeCountKenchiku />
+          <!-- <TimeCountKenchiku /> -->
 
           <CheerKenchiku
             text="能センは<br>

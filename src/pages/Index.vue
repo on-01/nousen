@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 電験三種【電力】講習会
+          令和7年度 電験三種【機械】講習会
           <br />
-          5/10(土)・5/11(日) 東京会場【受付中】
+          6/7(土)・6/8(日) 東京会場【受付中】
         </p>
         <img
           class="fixed-note-icon"
@@ -131,16 +131,16 @@
               <picture>
                 <source
                   media="(min-width: 1001px)"
-                  srcset="../assets/img/front/section01/main_catch3.svg"
+                  srcset="../assets/img/front/section01/main_catch4.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <source
                   media="(max-width: 1000px)"
-                  srcset="../assets/img/front/section01/main_catch_sp3.svg"
+                  srcset="../assets/img/front/section01/main_catch_sp4.svg"
                   alt="電験三種 講習会 通信講座"
                 />
                 <img
-                  src="../assets/img/front/section01/main_catch3.svg"
+                  src="../assets/img/front/section01/main_catch4.svg"
                   alt="電験三種 講習会 通信講座"
                 />
               </picture>
@@ -195,7 +195,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline2-1.svg"
+            src="../assets/img/front/reason_main_headline2-2.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
@@ -418,7 +418,7 @@
         <div class="public-media">
           <h2 class="section-title">
             <img
-              src="../assets/img/front/reason_main_headline4-1.svg"
+              src="../assets/img/front/reason_main_headline4-2.svg"
               alt="電験三種 講習会 通信講座"
             />
           </h2>
@@ -612,7 +612,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline5-1.svg"
+            src="../assets/img/front/reason_main_headline5-2.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
@@ -694,7 +694,7 @@
       <section class="section03 -bottom">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline3-1.svg"
+            src="../assets/img/front/reason_main_headline3-2.svg"
             alt="電験三種 講習会 通信講座"
           />
         </h2>
@@ -1228,7 +1228,7 @@ query {
     display: block;
     text-align: center;
     margin: 0;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     a {
       border-radius: 10px;
       width: 375px;
@@ -1325,7 +1325,7 @@ query {
     font-weight: bold;
     font-size: 15px;
     line-height: 1.5em;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       text-align: center;
     }
@@ -1614,7 +1614,7 @@ query {
       margin-top: -50px;
       margin-bottom: 0;
       padding: 5px 0;
-      font-family: Noto Sans JP, sans-serif;
+      font-family: メイリオ, sans-serif;
       // &:after {
       //   content: "";
       //   height: 200px;
@@ -1754,7 +1754,7 @@ query {
       // width: 100%;
       margin: 0 auto 60px auto;
       overflow: hidden;
-      font-family: Noto Sans JP, sans-serif;
+      font-family: メイリオ, sans-serif;
       // @media print, screen and (max-width: 1000px) {
       //   width: 90%;
       // }
@@ -1981,7 +1981,7 @@ query {
   .careerSupport-bottomText {
     max-width: 950px;
     margin: 0 auto;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       max-width: 580px;
     }
@@ -2003,7 +2003,7 @@ query {
   .careerSupport-wrap {
     width: 50%;
     position: relative;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -2346,7 +2346,7 @@ query {
     text-justify: inter-ideograph;
     text-justify: inter-character;
     line-height: 1.7;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     @media screen and(max-width: 1000px) {
       line-height: 1.5;
       font-size: 12px;
@@ -2536,7 +2536,7 @@ query {
     width: 100%;
     background-color: #d8efff;
     margin: 0 auto;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: メイリオ, sans-serif;
     padding: 20px 40px;
   }
   .voice-content {
