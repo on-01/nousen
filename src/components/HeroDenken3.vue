@@ -19,10 +19,10 @@
       </div>
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
-      <p class="title -red">
-        能センの最短合格講座で
+      <p class="title -orange">
+        合格への最短ルート
         <br />
-        目標達成の未来へ
+        確かな成果を、確実に
       </p>
       <p class="sub-title -link">
         <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
@@ -102,6 +102,10 @@
   }
   .-red {
     color: red;
+    font-weight: 700;
+  }
+  .-orange {
+    color: #ff4500;
     font-weight: 700;
   }
 

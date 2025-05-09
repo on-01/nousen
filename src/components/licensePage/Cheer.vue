@@ -23,11 +23,11 @@
         </a>
       </div>
 
-      <figure class="cheer-image">
+      <!-- <figure class="cheer-image">
         <a href="https://denken.nouryoku.com/denke3-honkidegokaku">
           <g-image :src="imagePath" :alt="altText" />
         </a>
-      </figure>
+      </figure> -->
       <!-- <div class="bg-white_type2">
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
