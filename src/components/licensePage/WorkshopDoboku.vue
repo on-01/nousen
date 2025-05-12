@@ -360,7 +360,7 @@
     </div>
 
     <img class="hayaben__img" src=../../assets/img/license_page/hayaben.jpg"
-    alt="土木施工管理技士 講習会 通信講座 web講座">
+    alt="土木施工管理技士 講習会 通信講座 web講座"/>
     <p class="workshop-top">
       ハヤベン（早勉）とは？
       <br />

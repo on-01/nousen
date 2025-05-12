@@ -170,6 +170,13 @@
     border: 3px solid #1262b2;
   }
 
+  .application-link.-mr {
+    margin-right: 40px;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+    }
+  }
+
   @media print, screen and (max-width: 1200px) {
     .cheer-title {
       font-size: 42px;
