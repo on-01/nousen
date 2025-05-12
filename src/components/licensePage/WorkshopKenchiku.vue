@@ -365,7 +365,7 @@
       本講座の開講前に、前年度の講義動画を特別公開！
       <br />
       スタート前に予習できる、
-      <span class="-red">無料の先行学習特典</span>
+      <span class="hayaben_red">無料の先行学習特典</span>
       です。
       <br />
       <br />
@@ -1696,6 +1696,10 @@
     max-width: 350px;
     margin: 0 auto;
     display: block;
+  }
+
+  .hayaben_red {
+    color: red;
   }
 
   @media print, screen and (max-width: 480px) {
