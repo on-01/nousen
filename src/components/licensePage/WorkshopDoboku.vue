@@ -258,7 +258,7 @@
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            5月2日(金)～10月31日(金)まで
+            5月2日(金)～12月31日(水)まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -278,7 +278,7 @@
               <span>【終了】</span>
             </p> -->
             <p class="workshop-border -none">
-              9月18日(木)～10月31日(金)まで
+              9月18日(木)～12月31日(水)まで
               <span>【受付中】</span>
             </p>
           </div>
@@ -330,7 +330,7 @@
         <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
         <div class="workshop-content">
           <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
-          <p class="workshop-text -blue">2月1日(日)～10月31日(金)まで</p>
+          <p class="workshop-text -blue">1月1日(水)～12月31日(水)まで</p>
         </div>
       </div>
     </div>
@@ -340,7 +340,7 @@
     <p class="workshop-bottom -yellow">
       <span>配信終了日まで何回でも視聴可能です！</span>
     </p>
-    <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p>
+    <!-- <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p> -->
 
     <div class="workshop-orangeLine">
       <div class="workshop-orangeLine__inner">

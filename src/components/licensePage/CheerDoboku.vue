@@ -261,6 +261,7 @@
   .time {
     background: #fff;
     padding-bottom: 20px;
+    margin-top: 40px;
     font-family: "メイリオ", sans-serif;
   }
 

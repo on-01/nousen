@@ -16,7 +16,16 @@
           class="application-link -blue"
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
-          無料体験講座（基礎の基礎）お申込み
+          無料体験講座　お申込み
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
+        </a>
+        <a
+          class="application-link -blue"
+          href="https://www.nouryoku.com/contact/"
+        >
+          お問い合わせ / 資料請求
           <IconBase class="icon" width="25" height="25">
             <IconFingerRight />
           </IconBase>
