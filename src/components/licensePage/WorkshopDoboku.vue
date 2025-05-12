@@ -382,7 +382,7 @@
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
-        <p class="workshop-heading -blue -bottom">
+        <p class="workshop-heading -blue">
           ハヤベンの特典（昨年の動画無料資料）
         </p>
         <div class="workshop-content">
@@ -1309,9 +1309,9 @@
   .workshop-completion {
     margin: 0 auto 20px auto;
     max-width: 900px;
-    padding: 40px 40px 0;
+    padding: 80px 40px 0;
     @media print, screen and (max-width: 1000px) {
-      padding: 0 20px;
+      padding: 40px 20px 0 20px;
     }
   }
 
@@ -1671,6 +1671,12 @@
 
   .bg-white_type2 {
     padding-bottom: 40px;
+  }
+
+  .hayaben {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
   }
 
   @media print, screen and (max-width: 480px) {
