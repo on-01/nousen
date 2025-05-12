@@ -13,7 +13,7 @@
       </div>
       <div class="experience-link">
         <a
-          class="application-link -blue"
+          class="application-link -blue -mr"
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
           無料体験講座　お申込み
