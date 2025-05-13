@@ -11,6 +11,12 @@
         <IconFingerRight />
       </IconBase>
     </g-link>
+    <a class="reason-more-inner" 　href="https://www.nouryoku.com/contact/">
+      お問い合わせ / 資料請求
+      <IconBase class="icon" width="25" height="25">
+        <IconFingerRight />
+      </IconBase>
+    </a>
   </div>
 </template>
 
@@ -226,7 +232,7 @@
   }
   .reason-more-inner {
     border-radius: 10px;
-    background-color: #f4891e;
+    background-color: #1262b2;
     display: inline-block;
     color: #fff;
     text-align: center;

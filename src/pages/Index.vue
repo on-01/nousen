@@ -148,7 +148,7 @@
           </transition-group>
           <figure class="top_right">
             <img
-              src="../assets/img/common/top-right.jpg"
+              src="../assets/img/common/top-right1.jpg"
               alt="電験三種 講習会 通信講座"
             />
           </figure>
@@ -335,9 +335,6 @@
         moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
         moreText="オンライン相談はこちら"
       />
-      <div class="reason-link">
-        <a href="https://www.nouryoku.com/contact/">お問い合わせはこちら</a>
-      </div>
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
@@ -703,7 +700,7 @@
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
-                src="../assets/img/common/social_image1.jpg"
+                src="../assets/img/common/social_image1-1.jpg"
                 alt="電験三種 講習会 通信講座"
               />
               <p class="last-message-flexText-bold">
@@ -1232,7 +1229,7 @@ query {
     a {
       border-radius: 10px;
       width: 375px;
-      background-color: #f4891e;
+      background-color: #1262b2;
       display: inline-block;
       color: #fff;
       text-align: center;

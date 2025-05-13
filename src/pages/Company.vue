@@ -8,7 +8,7 @@
       />
 
       <figure class="company-image">
-        <img src="../assets/img/company/company_message.jpg" />
+        <img src="../assets/img/company/company_message1.jpg" />
       </figure>
 
       <div class="contents">
@@ -136,7 +136,7 @@
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
-                src="../assets/img/common/social_image1.jpg"
+                src="../assets/img/common/social_image1-1.jpg"
                 alt="「こどもの未来応援基金への寄付」"
               />
               <p class="last-message-flexText-bold">
