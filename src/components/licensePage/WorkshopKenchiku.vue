@@ -344,8 +344,7 @@
           <br />
           段取りの良さが結果を変える――それがハヤベンです。
         </p>
-
-        <p class="workshop-heading -blue">
+        <p class="workshop-heading -blue -bottom">
           ハヤベンの特典（昨年の動画無料資料）
         </p>
         <div class="workshop-content">
@@ -378,13 +377,6 @@
         </p>
       </div>
     </div>
-
-    <p class="workshop-bottom -yellow">
-      <span>最大34時間分の動画視聴！！</span>
-    </p>
-    <p class="workshop-bottom -yellow">
-      <span>配信終了日まで何回でも視聴可能です！</span>
-    </p>
 
     <div class="workshop-completion">
       <div class="workshop-completionWrap">

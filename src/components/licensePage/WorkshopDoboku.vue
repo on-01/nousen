@@ -330,7 +330,7 @@
         <img
           class="hayaben"
           src="../../assets/img/license_page/doboku_s/hayaben.jpg"
-          alt="建築施工管理技士 講習会 通信講座 web講座"
+          alt="土木施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-top">
           ハヤベン（早勉）とは？
@@ -350,8 +350,7 @@
           <br />
           段取りの良さが結果を変える――それがハヤベンです。
         </p>
-
-        <p class="workshop-heading -blue">
+        <p class="workshop-heading -blue -bottom">
           ハヤベンの特典（昨年の動画無料資料）
         </p>
         <div class="workshop-content">
