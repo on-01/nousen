@@ -344,18 +344,13 @@
           <br />
           段取りの良さが結果を変える――それがハヤベンです。
         </p>
-        <div class="workshop-wrapper">
-          <div class="workshop-box">
-            <p class="workshop-heading -blue">
-              ハヤベンの特典（昨年の動画無料資料）
-            </p>
-            <div class="workshop-content">
-              <p class="workshop-text -blue">
-                一次 (約12時間) / 二次 (約5時間)
-              </p>
-              <p class="workshop-text -blue">1月1日(水)～12月31日(水)まで</p>
-            </div>
-          </div>
+
+        <p class="workshop-heading -blue">
+          ハヤベンの特典（昨年の動画無料資料）
+        </p>
+        <div class="workshop-content">
+          <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
+          <p class="workshop-text -blue">1月1日(水)～12月31日(水)まで</p>
         </div>
       </div>
     </div>
@@ -1691,7 +1686,7 @@
 
   .hayaben {
     max-width: 350px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     display: block;
   }
 
