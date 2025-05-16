@@ -321,7 +321,36 @@
             </p>
           </div>
         </div>
-        <p class="workshop-heading -blue -bottom">昨年度の動画(無料サービス)</p>
+      </div>
+    </div>
+    <img
+      class="hayaben"
+      src="../../assets/img/license_page/doboku_s/hayaben.jpg"
+      alt="建築施工管理技士 講習会 通信講座 web講座"
+    />
+    <p class="workshop-top">
+      ハヤベン（早勉）とは？
+      <br />
+      <br />
+      本講座の開講前に、前年度の講義動画を特別公開！
+      <br />
+      スタート前に予習できる、
+      <span class="hayaben_red">無料の先行学習特典</span>
+      です。
+      <br />
+      <br />
+      施工管理技士試験は、早めの準備が合格のカギ。
+      <br />
+      本講座の前から動き出すことで、ライバルに差をつけることができます。
+      <br />
+      <br />
+      段取りの良さが結果を変える――それがハヤベンです。
+    </p>
+    <div class="workshop-wrapper">
+      <div class="workshop-box">
+        <p class="workshop-heading -blue -bottom">
+          ハヤベンの特典（昨年の動画無料資料）
+        </p>
         <div class="workshop-content">
           <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
           <p class="workshop-text -blue">1月1日(水)～12月31日(水)まで</p>
@@ -352,47 +381,6 @@
         </p>
       </div>
     </div>
-
-    <img
-      class="hayaben"
-      src="../../assets/img/license_page/doboku_s/hayaben.jpg"
-      alt="建築施工管理技士 講習会 通信講座 web講座"
-    />
-    <p class="workshop-top">
-      ハヤベン（早勉）とは？
-      <br />
-      <br />
-      本講座の開講前に、前年度の講義動画を特別公開！
-      <br />
-      スタート前に予習できる、
-      <span class="hayaben_red">無料の先行学習特典</span>
-      です。
-      <br />
-      <br />
-      施工管理技士試験は、早めの準備が合格のカギ。
-      <br />
-      本講座の前から動き出すことで、ライバルに差をつけることができます。
-      <br />
-      <br />
-      段取りの良さが結果を変える――それがハヤベンです。
-    </p>
-    <div class="workshop-wrapper">
-      <div class="workshop-box">
-        <p class="workshop-heading -blue">
-          ハヤベンの特典（昨年の動画無料資料）
-        </p>
-        <div class="workshop-content">
-          <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
-          <p class="workshop-text -blue">1月1日(水)～12月31日(水)まで</p>
-        </div>
-      </div>
-    </div>
-    <p class="workshop-bottom -yellow">
-      <span>最大34時間分の動画視聴！！</span>
-    </p>
-    <p class="workshop-bottom -yellow">
-      <span>配信終了日まで何回でも視聴可能です！</span>
-    </p>
 
     <div class="workshop-completion">
       <div class="workshop-completionWrap">
@@ -1694,7 +1682,7 @@
 
   .hayaben {
     max-width: 350px;
-    margin: 0 auto;
+    margin: 40px auto 0 auto;
     display: block;
   }
 

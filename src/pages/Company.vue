@@ -559,7 +559,7 @@ query {
   }
 
   .company-image {
-    max-width: 970px;
+    max-width: 770px;
     margin: 0 auto;
   }
   .company-image img {
