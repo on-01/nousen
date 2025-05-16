@@ -13,10 +13,19 @@
       </div>
       <div class="experience-link">
         <a
-          class="application-link -blue"
+          class="application-link -blue -mr"
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
-          無料体験講座（基礎の基礎）お申込み
+          無料体験講座　お申込み
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
+        </a>
+        <a
+          class="application-link -blue"
+          href="https://www.nouryoku.com/contact/"
+        >
+          お問い合わせ / 資料請求
           <IconBase class="icon" width="25" height="25">
             <IconFingerRight />
           </IconBase>
@@ -159,6 +168,13 @@
   .application-link.-blue {
     background-color: #1262b2;
     border: 3px solid #1262b2;
+  }
+
+  .application-link.-mr {
+    margin-right: 40px;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+    }
   }
 
   @media print, screen and (max-width: 1200px) {

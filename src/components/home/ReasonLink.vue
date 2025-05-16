@@ -11,6 +11,12 @@
         <IconFingerRight />
       </IconBase>
     </g-link>
+    <a class="reason-more-inner" 　href="https://www.nouryoku.com/contact/">
+      お問い合わせ / 資料請求
+      <IconBase class="icon" width="25" height="25">
+        <IconFingerRight />
+      </IconBase>
+    </a>
   </div>
 </template>
 
@@ -218,25 +224,27 @@
     display: block;
     text-align: center;
     // margin: 0 auto 310px;
-    margin: 0 auto 24px;
+    margin: 76px auto 24px;
     @media print, screen and (max-width: 1000px) {
       // margin-bottom: 200px;
+      margin-top: 40px;
       margin-bottom: 24px;
     }
   }
   .reason-more-inner {
     border-radius: 10px;
-    background-color: #f4891e;
-    display: inline-block;
+    background-color: #1262b2;
+    display: block;
     color: #fff;
     text-align: center;
     padding: 10px 3em;
     font-weight: bold;
-    margin-top: 100px;
+    margin: 24px auto 0 auto;
     font-size: 20px;
     font-family: メイリオ, sans-serif;
+    max-width: 270px;
     @media print, screen and (max-width: 1000px) {
-      margin-top: 40px;
+      // margin-top: 40px;
     }
     .icon {
       margin-left: 10px;
