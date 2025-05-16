@@ -321,29 +321,33 @@
             </p>
           </div>
         </div>
-        <img
-          class="hayaben"
-          src="../../assets/img/license_page/doboku_s/hayaben.jpg"
-          alt="建築施工管理技士 講習会 通信講座 web講座"
-        />
-        <p class="workshop-top">
-          ハヤベン（早勉）とは？
-          <br />
-          <br />
-          本講座の開講前に、前年度の講義動画を特別公開！
-          <br />
-          スタート前に予習できる、
-          <span class="hayaben_red">無料の先行学習特典</span>
-          です。
-          <br />
-          <br />
-          施工管理技士試験は、早めの準備が合格のカギ。
-          <br />
-          本講座の前から動き出すことで、ライバルに差をつけることができます。
-          <br />
-          <br />
-          段取りの良さが結果を変える――それがハヤベンです。
-        </p>
+      </div>
+    </div>
+    <img
+      class="hayaben"
+      src="../../assets/img/license_page/doboku_s/hayaben.jpg"
+      alt="建築施工管理技士 講習会 通信講座 web講座"
+    />
+    <p class="workshop-top">
+      ハヤベン（早勉）とは？
+      <br />
+      <br />
+      本講座の開講前に、前年度の講義動画を特別公開！
+      <br />
+      スタート前に予習できる、
+      <span class="hayaben_red">無料の先行学習特典</span>
+      です。
+      <br />
+      <br />
+      施工管理技士試験は、早めの準備が合格のカギ。
+      <br />
+      本講座の前から動き出すことで、ライバルに差をつけることができます。
+      <br />
+      <br />
+      段取りの良さが結果を変える――それがハヤベンです。
+    </p>
+    <div class="workshop-wrapper">
+      <div class="workshop-box">
         <p class="workshop-heading -blue -bottom">
           ハヤベンの特典（昨年の動画無料資料）
         </p>
