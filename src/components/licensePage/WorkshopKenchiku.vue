@@ -219,7 +219,7 @@
         <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
           class="flex-img"
-          src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku-pc3.jpg"
           alt="建築施工管理技士 講習会 通信講座 web講座"
         />
       </div>
@@ -227,7 +227,7 @@
         <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
           class="flex-img -right"
-          src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku-sp3.jpg"
           alt="建築施工管理技士 講習会 通信講座 web講座"
         />
       </div>
