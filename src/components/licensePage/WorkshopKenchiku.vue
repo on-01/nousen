@@ -358,10 +358,10 @@
       </div>
     </div>
     <p class="workshop-bottom -yellow">
-      <span>最大34時間分の動画視聴！！</span>
+      <span>最新＋過去動画で最大34時間分の視聴ができる！</span>
     </p>
     <p class="workshop-bottom -yellow">
-      <span>配信終了日まで何回でも視聴可能です！</span>
+      <span>配信終了日まで何回でも視聴可能です。</span>
     </p>
     <!-- <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p> -->
 
@@ -1035,7 +1035,7 @@
   }
 
   .workshop-heading.-bottom {
-    margin-top: 30px;
+    // margin-top: 30px;
   }
 
   .workshop-content {

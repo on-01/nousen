@@ -967,7 +967,7 @@
     }
 
     .tab.active {
-      border-bottom: 5px solid #fff8cc;
+      border-bottom: 6px solid #fff8cc;
     }
 
     .tab::before {

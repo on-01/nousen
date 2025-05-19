@@ -12,6 +12,39 @@
       </figure>
 
       <div class="contents">
+        <section class="greeting section">
+          <h3 class="section-title">代表者ご挨拶</h3>
+          <p class="section-text">
+            私自身、これまでに数多くの資格やライセンスを取得してまいりました。
+            <br />
+            その経験をもとに、効率的な学習法や合格へのポイントを、皆さまにわかりやすくお伝えしております。
+            <br />
+            <br />
+            資格取得の道のりは決して平坦ではありませんが、一歩一歩着実に進むことで、必ずゴールにたどり着けます。
+            <br />
+            その道のりを、私たちは全力でサポートいたします。
+            <br />
+            どのようなことでも構いませんので、どうぞお気軽にご相談ください。
+            <br />
+            <br />
+            <br />
+            <br />
+            株式会社NOUSEN
+            <br />
+            <br />
+            代表　中村 信明
+          </p>
+        </section>
+        <section class="outline section">
+          <h3 class="section-title">経営理念</h3>
+          <p class="section-text -bold">
+            どこよりも『合格』を提供し、
+            <br />
+            誰よりも日本社会の発展に貢献。
+            <br />
+            何よりも明るい未来を創造する。
+          </p>
+        </section>
         <section class="info section">
           <h3 class="section-title">企業情報</h3>
           <div class="content">
@@ -37,15 +70,7 @@
             </dl> -->
             <dl>
               <dt>代表者</dt>
-              <dd>
-                中村 信明
-                <br />
-                『数多くの資格やライセンスを取得してきました。
-                <br />
-                効率的な勉強方法やコツなど、何でもお気軽にご相談ください。
-                <br />
-                あなたの挑戦を全力でサポートします！』
-              </dd>
+              <dd>中村 信明</dd>
             </dl>
             <dl>
               <dt>事業年度</dt>
@@ -90,16 +115,6 @@
               </dd>
             </dl> -->
           </div>
-        </section>
-        <section class="outline section">
-          <h3 class="section-title">経営理念</h3>
-          <p class="section-text">
-            どこよりも『合格』を提供し、
-            <br />
-            誰よりも日本社会の発展に貢献。
-            <br />
-            何よりも明るい未来を創造する。
-          </p>
         </section>
         <section class="purpose section">
           <h3 class="section-title">目的・事業内容</h3>
@@ -555,7 +570,11 @@ query {
     border-bottom: 1px dashed #808080;
   }
   .section-text {
+  }
+
+  .section-text.-bold {
     text-align: center;
+    font-weight: 700;
   }
 
   .company-image {
