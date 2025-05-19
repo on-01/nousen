@@ -777,6 +777,7 @@
   import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaKenchiku from "../components/licensePage/MerumagaKenchiku.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -851,6 +852,7 @@
       Gansho,
       MerumagaKenchiku,
       TimeCountKenchiku,
+      IconFingerRight,
     },
     data() {
       return {
