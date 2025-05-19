@@ -349,7 +349,7 @@
     <div class="workshop-wrapper">
       <div class="workshop-box">
         <p class="workshop-heading -blue -bottom">
-          ハヤベンの特典（昨年の動画無料資料）
+          ハヤベンの特典（昨年の動画無料視聴）
         </p>
         <div class="workshop-content">
           <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
