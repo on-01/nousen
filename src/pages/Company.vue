@@ -8,7 +8,7 @@
       />
 
       <figure class="company-image">
-        <img src="../assets/img/company/company_message1.jpg" />
+        <img src="../assets/img/company/company_message2.jpg" />
       </figure>
 
       <div class="contents">
