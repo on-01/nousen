@@ -89,6 +89,9 @@
     width: 100%;
     padding: 40px 0 60px;
     margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      padding-bottom: 20px;
+    }
   }
 
   .cheer-section {
@@ -141,6 +144,10 @@
     text-align: center;
     margin-top: 60px;
     margin-bottom: 60px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
 
   .application-link {
