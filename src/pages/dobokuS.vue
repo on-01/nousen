@@ -88,7 +88,18 @@
                   class="online-link"
                 >
                   オンライン相談はこちら
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </g-link>
+                <g-link
+                  to="https://www.nouryoku.com/contact/"
+                  class="online-link"
+                >
+                  お問い合わせ / 資料請求
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
                 </g-link>
               </div>
 
@@ -714,6 +725,7 @@
   import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -791,6 +803,7 @@
       Gansho,
       MerumagaDoboku,
       TimeCountDoboku,
+      IconFingerRight,
     },
     data() {
       return {
