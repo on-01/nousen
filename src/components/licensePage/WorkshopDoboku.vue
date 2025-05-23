@@ -225,7 +225,7 @@
         <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
           class="flex-img"
-          src="../../assets/img/license_page/doboku_s/doboku-pc.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku-pc2.jpg"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
@@ -233,7 +233,7 @@
         <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
           class="flex-img -right"
-          src="../../assets/img/license_page/doboku_s/doboku-sp.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku-sp2.jpg"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
@@ -364,10 +364,10 @@
       </div>
     </div>
     <p class="workshop-bottom -yellow">
-      <span>最大34時間分の動画視聴！！</span>
+      <span>最新＋過去動画で最大34時間分の視聴ができる！</span>
     </p>
     <p class="workshop-bottom -yellow">
-      <span>配信終了日まで何回でも視聴可能です！</span>
+      <span>配信終了日まで何回でも視聴可能です。</span>
     </p>
     <!-- <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p> -->
 
@@ -786,9 +786,9 @@
                 <tr>
                   <th>配信日程</th>
                   <td>
-                    一次：5月2日(金)～10月31日(金)まで
+                    一次：5月2日(金)～12月31日(水)まで
                     <br />
-                    二次：9月18日(木)～10月31日(金)まで
+                    二次：9月18日(木)～12月31日(水)まで
                   </td>
                 </tr>
                 <tr>
@@ -1022,7 +1022,7 @@
   }
 
   .workshop-heading.-bottom {
-    margin-top: 30px;
+    // margin-top: 30px;
   }
 
   .workshop-content {

@@ -295,6 +295,31 @@
           ※第一次・第二次検定へ同時申請をされる場合、12,300円（非課税）を一括して納付いただきます
         </p>
       </div>
+      <p class="test-heading">試験地</p>
+      <div class="test-wrap -white">
+        <p class="test-text -fz18">
+          札幌・仙台・東京・新潟・名古屋・大阪・広島・高松・福岡・沖縄
+        </p>
+        <p class="test-text">
+          ※会場確保の都合上、やむを得ず近郊の府県等で実施する場合もあります
+        </p>
+      </div>
+      <p class="test-heading">受験資格</p>
+      <div class="test-wrap -white">
+        <p class="test-index">第一次検定</p>
+        <p class="test-text">17歳以上（試験実施年度に満17歳以上となる者）</p>
+        <p class="test-index -mt20">第二次検定</p>
+        <p class="test-text">
+          ●2級第一次検定合格後 実務経験3年以上
+          <br />
+          ●1級第一次検定合格後 実務経験1年以上
+          <br />
+          ●一級建築士試験合格後 実務経験1年以上
+          <br />
+          <br />
+          ※新旧の受験資格で実務経験の考え方自体が異なります。必ず受検の手引をご確認ください。
+        </p>
+      </div>
     </div>
   </div>
 </template>
