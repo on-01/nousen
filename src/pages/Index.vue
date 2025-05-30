@@ -602,6 +602,19 @@
                 />
               </a>
             </figure>
+            <figure>
+              <a
+                href="https://sakufuri.jp/media/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/common/public_media_14.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
           </div>
         </div>
       </section>
