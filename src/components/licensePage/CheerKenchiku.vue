@@ -73,11 +73,18 @@
 </template>
 
 <script>
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+
   export default {
     props: {
       text: String,
       imagePath: String,
       altText: String,
+    },
+    components: {
+      IconBase,
+      IconFingerRight,
     },
     data() {
       return {
