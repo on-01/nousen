@@ -23,7 +23,7 @@
         </a>
         <a
           class="application-link -blue"
-          href="https://www.nouryoku.com/contact/"
+          href="https://business.form-mailer.jp/fms/e72637ff291274"
         >
           お問い合わせ / 資料請求
           <IconBase class="icon" width="25" height="25">

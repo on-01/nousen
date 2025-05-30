@@ -47,16 +47,44 @@
           alt="２級建築施工管理技士 講習会 通信講座 web講座"
         />
       </div>
+
+      <div class="experience-link">
+        <!-- <a
+          class="application-link -blue -mr"
+          href="https://business.form-mailer.jp/fms/d8f3692b263372"
+        >
+          無料体験講座　お申込み
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
+        </a> -->
+        <a
+          class="application-link -blue"
+          href="https://business.form-mailer.jp/fms/fda5e149291799"
+        >
+          お問い合わせ / 資料請求
+          <IconBase class="icon" width="25" height="25">
+            <IconFingerRight />
+          </IconBase>
+        </a>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+
   export default {
     props: {
       text: String,
       imagePath: String,
       altText: String,
+    },
+    components: {
+      IconBase,
+      IconFingerRight,
     },
     data() {
       return {
@@ -341,6 +369,50 @@
       color: #ff4500;
       font-size: 32px;
       font-weight: 700;
+    }
+  }
+
+  .experience-link {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .application-link {
+    margin: 0 auto;
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #ed6c00;
+    border: 3px solid #ed6c00;
+    border-radius: 10px;
+    font-weight: 700;
+    svg {
+      margin-top: -3px;
+    }
+    @media print, screen and (max-width: 1000px) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
+  .application-link.-blue {
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
+  }
+
+  .application-link.-mr {
+    margin-right: 40px;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
     }
   }
 </style>
