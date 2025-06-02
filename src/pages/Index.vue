@@ -603,11 +603,7 @@
               </a>
             </figure>
             <figure>
-              <a
-                href="https://sakufuri.jp/media/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a :href="cleanUrl" target="_blank" rel="noopener noreferrer">
                 <img
                   src="../assets/img/common/public_media_14.jpg"
                   alt="電験三種 講習会 通信講座"
@@ -1181,7 +1177,14 @@ query {
         afterImgLoad: false,
         modal: false,
         isShow: true,
+        originalUrl: "https://sakufuri.jp/media/",
       };
+    },
+    computed: {
+      cleanUrl() {
+        // 万が一 ?_fsi が元のURLに含まれていたら取り除く
+        return this.originalUrl.split("?")[0];
+      },
     },
     mounted() {
       //トップの背景の読み込みが終わってからアニメーションさせる
