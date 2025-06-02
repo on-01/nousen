@@ -481,7 +481,7 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDoboku title="合格応援割START！" />
+              <DiscountDoboku title="🎓 GO!資格 合格応援制度 START！" />
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
@@ -911,8 +911,11 @@
     width: 300px;
     background-color: #1262b2;
     margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+      margin-left: auto;
+    }
     @media print, screen and (max-width: 480px) {
       width: 80%;
     }

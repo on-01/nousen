@@ -431,7 +431,7 @@
 
               <CampaignDenken3 date="３月１５日（金）" />
 
-              <Discount title="合格応援割START！" />
+              <Discount title="🎓 GO!資格 合格応援制度 START！" />
 
               <Fsc title="持続可能なミライへ" />
             </div>
