@@ -221,7 +221,7 @@
                   </IconBase>
                 </g-link>
                 <g-link
-                  to="https://www.nouryoku.com/contact/"
+                  to="https://business.form-mailer.jp/fms/fda5e149291799"
                   class="online-link"
                 >
                   お問い合わせ / 資料請求
@@ -907,10 +907,10 @@
     text-align: center;
     padding: 60px 0 20px 0;
     display: flex;
-    flex-direction: column;
     // border-bottom: 5px solid #1262b2;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 20px 0;
+      flex-direction: column;
     }
   }
   // .exam-link-wrapper.-border {
@@ -959,7 +959,7 @@
   }
   .online-link {
     width: 300px;
-    background-color: #00a73c;
+    background-color: #1262b2;
     margin-top: 25px;
     margin-right: auto;
     margin-left: auto;

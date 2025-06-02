@@ -154,7 +154,7 @@
 
     <div class="workshop-flex">
       <div>
-        <p class="workshop-address -bold">東京会場 練馬産業会館（30名限定）</p>
+        <p class="workshop-address -bold">東京会場 練馬産業会館（25名限定）</p>
         <a
           href="http://www.nerima-sanren.jp/"
           target="_blank"
