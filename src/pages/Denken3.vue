@@ -74,12 +74,28 @@
             <div class="bg-lightBlue">
               <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
               <TestOverview />
+              <div class="experience-link">
+                <a
+                  class="application-link -blue -mr"
+                  href="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                >
+                  オンライン相談はこちら
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </a>
+                <a
+                  class="application-link -blue"
+                  href="https://business.form-mailer.jp/fms/e72637ff291274"
+                >
+                  お問い合わせ / 資料請求
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </a>
+              </div>
 
-              <div class="exam-link-wrapper -column">
-                <!-- <g-link to="/licenses/#denken" class="exam-link">
-                  試験概要はこちら
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link> -->
+              <!-- <div class="exam-link-wrapper -column">
                 <g-link
                   to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
                   class="online-link"
@@ -87,7 +103,7 @@
                   オンライン相談はこちら
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                 </g-link>
-              </div>
+              </div> -->
               <MeritDenken3 />
               <StudyDenken3 />
               <!-- <Study
@@ -627,6 +643,7 @@
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
   import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import { INLINES } from "@contentful/rich-text-types";
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import Schedule from "../components/licensePage/Schedule.vue";
@@ -708,6 +725,7 @@
       IconBase,
       IconDoubleArrowRight,
       IconArrowRight,
+      IconFingerRight,
       Schedule,
       CourseOverview,
       CourseOverview1,
@@ -1254,4 +1272,48 @@
     }
   }
   // voiceセクションここまで
+
+  .experience-link {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .application-link {
+    margin: 0 auto;
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #ed6c00;
+    border: 3px solid #ed6c00;
+    border-radius: 10px;
+    font-weight: 700;
+    svg {
+      margin-top: -3px;
+    }
+    @media print, screen and (max-width: 1000px) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
+  .application-link.-blue {
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
+  }
+
+  .application-link.-mr {
+    margin-right: 40px;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+    }
+  }
 </style>

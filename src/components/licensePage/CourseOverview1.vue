@@ -46,8 +46,8 @@
           <table>
             <tr>
               <th>
-                会場
-                <p class="courseOverview-th-text">（令和７年度は東京会場）</p>
+                会場（定員25名）
+                <!-- <p class="courseOverview-th-text"></p> -->
               </th>
               <td>
                 <p>
