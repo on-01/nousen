@@ -2484,6 +2484,9 @@ query {
   }
   .public-media-flex.-bottom {
     width: 75%;
+    @media print, screen and (max-width: 800px) {
+      margin: 0 auto;
+    }
   }
   .public-media-flex figure {
     margin: 0;

@@ -71,35 +71,35 @@
             <h2 class="section-title">
               <img
                 src="../assets/img/front/reason_main_headline6.svg"
-                alt="電験三種 講習会 通信講座"
+                alt="電験三種 施工管理技士 出張講習"
               />
             </h2>
             <div class="public-media-flex">
               <figure>
                 <img
                   src="../assets/img/common/ntt-facilities.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image -type1"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/ntt-fieldtechno.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image -type2"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/ntt-higashinippon.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/daikin-airtechno.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
@@ -108,28 +108,28 @@
               <figure>
                 <img
                   src="../assets/img/common/daikin-hvac.jpg"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/toyota.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/kansai-dennryoku.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/tokyogasu.jpg"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
@@ -138,28 +138,28 @@
               <figure>
                 <img
                   src="../assets/img/common/kaji-shoukoukai.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/hokkaido-denki.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/hokuriku-denki.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/necusuko.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
@@ -168,14 +168,14 @@
               <figure>
                 <img
                   src="../assets/img/common/nippongennsiryoku.png"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
                 <img
                   src="../assets/img/common/shouenerugy.jpg"
-                  alt="電験三種 講習会 通信講座"
+                  alt="電験三種 施工管理技士 出張講習"
                   class="public-media-flex-image"
                 />
               </figure>

@@ -243,7 +243,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -256,7 +256,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -271,7 +271,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -284,7 +284,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -309,7 +309,7 @@
                           <figure v-on:click="toggleVoice(1)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -324,7 +324,7 @@
                         <div v-show="isVoice === 1" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -334,7 +334,7 @@
                           <figure v-on:click="toggleVoice(2)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -346,7 +346,7 @@
                         <div v-show="isVoice === 2" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -356,7 +356,7 @@
                           <figure v-on:click="toggleVoice(3)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -370,7 +370,7 @@
                         <div v-show="isVoice === 3" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -380,7 +380,7 @@
                           <figure v-on:click="toggleVoice(4)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -396,7 +396,7 @@
                         <div v-show="isVoice === 4" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -406,7 +406,7 @@
                           <figure v-on:click="toggleVoice(5)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -420,7 +420,7 @@
                         <div v-show="isVoice === 5" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
