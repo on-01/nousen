@@ -22,71 +22,75 @@
           <br />
         </p>
       </div>
-      <div class="discount-flex">
-        <div class="discount-flex-left">
-          若チャレ割
-          <br />
-          <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
-          <span class="arrow -waka">▶︎</span>
+      <div class="wrapper">
+        <div class="discount-flex">
+          <div class="discount-flex-left">
+            若チャレ割
+            <br />
+            <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
+            <span class="arrow -waka">▶︎</span>
+          </div>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>5000</span>
+            円割引！
+          </p>
         </div>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>5000</span>
-          円割引！
-        </p>
-      </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          女子応援割
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>2000</span>
-          円割引！
-        </p>
-      </div>
-      <div class="discount-flex">
-        <div class="discount-flex-left">
-          シニア応援割
-          <br />
-          <p class="discount-small">（60歳以上対象）</p>
-          <span class="arrow -waka">▶︎</span>
+        <div class="discount-flex">
+          <p class="discount-flex-left -sp">
+            女子応援割
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>2000</span>
+            円割引！
+          </p>
         </div>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>2000</span>
-          円割引！
-        </p>
+        <div class="discount-flex">
+          <div class="discount-flex-left">
+            シニア応援割
+            <br />
+            <p class="discount-small">（60歳以上対象）</p>
+            <span class="arrow -waka">▶︎</span>
+          </div>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>2000</span>
+            円割引！
+          </p>
+        </div>
       </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          団体割
-          <br />
-          <span class="number">（5名以上）</span>
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>全員10%OFF</span>
-        </p>
-      </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          超団体割
-          <br />
-          <span class="number">（10名以上）</span>
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>全員15%OFF</span>
-        </p>
+      <div class="wrapper">
+        <div class="discount-flex">
+          <p class="discount-flex-left -sp">
+            団体割
+            <br />
+            <span class="number">（5名以上）</span>
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>全員10%OFF</span>
+          </p>
+        </div>
+        <div class="discount-flex">
+          <p class="discount-flex-left -sp">
+            超団体割
+            <br />
+            <span class="number">（10名以上）</span>
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>全員15%OFF</span>
+          </p>
+        </div>
       </div>
       <div class="discount-note">
         <p>※割引の併用はできません（キャンペーンコードは別）</p>
