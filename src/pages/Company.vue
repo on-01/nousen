@@ -602,6 +602,11 @@ query {
     dd {
       width: 85%;
     }
+    dl {
+      @media print, screen and (max-width: 1000px) {
+        display: inline-flex;
+      }
+    }
   }
 
   .history-head {
