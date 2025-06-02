@@ -603,17 +603,18 @@
               </a>
             </figure>
             <figure>
-              <g-link
-                to="https://sakufuri.jp/media/"
-                target="_blank"
+              <a
+                href="#"
+                @click.prevent="openExternal"
                 rel="noopener noreferrer"
+                class="public-media-flex-image-link"
               >
                 <img
                   src="../assets/img/common/public_media_14.jpg"
                   alt="サクフリブログ"
                   class="public-media-flex-image"
                 />
-              </g-link>
+              </a>
             </figure>
           </div>
         </div>
@@ -1181,14 +1182,7 @@ query {
         afterImgLoad: false,
         modal: false,
         isShow: true,
-        originalUrl: "https://sakufuri.jp/media/",
       };
-    },
-    computed: {
-      cleanUrl() {
-        // 万が一 ?_fsi が元のURLに含まれていたら取り除く
-        return this.originalUrl.split("?")[0];
-      },
     },
     mounted() {
       //トップの背景の読み込みが終わってからアニメーションさせる
@@ -1236,6 +1230,10 @@ query {
       //     }
       //   }
       // },
+      openExternal() {
+        const cleanUrl = "https://sakufuri.jp/media/";
+        window.open(cleanUrl, "_blank");
+      },
     },
   };
 </script>

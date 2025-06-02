@@ -583,6 +583,10 @@ query {
     margin: 40px auto 0;
     display: block;
     width: 90%;
+
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   .last-message {
