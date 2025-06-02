@@ -13,20 +13,29 @@
       <div class="contents">
         <section class="message">
           <div class="introduction">
-            <p>能センでは、出張講習も承っております。</p>
-            <p class="example">
-              「必要な資格取得者が大幅に不足している」
-              <br />
-              「社内など身近な環境で研修を行いたい」
-              <br />
-              「近隣で希望する講習が開催されていない」
-              <br />
-              「社内講習を行いたいが身近に専門の講師がいない」
-            </p>
             <p>
-              ・・・等のお悩みを抱えた企業様に向けた講習会をご提案させて頂いております。
+              忙しい現場に、国家資格という武器を。
               <br />
-              大勢の方がお得にはなりますが、少人数でもご対応はできますのでお気軽にご相談ください。
+              電気主任技術者・施工管理技士・設備系資格の合格対策を、
+              <br />
+              貴社内でも、オンラインでも柔軟に対応いたします。
+            </p>
+            <p class="example">
+              「資格保有者が足りず、現場が回らない」
+              <br />
+              「講習に出したいが、業務を止められない」
+              <br />
+              「近隣で国家資格向けの研修が開催されていない」
+              <br />
+              「社内講習を開きたいが、専門講師がいない」
+            </p>
+            <p>――こうしたお悩みをお持ちの企業様へ</p>
+            <p class="-fw500">
+              能センでは、電験三種・施工管理技士などの国家資格に特化した出張講習を承っております。
+              <br />
+              国家資格対策のプロ講師が、貴社の会議室や研修室へ直接伺い、
+              <br />
+              業務と並行しながら効率よく、そして確実に“合格者”を育成いたします。
             </p>
           </div>
         </section>
@@ -70,7 +79,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト',
               '参加人数：５０名',
-              '費用等：約750,000円 / お一人様あたり約15,000円'
+              '費用等：約750,000円 / お一人様あたり約15,000円',
             ]"
           />
           <Example
@@ -80,7 +89,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト・材料',
               '参加人数：１０名',
-              '費用等：約700,000円 / お一人様あたり約70,000円'
+              '費用等：約700,000円 / お一人様あたり約70,000円',
             ]"
           />
           <Example
@@ -90,7 +99,7 @@
               '日程：１日７時間×８日間(理論・電機・機械・法規の講習を各2日間)',
               '教材：テキスト・問題集',
               '参加人数：４３名 (４科目の合計参加数)',
-              '費用等：約2,000,000円 / お一人様あたり約46,000円'
+              '費用等：約2,000,000円 / お一人様あたり約46,000円',
             ]"
           />
           <Example
@@ -100,7 +109,7 @@
               '日程：１日７時間×２日間',
               '教材：テキスト・問題集',
               '参加人数：１9名',
-              '費用等：約650,000円 / お一人様あたり約35,000円'
+              '費用等：約650,000円 / お一人様あたり約35,000円',
             ]"
           />
           <p class="attention">
@@ -126,7 +135,6 @@
           日程・費用・研修内容など<br>
           お気軽にお問い合わせください。"
         />
-
       </div>
     </div>
   </Layout>
@@ -142,120 +150,125 @@ query {
 </static-query>
 
 <script>
-import Hero from "@/components/Hero.vue";
-import Point from "@/components/private_lecture/Point.vue";
-import Example from "@/components/private_lecture/Example.vue";
-import IconBase from "@/components/IconBase.vue";
-import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
-import IconFingerRight from "@/components/icons/IconFingerRight.vue";
-import ContactInfo from '../components/licensePage/ContactInfo.vue';
-export default {
-  metaInfo() {
-    return {
-      titleTemplate: "出張講習のすすめ｜能セン-合格への近道-",
-      meta: [
-        {
-          name: "description",
-          content:
-            "電気、建築、設備関連を中心とした受験対策講習会を開催しています能センの出張講習ページです。出張講習はご予算や期間、研修内容等お伺いした内容をもとに、貴社だけの研修プログラムをご提案します。"
-        },
-        {
-          key: `og:title`,
-          property: `og:title`,
-          content: `出張講習のすすめ｜能セン-合格への近道-`
-          // content: `出張講習 | ${this.$static.metadata.siteName}`,
-        },
-        {
-          key: `og:url`,
-          property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/private-lecture`
-        }
-      ]
-    };
-  },
-  components: {
-    Hero,
-    Point,
-    Example,
-    IconBase,
-    IconFingerDiagonallyUp,
-    IconFingerRight,
-    ContactInfo,
-  }
-};
+  import Hero from "@/components/Hero.vue";
+  import Point from "@/components/private_lecture/Point.vue";
+  import Example from "@/components/private_lecture/Example.vue";
+  import IconBase from "@/components/IconBase.vue";
+  import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+  import ContactInfo from "../components/licensePage/ContactInfo.vue";
+  export default {
+    metaInfo() {
+      return {
+        titleTemplate: "出張講習のすすめ｜能セン-合格への近道-",
+        meta: [
+          {
+            name: "description",
+            content:
+              "電気、建築、設備関連を中心とした受験対策講習会を開催しています能センの出張講習ページです。出張講習はご予算や期間、研修内容等お伺いした内容をもとに、貴社だけの研修プログラムをご提案します。",
+          },
+          {
+            key: `og:title`,
+            property: `og:title`,
+            content: `出張講習のすすめ｜能セン-合格への近道-`,
+            // content: `出張講習 | ${this.$static.metadata.siteName}`,
+          },
+          {
+            key: `og:url`,
+            property: `og:url`,
+            content: `${this.$static.metadata.siteUrl}/private-lecture`,
+          },
+        ],
+      };
+    },
+    components: {
+      Hero,
+      Point,
+      Example,
+      IconBase,
+      IconFingerDiagonallyUp,
+      IconFingerRight,
+      ContactInfo,
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-.private_lecture {
-  padding-bottom: 100px;
-  font-family: 'メイリオ', sans-serif;
-}
-.contents {
-  margin: 0 auto;
-  max-width: 920px;
-  width: 100%;
-  margin: 0 auto;
-  @media print, screen and (max-width: 1000px) {
-    width: 90%;
+  .private_lecture {
+    padding-bottom: 100px;
+    font-family: "メイリオ", sans-serif;
   }
-}
-.message {
-  font-weight: bold;
-  color: #3b241a;
-  margin-top: 50px;
-  @media print, screen and (min-width: 1001px) {
-    text-align: center;
+  .contents {
+    margin: 0 auto;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
   }
-  .example {
+  .message {
+    font-weight: bold;
+    color: #3b241a;
+    margin-top: 50px;
+    @media print, screen and (min-width: 1001px) {
+      text-align: center;
+    }
+    .example {
+      color: #ff4500;
+    }
+  }
+  .point-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .example-wrapper {
+    margin-top: 120px;
+  }
+  .example-title {
     color: #ed6c00;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px dotted #000;
+    padding-bottom: 50px;
+    svg {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
   }
-}
-.point-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  margin-top: 100px;
-}
-.example-wrapper {
-  margin-top: 120px;
-}
-.example-title {
-  color: #ed6c00;
-  text-align: center;
-  font-size: 20px;
-  border-bottom: 1px dotted #000;
-  padding-bottom: 50px;
-  svg {
-    vertical-align: middle;
-    margin-right: 10px;
+  .attention {
+    text-align: right;
+    color: #ed6c00;
+    margin-top: 1em;
   }
-}
-.attention {
-  text-align: right;
-  color: #ed6c00;
-  margin-top: 1em;
-}
-.contact {
-  font-weight: bold;
-  text-align: center;
-  margin-top: 100px;
-}
-.more-link {
-  background-color: #f4891e;
-  display: inline-block;
-  color: #fff;
-  text-align: center;
-  padding: 20px 3em;
-  font-weight: bold;
-  margin-top: 30px;
-  font-size: 20px;
-  border-radius: 10px;
-  @media print, screen and (max-width: 1000px) {
-    font-size: 16px;
+  .contact {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
   }
-  .icon {
-    margin-left: 10px;
+  .more-link {
+    background-color: #f4891e;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 20px 3em;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
+    .icon {
+      margin-left: 10px;
+    }
   }
-}
+
+  .-fw500 {
+    font-weight: 500;
+    margin: 0;
+  }
 </style>
