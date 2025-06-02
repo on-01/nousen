@@ -858,6 +858,7 @@
     text-align: center;
     padding: 60px 0 20px 0;
     display: flex;
+    flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 20px 0;
       flex-direction: column;
@@ -1094,11 +1095,14 @@
     padding: 0 0 40px;
     // padding: 20px 0 0;
     border-bottom: none;
+    flex-direction: row;
+    justify-content: center;
   }
   @media print, screen and (max-width: 1000px) {
     .exam-link-wrapper.-column {
       padding: 0 0 40px;
       // padding: 20px 0 0;
+      flex-direction: column;
     }
   }
 
