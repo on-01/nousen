@@ -137,7 +137,7 @@
           </div>
         </section>
 
-        <section class="info section">
+        <section class="history section">
           <h3 class="section-title">沿革</h3>
           <div class="content">
             <dl>
@@ -576,14 +576,27 @@ query {
   dl + dl {
     border-top: 1px dashed #808080;
   }
-  dt {
-    width: 250px;
-    color: #ed6c00;
-    font-weight: bold;
-    @media print, screen and (max-width: 1000px) {
-      width: 100%;
+  .info {
+    dt {
+      width: 250px;
+      color: #ed6c00;
+      font-weight: bold;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
     }
   }
+
+  .history {
+    dt {
+      width: 250px;
+      font-weight: bold;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
+    }
+  }
+
   dd {
     width: calc(100% - 250px);
     margin: 0;
