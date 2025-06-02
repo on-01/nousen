@@ -140,6 +140,10 @@
 
         <section class="history section">
           <h3 class="section-title">沿革</h3>
+          <div class="history-head">
+            <p class="history-date">年月</p>
+            <p class="history-event">出来事</p>
+          </div>
           <div class="content">
             <dl>
               <dt>1983年</dt>
@@ -547,7 +551,7 @@ query {
       padding: 50px 5%;
     }
   }
-  .purpose {
+  .history {
     margin-bottom: 135px;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 110px;
@@ -590,12 +594,26 @@ query {
 
   .history {
     dt {
-      width: 250px;
-      font-weight: bold;
-      @media print, screen and (max-width: 1000px) {
-        width: 100%;
-      }
+      width: 15%;
+      // @media print, screen and (max-width: 1000px) {
+      //   width: 100%;
+      // }
     }
+    dd {
+      width: 85%;
+    }
+  }
+
+  .history-head {
+    display: flex;
+  }
+  .history-date {
+    width: 15%;
+    font-weight: 700;
+  }
+  .history-event {
+    width: 85%;
+    font-weight: 700;
   }
 
   dd {
