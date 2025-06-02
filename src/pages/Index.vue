@@ -603,13 +603,17 @@
               </a>
             </figure>
             <figure>
-              <a :href="cleanUrl" target="_blank" rel="noopener noreferrer">
+              <g-link
+                to="https://sakufuri.jp/media/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="../assets/img/common/public_media_14.jpg"
-                  alt="電験三種 講習会 通信講座"
+                  alt="サクフリブログ"
                   class="public-media-flex-image"
                 />
-              </a>
+              </g-link>
             </figure>
           </div>
         </div>
