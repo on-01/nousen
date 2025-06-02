@@ -75,7 +75,7 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="discount-flex -nomt">
+        <div class="discount-flex">
           <p class="discount-flex-left -sp">
             団体割
             <br />
@@ -88,7 +88,7 @@
             <span>全員10%OFF</span>
           </p>
         </div>
-        <div class="discount-flex">
+        <div class="discount-flex -nomt">
           <p class="discount-flex-left -sp">
             超団体割
             <br />
@@ -155,7 +155,7 @@
     background: #fff;
     border-radius: 16px;
     padding: 12px 24px;
-    // margin-top: 20px;
+    margin-top: 20px;
   }
   .discount-flex.-nomt {
     margin-top: 0;

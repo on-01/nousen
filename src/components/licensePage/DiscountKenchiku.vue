@@ -8,6 +8,16 @@
           alt="建築施工管理技士 講習会 通信講座 web講座"
         />
       </figure>
+      <div class="discount-note">
+        <p class="fw700">🎓 GO!資格 合格応援制度とは？</p>
+        <p>
+          資格取得を目指すあなたを全力でサポートするための特別プログラムです。
+        </p>
+        <p>
+          学習を続けるモチベーションを保ちながら、合格を確実に引き寄せるための“応援特典”をご用意しました！
+        </p>
+        <p>※本制度は一定の条件を設けております。</p>
+      </div>
       <div class="discount-flex">
         <p class="discount-flex-left">
           再受講割引
@@ -22,71 +32,75 @@
           <br />
         </p>
       </div>
-      <div class="discount-flex">
-        <div class="discount-flex-left">
-          若チャレ割
-          <br />
-          <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
-          <span class="arrow -waka">▶︎</span>
+      <div class="wrapper">
+        <div class="discount-flex">
+          <div class="discount-flex-left">
+            若チャレ割
+            <br />
+            <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
+            <span class="arrow -waka">▶︎</span>
+          </div>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>5000</span>
+            円割引！
+          </p>
         </div>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>5000</span>
-          円割引！
-        </p>
-      </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          女子応援割
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>2000</span>
-          円割引！
-        </p>
-      </div>
-      <div class="discount-flex">
-        <div class="discount-flex-left">
-          シニア応援割
-          <br />
-          <p class="discount-small">（60歳以上対象）</p>
-          <span class="arrow -waka">▶︎</span>
+        <div class="discount-flex -nomt">
+          <p class="discount-flex-left -sp">
+            女子応援割
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>2000</span>
+            円割引！
+          </p>
         </div>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>2000</span>
-          円割引！
-        </p>
+        <div class="discount-flex -nomt">
+          <div class="discount-flex-left">
+            シニア応援割
+            <br />
+            <p class="discount-small">（60歳以上対象）</p>
+            <span class="arrow -waka">▶︎</span>
+          </div>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>2000</span>
+            円割引！
+          </p>
+        </div>
       </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          団体割
-          <br />
-          <span class="number">（5名以上）</span>
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>全員10%OFF</span>
-        </p>
-      </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left -sp">
-          超団体割
-          <br />
-          <span class="number">（10名以上）</span>
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          <span>全員15%OFF</span>
-        </p>
+      <div class="wrapper">
+        <div class="discount-flex">
+          <p class="discount-flex-left -sp">
+            団体割
+            <br />
+            <span class="number">（5名以上）</span>
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>全員10%OFF</span>
+          </p>
+        </div>
+        <div class="discount-flex -nomt">
+          <p class="discount-flex-left -sp">
+            超団体割
+            <br />
+            <span class="number">（10名以上）</span>
+            <span class="arrow">▶︎</span>
+          </p>
+          <p class="discount-flex-right">
+            受講料
+            <br />
+            <span>全員15%OFF</span>
+          </p>
+        </div>
       </div>
       <div class="discount-note">
         <p>※割引の併用はできません（キャンペーンコードは別）</p>
@@ -143,6 +157,11 @@
     padding: 12px 24px;
     margin-top: 20px;
   }
+
+  .discount-flex.-nomt {
+    margin-top: 0;
+  }
+
   .discount-flex-left {
     width: 50%;
     font-size: 28px;
@@ -187,6 +206,10 @@
     font-size: 16px;
     line-height: 1.8;
     margin: 0;
+  }
+
+  .fw700 {
+    font-weight: 700;
   }
 
   .discount-small {
@@ -241,5 +264,10 @@
     .discount-note p {
       font-size: 12px;
     }
+  }
+
+  .wrapper {
+    background: #fff;
+    border-radius: 16px;
   }
 </style>
