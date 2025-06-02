@@ -28,9 +28,10 @@
             <br />
             <br />
             <br />
-            株式会社NOUSEN
-            <br />
-            代表　中村 信明
+            <img
+              src="../assets/img/front/company-ceo.png"
+              alt="代表　中村 信明"
+            />
           </p>
         </section>
         <section class="outline section">
