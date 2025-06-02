@@ -70,206 +70,114 @@
           <div class="public-media">
             <h2 class="section-title">
               <img
-                src="../assets/img/front/reason_main_headline4-2.svg"
+                src="../assets/img/front/reason_main_headline6.svg"
                 alt="電験三種 講習会 通信講座"
               />
             </h2>
             <div class="public-media-flex">
               <figure>
-                <a
-                  href="https://www.kentsu.co.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_1.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image -type1"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/ntt-facilities.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image -type1"
+                />
               </figure>
-              <figure>
-                <a
-                  href="https://www.ohmsha.co.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_2.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image -type2"
-                  />
-                </a>
-              </figure>
-              <figure>
-                <a
-                  href="https://kigyo.gmo/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_3.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
-              </figure>
-              <figure>
-                <a
-                  href="https://www.innovations-i.com/release/1497812.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_10.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div class="public-media-flex">
               <figure>
                 <img
-                  src="../assets/img/common/public_media_4.png"
+                  src="../assets/img/common/ntt-fieldtechno.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image -type2"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="../assets/img/common/ntt-higashinippon.png"
                   alt="電験三種 講習会 通信講座"
                   class="public-media-flex-image"
                 />
               </figure>
               <figure>
-                <a
-                  href="https://context-japan.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_5.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
-              </figure>
-              <figure>
-                <a
-                  href="https://news.mynavi.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_6.png"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
-              </figure>
-              <figure>
-                <a
-                  href="https://context-japan.co.jp/ryokin/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/banner3.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/daikin-airtechno.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
             </div>
             <div class="public-media-flex">
               <figure>
-                <a
-                  href="https://denkikoujishi-goukaku.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_7.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/daikin-hvac.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
               <figure>
-                <a
-                  href="https://x-work.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_8.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/toyota.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
               <figure>
-                <a
-                  href="https://shikakutimes.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_9.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/kansai-dennryoku.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
               <figure>
-                <a
-                  href="https://ecnavi.jp/ad/10712720/show/?frame=search"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_11.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/tokyogasu.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </figure>
+            </div>
+            <div class="public-media-flex">
+              <figure>
+                <img
+                  src="../assets/img/common/kaji-shoukoukai.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="../assets/img/common/hokkaido-denki.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="../assets/img/common/hokuriku-denki.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="../assets/img/common/necusuko.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
             </div>
             <div class="public-media-flex -bottom">
               <figure>
-                <a
-                  href="https://www.iid.co.jp/contents-education/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_12.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/nippongennsiryoku.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
               <figure>
-                <a
-                  href="https://www.brush-up.jp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="../assets/img/common/public_media_13.jpg"
-                    alt="電験三種 講習会 通信講座"
-                    class="public-media-flex-image"
-                  />
-                </a>
-              </figure>
-              <figure>
-                <a
-                  href="#"
-                  @click.prevent="openExternal"
-                  rel="noopener noreferrer"
-                  class="public-media-flex-image-link"
-                >
-                  <img
-                    src="../assets/img/common/public_media_14.jpg"
-                    alt="サクフリブログ"
-                    class="public-media-flex-image"
-                  />
-                </a>
+                <img
+                  src="../assets/img/common/shouenerugy.jpg"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
               </figure>
             </div>
           </div>
@@ -434,6 +342,10 @@ query {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 100px;
+    padding-bottom: 250px;
+    @media print, screen and (max-width: 1000px) {
+      padding-bottom: 120px;
+    }
   }
   .example-wrapper {
     margin-top: 120px;
