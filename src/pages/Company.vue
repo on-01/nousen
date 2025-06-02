@@ -136,6 +136,41 @@
             </ol>
           </div>
         </section>
+
+        <section class="info section">
+          <h3 class="section-title">沿革</h3>
+          <div class="content">
+            <dl>
+              <dt>1983年</dt>
+              <dd>株式会社能力開発研修センター 設立</dd>
+            </dl>
+            <dl>
+              <dt>2020年3月</dt>
+              <dd>
+                一般社団法人能力開発研修センター
+                設立（株式会社から社団法人へ移行）
+              </dd>
+            </dl>
+            <dl>
+              <dt>2023年4月</dt>
+              <dd>株式会社NOUSEN 設立（ノウハウを継承）</dd>
+            </dl>
+            <dl>
+              <dt>2024年1月</dt>
+              <dd>
+                こどもの未来応援基金に寄付、こども家庭庁支援局局長よりお礼状を受領
+              </dd>
+            </dl>
+            <dl>
+              <dt>2025年4月</dt>
+              <dd>カリキュラム拡充に伴い、講師・運営体制を再構築</dd>
+            </dl>
+            <dl>
+              <dt>2025年6月</dt>
+              <dd>所属講師数が10人を超える（業務委託講師を含む体制へ拡充）</dd>
+            </dl>
+          </div>
+        </section>
       </div>
       <section class="section03">
         <h2 class="section-title">
