@@ -65,6 +65,216 @@
             text="ご参加頂く人数にもよりますが、受講生が増えるほどおひとりあたりの受講費用が抑えられます。<br>また、遠方に通う必要がありませんので交通費や宿泊費も削減できます。"
           />
         </div>
+
+        <section class="section03">
+          <div class="public-media">
+            <h2 class="section-title">
+              <img
+                src="../assets/img/front/reason_main_headline4-2.svg"
+                alt="電験三種 講習会 通信講座"
+              />
+            </h2>
+            <div class="public-media-flex">
+              <figure>
+                <a
+                  href="https://www.kentsu.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_1.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image -type1"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://www.ohmsha.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_2.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image -type2"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://kigyo.gmo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_3.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://www.innovations-i.com/release/1497812.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_10.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div class="public-media-flex">
+              <figure>
+                <img
+                  src="../assets/img/common/public_media_4.png"
+                  alt="電験三種 講習会 通信講座"
+                  class="public-media-flex-image"
+                />
+              </figure>
+              <figure>
+                <a
+                  href="https://context-japan.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_5.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://news.mynavi.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_6.png"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://context-japan.co.jp/ryokin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/banner3.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div class="public-media-flex">
+              <figure>
+                <a
+                  href="https://denkikoujishi-goukaku.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_7.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://x-work.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_8.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://shikakutimes.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_9.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://ecnavi.jp/ad/10712720/show/?frame=search"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_11.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+            </div>
+            <div class="public-media-flex -bottom">
+              <figure>
+                <a
+                  href="https://www.iid.co.jp/contents-education/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_12.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="https://www.brush-up.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="../assets/img/common/public_media_13.jpg"
+                    alt="電験三種 講習会 通信講座"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+              <figure>
+                <a
+                  href="#"
+                  @click.prevent="openExternal"
+                  rel="noopener noreferrer"
+                  class="public-media-flex-image-link"
+                >
+                  <img
+                    src="../assets/img/common/public_media_14.jpg"
+                    alt="サクフリブログ"
+                    class="public-media-flex-image"
+                  />
+                </a>
+              </figure>
+            </div>
+          </div>
+        </section>
+
         <div class="example-wrapper">
           <h4 class="example-title">
             <IconBase width="30" height="30">
@@ -270,5 +480,147 @@ query {
   .-fw500 {
     font-weight: 500;
     margin: 0;
+  }
+
+  .section03 {
+    position: relative;
+    margin-top: -225px;
+    // z-index: -1;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -55px;
+    }
+    &:before {
+      content: "";
+      // height: 500px;
+      height: 305px;
+      width: 5px;
+      background-color: #000;
+      display: block;
+      position: relative;
+      top: 5px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -2;
+      @media print, screen and (max-width: 1000px) {
+        // height: 300px;
+        height: 220px;
+      }
+    }
+    &:after {
+      content: "";
+      height: 30px;
+      width: 5px;
+      background-color: #000;
+      display: block;
+      position: absolute;
+      // top: 473px;
+      top: 283px;
+      left: -20px;
+      right: 0;
+      margin: auto;
+      transform: rotate(-45deg);
+      @media print, screen and (max-width: 1000px) {
+        // top: 274px;
+        top: 196px;
+      }
+    }
+    .section-title {
+      max-width: 330px;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      position: absolute;
+      // top: 200px;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 50px 0;
+      @media print, screen and (max-width: 1000px) {
+        width: 90%;
+        top: 0;
+        max-width: 250px;
+        padding: 20px 0;
+      }
+      &:before {
+        content: url("../assets/img/icon/finger_top_brown.svg");
+        width: 30px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 10px;
+      }
+    }
+  }
+
+  .public-media {
+    margin: 50px auto 225px;
+    max-width: 800px;
+    background: #fff;
+    @media print, screen and (max-width: 1000px) {
+      margin-bottom: 100px;
+    }
+  }
+  .public-media p {
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-family: "メイリオ", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .public-media-flex {
+    display: flex;
+    margin: 12px 0;
+  }
+  .public-media-flex.-bottom {
+    width: 75%;
+  }
+  .public-media-flex figure {
+    margin: 0;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+  }
+  .public-media-flex figure a {
+    position: relative;
+    z-index: 1;
+  }
+
+  .public-media-flex-image {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  .public-media-flex-image.-type2 {
+    width: 100%;
+  }
+  @media print, screen and (max-width: 800px) {
+    .public-media p {
+      font-size: 24px;
+    }
+    .public-media-flex {
+      flex-flow: wrap;
+      margin: 0;
+    }
+    .public-media-flex figure {
+      width: 100%;
+      margin: 12px 0;
+    }
+    .public-media-flex-image {
+      width: 40%;
+      display: block;
+      margin: auto;
+    }
+
+    .public-media-flex-image.-type1 {
+      transform: none;
+    }
+    .public-media-flex-image.-type2 {
+      width: 40%;
+      display: block;
+      margin: auto;
+    }
   }
 </style>
