@@ -29,6 +29,7 @@
             <br />
             <br />
             <img
+              class="ceo-img"
               src="../assets/img/front/company-ceo.png"
               alt="代表　中村 信明"
             />
@@ -550,6 +551,10 @@ query {
     @media print, screen and (max-width: 1000px) {
       padding: 50px 5%;
     }
+  }
+  .ceo-img {
+    width: 19%;
+    margin-left: -10px;
   }
   .history {
     margin-bottom: 135px;
