@@ -96,6 +96,8 @@
                   class="public-media-flex-image"
                 />
               </figure>
+            </div>
+            <div class="public-media-flex">
               <figure>
                 <img
                   src="../assets/img/common/daikin-airtechno.png"
@@ -103,8 +105,6 @@
                   class="public-media-flex-image"
                 />
               </figure>
-            </div>
-            <div class="public-media-flex">
               <figure>
                 <img
                   src="../assets/img/common/daikin-hvac.jpg"
@@ -112,6 +112,8 @@
                   class="public-media-flex-image"
                 />
               </figure>
+            </div>
+            <div class="public-media-flex">
               <figure>
                 <img
                   src="../assets/img/common/toyota.png"
@@ -156,6 +158,8 @@
                   class="public-media-flex-image"
                 />
               </figure>
+            </div>
+            <div class="public-media-flex">
               <figure>
                 <img
                   src="../assets/img/common/necusuko.png"
@@ -163,8 +167,6 @@
                   class="public-media-flex-image"
                 />
               </figure>
-            </div>
-            <div class="public-media-flex -bottom">
               <figure>
                 <img
                   src="../assets/img/common/nippongennsiryoku.png"
@@ -487,6 +489,9 @@ query {
   }
   .public-media-flex.-bottom {
     width: 75%;
+    @media print, screen and (max-width: 800px) {
+      margin: 0 auto;
+    }
   }
   .public-media-flex figure {
     margin: 0;
