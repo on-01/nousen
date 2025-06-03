@@ -18,7 +18,7 @@
             :imagePath="
               require('../assets/img/license_page/denken3/denken3_point5.jpg')
             "
-            altText="電験三種 講習会 通信講座 オンライン講座"
+            altText="電験三種 第三種電気主任技術者"
           />
 
           <!-- トップ部分タブ切り替え -->
@@ -55,7 +55,7 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
             />
             <SpExplanation
               title="第三種電気主任技術者とは"
@@ -68,7 +68,7 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
             />
 
             <div class="bg-lightBlue">
@@ -213,10 +213,10 @@
               :imageBook3="
                 require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
-              altBook1="電験三種 講習会 通信講座 オンライン講座"
-              altBook2="電験三種 講習会 通信講座 オンライン講座"
-              altBook3="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
+              altBook1="電験三種 第三種電気主任技術者"
+              altBook2="電験三種 第三種電気主任技術者"
+              altBook3="電験三種 第三種電気主任技術者"
             />
 
             <div class="bg-white">
