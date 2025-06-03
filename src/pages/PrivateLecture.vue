@@ -502,10 +502,16 @@ query {
 
   .public-media-flex.-daikin figure {
     width: 50%;
+    @media print, screen and (max-width: 800px) {
+      width: 100%;
+    }
   }
 
   .public-media-flex.-daikin img {
     width: 85%;
+    @media print, screen and (max-width: 800px) {
+      width: 40%;
+    }
   }
   .public-media-flex figure a {
     position: relative;
