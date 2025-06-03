@@ -6,7 +6,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg"
-            alt="電験三種 講習会 通信講座 オンライン講座"
+            alt="電験三種 第三種電気主任技術者"
           />
         </figure>
         <div class="campaign-description">
@@ -29,7 +29,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_2.jpg"
-            alt="電験三種 講習会 通信講座 オンライン講座"
+            alt="電験三種 第三種電気主任技術者"
           />
         </figure>
         <div class="campaign-description">
@@ -49,7 +49,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg"
-            alt="電験三種 講習会 通信講座 オンライン講座"
+            alt="電験三種 第三種電気主任技術者"
           />
         </figure>
         <div class="campaign-description">
@@ -69,7 +69,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg"
-            alt="電験三種 講習会 通信講座 オンライン講座"
+            alt="電験三種 第三種電気主任技術者"
           />
         </figure>
         <div class="campaign-description">
