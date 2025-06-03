@@ -97,7 +97,7 @@
                 />
               </figure>
             </div>
-            <div class="public-media-flex">
+            <div class="public-media-flex -daikin">
               <figure>
                 <img
                   src="../assets/img/common/daikin-airtechno.png"
@@ -498,6 +498,14 @@ query {
     width: 33.33%;
     display: flex;
     justify-content: center;
+  }
+
+  .public-media-flex.-daikin figure {
+    width: 50%;
+  }
+
+  .public-media-flex.-daikin img {
+    width: 85%;
   }
   .public-media-flex figure a {
     position: relative;
