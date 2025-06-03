@@ -24,7 +24,7 @@
             <img
               class="courseOverview-flex-image"
               src="../../assets/img/license_page/denken3/denken3_courseOverview_5.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@
             <img
               class="flex-img"
               src="../../assets/img/license_page/doboku_s/doboku-pc1.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </div>
           <div>
@@ -42,7 +42,7 @@
             <img
               class="flex-img -right"
               src="../../assets/img/license_page/doboku_s/doboku-sp1.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </div>
         </div>
@@ -65,7 +65,7 @@
           <figure class="online-flex-image">
             <img
               src="../../assets/img/license_page/denken3/denken3_completion.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </figure>
           <div class="online-flex-description">
@@ -192,7 +192,7 @@
             <figure class="online-flex-image">
               <img
                 src="../../assets/img/license_page/denken3/denken3_completion.jpg"
-                alt="電験三種 講習会 通信講座 オンライン講座"
+                alt="電験三種 第三種電気主任技術者"
               />
             </figure>
             <div class="online-flex-description">

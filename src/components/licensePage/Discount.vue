@@ -5,7 +5,7 @@
       <figure class="discount-image">
         <img
           src="../../assets/img/license_page/discount.jpeg"
-          alt="電験三種 講習会 通信講座 オンライン講座"
+          alt="電験三種 第三種電気主任技術者"
         />
       </figure>
       <div class="discount-note">

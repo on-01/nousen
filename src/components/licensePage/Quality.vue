@@ -15,7 +15,7 @@
         <img
           class="flex-img -right"
           src="../../assets/img/license_page/denken3/denken3_quality_kokuban.jpg"
-          alt="電験三種 講習会 通信講座 オンライン講座"
+          alt="電験三種 第三種電気主任技術者"
         />
       </div>
       <div class="quality-basis">
@@ -25,7 +25,7 @@
             <img
               class="flex-img -right"
               src="../../assets/img/license_page/denken3/denken3_quality_basis.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </div>
           <div class="basis-textWrap">
@@ -63,10 +63,7 @@
             <span>1</span>
           </div>
           <figure class="quality-image">
-            <img
-              :src="imagePath_1"
-              alt="電験三種 講習会 通信講座 オンライン講座"
-            />
+            <img :src="imagePath_1" alt="電験三種 第三種電気主任技術者" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -87,10 +84,7 @@
           </div>
           <figure class="quality-image">
             <a href="https://denken.nouryoku.com/kiso-kouza?_fsi=18qTQM4E">
-              <img
-                :src="imagePath_2"
-                alt="電験三種 講習会 通信講座 オンライン講座"
-              />
+              <img :src="imagePath_2" alt="電験三種 第三種電気主任技術者" />
             </a>
           </figure>
           <div class="quality-description">
@@ -111,10 +105,7 @@
             <span>3</span>
           </div>
           <figure class="quality-image">
-            <img
-              :src="imagePath_3"
-              alt="電験三種 講習会 通信講座 オンライン講座"
-            />
+            <img :src="imagePath_3" alt="電験三種 第三種電気主任技術者" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
