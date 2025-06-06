@@ -8,7 +8,7 @@
       <div class="cheer-topImg">
         <img
           src="../../assets/img/license_page/denken3/denken3_cheer_1.jpg"
-          alt="電験三種 講習会 通信講座 オンライン講座"
+          alt="電験三種 第三種電気主任技術者"
         />
       </div>
       <div class="experience-link">

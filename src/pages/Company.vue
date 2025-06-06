@@ -28,9 +28,11 @@
             <br />
             <br />
             <br />
-            株式会社NOUSEN
-            <br />
-            代表　中村 信明
+            <img
+              class="ceo-img"
+              src="../assets/img/front/company-ceo.png"
+              alt="代表　中村 信明"
+            />
           </p>
         </section>
         <section class="outline section">
@@ -134,6 +136,45 @@
               </li>
               <li>前各号に附帯又は関連する一切の業務</li>
             </ol>
+          </div>
+        </section>
+
+        <section class="history section">
+          <h3 class="section-title">沿革</h3>
+          <div class="history-head">
+            <p class="history-date">年月</p>
+            <p class="history-event">出来事</p>
+          </div>
+          <div class="content">
+            <dl>
+              <dt>1983年</dt>
+              <dd>株式会社能力開発研修センター 設立</dd>
+            </dl>
+            <dl>
+              <dt>2020年3月</dt>
+              <dd>
+                一般社団法人能力開発研修センター
+                設立（株式会社から社団法人へ移行）
+              </dd>
+            </dl>
+            <dl>
+              <dt>2023年4月</dt>
+              <dd>株式会社NOUSEN 設立（ノウハウを継承）</dd>
+            </dl>
+            <dl>
+              <dt>2024年1月</dt>
+              <dd>
+                こどもの未来応援基金に寄付、こども家庭庁支援局局長よりお礼状を受領
+              </dd>
+            </dl>
+            <dl>
+              <dt>2025年4月</dt>
+              <dd>カリキュラム拡充に伴い、講師・運営体制を再構築</dd>
+            </dl>
+            <dl>
+              <dt>2025年6月</dt>
+              <dd>所属講師数が10人を超える（業務委託講師を含む体制へ拡充）</dd>
+            </dl>
           </div>
         </section>
       </div>
@@ -511,7 +552,11 @@ query {
       padding: 50px 5%;
     }
   }
-  .purpose {
+  .ceo-img {
+    width: 160px;
+    margin-left: -10px;
+  }
+  .history {
     margin-bottom: 135px;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 110px;
@@ -541,14 +586,46 @@ query {
   dl + dl {
     border-top: 1px dashed #808080;
   }
-  dt {
-    width: 250px;
-    color: #ed6c00;
-    font-weight: bold;
-    @media print, screen and (max-width: 1000px) {
-      width: 100%;
+  .info {
+    dt {
+      width: 250px;
+      color: #ed6c00;
+      font-weight: bold;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
     }
   }
+
+  .history {
+    dt {
+      width: 15%;
+      // @media print, screen and (max-width: 1000px) {
+      //   width: 100%;
+      // }
+    }
+    dd {
+      width: 85%;
+    }
+    dl {
+      @media print, screen and (max-width: 1000px) {
+        display: inline-flex;
+      }
+    }
+  }
+
+  .history-head {
+    display: flex;
+  }
+  .history-date {
+    width: 15%;
+    font-weight: 700;
+  }
+  .history-event {
+    width: 85%;
+    font-weight: 700;
+  }
+
   dd {
     width: calc(100% - 250px);
     margin: 0;
@@ -583,6 +660,10 @@ query {
     margin: 40px auto 0;
     display: block;
     width: 90%;
+
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   .last-message {

@@ -8,7 +8,7 @@
             <img
               class="courseOverview-flex-image"
               src="../../assets/img/license_page/denken3/denken3_courseOverview_1.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </div>
           <div class="courseOverview-flex-right">
@@ -46,8 +46,8 @@
           <table>
             <tr>
               <th>
-                会場
-                <p class="courseOverview-th-text">（令和７年度は東京会場）</p>
+                会場（定員25名）
+                <!-- <p class="courseOverview-th-text"></p> -->
               </th>
               <td>
                 <p>

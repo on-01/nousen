@@ -18,7 +18,7 @@
             :imagePath="
               require('../assets/img/license_page/denken3/denken3_point5.jpg')
             "
-            altText="電験三種 講習会 通信講座 オンライン講座"
+            altText="電験三種 第三種電気主任技術者"
           />
 
           <!-- トップ部分タブ切り替え -->
@@ -55,7 +55,7 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
             />
             <SpExplanation
               title="第三種電気主任技術者とは"
@@ -68,18 +68,34 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
             />
 
             <div class="bg-lightBlue">
               <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
               <TestOverview />
+              <div class="experience-link">
+                <a
+                  class="application-link -blue -mr"
+                  href="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                >
+                  オンライン相談はこちら
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </a>
+                <a
+                  class="application-link -blue"
+                  href="https://business.form-mailer.jp/fms/e72637ff291274"
+                >
+                  お問い合わせ / 資料請求
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </a>
+              </div>
 
-              <div class="exam-link-wrapper -column">
-                <!-- <g-link to="/licenses/#denken" class="exam-link">
-                  試験概要はこちら
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link> -->
+              <!-- <div class="exam-link-wrapper -column">
                 <g-link
                   to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
                   class="online-link"
@@ -87,7 +103,7 @@
                   オンライン相談はこちら
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                 </g-link>
-              </div>
+              </div> -->
               <MeritDenken3 />
               <StudyDenken3 />
               <!-- <Study
@@ -197,10 +213,10 @@
               :imageBook3="
                 require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')
               "
-              altText="電験三種 講習会 通信講座 オンライン講座"
-              altBook1="電験三種 講習会 通信講座 オンライン講座"
-              altBook2="電験三種 講習会 通信講座 オンライン講座"
-              altBook3="電験三種 講習会 通信講座 オンライン講座"
+              altText="電験三種 第三種電気主任技術者"
+              altBook1="電験三種 第三種電気主任技術者"
+              altBook2="電験三種 第三種電気主任技術者"
+              altBook3="電験三種 第三種電気主任技術者"
             />
 
             <div class="bg-white">
@@ -227,7 +243,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -240,7 +256,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -255,7 +271,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -268,7 +284,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -293,7 +309,7 @@
                           <figure v-on:click="toggleVoice(1)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -308,7 +324,7 @@
                         <div v-show="isVoice === 1" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -318,7 +334,7 @@
                           <figure v-on:click="toggleVoice(2)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -330,7 +346,7 @@
                         <div v-show="isVoice === 2" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -340,7 +356,7 @@
                           <figure v-on:click="toggleVoice(3)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -354,7 +370,7 @@
                         <div v-show="isVoice === 3" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -364,7 +380,7 @@
                           <figure v-on:click="toggleVoice(4)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -380,7 +396,7 @@
                         <div v-show="isVoice === 4" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -390,7 +406,7 @@
                           <figure v-on:click="toggleVoice(5)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                              alt="電験三種 講習会 通信講座 オンライン講座"
+                              alt="電験三種 第三種電気主任技術者"
                             />
                           </figure>
                           <p>
@@ -404,7 +420,7 @@
                         <div v-show="isVoice === 5" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                            alt="電験三種 講習会 通信講座 オンライン講座"
+                            alt="電験三種 第三種電気主任技術者"
                           />
                         </div>
                       </div>
@@ -415,7 +431,7 @@
 
               <CampaignDenken3 date="３月１５日（金）" />
 
-              <Discount title="合格応援割START！" />
+              <Discount title="🎓 GO!資格 合格応援制度 START！" />
 
               <Fsc title="持続可能なミライへ" />
             </div>
@@ -627,6 +643,7 @@
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
   import IconArrowRight from "@/components/icons/IconArrowRight.vue";
+  import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import { INLINES } from "@contentful/rich-text-types";
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import Schedule from "../components/licensePage/Schedule.vue";
@@ -708,6 +725,7 @@
       IconBase,
       IconDoubleArrowRight,
       IconArrowRight,
+      IconFingerRight,
       Schedule,
       CourseOverview,
       CourseOverview1,
@@ -834,7 +852,8 @@
   }
   .application-form-link {
     // background-color: #ed6c00;
-    background-color: #ff4500;
+    // background-color: #ff4500;
+    background-color: #1262b2;
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
@@ -1253,4 +1272,48 @@
     }
   }
   // voiceセクションここまで
+
+  .experience-link {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .application-link {
+    margin: 0 auto;
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #ed6c00;
+    border: 3px solid #ed6c00;
+    border-radius: 10px;
+    font-weight: 700;
+    svg {
+      margin-top: -3px;
+    }
+    @media print, screen and (max-width: 1000px) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
+  .application-link.-blue {
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
+  }
+
+  .application-link.-mr {
+    margin-right: 40px;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+    }
+  }
 </style>

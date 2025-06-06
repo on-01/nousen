@@ -159,7 +159,7 @@
           </div>
           <div class="pagelink-title">
             <g-link to="https://nousen.blog/go-kakuouen/">
-              <p>合格応援割引制度</p>
+              <p>🎓 GO!資格 合格応援制度</p>
             </g-link>
           </div>
           <div class="pagelink-title">

@@ -93,7 +93,7 @@
                   </IconBase>
                 </g-link>
                 <g-link
-                  to="https://www.nouryoku.com/contact/"
+                  to="https://business.form-mailer.jp/fms/e3140a33291788"
                   class="online-link"
                 >
                   お問い合わせ / 資料請求
@@ -481,7 +481,7 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDoboku title="合格応援割START！" />
+              <DiscountDoboku title="🎓 GO!資格 合格応援制度 START！" />
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
@@ -861,6 +861,7 @@
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 20px 0;
+      flex-direction: column;
     }
   }
   // .exam-link-wrapper.-border {
@@ -909,10 +910,13 @@
   }
   .online-link {
     width: 300px;
-    background-color: #00a73c;
+    background-color: #1262b2;
     margin-top: 25px;
-    margin-right: auto;
-    margin-left: auto;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+      margin-left: auto;
+    }
     @media print, screen and (max-width: 480px) {
       width: 80%;
     }
@@ -1091,11 +1095,14 @@
     padding: 0 0 40px;
     // padding: 20px 0 0;
     border-bottom: none;
+    flex-direction: row;
+    justify-content: center;
   }
   @media print, screen and (max-width: 1000px) {
     .exam-link-wrapper.-column {
       padding: 0 0 40px;
       // padding: 20px 0 0;
+      flex-direction: column;
     }
   }
 

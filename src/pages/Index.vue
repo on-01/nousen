@@ -604,13 +604,14 @@
             </figure>
             <figure>
               <a
-                href="https://sakufuri.jp/media/"
-                target="_blank"
+                href="#"
+                @click.prevent="openExternal"
                 rel="noopener noreferrer"
+                class="public-media-flex-image-link"
               >
                 <img
                   src="../assets/img/common/public_media_14.jpg"
-                  alt="電験三種 講習会 通信講座"
+                  alt="サクフリブログ"
                   class="public-media-flex-image"
                 />
               </a>
@@ -1229,6 +1230,10 @@ query {
       //     }
       //   }
       // },
+      openExternal() {
+        const cleanUrl = "https://sakufuri.jp/media/";
+        window.open(cleanUrl, "_blank");
+      },
     },
   };
 </script>
@@ -2479,6 +2484,9 @@ query {
   }
   .public-media-flex.-bottom {
     width: 75%;
+    @media print, screen and (max-width: 800px) {
+      margin: 0 auto;
+    }
   }
   .public-media-flex figure {
     margin: 0;

@@ -131,7 +131,7 @@
           >
             <img
               src="../../assets/img/front/career5.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </a>
           <a
@@ -142,7 +142,7 @@
           >
             <img
               src="../../assets/img/front/career6.jpg"
-              alt="電験三種 講習会 通信講座 オンライン講座"
+              alt="電験三種 第三種電気主任技術者"
             />
           </a>
         </div>
