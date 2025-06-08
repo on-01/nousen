@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 電験三種【機械】講習会
+          令和7年度 電験三種【法規】【模擬試験】講習会
           <br />
-          6/7(土)・6/8(日) 東京会場【受付中】
+          7/5(土)・7/6(日) 東京会場【受付中】
         </p>
         <img
           class="fixed-note-icon"
@@ -2323,7 +2323,7 @@ query {
     transform: translateX(-50%);
     box-shadow: 5px 5px 10px rgba(#000000, 0.3);
     background-color: #fff;
-    border: 4px solid #f4891e;
+    border: 4px solid #1262b2;
     border-radius: 12px;
     transition: all 0.2s ease;
 
