@@ -563,9 +563,10 @@
             </figure>
             <figure>
               <a
-                href="https://ecnavi.jp/ad/10712720/show/?frame=search"
-                target="_blank"
+                href="#"
+                @click.prevent="openExternal('https://ecnavi.jp/')"
                 rel="noopener noreferrer"
+                class="public-media-flex-image-link"
               >
                 <img
                   src="../assets/img/common/public_media_11.jpg"
@@ -605,7 +606,7 @@
             <figure>
               <a
                 href="#"
-                @click.prevent="openExternal"
+                @click.prevent="openExternal('https://sakufuri.jp/media/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -1230,9 +1231,8 @@ query {
       //     }
       //   }
       // },
-      openExternal() {
-        const cleanUrl = "https://sakufuri.jp/media/";
-        window.open(cleanUrl, "_blank");
+      openExternal(url) {
+        window.open(url, "_blank");
       },
     },
   };
