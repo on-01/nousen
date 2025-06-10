@@ -242,7 +242,7 @@
     text-align: center;
     padding: 10px 3em;
     font-weight: bold;
-    margin: 24px auto 0 auto;
+    margin: 24px 0;
     font-size: 20px;
     font-family: メイリオ, sans-serif;
     max-width: 270px;

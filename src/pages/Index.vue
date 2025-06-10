@@ -820,7 +820,7 @@
               <p class="last-message-flexText-bold">
                 建設業界の発展と新規企業の成長をサポート!
                 <br />
-                ミライを創ろう【創業支援割引制度】
+                ミライを創ろう【創業支援制度】
               </p>
               <p class="last-message-flexText">
                 建設業界の発展と新規企業の成長を支援するため、
