@@ -11,13 +11,6 @@
           <p class="quality-topText">人材育成支援コース 対象講座</p>
         </div>
       </a>
-      <div class="quality-topImg">
-        <img
-          class="flex-img -right"
-          src="../../assets/img/license_page/denken3/denken3_quality_kokuban.jpg"
-          alt="電験三種 第三種電気主任技術者"
-        />
-      </div>
       <p class="quality-mainTitle">
         【完全攻略】できる
         <br />
@@ -86,6 +79,13 @@
             <p class="quality-text" v-html="text_3"></p>
           </div>
         </div>
+      </div>
+      <div class="quality-topImg">
+        <img
+          class="flex-img -right"
+          src="../../assets/img/license_page/denken3/denken3_quality_kokuban.jpg"
+          alt="電験三種 第三種電気主任技術者"
+        />
       </div>
       <div class="quality-basis">
         <p class="basis-title">初学者も安心！基礎講座からしっかり学べます。</p>
