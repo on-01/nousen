@@ -250,7 +250,7 @@
           </g-link>
         </div> -->
 
-        <ContactInfo
+        <ContactInfoPrivate
           title="出張講習のご相談<br>
           日程・費用・研修内容など<br>
           お気軽にお問い合わせください。"
@@ -277,6 +277,7 @@ query {
   import IconFingerDiagonallyUp from "@/components/icons/IconFingerDiagonallyUp.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
+  import ContactInfoPrivate from "../components/licensePage/ContactInfoPrivate.vue";
   export default {
     metaInfo() {
       return {
@@ -309,6 +310,7 @@ query {
       IconFingerDiagonallyUp,
       IconFingerRight,
       ContactInfo,
+      ContactInfoPrivate,
     },
   };
 </script>
