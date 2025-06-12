@@ -181,7 +181,7 @@
       <section class="section03">
         <h2 class="section-title">
           <img
-            src="../assets/img/front/reason_main_headline3.svg"
+            src="../assets/img/front/reason_main_headline3-2.svg"
             alt="能センの社会貢献活動"
           />
         </h2>
