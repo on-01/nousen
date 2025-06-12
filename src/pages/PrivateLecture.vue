@@ -39,32 +39,6 @@
             </p>
           </div>
         </section>
-        <div class="point-wrapper">
-          <Point
-            :headlineImg="require('../assets/img/private_lecture/point1.svg')"
-            :mainImg="require('../assets/img/private_lecture/backimg01.svg')"
-            myCatch="全国どこへでもお伺い致します"
-            text="北は北海道、南は沖縄まで全国各地で実績がございます。<br>講習会に参加してみたいけど毎回会場が遠く通い辛い…なんて不満もこれで解消できます。"
-          />
-          <Point
-            :headlineImg="require('../assets/img/private_lecture/point2.svg')"
-            :mainImg="require('../assets/img/private_lecture/backimg02.svg')"
-            myCatch="講習に集中できる環境"
-            text="気心知れた同僚とリラックスできる環境で、資格取得に向けての勉強が捗ります。<br>講師へも気兼ねなく疑問が解消されるまで質問できるチャンス！"
-          />
-          <Point
-            :headlineImg="require('../assets/img/private_lecture/point3.svg')"
-            :mainImg="require('../assets/img/private_lecture/backimg03.svg')"
-            myCatch="ご希望に沿った<br>プログラムをご提案"
-            text="日程やお時間、参加人数、講習を行いたい資格、実施場所、費用等のご要望をお知らせ下さい。<br>貴社に合った講習プランへとカスタマイズし、カリキュラムを作成・ご提案致します。<br>電気、建築、設備関連を中心に実施しておりますが、その他の分野についてもご相談ください。"
-          />
-          <Point
-            :headlineImg="require('../assets/img/private_lecture/point4.svg')"
-            :mainImg="require('../assets/img/private_lecture/backimg04.svg')"
-            myCatch="個別で申し込むよりも低コスト"
-            text="ご参加頂く人数にもよりますが、受講生が増えるほどおひとりあたりの受講費用が抑えられます。<br>また、遠方に通う必要がありませんので交通費や宿泊費も削減できます。"
-          />
-        </div>
 
         <section class="section03">
           <div class="public-media">
@@ -184,6 +158,33 @@
             </div>
           </div>
         </section>
+
+        <div class="point-wrapper">
+          <Point
+            :headlineImg="require('../assets/img/private_lecture/point1.svg')"
+            :mainImg="require('../assets/img/private_lecture/backimg01.svg')"
+            myCatch="全国どこへでもお伺い致します"
+            text="北は北海道、南は沖縄まで全国各地で実績がございます。<br>講習会に参加してみたいけど毎回会場が遠く通い辛い…なんて不満もこれで解消できます。"
+          />
+          <Point
+            :headlineImg="require('../assets/img/private_lecture/point2.svg')"
+            :mainImg="require('../assets/img/private_lecture/backimg02.svg')"
+            myCatch="講習に集中できる環境"
+            text="気心知れた同僚とリラックスできる環境で、資格取得に向けての勉強が捗ります。<br>講師へも気兼ねなく疑問が解消されるまで質問できるチャンス！"
+          />
+          <Point
+            :headlineImg="require('../assets/img/private_lecture/point3.svg')"
+            :mainImg="require('../assets/img/private_lecture/backimg03.svg')"
+            myCatch="ご希望に沿った<br>プログラムをご提案"
+            text="日程やお時間、参加人数、講習を行いたい資格、実施場所、費用等のご要望をお知らせ下さい。<br>貴社に合った講習プランへとカスタマイズし、カリキュラムを作成・ご提案致します。<br>電気、建築、設備関連を中心に実施しておりますが、その他の分野についてもご相談ください。"
+          />
+          <Point
+            :headlineImg="require('../assets/img/private_lecture/point4.svg')"
+            :mainImg="require('../assets/img/private_lecture/backimg04.svg')"
+            myCatch="個別で申し込むよりも低コスト"
+            text="ご参加頂く人数にもよりますが、受講生が増えるほどおひとりあたりの受講費用が抑えられます。<br>また、遠方に通う必要がありませんので交通費や宿泊費も削減できます。"
+          />
+        </div>
 
         <div class="example-wrapper">
           <h4 class="example-title">
@@ -331,10 +332,16 @@ query {
   }
   .message {
     font-weight: bold;
-    color: #3b241a;
+    color: #000000;
     margin-top: 50px;
+    font-family: メイリオ, sans-serif;
+    padding-bottom: 250px;
+
     @media print, screen and (min-width: 1001px) {
       text-align: center;
+    }
+    @media print, screen and (max-width: 1000px) {
+      padding-bottom: 120px;
     }
     .example {
       color: #ff4500;
@@ -346,10 +353,6 @@ query {
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 100px;
-    padding-bottom: 250px;
-    @media print, screen and (max-width: 1000px) {
-      padding-bottom: 120px;
-    }
   }
   .example-wrapper {
     margin-top: 120px;
