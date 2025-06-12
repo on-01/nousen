@@ -112,7 +112,7 @@
               </g-link>
             </div>
             <div class="item item06 contact" key="item06">
-              <g-link to="https://www.nouryoku.com/contact/">
+              <g-link to="/contact">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 お問い合わせ
