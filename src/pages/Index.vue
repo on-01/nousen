@@ -115,6 +115,7 @@
               <g-link to="/contact">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
+                <br />
                 お問い合わせ
                 <!-- <IconOnline iconClass="online_icon_index" /> -->
                 <!-- <br /> -->
@@ -125,6 +126,7 @@
               <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
+                <br />
                 オンライン相談
                 <IconOnline iconClass="online_icon_index" />
                 <!-- <br /> -->
