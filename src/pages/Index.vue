@@ -67,7 +67,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </div>
             </div> -->
-            <div class="item item07 denkikoujisekou" key="item07">
+            <div class="item item02 denkikoujisekou" key="item07">
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -79,7 +79,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item05 kenchiku" key="item05">
+            <div class="item item03 kenchiku" key="item05">
               <g-link to="/kenchiku-s">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -99,7 +99,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item06 kankouji" key="item06">
+            <div class="item item05 kankouji" key="item06">
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -121,7 +121,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item06 online" key="item06">
+            <div class="item item07 online" key="item06">
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
