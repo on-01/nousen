@@ -33,7 +33,7 @@
     // max-width: 1070px;
     width: 100%;
     font-family: "Meiryo", sans-serif;
-    background-color: #ebf7ff;
+    background-color: #ffffff;
     margin: 20px auto;
     z-index: 0;
     position: relative;
