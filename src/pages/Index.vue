@@ -112,7 +112,7 @@
               </g-link>
             </div>
             <div class="item item06 contact" key="item06">
-              <g-link>
+              <g-link to="https://www.nouryoku.com/contact/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 お問い合わせ
@@ -122,7 +122,7 @@
               </g-link>
             </div>
             <div class="item item07 online" key="item06">
-              <g-link>
+              <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 オンライン相談
