@@ -1612,10 +1612,10 @@ query {
     content: url("../assets/img/icon/qualification/kyuusui.svg");
   }
   .contact a:before {
-    content: url("../assets/img/icon/qualification/contact.png");
+    content: url("../assets/img/icon/qualification/contact.svg");
   }
   .online a:before {
-    content: url("../assets/img/icon/qualification/online.png");
+    content: url("../assets/img/icon/qualification/online.svg");
   }
   .more_qualification {
     font-weight: bold;
