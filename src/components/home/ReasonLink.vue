@@ -221,30 +221,33 @@
     line-height: 1.6;
   }
   .reason-more {
-    display: block;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
     // margin: 0 auto 310px;
     margin: 76px auto 24px;
     @media print, screen and (max-width: 1000px) {
       // margin-bottom: 200px;
       margin-top: 40px;
-      margin-bottom: 24px;
+      margin-bottom: 40px;
+      flex-direction: column;
     }
   }
   .reason-more-inner {
     border-radius: 10px;
-    background-color: #1262b2;
+    background-color: #005f99;
     display: block;
     color: #fff;
     text-align: center;
     padding: 10px 3em;
     font-weight: bold;
-    margin: 24px auto 0 auto;
+    margin: 24px 0;
     font-size: 20px;
     font-family: メイリオ, sans-serif;
     max-width: 270px;
     @media print, screen and (max-width: 1000px) {
-      // margin-top: 40px;
+      margin: 0 auto;
     }
     .icon {
       margin-left: 10px;

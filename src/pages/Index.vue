@@ -51,10 +51,8 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item02 denkikouji" key="item02">
+            <!-- <div class="item item02 denkikouji" key="item02">
               <div class="link-none">
-                <!-- <span>電気工事士</span>
-                <br /> -->
                 第一種
                 <br />
                 電気工事士
@@ -63,13 +61,33 @@
             </div>
             <div class="item item03 denkikouji" key="item03">
               <div class="link-none">
-                <!-- <span>電気工事士</span>
-                <br /> -->
                 第二種
                 <br />
                 電気工事士
                 <IconOnline iconClass="online_icon_index" />
               </div>
+            </div> -->
+            <div class="item item02 denkikoujisekou" key="item07">
+              <g-link>
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                1・2級
+                <br />
+                電気工事施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
+                <!-- <span>令和６年度準備中</span> -->
+              </g-link>
+            </div>
+            <div class="item item03 kenchiku" key="item05">
+              <g-link to="/kenchiku-s">
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                1・2級
+                <br />
+                建築施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+              </g-link>
             </div>
             <div class="item item04 doboku" key="item04">
               <g-link to="/doboku-s">
@@ -81,17 +99,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item05 kenchiku" key="item05">
-              <g-link to="/kenchiku-s">
-                <!-- <span>施工管理技士</span>
-                <br /> -->
-                1・2級
-                <br />
-                建築施工管理技士
-                <IconOnline iconClass="online_icon_index" />
-              </g-link>
-            </div>
-            <div class="item item06 kankouji" key="item06">
+            <div class="item item05 kankouji" key="item06">
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -103,13 +111,23 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item07 denkikoujisekou" key="item07">
-              <g-link>
+            <div class="item item06 contact" key="item06">
+              <g-link to="/contact">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
-                1・2級
                 <br />
-                電気工事施工管理技士
+                お問い合わせ
+                <!-- <IconOnline iconClass="online_icon_index" /> -->
+                <!-- <br /> -->
+                <!-- <span>令和６年度準備中</span> -->
+              </g-link>
+            </div>
+            <div class="item item07 online" key="item06">
+              <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/">
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                <br />
+                オンライン相談
                 <IconOnline iconClass="online_icon_index" />
                 <!-- <br /> -->
                 <!-- <span>令和６年度準備中</span> -->
@@ -563,9 +581,10 @@
             </figure>
             <figure>
               <a
-                href="https://ecnavi.jp/ad/10712720/show/?frame=search"
-                target="_blank"
+                href="#"
+                @click.prevent="openExternal('https://ecnavi.jp/')"
                 rel="noopener noreferrer"
+                class="public-media-flex-image-link"
               >
                 <img
                   src="../assets/img/common/public_media_11.jpg"
@@ -605,7 +624,7 @@
             <figure>
               <a
                 href="#"
-                @click.prevent="openExternal"
+                @click.prevent="openExternal('https://sakufuri.jp/media/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -819,7 +838,7 @@
               <p class="last-message-flexText-bold">
                 建設業界の発展と新規企業の成長をサポート!
                 <br />
-                ミライを創ろう【創業支援割引制度】
+                ミライを創ろう【創業支援制度】
               </p>
               <p class="last-message-flexText">
                 建設業界の発展と新規企業の成長を支援するため、
@@ -1230,9 +1249,8 @@ query {
       //     }
       //   }
       // },
-      openExternal() {
-        const cleanUrl = "https://sakufuri.jp/media/";
-        window.open(cleanUrl, "_blank");
+      openExternal(url) {
+        window.open(url, "_blank");
       },
     },
   };
@@ -1594,6 +1612,12 @@ query {
   }
   .kyuusui a:before {
     content: url("../assets/img/icon/qualification/kyuusui.svg");
+  }
+  .contact a:before {
+    content: url("../assets/img/icon/qualification/contact.svg");
+  }
+  .online a:before {
+    content: url("../assets/img/icon/qualification/online.svg");
   }
   .more_qualification {
     font-weight: bold;

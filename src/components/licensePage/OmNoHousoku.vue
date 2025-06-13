@@ -69,7 +69,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    background-color: #ebf7ff;
+    background-color: #ffffff;
     margin: 0 auto;
     padding: 0 24px;
     z-index: 0;

@@ -55,7 +55,7 @@
           <div class="courseOverview-flex-right">
             <img
               class="courseOverview-flex-image"
-              src="../../assets/img/license_page/denken3/denken3_courseOverview_4.jpg"
+              src="../../assets/img/license_page/denken3/denken3_courseOverview_6.jpg"
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
