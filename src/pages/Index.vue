@@ -27,12 +27,12 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="qualification-list-wrapper">
-          <figure class="top_left">
+          <!-- <figure class="top_left">
             <img
               src="../assets/img/common/top-left.jpg"
               alt="電験三種 講習会 通信講座"
             />
-          </figure>
+          </figure> -->
           <transition-group
             v-if="afterImgLoad"
             appear
@@ -164,12 +164,12 @@
               </picture>
             </div>
           </transition-group>
-          <figure class="top_right">
+          <!-- <figure class="top_right">
             <img
               src="../assets/img/common/top-right1.jpg"
               alt="電験三種 講習会 通信講座"
             />
-          </figure>
+          </figure> -->
         </div>
         <!-- <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
