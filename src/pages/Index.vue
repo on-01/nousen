@@ -593,154 +593,113 @@
       </section>
 
       <section class="section03 -bottom">
-        <!-- <h2 class="section-title">
-          <img
-            src="../assets/img/front/reason_main_headline3-2.svg"
-            alt="電験三種 講習会 通信講座"
-          />
-        </h2>
-        <div class="last-message">
-          <div class="last-message-flex">
-            <div class="last-message-flex-box">
-              <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
-              <img
-                src="../assets/img/common/social_image1-1.jpg"
-                alt="電験三種 講習会 通信講座"
-              />
-              <p class="last-message-flexText-bold">
-                日本を元気に！
-                <br />
-                子どもたちが夢と希望を持って働ける世の中へ。
-              </p>
-              <p class="last-message-flexText">
-                能センでは、
-                <span>受講生1名につき100円</span>
-                を「こどもの未来応援基金」へ寄付いたします。
-                <br />
-                「こどもの未来応援基金」は、子どもの貧困対策を進めるための
-                <br />
-                官民連携プロジェクトの一環として、2015年に創設されました。
-              </p>
-              <p class="last-message-flexText">
-                こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。
-                <br />
-                [
-                <a href="https://kodomohinkon.go.jp/">
-                  https://kodomohinkon.go.jp/
-                </a>
-                ]
-              </p>
-            </div>
-            <div class="last-message-flex-box">
-              <p class="last-message-flexTitle">
-                環境への配慮～持続可能なミライへ～
-              </p>
-              <img
-                src="../assets/img/common/social_image2.jpg"
-                alt="電験三種 講習会 通信講座"
-              />
-              <p class="last-message-flexText-bold">
-                能センでは、すべてのプリントや資料に
-                <br />
-                FSC認証を受けたエコペーパーを使用しております。
-              </p>
-              <p class="last-message-flexText">
-                FSC認証とは、持続可能な森林の活用・保全を目的とし、
-                <br />
-                「適切な森林管理」を認証する国際的な制度です。
-              </p>
-              <p class="last-message-flexText">
-                FSC認証についての詳細は、以下のリンクをご参照ください。
-                <br />
-                [
-                <a href="https://shitte-erabo.net/aboutfsc/certification/">
-                  https://shitte-erabo.net/aboutfsc/certification/
-                </a>
-                ]
-              </p>
-            </div>
-            <!-- <img
-              src="../assets/img/common/social_image.jpg"
-              alt="子供の未来は日本の未来"
-              class="last-message-logo"
-              width="174"
-              height="93"
-              decoding="async"
-            />
-            <div class="last-message-description">
-              <p class="last-message-text1">
-                能センは子供の未来を
-                <br />
-                応援します!
-              </p>
-              <p class="last-message-text2">
-                日本を元気に！
-                <br />
-                子供たちが夢と希望を持って働ける世の中へ！
-                <br />
-                能センでは受講生１名につき１００円を
-                <br />
-                「こどもの未来応援基金」へ寄付をいたします。
-              </p>
-              <p class="last-message-text3">
-                <g-link to="https://kodomohinkon.go.jp/">
-                  こどもの未来応援基金
-                </g-link>
-                は、
-                <br />
-                こどもの貧困対策を進めるための
-                <br />
-                官民連携プロジェクトのひとつとして、
-                <br />
-                ２０１５年に創設されました。
-                <br />
-              </p>
-            </div> -->
-          </div>
-          <div class="last-message-flex -bottom">
-            <div class="last-message-flex-box">
-              <p class="last-message-flexTitle">
-                建設業の発展と新規企業の成長をサポート！
-              </p>
-              <img
-                src="../assets/img/common/social_image3.jpg"
-                alt="電験三種 講習会 通信講座"
-              />
-              <p class="last-message-flexText-bold">
-                建設業界の発展と新規企業の成長をサポート!
-                <br />
-                ミライを創ろう【創業支援制度】
-              </p>
-              <p class="last-message-flexText">
-                建設業界の発展と新規企業の成長を支援するため、
-                <br />
-                創業2年以内の個人事業主および法人企業様向けに
-                <span class="red">受講料を20％割引</span>
-                でご提供します。
-              </p>
-              <p class="last-message-flexText -center">
-                <!-- <span>対象者:&nbsp;</span>
-                創業2年以内の個人事業主および法人企業の従業員様
-                <br />
-                <span>割引率:&nbsp;</span>
-                受講料20％割引
-                <br /> -->
-                <span>必要事項:&nbsp;</span>
-                特に提出書類は不要ですが、以下の情報が必要となります。
-              </p>
-              <p class="last-message-flexText">
-                <span>・本社住所 ・代表電話番号　・代表者氏名</span>
-              </p>
-              <p class="last-message-flexText">
-                能センは、このプログラムを通じて、建設業界の新しい担い手を応援し、
-                <br />
-                業界全体の持続的な発展に貢献したいと考えています。
-                <br />
-                皆様の挑戦を、私たちも全力でサポートさせていただきます。
-              </p>
-            </div>
-          </div>
-        </div> -->
+        <!--
+  <h2 class="section-title">
+    <img
+      src="../assets/img/front/reason_main_headline3-2.svg"
+      alt="電験三種 講習会 通信講座"
+    />
+  </h2>
+  <div class="last-message">
+    <div class="last-message-flex">
+      <div class="last-message-flex-box">
+        <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
+        <img
+          src="../assets/img/common/social_image1-1.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
+        <p class="last-message-flexText-bold">
+          日本を元気に！
+          <br />
+          子どもたちが夢と希望を持って働ける世の中へ。
+        </p>
+        <p class="last-message-flexText">
+          能センでは、
+          <span>受講生1名につき100円</span>
+          を「こどもの未来応援基金」へ寄付いたします。
+          <br />
+          「こどもの未来応援基金」は、子どもの貧困対策を進めるための
+          <br />
+          官民連携プロジェクトの一環として、2015年に創設されました。
+        </p>
+        <p class="last-message-flexText">
+          こどもの未来応援基金についての詳細は、以下のリンクをご参照ください。
+          <br />
+          [
+          <a href="https://kodomohinkon.go.jp/">
+            https://kodomohinkon.go.jp/
+          </a>
+          ]
+        </p>
+      </div>
+      <div class="last-message-flex-box">
+        <p class="last-message-flexTitle">
+          環境への配慮～持続可能なミライへ～
+        </p>
+        <img
+          src="../assets/img/common/social_image2.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
+        <p class="last-message-flexText-bold">
+          能センでは、すべてのプリントや資料に
+          <br />
+          FSC認証を受けたエコペーパーを使用しております。
+        </p>
+        <p class="last-message-flexText">
+          FSC認証とは、持続可能な森林の活用・保全を目的とし、
+          <br />
+          「適切な森林管理」を認証する国際的な制度です。
+        </p>
+        <p class="last-message-flexText">
+          FSC認証についての詳細は、以下のリンクをご参照ください。
+          <br />
+          [
+          <a href="https://shitte-erabo.net/aboutfsc/certification/">
+            https://shitte-erabo.net/aboutfsc/certification/
+          </a>
+          ]
+        </p>
+      </div>
+    </div>
+    <div class="last-message-flex -bottom">
+      <div class="last-message-flex-box">
+        <p class="last-message-flexTitle">
+          建設業の発展と新規企業の成長をサポート！
+        </p>
+        <img
+          src="../assets/img/common/social_image3.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
+        <p class="last-message-flexText-bold">
+          建設業界の発展と新規企業の成長をサポート!
+          <br />
+          ミライを創ろう【創業支援制度】
+        </p>
+        <p class="last-message-flexText">
+          建設業界の発展と新規企業の成長を支援するため、
+          <br />
+          創業2年以内の個人事業主および法人企業様向けに
+          <span class="red">受講料を20％割引</span>
+          でご提供します。
+        </p>
+        <p class="last-message-flexText -center">
+          <span>必要事項:&nbsp;</span>
+          特に提出書類は不要ですが、以下の情報が必要となります。
+        </p>
+        <p class="last-message-flexText">
+          <span>・本社住所 ・代表電話番号　・代表者氏名</span>
+        </p>
+        <p class="last-message-flexText">
+          能センは、このプログラムを通じて、建設業界の新しい担い手を応援し、
+          <br />
+          業界全体の持続的な発展に貢献したいと考えています。
+          <br />
+          皆様の挑戦を、私たちも全力でサポートさせていただきます。
+        </p>
+      </div>
+    </div>
+  </div>
+  -->
 
         <ContactInfoIndex title="受講に関するご相談・資料請求は" />
 
@@ -1199,6 +1158,7 @@ query {
     background-size: cover;
     @media print, screen and (min-width: 1001px) {
       padding-top: 160px;
+      padding-bottom: 120px;
     }
     @media print, screen and (max-width: 1000px) {
       padding-top: 110px;
@@ -1701,11 +1661,10 @@ query {
     &:before {
       display: none;
     }
-    }
-    &::after {
-      display: none;
-    }
-  
+  }
+  &::after {
+    display: none;
+  }
 
   .last-message-flex {
     display: flex;

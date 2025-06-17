@@ -206,7 +206,7 @@
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
-    padding: 0 20px;
+    padding: 0 20px 30px;
     font-family: メイリオ, sans-serif;
     @media print, screen and (max-width: 1142px) {
       flex-direction: column;
