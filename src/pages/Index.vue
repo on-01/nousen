@@ -593,7 +593,7 @@
       </section>
 
       <section class="section03 -bottom">
-        <h2 class="section-title">
+        <!-- <h2 class="section-title">
           <img
             src="../assets/img/front/reason_main_headline3-2.svg"
             alt="電験三種 講習会 通信講座"
@@ -740,7 +740,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <ContactInfoIndex title="受講に関するご相談・資料請求は" />
 
@@ -1698,7 +1698,14 @@ query {
     @media print, screen and (max-width: 1000px) {
       margin-top: -160px;
     }
-  }
+    &:before {
+      display: none;
+    }
+    }
+    &::after {
+      display: none;
+    }
+  
 
   .last-message-flex {
     display: flex;
