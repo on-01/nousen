@@ -1661,9 +1661,9 @@ query {
     &:before {
       display: none;
     }
-  }
-  &::after {
-    display: none;
+    &::after {
+      display: none;
+    }
   }
 
   .last-message-flex {
