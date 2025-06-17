@@ -142,11 +142,13 @@
               </ul>
             </div>
           </div>
-          <!-- <div class="pagelink-title">
-            <g-link to="/licenses">
-              <p>試験概要</p>
-            </g-link>
-          </div> -->
+          <div class="pagelink-title">
+            <div class="online_infomation">
+              <p class="online_infomation_text">
+                【満足度No.1】資格合格支援スクール！
+              </p>
+            </div>
+          </div>
           <div class="pagelink-title">
             <g-link to="/teachers">
               <p>信頼の講師陣</p>
@@ -1142,5 +1144,32 @@
   .kenchiku-template .main-header,
   .doboku-template .main-header {
     position: static;
+  }
+  .online_infomation {
+    display: none;
+    @media print, screen and(min-width: 1000px) {
+      background: #1262b2;
+      color: #fff;
+      font-weight: bold;
+      font-size: 12px;
+      text-align: center;
+      display: block;
+      position: absolute;
+      left: 3rem;
+      top: -3rem;
+      width: 190px;
+    }
+    @media print, screen and(min-width: 1080px) {
+      font-size: 12px;
+      // width: 230px;
+      width: 245px;
+      left: 100px;
+    }
+    & p {
+      margin: 0;
+      line-height: 2.5em;
+      font-size: 13px;
+      font-family: メイリオ, sans-serif;
+    }
   }
 </style>

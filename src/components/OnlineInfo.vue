@@ -5,9 +5,9 @@
         【満足度No.1】資格合格支援スクール！
       </p>
     </div>
-    <div class="online_infomation">
+    <!-- <div class="online_infomation">
       <p class="online_infomation_text">【満足度No.1】資格合格支援スクール！</p>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
