@@ -46,7 +46,7 @@
       </div>
     </div> -->
     <div class="support-wrap -second">
-      <p class="support-title">ミライを創ろう【創業支援割引制度】</p>
+      <p class="support-title">ミライを創ろう【創業支援制度】</p>
       <div class="support">
         <div class="support-description -second">
           <!-- <p>ミライを創る【創業支援割引制度】</p> -->
@@ -113,12 +113,12 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #ed6c00;
+    background-color: #1262b2;
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
     max-width: 1038px;
-    box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
+    // box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     position: relative;
     @media print, screen and (max-width: 560px) {
       font-size: 16px;

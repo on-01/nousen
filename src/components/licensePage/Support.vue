@@ -176,11 +176,11 @@
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: #ed6c00;
+    background-color: #1262b2;
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
-    box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
+    // box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     @media print, screen and (max-width: 560px) {
       font-size: 16px;
     }
