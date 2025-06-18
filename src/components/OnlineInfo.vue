@@ -45,6 +45,9 @@
       top: -1rem;
       width: 300px;
     }
+    @media print, screen and(min-width: 1535px) {
+      left: -200px;
+    }
     & p {
       margin: 0;
       line-height: 2.5em;
