@@ -278,7 +278,7 @@
               <span>【終了】</span>
             </p> -->
             <p class="workshop-border -none">
-              9月18日(木)～12月31日(水)まで
+              9月17日(水)～12月31日(水)まで
               <span>【受付中】</span>
             </p>
           </div>

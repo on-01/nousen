@@ -553,7 +553,7 @@ query {
     }
   }
   .ceo-img {
-    width: 160px;
+    width: 200px;
     margin-left: -10px;
   }
   .history {
