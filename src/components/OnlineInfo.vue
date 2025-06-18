@@ -33,10 +33,16 @@
       top: -3rem;
       width: 190px;
     }
+    @media print, screen and(min-width: 1080px) {
+      font-size: 12px;
+      width: 245px;
+      left: 100px;
+    }
+
     @media print, screen and(min-width: 1440px) {
       font-size: 12px;
       left: -150px;
-      top: 1rem;
+      top: -1rem;
       width: 300px;
     }
     & p {
