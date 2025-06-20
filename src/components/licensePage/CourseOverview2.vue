@@ -33,7 +33,7 @@
             <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
             <img
               class="flex-img"
-              src="../../assets/img/license_page/doboku_s/doboku-pc1.jpg"
+              src="../../assets/img/license_page/denken3/denken-pc1.png"
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
@@ -41,7 +41,7 @@
             <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
             <img
               class="flex-img -right"
-              src="../../assets/img/license_page/doboku_s/doboku-sp1.jpg"
+              src="../../assets/img/license_page/denken3/denken-sp1.png"
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
