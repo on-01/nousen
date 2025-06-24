@@ -157,5 +157,16 @@
 
   ul {
     list-style: none;
+
+    li {
+      display: flex;
+      column-gap: 20px;
+      img {
+        width: 40%;
+      }
+      .exam-textWrap {
+        width: 60%;
+      }
+    }
   }
 </style>
