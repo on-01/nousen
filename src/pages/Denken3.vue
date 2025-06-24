@@ -528,9 +528,9 @@
               />
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="通信講座のお申込み（個人）"
+                personalFormText="お申込みはこちら（個人）"
                 personalFormLink="/denken3-application"
-                businessFormText="通信講座のお申込み（法人）"
+                businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
@@ -545,9 +545,9 @@
               <div id="apply-section"></div>
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="オンライン講座へのお申込み（個人）"
+                personalFormText="お申込みはこちら（個人）"
                 personalFormLink="/denken3-application"
-                businessFormText="オンライン講座へのお申込み（法人）"
+                businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
