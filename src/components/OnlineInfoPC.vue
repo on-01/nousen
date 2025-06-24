@@ -31,7 +31,7 @@
       left: -150px;
       top: -1rem;
       width: 300px;
-      display: none;
+      display: block;
     }
     & p {
       margin: 0;
