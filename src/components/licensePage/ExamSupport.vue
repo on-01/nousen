@@ -131,7 +131,7 @@
   .exam-inner {
     max-width: 1170px;
     width: 100%;
-    padding: 30px 0 0;
+    padding: 30px 30px 0;
     margin: 0 auto;
   }
 
