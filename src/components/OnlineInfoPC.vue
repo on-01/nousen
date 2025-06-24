@@ -45,7 +45,7 @@
       @media print, screen and(min-width: 1440px) {
         font-size: 16px;
       }
-      @media print, screen and(min-width: 1536px) {
+      @media print, screen and(min-width: 1660px) {
         font-size: 24px;
       }
     }
