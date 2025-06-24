@@ -7,6 +7,7 @@
     ]"
   >
     <div class="main-header-inner">
+      <OnlineInfoPC displayNone="sp_none" />
       <div class="logo">
         <div class="logo-inner">
           <g-link to="/">
