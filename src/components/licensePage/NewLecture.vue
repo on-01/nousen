@@ -208,7 +208,7 @@
     color: #fff;
     // border: 2px solid #1da1f2;
     background-color: #1262b2;
-    padding: 8px 0;
+    padding: 16px 0;
     margin: 50px 0 30px;
   }
 
