@@ -69,7 +69,7 @@
           />
         </figure>
         <p>
-          「100回同じ質問をしても、100回笑顔でお答えします。」
+          <span>「100回同じ質問をしても、100回笑顔でお答えします。」</span>
           <br />
           分からないことを聞くことが、合格への近道です。
           <br />
@@ -89,7 +89,7 @@
           />
         </figure>
         <p>
-          『スマホの中の先生は、２４時間授業中』
+          <span>『スマホの中の先生は、２４時間授業中』</span>
           <br />
           スマホがあれば、電車の中や職場など場所を選ばず何度でも動画を見て勉強が可能！
           <br />
@@ -208,8 +208,10 @@
     column-gap: 20px;
     padding: 0 20px 30px;
     font-family: メイリオ, sans-serif;
+    margin-bottom: 125px;
     @media print, screen and (max-width: 1142px) {
       flex-direction: column;
+      margin-bottom: 80px;
     }
   }
 
@@ -300,7 +302,6 @@
       }
     }
     span {
-      font-size: 19px;
       font-weight: 700;
     }
   }
