@@ -28,10 +28,14 @@
       text-align: center;
       position: absolute;
       font-size: 12px;
-      left: -150px;
-      top: -1rem;
+      left: 192px;
+      top: 3rem;
       width: 300px;
       display: block;
+    }
+    @media print, screen and(min-width: 1660px) {
+      width: 470px;
+      top: 2rem;
     }
     & p {
       margin: 0;
@@ -40,6 +44,9 @@
       font-family: メイリオ, sans-serif;
       @media print, screen and(min-width: 1440px) {
         font-size: 16px;
+      }
+      @media print, screen and(min-width: 1536px) {
+        font-size: 24px;
       }
     }
   }
