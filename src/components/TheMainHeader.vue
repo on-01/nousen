@@ -521,12 +521,14 @@
 <script>
   import MyModal from "@/components/MyModal.vue";
   import OnlineInfo from "@/components/OnlineInfo.vue";
+  import OnlineInfoPC from "@/components/OnlineInfoPC.vue";
   import IconOnline from "@/components/icons/IconOnline.vue";
   export default {
     name: "",
     components: {
       MyModal,
       OnlineInfo,
+      OnlineInfoPC,
       IconOnline,
     },
     data() {
