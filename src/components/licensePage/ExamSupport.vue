@@ -149,6 +149,8 @@
   .exam-topHead {
     margin: 0 0 20px;
     line-height: 1.5;
+    font-weight: 700;
+    font-size: 18px;
   }
   .exam-topText {
     margin: 0 0 20px;
@@ -157,16 +159,32 @@
 
   ul {
     list-style: none;
+  }
 
-    li {
-      display: flex;
-      column-gap: 20px;
-      img {
-        width: 40%;
-      }
-      .exam-textWrap {
-        width: 60%;
-      }
+  li {
+    display: flex;
+    column-gap: 20px;
+    img {
+      width: 40%;
+    }
+  }
+
+  .exam-textWrap {
+    width: 60%;
+  }
+
+  .exam-head {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .exam-text {
+    margin: 10px 0 0;
+    line-height: 1.5;
+
+    span {
+      font-size: 18px;
+      font-weight: 700;
     }
   }
 </style>
