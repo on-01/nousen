@@ -220,6 +220,7 @@
             />
 
             <div class="bg-white">
+              <ExamSupport />
               <Exam title="最新の予想模擬試験＋ポイント解説" />
 
               <!-- <CourseOverview
@@ -665,6 +666,7 @@
   import OmNoHousoku from "../components/licensePage/OmNoHousoku.vue";
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
+  import ExamSupport from "../components/licensePage/ExamSupport.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -745,6 +747,7 @@
       OmNoHousoku,
       FollowUpDenken3,
       TimeCount,
+      ExamSupport,
     },
     data() {
       return {
