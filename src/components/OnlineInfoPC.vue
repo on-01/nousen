@@ -21,33 +21,21 @@
   /* 202101　オンライン案内　↓ */
   .online_infomation {
     display: none;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1440px) {
       background: #1262b2;
       color: #fff;
       font-weight: bold;
-      font-size: 12px;
       text-align: center;
-      display: block;
       position: absolute;
-      left: 3rem;
-      top: -3rem;
-      width: 190px;
-    }
-    @media print, screen and(min-width: 1080px) {
       font-size: 12px;
-      width: 245px;
-      left: 100px;
-    }
-
-    @media print, screen and(min-width: 1440px) {
-      font-size: 12px;
-      left: -150px;
-      top: -1rem;
+      left: 192px;
+      top: 3rem;
       width: 300px;
-      display: none;
+      display: block;
     }
-    @media print, screen and(min-width: 1535px) {
-      left: -200px;
+    @media print, screen and(min-width: 1660px) {
+      width: 470px;
+      top: 2rem;
     }
     & p {
       margin: 0;
@@ -56,6 +44,9 @@
       font-family: メイリオ, sans-serif;
       @media print, screen and(min-width: 1440px) {
         font-size: 16px;
+      }
+      @media print, screen and(min-width: 1660px) {
+        font-size: 24px;
       }
     }
   }

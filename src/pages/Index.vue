@@ -191,6 +191,17 @@
         </h2>
         <NewReason />
       </section>
+
+      <section class="section02">
+        <p class="section-name">News</p>
+        <News />
+      </section>
+      <ReasonLink
+        moreLinkCheck="1"
+        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+        moreText="オンライン相談はこちら"
+      />
+
       <div class="top-ctaFlex">
         <div class="top-youtube">
           <!-- <p>【 全ての受験生へ 】</p> -->
@@ -215,15 +226,7 @@
           </a>
         </div>
       </div>
-      <section class="section02">
-        <p class="section-name">News</p>
-        <News />
-      </section>
-      <ReasonLink
-        moreLinkCheck="1"
-        moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-        moreText="オンライン相談はこちら"
-      />
+
       <section class="voice">
         <div class="voice-inner">
           <div class="voice-content">
@@ -465,7 +468,7 @@
               </a>
             </figure>
           </div>
-          <div class="public-media-flex -bottom">
+          <div class="public-media-flex">
             <figure>
               <a
                 href="https://www.iid.co.jp/contents-education/"
@@ -502,6 +505,20 @@
                 <img
                   src="../assets/img/common/public_media_14.jpg"
                   alt="サクフリブログ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="openExternal('https://shop.deliveru.jp/')"
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_15.png"
+                  alt="デリバル"
                   class="public-media-flex-image"
                 />
               </a>
@@ -1114,13 +1131,11 @@ query {
     display: flex;
     align-items: center;
     padding: 0 20px;
-    margin-bottom: 235px;
     @media print, screen and (max-width: 1150px) {
       flex-direction: column;
     }
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
-      margin-bottom: 45px;
     }
   }
   .top-banner {
@@ -1158,7 +1173,7 @@ query {
     background-size: cover;
     @media print, screen and (min-width: 1001px) {
       padding-top: 160px;
-      padding-bottom: 120px;
+      padding-bottom: 80px;
     }
     @media print, screen and (max-width: 1000px) {
       padding-top: 110px;
@@ -1456,6 +1471,9 @@ query {
     margin-top: 80px;
     padding-bottom: 100px;
     font-family: メイリオ, sans-serif;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 0;
+    }
     a {
       border: 5px solid #000;
       padding: 10px 15px;

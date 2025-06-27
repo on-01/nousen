@@ -220,6 +220,7 @@
             />
 
             <div class="bg-white">
+              <!-- <ExamSupport /> -->
               <Exam title="最新の予想模擬試験＋ポイント解説" />
 
               <!-- <CourseOverview
@@ -528,9 +529,9 @@
               />
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="通信講座のお申込み（個人）"
+                personalFormText="お申込みはこちら（個人）"
                 personalFormLink="/denken3-application"
-                businessFormText="通信講座のお申込み（法人）"
+                businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
@@ -545,9 +546,9 @@
               <div id="apply-section"></div>
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="オンライン講座へのお申込み（個人）"
+                personalFormText="お申込みはこちら（個人）"
                 personalFormLink="/denken3-application"
-                businessFormText="オンライン講座へのお申込み（法人）"
+                businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
@@ -665,6 +666,7 @@
   import OmNoHousoku from "../components/licensePage/OmNoHousoku.vue";
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
+  import ExamSupport from "../components/licensePage/ExamSupport.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -745,6 +747,7 @@
       OmNoHousoku,
       FollowUpDenken3,
       TimeCount,
+      ExamSupport,
     },
     data() {
       return {
