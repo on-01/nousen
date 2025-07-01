@@ -45,7 +45,7 @@
           </ul>
         </div>
       </div>
-      <div class="campaign-section">
+      <!-- <div class="campaign-section">
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg"
@@ -64,8 +64,8 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="campaign-section">
+      </div> -->
+      <!-- <div class="campaign-section">
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg"
@@ -84,7 +84,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

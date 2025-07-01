@@ -221,7 +221,7 @@
 
             <div class="bg-white">
               <ExamSupport />
-              <Exam title="最新の予想模擬試験＋ポイント解説" />
+              <!-- <Exam title="最新の予想模擬試験＋ポイント解説" /> -->
 
               <!-- <CourseOverview
               title="通 学 講 座"
