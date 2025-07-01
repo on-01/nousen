@@ -220,7 +220,7 @@
             />
 
             <div class="bg-white">
-              <!-- <ExamSupport /> -->
+              <ExamSupport />
               <Exam title="最新の予想模擬試験＋ポイント解説" />
 
               <!-- <CourseOverview
