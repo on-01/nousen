@@ -132,6 +132,10 @@
     max-width: 1110px;
     padding: 30px 30px;
     margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
   .exam-title {
@@ -163,8 +167,19 @@
   li {
     display: flex;
     column-gap: 20px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+    }
     img {
       width: 40%;
+      object-fit: cover;
+      height: 308px;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+      }
     }
   }
 
@@ -174,6 +189,9 @@
 
   .exam-textWrap {
     width: 60%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .exam-head {
