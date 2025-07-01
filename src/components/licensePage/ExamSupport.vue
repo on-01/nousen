@@ -129,9 +129,9 @@
     font-family: "メイリオ", sans-serif;
   }
   .exam-inner {
-    max-width: 1170px;
+    max-width: 1110px;
     width: 100%;
-    padding: 30px 30px 0;
+    padding: 30px 30px;
     margin: 0 auto;
   }
 
@@ -143,7 +143,7 @@
     color: #fff;
     background-color: #1262b2;
     padding: 16px 0;
-    margin: 50px 0 30px;
+    margin: 50px 0 0;
   }
 
   .exam-topHead {
@@ -153,7 +153,7 @@
     font-size: 18px;
   }
   .exam-topText {
-    margin: 0 0 20px;
+    margin: 0 0 50px;
     line-height: 1.5;
   }
 
@@ -167,6 +167,10 @@
     img {
       width: 40%;
     }
+  }
+
+  li:not(:first-of-type) {
+    margin-top: 40px;
   }
 
   .exam-textWrap {
