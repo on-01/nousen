@@ -130,7 +130,6 @@
   }
   .exam-inner {
     max-width: 1110px;
-    width: 100%;
     padding: 30px 30px;
     margin: 0 auto;
   }
