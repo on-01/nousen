@@ -14,8 +14,8 @@
           />
           <!-- <TimeCountDoboku /> -->
           <CheerDoboku
-            text="能センは<br>
-    建設業で働く人々を<br>
+            text="能センは、<br>
+    建設業で働く皆さまを<br>
     応援します！"
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
@@ -913,6 +913,7 @@
   .online-link {
     width: 300px;
     background-color: #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
 
     @media print, screen and (max-width: 1000px) {

@@ -1312,6 +1312,7 @@
   .application-link.-blue {
     background-color: #1262b2;
     border: 3px solid #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
   }
 
   .application-link.-mr {
