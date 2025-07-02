@@ -857,6 +857,7 @@
     // background-color: #ed6c00;
     // background-color: #ff4500;
     background-color: #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;

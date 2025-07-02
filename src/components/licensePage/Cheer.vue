@@ -175,7 +175,6 @@
   .application-link.-blue {
     background-color: #005f99;
     border: 3px solid #005f99;
-    box-shadow: 0 4px 8px rgba(0, 47, 77, 0.4);
   }
 
   .application-link.-mr {
