@@ -521,6 +521,6 @@
 
   .bg-lightBlue {
     background-color: #fff8cc;
-    padding-top: 80px;
+    padding: 80px 0;
   }
 </style>
