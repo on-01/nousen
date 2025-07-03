@@ -362,13 +362,16 @@
     font-size: 17px;
   }
   .tab-wrapper {
+    position: relative;
     margin: 0 auto;
-    max-width: 900px;
+    // max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     display: flex;
     text-align: center;
     margin-top: -70px;
     font-weight: bold;
+    justify-content: center;
     font-family: "メイリオ", sans-serif;
     @media print, screen and (max-width: 370px) {
       margin-top: -20vw;
@@ -377,10 +380,14 @@
       cursor: pointer;
       font-size: 20px;
       color: #666666;
-      max-width: 280px;
+      // max-width: 280px;
+      max-width: 305px;
       width: 100%;
-      background-color: #f2f2f2;
-      border: 5px solid #00a73c;
+      // background-color: #f2f2f2;
+      // background-color: #fff7d5;
+      background-color: #ebf7ff;
+      border: 5px solid #1262b2;
+      // border: 5px solid #ed7d31;
       border-radius: 20px;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
@@ -409,8 +416,10 @@
       }
       &.active {
         border-bottom: none;
+        // background-color: #fff7d5;
         background-color: #ebf7ff;
-        color: #00a73c;
+        color: #000000;
+        // color: #ed7d31;
         .icon {
           transform: rotate(90deg);
         }
@@ -418,16 +427,16 @@
     }
   }
   .tab:nth-child(1) {
-    // &::before {
-    //   content: url("../assets/img/license_page/icon_pc.svg");
-    //   display: inline-block;
-    //   width: 1em;
-    //   height: 1em;
-    //   margin-right: 0.2em;
-    //   @media print, screen and (max-width: 1000px) {
-    //     margin-right: 0;
-    //   }
-    // }
+    &::before {
+      content: url("../assets/img/license_page/icon_pc.svg");
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      margin-right: 0.2em;
+      @media print, screen and (max-width: 1000px) {
+        margin-right: 0;
+      }
+    }
     .icon {
       @media print, screen and (max-width: 1000px) {
         display: inline;
@@ -436,6 +445,37 @@
     }
   }
 
+  .tab-wrapper.-top {
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -45.7px;
+    }
+
+    .tab {
+      max-width: 100%;
+      background-color: #fff8cc;
+    }
+
+    .tab.active {
+      border-bottom: 6px solid #fff8cc;
+    }
+
+    .tab::before {
+      content: "";
+      display: none;
+    }
+
+    .icon {
+      @media print, screen and (max-width: 1000px) {
+        display: inline;
+        margin-top: 0;
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .tab-wrapper.-top .tab.active {
+    color: #000;
+  }
   .underdisplay {
     @media print, screen and(min-width: 1001px) {
       display: none;
