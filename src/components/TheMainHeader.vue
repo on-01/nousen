@@ -1143,7 +1143,8 @@
 
   .denken3-template .main-header,
   .kenchiku-template .main-header,
-  .doboku-template .main-header {
+  .doboku-template .main-header,
+  .denkikouji-template .main-header {
     position: static;
   }
 </style>

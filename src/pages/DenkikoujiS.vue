@@ -1,19 +1,29 @@
 <template>
-  <Layout>
-    <div class="denkikoujisekou">
-      <header class="header">
-        <HeroDenkikouji
-          :backImgOver="
-            require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
-          "
-          :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-          headTitle="令和8年度前期 / 令和8年度後期"
-          title="1・2級電気工事施工管理技士"
-          :icon="
-            require('../assets/img/icon/qualification/denkikoujisekou.svg')
-          "
-        />
-        <!-- <Hero
+  <div class="denkikouji-template">
+    <Layout>
+      <div class="denkikoujisekou">
+        <header class="header">
+          <HeroDenkikouji
+            :backImgOver="
+              require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
+            "
+            :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
+            headTitle="令和8年度前期 / 令和8年度後期"
+            title="1・2級電気工事施工管理技士"
+            :icon="
+              require('../assets/img/icon/qualification/denkikoujisekou.svg')
+            "
+          />
+          <CheerDenkikouji
+            text="能センは、<br>
+              建設業で働く皆さまを<br>
+              応援します！"
+            :imagePath="
+              require('../assets/img/license_page/denkikouji_s/denkikouji_s_cheer.png')
+            "
+            altText="電気工事施工管理技士 講習会 通信講座 web講座"
+          />
+          <!-- <Hero
           :backImgOver="
             require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
           "
@@ -26,127 +36,128 @@
             require('../assets/img/icon/qualification/denkikoujisekou.svg')
           "
         /> -->
-        <Point
-          :points="[
-            '＜一次＞1級、2級ともに、合格点獲得に必要な学習項目を解説。',
-            '＜一次＞選択問題のある科目はより効率的な学習方法を伝授します。記憶が重要な試験なので、「どこを優先的に覚え、なにを関連付けて理解すべきか」を指導します。',
-            '＜二次＞多くの方が苦労される「経験記述問題」をしっかり対策します。',
-            '＜二次＞工事件名の記述方法から使うべき言葉、記述してはいけない用語、文章の簡潔なまとめ方など、記述のテクニックを徹底解説。',
-            '＜二次＞個別のご質問にも対応します。',
-            '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。',
-          ]"
-        />
-        <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        <div class="exam-link-wrapper">
-          <g-link to="/licenses/#denkikoujisekou" class="exam-link">
-            受験資格や試験日の確認はこちら
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-        </div>
-      </header>
-      <section class="tab-wrapper">
-        <div
-          :class="['tab', { active: isActive === 1 }]"
-          v-on:click="tabToggle(1)"
-        >
-          オンライン
-          <br class="underdisplay" />
-          講座
-          <IconBase class="icon"><IconArrowRight /></IconBase>
-        </div>
-        <div
-          :class="['tab', { active: isActive === 2 }]"
-          v-on:click="tabToggle(2)"
-        >
-          1級通学講座
-          <IconBase class="icon"><IconArrowRight /></IconBase>
-        </div>
-        <div
-          :class="['tab', { active: isActive === 3 }]"
-          v-on:click="tabToggle(3)"
-        >
-          2級通学講座
-          <IconBase class="icon"><IconArrowRight /></IconBase>
-        </div>
-      </section>
-      <div class="body">
-        <div v-show="isActive === 2">
-          <h3 class="body-title">1級通学講座</h3>
-          <h3 class="body-title">各会場の開催日程</h3>
-          <Venue
-            v-for="(items, index) in $static.denkikoujiSekou1Venue.edges"
-            :key="index"
-            :city="items.node.city"
-            :period="items.node.period"
-            :hall="items.node.hall"
-            :details="items.node.details"
-            :address="items.node.address"
-            :map="items.node.map"
-          />
-          <Info
-            :tuitionFee="richtextToHTML($static.denkikoujiSekou1.tuitionFee)"
-            :capacity="$static.denkikoujiSekou1.capacity"
-            :benefits="richtextToHTML($static.denkikoujiSekou1.benefits)"
-            :cpds="richtextToHTML($static.denkikoujiSekou1.cpds)"
-          />
-          <!-- <Application
+          <!-- <Point
+            :points="[
+              '＜一次＞1級、2級ともに、合格点獲得に必要な学習項目を解説。',
+              '＜一次＞選択問題のある科目はより効率的な学習方法を伝授します。記憶が重要な試験なので、「どこを優先的に覚え、なにを関連付けて理解すべきか」を指導します。',
+              '＜二次＞多くの方が苦労される「経験記述問題」をしっかり対策します。',
+              '＜二次＞工事件名の記述方法から使うべき言葉、記述してはいけない用語、文章の簡潔なまとめ方など、記述のテクニックを徹底解説。',
+              '＜二次＞個別のご質問にも対応します。',
+              '＜二次＞講習後に提出いただく経験記述の課題は講師自ら個別に添削。高得点となるように直し、助言を入れてお返しします。',
+            ]"
+          /> -->
+          <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
+          <div class="exam-link-wrapper">
+            <g-link to="/licenses/#denkikoujisekou" class="exam-link">
+              受験資格や試験日の確認はこちら
+              <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+            </g-link>
+          </div>
+        </header>
+        <section class="tab-wrapper">
+          <div
+            :class="['tab', { active: isActive === 1 }]"
+            v-on:click="tabToggle(1)"
+          >
+            オンライン
+            <br class="underdisplay" />
+            講座
+            <IconBase class="icon"><IconArrowRight /></IconBase>
+          </div>
+          <div
+            :class="['tab', { active: isActive === 2 }]"
+            v-on:click="tabToggle(2)"
+          >
+            1級通学講座
+            <IconBase class="icon"><IconArrowRight /></IconBase>
+          </div>
+          <div
+            :class="['tab', { active: isActive === 3 }]"
+            v-on:click="tabToggle(3)"
+          >
+            2級通学講座
+            <IconBase class="icon"><IconArrowRight /></IconBase>
+          </div>
+        </section>
+        <div class="body">
+          <div v-show="isActive === 2">
+            <h3 class="body-title">1級通学講座</h3>
+            <h3 class="body-title">各会場の開催日程</h3>
+            <Venue
+              v-for="(items, index) in $static.denkikoujiSekou1Venue.edges"
+              :key="index"
+              :city="items.node.city"
+              :period="items.node.period"
+              :hall="items.node.hall"
+              :details="items.node.details"
+              :address="items.node.address"
+              :map="items.node.map"
+            />
+            <Info
+              :tuitionFee="richtextToHTML($static.denkikoujiSekou1.tuitionFee)"
+              :capacity="$static.denkikoujiSekou1.capacity"
+              :benefits="richtextToHTML($static.denkikoujiSekou1.benefits)"
+              :cpds="richtextToHTML($static.denkikoujiSekou1.cpds)"
+            />
+            <!-- <Application
             formLink="/denkikouji-s-application"
             faxLink="/denkikouji_1_FAX_31year.pdf"
           /> -->
-        </div>
-        <div v-show="isActive === 3">
-          <h3 class="body-title">2級通学講座</h3>
-          <h3 class="body-title">各会場の開催日程</h3>
-          <Venue
-            v-for="(items, index) in $static.denkikoujiSekou2Venue.edges"
-            :key="index"
-            :city="items.node.city"
-            :period="items.node.period"
-            :hall="items.node.hall"
-            :details="items.node.details"
-            :address="items.node.address"
-            :map="items.node.map"
-          />
-          <Info
-            :tuitionFee="richtextToHTML($static.denkikoujiSekou2.tuitionFee)"
-            :capacity="$static.denkikoujiSekou2.capacity"
-            :benefits="richtextToHTML($static.denkikoujiSekou2.benefits)"
-            :cpds="richtextToHTML($static.denkikoujiSekou2.cpds)"
-          />
-          <!-- <Application
+          </div>
+          <div v-show="isActive === 3">
+            <h3 class="body-title">2級通学講座</h3>
+            <h3 class="body-title">各会場の開催日程</h3>
+            <Venue
+              v-for="(items, index) in $static.denkikoujiSekou2Venue.edges"
+              :key="index"
+              :city="items.node.city"
+              :period="items.node.period"
+              :hall="items.node.hall"
+              :details="items.node.details"
+              :address="items.node.address"
+              :map="items.node.map"
+            />
+            <Info
+              :tuitionFee="richtextToHTML($static.denkikoujiSekou2.tuitionFee)"
+              :capacity="$static.denkikoujiSekou2.capacity"
+              :benefits="richtextToHTML($static.denkikoujiSekou2.benefits)"
+              :cpds="richtextToHTML($static.denkikoujiSekou2.cpds)"
+            />
+            <!-- <Application
             formLink="/denkikouji-s-application"
             faxLink="/denkikouji_2_FAX_31year.pdf"
           /> -->
-        </div>
-        <div v-show="isActive === 1">
-          <h3 class="body-title">オンライン講座</h3>
-          <Info
-            :courseOutline="
-              richtextToHTML($static.denkikoujiSekouOnline.courseOutline)
-            "
-            :apply="richtextToHTML($static.denkikoujiSekouOnline.apply)"
-            :mediaYoutube="$static.denkikoujiSekouOnline.mediaYoutube"
-            :mediaImg="
-              $static.denkikoujiSekouOnline.mediaImg
-                ? $static.denkikoujiSekouOnline.mediaImg.file.url
-                : ''
-            "
-            :mediaDescription="$static.denkikoujiSekouOnline.mediaDescription"
-          />
-          <!-- <Application
+          </div>
+          <div v-show="isActive === 1">
+            <h3 class="body-title">オンライン講座</h3>
+            <Info
+              :courseOutline="
+                richtextToHTML($static.denkikoujiSekouOnline.courseOutline)
+              "
+              :apply="richtextToHTML($static.denkikoujiSekouOnline.apply)"
+              :mediaYoutube="$static.denkikoujiSekouOnline.mediaYoutube"
+              :mediaImg="
+                $static.denkikoujiSekouOnline.mediaImg
+                  ? $static.denkikoujiSekouOnline.mediaImg.file.url
+                  : ''
+              "
+              :mediaDescription="$static.denkikoujiSekouOnline.mediaDescription"
+            />
+            <!-- <Application
             formText="オンライン講座へのお申し込み"
             formLink="/denkikouji-s-application"
           /> -->
-        </div>
+          </div>
 
-        <ContactInfo
-          title="受講に関するご相談は<br>
+          <ContactInfo
+            title="受講に関するご相談は<br>
             【お電話】【フォーム】【オンライン】<br>
             お気軽にお問い合わせください。"
-        />
+          />
+        </div>
       </div>
-    </div>
-  </Layout>
+    </Layout>
+  </div>
 </template>
 
 <static-query>
@@ -226,6 +237,7 @@
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import HeroDenkikouji from "../components/HeroDenkikouji.vue";
+  import CheerDenkikouji from "../components/licensePage/CheerDenkikouji.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -273,6 +285,7 @@
       IconArrowRight,
       ContactInfo,
       HeroDenkikouji,
+      CheerDenkikouji,
     },
     data() {
       return {
