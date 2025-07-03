@@ -47,27 +47,26 @@
             ]"
           /> -->
           <!-- <News :contents="richtextToHTML($static.news.newsField)" /> -->
-        </header>
-        <section class="tab-wrapper -top">
-          <div
-            :class="['tab', { active: isActiveTop === 1 }]"
-            v-on:click="tabToggleTop(1)"
-          >
-            試験内容
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-          <div
-            :class="['tab', { active: isActiveTop === 2 }]"
-            v-on:click="tabToggleTop(2)"
-          >
-            講座情報
-            <IconBase class="icon"><IconArrowRight /></IconBase>
-          </div>
-        </section>
+          <section class="tab-wrapper -top">
+            <div
+              :class="['tab', { active: isActiveTop === 1 }]"
+              v-on:click="tabToggleTop(1)"
+            >
+              試験内容
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 2 }]"
+              v-on:click="tabToggleTop(2)"
+            >
+              講座情報
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+          </section>
 
-        <!-- 試験情報 -->
-        <div v-show="isActiveTop === 1">
-          <!-- <Explanation
+          <!-- 試験情報 -->
+          <div v-show="isActiveTop === 1">
+            <!-- <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
             1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められ、技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
@@ -79,38 +78,38 @@
             "
             altText="建築施工管理技士 講習会 通信講座 web講座"
           /> -->
-          <div class="bg-lightBlue -pd100">
-            <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
-            <!-- <TestOverviewKenchiku /> -->
+            <div class="bg-lightBlue -pd100">
+              <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
+              <!-- <TestOverviewKenchiku /> -->
 
-            <div class="exam-link-wrapper -column">
-              <!-- <g-link to="/licenses/#kenchiku" class="exam-link">
+              <div class="exam-link-wrapper -column">
+                <!-- <g-link to="/licenses/#kenchiku" class="exam-link">
                   試験概要はこちら
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                 </g-link> -->
-              <g-link
-                to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-                class="online-link"
-              >
-                オンライン相談はこちら
-                <IconBase class="icon" width="25" height="25">
-                  <IconFingerRight />
-                </IconBase>
-              </g-link>
-              <g-link
-                to="https://business.form-mailer.jp/fms/fda5e149291799"
-                class="online-link"
-              >
-                お問い合わせ / 資料請求
-                <IconBase class="icon" width="25" height="25">
-                  <IconFingerRight />
-                </IconBase>
-              </g-link>
-            </div>
+                <g-link
+                  to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
+                  class="online-link"
+                >
+                  オンライン相談はこちら
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </g-link>
+                <g-link
+                  to="https://business.form-mailer.jp/fms/fda5e149291799"
+                  class="online-link"
+                >
+                  お問い合わせ / 資料請求
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </g-link>
+              </div>
 
-            <!-- <StudyKenchiku /> -->
+              <!-- <StudyKenchiku /> -->
 
-            <!-- <Study
+              <!-- <Study
                 studySlug="other"
                 name1="1級建築施工管理技士"
                 time1="100～400"
@@ -125,7 +124,7 @@
             一般的に、資格試験に向けた学習には継続的な努力と集中力が必要です。自分の学習ペースやスケジュールに合わせて計画を立て、充実した学習環境を整えることが重要です。"
               /> -->
 
-            <!-- <method
+              <!-- <method
               text="① 試験範囲の把握と参考書の選定<br>
                   　建築施工管理技士の試験範囲を確認し、公式の試験要綱やガイドラインを参照して、出題範囲や試験形式を把握しましょう。<br>
                   　信頼性のある参考書を選び、試験に合わせた資料を活用しましょう。<br>
@@ -144,41 +143,42 @@
                   他の受験生との情報交換や質問をすることで学習の効率が上がるでしょう。"
             /> -->
 
-            <!-- <ContactInfo title="受講に関するご相談は" /> -->
+              <!-- <ContactInfo title="受講に関するご相談は" /> -->
 
-            <!-- <Linelink
+              <!-- <Linelink
               text="能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
             /> -->
+            </div>
           </div>
-        </div>
 
-        <!-- 講座情報 -->
-        <div v-show="isActiveTop === 2">
-          <QualityDenkikouji
-            text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
+          <!-- 講座情報 -->
+          <div v-show="isActiveTop === 2">
+            <QualityDenkikouji
+              text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
-            :imagePath_1="
-              require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
-            "
-            text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
+              :imagePath_1="
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+              "
+              text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
-            :imagePath_2="
-              require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
-            "
-            text_3="受講生のライフスタイルに合わせて【通学】または【オンライン】講座を選択可能。どちらも教材や講座内容は同じです。<br>提出いただく経験記述の課題は、講師が個別に添削し、高得点が狙えるよう修正とアドバイスを加えて<strong>最短1日</strong>でお返しいたします。"
-            :imagePath_3="
-              require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
-            "
-          />
+              :imagePath_2="
+                require('../assets/img/license_page/doboku_s/doboku_quality_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合わせて【通学】または【オンライン】講座を選択可能。どちらも教材や講座内容は同じです。<br>提出いただく経験記述の課題は、講師が個別に添削し、高得点が狙えるよう修正とアドバイスを加えて<strong>最短1日</strong>でお返しいたします。"
+              :imagePath_3="
+                require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
+              "
+            />
 
-          <ContactInfo
-            title="受講に関するご相談は<br>
+            <ContactInfo
+              title="受講に関するご相談は<br>
             【お電話】【フォーム】【オンライン】<br>
             お気軽にお問い合わせください。"
-          />
-        </div>
+            />
+          </div>
+        </header>
       </div>
     </Layout>
   </div>
@@ -329,6 +329,9 @@
       tabToggle: function (num) {
         this.isActive = num;
       },
+      tabToggleTop: function (num) {
+        this.isActiveTop = num;
+      },
     },
   };
 </script>
@@ -415,16 +418,16 @@
     }
   }
   .tab:nth-child(1) {
-    &::before {
-      content: url("../assets/img/license_page/icon_pc.svg");
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      margin-right: 0.2em;
-      @media print, screen and (max-width: 1000px) {
-        margin-right: 0;
-      }
-    }
+    // &::before {
+    //   content: url("../assets/img/license_page/icon_pc.svg");
+    //   display: inline-block;
+    //   width: 1em;
+    //   height: 1em;
+    //   margin-right: 0.2em;
+    //   @media print, screen and (max-width: 1000px) {
+    //     margin-right: 0;
+    //   }
+    // }
     .icon {
       @media print, screen and (max-width: 1000px) {
         display: inline;
