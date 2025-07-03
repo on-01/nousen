@@ -67,7 +67,7 @@
 
         <!-- 試験情報 -->
         <div v-show="isActiveTop === 1">
-          <Explanation
+          <!-- <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
             1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められ、技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
@@ -78,10 +78,10 @@
               require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
             "
             altText="建築施工管理技士 講習会 通信講座 web講座"
-          />
+          /> -->
           <div class="bg-lightBlue -pd100">
-            <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" />
-            <TestOverviewKenchiku />
+            <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
+            <!-- <TestOverviewKenchiku /> -->
 
             <div class="exam-link-wrapper -column">
               <!-- <g-link to="/licenses/#kenchiku" class="exam-link">
