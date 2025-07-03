@@ -311,8 +311,8 @@
     padding-bottom: 0;
   }
   .header {
-    background-color: #fff8cc;
-    border-bottom: 5px solid #00a73c;
+    background-color: #fff;
+    // border-bottom: 5px solid #00a73c;
   }
   .exam-link-wrapper {
     text-align: center;
