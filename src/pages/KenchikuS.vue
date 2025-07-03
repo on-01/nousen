@@ -231,7 +231,9 @@
                 </g-link>
               </div>
 
-              <Study
+              <StudyKenchiku />
+
+              <!-- <Study
                 studySlug="other"
                 name1="1級建築施工管理技士"
                 time1="100～400"
@@ -244,7 +246,7 @@
             - 予備知識の学習: 約1ヶ月～2ヶ月程度　　- 本格的な試験対策: 約3ヶ月～6ヶ月程度<br><br>
             勉強時間は、関連する法令や規制、建築技術、施工管理の手法などの学習に加えて、過去の試験問題の解答や模擬試験の受験なども含まれます。また、実務経験や現場での実践的な知識も重要ですので、それらを含めた学習時間を確保する必要があります。<br>
             一般的に、資格試験に向けた学習には継続的な努力と集中力が必要です。自分の学習ペースやスケジュールに合わせて計画を立て、充実した学習環境を整えることが重要です。"
-              />
+              /> -->
 
               <method
                 text="① 試験範囲の把握と参考書の選定<br>
@@ -778,6 +780,7 @@
   import MerumagaKenchiku from "../components/licensePage/MerumagaKenchiku.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+  import StudyKenchiku from "../components/licensePage/StudyKenchiku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -853,6 +856,7 @@
       MerumagaKenchiku,
       TimeCountKenchiku,
       IconFingerRight,
+      StudyKenchiku,
     },
     data() {
       return {
