@@ -168,15 +168,17 @@
               "
               text_3="受講生のライフスタイルに合わせて【通学】または【オンライン】講座を選択可能。どちらも教材や講座内容は同じです。<br>提出いただく経験記述の課題は、講師が個別に添削し、高得点が狙えるよう修正とアドバイスを加えて<strong>最短1日</strong>でお返しいたします。"
               :imagePath_3="
-                require('../assets/img/license_page/doboku_s/doboku_quality_3-1.jpg')
+                require('../assets/img/license_page/doboku_s/doboku_quality_4.jpg')
               "
             />
 
-            <ContactInfo
-              title="受講に関するご相談は<br>
+            <div class="bottom">
+              <ContactInfo
+                title="受講に関するご相談は<br>
             【お電話】【フォーム】【オンライン】<br>
             お気軽にお問い合わせください。"
-            />
+              />
+            </div>
           </div>
         </header>
       </div>
@@ -509,5 +511,9 @@
         margin-top: 10px;
       }
     }
+  }
+
+  .bottom {
+    padding-bottom: 85px;
   }
 </style>

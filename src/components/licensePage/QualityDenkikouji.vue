@@ -33,7 +33,7 @@
               <i class="scroll-animation-item">
                 合格者を多数輩出
                 <br />
-                講師が建築のエキスパート！
+                講師が電気のエキスパート！
               </i>
             </p>
             <p class="quality-line"></p>
@@ -109,6 +109,7 @@
     width: 100%;
     font-family: "メイリオ", sans-serif;
     padding: 20px 0 50px;
+    background-color: #fff7d5;
     // padding: 20px 0 110px;
   }
   .quality-wrap {
