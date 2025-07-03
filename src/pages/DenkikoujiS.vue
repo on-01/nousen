@@ -65,7 +65,7 @@
           </section>
 
           <!-- 試験情報 -->
-          <div v-show="isActiveTop === 1">
+          <div v-show="isActiveTop === 1" class="bottom">
             <!-- <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
@@ -78,7 +78,7 @@
             "
             altText="建築施工管理技士 講習会 通信講座 web講座"
           /> -->
-            <div class="bg-lightBlue -pd100 bottom">
+            <div class="bg-lightBlue -pd100">
               <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
               <!-- <TestOverviewKenchiku /> -->
 
@@ -265,6 +265,7 @@
   import HeroDenkikouji from "../components/HeroDenkikouji.vue";
   import CheerDenkikouji from "../components/licensePage/CheerDenkikouji.vue";
   import QualityDenkikouji from "../components/licensePage/QualityDenkikouji.vue";
+  import Linelink from "../components/licensePage/Linelink.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -314,6 +315,7 @@
       HeroDenkikouji,
       CheerDenkikouji,
       QualityDenkikouji,
+      Linelink,
     },
     data() {
       return {
