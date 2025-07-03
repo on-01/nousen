@@ -2,7 +2,18 @@
   <Layout>
     <div class="denkikoujisekou">
       <header class="header">
-        <Hero
+        <HeroDenkikouji
+          :backImgOver="
+            require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
+          "
+          :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
+          headTitle="令和8年度前期 / 令和8年度後期"
+          title="1・2級電気工事施工管理技士"
+          :icon="
+            require('../assets/img/icon/qualification/denkikoujisekou.svg')
+          "
+        />
+        <!-- <Hero
           :backImgOver="
             require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
           "
@@ -14,7 +25,7 @@
           :icon="
             require('../assets/img/icon/qualification/denkikoujisekou.svg')
           "
-        />
+        /> -->
         <Point
           :points="[
             '＜一次＞1級、2級ともに、合格点獲得に必要な学習項目を解説。',
@@ -214,6 +225,7 @@
   import { INLINES } from "@contentful/rich-text-types";
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
+  import HeroDenkikouji from "../components/HeroDenkikouji.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -260,6 +272,7 @@
       IconDoubleArrowRight,
       IconArrowRight,
       ContactInfo,
+      HeroDenkikouji,
     },
     data() {
       return {
