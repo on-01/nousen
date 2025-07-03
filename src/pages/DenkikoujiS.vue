@@ -78,15 +78,15 @@
             "
             altText="建築施工管理技士 講習会 通信講座 web講座"
           /> -->
-            <div class="bg-lightBlue -pd100">
+            <div class="bg-lightBlue -pd100 bottom">
               <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
               <!-- <TestOverviewKenchiku /> -->
 
-              <div class="exam-link-wrapper -column">
-                <!-- <g-link to="/licenses/#kenchiku" class="exam-link">
+              <!-- <div class="exam-link-wrapper -column">
+                <g-link to="/licenses/#kenchiku" class="exam-link">
                   試験概要はこちら
                   <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link> -->
+                </g-link>
                 <g-link
                   to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
                   class="online-link"
@@ -105,7 +105,7 @@
                     <IconFingerRight />
                   </IconBase>
                 </g-link>
-              </div>
+              </div> -->
 
               <!-- <StudyKenchiku /> -->
 
@@ -143,13 +143,13 @@
                   他の受験生との情報交換や質問をすることで学習の効率が上がるでしょう。"
             /> -->
 
-              <!-- <ContactInfo title="受講に関するご相談は" /> -->
+              <ContactInfo title="受講に関するご相談は" />
 
-              <!-- <Linelink
-              text="能センLINE公式アカウント開設しました。<br>
+              <Linelink
+                text="能センLINE公式アカウント開設しました。<br>
               只今『お友達登録キャンペーン』で500円割引キャンペーンコードをプレゼント！<br>
               期間限定ですのでお早めにご使用ください。（他の割引と併用可）"
-            /> -->
+              />
             </div>
           </div>
 
@@ -515,5 +515,9 @@
 
   .bottom {
     padding-bottom: 85px;
+  }
+
+  .bg-lightBlue {
+    background-color: #fff8cc;
   }
 </style>
