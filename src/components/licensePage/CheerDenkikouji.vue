@@ -11,6 +11,12 @@
         </figure>
       </div>
 
+      <!-- <div class="exam-link-wrapper">
+        <g-link to="/licenses/#denkikoujisekou" class="exam-link">
+          受験資格や試験日の確認はこちら
+          <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+        </g-link>
+      </div> -->
       <!-- <div class="time">
         <div class="time-inner">
           <div class="time-wrapper">
