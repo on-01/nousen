@@ -65,7 +65,7 @@
           </section>
 
           <!-- 試験情報 -->
-          <div v-show="isActiveTop === 1" class="bottom">
+          <div v-show="isActiveTop === 1">
             <!-- <Explanation
             title="建築施工管理技士とは"
             text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
@@ -521,5 +521,6 @@
 
   .bg-lightBlue {
     background-color: #fff8cc;
+    padding-top: 80px;
   }
 </style>
