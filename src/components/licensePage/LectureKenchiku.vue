@@ -38,6 +38,21 @@
           <p class="lecture-line"></p>
           <p class="lecture-bold" v-html="bold"></p>
           <p class="lecture-text">{{ text3 }}</p>
+          <div class="lecture-Wrapper">
+            <p class="lecture-ito">
+              <span>伊東秀紀 先生</span>
+              <br />
+              趣味：スポーツ観戦(小〜高校までサッカーを続けてました)
+              <br />
+              好きな食べ物：そば(特に駅中のそば屋が好きです)
+              <br />
+              <span>【受講生へ一言】</span>
+              <br />
+              如何に効率よく勉強し、端的に説明出来るかを意識して講義に臨んでいます。
+              <br />
+              楽しく、真剣に勉強していきましょう。
+            </p>
+          </div>
         </div>
       </div>
       <!-- <div class="lecture-section -center">
@@ -635,6 +650,15 @@
     }
     .add {
       padding: 0 20px 30px;
+    }
+  }
+
+  .lecture-wrapper {
+    margin-top: 20px;
+  }
+  .lecture-ito {
+    span {
+      font-weight: 700;
     }
   }
 </style>

@@ -26,6 +26,7 @@
     </div>
     <div class="home">
       <section class="section01 hero-inner">
+        <div><img src="../assets/img/front/section01/mv.jpg" alt="" /></div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
             <img
@@ -146,7 +147,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item09" key="item09">
+            <!-- <div class="item item09" key="item09">
               <picture>
                 <source
                   media="(min-width: 1001px)"
@@ -163,7 +164,7 @@
                   alt="電験三種 講習会 通信講座"
                 />
               </picture>
-            </div>
+            </div> -->
           </transition-group>
           <!-- <figure class="top_right">
             <img
@@ -519,6 +520,26 @@
                 <img
                   src="../assets/img/common/public_media_15.png"
                   alt="デリバル"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="public-media-flex -bottom">
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal(
+                    'https://jinjib.co.jp/certification/denken3-osusume'
+                  )
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_16.png"
+                  alt="ジンジブ"
                   class="public-media-flex-image"
                 />
               </a>
@@ -1164,6 +1185,7 @@ query {
   }
   .home {
     margin-bottom: -200px;
+    overflow-x: hidden;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 0;
     }
@@ -1184,8 +1206,8 @@ query {
     display: -ms-grid;
     margin: 0 auto;
     @media print, screen and (min-width: 1001px) {
-      grid-template-columns: 150px 150px 120px 150px 150px;
-      -ms-grid-columns: 150px 150px 100px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px;
+      -ms-grid-columns: 150px 150px 150px 150px;
       grid-template-rows: 200px 200px;
       -ms-grid-rows: 200px 200px;
       grid-gap: 60px 50px; /* 202101 */
@@ -1249,7 +1271,7 @@ query {
   }
   .item02 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 2/3;
+      grid-column: 2/2;
       grid-row: 1/2;
       align-self: end;
       -ms-grid-column: 2;
@@ -1267,10 +1289,10 @@ query {
   }
   .item03 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 4/5;
+      grid-column: 3/4;
       grid-row: 1/2;
       align-self: end;
-      -ms-grid-column: 4;
+      -ms-grid-column: 3;
       -ms-grid-row: 1;
       // opacity: 0.2;
     }
@@ -1285,10 +1307,10 @@ query {
   }
   .item04 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 5/6;
+      grid-column: 4/4;
       grid-row: 1/2;
       align-self: end;
-      -ms-grid-column: 5;
+      -ms-grid-column: 4;
       -ms-grid-row: 1;
     }
     @media print, screen and (max-width: 1000px) {
@@ -1319,7 +1341,7 @@ query {
   }
   .item06 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 2/3;
+      grid-column: 2/2;
       grid-row: 2/3;
       align-self: start;
       -ms-grid-column: 2;
@@ -1336,10 +1358,10 @@ query {
   }
   .item07 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 4/5;
+      grid-column: 3/4;
       grid-row: 2/3;
       align-self: start;
-      -ms-grid-column: 4;
+      -ms-grid-column: 3;
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
@@ -1353,10 +1375,10 @@ query {
   }
   .item08 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 5/6;
+      grid-column: 4/4;
       grid-row: 2/3;
       align-self: start;
-      -ms-grid-column: 5;
+      -ms-grid-column: 4;
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
@@ -2288,6 +2310,10 @@ query {
   .qualification-list-wrapper {
     display: flex;
     align-items: end;
+    margin-top: -4rem;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -8rem;
+    }
   }
   @media print, screen and (max-width: 1300px) {
     .qualification-list-wrapper {

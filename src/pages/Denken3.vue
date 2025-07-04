@@ -220,8 +220,8 @@
             />
 
             <div class="bg-white">
-              <!-- <ExamSupport /> -->
-              <Exam title="最新の予想模擬試験＋ポイント解説" />
+              <ExamSupport />
+              <!-- <Exam title="最新の予想模擬試験＋ポイント解説" /> -->
 
               <!-- <CourseOverview
               title="通 学 講 座"
@@ -857,6 +857,7 @@
     // background-color: #ed6c00;
     // background-color: #ff4500;
     background-color: #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
@@ -1311,6 +1312,7 @@
   .application-link.-blue {
     background-color: #1262b2;
     border: 3px solid #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
   }
 
   .application-link.-mr {
