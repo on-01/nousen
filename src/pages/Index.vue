@@ -1185,6 +1185,7 @@ query {
   }
   .home {
     margin-bottom: -200px;
+    overflow-x: hidden;
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 0;
     }
