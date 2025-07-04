@@ -524,7 +524,7 @@
               </a>
             </figure>
           </div>
-          <div class="public-media-flex">
+          <div class="public-media-flex -bottom">
             <figure>
               <a
                 href="#"
