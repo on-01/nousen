@@ -26,7 +26,9 @@
     </div>
     <div class="home">
       <section class="section01 hero-inner">
-        <div><img src="../assets/img/front/section01/mv.jpg" alt="" /></div>
+        <div class="top-mv">
+          <img src="../assets/img/front/section01/mv.jpg" alt="" />
+        </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
             <img
@@ -1125,6 +1127,12 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .top-mv {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
   .reason-link {
     display: block;
     text-align: center;
