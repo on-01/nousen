@@ -28,14 +28,19 @@
       text-align: center;
       position: absolute;
       font-size: 12px;
-      left: 192px;
+      left: 200px;
       top: 3rem;
       width: 300px;
       display: block;
+      outline: 1px solid rgb(255, 255, 255);
+      outline-offset: -4px;
     }
     @media print, screen and(min-width: 1660px) {
-      width: 470px;
+      width: 450px;
       top: 2rem;
+      left: 210px;
+      outline: 1px solid rgb(255, 255, 255);
+      outline-offset: -6px;
     }
     & p {
       margin: 0;
@@ -46,7 +51,7 @@
         font-size: 16px;
       }
       @media print, screen and(min-width: 1660px) {
-        font-size: 24px;
+        font-size: 23px;
       }
     }
   }
