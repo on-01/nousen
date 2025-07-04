@@ -2309,7 +2309,10 @@ query {
   .qualification-list-wrapper {
     display: flex;
     align-items: end;
-    margin-top: -8rem;
+    margin-top: -4rem;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -8rem;
+    }
   }
   @media print, screen and (max-width: 1300px) {
     .qualification-list-wrapper {
