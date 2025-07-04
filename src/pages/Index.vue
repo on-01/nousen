@@ -524,6 +524,26 @@
               </a>
             </figure>
           </div>
+          <div class="public-media-flex">
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal(
+                    'https://jinjib.co.jp/certification/denken3-osusume'
+                  )
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_16.png"
+                  alt="ジンジブ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
         </div>
       </section>
 
