@@ -26,6 +26,7 @@
     </div>
     <div class="home">
       <section class="section01 hero-inner">
+        <div><img src="../assets/img/front/section01/mv.jpg" alt="" /></div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
             <img
@@ -146,7 +147,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item09" key="item09">
+            <!-- <div class="item item09" key="item09">
               <picture>
                 <source
                   media="(min-width: 1001px)"
@@ -163,7 +164,7 @@
                   alt="電験三種 講習会 通信講座"
                 />
               </picture>
-            </div>
+            </div> -->
           </transition-group>
           <!-- <figure class="top_right">
             <img
@@ -1204,8 +1205,8 @@ query {
     display: -ms-grid;
     margin: 0 auto;
     @media print, screen and (min-width: 1001px) {
-      grid-template-columns: 150px 150px 120px 150px 150px;
-      -ms-grid-columns: 150px 150px 100px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px;
+      -ms-grid-columns: 150px 150px 150px 150px;
       grid-template-rows: 200px 200px;
       -ms-grid-rows: 200px 200px;
       grid-gap: 60px 50px; /* 202101 */
