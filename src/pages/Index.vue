@@ -1206,7 +1206,7 @@ query {
       padding-bottom: 80px;
     }
     @media print, screen and (max-width: 1000px) {
-      padding-top: 110px;
+      padding-top: 105px;
     }
   }
   .qualification-list-wrap {
