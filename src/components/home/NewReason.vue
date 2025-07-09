@@ -21,7 +21,7 @@
           </i>
         </p>
       </div>
-      <div class="index-boxContent">
+      <!-- <div class="index-boxContent">
         <p class="boxContent-bold">スーパー講師陣が合格支援</p>
         <p>
           講師の全員が、建設・電気・設備等、現場で
@@ -37,7 +37,7 @@
           <br />
           それが、合格への近道です！
         </p>
-      </div>
+      </div> -->
     </div>
     <!-- 2 -->
     <div class="index-content -second">
@@ -61,7 +61,7 @@
         </p>
       </div>
 
-      <div class="index-boxContent -center">
+      <!-- <div class="index-boxContent -center">
         <figure class="index-textImg">
           <img
             src="../../assets/img/front/section05_title1.svg"
@@ -80,8 +80,8 @@
           <br />
           自主的に勉強が始められない・・・という方は是非！
         </p>
-      </div>
-      <div class="index-boxContent -center">
+      </div> -->
+      <!-- <div class="index-boxContent -center">
         <figure class="index-textImg -bottom">
           <img
             src="../../assets/img/front/section05_title2.svg"
@@ -95,7 +95,7 @@
           <br />
           短時間でも学習でき、時間をおいて続きから、学びたい項目だけ視聴できます。
         </p>
-      </div>
+      </div> -->
     </div>
     <!-- 3 -->
     <div class="index-content -third">
@@ -121,7 +121,7 @@
         </p>
       </div>
 
-      <div class="index-boxContent">
+      <!-- <div class="index-boxContent">
         <p>
           <span class="boxContent-bold -right">受講生の皆さまへ</span>
           <br />
@@ -135,7 +135,7 @@
           <br />
           能セン事務局 一同
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
