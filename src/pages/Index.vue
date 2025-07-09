@@ -229,10 +229,12 @@
       </div>
 
       <section class="voice">
-        <img
-          src="../assets/img/front/voice-img.jpg"
-          alt="電験三種 講習会 通信講座"
-        />
+        <div class="voice-image">
+          <img
+            src="../assets/img/front/voice-img.jpg"
+            alt="電験三種 講習会 通信講座"
+          />
+        </div>
         <!-- <div class="voice-inner">
           <div class="voice-content">
             <p class="voice-head">＼ アンケートによる受講生満足度９７％ ／</p>
@@ -2484,6 +2486,11 @@ query {
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 65px;
     }
+  }
+
+  .voice-image {
+    max-width: 1250px;
+    margin: 0 auto;
   }
   .voice-inner {
     max-width: 1090px;
