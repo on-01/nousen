@@ -544,6 +544,22 @@
                 />
               </a>
             </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal('https://gooschool.jp/online/denken-tsushin/')
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_17.jpg"
+                  alt="グッドスクール"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
           </div>
         </div>
       </section>
