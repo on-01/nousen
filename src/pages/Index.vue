@@ -3,9 +3,7 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 電験三種【法規】【模擬試験】講習会
-          <br />
-          7/5(土)・7/6(日) 東京会場【受付中】
+          2級施工管理技士 受験願書サービス期間中！！
         </p>
         <img
           class="fixed-note-icon"
