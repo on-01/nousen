@@ -229,7 +229,7 @@
       </div>
 
       <section class="voice">
-        <div class="voice-inner">
+        <!-- <div class="voice-inner">
           <div class="voice-content">
             <p class="voice-head">＼ アンケートによる受講生満足度９７％ ／</p>
             <h3 class="voice-title">受講生の声</h3>
@@ -302,7 +302,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <section class="section03">
         <div class="public-media">
