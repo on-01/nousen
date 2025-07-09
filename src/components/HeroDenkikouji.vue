@@ -25,15 +25,11 @@
         確かな成果を、確実に
       </p>
       <!-- <p v-if="subTitle" class="sub-title" v-html="subTitle"></p> -->
-      <p class="sub-title">
-        <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
-        | -->
+      <!-- <p class="sub-title">
         <a href="https://nousen.blog/tugaku-d/">通学講座</a>
         |
         <a href="https://doboku-online.nouryoku.com/">オンライン講座</a>
-        <!-- |
-        <a href="https://t.kouza.nouryoku.com/">通信講座</a> -->
-      </p>
+      </p> -->
     </div>
   </section>
 </template>
@@ -120,12 +116,12 @@
     padding: 1em 65px;
     border: 6px solid #00a73c;
     @media print, screen and (max-width: 1000px) {
-      padding: 1em 62px;
+      padding: 3.38em 62px;
     }
     .title {
       margin: 0;
       letter-spacing: 0.1em;
-      font-size: 29px;
+      font-size: 24px;
       font-family: "メイリオ", sans-serif;
       text-align: center;
       @media print, screen and (max-width: 1000px) {
