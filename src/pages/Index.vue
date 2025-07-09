@@ -229,6 +229,10 @@
       </div>
 
       <section class="voice">
+        <img
+          src="../assets/img/front/voice-img.jpg"
+          alt="電験三種 講習会 通信講座"
+        />
         <!-- <div class="voice-inner">
           <div class="voice-content">
             <p class="voice-head">＼ アンケートによる受講生満足度９７％ ／</p>
