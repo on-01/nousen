@@ -3,9 +3,7 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 電験三種【法規】【模擬試験】講習会
-          <br />
-          7/5(土)・7/6(日) 東京会場【受付中】
+          2級施工管理技士 受験願書サービス期間中！！
         </p>
         <img
           class="fixed-note-icon"
@@ -231,7 +229,13 @@
       </div>
 
       <section class="voice">
-        <div class="voice-inner">
+        <div class="voice-image">
+          <img
+            src="../assets/img/front/voice-img.jpg"
+            alt="電験三種 講習会 通信講座"
+          />
+        </div>
+        <!-- <div class="voice-inner">
           <div class="voice-content">
             <p class="voice-head">＼ アンケートによる受講生満足度９７％ ／</p>
             <h3 class="voice-title">受講生の声</h3>
@@ -304,7 +308,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <section class="section03">
         <div class="public-media">
@@ -542,6 +546,22 @@
                 <img
                   src="../assets/img/common/public_media_16.png"
                   alt="ジンジブ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal('https://gooschool.jp/online/denken-tsushin/')
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_17.jpg"
+                  alt="グッドスクール"
                   class="public-media-flex-image"
                 />
               </a>
@@ -1131,6 +1151,11 @@ query {
     img {
       width: 100%;
       object-fit: cover;
+      @media print, screen and (min-width: 1441px) {
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+      }
     }
   }
   .reason-link {
@@ -2461,6 +2486,11 @@ query {
     @media print, screen and (max-width: 1000px) {
       margin-bottom: 65px;
     }
+  }
+
+  .voice-image {
+    max-width: 1250px;
+    margin: 0 auto;
   }
   .voice-inner {
     max-width: 1090px;

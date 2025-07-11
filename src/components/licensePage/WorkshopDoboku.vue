@@ -1440,7 +1440,7 @@
     text-align: center;
     color: #000;
     // border: 2px solid #1da1f2;
-    padding: 8px 0;
+    padding: 16px 0;
     margin: 0 0 30px;
     background: #1262b2;
     color: #ffffff;

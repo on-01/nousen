@@ -55,19 +55,21 @@ query News {
 </script>
 <style lang="scss" scoped>
   .news-wrapper {
-    // max-width: 860px;
-    // max-width: 800px;
-    max-width: 725px;
+    max-width: 920px;
     border-top: 5px solid #3b241a;
     border-bottom: 5px solid #3b241a;
     // height: 536px;
     // height: 500px;
-    height: 435px;
+    height: 370px;
     overflow-y: scroll;
     margin: 0 auto;
     position: relative;
     background-color: #fff;
     font-family: メイリオ, sans-serif;
+    @media print, screen and (max-width: 1000px) {
+      max-width: 725px;
+      height: 435px;
+    }
   }
   .section-title {
     text-align: center;

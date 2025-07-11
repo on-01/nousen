@@ -237,6 +237,7 @@
   .reason-more-inner {
     border-radius: 10px;
     background-color: #005f99;
+    box-shadow: rgba(0, 47, 77, 0.3) 4px 4px 10px;
     display: block;
     color: #fff;
     text-align: center;
