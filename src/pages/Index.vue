@@ -2257,7 +2257,7 @@ query {
     transform: translateX(-50%);
     box-shadow: 5px 5px 10px rgba(#000000, 0.3);
     background-color: #fff;
-    border: 4px solid #1262b2;
+    border: 4px solid #ed6c00;
     border-radius: 12px;
     transition: all 0.2s ease;
 
