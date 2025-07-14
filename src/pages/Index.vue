@@ -2455,11 +2455,11 @@ query {
       margin: 0;
     }
     .public-media-flex figure {
-      width: 100%;
+      width: 50%;
       margin: 12px 0;
     }
     .public-media-flex-image {
-      width: 40%;
+      width: 80%;
       display: block;
       margin: auto;
     }
@@ -2468,7 +2468,7 @@ query {
       transform: none;
     }
     .public-media-flex-image.-type2 {
-      width: 40%;
+      width: 80%;
       display: block;
       margin: auto;
     }
