@@ -172,6 +172,8 @@
               "
             />
 
+            <WorkshopDenkikouji />
+
             <div class="bottom">
               <ContactInfo
                 title="受講に関するご相談は<br>
@@ -266,6 +268,7 @@
   import CheerDenkikouji from "../components/licensePage/CheerDenkikouji.vue";
   import QualityDenkikouji from "../components/licensePage/QualityDenkikouji.vue";
   import Linelink from "../components/licensePage/Linelink.vue";
+  import WorkshopDenkikouji from "../components/licensePage/WorkshopDenkikouji.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -316,6 +319,7 @@
       CheerDenkikouji,
       QualityDenkikouji,
       Linelink,
+      WorkshopDenkikouji,
     },
     data() {
       return {
