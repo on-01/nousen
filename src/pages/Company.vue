@@ -11,7 +11,7 @@
         <img src="../assets/img/company/company_message3.jpg" />
       </figure>
       <figure class="company-image">
-        <img src="../assets/img/company/company_message4.jpg" />
+        <img src="../assets/img/company/company_message4.png" />
       </figure>
 
       <div class="contents">
