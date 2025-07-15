@@ -3,7 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          2級施工管理技士 受験願書サービス期間中！！
+        🔔 電験三種CBT試験スタート！
+          <br>
+        受験される皆さま、最後まであきらめずに頑張ってください！
         </p>
         <img
           class="fixed-note-icon"
@@ -562,6 +564,22 @@
                 <img
                   src="../assets/img/common/public_media_17.jpg"
                   alt="グッドスクール"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal('https://www.best-shingaku.net/etc/school20441/')
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_18.jpg"
+                  alt="ベスト進学ネット"
                   class="public-media-flex-image"
                 />
               </a>
