@@ -662,13 +662,13 @@ query {
   }
 
   .company-image {
-    max-width: 770px;
+    max-width: 970px;
     margin: 0 auto;
   }
   .company-image img {
     margin: 40px auto 0;
     display: block;
-    width: 90%;
+    width: 100%;
 
     @media print, screen and (max-width: 768px) {
       width: 100%;
