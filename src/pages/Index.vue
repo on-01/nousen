@@ -2442,6 +2442,7 @@ query {
     width: 75%;
     @media print, screen and (max-width: 800px) {
       margin: 0 auto;
+
       width: 100%;
     }
   }
