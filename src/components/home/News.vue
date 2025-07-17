@@ -6,10 +6,10 @@
       v-for="(item, index) in $static.allContentfulNewsPost.edges"
       :key="index"
     >
-      <span class="news-date">
+      <!-- <span class="news-date">
         {{ item.node.date }}
         <br />
-      </span>
+      </span> -->
       <div class="news-content" v-html="richtextToHTML(item.node.article)" />
     </article>
   </div>

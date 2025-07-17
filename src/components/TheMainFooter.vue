@@ -14,7 +14,7 @@
               />
             </div>
             <div class="logo-text">
-              <p class="logo-text_logo">株式会社ＮＯＵＳＥＮ</p>
+              <p class="logo-text_logo">資格合格支援スクール【能セン】</p>
               <a
                 href="https://jeea.or.jp/?_fsi=18qTQM4E"
                 target="_blank"
@@ -235,7 +235,7 @@
         margin-top: 1.5em;
 
         &_logo {
-          font-size: 15px;
+          font-size: 13px;
           margin: 0;
           font-weight: bold;
           // font-family: "メイリオ", sans-serif;

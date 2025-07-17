@@ -3,7 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          2級施工管理技士 受験願書サービス期間中！！
+        🔔 電験三種CBT試験スタート！
+          <br>
+        受験される皆さま、最後まであきらめずに頑張ってください！
         </p>
         <img
           class="fixed-note-icon"
@@ -562,6 +564,22 @@
                 <img
                   src="../assets/img/common/public_media_17.jpg"
                   alt="グッドスクール"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal('https://www.best-shingaku.net/etc/school20441/')
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_18.jpg"
+                  alt="ベスト進学ネット"
                   class="public-media-flex-image"
                 />
               </a>
@@ -2257,7 +2275,7 @@ query {
     transform: translateX(-50%);
     box-shadow: 5px 5px 10px rgba(#000000, 0.3);
     background-color: #fff;
-    border: 4px solid #1262b2;
+    border: 4px solid #ed6c00;
     border-radius: 12px;
     transition: all 0.2s ease;
 
@@ -2455,11 +2473,11 @@ query {
       margin: 0;
     }
     .public-media-flex figure {
-      width: 100%;
+      width: 50%;
       margin: 12px 0;
     }
     .public-media-flex-image {
-      width: 40%;
+      width: 80%;
       display: block;
       margin: auto;
     }
@@ -2468,7 +2486,7 @@ query {
       transform: none;
     }
     .public-media-flex-image.-type2 {
-      width: 40%;
+      width: 80%;
       display: block;
       margin: auto;
     }

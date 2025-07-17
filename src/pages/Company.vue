@@ -8,11 +8,14 @@
       />
 
       <figure class="company-image">
-        <img src="../assets/img/company/company_message2.jpg" />
+        <img src="../assets/img/company/company_message3.jpg" />
+      </figure>
+      <figure class="company-image">
+        <img src="../assets/img/company/company_message4.png" />
       </figure>
 
       <div class="contents">
-        <section class="greeting section">
+        <!-- <section class="greeting section">
           <h3 class="section-title">代表者ご挨拶</h3>
           <p class="section-text">
             私自身、これまでに数多くの資格やライセンスを取得してまいりました。
@@ -34,8 +37,8 @@
               alt="代表　中村 信明"
             />
           </p>
-        </section>
-        <section class="outline section">
+        </section> -->
+        <!-- <section class="outline section">
           <h3 class="section-title">経営理念</h3>
           <p class="section-text -bold">
             どこよりも『合格』を提供し、
@@ -44,7 +47,7 @@
             <br />
             何よりも明るい未来を創造する。
           </p>
-        </section>
+        </section> -->
         <section class="info section">
           <h3 class="section-title">企業情報</h3>
           <div class="content">
@@ -659,13 +662,13 @@ query {
   }
 
   .company-image {
-    max-width: 770px;
+    max-width: 970px;
     margin: 0 auto;
   }
   .company-image img {
     margin: 40px auto 0;
     display: block;
-    width: 90%;
+    width: 100%;
 
     @media print, screen and (max-width: 768px) {
       width: 100%;
