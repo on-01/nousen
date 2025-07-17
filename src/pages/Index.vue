@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-        🔔 電験三種CBT試験スタート！
-          <br>
-        受験される皆さま、最後まであきらめずに頑張ってください！
+          🔔 電験三種CBT試験スタート！
+          <br />
+          受験される皆さま、最後まであきらめずに頑張ってください！
         </p>
         <img
           class="fixed-note-icon"
@@ -2442,6 +2442,7 @@ query {
     width: 75%;
     @media print, screen and (max-width: 800px) {
       margin: 0 auto;
+      width: 100%;
     }
   }
   .public-media-flex figure {
