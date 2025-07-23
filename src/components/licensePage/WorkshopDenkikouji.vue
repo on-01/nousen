@@ -183,7 +183,7 @@
       ※受検種別に関しましては『土木』を対象にした講習になります。
       <br />
       『鋼構造物塗装』および『薬液注入』に関する質問には対応可能です。
-    </p>
+    </p> -->
 
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
@@ -191,25 +191,22 @@
       能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
       <br />
       撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
-    </p> -->
+    </p>
 
-    <!-- <div class="bg-white_type2">
+    <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
-          <g-link to="/doboku-s-application" class="application-form-link">
+          <p to="/doboku-s-application" class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link
-            to="/doboku-s-application-business"
-            class="application-form-link"
-          >
+          </p>
+          <p to="/doboku-s-application-business" class="application-form-link">
             お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
+          </p>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- 
     <p class="workshop-title -bottom">
       ２級土木施工管理技士 オンライン通信講座(WEB講座)
