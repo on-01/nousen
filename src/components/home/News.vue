@@ -89,6 +89,9 @@ query News {
       font-size: 20px;
     }
   }
+  .news-content p {
+    font-size: 15px;
+  }
   .news-content::v-deep p:first-child {
     margin-top: 0;
   }
