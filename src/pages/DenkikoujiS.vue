@@ -19,7 +19,7 @@
               建設業で働く皆さまを<br>
               応援します！"
             :imagePath="
-              require('../assets/img/license_page/denkikouji_s/denkikouji_s_cheer.png')
+              require('../assets/img/license_page/denkikouji_s/denkikouji_s_cheer.jpg')
             "
             altText="電気工事施工管理技士 講習会 通信講座 web講座"
           />

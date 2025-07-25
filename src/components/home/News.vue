@@ -89,6 +89,12 @@ query News {
       font-size: 20px;
     }
   }
+  .news-content::v-deep p {
+    font-size: 15px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
+  }
   .news-content::v-deep p:first-child {
     margin-top: 0;
   }

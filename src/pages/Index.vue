@@ -71,7 +71,7 @@
               </div>
             </div> -->
             <div class="item item02 denkikoujisekou" key="item07">
-              <g-link>
+              <g-link to="/denkikouji-s">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1・2級

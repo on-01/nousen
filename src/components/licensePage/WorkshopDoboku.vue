@@ -635,6 +635,10 @@
                 　内容：添削1回＋二次試験対応テキスト
                 <br />
                 土木・鋼構造物塗装・薬液注入の全種別対応
+                <br />
+                ※🎓
+                <span>GO!資格 合格応援制度</span>
+                は対象外になります
               </p>
             </div>
           </div>
@@ -1409,6 +1413,9 @@
     text-align: center;
     @media print, screen and (max-width: 768px) {
       text-align: left;
+    }
+    span {
+      font-weight: 700;
     }
   }
 

@@ -88,7 +88,7 @@
       </div> -->
     </div>
 
-        <div class="exam">
+    <div class="exam">
       <p class="exam-title">📚 合格サポートプログラム</p>
       <div class="exam-inner">
         <p class="exam-topHead">🟦 合格サポートプログラムとは？</p>
@@ -778,7 +778,7 @@
       font-weight: 700;
     }
   }
-    .exam {
+  .exam {
     background-color: #fff;
     margin: 50px auto 0;
     z-index: 0;
@@ -787,7 +787,7 @@
   }
   .exam-inner {
     max-width: 1110px;
-    padding: 30px 30px;
+    padding: 30px 30px 0;
     margin: 0 auto;
     @media print, screen and (max-width: 1000px) {
       padding-left: 20px;
@@ -813,7 +813,7 @@
     font-size: 18px;
   }
   .exam-topText {
-    margin: 0 0 50px;
+    margin: 0;
     line-height: 1.5;
   }
 
