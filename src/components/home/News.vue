@@ -102,6 +102,6 @@ query News {
     text-decoration: underline;
   }
   .news-content::v-deep b:first-child {
-    font-size: 16px;
+    font-size: 17px;
   }
 </style>
