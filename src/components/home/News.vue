@@ -49,10 +49,11 @@ query News {
           .replace(/\n/g, `</br>`)
           .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
 
-        // ■で始まる<b>を含む<p>タグに .news-title クラスを追加
+        // --- タイトル検出処理 ---
+        // 「<b>■○○○</b>」だけを検出して span に置き換え（囲む段落は触らない）
         html = html.replace(
-          /<p><b>■(.*?)<\/b>/g,
-          '<p class="news-title"><b>■$1</b>'
+          /<b>■(.*?)<\/b>/g,
+          '<span class="news-title">■$1</span>'
         );
 
         return html;
@@ -113,15 +114,15 @@ query News {
     text-decoration: underline;
   }
 
-  // ✅ タイトル用クラス
   .news-content::v-deep .news-title {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    display: block;
+    margin: 1.5em 0 0.5em;
     color: #000;
+
     @media print, screen and (max-width: 1000px) {
-      font-size: 17px;
+      font-size: 16px;
     }
   }
 </style>
