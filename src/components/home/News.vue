@@ -101,4 +101,7 @@ query News {
   .news-content::v-deep a {
     text-decoration: underline;
   }
+  .news-content::v-deep b:first-child {
+    font-size: 16px;
+  }
 </style>
