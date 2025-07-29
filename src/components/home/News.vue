@@ -115,7 +115,7 @@ query News {
   }
 
   .news-content::v-deep .news-title {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     display: block;
     margin: 1.5em 0 0.5em;
