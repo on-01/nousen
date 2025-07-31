@@ -33,8 +33,8 @@ query News {
 <script>
   import { INLINES } from "@contentful/rich-text-types";
   import { documentToHtmlString } from "../../../node_modules/@contentful/rich-text-html-renderer";
+
   const options = {
-    //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
       [INLINES.ASSET_HYPERLINK]: (node) =>
         `<a href="${node.data.target.fields.file.url}">${node.content[0].value}</a>`,
@@ -45,21 +45,28 @@ query News {
     name: "news",
     methods: {
       richtextToHTML(content) {
-        const richtextString = documentToHtmlString(content, options)
+        let html = documentToHtmlString(content, options)
           .replace(/\n/g, `</br>`)
           .replace(/<a((?: .+?))?>(.*?)<\/a>/g, '<a $1 target="_blank">$2</a>');
-        return richtextString;
+
+        // --- タイトル検出処理 ---
+        // 「<b>■○○○</b>」だけを検出して span に置き換え（囲む段落は触らない）
+        html = html.replace(
+          /<b>■(.*?)<\/b>/g,
+          '<span class="news-title">■$1</span>'
+        );
+
+        return html;
       },
     },
   };
 </script>
+
 <style lang="scss" scoped>
   .news-wrapper {
     max-width: 920px;
     border-top: 5px solid #3b241a;
     border-bottom: 5px solid #3b241a;
-    // height: 536px;
-    // height: 500px;
     height: 370px;
     overflow-y: scroll;
     margin: 0 auto;
@@ -71,15 +78,17 @@ query News {
       height: 435px;
     }
   }
+
   .section-title {
     text-align: center;
-    // margin-top: 50px;
     margin-top: 25px;
     font-size: 1.17em;
   }
+
   .news-article {
     margin: 30px;
   }
+
   .news-date {
     font-weight: bold;
     color: #f4891e;
@@ -89,16 +98,31 @@ query News {
       font-size: 20px;
     }
   }
+
   .news-content::v-deep p {
     font-size: 15px;
     @media print, screen and (max-width: 1000px) {
       font-size: 16px;
     }
   }
+
   .news-content::v-deep p:first-child {
     margin-top: 0;
   }
+
   .news-content::v-deep a {
     text-decoration: underline;
+  }
+
+  .news-content::v-deep .news-title {
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin: 1.5em 0 0.5em;
+    color: #000;
+
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+    }
   }
 </style>
