@@ -430,7 +430,7 @@
                 </div>
               </section>
 
-              <CampaignDenken3 date="３月１５日（金）" />
+              <!-- <CampaignDenken3 date="３月１５日（金）" /> -->
 
               <Discount title="🎓 GO!資格 合格応援制度 START！" />
 
@@ -1115,6 +1115,11 @@
     background-color: #ebf7ff;
     width: 100%;
     padding: 40px 0;
+    margin-bottom: 60px;
+
+    @media print, screen and (max-width: 1170px) {
+      margin-bottom: 20px;
+    }
   }
   .voice-inner {
     max-width: 1090px;
