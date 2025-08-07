@@ -207,16 +207,16 @@
         </div>
       </div>
     </div>
-    <!-- 
+
     <p class="workshop-title -bottom">
-      ２級土木施工管理技士 オンライン通信講座(WEB講座)
+      ２級電気工事施工管理技士 オンライン通信講座(WEB講座)
     </p>
     <div class="workshop-flex-img">
       <div>
         <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
         <img
           class="flex-img"
-          src="../../assets/img/license_page/doboku_s/doboku-pc2.jpg"
+          src="../../assets/img/license_page/denkikouji_s/denkikouji-pc.png"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
@@ -224,12 +224,12 @@
         <p class="workshop-flex-text">電車の中でもスマホで勉強</p>
         <img
           class="flex-img -right"
-          src="../../assets/img/license_page/doboku_s/doboku-sp2.jpg"
+          src="../../assets/img/license_page/denkikouji_s/denkikouji-sp.png"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
-    </div> -->
-    <!-- <p class="workshop-top">
+    </div>
+    <p class="workshop-top">
       能センがおすすめするオンライン通信講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
       高性能な動画配信プラットフォームを使い、最新動画をPCやスマホから何回でも視聴可能！
@@ -243,16 +243,16 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <p class="workshop-text -third">
-            5月2日(金)～12月31日(水)まで
-            <span>【受付中】</span>
+            準備中
+            <!-- <span>【受付中】</span> -->
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text -first">二次コース(約5.5時間)</p>
           <div class="workshop-text -third">
             <p class="workshop-border -none">
-              9月17日(水)～12月31日(水)まで
-              <span>【受付中】</span>
+              準備中
+              <!-- <span>【受付中】</span> -->
             </p>
           </div>
         </div>
@@ -287,7 +287,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- <img
       class="hayaben"
       src="../../assets/img/license_page/doboku_s/hayaben.jpg"
@@ -329,7 +329,7 @@
       <span>配信終了日まで何回でも視聴可能です。</span>
     </p> -->
 
-    <!-- <div class="workshop-orangeLine">
+    <div class="workshop-orangeLine">
       <div class="workshop-orangeLine__inner">
         <img
           class="workshop-orangeLine__icon"
@@ -412,21 +412,28 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
-          <g-link to="/doboku-s-application" class="application-form-link">
+          <div class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link
+          </div>
+          <!-- <g-link to="/doboku-s-application" class="application-form-link">
+            お申込みはこちら（個人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </g-link> -->
+          <div class="application-form-link">
+            お申込みはこちら（法人）
+            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+          </div>
+          <!-- <g-link
             to="/doboku-s-application-business"
             class="application-form-link"
           >
             お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
+          </g-link> -->
         </div>
-
       </div>
-    </div> -->
+    </div>
     <!-- <div class="add">
       <div class="add-wrapper">
         <p class="add-title">学習内容</p>

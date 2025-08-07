@@ -20,9 +20,9 @@
             </a>
           </figure>
           <figure class="lecture-book-image">
-            <a href="https://www.ohmsha.co.jp/book/9784274506307/">
+            <div>
               <g-image :src="imageBook2" :alt="altBook2" />
-            </a>
+            </div>
           </figure>
           <figure class="lecture-book-image">
             <a href="https://www.denkishoin.co.jp/products/view/1315">
