@@ -41,9 +41,13 @@
             <div class="follow-textWrap">
               <p class="follow-heading">②&nbsp;リマインダーメールサービス</p>
               <p class="follow-text -under">
-                <span>・試験の90日・60日・30日・10日前に進捗状況をサポートするメール配信</span>
+                <span>
+                  ・試験の90日・60日・30日・10日前に進捗状況をサポートするメール配信
+                </span>
                 <br />
-                <span>・【受験申請時期】も自動でお知らせ（申込み忘れを防止）</span>
+                <span>
+                  ・【受験申請時期】も自動でお知らせ（申込み忘れを防止）
+                </span>
                 <br />
                 各時点での勉強の進め方や目標達成のポイントをお伝えし、試験準備をしっかりサポート！
                 <br />
@@ -80,6 +84,46 @@
                 <br />
                 疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
               </p>
+            </div>
+          </div>
+          <div class="follow-bottom">
+            <p class="follow-bottom-title">
+              オンラインサポートサービス【能センサポ】
+            </p>
+            <img
+              class="follow-bottom-img"
+              src="../../assets/img/license_page/denken3/follow-bottom.png"
+              alt="電験三種 第三種電気主任技術者"
+            />
+            <div class="workshop-orangeLine">
+              <div class="workshop-orangeLine__inner">
+                <img
+                  class="workshop-orangeLine__icon"
+                  src="../../assets/img/icon/note.svg"
+                />
+                <p class="workshop-orangeLine__heading">
+                  オンラインサポートサービス【能センサポ】とは？
+                </p>
+                <p class="workshop-orangeLine__text">
+                  能センサポは、オンラインで講師に直接質問できる
+                  あなた専用の家庭教師サービス です。
+                  <br />
+                  回数無制限で質問でき、追加料金は一切不要。
+                  <br />
+                  予約もとっても簡単。専用ページから日時を選ぶだけで、
+                  <br />
+                  GoogleカレンダーやOutlookと自動連携し、スケジュール管理もスムーズ。
+                  <br />
+                  <br />
+                  予約時間になれば、担当講師と1対1でつながり、疑問をその場でスッキリ解決。
+                  <br />
+                  「聞きたいけど誰にも聞けない…」そんな不安はもう必要ありません。
+                  <br />
+                  ひとりで悩まない、いつでも頼れる存在。
+                  <br />
+                  それが、オンライン家庭教師サービス【能センサポ】です。
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -209,6 +253,60 @@
     span {
       font-weight: 500;
       text-decoration: underline;
+    }
+  }
+
+  .workshop-orangeLine {
+    padding: 0 30px;
+  }
+
+  .workshop-orangeLine.-gansho {
+    padding: 0 0 40px;
+  }
+
+  .workshop-orangeLine__inner {
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid #f4891e;
+    border-radius: 12px;
+    max-width: 652px;
+    // min-width: 652px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    // @media print, screen and (max-width: 1000px) {
+    //   margin-top: 0;
+    // }
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: -20px;
+    top: -18px;
+    width: 54px;
+  }
+
+  .workshop-orangeLine__heading {
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+
+  .workshop-orangeLine__text {
+    margin: 10px 0 0;
+    line-height: 1.7;
+    text-align: center;
+    @media print, screen and (max-width: 768px) {
+      text-align: left;
+    }
+    span {
+      font-weight: 700;
     }
   }
 </style>
