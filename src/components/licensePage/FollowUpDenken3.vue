@@ -88,7 +88,7 @@
           </div>
           <div class="follow-bottom">
             <p class="follow-bottom-title">
-              オンラインサポートサービス【能センサポ】
+              ④オンラインサポートサービス【能センサポ】
             </p>
             <img
               class="follow-bottom-img"
@@ -256,6 +256,30 @@
     }
   }
 
+  .follow-bottom {
+    margin-top: 40px;
+  }
+
+  .follow-bottom-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    background-color: #1262b2;
+    padding: 5px 0;
+    max-width: 940px;
+  }
+
+  .follow-bottom-img {
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 60%;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
+  }
+
   .workshop-orangeLine {
     padding: 0 30px;
   }
@@ -294,14 +318,14 @@
 
   .workshop-orangeLine__heading {
     font-weight: 700;
-    text-align: center;
+    text-align: left;
     margin: 0;
   }
 
   .workshop-orangeLine__text {
     margin: 10px 0 0;
     line-height: 1.7;
-    text-align: center;
+    text-align: left;
     @media print, screen and (max-width: 768px) {
       text-align: left;
     }
