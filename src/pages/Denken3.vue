@@ -34,7 +34,21 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              講座情報
+              通学講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 3 }]"
+              v-on:click="tabToggleTop(3)"
+            >
+              オンライン講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 4 }]"
+              v-on:click="tabToggleTop(4)"
+            >
+              通信講座
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
@@ -154,7 +168,7 @@
             </div>
           </div>
 
-          <!-- 講座情報 -->
+          <!-- 通学講座 -->
           <div v-show="isActiveTop === 2">
             <quality
               text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
@@ -461,38 +475,8 @@
                 </figure>
               </div>
             </div>
-          </div>
-        </header>
 
-        <div v-show="isActiveTop === 2">
-          <section class="tab-wrapper">
-            <div
-              :class="['tab', { active: isActive === 1 }]"
-              v-on:click="tabToggle(1)"
-            >
-              オンライン
-              <br class="underdisplay" />
-              講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-            <div
-              :class="['tab', { active: isActive === 2 }]"
-              v-on:click="tabToggle(2)"
-            >
-              通学講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-            <div
-              :class="['tab', { active: isActive === 3 }]"
-              v-on:click="tabToggle(3)"
-            >
-              通信講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-          </section>
-          <div class="body">
-            <div v-show="isActive === 2">
-              <!-- <h3 class="body-title">通学講座</h3> -->
+            <div class="body">
               <CourseOverview1 title="通 学 講 座" />
               <h3 class="body-title">各会場の開催日程</h3>
               <VenueAddMapDenken3
@@ -517,8 +501,44 @@
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
-            <div v-show="isActive === 3">
+          </div>
+
+          <!-- オンライン講座 -->
+          <div v-show="isActiveTop === 3">
+            <NewPvMovie
+              :movie="$static.online.mediaYoutube"
+              :image="
+                $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
+              "
+              movieTitle="科目合格率No.1  電験三種の講習会動画をご視聴ください"
+              description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
+            />
+
+            <div class="bg-white">
+              <!-- <h3 class="body-title">オンライン講座</h3> -->
+              <CourseOverview2 title="オンライン講座" />
+              <InfoDenken3
+                :courseOutline="richtextToHTML($static.online.courseOutline)"
+                :apply="richtextToHTML($static.online.apply)"
+              />
+              <div id="apply-section"></div>
+              <Merumaga />
+              <NewApplicationDenken3
+                personalFormText="お申込みはこちら（個人）"
+                personalFormLink="/denken3-application"
+                businessFormText="お申込みはこちら（法人）"
+                businessFormLink="/denken3-application-business"
+                faxLink="/sanshu.pdf"
+              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
+            </div>
+          </div>
+
+          <!-- 通信講座 -->
+          <div v-show="isActiveTop === 4">
+            <div class="bg-white">
               <!-- <h3 class="body-title">通信講座</h3> -->
               <CourseOverview3 title="通 信 講 座" />
               <Info
@@ -535,27 +555,10 @@
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
-            <div v-show="isActive === 1">
-              <!-- <h3 class="body-title">オンライン講座</h3> -->
-              <CourseOverview2 title="オンライン講座" />
-              <InfoDenken3
-                :courseOutline="richtextToHTML($static.online.courseOutline)"
-                :apply="richtextToHTML($static.online.apply)"
-              />
-              <div id="apply-section"></div>
-              <Merumaga />
-              <NewApplicationDenken3
-                personalFormText="お申込みはこちら（個人）"
-                personalFormLink="/denken3-application"
-                businessFormText="お申込みはこちら（法人）"
-                businessFormLink="/denken3-application-business"
-                faxLink="/sanshu.pdf"
-              />
-            </div>
-            <ContactInfo title="受講に関するご相談・資料請求は" />
           </div>
-        </div>
+        </header>
 
         <!-- <div class="fixed-btn">
           <div @click="navigateToSection">
@@ -753,7 +756,7 @@
       return {
         isActive: 1,
         isVoice: 0,
-        isActiveTop: 2,
+        isActiveTop: 3,
       };
     },
     methods: {
