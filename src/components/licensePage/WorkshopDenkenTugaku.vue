@@ -31,63 +31,62 @@
     <div class="workshop-wrapper">
       <div class="workshop-box">
         <div class="workshop-content">
-          <p class="workshop-text -first -yellow">科目</p>
-          <p class="workshop-text -third -yellow">コース日程</p>
+          <p class="workshop-text -first -blue">科目</p>
+          <p class="workshop-text -third -blue">コース日程</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">基礎の基礎(1日/3.0時間)</p>
-          <p class="workshop-text -third">
+          <p class="workshop-text">基礎の基礎(1日/3.0時間)</p>
+          <p class="workshop-text">
             4月4日(土) 9:30～12:30
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">基　礎　　(1日/7.5時間)</p>
-          <div class="workshop-text -third">
-            <p class="workshop-border -none">
-              4月5日(日) 9:30～17:00
-              <span>【準備中】</span>
-            </p>
-          </div>
+          <p class="workshop-text">基　礎　　(1日/7.5時間)</p>
+          <p class="workshop-text">
+            4月5日(日) 9:30～17:00
+            <span class="workshop-text-red">【準備中】</span>
+          </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text">理　論　　(2日/15時間)</p>
           <p class="workshop-text">
             4月の土日 9:30～17:00
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text">電　力　　(2日/15時間)</p>
           <p class="workshop-text">
             5月の土日 9:30～17:00
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text">機　械　　(2日/15時間)</p>
           <p class="workshop-text">
             6月の土日 9:30～17:00
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text">法　規　　(2日/15時間)</p>
           <p class="workshop-text">
             7月の土曜 9:30～17:00
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text">
-            <span>模擬試験 (1日/4科目)</span>
+            <span class="workshop-text-bold">模擬試験 (1日/4科目)</span>
+            <br />
             模擬試験を取り組んだ後
             <br />
             ３０分程度の解答解説講座
           </p>
           <p class="workshop-text">
             7月の日曜 9:30～17:00
-            <span>【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
             <br />
@@ -96,31 +95,54 @@
         </div>
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
-            <p class="workshop-text -ryoukin -yellow">受講料</p>
-            <p class="workshop-text -ryoukin -yellow">一次・二次セット</p>
-            <p class="workshop-text -ryoukin -yellow">一次コース</p>
-            <p class="workshop-text -ryoukin -yellow">二次コース</p>
+            <p class="workshop-text -ryoukin -blue -center">受講料金</p>
           </div>
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin">
-              教材・添削費・配送料
+              <span>【セット】</span>
               <br />
-              全て込み
-            </p>
-            <p class="workshop-text -ryoukin">
-              42,000円
+              ✅【全科目】完全制覇セット(10日間)▶️ 【セット割】145,000円
               <br />
-              (税込46,200円)
-            </p>
-            <p class="workshop-text -ryoukin">
-              34,000円
+              学習内容：基礎の基礎・基礎・理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
+              ）
               <br />
-              (税込37,400円)
-            </p>
-            <p class="workshop-text -ryoukin">
-              16,500円
+              基礎の基礎講座から法規、模擬試験までが全てセットになったコース
               <br />
-              (税込18,150円)
+              <br />
+              ✅【４科目】完全制覇セット(10日間)▶️ 【セット割】135,000円
+              <br />
+              学習内容：理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
+              ）
+              <br />
+              基礎の土台ができている方に向けた４科目セット＋模擬試験
+              <br />
+              <br />
+              <span>【科目別】</span>
+              <br />
+              ✅基礎の基礎（無料体験会）
+              <br />
+              学習内容：無料体験会・講座説明・電気数学の基礎・質疑応答・抽選会（電験Tシャツが当たる！）・個別相談会
+              <br />
+              ✅基　礎（1日）▶️16,500円
+              <br />
+              ✅理　論（2日）▶️31,900円
+              <br />
+              ✅電　力（2日）▶️31,900円
+              <br />
+              ✅機　械（2日）▶️31,900円
+              <br />
+              ✅法　規（2日）▶️16,500円
+              <br />
+              ✅模擬試験（1日）▶️１科目6,600円
+              <br />
+              <br />
+              <span>
+                当日仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
+              </span>
+              <br />
+              ※消費税・教材費・添削費・配送料全て込み
+              <br />
+              ※他社では教材費・消費税が別のところがございますのでお気を付けください
             </p>
           </div>
         </div>
@@ -391,7 +413,10 @@
     font-feature-settings: "palt";
     margin-top: 0;
     margin-bottom: 0;
-    span {
+    &-bold {
+      font-weight: 700;
+    }
+    &-red {
       color: red;
       font-weight: 700;
     }
@@ -403,8 +428,9 @@
     font-weight: 700;
     border: solid 1px #000;
   }
-  .workshop-text.-yellow {
-    background-color: #fff8cc;
+  .workshop-text.-blue {
+    color: #fff;
+    background-color: #1262b2;
     border-top: solid 1px #000;
     font-weight: 700;
   }
@@ -442,10 +468,14 @@
   }
 
   .workshop-text.-ryoukin {
-    width: calc(100% / 4);
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .workshop-text.-ryoukin.-center {
+    text-align: center;
   }
 
   .workshop-text.-ryoukin.-orange {
