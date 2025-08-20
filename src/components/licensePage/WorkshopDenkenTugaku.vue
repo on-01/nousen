@@ -283,11 +283,13 @@
     padding: 0 40px;
     @media print, screen and (max-width: 1000px) {
       padding: 0 20px;
+      flex-direction: column;
     }
     img {
       width: 47%;
+      object-fit: cover;
       @media print, screen and (max-width: 1000px) {
-        width: 48%;
+        width: 100%;
       }
     }
   }
@@ -346,6 +348,12 @@
   // .workshop-content {
   //   min-width: 755px;
   // }
+  .workshop-topImg-text {
+    width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
 
   .workshop-topImg-text-top {
     text-align: center;
