@@ -8,19 +8,20 @@
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
-        10日間で合計70時間の集中講習！
-        <br />
-        必要な科目だけ受講も可能
-        <br />
-        業界支持率No.1の実績
-        <br />
-        圧倒的わかりやすさで合格を掴め！
+          10日間で合計70時間の集中講習！
+          <br />
+          必要な科目だけ受講も可能
+          <br />
+          業界支持率No.1の実績
+          <br />
+          圧倒的わかりやすさで合格を掴め！
         </p>
         <p class="workshop-topImg-text-bottom">
-        令和8年度上期 筆記・CBT試験日対応の通学講座。
-        <br />
-        受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。
-      </p>
+          令和8年度上期 筆記・CBT試験日対応の通学講座。
+          <br />
+          受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。
+        </p>
+      </div>
     </div>
     <p class="workshop-top">
       お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
@@ -129,6 +130,7 @@
         <img
           class="workshop-orangeLine__icon"
           src="../../assets/img/icon/note.svg"
+          alt="注意事項"
         />
         <p class="workshop-orangeLine__heading">
           通学＋オンラインの組み合わせセットにも対応
@@ -203,12 +205,12 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
-          <g-link to="/kenchiku-s-application" class="application-form-link">
+          <g-link to="/denken3-application" class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
-            to="/kenchiku-s-application-business"
+            to="/denken3-application-business"
             class="application-form-link"
           >
             お申込みはこちら（法人）
@@ -223,6 +225,19 @@
     </div>
   </div>
 </template>
+
+<script>
+  import IconBase from "@/components/IconBase.vue";
+  import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+
+  export default {
+    name: "WorkshopDenkenTugaku",
+    components: {
+      IconBase,
+      IconDoubleArrowRight,
+    },
+  };
+</script>
 
 <style lang="scss" scoped>
   .workshop {
