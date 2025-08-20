@@ -30,56 +30,70 @@
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
-        <!-- <p class="workshop-heading">前期</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first -yellow">コース</p>
-          <!-- <p class="workshop-text -second -yellow">コース</p> -->
-          <p class="workshop-text -third -yellow">講習日程</p>
-          <!-- <p class="workshop-text">
-            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p> -->
+          <p class="workshop-text -first -yellow">科目</p>
+          <p class="workshop-text -third -yellow">コース日程</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(2日間/15時間)</p>
-          <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
+          <p class="workshop-text -first">基礎の基礎(1日/3.0時間)</p>
           <p class="workshop-text -third">
-            5月3日(土)～4日(日) 9:30～17:00 【終了】
+            4月4日(土) 9:30～12:30
+            <span>【準備中】</span>
           </p>
-          <!-- <p class="workshop-text">
-            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p> -->
         </div>
-        <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(1日/6.5時間)</p>
-          <!-- <div class="workshop-text -second">
-            <p class="workshop-border">一次コース(2日間)</p>
-            <p class="workshop-border -none">二次コース(1日)</p>
-          </div> -->
+          <p class="workshop-text -first">基　礎　　(1日/7.5時間)</p>
           <div class="workshop-text -third">
-            <!-- <p class="workshop-border">
-              10月12日(土)～13日(日)9:30～17:00【終了】
-            </p> -->
             <p class="workshop-border -none">
-              10月13日(祝) 9:30～16:00
-              <span>【受付中】</span>
+              4月5日(日) 9:30～17:00
+              <span>【準備中】</span>
             </p>
           </div>
-          <!-- <p class="workshop-text">
-            土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
-          </p> -->
         </div>
-        <!-- <div class="workshop-content">
-          <p class="workshop-text">二次コース(1日間)</p>
+        <div class="workshop-content">
+          <p class="workshop-text">理　論　　(2日/15時間)</p>
           <p class="workshop-text">
-            9月15日(日)10:00～16:00
-            <span>【受付中】</span>
+            4月の土日 9:30～17:00
+            <span>【準備中】</span>
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">電　力　　(2日/15時間)</p>
+          <p class="workshop-text">
+            5月の土日 9:30～17:00
+            <span>【準備中】</span>
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">機　械　　(2日/15時間)</p>
+          <p class="workshop-text">
+            6月の土日 9:30～17:00
+            <span>【準備中】</span>
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">法　規　　(2日/15時間)</p>
+          <p class="workshop-text">
+            7月の土曜 9:30～17:00
+            <span>【準備中】</span>
+          </p>
+        </div>
+        <div class="workshop-content">
+          <p class="workshop-text">
+            <span>模擬試験 (1日/4科目)</span>
+            模擬試験を取り組んだ後
+            <br />
+            ３０分程度の解答解説講座
           </p>
           <p class="workshop-text">
-            施工経験記述 / 土工 / コンクリート / 安全管理 / 工程管理 / 品質管理
-            / 施工計画
+            7月の日曜 9:30～17:00
+            <span>【準備中】</span>
+            <br />
+            理論 9:30～11:20　電力 11:30～13:00
+            <br />
+            機械 14:00～15:40　法規 15:50～17:00
           </p>
-        </div> -->
+        </div>
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -yellow">受講料</p>
@@ -113,19 +127,19 @@
       </div>
     </div>
 
-    <p class="workshop-bottom -yellow">
+    <!-- <p class="workshop-bottom -yellow">
       <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
     <p class="workshop-bottom">
       ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
-    </p>
+    </p> -->
     <!-- <p class="workshop-bottom -leftText">
       <span>【締め切りについて】</span>
       <br />
       お席に空きがあれば講習日前日まで受付しております。お問い合わせください。
     </p> -->
 
-    <div class="workshop-orangeLine">
+    <!-- <div class="workshop-orangeLine">
       <div class="workshop-orangeLine__inner">
         <img
           class="workshop-orangeLine__icon"
@@ -141,9 +155,9 @@
           一次コース【オンライン】＋二次コース【通学】 ▶️41,000円(税込45,100円)
         </p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="ocha-flex">
+    <!-- <div class="ocha-flex">
       <img
         class="address-map-img"
         src="../../assets/img/license_page/ocha-img.jpg"
@@ -163,7 +177,7 @@
           能センは努めてまいります。
         </p>
       </div>
-    </div>
+    </div> -->
 
     <div class="workshop-flex">
       <div>
