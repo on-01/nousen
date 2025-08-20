@@ -376,10 +376,9 @@
 
   .workshop-content {
     width: 100%;
+    display: flex;
   }
-  // .workshop-content {
-  //   min-width: 755px;
-  // }
+
   .workshop-topImg-text {
     width: 50%;
     @media print, screen and (max-width: 1000px) {
@@ -1010,8 +1009,8 @@
   }
 
   .application-form-link {
-    background-color: #ff4500;
-    box-shadow: 4px 4px 10px rgba(153, 33, 0, 0.3);
+    background-color: #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
     width: 370px;
     padding: 14px 30px;
