@@ -6,16 +6,17 @@
         src="../../assets/img/license_page/workshop-img1.jpg"
         alt="建築施工管理技士 講習会 通信講座 web講座"
       />
-      <p>
-        <span>10日間で合計70時間の集中講習！</span>
+      <div class="workshop-topImg-text">
+        <p class="workshop-topImg-text-top">
+        10日間で合計70時間の集中講習！
         <br />
-        <span>必要な科目だけ受講も可能</span>
+        必要な科目だけ受講も可能
         <br />
-        <span>業界支持率No.1の実績</span>
+        業界支持率No.1の実績
         <br />
-        <span>圧倒的わかりやすさで合格を掴め！</span>
-        <br />
-        <br />
+        圧倒的わかりやすさで合格を掴め！
+        </p>
+        <p class="workshop-topImg-text-bottom">
         令和8年度上期 筆記・CBT試験日対応の通学講座。
         <br />
         受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。
@@ -260,6 +261,7 @@
 
   .workshop-topImg {
     display: flex;
+    gap: 30px;
     margin: 40px auto;
     justify-content: space-between;
     max-width: 980px;
@@ -329,6 +331,18 @@
   // .workshop-content {
   //   min-width: 755px;
   // }
+
+  .workshop-topImg-text-top {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .workshop-topImg-text-bottom {
+    font-size: 16px;
+    margin: 0;
+  }
 
   .workshop-text {
     // width: calc(100% / 3);
