@@ -186,6 +186,7 @@
                 require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
               "
             />
+            <WorkshopDenkenTugaku />
 
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
@@ -570,6 +571,7 @@
                 require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
               "
             />
+
             <div class="bg-white">
               <!-- <h3 class="body-title">通信講座</h3> -->
               <CourseOverview3 title="通 信 講 座" />
@@ -702,6 +704,7 @@
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
+  import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -783,6 +786,7 @@
       FollowUpDenken3,
       TimeCount,
       ExamSupport,
+      WorkshopDenkenTugaku,
     },
     data() {
       return {
