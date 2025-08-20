@@ -507,6 +507,22 @@
 
           <!-- オンライン講座 -->
           <div v-show="isActiveTop === 3">
+            <quality
+              text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
+                        2.効果的な学習をサポートする副教材も特徴。自宅学習に使える解説付き問題集や、4科目分の添削課題付き。<br>
+                        ※過去3年間の集計です（過去最高は95%）"
+              :imagePath_1="
+                require('../assets/img/license_page/denken3/denken3_quality_1-1.jpg')
+              "
+              text_2="初めて受験する方におすすめするのが、能センの基礎講座です。専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。しばらく理系の学習から離れていた方はこの機会にご活用ください。"
+              :imagePath_2="
+                require('../assets/img/license_page/denken3/denken3_quality_2-2_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
+              :imagePath_3="
+                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+              "
+            />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
               :image="
@@ -538,6 +554,22 @@
 
           <!-- 通信講座 -->
           <div v-show="isActiveTop === 4">
+            <quality
+              text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
+                        2.効果的な学習をサポートする副教材も特徴。自宅学習に使える解説付き問題集や、4科目分の添削課題付き。<br>
+                        ※過去3年間の集計です（過去最高は95%）"
+              :imagePath_1="
+                require('../assets/img/license_page/denken3/denken3_quality_1-1.jpg')
+              "
+              text_2="初めて受験する方におすすめするのが、能センの基礎講座です。専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。しばらく理系の学習から離れていた方はこの機会にご活用ください。"
+              :imagePath_2="
+                require('../assets/img/license_page/denken3/denken3_quality_2-2_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
+              :imagePath_3="
+                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+              "
+            />
             <div class="bg-white">
               <!-- <h3 class="body-title">通信講座</h3> -->
               <CourseOverview3 title="通 信 講 座" />
