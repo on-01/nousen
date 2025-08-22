@@ -35,56 +35,56 @@
           <p class="workshop-text -third -blue">講習日程</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">基礎の基礎(1日/3.0時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">基礎の基礎(1日/3.0時間)</p>
+          <p class="workshop-text even">
             4月4日(土) 9:30～12:30
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">基　礎　　(1日/7.5時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">基　礎　　(1日/7.5時間)</p>
+          <p class="workshop-text even">
             4月5日(日) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">理　論　　(2日/15時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">理　論　　(2日/15時間)</p>
+          <p class="workshop-text even">
             4月の土日 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">電　力　　(2日/15時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">電　力　　(2日/15時間)</p>
+          <p class="workshop-text even">
             5月の土日 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">機　械　　(2日/15時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">機　械　　(2日/15時間)</p>
+          <p class="workshop-text even">
             6月の土日 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">法　規　　(2日/15時間)</p>
-          <p class="workshop-text">
+          <p class="workshop-text odd">法　規　　(2日/15時間)</p>
+          <p class="workshop-text even">
             7月の土曜 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text">
+          <p class="workshop-text odd">
             <span class="workshop-text-bold">模擬試験 (1日/4科目)</span>
             <br />
             模擬試験を取り組んだ後
             <br />
             ３０分程度の解答解説講座
           </p>
-          <p class="workshop-text">
+          <p class="workshop-text even">
             7月の日曜 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
             <br />
@@ -399,8 +399,6 @@
   }
 
   .workshop-text {
-    // width: calc(100% / 3);
-    width: calc(100% / 2);
     border: solid 1px;
     border-top: none;
     text-align: center;
@@ -414,6 +412,12 @@
     &-red {
       color: red;
       font-weight: 700;
+    }
+    &.odd {
+      width: 40%;
+    }
+    &.even {
+      width: 60%;
     }
   }
 
@@ -434,12 +438,13 @@
     width: 100%;
   }
 
-  .workshop-text.-first {
+  .workshop-text.-blue.-first {
     width: 40%;
     // font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-left: solid 1px #000;
   }
   .workshop-text.-second {
     width: 35%;
@@ -447,11 +452,12 @@
     display: flex;
     flex-direction: column;
   }
-  .workshop-text.-third {
+  .workshop-text.-blue.-third {
     width: 60%;
     // display: flex;
     // flex-direction: column;
     border-left: none;
+    border-right: solid 1px #000;
   }
 
   .workshop-border {
@@ -483,13 +489,6 @@
 
   .workshop-text.-ryoukin.-bold {
     font-weight: 700;
-  }
-
-  .workshop-text.-blue {
-    width: calc(100% / 2);
-    span {
-      color: red;
-    }
   }
 
   .workshop-address {
@@ -960,6 +959,7 @@
     margin-top: 20px;
 
     tr {
+      border: none;
     }
 
     th {
