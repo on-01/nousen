@@ -187,7 +187,7 @@
               "
             />
             <WorkshopDenkenTugaku />
-
+            <NewSutudy />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
               :image="
@@ -196,8 +196,6 @@
               movieTitle="科目合格率No.1  電験三種の講習会動画をご視聴ください"
               description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
             />
-
-            <NewSutudy />
 
             <OmNoHousoku />
 
