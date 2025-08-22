@@ -34,7 +34,21 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              講座情報
+              通学講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 3 }]"
+              v-on:click="tabToggleTop(3)"
+            >
+              オンライン講座
+              <IconBase class="icon"><IconArrowRight /></IconBase>
+            </div>
+            <div
+              :class="['tab', { active: isActiveTop === 4 }]"
+              v-on:click="tabToggleTop(4)"
+            >
+              通信講座
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
@@ -154,7 +168,7 @@
             </div>
           </div>
 
-          <!-- 講座情報 -->
+          <!-- 通学講座 -->
           <div v-show="isActiveTop === 2">
             <quality
               text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
@@ -172,7 +186,8 @@
                 require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
               "
             />
-
+            <WorkshopDenkenTugaku />
+            <NewSutudy />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
               :image="
@@ -461,41 +476,11 @@
                 </figure>
               </div>
             </div>
-          </div>
-        </header>
 
-        <div v-show="isActiveTop === 2">
-          <section class="tab-wrapper">
-            <div
-              :class="['tab', { active: isActive === 1 }]"
-              v-on:click="tabToggle(1)"
-            >
-              オンライン
-              <br class="underdisplay" />
-              講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-            <div
-              :class="['tab', { active: isActive === 2 }]"
-              v-on:click="tabToggle(2)"
-            >
-              通学講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-            <div
-              :class="['tab', { active: isActive === 3 }]"
-              v-on:click="tabToggle(3)"
-            >
-              通信講座
-              <IconBase class="icon"><IconArrowRight /></IconBase>
-            </div>
-          </section>
-          <div class="body">
-            <div v-show="isActive === 2">
-              <!-- <h3 class="body-title">通学講座</h3> -->
+            <div class="body">
               <CourseOverview1 title="通 学 講 座" />
-              <h3 class="body-title">各会場の開催日程</h3>
-              <VenueAddMapDenken3
+              <!-- <h3 class="body-title">各会場の開催日程</h3> -->
+              <!-- <VenueAddMapDenken3
                 v-for="(items, index) in $static.tuugakuVenue.edges"
                 :key="index"
                 :city="items.node.city"
@@ -504,21 +489,129 @@
                 :details="items.node.details"
                 :address="items.node.address"
                 :map="items.node.map"
-              />
-              <Info
+              /> -->
+              <!-- <Info
                 :tuitionFee="richtextToHTML($static.tuugaku.tuitionFee)"
                 :capacity="$static.tuugaku.capacity"
                 :benefits="richtextToHTML($static.tuugaku.benefits)"
                 :cpds="richtextToHTML($static.tuugaku.cpds)"
-              />
+              /> -->
               <Merumaga />
               <NewApplicationDenken3
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
-            <div v-show="isActive === 3">
+          </div>
+
+          <!-- オンライン講座 -->
+          <div v-show="isActiveTop === 3">
+            <quality
+              text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
+                        2.効果的な学習をサポートする副教材も特徴。自宅学習に使える解説付き問題集や、4科目分の添削課題付き。<br>
+                        ※過去3年間の集計です（過去最高は95%）"
+              :imagePath_1="
+                require('../assets/img/license_page/denken3/denken3_quality_1-1.jpg')
+              "
+              text_2="初めて受験する方におすすめするのが、能センの基礎講座です。専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。しばらく理系の学習から離れていた方はこの機会にご活用ください。"
+              :imagePath_2="
+                require('../assets/img/license_page/denken3/denken3_quality_2-2_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
+              :imagePath_3="
+                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+              "
+            />
+
+            <WorkshopDenkenOnline />
+            <NewSutudyOnline />
+            <NewPvMovie
+              :movie="$static.online.mediaYoutube"
+              :image="
+                $static.online.mediaImg ? $static.online.mediaImg.file.url : ''
+              "
+              movieTitle="科目合格率No.1  電験三種の講習会動画をご視聴ください"
+              description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
+            />
+            <OmNoHousoku />
+
+            <NewLecture
+              title="業界トップのわかりやすさ！<br>大嶋先生の講習"
+              bold="電験三種の講師歴３５年以上のベテラン講師<br>電気保安功労者経済産業大臣賞を受賞した実力派！"
+              text="長年電気と土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
+        その後電気・電子部門の技術士も取得した電気、土木のエキスパートです。
+        電気・土木関連の資格書籍の執筆や能センをはじめとした受験対策講習で多数の講義を担当しています。
+        難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+              :imagePath="
+                require('../assets/img/license_page/denken3/denken3_lecture2.jpg')
+              "
+              teacher="大嶋輝夫 先生"
+              profile="＜プロフィール＞<br>
+            元東京電力株式会社<br>
+            現在（株）オフィスボルト 代表取締役社長<br>
+            電気保安功労者経済産業大臣賞受賞<br>
+            <br>
+            著書 : 続・電気技術者のための失敗100選-対策編-（オーム社）<br>
+            　　　電験二種二次試験「機械・制御」精選問題（オーム社）<br>
+            　　　これからスタート！１級電気施工（電気書院）<br>
+            その他、OHM、新電気、電気計算、工事と受験 他電気雑誌多数"
+              :imageBook1="
+                require('../assets/img/license_page/denken3/denken3_lecture_book_1.jpg')
+              "
+              :imageBook2="
+                require('../assets/img/license_page/denken3/denken3_lecture_book_2.jpg')
+              "
+              :imageBook3="
+                require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')
+              "
+              altText="電験三種 第三種電気主任技術者"
+              altBook1="電験三種 第三種電気主任技術者"
+              altBook2="電験三種 第三種電気主任技術者"
+              altBook3="電験三種 第三種電気主任技術者"
+            />
+
+            <div class="bg-white">
+              <!-- <h3 class="body-title">オンライン講座</h3> -->
+              <CourseOverview2 title="オンライン講座" />
+              <InfoDenken3
+                :courseOutline="richtextToHTML($static.online.courseOutline)"
+                :apply="richtextToHTML($static.online.apply)"
+              />
+              <div id="apply-section"></div>
+              <Merumaga />
+              <NewApplicationDenken3
+                personalFormText="お申込みはこちら（個人）"
+                personalFormLink="/denken3-application"
+                businessFormText="お申込みはこちら（法人）"
+                businessFormLink="/denken3-application-business"
+                faxLink="/sanshu.pdf"
+              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
+            </div>
+          </div>
+
+          <!-- 通信講座 -->
+          <div v-show="isActiveTop === 4">
+            <quality
+              text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
+                        2.効果的な学習をサポートする副教材も特徴。自宅学習に使える解説付き問題集や、4科目分の添削課題付き。<br>
+                        ※過去3年間の集計です（過去最高は95%）"
+              :imagePath_1="
+                require('../assets/img/license_page/denken3/denken3_quality_1-1.jpg')
+              "
+              text_2="初めて受験する方におすすめするのが、能センの基礎講座です。専用の教材を使って基礎数学（電気数学）から電気の法則などわかりやすく解説します。しばらく理系の学習から離れていた方はこの機会にご活用ください。"
+              :imagePath_2="
+                require('../assets/img/license_page/denken3/denken3_quality_2-2_2.jpg')
+              "
+              text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
+              :imagePath_3="
+                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+              "
+            />
+
+            <div class="bg-white">
               <!-- <h3 class="body-title">通信講座</h3> -->
               <CourseOverview3 title="通 信 講 座" />
               <Info
@@ -535,27 +628,10 @@
                 businessFormLink="/denken3-application-business"
                 faxLink="/sanshu.pdf"
               />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
-            <div v-show="isActive === 1">
-              <!-- <h3 class="body-title">オンライン講座</h3> -->
-              <CourseOverview2 title="オンライン講座" />
-              <InfoDenken3
-                :courseOutline="richtextToHTML($static.online.courseOutline)"
-                :apply="richtextToHTML($static.online.apply)"
-              />
-              <div id="apply-section"></div>
-              <Merumaga />
-              <NewApplicationDenken3
-                personalFormText="お申込みはこちら（個人）"
-                personalFormLink="/denken3-application"
-                businessFormText="お申込みはこちら（法人）"
-                businessFormLink="/denken3-application-business"
-                faxLink="/sanshu.pdf"
-              />
-            </div>
-            <ContactInfo title="受講に関するご相談・資料請求は" />
           </div>
-        </div>
+        </header>
 
         <!-- <div class="fixed-btn">
           <div @click="navigateToSection">
@@ -667,7 +743,10 @@
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
-
+  import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
+  import NewSutudy from "../components/licensePage/NewSutudy.vue";
+  import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
+  import NewSutudyOnline from "../components/licensePage/NewSutudyOnline.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -748,12 +827,16 @@
       FollowUpDenken3,
       TimeCount,
       ExamSupport,
+      WorkshopDenkenTugaku,
+      NewSutudy,
+      WorkshopDenkenOnline,
+      NewSutudyOnline,
     },
     data() {
       return {
         isActive: 1,
         isVoice: 0,
-        isActiveTop: 2,
+        isActiveTop: 3,
       };
     },
     methods: {
@@ -822,11 +905,11 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 150px 0;
+    padding: 60px 0 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
-      padding: 40px 0 150px 0;
+      padding: 40px 0 0;
     }
   }
   .exam-link,
@@ -1021,7 +1104,6 @@
     width: 100%;
     margin: 0 auto;
     font-family: "メイリオ", sans-serif;
-    padding-top: 60px;
     // background-color: #ebf7ff;
     // background-color: #FFF7D5;
     background-color: #ebf7ff;
@@ -1099,7 +1181,7 @@
     background: #fff;
   }
   .bg-white_type2 {
-    background: #fff;
+    background: #ebf7ff;
   }
   .exam-link-wrapper.-column {
     padding: 20px 0 40px;
