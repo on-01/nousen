@@ -197,6 +197,8 @@
               description="合格者を多数輩出した大嶋先生による基礎講座の無料動画になります。"
             />
 
+            <NewSutudy />
+
             <OmNoHousoku />
 
             <NewLecture
@@ -705,6 +707,7 @@
   import TimeCount from "../components/licensePage/TimeCount.vue";
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
   import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
+  import NewSutudy from "../components/licensePage/NewSutudy.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -787,6 +790,7 @@
       TimeCount,
       ExamSupport,
       WorkshopDenkenTugaku,
+      NewSutudy,
     },
     data() {
       return {

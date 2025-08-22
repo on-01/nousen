@@ -436,6 +436,8 @@
 
   .workshop-text.-ryoukin.-blue {
     width: 100%;
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
   }
 
   .workshop-text.-blue.-first {
