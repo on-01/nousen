@@ -1255,6 +1255,24 @@
     .courseOverview-content {
       width: 100%;
     }
+
+    .online-flex {
+      flex-wrap: wrap;
+    }
+    .online-flex-image,
+    .online-flex-description {
+      width: 100%;
+    }
+    .online-flex-image img {
+      width: 80%;
+    }
+    .online-flex-description {
+      margin-top: 18px;
+    }
+    .online-flex-description p {
+      line-height: 1.6;
+      font-size: 18px;
+    }
   }
 
   @media print, screen and (max-width: 480px) {
