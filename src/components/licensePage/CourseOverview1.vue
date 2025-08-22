@@ -362,7 +362,7 @@
 
   @media print, screen and (max-width: 768px) {
     .courseOverview {
-      width: 84%;
+      width: 90%;
       margin: 0 auto;
     }
     .courseOverview-inner {
