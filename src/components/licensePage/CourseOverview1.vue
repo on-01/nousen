@@ -3,7 +3,7 @@
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
       <div class="courseOverview-content">
-        <div class="courseOverview-flex -reverse">
+        <!-- <div class="courseOverview-flex -reverse">
           <div class="courseOverview-flex-left">
             <img
               class="courseOverview-flex-image"
@@ -36,7 +36,7 @@
               </a>
             </p>
           </div>
-        </div>
+        </div> -->
         <br />
         <!-- <p class="courseOverview-text -type4">
           ※試験内容やその他電気事業法や法令・法律は
@@ -217,6 +217,7 @@
   }
   .courseOverview-inner {
     padding: 60px 40px 40px;
+    background-color: #ebf7ff;
   }
   .courseOverview-content {
     margin: 0 auto;

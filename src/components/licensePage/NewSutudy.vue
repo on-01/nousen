@@ -71,7 +71,7 @@
   .lecture-inner {
     max-width: 1170px;
     width: 100%;
-    padding: 30px 0 0;
+    padding: 0 0 50px;
     margin: 0 auto;
   }
 
@@ -174,7 +174,7 @@
     // border: 2px solid #1da1f2;
     background-color: #1262b2;
     padding: 16px 0;
-    margin: 50px 0 30px;
+    margin: 0 0 30px;
   }
 
   @media print, screen and (max-width: 1000px) {

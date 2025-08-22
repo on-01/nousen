@@ -479,8 +479,8 @@
 
             <div class="body">
               <CourseOverview1 title="通 学 講 座" />
-              <h3 class="body-title">各会場の開催日程</h3>
-              <VenueAddMapDenken3
+              <!-- <h3 class="body-title">各会場の開催日程</h3> -->
+              <!-- <VenueAddMapDenken3
                 v-for="(items, index) in $static.tuugakuVenue.edges"
                 :key="index"
                 :city="items.node.city"
@@ -489,13 +489,13 @@
                 :details="items.node.details"
                 :address="items.node.address"
                 :map="items.node.map"
-              />
-              <Info
+              /> -->
+              <!-- <Info
                 :tuitionFee="richtextToHTML($static.tuugaku.tuitionFee)"
                 :capacity="$static.tuugaku.capacity"
                 :benefits="richtextToHTML($static.tuugaku.benefits)"
                 :cpds="richtextToHTML($static.tuugaku.cpds)"
-              />
+              /> -->
               <Merumaga />
               <NewApplicationDenken3
                 personalFormLink="/denken3-application"
@@ -1140,7 +1140,7 @@
     background: #fff;
   }
   .bg-white_type2 {
-    background: #fff;
+    background: #ebf7ff;
   }
   .exam-link-wrapper.-column {
     padding: 20px 0 40px;
