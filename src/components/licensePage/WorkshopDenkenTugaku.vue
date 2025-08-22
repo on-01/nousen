@@ -476,6 +476,12 @@
 
   .workshop-text.-ryoukin {
     width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    span {
+      font-weight: 700;
+    }
   }
 
   .workshop-text.-ryoukin.-center {
