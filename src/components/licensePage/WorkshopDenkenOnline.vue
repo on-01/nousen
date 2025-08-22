@@ -122,6 +122,73 @@
       </div>
     </div>
 
+    <div class="online-flex">
+      <figure class="online-flex-image">
+        <img
+          src="../../assets/img/license_page/denken3/denken3_completion.jpg"
+          alt="電験三種 第三種電気主任技術者"
+        />
+      </figure>
+      <div class="online-flex-description">
+        <p>
+          視聴率95%以上で修了証が発行！
+          <br />
+          会社で提出が必要な方や
+          <br />
+          勉強のモチベーションUPに、
+          <br />
+          修了証を手に入れましょう！
+        </p>
+      </div>
+    </div>
+    <!-- <p class="courseOverview-text -type4">
+            ※令和６年度に撮影した動画になります。
+          </p> -->
+    <div class="workshop-flow">
+      <div class="workshop-flow-box">
+        <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
+        <p class="workshop-flow-text">
+          1.&nbsp;お申込みは、申込フォームまたはFAX
+          <br />
+          2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
+          <br />
+          3.&nbsp;詳細メールに記載されたURLから動画配信サイトにアクセスして講座を受講
+        </p>
+      </div>
+      <div class="workshop-flow-box">
+        <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+        <p class="workshop-flow-text">
+          動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+          <br />
+          専用アプリなどをインストールする必要はなく、操作も簡単です。
+          <br />
+          高いセキュリティ性により安心してご利用いただけます。
+          <br />
+          ※本講座は、1IDにつき1名様のみ受講可能です
+        </p>
+      </div>
+      <div class="workshop-flow-box">
+        <p class="workshop-flow-heading">
+          &#x26a0;お申し込みの前にご確認ください
+          <br />
+          ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください
+        </p>
+        <p class="workshop-flow-text">
+          <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
+          <br />
+          画面に表示されるユーザー名およびパスワード欄には「livetest55」と入力してログインしてください。
+          <br />
+          ※当日に視聴できない場合のお問い合わせには対応できないことがございます
+        </p>
+      </div>
+      <p class="workshop-flow-heading">
+        ■推奨環境については、以下をご覧ください
+      </p>
+      <p class="workshop-flow-text">
+        <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
+      </p>
+    </div>
+
     <!-- <p class="workshop-bottom -yellow">
       <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
@@ -174,7 +241,7 @@
       </div>
     </div> -->
 
-    <div class="workshop-flex">
+    <!-- <div class="workshop-flex">
       <div>
         <p class="workshop-address -bold">専売ビル（25名限定）</p>
         <a
@@ -199,15 +266,15 @@
         src="../../assets/img/license_page/venue-map2.jpg"
         alt="電験三種 第三種電気主任技術者"
       />
-    </div>
+    </div> -->
 
-    <p class="workshop-bottom -map -left">
+    <!-- <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
       能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
       <br />
       撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
-    </p>
+    </p> -->
 
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
@@ -1040,6 +1107,115 @@
 
   .hayaben_red {
     color: red;
+  }
+
+  .online-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  .online-flex-image,
+  .online-flex-description {
+    width: 50%;
+    margin: 0;
+  }
+  .online-flex-image img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  .online-flex-description p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .workshop-flex {
+    display: flex;
+    // width: 100%;
+    // padding: 0 40px;
+    max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: center;
+
+    img {
+      width: 43%;
+    }
+  }
+
+  .workshop-flex-img {
+    display: flex;
+    padding: 0 40px;
+    // max-width: 980px;
+    margin: 20px auto 30px;
+    column-gap: 14px;
+    justify-content: center;
+    @media print, screen and (max-width: 920px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .flex-img {
+      width: 70%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      @media print, screen and (max-width: 920px) {
+        width: 70%;
+      }
+    }
+
+    .flex-img.-right {
+      margin-top: 40px;
+      @media print, screen and (max-width: 920px) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .workshop-flex-text {
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    @media print, screen and (max-width: 920px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .workshop-flow {
+    // margin: 0 auto 20px auto;
+    width: 100%;
+    // max-width: 900px;
+    // padding: 0 40px;
+    @media print, screen and (max-width: 1000px) {
+      // padding: 0 20px;
+    }
+  }
+
+  .workshop-flow-box {
+    margin-bottom: 20px;
+  }
+
+  .workshop-flow-heading {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .workshop-flow-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    a {
+      text-decoration: underline;
+    }
   }
 
   @media print, screen and (max-width: 480px) {
