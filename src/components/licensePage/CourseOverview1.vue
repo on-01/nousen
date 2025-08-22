@@ -175,12 +175,12 @@
           </table>
         </div>
       </div>
-      <p class="content-bottom-bold">📷写真撮影について</p>
+      <!-- <p class="content-bottom-bold">📷写真撮影について</p>
       <p class="content-bottom">
         能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
         <br />
         撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
-      </p>
+      </p> -->
     </div>
   </div>
 </template>
@@ -216,7 +216,7 @@
     margin: 0;
   }
   .courseOverview-inner {
-    padding: 60px 40px 40px;
+    padding: 0 0 40px;
     background-color: #ebf7ff;
   }
   .courseOverview-content {
@@ -297,6 +297,7 @@
     line-height: 1.8;
     font-weight: 400;
     padding: 8px;
+    background-color: #fff;
   }
   .courseOverview-th-text {
     font-weight: 400;

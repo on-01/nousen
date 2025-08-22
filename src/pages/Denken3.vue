@@ -863,11 +863,11 @@
   }
   .exam-link-wrapper {
     text-align: center;
-    padding: 60px 0 150px 0;
+    padding: 60px 0 0;
     display: flex;
     flex-direction: column;
     @media print, screen and (max-width: 1000px) {
-      padding: 40px 0 150px 0;
+      padding: 40px 0 0;
     }
   }
   .exam-link,
@@ -1062,7 +1062,6 @@
     width: 100%;
     margin: 0 auto;
     font-family: "メイリオ", sans-serif;
-    padding-top: 60px;
     // background-color: #ebf7ff;
     // background-color: #FFF7D5;
     background-color: #ebf7ff;
