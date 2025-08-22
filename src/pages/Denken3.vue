@@ -526,7 +526,7 @@
             />
 
             <WorkshopDenkenOnline />
-
+            <NewSutudyOnline />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
               :image="
@@ -710,6 +710,7 @@
   import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
   import NewSutudy from "../components/licensePage/NewSutudy.vue";
   import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
+  import NewSutudyOnline from "../components/licensePage/NewSutudyOnline.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -793,6 +794,7 @@
       WorkshopDenkenTugaku,
       NewSutudy,
       WorkshopDenkenOnline,
+      NewSutudyOnline,
     },
     data() {
       return {
