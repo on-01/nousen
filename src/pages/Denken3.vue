@@ -524,6 +524,9 @@
                 require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
               "
             />
+
+            <WorkshopDenkenOnline />
+
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
               :image="
@@ -706,7 +709,7 @@
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
   import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
   import NewSutudy from "../components/licensePage/NewSutudy.vue";
-
+  import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -789,6 +792,7 @@
       ExamSupport,
       WorkshopDenkenTugaku,
       NewSutudy,
+      WorkshopDenkenOnline,
     },
     data() {
       return {
