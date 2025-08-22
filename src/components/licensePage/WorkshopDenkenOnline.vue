@@ -122,71 +122,79 @@
       </div>
     </div>
 
-    <div class="online-flex">
-      <figure class="online-flex-image">
-        <img
-          src="../../assets/img/license_page/denken3/denken3_completion.jpg"
-          alt="電験三種 第三種電気主任技術者"
-        />
-      </figure>
-      <div class="online-flex-description">
-        <p>
-          視聴率95%以上で修了証が発行！
-          <br />
-          会社で提出が必要な方や
-          <br />
-          勉強のモチベーションUPに、
-          <br />
-          修了証を手に入れましょう！
-        </p>
-      </div>
-    </div>
-    <!-- <p class="courseOverview-text -type4">
+    <div class="courseOverview">
+      <div class="courseOverview-inner">
+        <div class="courseOverview-content">
+          <div class="online-flex">
+            <figure class="online-flex-image">
+              <img
+                src="../../assets/img/license_page/denken3/denken3_completion.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </figure>
+            <div class="online-flex-description">
+              <p>
+                視聴率95%以上で修了証が発行！
+                <br />
+                会社で提出が必要な方や
+                <br />
+                勉強のモチベーションUPに、
+                <br />
+                修了証を手に入れましょう！
+              </p>
+            </div>
+          </div>
+          <!-- <p class="courseOverview-text -type4">
             ※令和６年度に撮影した動画になります。
           </p> -->
-    <div class="workshop-flow">
-      <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
-        <p class="workshop-flow-text">
-          1.&nbsp;お申込みは、申込フォームまたはFAX
-          <br />
-          2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
-          <br />
-          3.&nbsp;詳細メールに記載されたURLから動画配信サイトにアクセスして講座を受講
-        </p>
+          <div class="workshop-flow">
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">
+                【お申し込みから受講までの流れ】
+              </p>
+              <p class="workshop-flow-text">
+                1.&nbsp;お申込みは、申込フォームまたはFAX
+                <br />
+                2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
+                <br />
+                3.&nbsp;詳細メールに記載されたURLから動画配信サイトにアクセスして講座を受講
+              </p>
+            </div>
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+              <p class="workshop-flow-text">
+                動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+                <br />
+                専用アプリなどをインストールする必要はなく、操作も簡単です。
+                <br />
+                高いセキュリティ性により安心してご利用いただけます。
+                <br />
+                ※本講座は、1IDにつき1名様のみ受講可能です
+              </p>
+            </div>
+            <div class="workshop-flow-box">
+              <p class="workshop-flow-heading">
+                &#x26a0;お申し込みの前にご確認ください
+                <br />
+                ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください
+              </p>
+              <p class="workshop-flow-text">
+                <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
+                <br />
+                画面に表示されるユーザー名およびパスワード欄には「livetest55」と入力してログインしてください。
+                <br />
+                ※当日に視聴できない場合のお問い合わせには対応できないことがございます
+              </p>
+            </div>
+            <p class="workshop-flow-heading">
+              ■推奨環境については、以下をご覧ください
+            </p>
+            <p class="workshop-flow-text">
+              <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
-        <p class="workshop-flow-text">
-          動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
-          <br />
-          専用アプリなどをインストールする必要はなく、操作も簡単です。
-          <br />
-          高いセキュリティ性により安心してご利用いただけます。
-          <br />
-          ※本講座は、1IDにつき1名様のみ受講可能です
-        </p>
-      </div>
-      <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">
-          &#x26a0;お申し込みの前にご確認ください
-          <br />
-          ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください
-        </p>
-        <p class="workshop-flow-text">
-          <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
-          <br />
-          画面に表示されるユーザー名およびパスワード欄には「livetest55」と入力してログインしてください。
-          <br />
-          ※当日に視聴できない場合のお問い合わせには対応できないことがございます
-        </p>
-      </div>
-      <p class="workshop-flow-heading">
-        ■推奨環境については、以下をご覧ください
-      </p>
-      <p class="workshop-flow-text">
-        <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
-      </p>
     </div>
 
     <!-- <p class="workshop-bottom -yellow">
@@ -1109,6 +1117,28 @@
     color: red;
   }
 
+  .courseOverview {
+    max-width: 1170px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 0;
+    position: relative;
+    font-family: "Meiryo", sans-serif;
+    // border-top: 4px solid #ed6c00;
+    margin: 0 auto;
+  }
+
+  .courseOverview p,
+  .courseOverview img {
+    margin: 0;
+  }
+  .courseOverview-inner {
+    padding: 60px 40px 40px;
+  }
+  .courseOverview-content {
+    margin: 0 auto;
+  }
+
   .online-flex {
     display: flex;
     justify-content: space-between;
@@ -1215,6 +1245,25 @@
     margin: 0;
     a {
       text-decoration: underline;
+    }
+  }
+
+  @media print, screen and (max-width: 768px) {
+    .courseOverview {
+      width: 84%;
+      margin: 0 auto;
+    }
+    .courseOverview-inner {
+      max-width: 100%;
+      padding: 40px 16px;
+    }
+    // .courseOverview-icon {
+    //     top: -15px;
+    //     left: -21px;
+    //     width: 41px
+    // }
+    .courseOverview-content {
+      width: 100%;
     }
   }
 
