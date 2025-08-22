@@ -1,32 +1,27 @@
 <template>
   <div class="workshop">
-    <p class="workshop-title">第三種電気主任技術者 通学講座(講習会)</p>
+    <p class="workshop-title">第三種電気主任技術者 オンライン講座(WEB講座)</p>
     <div class="workshop-topImg">
       <img
-        src="../../assets/img/license_page/workshop-img1.jpg"
+        src="../../assets/img/license_page/denken3/denken3_courseOverview_5.jpg"
         alt="電験三種 第三種電気主任技術者"
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
-          10日間で合計70時間の集中講習！
+          令和7年度 全期間対応！
           <br />
-          必要な科目だけ受講も可能
+          最新の受験対策講座をお届け
           <br />
-          業界支持率No.1の実績
+          最新動画＋過去動画で徹底学習
           <br />
-          圧倒的わかりやすさで合格を掴め！
-        </p>
-        <p class="workshop-topImg-text-bottom">
-          令和8年度上期 筆記・CBT試験日対応の通学講座。
-          <br />
-          受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。
+          最大100時間の動画視聴で最短突破！
         </p>
       </div>
     </div>
     <p class="workshop-top">
-      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
+      能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
-      経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
+      高性能な動画配信プラットフォームを使い、最新動画をPCやスマホから何回でも視聴可能！
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
@@ -35,64 +30,50 @@
           <p class="workshop-text -third -blue">講習日程</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">基礎の基礎(1日/3.0時間)</p>
+          <p class="workshop-text odd">基　礎 (約12時間)</p>
           <p class="workshop-text even">
-            4月4日(土) 9:30～12:30
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">基　礎　　(1日/7.5時間)</p>
+          <p class="workshop-text odd">理　論 (約12時間)</p>
           <p class="workshop-text even">
-            4月5日(日) 9:30～17:00
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">理　論　　(2日/15時間)</p>
+          <p class="workshop-text odd">電　力 (約12時間)</p>
           <p class="workshop-text even">
-            4月の土日 9:30～17:00
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">電　力　　(2日/15時間)</p>
+          <p class="workshop-text odd">機　械 (約12時間)</p>
           <p class="workshop-text even">
-            5月の土日 9:30～17:00
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">機　械　　(2日/15時間)</p>
+          <p class="workshop-text odd">法　規 (約 6時間)</p>
           <p class="workshop-text even">
-            6月の土日 9:30～17:00
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">法　規　　(2日/15時間)</p>
+          <p class="workshop-text odd">(各科目約30分)</p>
           <p class="workshop-text even">
-            7月の土曜 9:30～17:00
+            ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
-        <div class="workshop-content">
-          <p class="workshop-text odd">
-            <span class="workshop-text-bold">模擬試験 (1日/4科目)</span>
-            <br />
-            模擬試験を取り組んだ後
-            <br />
-            ３０分程度の解答解説講座
-          </p>
-          <p class="workshop-text even">
-            7月の日曜 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
-            <br />
-            理論 9:30～11:20　電力 11:30～13:00
-            <br />
-            機械 14:00～15:40　法規 15:50～17:00
-          </p>
-        </div>
+        <p class="workshop-top -bottom">
+          配信期間 最大18ヶ月 / サポート期間24ヶ月
+        </p>
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -blue -center">受講料金</p>
@@ -101,7 +82,7 @@
             <p class="workshop-text -ryoukin">
               <span>【セット】</span>
               <br />
-              ✅【全科目】完全制覇セット(10日間)▶️ 【セット割】145,000円
+              ✅【全科目】完全制覇セット(約56時間)▶️ 【セット割】135,000円
               <br />
               学習内容：基礎の基礎・基礎・理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
               ）
@@ -109,7 +90,7 @@
               基礎の基礎講座から法規、模擬試験までが全てセットになったコース
               <br />
               <br />
-              ✅【４科目】完全制覇セット(10日間)▶️ 【セット割】135,000円
+              ✅【４科目】完全制覇セット(約44時間)▶️ 【セット割】125,000円
               <br />
               学習内容：理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
               ）
@@ -119,26 +100,18 @@
               <br />
               <span>【科目別】</span>
               <br />
-              ✅基礎の基礎（無料体験会）
+              ✅基　礎 (約12時間)▶️15,400円
               <br />
-              学習内容：無料体験会・講座説明・電気数学の基礎・質疑応答・抽選会（電験Tシャツが当たる！）・個別相談会
+              ✅理　論 (約12時間)▶️29,700円
               <br />
-              ✅基　礎（1日）▶️16,500円
+              ✅電　力 (約12時間)▶️29,700円
               <br />
-              ✅理　論（2日）▶️31,900円
+              ✅機　械 (約12時間)▶️29,700円
               <br />
-              ✅電　力（2日）▶️31,900円
+              ✅法　規 (約 6時間)▶️16,500円
               <br />
-              ✅機　械（2日）▶️31,900円
+              ✅模擬試験(各科目約30分)▶️１科目6,600円
               <br />
-              ✅法　規（2日）▶️16,500円
-              <br />
-              ✅模擬試験（1日）▶️１科目6,600円
-              <br />
-              <br />
-              <span>
-                当日仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
-              </span>
               <br />
               ※消費税・教材費・添削費・配送料全て込み
               <br />
@@ -335,6 +308,10 @@
     font-weight: 700;
   }
 
+  .workshop-top.-bottom {
+    margin-top: 10px;
+  }
+
   .workshop-wrapper {
     padding: 10px 30px;
     margin: 0 auto;
@@ -381,6 +358,9 @@
 
   .workshop-topImg-text {
     width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
