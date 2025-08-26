@@ -273,7 +273,7 @@
   .courseOverview {
     max-width: 1170px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ebf7ff;
     z-index: 0;
     position: relative;
     font-family: "Meiryo", sans-serif;
@@ -296,6 +296,7 @@
   }
   .courseOverview-content {
     margin: 0 auto;
+    background-color: #fff;
   }
   .courseOverview-flex {
     display: flex;
