@@ -575,11 +575,7 @@
             <div class="bg-white">
               <!-- <h3 class="body-title">オンライン講座</h3> -->
               <CourseOverview2 title="オンライン講座" />
-              <InfoDenken3
-                :courseOutline="richtextToHTML($static.online.courseOutline)"
-                :apply="richtextToHTML($static.online.apply)"
-              />
-              <div id="apply-section"></div>
+
               <Merumaga />
               <NewApplicationDenken3
                 personalFormText="お申込みはこちら（個人）"
