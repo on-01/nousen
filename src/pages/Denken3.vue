@@ -109,52 +109,8 @@
                 </a>
               </div>
 
-              <!-- <div class="exam-link-wrapper -column">
-                <g-link
-                  to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
-                  class="online-link"
-                >
-                  オンライン相談はこちら
-                  <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                </g-link>
-              </div> -->
               <MeritDenken3 />
               <StudyDenken3 />
-              <!-- <Study
-                studySlug="denken"
-                name1="電験三種の合格に必要な勉強時間"
-                time1="1,000"
-                pc_text="勉強時間は個人の前提知識や学習スピードによって異なりますが、全科目合格するには通常は約1000時間の学習が必要<br>とされています。<br>
-                例えば、毎日3時間ずつ勉強すれば、約9ヶ月から1年かかるでしょう。<br>
-                ただし、1000時間は目安であり、自身の進捗状況や理解度に合わせて、柔軟にスケジュールを調整することが重要です。<br>
-                また、定期的な復習や自己評価も忘れずに行い、学習効果を高めることを意識しましょう。<br>
-                特に理系の科目が多いため、理系出身かどうかや理系科目の得意不得意も影響を与えます。"
-                sp_text="勉強時間は個人の前提知識や学習スピードによって異なりますが、全科目合格するには通常は約1000時間の学習が必要とされています。<br>
-                例えば、毎日3時間ずつ勉強すれば、約9ヶ月から1年かかるでしょう。<br>
-                ただし、1000時間は目安であり、自身の進捗状況や理解度に合わせて、柔軟にスケジュールを調整することが重要です。<br>
-                また、定期的な復習や自己評価も忘れずに行い、学習効果を高めることを意識しましょう。<br>
-                特に理系の科目が多いため、理系出身かどうかや理系科目の得意不得意も影響を与えます。"
-              /> -->
-
-              <!-- <Method
-                text="電験三種の勉強は、理論、電力または機械、法規の順番で進めると効果的です。<br>
-                まずは礎となる理論を理解し、その後に電力や機械といった実践的な科目を習得します。<br>
-                電力と機械はどちらから先に学んでも問題ありません。 法規はそれまで勉強してきた科目の集大成として考えましょう。<br>
-                電気工学や電力系統に関する基本的な知識を得るために、教科書や参考書、オンライン学習、講習会を利用することをおすすめします。<br><br>
-  
-                ① 試験範囲の確認: 受験要項や過去の試験問題を調べ、出題範囲や試験形式を把握。<br>
-                ② 教科書や参考書の学習: 電気工学や電力系統に関する基礎知識を身につけるため、教科書や参考書を順番に学習。<br>
-                ③ 過去の試験問題の解答: 過去の試験問題を解くことで、実際の試験形式や問題の傾向を把握し、対策を練ることができます。<br>
-                ④ 模擬試験の受験: 本番の試験に近い環境で、模擬試験を受けることで実践力を養います。<br><br>
-  
-                また、独学の方は講習会やオンライン講座に参加することも有益です。<br>
-                他の受験生と情報交換や質問をすることで学習の効率が上がるでしょう。<br>
-                最終的には、自身の学習スタイルやペースに合わせて計画を立て、着実に進めることが重要です。<br>
-                また、継続的な努力と忍耐力を持ちながら、定期的に自己評価を行い、必要な修正を加えることも大切です。<br>"
-                boldText="能センでは基礎講座、模擬試験、出題傾向、過去問題、テキストまで全てご対応しております。"
-              />
- -->
-              <!-- <blog title="電験三種（第三種電気主任技術者）の新記事ブログ" /> -->
               <RecommendLink />
 
               <div style="padding-bottom: 100px">
@@ -236,16 +192,13 @@
 
             <div class="bg-white">
               <ExamSupport />
-              <!-- <Exam title="最新の予想模擬試験＋ポイント解説" /> -->
 
-              <!-- <CourseOverview
-              title="通 学 講 座"
-            /> -->
               <FollowUpDenken3 />
               <SetCourse title="通学＋オンラインセット" />
             </div>
 
             <div class="bg-white_type2">
+              <!-- 受講生の声 -->
               <section class="voice">
                 <div class="voice-inner">
                   <div class="voice-content">
@@ -479,23 +432,6 @@
 
             <div class="body">
               <CourseOverview1 title="通 学 講 座" />
-              <!-- <h3 class="body-title">各会場の開催日程</h3> -->
-              <!-- <VenueAddMapDenken3
-                v-for="(items, index) in $static.tuugakuVenue.edges"
-                :key="index"
-                :city="items.node.city"
-                :period="items.node.period"
-                :hall="items.node.hall"
-                :details="items.node.details"
-                :address="items.node.address"
-                :map="items.node.map"
-              /> -->
-              <!-- <Info
-                :tuitionFee="richtextToHTML($static.tuugaku.tuitionFee)"
-                :capacity="$static.tuugaku.capacity"
-                :benefits="richtextToHTML($static.tuugaku.benefits)"
-                :cpds="richtextToHTML($static.tuugaku.cpds)"
-              /> -->
               <Merumaga />
               <NewApplicationDenken3
                 personalFormLink="/denken3-application"
@@ -574,16 +510,12 @@
 
             <div class="bg-white">
               <ExamSupport />
-              <!-- <Exam title="最新の予想模擬試験＋ポイント解説" /> -->
-
-              <!-- <CourseOverview
-              title="通 学 講 座"
-            /> -->
               <FollowUpDenken3 />
               <SetCourse title="通学＋オンラインセット" />
             </div>
 
             <div class="bg-white_type2">
+              <!-- 受講生の声 -->
               <section class="voice">
                 <div class="voice-inner">
                   <div class="voice-content">
@@ -650,13 +582,6 @@
                       </div>
                     </div>
                     <div class="voice-comment">
-                      <!-- <div class="voice-item">
-                              <h4>【能センについて】</h4>
-                              <p>
-                                ・講習会を実際に受けて見たらかなり良くて、スタッフの対応も丁寧で安心しました！<br>
-                                ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
-                              </p>
-                          </div> -->
                       <div class="voice-item">
                         <h4>【基礎講座】</h4>
                         <div class="voice-item-flex">
@@ -816,7 +741,6 @@
             </div>
 
             <div class="body">
-              <!-- <h3 class="body-title">オンライン講座</h3> -->
               <CourseOverview2 title="オンライン講座" />
 
               <Merumaga />
@@ -850,8 +774,9 @@
               "
             />
 
+            <WorkshopDenkenTusin />
+
             <div class="bg-white">
-              <!-- <h3 class="body-title">通信講座</h3> -->
               <CourseOverview3 title="通 信 講 座" />
               <Info
                 :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
@@ -871,17 +796,6 @@
             </div>
           </div>
         </header>
-
-        <!-- <div class="fixed-btn">
-          <div @click="navigateToSection">
-            <img
-              src="../assets/img/common/fixed_btn.svg"
-              alt="講座のお申し込み"
-              width="534"
-              height="92"
-            />
-          </div>
-        </div> -->
       </div>
     </Layout>
   </div>
@@ -986,6 +900,7 @@
   import NewSutudy from "../components/licensePage/NewSutudy.vue";
   import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
   import NewSutudyOnline from "../components/licensePage/NewSutudyOnline.vue";
+  import WorkshopDenkenTusin from "../components/licensePage/WorkshopDenkenTusin.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -1070,6 +985,7 @@
       NewSutudy,
       WorkshopDenkenOnline,
       NewSutudyOnline,
+      WorkshopDenkenTusin,
     },
     data() {
       return {
