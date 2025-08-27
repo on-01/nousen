@@ -34,6 +34,40 @@
           試験内容やその他、電気事業法や法令・法律は改定/改正されることがありますので、最新の試験対策講座をおすすめいたします。
         </p>
       </div>
+
+      <div class="workshop-orangeLine">
+        <div class="workshop-orangeLine__inner">
+          <img
+            class="workshop-orangeLine__icon"
+            src="../../assets/img/icon/note.svg"
+          />
+          <p class="workshop-orangeLine__heading">
+            オンラインサポートサービス【能センサポ】とは？
+          </p>
+          <p class="workshop-orangeLine__text">
+            能センサポは、オンラインで講師に直接質問できる
+            <span>あなた専用の家庭教師サービス</span>
+            です。
+            <br />
+            回数無制限で質問でき、追加料金は一切不要。
+            <br />
+            予約もとっても簡単。専用ページから日時を選ぶだけで、
+            <br />
+            GoogleカレンダーやOutlookと自動連携し、スケジュール管理もスムーズ。
+            <br />
+            <br />
+            予約時間になれば、担当講師と1対1でつながり、疑問をその場でスッキリ解決。
+            <br />
+            「聞きたいけど誰にも聞けない…」そんな不安はもう必要ありません。
+            <br />
+            ひとりで悩まない、いつでも頼れる存在。
+            <br />
+            それが、オンライン家庭教師サービス
+            <span>【能センサポ】</span>
+            です。
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -202,6 +236,60 @@
     }
     .add {
       padding: 0 20px;
+    }
+  }
+
+  .workshop-orangeLine {
+    padding: 0 30px;
+  }
+
+  .workshop-orangeLine.-gansho {
+    padding: 0 0 40px;
+  }
+
+  .workshop-orangeLine__inner {
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid #1262b2;
+    border-radius: 12px;
+    max-width: 652px;
+    // min-width: 652px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    // @media print, screen and (max-width: 1000px) {
+    //   margin-top: 0;
+    // }
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: -20px;
+    top: -18px;
+    width: 54px;
+  }
+
+  .workshop-orangeLine__heading {
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+  }
+
+  .workshop-orangeLine__text {
+    margin: 10px 0 0;
+    line-height: 1.7;
+    text-align: left;
+    @media print, screen and (max-width: 768px) {
+      text-align: left;
+    }
+    span {
+      font-weight: 700;
     }
   }
 </style>
