@@ -1219,7 +1219,10 @@
     align-items: center;
   }
   .courseOverview-flex.-reverse {
+    max-width: 1300px;
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .courseOverview-flex-right,
   .courseOverview-flex-left {
