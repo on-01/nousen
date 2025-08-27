@@ -257,8 +257,7 @@
     padding: 20px;
     border: 4px solid #1262b2;
     border-radius: 12px;
-    max-width: 652px;
-    // min-width: 652px;
+    max-width: 690px;
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
