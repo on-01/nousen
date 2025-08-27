@@ -775,6 +775,7 @@
             />
 
             <WorkshopDenkenTusin />
+            <TokusenWorkbook />
 
             <div class="bg-white">
               <CourseOverview3 title="通 信 講 座" />
@@ -901,6 +902,7 @@
   import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
   import NewSutudyOnline from "../components/licensePage/NewSutudyOnline.vue";
   import WorkshopDenkenTusin from "../components/licensePage/WorkshopDenkenTusin.vue";
+  import TokusenWorkbook from "../components/licensePage/TokusenWorkbook.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -986,6 +988,7 @@
       WorkshopDenkenOnline,
       NewSutudyOnline,
       WorkshopDenkenTusin,
+      TokusenWorkbook,
     },
     data() {
       return {

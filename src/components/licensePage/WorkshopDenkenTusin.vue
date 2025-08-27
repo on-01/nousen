@@ -3,7 +3,7 @@
     <p class="workshop-title">第三種電気主任技術者 通信講座</p>
     <div class="workshop-topImg">
       <img
-        src="../../assets/img/license_page/denken3/denken3_courseOverview_3.jpg　"
+        src="../../assets/img/license_page/denken3/denken3_courseOverview_3.jpg"
         alt="電験三種 第三種電気主任技術者"
       />
       <div class="workshop-topImg-text">
