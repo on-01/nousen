@@ -1456,7 +1456,7 @@
         margin: 0 3px;
       }
       @media print, screen and (max-width: 590px) {
-        font-size: 12px;
+        font-size: 2vw;
         line-height: 1.5;
         text-align: center;
         padding: 9px 0;
