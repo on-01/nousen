@@ -777,7 +777,233 @@
             <WorkshopDenkenTusin />
             <NewSutudyTusin />
 
-            <div class="bg-white">
+            <div class="bg-white_type2">
+              <!-- 受講生の声 -->
+              <section class="voice">
+                <div class="voice-inner">
+                  <div class="voice-content">
+                    <p class="voice-head">
+                      ＼ アンケートによる受講生満足度９７％ ／
+                    </p>
+                    <h3 class="voice-title">受講生の声</h3>
+                    <div class="voice-topic">
+                      <div class="voice-flex">
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            授業がとにかく
+                            <br />
+                            分かりやすかった！
+                          </p>
+                        </div>
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            質問にも丁寧に
+                            <br />
+                            対応してくれた。
+                          </p>
+                        </div>
+                      </div>
+                      <div class="voice-flex">
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            教材・資料が
+                            <br />
+                            充実している。
+                          </p>
+                        </div>
+                        <div class="voice-box">
+                          <figure>
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            話し方が丁寧で
+                            <br />
+                            聞きやすかった。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="voice-comment">
+                      <div class="voice-item">
+                        <h4>【基礎講座】</h4>
+                        <div class="voice-item-flex">
+                          <figure v-on:click="toggleVoice(1)" class="-sp-none">
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            ・現場の実例があり、公式や問題の意味が理解できた。
+                            <br />
+                            ・電気数学（基礎数学）が苦手で「どうしたらその解答になる？」ということが多かったが、
+                            講座を受講して電験三種に必要な数学知識の習得ができた。
+                            <br />
+                            ・学生時代に理解しきれていなかった内容などをわかりやすく、具体的に説明されていた。
+                          </p>
+                        </div>
+                        <div v-show="isVoice === 1" class="voice-upImage">
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
+                            alt="電験三種 第三種電気主任技術者"
+                          />
+                        </div>
+                      </div>
+                      <div class="voice-item">
+                        <h4>【理論】</h4>
+                        <div class="voice-item-flex">
+                          <figure v-on:click="toggleVoice(2)" class="-sp-none">
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            ・どこから手をつけていいか悩んでいたのが、ポイントを抑えてくださったおかげで進め方の道しるべになりました。
+                            また強制的に勉強の機会を作る為、通学を選びましたが、オンラインでも振り返れるところがとてもありがたいです。
+                            調べた中では両方実地しているところは他にはなく、非常に魅力的だと思います。
+                          </p>
+                        </div>
+                        <div v-show="isVoice === 2" class="voice-upImage">
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
+                            alt="電験三種 第三種電気主任技術者"
+                          />
+                        </div>
+                      </div>
+                      <div class="voice-item">
+                        <h4>【電力】</h4>
+                        <div class="voice-item-flex">
+                          <figure v-on:click="toggleVoice(3)" class="-sp-none">
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            ・出題傾向を変えながら要点を教えていただけた。
+                            <br />
+                            ・単位の重要性を改めて実感しました。式計算する時に式を立てるだけでなく式の中でも単位を使用してみようと思います。
+                            <br />
+                            ・図解が分かりやすく、学習範囲も明確になりました。
+                          </p>
+                        </div>
+                        <div v-show="isVoice === 3" class="voice-upImage">
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
+                            alt="電験三種 第三種電気主任技術者"
+                          />
+                        </div>
+                      </div>
+                      <div class="voice-item">
+                        <h4>【機械】</h4>
+                        <div class="voice-item-flex">
+                          <figure v-on:click="toggleVoice(4)" class="-sp-none">
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            ・自動制御が非常に分かりやすかった。
+                            <br />
+                            ・膨大な出題範囲から要点を絞って解説して頂き、学習の効率化に繋がると実感しております。
+                            <br />
+                            ・自分で学習した際にはなぜその手順で解法が成り立つのか確認できた。
+                            <br />
+                            ・色々なテキストを買って勉強していたが、テキストでは教えてくれない内容がわかり理解が深まった。
+                          </p>
+                        </div>
+                        <div v-show="isVoice === 4" class="voice-upImage">
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
+                            alt="電験三種 第三種電気主任技術者"
+                          />
+                        </div>
+                      </div>
+                      <div class="voice-item">
+                        <h4>【法規】</h4>
+                        <div class="voice-item-flex">
+                          <figure v-on:click="toggleVoice(5)" class="-sp-none">
+                            <img
+                              src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
+                              alt="電験三種 第三種電気主任技術者"
+                            />
+                          </figure>
+                          <p>
+                            ・大嶋先生の講義が非常にわかりやすく、講習を受けてよかったです！
+                            <br />
+                            ・広範囲に渡る問題の中から厳選されて説明を受けたので、自己学習のポイントが分かり、良かったと思います。ありがとうございました。
+                            <br />
+                            ・受験対策用の講習としてかなり満足した内容でした。提出課題も頑張って提出します！
+                          </p>
+                        </div>
+                        <div v-show="isVoice === 5" class="voice-upImage">
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
+                            alt="電験三種 第三種電気主任技術者"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- <CampaignDenken3 date="３月１５日（金）" /> -->
+
+              <Discount title="🎓 GO!資格 合格応援制度 START！" />
+
+              <Fsc title="持続可能なミライへ" />
+            </div>
+
+            <div class="bg-white_type2">
+              <div class="exam-link-wrapper">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/denken3-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/denken3-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
+              </div>
+            </div>
+
+            <div class="body">
               <CourseOverview3 title="通 信 講 座" />
               <Info
                 :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
