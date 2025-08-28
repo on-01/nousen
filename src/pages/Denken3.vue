@@ -1462,6 +1462,9 @@
         padding: 9px 0;
         margin: 0 3px;
       }
+      @media print, screen and (max-width: 480px) {
+        padding: 3px 0;
+      }
     }
 
     .tab.active {
