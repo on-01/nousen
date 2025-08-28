@@ -3,7 +3,7 @@
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
       <div class="courseOverview-content">
-        <div class="courseOverview-flex">
+        <!-- <div class="courseOverview-flex">
           <div class="courseOverview-flex-left">
             <p class="courseOverview-title">{{ title }}</p>
             <div class="courseOverview-line"></div>
@@ -27,8 +27,8 @@
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
-        </div>
-        <div class="workshop-flex-img">
+        </div> -->
+        <!-- <div class="workshop-flex-img">
           <div>
             <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
             <img
@@ -45,8 +45,7 @@
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
-        </div>
-        <br />
+        </div> -->
         <!-- <p class="courseOverview-text -type2">①いつでもどこでも何度でも</p>
         <p class="courseOverview-text -type3">
           ▶ネット端末があれば、電車の中や職場など場所を選ばず何度でも視聴が可能。
@@ -188,7 +187,7 @@
               </td>
             </tr>
           </table>
-          <div class="online-flex">
+          <!-- <div class="online-flex">
             <figure class="online-flex-image">
               <img
                 src="../../assets/img/license_page/denken3/denken3_completion.jpg"
@@ -206,11 +205,11 @@
                 修了証を手に入れましょう！
               </p>
             </div>
-          </div>
+          </div> -->
           <!-- <p class="courseOverview-text -type4">
             ※令和６年度に撮影した動画になります。
           </p> -->
-          <div class="workshop-flow">
+          <!-- <div class="workshop-flow">
             <div class="workshop-flow-box">
               <p class="workshop-flow-heading">
                 【お申し込みから受講までの流れ】
@@ -255,7 +254,7 @@
             <p class="workshop-flow-text">
               <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -274,7 +273,7 @@
   .courseOverview {
     max-width: 1170px;
     width: 100%;
-    background-color: #fff;
+    background-color: #ebf7ff;
     z-index: 0;
     position: relative;
     font-family: "Meiryo", sans-serif;
@@ -297,6 +296,7 @@
   }
   .courseOverview-content {
     margin: 0 auto;
+    background-color: #fff;
   }
   .courseOverview-flex {
     display: flex;

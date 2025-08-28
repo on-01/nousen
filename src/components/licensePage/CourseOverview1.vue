@@ -3,7 +3,7 @@
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
       <div class="courseOverview-content">
-        <div class="courseOverview-flex -reverse">
+        <!-- <div class="courseOverview-flex -reverse">
           <div class="courseOverview-flex-left">
             <img
               class="courseOverview-flex-image"
@@ -36,7 +36,7 @@
               </a>
             </p>
           </div>
-        </div>
+        </div> -->
         <br />
         <!-- <p class="courseOverview-text -type4">
           ※試験内容やその他電気事業法や法令・法律は
@@ -175,12 +175,12 @@
           </table>
         </div>
       </div>
-      <p class="content-bottom-bold">📷写真撮影について</p>
+      <!-- <p class="content-bottom-bold">📷写真撮影について</p>
       <p class="content-bottom">
         能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
         <br />
         撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
-      </p>
+      </p> -->
     </div>
   </div>
 </template>
@@ -216,7 +216,8 @@
     margin: 0;
   }
   .courseOverview-inner {
-    padding: 60px 40px 40px;
+    padding: 0 0 40px;
+    background-color: #ebf7ff;
   }
   .courseOverview-content {
     margin: 0 auto;
@@ -296,6 +297,7 @@
     line-height: 1.8;
     font-weight: 400;
     padding: 8px;
+    background-color: #fff;
   }
   .courseOverview-th-text {
     font-weight: 400;
@@ -360,7 +362,7 @@
 
   @media print, screen and (max-width: 768px) {
     .courseOverview {
-      width: 84%;
+      width: 90%;
       margin: 0 auto;
     }
     .courseOverview-inner {
