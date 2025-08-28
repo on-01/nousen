@@ -1005,12 +1005,6 @@
 
             <div class="body">
               <CourseOverview3 title="通 信 講 座" />
-              <Info
-                :tuitionFee="richtextToHTML($static.tuushin.tuitionFee)"
-                :capacity="$static.tuushin.capacity"
-                :benefits="richtextToHTML($static.tuushin.benefits)"
-                :cpds="richtextToHTML($static.tuushin.cpds)"
-              />
               <Merumaga />
               <NewApplicationDenken3
                 personalFormText="お申込みはこちら（個人）"

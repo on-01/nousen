@@ -3,7 +3,7 @@
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
       <div class="courseOverview-content">
-        <div class="courseOverview-flex">
+        <!-- <div class="courseOverview-flex">
           <div class="courseOverview-flex-left">
             <img
               class="courseOverview-flex-image"
@@ -22,9 +22,8 @@
               　最大24ヶ月間のサポート！
             </p>
           </div>
-        </div>
-        <br />
-        <p class="courseOverview-text -type3">
+        </div> -->
+        <!-- <p class="courseOverview-text -type3">
           自分のペースで勉強し、添削課題のやりとりを通して学習を進めるスタイル。
           <br />
           合計8回分の添削課題で学習内容が身に付いていくのが実感できます。
@@ -36,11 +35,9 @@
           <span class="courseOverview-td-text">
             途中でオンライン講座に変更も可能！差額＋手数料ですぐにご対応いたします。
           </span>
-        </p>
-        <div class="courseOverview-flex -reverse">
+        </p> -->
+        <!-- <div class="courseOverview-flex -reverse">
           <div class="courseOverview-flex-left">
-            <!-- <p class="courseOverview-title">{{ title }}</p>
-            <div class="courseOverview-line"></div> -->
             <p class="courseOverview-text -type1 -center">
               特選問題集を新しく追加！
             </p>
@@ -59,7 +56,7 @@
               alt="電験三種 第三種電気主任技術者"
             />
           </div>
-        </div>
+        </div> -->
         <div class="courseOverview-table-wrap">
           <table>
             <tr>
@@ -195,8 +192,10 @@
   }
   .courseOverview-inner {
     padding: 60px 40px 40px;
+    background-color: #ebf7ff;
   }
   .courseOverview-content {
+    background-color: #fff;
     margin: 0 auto;
   }
   .courseOverview-flex {
