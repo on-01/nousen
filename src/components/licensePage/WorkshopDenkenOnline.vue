@@ -27,7 +27,7 @@
       <div class="workshop-box">
         <div class="workshop-content">
           <p class="workshop-text -first -blue">科目</p>
-          <p class="workshop-text -third -blue">講習日程</p>
+          <p class="workshop-text -third -blue">配信日程</p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">基　礎 (約12時間)</p>
