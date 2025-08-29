@@ -65,7 +65,7 @@
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">(各科目約30分)</p>
+          <p class="workshop-text odd">模擬試験 (各科目約30分)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
             <span class="workshop-text-red">【受付中】</span>
