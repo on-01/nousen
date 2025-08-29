@@ -33,42 +33,42 @@
           <p class="workshop-text odd">基　礎 (約12時間)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">理　論 (約12時間)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力 (約12時間)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械 (約12時間)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規 (約 6時間)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">(各科目約30分)</p>
           <p class="workshop-text even">
             ご入金後～令和8年7月31日(金)まで
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <p class="workshop-top -bottom">
