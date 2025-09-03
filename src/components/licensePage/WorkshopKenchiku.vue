@@ -791,16 +791,6 @@
                     で５００円割引キャンペーン（他割引と併用可）
                     <br />
                     ・
-                    <a
-                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      人材開発支援助成金
-                    </a>
-                    （人材育成支援コース）
-                    <br />
-                    ・
                     <span class="-red">【願書取り寄せサポート】</span>
                     あり
                     <br />
@@ -961,16 +951,6 @@
                       LINEお友達登録
                     </a>
                     で５００円割引キャンペーン（他割引と併用可）
-                    <br />
-                    ・
-                    <a
-                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      人材開発支援助成金
-                    </a>
-                    （人材育成支援コース）
                     <br />
                     ・
                     <span class="-red">【願書取り寄せサポート】</span>
