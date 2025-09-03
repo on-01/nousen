@@ -34,21 +34,21 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              通学講座
+              通学
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
               :class="['tab', { active: isActiveTop === 3 }]"
               v-on:click="tabToggleTop(3)"
             >
-              オンライン講座
+              オンライン
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
               :class="['tab', { active: isActiveTop === 4 }]"
               v-on:click="tabToggleTop(4)"
             >
-              通信講座
+              通信
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
