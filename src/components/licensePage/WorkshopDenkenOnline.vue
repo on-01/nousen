@@ -448,7 +448,7 @@
   .workshop-topImg-text-top {
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0;
   }
 
