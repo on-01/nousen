@@ -191,7 +191,7 @@
             />
 
             <div class="bg-white">
-              <ExamSupport />
+              <ExamSupportTugaku />
 
               <FollowUpDenken3 />
               <SetCourse title="通学＋オンラインセット" />
@@ -1203,6 +1203,7 @@
       FollowUpDenken3,
       TimeCount,
       ExamSupport,
+      ExamSupportTugaku,
       WorkshopDenkenTugaku,
       NewSutudy,
       WorkshopDenkenOnline,
