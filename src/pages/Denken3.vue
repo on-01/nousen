@@ -1117,6 +1117,7 @@
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
+  import ExamSupportTugaku from "../components/licensePage/ExamSupportTugaku.vue";
   import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
   import NewSutudy from "../components/licensePage/NewSutudy.vue";
   import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
