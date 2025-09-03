@@ -212,12 +212,21 @@
   }
 
   .exam-textWrapBottom {
+    margin-top: 100px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
     .exam-head {
       text-align: center;
     }
     img {
-      width: 100%;
-      margin-bottom: 20px;
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      height: auto;
+      @media screen and (max-width: 1000px) {
+        width: 100%;
+      }
     }
   }
 
