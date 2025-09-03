@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">法　規　　(2日/15時間)</p>
+          <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             7月の土曜 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
@@ -82,7 +82,7 @@
             <br />
             模擬試験を取り組んだ後
             <br />
-            ３０分程度の解答解説講座
+            30分程度の解答解説講習
           </p>
           <p class="workshop-text even">
             7月の日曜 9:30～17:00
