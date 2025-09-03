@@ -778,6 +778,20 @@
                   </td>
                 </tr>
                 <tr>
+                  <th>給付金・助成金</th>
+                  <td>
+                    ・
+                    <a
+                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      人材開発支援助成金
+                    </a>
+                    （人材育成支援コース）
+                  </td>
+                </tr>
+                <tr>
                   <th><span class="-red">お得なキャンペーン</span></th>
                   <td>
                     ・
@@ -899,20 +913,6 @@
                     あり
                     <br />
                     &emsp;
-                  </td>
-                </tr>
-                <tr>
-                  <th>給付金・助成金</th>
-                  <td>
-                    ・
-                    <a
-                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      人材開発支援助成金
-                    </a>
-                    （人材育成支援コース）
                   </td>
                 </tr>
                 <tr>
