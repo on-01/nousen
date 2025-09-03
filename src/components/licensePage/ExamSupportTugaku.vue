@@ -75,7 +75,7 @@
                 src="../../assets/img/license_page/denken3/denken3_exam_10.png"
                 alt="電験三種 第三種電気主任技術者"
               />
-              <p class="exam-text">
+              <p class="exam-text -bottom">
                 ご提出いただいた課題は、専門講師が一つひとつ丁寧にチェックし、赤ペンで的確なアドバイスを書き込みます。
                 <br />
                 さらに詳しい解答解説付きで返却するので、「なぜ間違えたのか」「どうすれば正解できるのか」がその場で理解できます。
@@ -244,4 +244,10 @@
       font-weight: 700;
     }
   }
+  .exam-text.-bottom {
+    display: block;
+    max-width: 575px;
+    margin: 20px auto 0 auto;
+  }
 </style>
+margin: 20px auto 0 auto; }
