@@ -34,21 +34,21 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              通学講座
+              通学
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
               :class="['tab', { active: isActiveTop === 3 }]"
               v-on:click="tabToggleTop(3)"
             >
-              オンライン講座
+              オンライン
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
               :class="['tab', { active: isActiveTop === 4 }]"
               v-on:click="tabToggleTop(4)"
             >
-              通信講座
+              通信
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
@@ -191,7 +191,7 @@
             />
 
             <div class="bg-white">
-              <ExamSupport />
+              <ExamSupportTugaku />
 
               <FollowUpDenken3 />
               <SetCourse title="通学＋オンラインセット" />
@@ -1117,6 +1117,7 @@
   import FollowUpDenken3 from "../components/licensePage/FollowUpDenken3.vue";
   import TimeCount from "../components/licensePage/TimeCount.vue";
   import ExamSupport from "../components/licensePage/ExamSupport.vue";
+  import ExamSupportTugaku from "../components/licensePage/ExamSupportTugaku.vue";
   import WorkshopDenkenTugaku from "../components/licensePage/WorkshopDenkenTugaku.vue";
   import NewSutudy from "../components/licensePage/NewSutudy.vue";
   import WorkshopDenkenOnline from "../components/licensePage/WorkshopDenkenOnline.vue";
@@ -1203,6 +1204,7 @@
       FollowUpDenken3,
       TimeCount,
       ExamSupport,
+      ExamSupportTugaku,
       WorkshopDenkenTugaku,
       NewSutudy,
       WorkshopDenkenOnline,

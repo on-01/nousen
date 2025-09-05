@@ -14,7 +14,7 @@
           <br />
           業界支持率No.1の実績
           <br />
-          圧倒的わかりやすさで合格を掴め！
+          圧倒的わかりやすさで合格を掴み取れ！
         </p>
         <p class="workshop-topImg-text-bottom">
           令和8年度上期 筆記・CBT試験日対応の通学講座。
@@ -70,7 +70,7 @@
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">法　規　　(2日/15時間)</p>
+          <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             7月の土曜 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
@@ -82,7 +82,7 @@
             <br />
             模擬試験を取り組んだ後
             <br />
-            ３０分程度の解答解説講座
+            30分程度の解答解説講習
           </p>
           <p class="workshop-text even">
             7月の日曜 9:30～17:00
@@ -103,16 +103,14 @@
               <br />
               ✅【全科目】完全制覇セット(10日間)▶️ 【セット割】145,000円
               <br />
-              学習内容：基礎の基礎・基礎・理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
-              ）
+              学習内容：基礎の基礎・基礎・理論・電力・機械・法規・模擬試験（理論・電力・機械・法規）
               <br />
               基礎の基礎講座から法規、模擬試験までが全てセットになったコース
               <br />
               <br />
               ✅【４科目】完全制覇セット(10日間)▶️ 【セット割】135,000円
               <br />
-              学習内容：理論・電力・機械・法規・模擬試験（理論・電力・機械・法規
-              ）
+              学習内容：理論・電力・機械・法規・模擬試験（理論・電力・機械・法規）
               <br />
               基礎の土台ができている方に向けた４科目セット＋模擬試験
               <br />
@@ -231,9 +229,11 @@
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
-      能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
+      能センでは、休憩時間中にホワイトボードや教室の写真・動画を撮影いただけます。
       <br />
-      撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
+      復習用はもちろん、思い出や記録、SNSへの投稿にもぜひご活用ください。
+      <br />
+      皆さまの投稿は、これから学ぶ方々への励みにもなります！
     </p>
 
     <div class="bg-white_type2">
@@ -377,6 +377,10 @@
   .workshop-content {
     width: 100%;
     display: flex;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   .workshop-topImg-text {
@@ -574,9 +578,12 @@
     // width: 100%;
     padding: 0 40px;
     max-width: 980px;
-    margin: 20px auto 60px;
+    margin: 50px auto 60px;
     column-gap: 14px;
     justify-content: center;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 20px;
+    }
 
     img {
       width: 43%;

@@ -25,6 +25,9 @@
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
+        <p class="workshop-top -bottom">
+          配信期間 最大18ヶ月 / サポート期間24ヶ月
+        </p>
         <div class="workshop-content">
           <p class="workshop-text -first -blue">科目</p>
           <p class="workshop-text -third -blue">配信日程</p>
@@ -71,9 +74,7 @@
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
-        <p class="workshop-top -bottom">
-          配信期間 最大18ヶ月 / サポート期間24ヶ月
-        </p>
+
         <div class="add-tableWrap">
           <div class="workshop-content -ryoukin">
             <p class="workshop-text -ryoukin -blue -center">受講料金</p>
@@ -384,7 +385,8 @@
   }
 
   .workshop-top.-bottom {
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 18px;
   }
 
   .workshop-wrapper {
@@ -429,6 +431,10 @@
   .workshop-content {
     width: 100%;
     display: flex;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   .workshop-topImg-text {
@@ -444,7 +450,7 @@
   .workshop-topImg-text-top {
     text-align: center;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0;
   }
 

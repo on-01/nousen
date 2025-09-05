@@ -332,6 +332,10 @@
   .workshop-content {
     width: 100%;
     display: flex;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   .workshop-topImg-text {

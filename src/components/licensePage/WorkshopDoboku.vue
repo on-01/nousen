@@ -190,9 +190,11 @@
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
-      能センでは、休憩時間中に、講義の復習用やSNS投稿用としてホワイトボードや教室の写真・動画撮影を大歓迎しています！
+      能センでは、休憩時間中にホワイトボードや教室の写真・動画を撮影いただけます。
       <br />
-      撮影したものは、ぜひSNSにアップしていただけると嬉しいです。
+      復習用はもちろん、思い出や記録、SNSへの投稿にもぜひご活用ください。
+      <br />
+      皆さまの投稿は、これから学ぶ方々への励みにもなります！
     </p>
 
     <div class="bg-white_type2">
@@ -716,13 +718,19 @@
                   </td>
                 </tr>
                 <tr>
-                  <th><span class="-red">建設業を応援しよう</span></th>
+                  <th>
+                    <span class="-red">
+                      建設業を応援しよう
+                      <br />
+                      （冊子・パンフレット）
+                    </span>
+                  </th>
                   <td>
                     ご希望の方に進呈
                     <br />
                     ■みんなの建設業Q&A50
                     <br />
-                    ■建設産業ガイドブック
+                    ■建設産業ガイドブック等
                   </td>
                 </tr>
                 <tr>
@@ -738,7 +746,7 @@
                     <span>再受講割引が適用</span>
                     <br />
                     ・その他
-                    <span class="-red">【合格応援割引制度】</span>
+                    <span class="-red">【🎓 GO!資格 合格応援制度】</span>
                     あり
                   </td>
                 </tr>
@@ -753,6 +761,20 @@
                   </td>
                 </tr>
                 <tr>
+                  <th>給付金・助成金</th>
+                  <td>
+                    ・
+                    <a
+                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      人材開発支援助成金
+                    </a>
+                    （人材育成支援コース）
+                  </td>
+                </tr>
+                <tr>
                   <th><span class="-red">お得なキャンペーン</span></th>
                   <td>
                     ・
@@ -764,16 +786,6 @@
                       LINEお友達登録
                     </a>
                     で５００円割引キャンペーン（他割引と併用可）
-                    <br />
-                    ・
-                    <a
-                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      人材開発支援助成金
-                    </a>
-                    （人材育成支援コース）
                     <br />
                     ・
                     <span class="-red">【願書取り寄せサポート】</span>
@@ -855,13 +867,19 @@
                   </td>
                 </tr>
                 <tr>
-                  <th><span class="-red">建設業を応援しよう</span></th>
+                  <th>
+                    <span class="-red">
+                      建設業を応援しよう
+                      <br />
+                      （冊子・パンフレット）
+                    </span>
+                  </th>
                   <td>
                     ご希望の方に進呈
                     <br />
                     ■みんなの建設業Q&A50
                     <br />
-                    ■建設産業ガイドブック
+                    ■建設産業ガイドブック等
                   </td>
                 </tr>
                 <tr>
@@ -875,7 +893,7 @@
                     <span>再受講割引が適用</span>
                     <br />
                     ・その他
-                    <span class="-red">【合格応援割引制度】</span>
+                    <span class="-red">【🎓 GO!資格 合格応援制度】</span>
                     あり
                     <br />
                     &emsp;
@@ -892,6 +910,20 @@
                   </td>
                 </tr>
                 <tr>
+                  <th>給付金・助成金</th>
+                  <td>
+                    ・
+                    <a
+                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      人材開発支援助成金
+                    </a>
+                    （人材育成支援コース）
+                  </td>
+                </tr>
+                <tr>
                   <th><span class="-red">お得なキャンペーン</span></th>
                   <td>
                     ・
@@ -903,16 +935,6 @@
                       LINEお友達登録
                     </a>
                     で５００円割引キャンペーン（他割引と併用可）
-                    <br />
-                    ・
-                    <a
-                      href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      人材開発支援助成金
-                    </a>
-                    （人材育成支援コース）
                     <br />
                     ・
                     <span class="-red">【願書取り寄せサポート】</span>

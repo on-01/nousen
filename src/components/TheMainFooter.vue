@@ -235,12 +235,12 @@
         margin-top: 1.5em;
 
         &_logo {
-          font-size: 13px;
+          font-size: 15px;
           margin: 0;
           font-weight: bold;
           // font-family: "メイリオ", sans-serif;
           @media print, screen and(max-width: 1000px) {
-            font-size: 12px;
+            font-size: 14px;
           }
         }
       }
