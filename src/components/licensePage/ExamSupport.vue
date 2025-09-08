@@ -56,7 +56,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            src="../../assets/img/license_page/denken3/denken3_exam_9.png"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
@@ -73,7 +73,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_9.png"
+            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
@@ -104,9 +104,11 @@
               ・オンライン講座では動画形式で視聴可能
               <br />
               ・弱点補強と理解定着を効率的にサポート
-              <br>
-              <br>
-              <span>※オンライン講座では、問題・解答解説のPDFをダウンロード</span>
+              <br />
+              <br />
+              <span>
+                ※オンライン講座では、問題・解答解説のPDFをダウンロード
+              </span>
             </p>
           </div>
         </li>

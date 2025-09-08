@@ -56,7 +56,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            src="../../assets/img/license_page/denken3/denken3_exam_9.png"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
@@ -85,7 +85,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_9.png"
+            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
