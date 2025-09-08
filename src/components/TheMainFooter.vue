@@ -235,7 +235,7 @@
         margin-top: 1.5em;
 
         &_logo {
-          font-size: 15px;
+          font-size: 13px;
           margin: 0;
           font-weight: bold;
           // font-family: "メイリオ", sans-serif;
