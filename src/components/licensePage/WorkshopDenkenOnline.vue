@@ -407,8 +407,8 @@
     min-width: 700px;
     margin: 0 auto;
     @media print, screen and (max-width: 768px) {
-      min-width: 600px;
-      max-width: 600px;
+      min-width: 650px;
+      max-width: 650px;
     }
   }
 
@@ -480,9 +480,15 @@
     }
     &.odd {
       width: 40%;
+      @media print, screen and (max-width: 768px) {
+        width: 30%;
+      }
     }
     &.even {
       width: 60%;
+      @media print, screen and (max-width: 768px) {
+        width: 70%;
+      }
     }
   }
 
@@ -512,6 +518,9 @@
     justify-content: center;
     align-items: center;
     border-left: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 30%;
+    }
   }
   .workshop-text.-second {
     width: 35%;
@@ -525,6 +534,9 @@
     // flex-direction: column;
     border-left: none;
     border-right: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 70%;
+    }
   }
 
   .workshop-border {
@@ -908,8 +920,8 @@
       display: none;
     }
     @media print, screen and (max-width: 768px) {
-      min-width: 600px;
-      max-width: 600px;
+      min-width: 650px;
+      max-width: 650px;
     }
   }
 
