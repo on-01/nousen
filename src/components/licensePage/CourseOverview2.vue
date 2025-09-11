@@ -173,6 +173,7 @@
               <td>
                 ・
                 <a
+                  class="courseOverview-link"
                   href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -383,9 +384,6 @@
     line-height: 1.8;
     font-weight: 400;
     padding: 8px;
-    a {
-      text-decoration: none;
-    }
   }
   .courseOverview-th-text {
     font-weight: 400;
@@ -401,7 +399,7 @@
   }
 
   .courseOverview-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #337ab7;
     color: #337ab7;
   }
