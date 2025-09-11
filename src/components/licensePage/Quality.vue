@@ -119,6 +119,45 @@
         <p class="basis-bottom">
           「数学が苦手でも大丈夫！電験三種の全体像を基礎から学ぼう」
         </p>
+        <div class="workshop-orangeLine">
+          <div class="workshop-orangeLine__inner">
+            <img
+              class="workshop-orangeLine__icon"
+              src="../../assets/img/icon/note.svg"
+            />
+            <p class="workshop-orangeLine__heading">
+              令和8年度 無料体験講習「基礎の基礎」
+            </p>
+            <p class="workshop-orangeLine__title">
+              電験三種の合格を目指す皆さまへ！
+            </p>
+            <p class="workshop-orangeLine__text">
+              これから勉強を始める方も、基礎を固め直したい方も大歓迎！
+              <br />
+              受験成功への第一歩として、無料体験講習を開催します！
+              <br />
+              <br />
+              日時：令和8年4月04日(土) 9:30～12:30
+              <br />
+              場所：専売ビル３F会議室
+              <br />
+              （定員25名） 費用：無料 持ち物：筆記用具・電卓（やる気もぜひ！）
+            </p>
+            <div class="application">
+              <div class="experience-link">
+                <a
+                  class="application-link -blue"
+                  href="https://business.form-mailer.jp/fms/d8f3692b263372"
+                >
+                  無料体験講座（基礎の基礎）お申込み
+                  <IconBase class="icon" width="25" height="25">
+                    <IconFingerRight />
+                  </IconBase>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -430,5 +469,140 @@
     .quality-title {
       font-size: 18px;
     }
+  }
+
+  .workshop-orangeLine {
+    padding: 0 30px;
+  }
+
+  .workshop-orangeLine.-gansho {
+    padding: 0 0 40px;
+  }
+
+  .workshop-orangeLine__inner {
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid #f4891e;
+    border-radius: 12px;
+    max-width: 652px;
+    // min-width: 652px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    // @media print, screen and (max-width: 1000px) {
+    //   margin-top: 0;
+    // }
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: -20px;
+    top: -18px;
+    width: 54px;
+  }
+
+  .workshop-orangeLine__heading {
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 24px;
+    }
+    @media print, screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 18px;
+    }
+  }
+
+  .workshop-orangeLine__title {
+    margin: 5px 0 0;
+    font-size: 15px;
+    font-weight: 700;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 15px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 14px;
+    }
+  }
+
+  .workshop-orangeLine__text {
+    margin: 5px 0 0;
+    font-size: 15px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 15px;
+    }
+    @media print, screen and (max-width: 480px) {
+      font-size: 14px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .application {
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+    @media print, screen and (max-width: 480px) {
+      font-size: 16px;
+    }
+  }
+  .application-link {
+    margin: 0 auto;
+    color: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+    // background-color: #ff4500;
+    // border: 3px solid #ff4500;
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
+    border-radius: 10px;
+    @media print, screen and (max-width: 1000px) {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 10px;
+      width: 90%;
+    }
+  }
+  .application-link.-blue {
+    background-color: #1262b2;
+    border: 3px solid #1262b2;
+  }
+
+  .application-link.-right {
+    margin-left: 0.5%;
+    @media print, screen and (max-width: 1000px) {
+      margin-left: auto;
+    }
+  }
+  .application-link.-left {
+    margin-right: 0.5%;
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+    }
+  }
+  .fax-link {
+    margin-top: 60px;
+    color: #ed6c00;
+    text-decoration: underline;
+  }
+  .experience-link {
+    margin-top: 60px;
   }
 </style>
