@@ -34,7 +34,9 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              通学
+              通
+              <span class="-sp-none">&nbsp;</span>
+              学
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
@@ -48,7 +50,9 @@
               :class="['tab', { active: isActiveTop === 4 }]"
               v-on:click="tabToggleTop(4)"
             >
-              通信
+              通
+              <span class="-sp-none">&nbsp;</span>
+              信
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
@@ -1357,7 +1361,7 @@
     width: 100%;
     display: flex;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -74px;
     font-weight: bold;
     justify-content: space-between;
     font-family: "メイリオ", sans-serif;
@@ -1366,7 +1370,7 @@
     }
     .tab {
       cursor: pointer;
-      font-size: 20px;
+      font-size: 22px;
       color: #666666;
       // max-width: 280px;
       max-width: 305px;
