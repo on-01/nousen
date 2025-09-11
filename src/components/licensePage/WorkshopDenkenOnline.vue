@@ -481,13 +481,13 @@
     &.odd {
       width: 40%;
       @media print, screen and (max-width: 768px) {
-        width: 30%;
+        width: 35%;
       }
     }
     &.even {
       width: 60%;
       @media print, screen and (max-width: 768px) {
-        width: 70%;
+        width: 65%;
       }
     }
   }
@@ -519,7 +519,7 @@
     align-items: center;
     border-left: solid 1px #000;
     @media print, screen and (max-width: 768px) {
-      width: 30%;
+      width: 35%;
     }
   }
   .workshop-text.-second {
@@ -535,7 +535,7 @@
     border-left: none;
     border-right: solid 1px #000;
     @media print, screen and (max-width: 768px) {
-      width: 70%;
+      width: 65%;
     }
   }
 

@@ -352,6 +352,10 @@
     max-width: 700px;
     min-width: 700px;
     margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      min-width: 650px;
+      max-width: 650px;
+    }
   }
 
   .workshop-heading {
@@ -419,9 +423,15 @@
     }
     &.odd {
       width: 40%;
+      @media print, screen and (max-width: 768px) {
+        width: 35%;
+      }
     }
     &.even {
       width: 60%;
+      @media print, screen and (max-width: 768px) {
+        width: 65%;
+      }
     }
   }
 
@@ -451,6 +461,9 @@
     justify-content: center;
     align-items: center;
     border-left: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 35%;
+    }
   }
   .workshop-text.-second {
     width: 35%;
@@ -464,6 +477,9 @@
     // flex-direction: column;
     border-left: none;
     border-right: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 65%;
+    }
   }
 
   .workshop-border {
@@ -848,6 +864,10 @@
     &::-webkit-scrollbar {
       /* Chrome, Safari 対応 */
       display: none;
+    }
+    @media print, screen and (max-width: 768px) {
+      min-width: 650px;
+      max-width: 650px;
     }
   }
 
