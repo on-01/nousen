@@ -257,7 +257,7 @@
   .follow-text.-under {
     span {
       font-weight: 500;
-      text-decoration: underline;
+      // text-decoration: underline;
     }
   }
 
