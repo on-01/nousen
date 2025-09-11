@@ -1453,6 +1453,9 @@
     @media print, screen and (max-width: 480px) {
       margin-top: -41.7px;
     }
+    @media print, screen and (max-width: 430px) {
+      margin-top: -38.7px;
+    }
 
     .tab {
       max-width: 100%;
