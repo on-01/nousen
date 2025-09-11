@@ -129,7 +129,7 @@
           <div class="online-flex">
             <figure class="online-flex-image">
               <img
-                src="../../assets/img/license_page/denken3/denken3_completion.jpg"
+                src="../../assets/img/license_page/denken3/denken3_completion.png"
                 alt="電験三種 第三種電気主任技術者"
               />
             </figure>

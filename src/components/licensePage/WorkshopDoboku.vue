@@ -394,7 +394,7 @@
       <div class="workshop-completionWrap">
         <img
           class="workshop-completionImage"
-          src="../../assets/img/license_page/workshop-completion.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku_completion.png"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
