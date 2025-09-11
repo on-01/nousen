@@ -482,6 +482,9 @@
 
   .workshop-orangeLine {
     padding: 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0;
+    }
   }
 
   .workshop-orangeLine.-gansho {
