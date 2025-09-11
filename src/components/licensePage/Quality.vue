@@ -139,9 +139,11 @@
               <br />
               日時：令和8年4月04日(土) 9:30～12:30
               <br />
-              場所：専売ビル３F会議室
+              場所：専売ビル３F会議室（定員25名）
               <br />
-              （定員25名） 費用：無料 持ち物：筆記用具・電卓（やる気もぜひ！）
+              費用：無料
+              <br />
+              持ち物：筆記用具・電卓（やる気もぜひ！）
             </p>
             <div class="application">
               <div class="experience-link">
@@ -164,7 +166,14 @@
 </template>
 
 <script>
+  import IconBase from "../IconBase.vue";
+  import IconFingerRight from "../icons/IconFingerRight.vue";
+
   export default {
+    components: {
+      IconBase,
+      IconFingerRight,
+    },
     props: {
       text_1: String,
       imagePath_1: String,
@@ -484,7 +493,7 @@
     padding: 20px;
     border: 4px solid #f4891e;
     border-radius: 12px;
-    max-width: 652px;
+    max-width: 575px;
     // min-width: 652px;
     font-family: メイリオ, sans-serif;
     font-size: 16px;
@@ -551,8 +560,7 @@
 
   .application {
     font-weight: bold;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 50px auto 25px;
     text-align: center;
     font-size: 18px;
     @media print, screen and (max-width: 480px) {
