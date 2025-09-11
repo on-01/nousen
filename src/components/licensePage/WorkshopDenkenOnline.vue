@@ -406,6 +406,10 @@
     max-width: 700px;
     min-width: 700px;
     margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      min-width: 600px;
+      max-width: 600px;
+    }
   }
 
   .workshop-heading {
@@ -902,6 +906,10 @@
     &::-webkit-scrollbar {
       /* Chrome, Safari 対応 */
       display: none;
+    }
+    @media print, screen and (max-width: 768px) {
+      min-width: 600px;
+      max-width: 600px;
     }
   }
 
