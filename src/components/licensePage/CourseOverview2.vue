@@ -169,6 +169,20 @@
               </td>
             </tr>
             <tr>
+              <th>給付金・助成金</th>
+              <td>
+                ・
+                <a
+                  href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  人材開発支援助成金
+                </a>
+                （人材育成支援コース）
+              </td>
+            </tr>
+            <tr>
               <th class="red">お得なキャンペーン</th>
               <td>
                 <p>
@@ -369,6 +383,9 @@
     line-height: 1.8;
     font-weight: 400;
     padding: 8px;
+    a {
+      text-decoration: none;
+    }
   }
   .courseOverview-th-text {
     font-weight: 400;
