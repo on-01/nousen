@@ -781,6 +781,11 @@
             <WorkshopDenkenTusin />
             <NewSutudyTusin />
 
+            <div class="bg-white">
+              <ExamSupportTugaku />
+              <FollowUpDenken3 />
+            </div>
+
             <div class="bg-white_type2">
               <!-- 受講生の声 -->
               <section class="voice">
