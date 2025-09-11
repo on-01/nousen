@@ -1446,8 +1446,8 @@
     @media print, screen and (max-width: 1000px) {
       margin-top: -45.7px;
     }
-    @media print, screen and (max-width: 370px) {
-      margin-top: -33.7px;
+    @media print, screen and (max-width: 480px) {
+      margin-top: -41.7px;
     }
 
     .tab {
@@ -1462,13 +1462,6 @@
       }
       @media print, screen and (max-width: 590px) {
         font-size: 2.5vw;
-        // line-height: 1.5;
-        // text-align: center;
-        // padding: 9px 0;
-        // margin: 0 3px;
-      }
-      @media print, screen and (max-width: 480px) {
-        // padding: 3px 0;
       }
     }
 
@@ -1487,7 +1480,7 @@
         margin-top: 0;
         margin-left: 8px;
       }
-      @media print, screen and (max-width: 590px) {
+      @media print, screen and (max-width: 480px) {
         margin-left: 0;
         width: 10px;
         height: 10px;
