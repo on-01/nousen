@@ -1461,14 +1461,14 @@
         margin: 0 3px;
       }
       @media print, screen and (max-width: 590px) {
-        font-size: 2vw;
-        line-height: 1.5;
-        text-align: center;
-        padding: 9px 0;
-        margin: 0 3px;
+        font-size: 2.5vw;
+        // line-height: 1.5;
+        // text-align: center;
+        // padding: 9px 0;
+        // margin: 0 3px;
       }
       @media print, screen and (max-width: 480px) {
-        padding: 3px 0;
+        // padding: 3px 0;
       }
     }
 
@@ -1486,6 +1486,11 @@
         display: inline;
         margin-top: 0;
         margin-left: 8px;
+      }
+      @media print, screen and (max-width: 590px) {
+        margin-left: 0;
+        width: 10px;
+        height: 10px;
       }
     }
   }
