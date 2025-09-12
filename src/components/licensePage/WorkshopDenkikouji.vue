@@ -198,14 +198,20 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
-          <p to="/doboku-s-application" class="application-form-link">
+          <a
+            href="https://business.form-mailer.jp/fms/f41ca637308441"
+            class="application-form-link"
+          >
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </p>
-          <p to="/doboku-s-application-business" class="application-form-link">
+          </a>
+          <a
+            href="https://business.form-mailer.jp/fms/18f08350308440"
+            class="application-form-link"
+          >
             お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </p>
+          </a>
         </div>
       </div>
     </div>
@@ -352,7 +358,7 @@
       <div class="workshop-completionWrap">
         <img
           class="workshop-completionImage"
-          src="../../assets/img/license_page/workshop-completion.jpg"
+          src="../../assets/img/license_page/denkikouji_s/denkikouji_completion.png"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
@@ -414,25 +420,20 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
-          <div class="application-form-link">
+          <g-link
+            to="https://business.form-mailer.jp/fms/f41ca637308441"
+            class="application-form-link"
+          >
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </div>
-          <!-- <g-link to="/doboku-s-application" class="application-form-link">
-            お申込みはこちら（個人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link> -->
-          <div class="application-form-link">
-            お申込みはこちら（法人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </div>
-          <!-- <g-link
-            to="/doboku-s-application-business"
+          </g-link>
+          <g-link
+            to="https://business.form-mailer.jp/fms/18f08350308440"
             class="application-form-link"
           >
             お申込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link> -->
+          </g-link>
         </div>
       </div>
     </div>

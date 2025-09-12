@@ -86,7 +86,7 @@
                   <span class="red courseOverview-td-text">【無料】</span>
                   ：
                   <a href="https://taiken.nouryoku.com/">基礎の基礎</a>
-                  　&nbsp;&nbsp;9:30-12:00（講座体験・基礎数学・抽選会・個別相談会）
+                  　&nbsp;&nbsp;9:30-12:30（講座体験・基礎数学・抽選会・個別相談会）
                 </p>
                 <p>16,500円：基礎（１日）　9:30-17:00</p>
                 <p>31,900円：理論（２日間）9:30-17:00</p>
@@ -149,6 +149,21 @@
                   <span>【🎓 GO!資格 合格応援制度】</span>
                   あり
                 </p>
+              </td>
+            </tr>
+            <tr>
+              <th>給付金・助成金</th>
+              <td>
+                ・
+                <a
+                  class="courseOverview-link"
+                  href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  人材開発支援助成金
+                </a>
+                （人材育成支援コース）
               </td>
             </tr>
             <tr>
@@ -291,6 +306,9 @@
     font-weight: 400;
     padding: 8px;
     background-color: #fff;
+    a {
+      text-decoration: none;
+    }
   }
   .courseOverview-th-text {
     font-weight: 400;
@@ -309,7 +327,7 @@
   }
 
   .courseOverview-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #337ab7;
     color: #337ab7;
   }

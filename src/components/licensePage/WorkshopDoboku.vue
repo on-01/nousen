@@ -394,7 +394,7 @@
       <div class="workshop-completionWrap">
         <img
           class="workshop-completionImage"
-          src="../../assets/img/license_page/workshop-completion.jpg"
+          src="../../assets/img/license_page/doboku_s/doboku_completion.png"
           alt="土木施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
@@ -745,9 +745,7 @@
                     ・万が一不合格の場合は
                     <span>再受講割引が適用</span>
                     <br />
-                    ・その他
-                    <span class="-red">【🎓 GO!資格 合格応援制度】</span>
-                    あり
+                    ・【🎓 GO!資格 合格応援制度】あり
                   </td>
                 </tr>
                 <tr>
@@ -892,9 +890,7 @@
                     ・万が一不合格の場合は
                     <span>再受講割引が適用</span>
                     <br />
-                    ・その他
-                    <span class="-red">【🎓 GO!資格 合格応援制度】</span>
-                    あり
+                    ・【🎓 GO!資格 合格応援制度】あり
                     <br />
                     &emsp;
                   </td>

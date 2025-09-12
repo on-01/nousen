@@ -34,7 +34,9 @@
               :class="['tab', { active: isActiveTop === 2 }]"
               v-on:click="tabToggleTop(2)"
             >
-              通学
+              通
+              <span class="-sp-none">&nbsp;</span>
+              学
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
             <div
@@ -48,7 +50,9 @@
               :class="['tab', { active: isActiveTop === 4 }]"
               v-on:click="tabToggleTop(4)"
             >
-              通信
+              通
+              <span class="-sp-none">&nbsp;</span>
+              信
               <IconBase class="icon"><IconArrowRight /></IconBase>
             </div>
           </section>
@@ -777,6 +781,11 @@
             <WorkshopDenkenTusin />
             <NewSutudyTusin />
 
+            <div class="bg-white">
+              <ExamSupportTugaku />
+              <FollowUpDenken3 />
+            </div>
+
             <div class="bg-white_type2">
               <!-- 受講生の声 -->
               <section class="voice">
@@ -1357,7 +1366,7 @@
     width: 100%;
     display: flex;
     text-align: center;
-    margin-top: -70px;
+    margin-top: -74px;
     font-weight: bold;
     justify-content: space-between;
     font-family: "メイリオ", sans-serif;
@@ -1366,7 +1375,7 @@
     }
     .tab {
       cursor: pointer;
-      font-size: 20px;
+      font-size: 22px;
       color: #666666;
       // max-width: 280px;
       max-width: 305px;
@@ -1446,8 +1455,11 @@
     @media print, screen and (max-width: 1000px) {
       margin-top: -45.7px;
     }
-    @media print, screen and (max-width: 370px) {
-      margin-top: -33.7px;
+    @media print, screen and (max-width: 480px) {
+      margin-top: -41.7px;
+    }
+    @media print, screen and (max-width: 430px) {
+      margin-top: -38.7px;
     }
 
     .tab {
@@ -1461,14 +1473,7 @@
         margin: 0 3px;
       }
       @media print, screen and (max-width: 590px) {
-        font-size: 2vw;
-        line-height: 1.5;
-        text-align: center;
-        padding: 9px 0;
-        margin: 0 3px;
-      }
-      @media print, screen and (max-width: 480px) {
-        padding: 3px 0;
+        font-size: 2.5vw;
       }
     }
 
@@ -1486,6 +1491,11 @@
         display: inline;
         margin-top: 0;
         margin-left: 8px;
+      }
+      @media print, screen and (max-width: 480px) {
+        margin-left: 0;
+        width: 10px;
+        height: 10px;
       }
     }
   }

@@ -62,13 +62,25 @@
           <div class="exam-textWrap">
             <p class="exam-head">Program③｜提出課題と終了試験で実力を可視化</p>
             <p class="exam-text">
-              本プログラムでは、全4科目分の提出課題（通学・オンライン講座）および終了試験問題（通信講座）を通じて、学習の到達度を客観的に評価することが可能です。
+              本プログラムでは、全4科目分の提出課題および終了試験問題（通信講座）を通じて、学習の到達度を客観的に評価することが可能です。
               <br />
               これらの課題・試験問題は、各科目の理解度や知識の深さを測るように設計されており、ご自身の弱点や改善点を明確に把握できます。
               <br />
               <br />
               学習の進捗を確認しながら、着実に力をつけていける内容となっており、効果的な学習計画の立案にも役立つ構成です。
             </p>
+            <div class="exam-textWrapBottom">
+              <p class="exam-head">提出課題の添削例</p>
+              <img
+                src="../../assets/img/license_page/denken3/denken3_exam_10.png"
+                alt="電験三種 第三種電気主任技術者"
+              />
+              <p class="exam-text -bottom">
+                ご提出いただいた課題は、専門講師が一つひとつ丁寧にチェックし、赤ペンで的確なアドバイスを書き込みます。
+                <br />
+                さらに詳しい解答解説付きで返却するので、「なぜ間違えたのか」「どうすれば正解できるのか」がその場で理解できます。
+              </p>
+            </div>
           </div>
         </li>
         <li>
@@ -199,6 +211,25 @@
     }
   }
 
+  .exam-textWrapBottom {
+    margin-top: 100px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
+    .exam-head {
+      text-align: center;
+    }
+    img {
+      width: 70%;
+      margin: 0 auto;
+      display: block;
+      height: auto;
+      @media screen and (max-width: 1000px) {
+        width: 100%;
+      }
+    }
+  }
+
   .exam-head {
     font-size: 18px;
     font-weight: 700;
@@ -212,5 +243,10 @@
       font-size: 18px;
       font-weight: 700;
     }
+  }
+  .exam-text.-bottom {
+    display: block;
+    max-width: 575px;
+    margin: 20px auto 0 auto;
   }
 </style>

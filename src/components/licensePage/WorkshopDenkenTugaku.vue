@@ -51,28 +51,28 @@
         <div class="workshop-content">
           <p class="workshop-text odd">理　論　　(2日/15時間)</p>
           <p class="workshop-text even">
-            4月の土日 9:30～17:00
+            4/18(土)・19(日) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力　　(2日/15時間)</p>
           <p class="workshop-text even">
-            5月の土日 9:30～17:00
+            5/16(土)・17(日) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械　　(2日/15時間)</p>
           <p class="workshop-text even">
-            6月の土日 9:30～17:00
+            6/13(土)・14(日) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
-            7月の土曜 9:30～17:00
+            7/11(土) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
@@ -85,7 +85,7 @@
             30分程度の解答解説講習
           </p>
           <p class="workshop-text even">
-            7月の日曜 9:30～17:00
+            7/12(日) 9:30～17:00
             <span class="workshop-text-red">【準備中】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
@@ -352,6 +352,10 @@
     max-width: 700px;
     min-width: 700px;
     margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      min-width: 650px;
+      max-width: 650px;
+    }
   }
 
   .workshop-heading {
@@ -419,9 +423,15 @@
     }
     &.odd {
       width: 40%;
+      @media print, screen and (max-width: 768px) {
+        width: 35%;
+      }
     }
     &.even {
       width: 60%;
+      @media print, screen and (max-width: 768px) {
+        width: 65%;
+      }
     }
   }
 
@@ -451,6 +461,9 @@
     justify-content: center;
     align-items: center;
     border-left: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 35%;
+    }
   }
   .workshop-text.-second {
     width: 35%;
@@ -464,6 +477,9 @@
     // flex-direction: column;
     border-left: none;
     border-right: solid 1px #000;
+    @media print, screen and (max-width: 768px) {
+      width: 65%;
+    }
   }
 
   .workshop-border {
@@ -848,6 +864,10 @@
     &::-webkit-scrollbar {
       /* Chrome, Safari 対応 */
       display: none;
+    }
+    @media print, screen and (max-width: 768px) {
+      min-width: 650px;
+      max-width: 650px;
     }
   }
 
