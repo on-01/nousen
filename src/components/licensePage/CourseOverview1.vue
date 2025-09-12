@@ -319,9 +319,7 @@
   .courseOverview td span {
     font-weight: 700;
   }
-  .courseOverview td a {
-    text-decoration: underline;
-  }
+
   .red {
     color: red;
   }
