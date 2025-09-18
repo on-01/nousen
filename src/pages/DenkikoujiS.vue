@@ -344,10 +344,6 @@
               <NewApplication
                 faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
               />
-              <ContactInfo title="受講に関するご相談・資料請求は" />
-            </div>
-
-            <div class="bottom">
               <ContactInfo title="受講に関するご相談は" />
             </div>
           </div>
@@ -529,23 +525,94 @@
     background-color: #fff;
     // border-bottom: 5px solid #00a73c;
   }
+
   .exam-link-wrapper {
     text-align: center;
-    padding: 80px 0 200px 0;
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
     @media print, screen and (max-width: 1000px) {
-      padding: 60px 0 150px 0;
+      padding: 40px 0 20px 0;
+      flex-direction: column;
     }
   }
-  .exam-link {
-    background-color: #00a73c;
+  // .exam-link-wrapper.-border {
+  //   border-bottom: 5px solid #1262b2;
+  // }
+  .exam-link,
+  .application-form-link,
+  .online-link {
     color: #fff;
     border-radius: 10px;
     padding: 14px 30px;
     font-weight: bold;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 20px;
     font-size: 17px;
+    box-sizing: border-box;
+    font-family: "メイリオ", sans-serif;
+    @media print, screen and (max-width: 370px) {
+      padding: 7px 15px;
+      width: 80%;
+    }
   }
+  .exam-link {
+    width: 300px;
+    background-color: #1262b2;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
+  }
+  .application-form-link {
+    // background-color: #ed6c00;
+    background-color: #ff4500;
+    box-shadow: 4px 4px 10px rgba(153, 33, 0, 0.3);
+
+    margin-top: 25px;
+    width: 400px;
+    padding: 14px 30px;
+    @media print, screen and (max-width: 900px) {
+      width: 300px;
+    }
+
+    @media print, screen and (max-width: 480px) {
+      width: 90%;
+    }
+  }
+  .online-link {
+    width: 300px;
+    background-color: #1262b2;
+    box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
+    margin-top: 25px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    @media print, screen and (max-width: 480px) {
+      width: 80%;
+    }
+  }
+
+  .exam-link-wrapper.-column {
+    padding: 0 0 40px;
+    // padding: 20px 0 0;
+    border-bottom: none;
+    flex-direction: row;
+    justify-content: center;
+  }
+  @media print, screen and (max-width: 1000px) {
+    .exam-link-wrapper.-column {
+      padding: 0 0 40px;
+      // padding: 20px 0 0;
+      flex-direction: column;
+    }
+  }
+
+
   .tab-wrapper {
     position: relative;
     margin: 0 auto;
@@ -704,6 +771,18 @@
     background-color: #fff8cc;
     padding: 80px 0;
   }
+
+  .credit-image {
+    margin: 24px auto 0;
+  }
+  .credit-image img {
+    max-width: 90%;
+    @media print, screen and (max-width: 480px) {
+      max-width: 80%;
+    }
+  }
+
+
   /* voiceセクションのスタイル */
   .voice {
     background-color: #ebf7ff;
