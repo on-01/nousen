@@ -93,7 +93,7 @@
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
                 <img
-                  class="follow-bottom-img"
+                  class="follow-left-img"
                   src="../../assets/img/license_page/denken3/follow-left.jpg"
                   alt="電験三種 第三種電気主任技術者"
                 />
@@ -214,6 +214,15 @@
 
   .follow-bottom-wrap {
     display: flex;
+    padding: 0 30px;
+  }
+
+  .follow-bottom-rightWrap {
+    width: 55%;
+  }
+
+  .follow-bottom-leftWrap {
+    width: 45%;
   }
 
   .follow-imgWrap {
@@ -294,6 +303,12 @@
     @media print, screen and (max-width: 1000px) {
       width: 90%;
     }
+  }
+
+  .follow-left-img {
+    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
   }
 
   .workshop-orangeLine {
