@@ -322,14 +322,14 @@
               <div class="exam-link-wrapper -border">
                 <div class="exam-link-flex">
                   <g-link
-                    to="/doboku-s-application"
+                    to="https://business.form-mailer.jp/fms/f41ca637308441"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/doboku-s-application-business"
+                    to="https://business.form-mailer.jp/fms/18f08350308440"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
