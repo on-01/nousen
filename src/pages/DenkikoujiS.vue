@@ -174,6 +174,179 @@
 
             <WorkshopDenkikouji />
 
+            <section class="voice">
+              <div class="voice-inner">
+                <div class="voice-content">
+                  <p class="voice-head">
+                    ＼ アンケートによる受講生満足度９７％ ／
+                  </p>
+                  <h3 class="voice-title">受講生の声</h3>
+                  <div class="voice-topic">
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          授業がとにかく
+                          <br />
+                          分かりやすかった！
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          質問にも丁寧に
+                          <br />
+                          対応してくれた。
+                        </p>
+                      </div>
+                    </div>
+                    <div class="voice-flex">
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          教材・資料が
+                          <br />
+                          充実している。
+                        </p>
+                      </div>
+                      <div class="voice-box">
+                        <figure>
+                          <img
+                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          話し方が丁寧で
+                          <br />
+                          聞きやすかった。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="voice-comment">
+                    <!-- <div class="voice-item">
+                              <h4>【能センについて】</h4>
+                              <p>
+                                ・講習会を実際に受けて見たらかなり良くて、スタッフの対応も丁寧で安心しました！<br>
+                                ・講習会や講座を受けるのって少し敷居が高いイメージでしたが、お問い合わせしたら試験の事など色々と丁寧に教えてくれました。
+                              </p>
+                          </div> -->
+                    <div class="voice-item">
+                      <h4>【一次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(1)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          ・わかり易く必要ポイントをまとめて教えてもらえた。
+                          <br />
+                          ・２日間で一通り学べるのでコストパフォーマンスが高いと感じだ。
+                          <br />
+                          ・オンラインは同じ内容みたいなので今後はオンラインでも受けてみたい
+                          <br />
+                          ・休憩中にも個別での質問に応じて下さったことが良かった。
+                          <br />
+                          ・重要なところだけをかいつまんで説明してくれたのでわかりやすかった
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 1" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
+                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                        />
+                      </div>
+                    </div>
+                    <div class="voice-item">
+                      <h4>【二次コース】</h4>
+                      <div class="voice-item-flex">
+                        <figure v-on:click="toggleVoice(2)" class="-sp-none">
+                          <img
+                            src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
+                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                          />
+                        </figure>
+                        <p>
+                          ・NGな例、OKな例がわかりやすかった。
+                          <br />
+                          ・試験までの残り１ヶ月の取り組み方がはっきりとした。
+                          <br />
+                          ・記述内容の語句、数値などの具体的な表記について作文に役立てました。
+                          <br />
+                          ・要点がまとまっていて、理解しやすかった。講師の声も大きくはっきりしていて、ストレスなく受講できた。
+                          <br />
+                          ・必要な所、ポイントをわかりやすく教えて頂いた。仕事との両立で時間が無いため勉強するにあたりとても参考になった。
+                        </p>
+                      </div>
+                      <div v-show="isVoice === 2" class="voice-upImage">
+                        <img
+                          src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
+                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
+
+            <div class="bg-white_type2">
+              <DiscountDoboku title="🎓 GO!資格 合格応援制度 START！" />
+
+              <SupportSecond title="ミライを創ろう" />
+              <SupportDoboku title="＼＼建設業を応援しよう／／" />
+              <MerumagaDoboku />
+
+              <!-- <Fsc title="持続可能なミライへ" /> -->
+
+              <div class="exam-link-wrapper -border">
+                <div class="exam-link-flex">
+                  <g-link
+                    to="/doboku-s-application"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（個人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                  <g-link
+                    to="/doboku-s-application-business"
+                    class="application-form-link"
+                  >
+                    お申込みはこちら（法人）
+                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
+                  </g-link>
+                </div>
+
+                <figure class="credit-image">
+                  <img src="../assets/img/common/credit.jpg" />
+                </figure>
+              </div>
+              <NewApplication
+                faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+              />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
+            </div>
+
             <div class="bottom">
               <ContactInfo title="受講に関するご相談は" />
             </div>
@@ -265,6 +438,10 @@
   import QualityDenkikouji from "../components/licensePage/QualityDenkikouji.vue";
   import Linelink from "../components/licensePage/Linelink.vue";
   import WorkshopDenkikouji from "../components/licensePage/WorkshopDenkikouji.vue";
+  import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
+  import SupportSecond from "../components/licensePage/SupportSecond.vue";
+  import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
+  import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -316,6 +493,10 @@
       QualityDenkikouji,
       Linelink,
       WorkshopDenkikouji,
+      DiscountDoboku,
+      SupportSecond,
+      SupportDoboku,
+      MerumagaDoboku,
     },
     data() {
       return {
@@ -523,4 +704,170 @@
     background-color: #fff8cc;
     padding: 80px 0;
   }
+  /* voiceセクションのスタイル */
+  .voice {
+    background-color: #ebf7ff;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .voice-inner {
+    max-width: 1090px;
+    width: 100%;
+    background-color: #ebf7ff;
+    margin: 0 auto;
+    font-family: "メイリオ", sans-serif;
+    padding: 20px 40px;
+  }
+  .voice-content {
+    max-width: 870px;
+    margin: 0 auto;
+  }
+  .voice-head {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #000;
+    margin: 0;
+  }
+  .voice-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+    color: #0071bb;
+    margin: 0;
+  }
+  .voice-topic {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .voice-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .voice-box {
+    width: 46%;
+    border: 4px solid #0071bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .voice-box figure {
+    width: 30%;
+    margin: 0;
+  }
+  .voice-box p {
+    width: 70%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #0071bb;
+  }
+  .voice-item {
+    width: auto;
+    border: 4px solid #0071bb;
+    margin-top: 16px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .voice-item h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+  }
+  .voice-item-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .voice-item figure {
+    width: 16%;
+    margin: 8px 0 0;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  .voice-item figure:hover {
+    opacity: 0.6;
+  }
+  .voice-item p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 600;
+    margin-top: 16px;
+    width: 70%;
+  }
+  // .voice-item:first-of-type p {
+  //     width: 100%;
+  // }
+  .voice-upImage img {
+    margin: 20px auto 0;
+    border: 1px solid #000;
+    display: block;
+  }
+
+  @media print, screen and (max-width: 1170px) {
+    .voice {
+      padding: 0;
+    }
+    .voice-inner {
+      width: auto;
+    }
+  }
+  @media print, screen and (max-width: 1000px) {
+    .voice-inner {
+      width: auto;
+    }
+    .voice-head {
+      font-size: 15px;
+    }
+    .voice-title {
+      font-size: 28px;
+    }
+    .voice-topic {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .voice-flex {
+      flex-wrap: wrap;
+    }
+    .voice-box {
+      width: 100%;
+    }
+    .voice-box figure {
+      width: 30%;
+    }
+    .voice-box p {
+      font-size: 18px;
+    }
+    .voice-item {
+      width: auto;
+      padding: 10px 20px;
+    }
+    .voice-item h4 {
+      font-size: 18px;
+    }
+    .voice-item-flex {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    .voice-item figure {
+      width: 40%;
+      margin: 8px 0 0;
+    }
+    .voice-item p {
+      font-size: 14px;
+      line-height: 1.7;
+      width: 100%;
+    }
+  }
+  @media print, screen and (max-width: 480px) {
+    .-sp-none {
+      display: none;
+    }
+  }
+  // voiceセクションここまで
 </style>
