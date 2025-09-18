@@ -283,7 +283,7 @@
   }
 
   .courseOverview-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #337ab7;
     color: #337ab7;
   }
