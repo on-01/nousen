@@ -90,44 +90,51 @@
             <p class="follow-bottom-title">
               ④オンラインサポートサービス【能センサポ】
             </p>
-            <img
-              class="follow-bottom-img"
-              src="../../assets/img/license_page/denken3/follow-bottom.png"
-              alt="電験三種 第三種電気主任技術者"
-            />
-            <div class="workshop-orangeLine">
-              <div class="workshop-orangeLine__inner">
+            <div class="follow-bottom-wrap">
+              <div class="follow-bottom-leftWrap">
                 <img
-                  class="workshop-orangeLine__icon"
-                  src="../../assets/img/icon/note.svg"
+                  class="follow-bottom-img"
+                  src="../../assets/img/license_page/denken3/follow-left.jpg"
+                  alt="電験三種 第三種電気主任技術者"
                 />
-                <p class="workshop-orangeLine__heading">能センサポとは？</p>
-                <p class="workshop-orangeLine__text">
-                  「わからない…」を、そのままにしない。
-                  <br />
-                  能センサポは、オンラインで講師に直接質問できる、
-                  <span>あなた専用の家庭教師サービス</span>
-                  です。
-                  <br />
-                  追加料金はかかりません。何度でも安心して使えます。
-                  <br />
-                  <br />
-                  1回のご利用時間は
-                  <span>最大30分</span>
-                  。短時間でも、疑問をピンポイントで解決できます。
-                  <br />
-                  専用の予約ページから自分に合った日時を選ぶだけ。
-                  <br />
-                  GoogleカレンダーやOutlookと連携できて、スケジュール管理も簡単です。
-                  <br />
-                  予約時間には担当講師と1対1でつながり、疑問を丁寧に解決。
-                  <br />
-                  「わからないのに誰にも聞けない…」そんな不安はもう終わり。
-                  <br />
-                  <span>
-                    ひとりで抱え込まない、心強い味方。それが「能センサポ」です。
-                  </span>
-                </p>
+              </div>
+              <div class="follow-bottom-rightWrap">
+                <img
+                  class="follow-bottom-img"
+                  src="../../assets/img/license_page/denken3/follow-bottom.png"
+                  alt="電験三種 第三種電気主任技術者"
+                />
+                <div class="workshop-orangeLine">
+                  <div class="workshop-orangeLine__inner">
+                    <p class="workshop-orangeLine__heading">能センサポとは？</p>
+                    <p class="workshop-orangeLine__text">
+                      「わからない…」を、そのままにしない。
+                      <br />
+                      能センサポは、オンラインで講師に直接質問できる、
+                      <span>あなた専用の家庭教師サービス</span>
+                      です。
+                      <br />
+                      追加料金はかかりません。何度でも安心して使えます。
+                      <br />
+                      <br />
+                      1回のご利用時間は
+                      <span>最大30分</span>
+                      。短時間でも、疑問をピンポイントで解決できます。
+                      <br />
+                      専用の予約ページから自分に合った日時を選ぶだけ。
+                      <br />
+                      GoogleカレンダーやOutlookと連携できて、スケジュール管理も簡単です。
+                      <br />
+                      予約時間には担当講師と1対1でつながり、疑問を丁寧に解決。
+                      <br />
+                      「わからないのに誰にも聞けない…」そんな不安はもう終わり。
+                      <br />
+                      <span>
+                        ひとりで抱え込まない、心強い味方。それが「能センサポ」です。
+                      </span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -203,6 +210,10 @@
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
     }
+  }
+
+  .follow-bottom-wrap {
+    display: flex;
   }
 
   .follow-imgWrap {
@@ -296,7 +307,7 @@
   .workshop-orangeLine__inner {
     margin: 40px auto;
     padding: 20px;
-    border: 4px solid #f4891e;
+    // border: 4px solid #f4891e;
     border-radius: 12px;
     max-width: 652px;
     // min-width: 652px;
