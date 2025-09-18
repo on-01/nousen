@@ -208,14 +208,23 @@
   .follow-bottom-wrap {
     display: flex;
     padding: 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column-reverse;
+    }
   }
 
   .follow-bottom-rightWrap {
     width: 55%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .follow-bottom-leftWrap {
     width: 45%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
   }
 
   .follow-imgWrap {
