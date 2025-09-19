@@ -124,9 +124,7 @@
                 </p>
                 <p>・通信講座からオンライン講座に変更可能</p>
                 <p>
-                  ・その他
-                  <span>【🎓 GO!資格 合格応援制度】</span>
-                  あり
+                  ・<span>【🎓 GO!資格 合格応援制度】</span>あり
                 </p>
               </td>
             </tr>
@@ -285,7 +283,7 @@
   }
 
   .courseOverview-link {
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #337ab7;
     color: #337ab7;
   }

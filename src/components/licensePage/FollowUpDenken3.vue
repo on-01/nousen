@@ -90,44 +90,44 @@
             <p class="follow-bottom-title">
               ④オンラインサポートサービス【能センサポ】
             </p>
-            <img
-              class="follow-bottom-img"
-              src="../../assets/img/license_page/denken3/follow-bottom.png"
-              alt="電験三種 第三種電気主任技術者"
-            />
-            <div class="workshop-orangeLine">
-              <div class="workshop-orangeLine__inner">
+            <div class="follow-bottom-wrap">
+              <div class="follow-bottom-leftWrap">
                 <img
-                  class="workshop-orangeLine__icon"
-                  src="../../assets/img/icon/note.svg"
+                  class="follow-left-img"
+                  src="../../assets/img/license_page/denken3/follow-left.jpg"
+                  alt="電験三種 第三種電気主任技術者"
                 />
-                <p class="workshop-orangeLine__heading">能センサポとは？</p>
-                <p class="workshop-orangeLine__text">
-                  「わからない…」を、そのままにしない。
-                  <br />
-                  能センサポは、オンラインで講師に直接質問できる、
-                  <span>あなた専用の家庭教師サービス</span>
-                  です。
-                  <br />
-                  追加料金はかかりません。何度でも安心して使えます。
-                  <br />
-                  <br />
-                  1回のご利用時間は
-                  <span>最大30分</span>
-                  。短時間でも、疑問をピンポイントで解決できます。
-                  <br />
-                  専用の予約ページから自分に合った日時を選ぶだけ。
-                  <br />
-                  GoogleカレンダーやOutlookと連携できて、スケジュール管理も簡単です。
-                  <br />
-                  予約時間には担当講師と1対1でつながり、疑問を丁寧に解決。
-                  <br />
-                  「わからないのに誰にも聞けない…」そんな不安はもう終わり。
-                  <br />
-                  <span>
-                    ひとりで抱え込まない、心強い味方。それが「能センサポ」です。
-                  </span>
-                </p>
+              </div>
+              <div class="follow-bottom-rightWrap">
+                <img
+                  class="follow-bottom-img"
+                  src="../../assets/img/license_page/denken3/follow-bottom.png"
+                  alt="電験三種 第三種電気主任技術者"
+                />
+                <div class="workshop-orangeLine">
+                  <div class="workshop-orangeLine__inner">
+                    <p class="workshop-orangeLine__heading">能センサポとは？</p>
+                    <p class="workshop-orangeLine__text">
+                      「わからない…」を、そのままにしない。
+                      <br />
+                      能センサポは、オンラインで講師に直接質問できる<span>あなた専用の家庭教師サービス</span>です。
+                      <br />
+                      ・<span>追加料金なし</span>：何度でも安心して利用可能
+                      <br>
+                      ・<span>1回30分まで</span>：短時間で疑問をピンポイント解決
+                      <br>
+                      ・<span>予約は簡単</span>：専用ページから希望日時を選択
+                      <br>
+                      ・<span>スケジュール連携</span>：Googleカレンダー・Outlookと自動連携
+                      <br>
+                      ・<span>個別サポート</span>：基本は担当講師と1対1。必要に応じて資格取得アドバイザーも同席し2対1でサポート
+                      <br>
+                      「わからないのに誰にも聞けない…」そんな不安はもう終わり。
+                      <br>
+                      ひとりで抱え込まない、心強い味方――それが <span>能センサポ</span> です。
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -202,6 +202,28 @@
     margin-top: 40px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
+    }
+  }
+
+  .follow-bottom-wrap {
+    display: flex;
+    padding: 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .follow-bottom-rightWrap {
+    width: 55%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+
+  .follow-bottom-leftWrap {
+    width: 45%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
     }
   }
 
@@ -285,6 +307,12 @@
     }
   }
 
+  .follow-left-img {
+    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+
   .workshop-orangeLine {
     padding: 0 30px;
   }
@@ -296,7 +324,7 @@
   .workshop-orangeLine__inner {
     margin: 40px auto;
     padding: 20px;
-    border: 4px solid #f4891e;
+    // border: 4px solid #f4891e;
     border-radius: 12px;
     max-width: 652px;
     // min-width: 652px;
@@ -325,6 +353,7 @@
     font-weight: 700;
     text-align: left;
     margin: 0;
+    font-size: 18px;
   }
 
   .workshop-orangeLine__text {
