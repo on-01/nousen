@@ -315,7 +315,7 @@
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
-              <MerumagaDoboku />
+              <MerumagaDenkikouji />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -437,7 +437,7 @@
   import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
-  import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
+  import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -492,7 +492,7 @@
       DiscountDoboku,
       SupportSecond,
       SupportDoboku,
-      MerumagaDoboku,
+      MerumagaDenkikouji,
     },
     data() {
       return {
@@ -611,7 +611,6 @@
       flex-direction: column;
     }
   }
-
 
   .tab-wrapper {
     position: relative;
@@ -788,7 +787,6 @@
       max-width: 80%;
     }
   }
-
 
   /* voiceセクションのスタイル */
   .voice {
