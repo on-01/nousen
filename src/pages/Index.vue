@@ -178,6 +178,8 @@
         <!-- <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
         </div> -->
+        <img src="../assets/img/front/section01/top-map.png" alt="" />
+
         <div class="more_qualification">
           <!-- <g-link to="/licenses">
             資格一覧はこちら
@@ -185,7 +187,6 @@
           </g-link> -->
         </div>
       </section>
-      <img src="../assets/img/front/section01/top-map.png" alt="" />
       <section class="section03">
         <h2 class="section-title">
           <img
