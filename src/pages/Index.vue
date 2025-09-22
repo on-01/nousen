@@ -178,7 +178,11 @@
         <!-- <div class="scroll_top" id="js-scroll_top">
           <img src="../assets/img/front/scroll.svg" alt="scroll" />
         </div> -->
-        <img src="../assets/img/front/section01/top-map.png" alt="" />
+        <img
+          class="top-map"
+          src="../assets/img/front/section01/top-map.png"
+          alt=""
+        />
 
         <div class="more_qualification">
           <!-- <g-link to="/licenses">
@@ -1557,6 +1561,13 @@ query {
       margin-left: 10px;
       vertical-align: text-bottom;
     }
+  }
+
+  .top-map {
+    display: block;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 90%;
   }
 
   .section02 {
