@@ -185,6 +185,7 @@
           </g-link> -->
         </div>
       </section>
+      <img src="../assets/img/front/section01/top-map.png" alt="" />
       <section class="section03">
         <h2 class="section-title">
           <img
