@@ -108,7 +108,7 @@
     max-width: 1170px;
     width: 100%;
     padding: 0 0 50px;
-    margin: 0 auto;
+    margin: 0 auto -90px;
   }
 
   .lecture-section {
