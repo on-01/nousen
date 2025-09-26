@@ -80,7 +80,7 @@
                 </p>
                 <p class="courseOverview-td-text">
                   <del>138,600円</del>
-                  ▶️【セット割】135,000円：【４科目】完全制覇セット（８日間）
+                  ▶️【セット割】132,000円：【４科目】完全制覇セット（８日間）
                 </p>
                 <p>
                   <span class="red courseOverview-td-text">【無料】</span>
@@ -145,7 +145,9 @@
                   が適用
                 </p>
                 <p>
-                  ・<span>【🎓 GO!資格 合格応援制度】</span>あり
+                  ・
+                  <span>【🎓 GO!資格 合格応援制度】</span>
+                  あり
                 </p>
               </td>
             </tr>
