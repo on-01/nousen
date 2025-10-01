@@ -70,7 +70,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </div>
             </div> -->
-            <div class="item item02 denkikoujisekou" key="item07">
+            <div class="item item02 denkikoujisekou" key="item02">
               <g-link to="/denkikouji-s">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -82,7 +82,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item03 kenchiku" key="item05">
+            <div class="item item03 kenchiku" key="item03">
               <g-link to="/kenchiku-s">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -102,7 +102,7 @@
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
-            <div class="item item05 kankouji" key="item06">
+            <div class="item item05 kankouji" key="item05">
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -126,7 +126,7 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item07 online" key="item06">
+            <div class="item item07 online" key="item07">
               <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
@@ -1274,7 +1274,7 @@ query {
     }
     @media print, screen and (max-width: 1000px) {
       grid-template-columns: 150px 150px;
-      grid-template-rows: 150px 180px 180px 180px; /* 202101 */
+      grid-template-rows: 120px 180px 180px 180px 180px; /* 202101 */
       justify-content: center; /* 横方向は中央に */
     }
   }
@@ -1336,11 +1336,11 @@ query {
       // opacity: 0.2;
     }
     @media print, screen and (max-width: 1000px) {
-      display: none;
-      // grid-column: 2/3;
-      // grid-row: 2/3;
-      // -ms-grid-column: 2;
-      // -ms-grid-row: 2;
+      // display: none;
+      grid-column: 2/3;
+      grid-row: 2/3;
+      -ms-grid-column: 2;
+      -ms-grid-row: 2;
       // opacity: 0.2;
     }
   }
@@ -1354,11 +1354,11 @@ query {
       // opacity: 0.2;
     }
     @media print, screen and (max-width: 1000px) {
-      display: none;
-      // grid-column: 1/2;
-      // grid-row: 3/4;
-      // -ms-grid-column: 1;
-      // -ms-grid-row: 3;
+      // display: none;
+      grid-column: 1/2;
+      grid-row: 3/4;
+      -ms-grid-column: 1;
+      -ms-grid-row: 3;
       // opacity: 0.2;
     }
   }
@@ -1371,10 +1371,10 @@ query {
       -ms-grid-row: 1;
     }
     @media print, screen and (max-width: 1000px) {
-      // grid-column: 2/3;
-      // grid-row: 3/4;
       grid-column: 2/3;
-      grid-row: 2/3;
+      grid-row: 3/4;
+      // grid-column: 2/3;
+      // grid-row: 2/3;
       -ms-grid-column: 2;
       -ms-grid-row: 3;
     }
@@ -1388,10 +1388,10 @@ query {
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
-      // grid-column: 1/2;
-      // grid-row: 4/5;
       grid-column: 1/2;
-      grid-row: 3/4;
+      grid-row: 4/5;
+      // grid-column: 1/2;
+      // grid-row: 3/4;
       -ms-grid-column: 1;
       -ms-grid-row: 4;
     }
@@ -1405,10 +1405,10 @@ query {
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
-      // grid-column: 2/3;
-      // grid-row: 4/5;
       grid-column: 2/3;
-      grid-row: 3/4;
+      grid-row: 4/5;
+      // grid-column: 2/3;
+      // grid-row: 3/4;
       -ms-grid-column: 2;
       -ms-grid-row: 4;
     }
@@ -1422,10 +1422,10 @@ query {
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
-      // grid-column: 1/2;
-      // grid-row: 5/6;
       grid-column: 1/2;
-      grid-row: 4/5;
+      grid-row: 5/6;
+      // grid-column: 1/2;
+      // grid-row: 4/5;
       -ms-grid-column: 1;
       -ms-grid-row: 5;
     }
@@ -1439,10 +1439,10 @@ query {
       -ms-grid-row: 2;
     }
     @media print, screen and (max-width: 1000px) {
-      // grid-column: 2/3;
-      // grid-row: 5/6;
       grid-column: 2/3;
-      grid-row: 4/5;
+      grid-row: 5/6;
+      // grid-column: 2/3;
+      // grid-row: 4/5;
       -ms-grid-column: 2;
       -ms-grid-row: 5;
     }
