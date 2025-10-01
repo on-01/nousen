@@ -1354,7 +1354,7 @@ query {
       // opacity: 0.2;
     }
     @media print, screen and (max-width: 1000px) {
-      display: none;
+      // display: none;
       grid-column: 1/2;
       grid-row: 3/4;
       -ms-grid-column: 1;
