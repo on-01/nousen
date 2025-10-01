@@ -224,12 +224,10 @@
   }
 
   li:nth-child(4) img {
-    img {
-      margin: 0 auto;
-      width: 20%;
-      @media print, screen and (max-width: 1000px) {
-        width: 50%;
-      }
+    margin: 0 auto;
+    width: 20%;
+    @media print, screen and (max-width: 1000px) {
+      width: 50%;
     }
   }
 
