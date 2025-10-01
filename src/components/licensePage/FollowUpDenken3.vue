@@ -141,7 +141,7 @@
                       ⑤ 👩‍🏫 個別サポート ⋯
                       基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
                     </p>
-                    <p class="workshop-orangeLine__text">
+                    <p class="workshop-orangeLine__text -br">
                       「質問したいのに聞けない」…
                       <br />
                       そんな不安をなくす心強い味方――それが
@@ -409,5 +409,9 @@
   .workshop-orangeLine__text.-indent {
     padding-left: 10em;
     text-indent: -10em;
+  }
+
+  .workshop-orangeLine__text.-br {
+    margin-top: 20px;
   }
 </style>
