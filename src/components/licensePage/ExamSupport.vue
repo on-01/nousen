@@ -85,12 +85,35 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            src="../../assets/img/license_page/denken3/denken3_exam_11.png"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
               Program④｜最新の予想模擬試験＋ポイント解説で総仕上げ
+            </p>
+            <p class="exam-text">
+              学習中に
+              <span>
+                【計算式の途中が分からない】【テキストのどこを見ればいいのか迷う】
+              </span>
+              といった疑問が出てきたら、すぐに質問用紙に記入してください。
+              <br />
+              FAXやPDFで送るだけで、担当講師が丁寧に回答いたします。
+              <br />
+              <br />
+              分からないところをそのままにせず、確実に解決しながら学習を進められる安心のサポートです。
+            </p>
+          </div>
+        </li>
+        <li>
+          <img
+            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            alt="電験三種 第三種電気主任技術者"
+          />
+          <div class="exam-textWrap">
+            <p class="exam-head">
+              Program⑤｜最新の予想模擬試験＋ポイント解説で総仕上げ
             </p>
             <p class="exam-text">
               試験本番を想定した最新の予想模擬試験（全4科目対応）で、合格への最終確認を行います。
