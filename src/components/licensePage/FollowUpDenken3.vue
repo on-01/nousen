@@ -116,24 +116,29 @@
                       <br />
                       “あなた専用の家庭教師サービス”です。
                     </p>
-                    <p class="workshop-orangeLine__heading">
+                    <p class="workshop-orangeLine__heading -second">
                       📅 サポート期間：24か月
                     </p>
                     <p class="workshop-orangeLine__text">
                       じっくり学べる2年間、安心してご利用いただけます。
                     </p>
-                    <p class="workshop-orangeLine__heading">
+                    <p class="workshop-orangeLine__heading -third">
                       ✨ サービスの特長（5つの安心）
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ① 💰 追加料金なし ・ 何度でも利用OK
-                      <br />
-                      ② ⏱ 1回30分 ・ 疑問をピンポイント解決
-                      <br />
-                      ③ 📅 簡単予約 ・ 専用ページから日時を選ぶだけ
-                      <br />
-                      ④ 🔄 スケジュール連携 ・ Google/Outlookと自動同期 ⑤ 👩‍🏫
-                      個別サポート ・
+                      ① 💰 追加料金なし ⋯ 何度でも利用OK
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ② ⏱ 1回30分 ⋯ 疑問をピンポイント解決
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ③ 📅 簡単予約 ⋯ 専用ページから日時を選ぶだけ
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ④ 🔄 スケジュール連携 ⋯ Google/Outlookと自動同期
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ⑤ 👩‍🏫 個別サポート ⋯
                       基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
                     </p>
                     <p class="workshop-orangeLine__text">
@@ -373,8 +378,20 @@
     font-size: 18px;
   }
 
+  .workshop-orangeLine__heading.-second {
+    margin-top: 20px;
+  }
+
+  .workshop-orangeLine__heading.-third {
+    margin: 20px 0 10px;
+    padding: 5px 0;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    padding-left: 20px;
+  }
+
   .workshop-orangeLine__text {
-    margin: 10px 0 0;
+    margin: 0;
     line-height: 1.7;
     text-align: left;
     @media print, screen and (max-width: 768px) {
