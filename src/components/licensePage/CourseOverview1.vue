@@ -76,11 +76,11 @@
               <td>
                 <p class="courseOverview-td-text">
                   <del>154,000円</del>
-                  ▶️【セット割】145,000円：【全科目】完全制覇セット（１０日間）
+                  ▶️【セット割】143,000円：【全科目】完全制覇セット（１０日間）
                 </p>
                 <p class="courseOverview-td-text">
                   <del>138,600円</del>
-                  ▶️【セット割】132,000円：【４科目】完全制覇セット（８日間）
+                  ▶️【セット割】129,800円：【４科目】完全制覇セット（８日間）
                 </p>
                 <p>
                   <span class="red courseOverview-td-text">【無料】</span>
