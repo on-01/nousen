@@ -223,6 +223,16 @@
     }
   }
 
+  li:nth-child(4) img {
+    img {
+      margin: 0 auto;
+      width: 20%;
+      @media print, screen and (max-width: 1000px) {
+        width: 50%;
+      }
+    }
+  }
+
   li:not(:first-of-type) {
     margin-top: 40px;
   }
