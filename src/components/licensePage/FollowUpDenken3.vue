@@ -137,7 +137,7 @@
                     <p class="workshop-orangeLine__text">
                       ④ 🔄 スケジュール連携 ⋯ Google/Outlookと自動同期
                     </p>
-                    <p class="workshop-orangeLine__text">
+                    <p class="workshop-orangeLine__text -indent">
                       ⑤ 👩‍🏫 個別サポート ⋯
                       基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
                     </p>
@@ -232,6 +232,7 @@
     padding: 0 30px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column-reverse;
+      padding: 0;
     }
   }
 
@@ -336,7 +337,10 @@
   }
 
   .workshop-orangeLine {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0;
+    }
   }
 
   .workshop-orangeLine.-gansho {
@@ -400,5 +404,10 @@
     span {
       font-weight: 700;
     }
+  }
+
+  .workshop-orangeLine__text.-indent {
+    padding-left: 10em;
+    text-indent: -10em;
   }
 </style>
