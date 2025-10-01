@@ -106,27 +106,42 @@
                 />
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner">
-                    <p class="workshop-orangeLine__heading">能センサポとは？</p>
+                    <p class="workshop-orangeLine__heading">
+                      🔹 能センサポとは？
+                    </p>
                     <p class="workshop-orangeLine__text">
-                      「わからない…」を、そのままにしない。
+                      「わからない…」を、そのままにしない！
                       <br />
-                      能センサポは、オンラインで講師に直接質問できる<span>あなた専用の家庭教師サービス</span>です。
+                      能センサポは、オンラインで講師に直接質問できる
                       <br />
+                      “あなた専用の家庭教師サービス”です。
+                    </p>
+                    <p class="workshop-orangeLine__heading">
+                      📅 サポート期間：24か月
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      じっくり学べる2年間、安心してご利用いただけます。
+                    </p>
+                    <p class="workshop-orangeLine__heading">
+                      ✨ サービスの特長（5つの安心）
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ① 💰 追加料金なし ・ 何度でも利用OK
                       <br />
-                      ・<span>追加料金なし</span>：何度でも安心して利用可能
-                      <br>
-                      ・<span>1回30分まで</span>：短時間で疑問をピンポイント解決
-                      <br>
-                      ・<span>予約は簡単</span>：専用ページから希望日時を選択
-                      <br>
-                      ・<span>スケジュール連携</span>：Googleカレンダー・Outlookと自動連携
-                      <br>
-                      ・<span>個別サポート</span>：基本は担当講師と1対1。必要に応じて資格取得アドバイザーも同席し2対1でサポート
-                      <br>
-                      <br>
-                      「わからないのに誰にも聞けない…」そんな不安はもう終わり。
-                      <br>
-                      ひとりで抱え込まない、心強い味方――それが <span>能センサポ</span> です。
+                      ② ⏱ 1回30分 ・ 疑問をピンポイント解決
+                      <br />
+                      ③ 📅 簡単予約 ・ 専用ページから日時を選ぶだけ
+                      <br />
+                      ④ 🔄 スケジュール連携 ・ Google/Outlookと自動同期 ⑤ 👩‍🏫
+                      個別サポート ・
+                      基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      「質問したいのに聞けない」…
+                      <br />
+                      そんな不安をなくす心強い味方――それが
+                      <span>能センサポ</span>
+                      です。
                     </p>
                   </div>
                 </div>
