@@ -1274,7 +1274,7 @@ query {
     }
     @media print, screen and (max-width: 1000px) {
       grid-template-columns: 150px 150px;
-      grid-template-rows: 150px 180px 180px 180px; /* 202101 */
+      grid-template-rows: 120px 180px 180px 180px 180px; /* 202101 */
       justify-content: center; /* 横方向は中央に */
     }
   }
