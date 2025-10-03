@@ -350,6 +350,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -360,6 +361,7 @@
     font-weight: 700;
     font-size: 18px;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .workshop-topImg-text-bottom {
