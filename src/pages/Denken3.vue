@@ -1364,7 +1364,7 @@
   .tab-wrapper {
     margin: 0 auto;
     // max-width: 900px;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
     display: flex;
     text-align: center;

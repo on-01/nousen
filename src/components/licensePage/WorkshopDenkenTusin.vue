@@ -16,6 +16,9 @@
           <br />
           ＋ 過去10年分の試験問題を完全網羅！
         </p>
+        <p class="workshop-topImg-text-bottom">
+          ※動画付きは基礎だけ！他の講座は通信添削でしっかり学習
+        </p>
       </div>
     </div>
     <p class="workshop-top">
