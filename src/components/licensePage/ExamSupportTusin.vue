@@ -89,9 +89,7 @@
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
-            <p class="exam-head">
-              Program④｜最新の予想模擬試験＋ポイント解説で総仕上げ
-            </p>
+            <p class="exam-head">Program④｜質問用紙で質問できる</p>
             <p class="exam-text">
               学習中に
               <span>
