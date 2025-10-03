@@ -106,27 +106,47 @@
                 />
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner">
-                    <p class="workshop-orangeLine__heading">能センサポとは？</p>
+                    <p class="workshop-orangeLine__heading">
+                      🔹 能センサポとは？
+                    </p>
                     <p class="workshop-orangeLine__text">
-                      「わからない…」を、そのままにしない。
+                      「わからない…」を、そのままにしない！
                       <br />
-                      能センサポは、オンラインで講師に直接質問できる<span>あなた専用の家庭教師サービス</span>です。
+                      能センサポは、オンラインで講師に直接質問できる
                       <br />
+                      “あなた専用の家庭教師サービス”です。
+                    </p>
+                    <p class="workshop-orangeLine__heading -second">
+                      📅 サポート期間：24か月
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      じっくり学べる2年間、安心してご利用いただけます。
+                    </p>
+                    <p class="workshop-orangeLine__heading -third">
+                      ✨ サービスの特長（5つの安心）
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ① 💰 追加料金なし ⋯ 何度でも利用OK
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ② ⏱ 1回30分 ⋯ 疑問をピンポイント解決
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ③ 📅 簡単予約 ⋯ 専用ページから日時を選ぶだけ
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ④ 🔄 スケジュール連携 ⋯ Google/Outlookと自動同期
+                    </p>
+                    <p class="workshop-orangeLine__text -indent">
+                      ⑤ 👩‍🏫 個別サポート ⋯
+                      基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
+                    </p>
+                    <p class="workshop-orangeLine__text -br">
+                      「質問したいのに聞けない」…
                       <br />
-                      ・<span>追加料金なし</span>：何度でも安心して利用可能
-                      <br>
-                      ・<span>1回30分まで</span>：短時間で疑問をピンポイント解決
-                      <br>
-                      ・<span>予約は簡単</span>：専用ページから希望日時を選択
-                      <br>
-                      ・<span>スケジュール連携</span>：Googleカレンダー・Outlookと自動連携
-                      <br>
-                      ・<span>個別サポート</span>：基本は担当講師と1対1。必要に応じて資格取得アドバイザーも同席し2対1でサポート
-                      <br>
-                      <br>
-                      「わからないのに誰にも聞けない…」そんな不安はもう終わり。
-                      <br>
-                      ひとりで抱え込まない、心強い味方――それが <span>能センサポ</span> です。
+                      そんな不安をなくす心強い味方――それが
+                      <span>能センサポ</span>
+                      です。
                     </p>
                   </div>
                 </div>
@@ -212,6 +232,7 @@
     padding: 0 30px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column-reverse;
+      padding: 0;
     }
   }
 
@@ -316,7 +337,10 @@
   }
 
   .workshop-orangeLine {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0;
+    }
   }
 
   .workshop-orangeLine.-gansho {
@@ -358,8 +382,20 @@
     font-size: 18px;
   }
 
+  .workshop-orangeLine__heading.-second {
+    margin-top: 20px;
+  }
+
+  .workshop-orangeLine__heading.-third {
+    margin: 20px 0 10px;
+    padding: 5px 0;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    padding-left: 20px;
+  }
+
   .workshop-orangeLine__text {
-    margin: 10px 0 0;
+    margin: 0;
     line-height: 1.7;
     text-align: left;
     @media print, screen and (max-width: 768px) {
@@ -368,5 +404,14 @@
     span {
       font-weight: 700;
     }
+  }
+
+  .workshop-orangeLine__text.-indent {
+    padding-left: 10em;
+    text-indent: -10em;
+  }
+
+  .workshop-orangeLine__text.-br {
+    margin-top: 20px;
   }
 </style>

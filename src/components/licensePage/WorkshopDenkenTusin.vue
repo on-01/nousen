@@ -16,6 +16,9 @@
           <br />
           ＋ 過去10年分の試験問題を完全網羅！
         </p>
+        <p class="workshop-topImg-text-bottom">
+          ※動画付きは基礎だけ！他の講座は通信添削でしっかり学習
+        </p>
       </div>
     </div>
     <p class="workshop-top">
@@ -70,7 +73,7 @@
             <p class="workshop-text -ryoukin">
               ✅【全科目】完全制覇セット 81,400円▶️ 【セット割】62,700円
               <br />
-              学習内容：基礎（オンライン）・理論・電力・機械・法規
+              学習内容：基礎（基礎のみ動画配信）・理論・電力・機械・法規
               <br />
               <br />
               ✅【４科目】完全制覇セット 66,000円▶️ 【セット割】49,500円
@@ -347,6 +350,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -357,6 +361,7 @@
     font-weight: 700;
     font-size: 18px;
     margin-top: 0;
+    margin-bottom: 0;
   }
 
   .workshop-topImg-text-bottom {

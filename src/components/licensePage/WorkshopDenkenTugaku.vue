@@ -38,42 +38,42 @@
           <p class="workshop-text odd">基礎の基礎(1日/3.0時間)</p>
           <p class="workshop-text even">
             4月4日(土) 9:30～12:30
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">基　礎　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             4月5日(日) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">理　論　　(2日/15時間)</p>
           <p class="workshop-text even">
             4/18(土)・19(日) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力　　(2日/15時間)</p>
           <p class="workshop-text even">
             5/16(土)・17(日) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械　　(2日/15時間)</p>
           <p class="workshop-text even">
             6/13(土)・14(日) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             7/11(土) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
@@ -86,7 +86,7 @@
           </p>
           <p class="workshop-text even">
             7/12(日) 9:30～17:00
-            <span class="workshop-text-red">【準備中】</span>
+            <span class="workshop-text-red">【受付中】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
             <br />
@@ -101,14 +101,14 @@
             <p class="workshop-text -ryoukin">
               <span>【セット】</span>
               <br />
-              ✅【全科目】完全制覇セット(10日間)▶️ 【セット割】145,000円
+              ✅【全科目】完全制覇セット(10日間)▶️ 【セット割】143,000円
               <br />
               学習内容：基礎の基礎・基礎・理論・電力・機械・法規・模擬試験（理論・電力・機械・法規）
               <br />
               基礎の基礎講座から法規、模擬試験までが全てセットになったコース
               <br />
               <br />
-              ✅【４科目】完全制覇セット(8日間)▶️ 【セット割】132,000円
+              ✅【４科目】完全制覇セット(8日間)▶️ 【セット割】129,800円
               <br />
               学習内容：理論・電力・機械・法規・模擬試験（理論・電力・機械・法規）
               <br />
