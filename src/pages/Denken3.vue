@@ -9,7 +9,7 @@
               require('../assets/img/license_page/denken3/denken3_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和7年度上期/令和7年度下期"
+            headTitle="令和7年度下期/令和8年度上期"
             title="第三種電気主任技術者"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
