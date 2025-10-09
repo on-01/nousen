@@ -1565,7 +1565,7 @@ query {
 
   .top-map {
     display: block;
-    margin: 40px auto 0 auto;
+    margin: 80px auto 0 auto;
     max-width: 1024px;
     width: 90%;
     @media print, screen and (max-width: 1000px) {
