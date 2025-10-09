@@ -12,18 +12,32 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
-      <!-- <div class="lecture-section -bottom">
+      <div class="lecture-section -bottom">
         <figure class="lecture-image">
-          <img :src="imagePath2" />
+          <img
+            src="../../assets/img/license_page/doboku_s/lecture-image.jpg"
+            alt="土木施工管理技士 講習会 通信講座 web講座"
+          />
         </figure>
         <div class="lecture-description">
-          <p class="lecture-title" v-html="title3"></p>
+          <p class="lecture-title">現場経験に基づく丁寧な指導</p>
           <p class="lecture-line"></p>
-          <p class="lecture-text">{{ text2 }}</p>
-          <br />
-          <p class="lecture-title -small" v-html="title4"></p>
+          <p class="lecture-text">
+            やひろ技術士事務所の代表である山下先生は、技術士（建設部門・総合技術監理部門）として、通信インフラや土木工事の計画・設計・施工管理に長年従事されています。
+            <br />
+            また、1・2級土木施工管理技士や労働安全コンサルタントなどの資格を持ち、豊富な現場経験に基づく実践的でわかりやすい指導に定評があります。
+            <br />
+            <br />
+            <span>山下宏幸 先生</span>
+            <br />
+            趣味：スポーツ観戦（野球、ラグビー、サッカー）
+            <br />
+            <span>【受講生へ一言】</span>
+            <br />
+            講義では、効率よく確実に合格するためのポイントや学習方法を中心に解説します。一緒に合格に向けて頑張りましょう。
+          </p>
         </div>
-      </div> -->
+      </div>
     </div>
 
     <div class="exam">
@@ -570,6 +584,9 @@
     font-size: 16px;
     line-height: 2;
     margin-top: 0;
+    span {
+      font-weight: 700;
+    }
   }
 
   .add {
