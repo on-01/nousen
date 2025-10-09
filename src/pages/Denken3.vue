@@ -440,7 +440,7 @@
               <NewApplicationDenken3
                 personalFormLink="/denken3-application"
                 businessFormLink="/denken3-application-business"
-                faxLink="/sanshu.pdf"
+                faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
@@ -753,7 +753,7 @@
                 personalFormLink="/denken3-application"
                 businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
-                faxLink="/sanshu.pdf"
+                faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
@@ -1020,7 +1020,7 @@
                 personalFormLink="/denken3-application"
                 businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
-                faxLink="/sanshu.pdf"
+                faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>

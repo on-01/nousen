@@ -511,9 +511,7 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
-              <NewApplication
-                faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-              />
+              <NewApplication faxLink="/doboku.pdf" />
               <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
             <!-- 

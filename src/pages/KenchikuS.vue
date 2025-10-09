@@ -577,9 +577,7 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
-              <NewApplication
-                faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
-              />
+              <NewApplication faxLink="/kenchiku.pdf" />
               <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
 
