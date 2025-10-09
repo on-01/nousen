@@ -341,7 +341,7 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
-              <NewApplication faxLink="/denkikouji.pdf" />
+              <NewApplication faxLink="/denki.pdf" />
               <ContactInfo title="受講に関するご相談は" />
             </div>
           </div>
