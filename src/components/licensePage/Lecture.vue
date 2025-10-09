@@ -12,7 +12,7 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
-      <div class="lecture-section -bottom">
+      <div class="lecture-section -mt">
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-image.jpg"
@@ -367,6 +367,14 @@
   .lecture-section {
     display: flex;
     justify-content: space-between;
+  }
+
+  .lecture-section.-mt {
+    margin-top: 60px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
   }
 
   .lecture-section.-book {
