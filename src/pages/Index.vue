@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          2級建築施工管理技士【二次試験対策】講習会 ✍️
+          令和7年度 下期 電験三種オンライン講座✍️
           <br />
-          10/13(祝) 東京会場【受付中】
+          内容を見直して、より充実・よりお得に受付中！
         </p>
         <img
           class="fixed-note-icon"
