@@ -341,9 +341,7 @@
                   <img src="../assets/img/common/credit.jpg" />
                 </figure>
               </div>
-              <NewApplication
-                faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
-              />
+              <NewApplication faxLink="/denki.pdf" />
               <ContactInfo title="受講に関するご相談は" />
             </div>
           </div>
@@ -438,6 +436,7 @@
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
+  import NewApplication from "../components/licensePage/NewApplication.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -493,6 +492,7 @@
       SupportSecond,
       SupportDoboku,
       MerumagaDenkikouji,
+      NewApplication,
     },
     data() {
       return {

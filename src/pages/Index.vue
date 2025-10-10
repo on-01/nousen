@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          2級建築施工管理技士【二次試験対策】講習会 ✍️
+          令和7年度 下期 電験三種オンライン講座✍️
           <br />
-          10/13(祝) 東京会場【受付中】
+          内容を見直して、より充実・よりお得に受付中！
         </p>
         <img
           class="fixed-note-icon"
@@ -180,7 +180,7 @@
         </div> -->
         <img
           class="top-map"
-          src="../assets/img/front/section01/top-map.png"
+          src="../assets/img/front/section01/top-map.jpg"
           alt=""
         />
 
@@ -1565,7 +1565,7 @@ query {
 
   .top-map {
     display: block;
-    margin: 40px auto 0 auto;
+    margin: 80px auto 0 auto;
     max-width: 1024px;
     width: 90%;
     @media print, screen and (max-width: 1000px) {
