@@ -171,7 +171,7 @@
               </div>
               <div class="follow-bottom-rightWrap">
                 <div class="workshop-orangeLine">
-                  <div class="workshop-orangeLine__inner">
+                  <div class="workshop-orangeLine__inner -second">
                     <p class="workshop-orangeLine__heading">
                       🔹 勉強管理システムとは？
                     </p>
@@ -431,6 +431,10 @@
     font-family: メイリオ, sans-serif;
     font-size: 16px;
     position: relative;
+  }
+
+  .workshop-orangeLine__inner.-second {
+    margin: 0 auto;
   }
 
   .workshop-orangeLine__inner.-gansho {
