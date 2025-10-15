@@ -157,6 +157,76 @@
               </div>
             </div>
           </div>
+          <div class="follow-bottom">
+            <p class="follow-bottom-title">
+              ⑤合格に直結する【勉強管理システム】
+            </p>
+            <div class="follow-bottom-wrap">
+              <div class="follow-bottom-leftWrap">
+                <img
+                  class="follow-left-img"
+                  src="../../assets/img/license_page/denken3/follow-left2.png"
+                  alt="電験三種 第三種電気主任技術者"
+                />
+              </div>
+              <div class="follow-bottom-rightWrap">
+                <div class="workshop-orangeLine">
+                  <div class="workshop-orangeLine__inner">
+                    <p class="workshop-orangeLine__heading">
+                      🔹 勉強管理システムとは？
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      「一人で頑張るだけじゃ続かない…」
+                      <br />
+                      そんなあなたをサポートする、新しい学習スタイルです💡
+                    </p>
+                    <p class="workshop-orangeLine__heading -second">
+                      📅 サポート期間：次の試験日まで
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      日々の勉強習慣を しっかり身につけよう！
+                    </p>
+                    <p class="workshop-orangeLine__heading -second">
+                      💻 能セン勉強管理システムの特徴
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 日々の勉強をルーチン化し、計画的に学習を進められる
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 毎日の勉強時間をスプレッドシートで記録
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 受講前に1週間分の勉強予定を直接入力
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 毎日事務局が進捗を確認
+                    </p>
+                    <p class="workshop-orangeLine__text -indent">
+                      ✅
+                      3日以上記録がない場合は、資格取得アドバイザーが担当者（受講生）に連絡しアドバイス。状況によっては担当講師も含めてサポート！
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ※利用には Googleアカウント が必要です
+                    </p>
+                    <p class="workshop-orangeLine__text -br">
+                      🎯 一人で悩む必要はありません
+                      <br />
+                      “見守られながら確実に続ける”学習スタイルで、
+                      <br />
+                      能センは
+                      <span>合格まであなたを本気でサポートします💪</span>
+                      <br />
+                      <br />
+                      📩
+                      <span>
+                        希望の方は、お申し込みフォームでチェックしてください。
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
