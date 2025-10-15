@@ -130,19 +130,19 @@
                       ✨ サービスの特長（5つの安心）
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ① 💰 追加料金なし ⋯ 何度でも利用OK
+                      ✅ 追加料金なし ⋯ 何度でも利用OK
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ② ⏱ 1回30分 ⋯ 疑問をピンポイント解決
+                      ✅ 1回30分 ⋯ 疑問をピンポイント解決
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ③ 📅 簡単予約 ⋯ 専用ページから日時を選ぶだけ
+                      ✅ 簡単予約 ⋯ 専用ページから日時を選ぶだけ
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ④ 🔄 スケジュール連携 ⋯ Google/Outlookと自動同期
+                      ✅ スケジュール連携 ⋯ Google/Outlookと自動同期
                     </p>
                     <p class="workshop-orangeLine__text -indent">
-                      ⑤ 👩‍🏫 個別サポート ⋯
+                      ✅ 個別サポート ⋯
                       基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
                     </p>
                     <p class="workshop-orangeLine__text -br">
