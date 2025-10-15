@@ -180,7 +180,7 @@
         </div> -->
         <img
           class="top-map"
-          src="../assets/img/front/section01/top-map.jpg"
+          src="../assets/img/front/section01/top-map.png"
           alt=""
         />
 
