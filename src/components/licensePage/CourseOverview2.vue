@@ -1,4 +1,5 @@
 <template>
+  <!-- オンライン講座 -->
   <div class="courseOverview">
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
@@ -107,7 +108,7 @@
                 </p>
                 <p class="courseOverview-td-text">
                   <del>130,900円</del>
-                  ▶️【セット割】122,100円：【４科目】完全制覇セット
+                  ▶️【セット割】122,100円：【４科目】完全制覇セット（基礎なし）
                 </p>
                 <p>15,400円：基礎（10時間）</p>
                 <p>29,700円：理論（12時間）</p>
@@ -118,6 +119,9 @@
                   各6600円：模擬試験＋解答解説動画（さらに過去2年分の模擬試験付き）
                 </p>
                 <p>※【４科目】完全制覇セットは基礎講座なし、模擬試験付き</p>
+                <p>
+                  ※講義動画は概ね1～2年ごとに更新し、最新の試験内容に対応しています
+                </p>
               </td>
             </tr>
             <tr>
