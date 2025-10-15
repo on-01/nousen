@@ -411,8 +411,8 @@
   }
 
   .workshop-orangeLine__text.-indent {
-    padding-left: 10em;
-    text-indent: -10em;
+    padding-left: 9em;
+    text-indent: -9em;
   }
 
   .workshop-orangeLine__text.-br {
