@@ -201,7 +201,7 @@
                     <p class="workshop-orangeLine__text">
                       ✅ 毎日事務局が進捗を確認
                     </p>
-                    <p class="workshop-orangeLine__text -indent">
+                    <p class="workshop-orangeLine__text -indent2">
                       ✅
                       3日以上記録がない場合は、資格取得アドバイザーが担当者（受講生）に連絡しアドバイス。状況によっては担当講師も含めてサポート！
                     </p>
@@ -217,9 +217,8 @@
                       <span>合格まであなたを本気でサポートします💪</span>
                       <br />
                       <br />
-                      📩
                       <span>
-                        希望の方は、お申し込みフォームでチェックしてください。
+                        希望の方は、お申込みフォームでチェックしてください。
                       </span>
                     </p>
                   </div>
@@ -487,6 +486,11 @@
   .workshop-orangeLine__text.-indent {
     padding-left: 9em;
     text-indent: -9em;
+  }
+
+  .workshop-orangeLine__text.-indent2 {
+    padding-left: 1em;
+    text-indent: -1em;
   }
 
   .workshop-orangeLine__text.-br {
