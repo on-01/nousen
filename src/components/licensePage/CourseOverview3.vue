@@ -1,4 +1,5 @@
 <template>
+  <!-- 通信講座 -->
   <div class="courseOverview">
     <!-- <img class="courseOverview-icon" src="../../assets/img/icon/note.svg"> -->
     <div class="courseOverview-inner">
@@ -76,7 +77,7 @@
                   ▶️【セット割】49,500円：【４科目】完全制覇セット
                 </p>
                 <p>15,400円：基礎講座（オンライン講座になります）</p>
-                <p>16,500円：科目別（１科目）</p>
+                <p>15,400円：科目別（１科目）</p>
                 <p>理論・電力・機械・法規</p>
               </td>
             </tr>

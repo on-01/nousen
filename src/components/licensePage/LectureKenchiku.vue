@@ -12,7 +12,7 @@
           <p class="lecture-text">{{ text }}</p>
         </div>
       </div>
-      <div class="lecture-section -bottom">
+      <!-- <div class="lecture-section -bottom">
         <div class="lecture-book-images">
           <figure class="lecture-book-image">
             <g-image :src="imageBook1" :alt="altBook1" />
@@ -28,7 +28,7 @@
           <p class="lecture-teacher" v-html="teacher"></p>
           <p class="lecture-profile" v-html="profile"></p>
         </div>
-      </div>
+      </div> -->
       <div class="lecture-section">
         <figure class="lecture-image">
           <g-image :src="imagePath3" :alt="altText3" />
