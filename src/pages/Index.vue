@@ -1251,7 +1251,7 @@ query {
     background-size: cover;
     @media print, screen and (min-width: 1001px) {
       padding-top: 160px;
-      padding-bottom: 80px;
+      padding-bottom: 0;
     }
     @media print, screen and (max-width: 1000px) {
       padding-top: 105px;
@@ -1574,10 +1574,10 @@ query {
 
   .section02 {
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 280px;
     @media print, screen and (max-width: 1000px) {
       max-width: 90%;
-      padding-bottom: 0;
+      padding-bottom: 110px;
     }
     @media print, screen and (min-width: 1001px) {
       background-color: #ffffff;
