@@ -22,19 +22,19 @@
         <p><span>セット</span></p>
         <p>
           一次・二次セット
-          <del>107,800円</del>
+          <del>106,700円</del>
           ▶️57,860円（セット割＋追加割）
         </p>
         <p><span>コース別</span></p>
         <p>
           一次コース
-          <del>71,500円</del>
-          ▶️45,320円（追加割）
+          <del>69,300円</del>
+          ▶️43,890円（追加割）
         </p>
         <p>
           二次コース
-          <del>36,300円</del>
-          ▶️23,595円（追加割）
+          <del>37,400円</del>
+          ▶️24,310円（追加割）
         </p>
       </div>
     </div>
@@ -66,27 +66,27 @@
           <ul class="setCourse-tableFlex">
             <li class="setCourse-tableItem">一次コース</li>
             <li class="setCourse-tableItem">
-              11,230円
+              10,890円
               <br />
-              (37,400円の70%割引)
+              (36,300円の70%割引)
             </li>
             <li class="setCourse-tableItem">
-              10,230円
+              9,900円
               <br />
-              (34,100円の70%割引)
+              (33,000円の70%割引)
             </li>
           </ul>
           <ul class="setCourse-tableFlex">
             <li class="setCourse-tableItem">二次コース</li>
             <li class="setCourse-tableItem">
-              5,445円
+              5,610円
               <br />
-              (18,150円の70%割引)
+              (18,700円の70%割引)
             </li>
             <li class="setCourse-tableItem">
-              5,445円
+              5,610円
               <br />
-              (18,150円の70%割引)
+              (18,700円の70%割引)
             </li>
           </ul>
         </div>
