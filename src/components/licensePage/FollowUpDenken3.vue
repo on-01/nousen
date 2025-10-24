@@ -299,6 +299,11 @@
     margin: 0;
     line-height: 1.5;
     text-align: center;
+    margin-top: 60px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
     span {
       font-weight: 700;
     }
