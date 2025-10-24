@@ -82,7 +82,7 @@ query News {
   .section-title {
     text-align: center;
     margin-top: 25px;
-    font-size: 1.17em;
+    font-size: 1.27em;
   }
 
   .news-article {

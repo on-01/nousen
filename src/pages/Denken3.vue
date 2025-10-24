@@ -1466,7 +1466,7 @@
 
     .tab {
       max-width: 100%;
-      background-color: #fff8cc;
+      background-color: #ffffff;
       @media print, screen and (max-width: 768px) {
         font-size: 14px;
         line-height: 1.5;
@@ -1480,6 +1480,7 @@
     }
 
     .tab.active {
+      background-color: #fff8cc;
       border-bottom: 6px solid #fff8cc;
     }
 
