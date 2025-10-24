@@ -22,7 +22,10 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">①&nbsp;勉強計画を立てて最短合格へ</p>
+              <p class="follow-heading">
+                <span>①</span>
+                勉強計画を立てて最短合格へ
+              </p>
               <p class="follow-text">
                 第三種電気主任技術者の資格取得には長期間の勉強が必要になります。
                 <br />
@@ -48,7 +51,10 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">②&nbsp;リマインダーメールサービス</p>
+              <p class="follow-heading">
+                <span>②</span>
+                リマインダーメールサービス
+              </p>
               <p class="follow-text">
                 試験日までの学習をしっかりサポート！
                 <br />
@@ -82,7 +88,8 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                ③&nbsp;資格取得アドバイザーの質問サポート
+                <span>③</span>
+                資格取得アドバイザーの質問サポート
               </p>
               <p class="follow-text">
                 学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
@@ -101,7 +108,8 @@
           </div>
           <div class="follow-bottom">
             <p class="follow-bottom-title">
-              ④オンラインサポートサービス【能センサポ】
+              <span>④</span>
+              オンラインサポートサービス【能センサポ】
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
@@ -168,7 +176,8 @@
           </div>
           <div class="follow-bottom">
             <p class="follow-bottom-title">
-              ⑤合格に直結する【勉強管理システム】
+              <span>⑤</span>
+              合格に直結する【勉強管理システム】
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
@@ -385,6 +394,10 @@
     font-size: 18px;
     font-weight: 700;
     margin: 0;
+
+    span {
+      font-size: 20px;
+    }
   }
 
   .follow-text {
@@ -416,6 +429,10 @@
     background-color: #1262b2;
     padding: 5px 0;
     max-width: 940px;
+
+    span {
+      font-size: 26px;
+    }
   }
 
   .follow-bottom-img {
