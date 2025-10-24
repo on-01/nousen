@@ -183,13 +183,16 @@
           src="../assets/img/front/section01/top-map.png"
           alt=""
         />
-
         <div class="more_qualification">
           <!-- <g-link to="/licenses">
             資格一覧はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link> -->
         </div>
+      </section>
+      <section class="section02">
+        <p class="section-name">News</p>
+        <News />
       </section>
       <section class="section03">
         <h2 class="section-title">
@@ -201,10 +204,6 @@
         <NewReason />
       </section>
 
-      <section class="section02">
-        <p class="section-name">News</p>
-        <News />
-      </section>
       <ReasonLink
         moreLinkCheck="1"
         moreLink="https://timerex.net/s/a4b3c5d67_73c6/9aab6876"
@@ -1581,7 +1580,7 @@ query {
       padding-bottom: 0;
     }
     @media print, screen and (min-width: 1001px) {
-      background-color: #ebf7ff;
+      background-color: #ffffff;
     }
     .section-name {
       color: #f4891e;
