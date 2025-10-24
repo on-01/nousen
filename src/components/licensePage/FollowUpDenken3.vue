@@ -3,6 +3,15 @@
     <div class="follow-inner">
       <div class="follow-content">
         <p class="follow-title">勉強フォローアップサービス</p>
+        <p class="follow-title-sub">
+          <span>
+            能センでは、受講中の学習をしっかり支えるために、5つの勉強フォローアップサービスを導入しています。
+          </span>
+          <br />
+          学習計画の進捗確認や質問対応など、日々の学びを丁寧にサポート。
+          <br />
+          一人で悩むことなく、安心して学習を続けられる体制です。
+        </p>
         <div class="follow-wrap">
           <div class="follow-flex">
             <div class="follow-imgWrap">
@@ -282,6 +291,16 @@
     transform: translateX(-50%);
     @media print, screen and (max-width: 1000px) {
       bottom: 0;
+    }
+  }
+
+  .follow-title-sub {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    span {
+      font-weight: 700;
     }
   }
 
