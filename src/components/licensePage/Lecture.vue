@@ -179,7 +179,7 @@
         </div>
         <div class="book-wrap -right">
           <img
-            src="../../assets/img/license_page/doboku_s/lecture-book5.jpg"
+            src="../../assets/img/license_page/doboku_s/lecture-book5.png"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【二次コース専用】</p>
