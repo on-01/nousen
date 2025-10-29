@@ -25,11 +25,11 @@
         確かな成果を、確実に
       </p>
       <!-- <p v-if="subTitle" class="sub-title" v-html="subTitle"></p> -->
-      <!-- <p class="sub-title">
-        <a href="https://nousen.blog/tugaku-d/">通学講座</a>
+      <p class="sub-title">
+        <p>通学講座</p>
         |
-        <a href="https://doboku-online.nouryoku.com/">オンライン講座</a>
-      </p> -->
+        <p>オンライン講座</p>
+      </p>
     </div>
   </section>
 </template>
