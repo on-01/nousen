@@ -703,7 +703,7 @@
 
     .tab {
       max-width: 100%;
-      background-color: #fff8cc;
+      background-color: #ffffff;
     }
 
     .tab.active {
