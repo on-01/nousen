@@ -462,7 +462,7 @@
   }
 
   .workshop-orangeLine__inner {
-    margin: 40px auto;
+    margin: 20px auto 40px;
     padding: 20px;
     // border: 4px solid #f4891e;
     border-radius: 12px;

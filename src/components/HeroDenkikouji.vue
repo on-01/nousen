@@ -147,6 +147,9 @@
       a {
         text-decoration: underline;
       }
+      p {
+        text-decoration: underline;
+      }
     }
   }
   .icon {
