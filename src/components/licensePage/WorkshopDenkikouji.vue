@@ -507,7 +507,7 @@
             上記の学習内容の一部を実施しない場合がございます。状況に応じて省略・変更することがございますので、ご了承ください。          </p>
         </div>
       </div>
-    <!-- <div class="add-wrapper">
+    <div class="add-wrapper">
         <div class="add-studyWrap">
           <div class="workshop-orangeLine -gansho">
             <div class="workshop-orangeLine__inner -gansho">
@@ -810,7 +810,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
   </div>
 </template>
 
