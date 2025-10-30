@@ -26,9 +26,13 @@
       </p>
       <!-- <p v-if="subTitle" class="sub-title" v-html="subTitle"></p> -->
       <p class="sub-title">
-        <p>通学講座</p>
+        <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
+        | -->
+        <p href="https://nousen.blog/tugaku-d/">通学講座</p>
         |
-        <p>オンライン講座</p>
+        <p href="https://doboku-online.nouryoku.com/">オンライン講座</p>
+        <!-- |
+        <a href="https://t.kouza.nouryoku.com/">通信講座</a> -->
       </p>
     </div>
   </section>

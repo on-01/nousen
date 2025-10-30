@@ -441,7 +441,7 @@
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
-
+  import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -497,6 +497,7 @@
       SupportDoboku,
       MerumagaDenkikouji,
       NewApplication,
+      SetCourse2,
     },
     data() {
       return {
