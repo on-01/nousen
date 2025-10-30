@@ -174,6 +174,10 @@
 
             <WorkshopDenkikouji />
 
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
+
             <section class="voice">
               <div class="voice-inner">
                 <div class="voice-content">
