@@ -519,18 +519,18 @@
                 経験記述の添削のみにも対応
               </p>
               <p class="workshop-orangeLine__text">
-                講座なしで添削のみを希望する方向け。
+                講座なしで添削のみを希望する方向け！
                 <br />
-                料金：3,800円（税込4,180円）
+                料金：2,500円（税込2,750円）
                 <br />
-                　内容：添削1回＋二次試験対応テキスト
+                内容：添削1回
                 <br />
-                土木・鋼構造物塗装・薬液注入の全種別対応
+                ※🎓<span>GO!資格 合格応援制度</span>は対象外になります
               </p>
             </div>
           </div>
         </div>
-        <div class="workshop-table workshopTable">
+        <!-- <div class="workshop-table workshopTable">
           <div class="workshopTable-content">
             <div class="workshopTable-wrapper">
               <p class="workshopTable-title -orange">通学講座（講習会）</p>
@@ -809,7 +809,7 @@
               </table>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
   </div>
 </template>
