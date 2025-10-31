@@ -174,6 +174,10 @@
 
             <WorkshopDenkikouji />
 
+            <div class="bg-white">
+              <SetCourse2 title="通学＋オンラインセット" />
+            </div>
+
             <section class="voice">
               <div class="voice-inner">
                 <div class="voice-content">
@@ -437,7 +441,7 @@
   import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
-
+  import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -493,6 +497,7 @@
       SupportDoboku,
       MerumagaDenkikouji,
       NewApplication,
+      SetCourse2,
     },
     data() {
       return {
@@ -703,11 +708,12 @@
 
     .tab {
       max-width: 100%;
-      background-color: #fff8cc;
+      background-color: #ffffff;
     }
 
     .tab.active {
       border-bottom: 6px solid #fff8cc;
+      background-color: #fff8cc;
     }
 
     .tab::before {
