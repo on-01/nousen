@@ -30,7 +30,6 @@
     width: 100%;
     background-color: #fff;
     margin: 0 auto;
-    padding: 40px 0;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
