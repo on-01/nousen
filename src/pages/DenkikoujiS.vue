@@ -452,6 +452,7 @@
   import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   import Explanation from "../components/licensePage/Explanation.vue";
   import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
+  import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -511,6 +512,7 @@
       TestOverviewDenkikouji,
       Explanation,
       ExplanationDenkikouji,
+      ScheduleKenchiku,
     },
     data() {
       return {
