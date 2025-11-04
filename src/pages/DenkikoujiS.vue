@@ -791,7 +791,7 @@
   }
 
   .bg-lightBlue.-pd {
-    padding-top: 40px;
+    padding-top: 0;
     padding-bottom: 110px;
     background-color: #eaf7ff;
   }
