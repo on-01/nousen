@@ -65,8 +65,8 @@
           </section>
 
           <!-- 試験情報 -->
-          <div v-show="isActiveTop === 1">
-            <Explanation
+          <div style="background-color: #fff8cc" v-show="isActiveTop === 1">
+            <ExplanationDenkikouji
               title="電気工事施工管理技士とは"
               text="1・2級電気工事施工管理技士は、電気工事の施工計画、安全・品質・工程管理などを行う国家資格です。<br><br>
             1級電気工事施工管理技士は、公共工事や大型施設工事などで監理技術者・主任技術者として現場全体の管理が可能です。<br>
@@ -448,6 +448,7 @@
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   import Explanation from "../components/licensePage/Explanation.vue";
+  import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -506,6 +507,7 @@
       SetCourse2,
       TestOverviewDenkikouji,
       Explanation,
+      ExplanationDenkikouji,
     },
     data() {
       return {
@@ -783,6 +785,11 @@
   .bg-lightBlue {
     background-color: #fff8cc;
     padding: 80px 0;
+  }
+
+  .bg-lightBlue.-pd {
+    padding-top: 40px;
+    padding-bottom: 110px;
   }
 
   .bg-white_type2 {
