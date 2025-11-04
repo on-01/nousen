@@ -78,10 +78,12 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
               "
-              altText="建築施工管理技士 講習会 通信講座 web講座"
+              altText="電気工事施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
-              <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
+              <ScheduleKenchiku
+                title="令和7年度 電気工事施工管理技士 試験日程"
+              />
               <!-- <TestOverviewKenchiku /> -->
 
               <!-- <div class="exam-link-wrapper -column">
@@ -193,7 +195,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -206,7 +208,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -221,7 +223,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -234,7 +236,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -259,7 +261,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -277,7 +279,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -287,7 +289,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -305,7 +307,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
