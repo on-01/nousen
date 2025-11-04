@@ -65,7 +65,10 @@
           </section>
 
           <!-- 試験情報 -->
-          <div style="background-color: #fff8cc" v-show="isActiveTop === 1">
+          <div
+            style="background-color: #fff8cc; padding-top: 40px"
+            v-show="isActiveTop === 1"
+          >
             <ExplanationDenkikouji
               title="電気工事施工管理技士とは"
               text="1・2級電気工事施工管理技士は、電気工事の施工計画、安全・品質・工程管理などを行う国家資格です。<br><br>
