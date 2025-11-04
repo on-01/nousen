@@ -66,21 +66,25 @@
 
           <!-- 試験情報 -->
           <div v-show="isActiveTop === 1">
-            <!-- <Explanation
-            title="建築施工管理技士とは"
-            text="1・2級建築施工管理技士は、建築工事の施工計画の作成や現場での工程管理、品質管理、安全管理などを担う国家資格です。<br><br>
-            1級建築施工管理技士は、大規模な建築工事や特定建設業における監理技術者として認められ、技術的に高い水準を要求される資格であり、建築現場での高い責任と専門性が求められます。<br><br>
-            2級建築施工管理技士は、一般的な建設業における技術者や主任技術者として、中小規模の工事現場の監督や現場管理を担当し、工事の進捗状況や品質管理、安全対策などに関与します。<br><br>
+            <Explanation
+              title="電気工事施工管理技士とは"
+              text="1・2級電気工事施工管理技士は、電気工事の施工計画、安全・品質・工程管理などを行う国家資格です。<br><br>
+            1級電気工事施工管理技士は、公共工事や大型施設工事などで監理技術者・主任技術者として現場全体の管理が可能です。<br>
+            特定建設業での大規模工事を受注するために重要な資格です。<br><br>
+            2級電気工事施工管理技士は、中小規模の現場で主任技術者などとして施工管理を行い、<br>
+            日常的な安全管理・品質管理・作業員指導などを担います。将来的に1級へのステップアップも可能です。<br><br>
             <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
               最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
-            :imagePath="
-              require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
-            "
-            altText="建築施工管理技士 講習会 通信講座 web講座"
-          /> -->
+              :imagePath="
+                require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
+              "
+              altText="電気工事施工管理技士 講習会 通信講座 web講座"
+            />
             <div class="bg-lightBlue -pd100">
-              <!-- <ScheduleKenchiku title="令和7年度 建築施工管理技士 試験日程" /> -->
-              <!-- <TestOverviewKenchiku /> -->
+              <ScheduleKenchiku
+                title="令和7年度 電気工事施工管理技士 試験日程"
+              />
+              <TestOverviewDenkikouji />
 
               <!-- <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#kenchiku" class="exam-link">
@@ -191,7 +195,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -204,7 +208,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -219,7 +223,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -232,7 +236,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -257,7 +261,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -275,7 +279,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -285,7 +289,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -303,7 +307,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -442,6 +446,7 @@
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -498,6 +503,7 @@
       MerumagaDenkikouji,
       NewApplication,
       SetCourse2,
+      TestOverviewDenkikouji,
     },
     data() {
       return {

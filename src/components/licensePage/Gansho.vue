@@ -2,7 +2,7 @@
   <div class="gansho">
     <div class="gansho-content">
       <div class="gansho-inner">
-        <p class="gansho-top-text">令和7年度</p>
+        <p class="gansho-top-text">令和8年度</p>
         <p class="gansho-top-text">
           <span>願書</span>
           取り寄せサポート！
