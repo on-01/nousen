@@ -84,7 +84,7 @@
               <ScheduleKenchiku
                 title="令和7年度 電気工事施工管理技士 試験日程"
               />
-              <!-- <TestOverviewKenchiku /> -->
+              <TestOverviewDenkikouji />
 
               <!-- <div class="exam-link-wrapper -column">
                 <g-link to="/licenses/#kenchiku" class="exam-link">
@@ -446,6 +446,7 @@
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -502,6 +503,7 @@
       MerumagaDenkikouji,
       NewApplication,
       SetCourse2,
+      TestOverviewDenkikouji,
     },
     data() {
       return {
