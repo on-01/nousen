@@ -447,6 +447,7 @@
   import NewApplication from "../components/licensePage/NewApplication.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
+  import Explanation from "../components/licensePage/Explanation.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -504,6 +505,7 @@
       NewApplication,
       SetCourse2,
       TestOverviewDenkikouji,
+      Explanation,
     },
     data() {
       return {
