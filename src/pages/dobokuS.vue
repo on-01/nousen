@@ -1017,6 +1017,7 @@
 
     .tab.active {
       border-bottom: 6px solid #fff8cc;
+      background-color: #fff8cc;
     }
 
     .tab::before {
