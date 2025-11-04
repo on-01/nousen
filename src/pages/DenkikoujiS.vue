@@ -80,7 +80,7 @@
               "
               altText="電気工事施工管理技士 講習会 通信講座 web講座"
             />
-            <div class="bg-lightBlue -pd100">
+            <div class="bg-lightBlue -pd">
               <ScheduleKenchiku
                 title="令和7年度 電気工事施工管理技士 試験日程"
               />
