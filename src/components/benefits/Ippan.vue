@@ -6,8 +6,6 @@
         資格取得やスキルアップのため、受講費用の一部が給付される制度です。
       </p>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/YsTjofwvi1k?si=iDnQtH0oqxoIwIXr"
         title="YouTube video player"
         frameborder="0"
@@ -166,6 +164,13 @@
   .sub-title {
     font-weight: bold;
     text-align: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    aspect-ratio: 16 / 9;
   }
   .section-title-inner {
     font-size: 17px;
