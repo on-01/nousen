@@ -167,7 +167,9 @@
   }
 
   iframe {
+    display: block;
     width: 100%;
+    max-width: 590px;
     height: auto;
     margin: 20px auto 0;
     aspect-ratio: 16 / 9;
