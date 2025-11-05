@@ -5,6 +5,16 @@
       <p class="sub-title">
         資格取得やスキルアップのため、受講費用の一部が給付される制度です。
       </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/YsTjofwvi1k?si=iDnQtH0oqxoIwIXr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </header>
     <div class="content-inner">
       <section class="section">
