@@ -146,7 +146,7 @@
       @media print, screen and (max-width: 560px) {
         font-size: 12px;
       }
-      span {
+      ::v-deep span {
         color: red;
       }
     }
