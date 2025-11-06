@@ -1063,6 +1063,7 @@
         align-items: flex-start;
         flex-wrap: wrap;
         justify-content: flex-start;
+        max-width: 830px;
         // 最初の行を中央揃えにするために、最初の行の最後のアイテムにmargin-left: autoを設定
         // ただし、折り返し行は左寄せになる
         &::after {
