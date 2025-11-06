@@ -1062,7 +1062,14 @@
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
+        // 最初の行を中央揃えにするために、最初の行の最後のアイテムにmargin-left: autoを設定
+        // ただし、折り返し行は左寄せになる
+        &::after {
+          content: "";
+          flex: 1 0 240px;
+          max-width: 240px;
+        }
       }
       @media print, screen and(max-width: 1000px) {
         margin-left: 1em;
@@ -1101,7 +1108,7 @@
         &.denkikouji {
           .application-form-link,
           .application-fax-link {
-            color: #b60081;
+            color: #00a73c;
           }
           .title:before {
             content: url("../assets/img/icon/qualification/denkikouji.svg");
