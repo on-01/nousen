@@ -146,6 +146,9 @@
       @media print, screen and (max-width: 560px) {
         font-size: 12px;
       }
+      span {
+        color: red;
+      }
     }
     .sub-title.-link {
       font-size: 18px;
