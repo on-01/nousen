@@ -990,7 +990,7 @@
           content: url("../assets/img/icon/qualification/denken.svg");
         }
         &.denkikouji:before {
-          content: url("../assets/img/icon/qualification/denkikouji.svg");
+          content: url("../assets/img/icon/qualification/denkikoujisekou.svg");
         }
         &.denkikoujisekou:before {
           content: url("../assets/img/icon/qualification/denkikoujisekou.svg");
