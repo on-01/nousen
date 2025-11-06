@@ -493,6 +493,51 @@
               FAX用紙(PDF)
             </a>
           </li>
+          <li class="denkikouji">
+            <p class="title">
+              1・2級
+              <br class="overdisplay" />
+              電気工事施工管理技士
+            </p>
+            <g-link
+              to="https://business.form-mailer.jp/fms/f41ca637308441"
+              class="application-form-link"
+            >
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="https://business.form-mailer.jp/fms/18f08350308440?_fsi=6AUuJODM"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="/doboku_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="/denki.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
           <!-- <li class="kyuusui">
             <p class="title">
               給水装置工事<br class="overdisplay" />主任技術者
