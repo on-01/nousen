@@ -148,6 +148,9 @@
       @media print, screen and (max-width: 414px) {
         font-size: 13px;
       }
+      ::v-deep span {
+        color: red;
+      }
       a {
         text-decoration: underline;
       }
