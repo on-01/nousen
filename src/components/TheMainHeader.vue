@@ -1112,7 +1112,7 @@
             color: #00a73c;
           }
           .title:before {
-            content: url("../assets/img/icon/qualification/denkikouji.svg");
+            content: url("../assets/img/icon/qualification/denkikoujisekou.svg");
           }
         }
         &.denkikoujisekou {
