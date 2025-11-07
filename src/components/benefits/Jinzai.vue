@@ -12,6 +12,14 @@
         <br />
         事業者様が利用できます。
       </p>
+      <iframe
+        src="https://www.youtube.com/embed/Vxq4GhFQdNY?si=VDisXxXycgEiTA4H"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </header>
     <div class="content-inner">
       <section class="section">
@@ -133,6 +141,14 @@
   .sub-title {
     font-weight: bold;
     text-align: center;
+  }
+  iframe {
+    display: block;
+    width: 100%;
+    max-width: 590px;
+    height: auto;
+    margin: 20px auto 0;
+    aspect-ratio: 16 / 9;
   }
   .section-title-inner {
     font-size: 17px;

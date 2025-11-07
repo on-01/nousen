@@ -2,7 +2,7 @@
   <div class="follow">
     <div class="follow-inner">
       <div class="follow-content">
-        <p class="follow-title">勉強フォローアップサービス</p>
+        <p class="follow-title">勉強フォローアップサービス（無料）</p>
         <div class="follow-wrap">
           <div class="follow-flex">
             <div class="follow-imgWrap">

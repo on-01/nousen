@@ -65,7 +65,7 @@
   }
 
   .explanation-text {
-    width: 66%;
+    width: 67%;
     font-size: 14px;
     line-height: 1.8;
     margin-top: 10px;

@@ -2,7 +2,7 @@
   <div class="follow">
     <div class="follow-inner">
       <div class="follow-content">
-        <p class="follow-title">勉強フォローアップサービス</p>
+        <p class="follow-title">勉強フォローアップサービス（無料）</p>
         <p class="follow-title-sub">
           <span>
             能センでは、受講中の学習をしっかり支えるために、5つの勉強フォローアップサービスを導入しています。
@@ -11,6 +11,8 @@
           学習計画の進捗確認や質問対応など、日々の学びを丁寧にサポート。
           <br />
           一人で悩むことなく、安心して学習を続けられる体制です。
+          <br />
+          ※ 模擬試験のみは対象外です
         </p>
         <div class="follow-wrap">
           <div class="follow-flex">

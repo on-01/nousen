@@ -20,7 +20,7 @@
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
       <h2 class="title" v-html="title"></h2>
       <p class="title -orange">
-        合格への最短ルート
+        合格まで伴走支援！
         <br />
         確かな成果を、確実に
       </p>
@@ -145,6 +145,9 @@
       }
       @media print, screen and (max-width: 560px) {
         font-size: 12px;
+      }
+      ::v-deep span {
+        color: red;
       }
     }
     .sub-title.-link {

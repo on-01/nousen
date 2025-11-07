@@ -8,7 +8,7 @@
               require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和8年度前期 / 令和8年度後期"
+            headTitle="令和8年度前期 / 令和8年度後期<span>【準備中】</span>"
             title="1・2級電気工事施工管理技士"
             :icon="
               require('../assets/img/icon/qualification/denkikoujisekou.svg')
@@ -72,8 +72,7 @@
             <ExplanationDenkikouji
               title="電気工事施工管理技士とは"
               text="1・2級電気工事施工管理技士は、電気工事の施工計画、安全・品質・工程管理などを行う国家資格です。<br><br>
-            1級電気工事施工管理技士は、公共工事や大型施設工事などで監理技術者・主任技術者として現場全体の管理が可能です。<br>
-            特定建設業での大規模工事を受注するために重要な資格です。<br><br>
+            1級電気工事施工管理技士は、公共工事や大型施設工事などで監理技術者・主任技術者として現場全体の管理が可能です。特定建設業での大規模工事を受注するために重要な資格です。<br><br>
             2級電気工事施工管理技士は、中小規模の現場で主任技術者などとして施工管理を行い、<br>
             日常的な安全管理・品質管理・作業員指導などを担います。将来的に1級へのステップアップも可能です。<br><br>
             <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
