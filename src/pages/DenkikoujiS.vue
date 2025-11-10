@@ -78,7 +78,7 @@
             <span style='font-weight: 700;'>能センでは、受講生が業務の多忙さによる時間的制約の中、<br>
               最小限の努力で最大の結果（合格）を得るための講座をご提供いたします。</span>"
               :imagePath="
-                require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
+                require('../assets/img/license_page/denkikouji_s/denkikouji_explain.jpg')
               "
               altText="電気工事施工管理技士 講習会 通信講座 web講座"
             />
