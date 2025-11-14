@@ -124,7 +124,7 @@
               <div class="follow-bottom-rightWrap">
                 <img
                   class="follow-bottom-img"
-                  src="../../assets/img/license_page/denken3/follow-bottom.jpg"
+                  src="../../assets/img/license_page/denken3/follow-bottom2.jpg"
                   alt="電験三種 第三種電気主任技術者"
                 />
                 <div class="workshop-orangeLine">

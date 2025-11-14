@@ -19,6 +19,8 @@
         </p>
       </div>
     </div>
+    <!-- A8ネット 成果タグ -->
+    <span id="a8sales"></span>
   </Layout>
 </template>
 
@@ -88,6 +90,37 @@ query {
     //     document.head.appendChild(a);
     //   })();
     // },
+    mounted() {
+      // A8ネット 成果タグ
+      // 注文番号をURLパラメータから取得（例: ?order_number=12345）
+      // システム側で動的に値を渡す場合は、適切なパラメータ名に変更してください
+      const urlParams = new URLSearchParams(window.location.search);
+      const orderNumber =
+        urlParams.get("order_number") || urlParams.get("orderNumber") || "";
+
+      // a8sales.jsを読み込む
+      const script1 = document.createElement("script");
+      script1.src = "//statics.a8.net/a8sales/a8sales.js";
+      script1.onload = () => {
+        // a8sales.js読み込み後にa8sales関数を呼び出す
+        if (typeof a8sales === "function") {
+          a8sales({
+            pid: "s00000027188001",
+            order_number: orderNumber || "注文番号", // 広告主様側でお持ちの変数を反映ください
+            currency: "JPY",
+            items: [
+              {
+                code: "a8",
+                price: 1,
+                quantity: 1,
+              },
+            ],
+            total_price: 1,
+          });
+        }
+      };
+      document.body.appendChild(script1);
+    },
   };
 </script>
 

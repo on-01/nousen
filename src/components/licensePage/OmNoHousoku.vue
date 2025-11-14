@@ -7,23 +7,23 @@
           <div class="follow-textWrap">
             <p class="follow-heading">オームの法則とは？</p>
             <p class="follow-text">
-              オームの法則は、ドイツの物理学者ゲオルク・オーム（またはヘンリー・キャベンディッシュ）が発見した、
+              オームの法則は、ドイツの物理学者ゲオルク・ジーモン・オーム（またはヘンリー・キャベンディッシュ）が発見した、
               <br />
-              電圧（V）、電流（I）、抵抗（R）の関係を示す法則です。
+              「電圧（V）」「電流（I）」「抵抗（R）」の関係を表す基本の法則です。
             </p>
           </div>
           <div class="follow-textWrap">
-            <p class="follow-heading">式： V = I × R</p>
+            <p class="follow-heading">🔹基本の式： V = I × R</p>
             <p class="follow-text">
-              V（電圧） … 電流を流す力
+              V（電圧ボルト） … 電気を流そうとする力（押し出す力）
               <br />
-              I（電流） … 実際に流れる電気の量
+              I（電流アンペア） … 実際に流れる電気の量
               <br />
-              R（抵抗） … 電流の流れにくさ
+              R（抵抗オーム） … 電流の流れにくさ
             </p>
           </div>
           <div class="follow-textWrap">
-            <p class="follow-heading">計算例</p>
+            <p class="follow-heading">🔹計算の例</p>
             <p class="follow-text">
               ・電圧 10V、抵抗 5Ωのとき → I = 10V ÷ 5Ω = 2A
               <br />
@@ -31,26 +31,34 @@
             </p>
           </div>
           <div class="follow-textWrap">
-            <p class="follow-heading">なぜ重要？</p>
+            <p class="follow-heading">🔹なぜ大事なの？</p>
             <p class="follow-text">
-              オームの法則は、電子機器の設計や故障防止に欠かせません。
+              オームの法則は、電気の勉強でも仕事でもとても大切な考え方です。
               <br />
-              例えば、
+              これがわかると、次のようなことができるようになります。
               <br />
-              ✅ 適切な電圧・電流の設定
+              ✅ 電圧・電流・抵抗の関係がすぐにわかる
               <br />
-              ✅ 必要な抵抗値の選定
+              ✅ 機器や配線に合った抵抗を選べる
               <br />
-              ✅ 過電流による故障防止
+              ✅ 過電流による故障を防げる
             </p>
           </div>
           <div class="follow-textWrap">
-            <p class="follow-heading">まとめ</p>
+            <p class="follow-heading">🔹まとめ</p>
             <p class="follow-text">
               オームの法則は「V = I ×
               R」というシンプルな式で、電圧・電流・抵抗の関係を表しています。
               <br />
-              基本的な計算ができれば、電気の仕組みを直感的に理解できるようになります。
+              この基本をおさえると、電気の流れや機器の仕組みを、ぐっと理解しやすくなります。
+            </p>
+          </div>
+          <div class="follow-textWrap">
+            <p class="follow-heading">🔹注意点（豆知識）</p>
+            <p class="follow-text">
+              ・この法則は「抵抗器」など、電圧と電流が比例する部品に成り立ちます。
+              <br />
+              ・ダイオードやLEDなどでは、電圧と電流の関係がまっすぐではないため、この式だけでは説明できません。
             </p>
           </div>
         </div>
