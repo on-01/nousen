@@ -92,11 +92,34 @@ query {
     // },
     mounted() {
       // A8ネット 成果タグ
-      // 注文番号をURLパラメータから取得（例: ?order_number=12345）
-      // システム側で動的に値を渡す場合は、適切なパラメータ名に変更してください
+      // 注文番号を取得（システム側で動的に値を渡してください）
+      // 取得方法の優先順位:
+      // 1. URLパラメータ（?order_number=xxx または ?orderNumber=xxx）
+      // 2. セッションストレージ
+      // 3. ページ内のdata属性（<body data-order-number="xxx">）
       const urlParams = new URLSearchParams(window.location.search);
-      const orderNumber =
-        urlParams.get("order_number") || urlParams.get("orderNumber") || "";
+      let orderNumber =
+        urlParams.get("order_number") ||
+        urlParams.get("orderNumber") ||
+        sessionStorage.getItem("orderNumber") ||
+        document.body.getAttribute("data-order-number") ||
+        "";
+
+      // 注文番号が取得できない場合は空文字列（固定値は使用しない）
+      // システム側で必ず注文番号を渡すようにしてください
+
+      // AFI-B用のユーザー識別IDを生成（NG文字を削除）
+      const sanitizeUserId = (str) => {
+        if (!str) return "";
+        // OK文字のみ残す: 英数字（a-z, A-Z, 0-9）と . - _ *
+        // NG文字を削除: 日本語、? ! & "" ' \ / % # + = $ { } [ ] ; : | スペースなど
+        let sanitized = str.replace(/[^a-zA-Z0-9.-_*]/g, "");
+        // 先頭・最後の半角/全角スペースを削除（念のため）
+        sanitized = sanitized.replace(/^[\s\u3000]+|[\s\u3000]+$/g, "");
+        return sanitized;
+      };
+
+      const userId = sanitizeUserId(orderNumber);
 
       // a8sales.jsを読み込む
       const script1 = document.createElement("script");
@@ -106,7 +129,7 @@ query {
         if (typeof a8sales === "function") {
           a8sales({
             pid: "s00000027188001",
-            order_number: orderNumber || "注文番号", // 広告主様側でお持ちの変数を反映ください
+            order_number: orderNumber, // システム側で動的に値を渡してください
             currency: "JPY",
             items: [
               {
@@ -120,6 +143,24 @@ query {
         }
       };
       document.body.appendChild(script1);
+
+      // AFI-B LPCV CV タグ
+      if (!window.afblpcvCvConf) {
+        window.afblpcvCvConf = [];
+      }
+      window.afblpcvCvConf.push({
+        siteId: "cd77d6d9",
+        commitData: {
+          pid: "Q15743i",
+          u: userId || "", // 注文番号からNG文字を削除した値
+        },
+      });
+
+      const script2 = document.createElement("script");
+      script2.src =
+        "https://t.afi-b.com/jslib/lpcv.js?cid=cd77d6d9&pid=Q15743i";
+      script2.async = true;
+      document.body.appendChild(script2);
     },
   };
 </script>

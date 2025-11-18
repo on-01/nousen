@@ -199,14 +199,14 @@
       <div class="exam-link-wrapper">
         <div class="exam-link-flex">
           <a
-            href="https://business.form-mailer.jp/fms/f41ca637308441"
+            href="/denkikouji-s-application"
             class="application-form-link"
           >
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </a>
           <a
-            href="https://business.form-mailer.jp/fms/18f08350308440"
+            href="/denkikouji-s-application-business"
             class="application-form-link"
           >
             お申込みはこちら（法人）
