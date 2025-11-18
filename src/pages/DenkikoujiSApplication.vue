@@ -10,7 +10,7 @@
       <div class="contents">
         <iframe
           class="google_form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeN83HyAnvzfQtU4CWphY3pi5eMPw0ScTVRq_-jY4phCE1Opg/viewform?embedded=true"
+          src="https://business.form-mailer.jp/fms/f41ca637308441?_fsi=GBl4iobV"
           width="100%"
           height="1000"
           frameborder="0"
@@ -34,45 +34,74 @@ query {
 </static-query>
 
 <script>
-import Hero from "@/components/Hero.vue";
-export default {
-  name: "denkikouji_s_application",
-  metaInfo() {
-    return {
-      titleTemplate:
-        "1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-",
-      meta: [
-        {
-          name: "description",
-          content:
-            "能セン受験対策講習会「1・2級電気工事施工管理技士」のお申し込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。"
-        },
-        {
-          key: `og:title`,
-          property: `og:title`,
-          // content: `1級・2級 電気工事施工管理技士講習お申し込み | ${this.$static.metadata.siteName}`,
-          content: `1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-`
-        },
-        {
-          key: `og:url`,
-          property: `og:url`,
-          content: `${this.$static.metadata.siteUrl}/denkikouji-s-application`
-        }
-      ]
-    };
-  },
-  components: {
-    Hero
-  }
-};
+  import Hero from "@/components/Hero.vue";
+  export default {
+    name: "denkikouji_s_application",
+    metaInfo() {
+      return {
+        titleTemplate:
+          "1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-",
+        meta: [
+          {
+            name: "description",
+            content:
+              "能セン受験対策講習会「1・2級電気工事施工管理技士」のお申し込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。",
+          },
+          {
+            key: `og:title`,
+            property: `og:title`,
+            // content: `1級・2級 電気工事施工管理技士講習お申し込み | ${this.$static.metadata.siteName}`,
+            content: `1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-`,
+          },
+          {
+            key: `og:url`,
+            property: `og:url`,
+            content: `${this.$static.metadata.siteUrl}/denkikouji-s-application`,
+          },
+        ],
+      };
+    },
+    components: {
+      Hero,
+    },
+    mounted() {
+      // フォーム送信用のユニークIDを生成してセッションストレージに保存
+      // サンクスページで注文番号として使用されます
+      if (!sessionStorage.getItem("orderNumber")) {
+        // タイムスタンプ + ランダム文字列でユニークなIDを生成
+        const uniqueId =
+          "ORD-" +
+          Date.now() +
+          "-" +
+          Math.random().toString(36).substr(2, 9).toUpperCase();
+        sessionStorage.setItem("orderNumber", uniqueId);
+      }
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
-// .denkikouji-s-application {
-// padding-bottom: 100px;
-// }
-.contents {
-  background-color: #f2f2f2;
-  padding-top: 50px;
-}
+  // .denkikouji-s-application {
+  // padding-bottom: 100px;
+  // }
+  // .contents {
+  //   background-color: #f2f2f2;
+  //   padding-top: 50px;
+  // }
+  @media print, screen and (max-width: 1000px) {
+    .contents {
+      padding-top: 3rem;
+      background: #e1f5fe;
+    }
+  }
+
+  .hero {
+    &.no-pic {
+      //背景画像がない場合は余白つける
+      display: none;
+      @media print, screen and (max-width: 980px) {
+        display: none;
+      }
+    }
+  }
 </style>

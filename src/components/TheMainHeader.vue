@@ -500,14 +500,14 @@
               電気工事施工管理技士
             </p>
             <g-link
-              to="https://business.form-mailer.jp/fms/f41ca637308441"
+              to="/denkikouji-s-application"
               class="application-form-link"
             >
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="https://business.form-mailer.jp/fms/18f08350308440?_fsi=6AUuJODM"
+              to="/denkikouji-s-application-business"
               class="application-form-link"
             >
               お申込みフォーム(法人)
