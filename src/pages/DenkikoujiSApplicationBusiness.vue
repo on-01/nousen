@@ -36,7 +36,7 @@ query {
 <script>
   import Hero from "@/components/Hero.vue";
   export default {
-    name: "denkikouji_s_application",
+    name: "denkikouji_s_application_business",
     metaInfo() {
       return {
         titleTemplate:
@@ -56,7 +56,7 @@ query {
           {
             key: `og:url`,
             property: `og:url`,
-            content: `${this.$static.metadata.siteUrl}/denkikouji-s-application`,
+            content: `${this.$static.metadata.siteUrl}/denkikouji-s-application-business`,
           },
         ],
       };
