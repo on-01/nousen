@@ -162,10 +162,10 @@
           alt="GO!資格 合格応援制度"
         />
       </a>
-      <p class="goKakuouen-heading1">
+      <p class="goKakuouen-heading1 -friend">
         LINE公式アカウント開設！お友達登録キャンペーン実施中
       </p>
-      <p class="goKakuouen-text">
+      <p class="goKakuouen-text -friend">
         ただいま、
         <span class="goKakuouen-text-bold">LINE公式アカウント</span>
         の開設を記念して、全講座で使える
@@ -328,6 +328,10 @@ query {
       }
     }
 
+    .goKakuouen-text.-friend {
+      margin-top: 0;
+    }
+
     .goKakuouen-blue {
       background-color: #0095d9;
       padding: 25px;
@@ -363,14 +367,29 @@ query {
       display: flex;
       gap: 1.5rem;
       margin-top: 24px;
+      align-items: flex-start;
+
+      img {
+        object-fit: contain;
+        width: 60%%;
+        height: auto;
+        margin: 0;
+        display: block;
+      }
     }
 
     .goKakuouen-heading1 {
+      display: inline;
       font-size: 18px;
       font-weight: 700;
       color: #000;
       margin-bottom: 20px;
       background: linear-gradient(transparent 60%, #ff9 60%);
+    }
+
+    .goKakuouen-heading1.-friend {
+      margin-bottom: 0;
+      margin-top: 10px;
     }
 
     .goKakuouen-heading2 {
@@ -396,6 +415,14 @@ query {
       height: auto;
       margin: 0 auto;
       display: block;
+    }
+
+    .goKakuouen-startup-img {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      max-width: 650px;
     }
   }
 </style>
