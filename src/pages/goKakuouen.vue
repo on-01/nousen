@@ -252,7 +252,7 @@
           </p>
         </div>
       </div>
-      <g-link to="/">
+      <g-link class="goKakuouen-front-link" to="/">
         <img
           class="goKakuouen-nousen-img"
           src="../assets/img/common/main_logo.svg"
@@ -397,6 +397,8 @@ query {
           height: auto;
           margin: 0;
           display: block;
+          aspect-ratio: 388 / 250;
+          object-fit: cover;
         }
         a {
           color: #1967d2;
@@ -424,6 +426,7 @@ query {
     }
 
     .goKakuouen-heading3 {
+      display: inline;
       font-size: 18px;
       font-weight: 700;
       color: #000;
@@ -458,6 +461,14 @@ query {
       margin: 0 auto;
       display: block;
       max-width: 650px;
+    }
+
+    .goKakuouen-front-link {
+      max-width: 333px;
+      width: 100%;
+      height: auto;
+      margin: 60px auto 0;
+      display: block;
     }
   }
 </style>
