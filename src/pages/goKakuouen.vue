@@ -8,12 +8,16 @@
         alt="GO!資格 合格応援制度"
       />
       <p class="goKakuouen-text">
-        能センでは、受講生の皆さまが試験に合格し、資格を取得できるよう、心強いサポートとして「合格応援割引制度」をご用意しています。
+        能センでは、受講生の皆さまが試験に合格し、資格を取得できるよう、心強いサポートとして
+        <span class="goKakuouen-text-line">「合格応援割引制度」</span>
+        をご用意しています。
         <br />
         <br />
         この割引制度は、これから学習を始める皆さまの経済的なご負担を少しでも軽減し、学習に専念していただけるようサポートすることを目的としています。
         <br />
-        費用面での不安を解消し、安心して講座に取り組んでいただけるよう、能センは全力で応援しています！
+        <span class="goKakuouen-text-bold">
+          費用面での不安を解消し、安心して講座に取り組んでいただけるよう、能センは全力で応援しています！
+        </span>
         <br />
         <br />
         各割引プランの詳細については、ぜひ以下をご覧ください。あなたにぴったりのプランがきっと見つかります！
@@ -155,14 +159,18 @@
 
       <!-- LINE -->
       <p class="goKakuouen-friend">LINEお友達クーポン</p>
-      <a href="https://page.line.me/947ygtge?openQrModal=true" target="_blank">
+      <a
+        class="goKakuouen-line-link"
+        href="https://page.line.me/947ygtge?openQrModal=true"
+        target="_blank"
+      >
         <img
           class="goKakuouen-line-img"
           src="../assets/img/gokakuouen/gokakuouen_img6.png"
           alt="GO!資格 合格応援制度"
         />
       </a>
-      <p class="goKakuouen-heading1 -friend">
+      <p class="goKakuouen-heading1">
         LINE公式アカウント開設！お友達登録キャンペーン実施中
       </p>
       <p class="goKakuouen-text -friend">
@@ -211,6 +219,7 @@
             src="../assets/img/gokakuouen/gokakuouen_img8.png"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
+          <p class="goKakuouen-heading3">環境への配慮～持続可能なミライへ～</p>
           <p class="goKakuouen-text">
             能センでは全てのプリント・資料にFSC認証を受けたエコペーパーを使用しております。FSC認証とは、持続可能な森林活用・保全を目的として誕生した、「適切な森林管理」を認証する国際的な制度です。
             <br />
@@ -228,6 +237,7 @@
             src="../assets/img/gokakuouen/gokakuouen_img9.jpg"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
+          <p class="goKakuouen-heading3">こどもの未来応援基金への寄付</p>
           <p class="goKakuouen-text">
             建設業の未来を応援！！
             <br />
@@ -338,6 +348,7 @@ query {
       font-size: 24px;
       font-weight: 700;
       color: #fff;
+      margin: 40px 0;
     }
 
     .goKakuouen-orange {
@@ -346,6 +357,7 @@ query {
       font-size: 24px;
       font-weight: 700;
       color: #fff;
+      margin: 56px 0 40px;
     }
 
     .goKakuouen-wrapper {
@@ -366,15 +378,30 @@ query {
     .goKakuouen-flex {
       display: flex;
       gap: 1.5rem;
-      margin-top: 24px;
+      margin-top: 32px;
       align-items: flex-start;
 
       img {
         object-fit: contain;
-        width: 60%;
+        width: 50%;
         height: auto;
         margin: 0;
         display: block;
+      }
+
+      .goKakuouen-content {
+        width: 50%;
+
+        img {
+          width: 100%;
+          height: auto;
+          margin: 0;
+          display: block;
+        }
+        a {
+          color: #1967d2;
+          text-decoration: underline;
+        }
       }
     }
 
@@ -387,11 +414,6 @@ query {
       background: linear-gradient(transparent 60%, #ff9 60%);
     }
 
-    .goKakuouen-heading1.-friend {
-      margin-bottom: 0;
-      margin-top: 10px;
-    }
-
     .goKakuouen-heading2 {
       font-size: 18px;
       font-weight: 700;
@@ -401,12 +423,25 @@ query {
       }
     }
 
+    .goKakuouen-heading3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000;
+      background-color: #ff9;
+    }
+
     .goKakuouen-friend {
       border-top: 2px solid #ed6c00;
       border-bottom: 2px solid #ed6c00;
       font-size: 20px;
+      font-weight: 700;
       padding: 9px 10px;
-      margin: 0;
+      margin: 100px 0 32px;
+    }
+
+    .goKakuouen-line-link {
+      display: block;
+      margin-bottom: 32px;
     }
 
     .goKakuouen-line-img {
