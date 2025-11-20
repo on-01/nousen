@@ -371,7 +371,7 @@ query {
 
       img {
         object-fit: contain;
-        width: 60%%;
+        width: 60%;
         height: auto;
         margin: 0;
         display: block;
