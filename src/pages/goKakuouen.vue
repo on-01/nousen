@@ -74,7 +74,7 @@
         <p class="goKakuouen-title">女子応援割</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img3.jpg"
+            src="../assets/img/gokakuouen/gokakuouen_img3.jpeg"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
