@@ -220,7 +220,7 @@
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">環境への配慮～持続可能なミライへ～</p>
-          <p class="goKakuouen-text">
+          <p class="goKakuouen-text -eco">
             能センでは全てのプリント・資料にFSC認証を受けたエコペーパーを使用しております。FSC認証とは、持続可能な森林活用・保全を目的として誕生した、「適切な森林管理」を認証する国際的な制度です。
             <br />
             FSC認証とは
@@ -238,7 +238,7 @@
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">こどもの未来応援基金への寄付</p>
-          <p class="goKakuouen-text">
+          <p class="goKakuouen-text -eco">
             建設業の未来を応援！！
             <br />
             子供たちが夢と希望を持って働ける世の中へ！
@@ -342,6 +342,10 @@ query {
       margin-top: 0;
     }
 
+    .goKakuouen-text.-eco {
+      margin-top: 0;
+    }
+
     .goKakuouen-blue {
       background-color: #0095d9;
       padding: 25px;
@@ -381,21 +385,31 @@ query {
       margin-top: 32px;
       align-items: flex-start;
 
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+
       img {
         object-fit: contain;
         width: 50%;
         height: auto;
         margin: 0;
         display: block;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
 
       .goKakuouen-content {
         width: 50%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         img {
           width: 100%;
           height: auto;
-          margin: 0;
+          margin: 0 0 24px;
           display: block;
           aspect-ratio: 388 / 250;
           object-fit: cover;
