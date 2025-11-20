@@ -29,7 +29,8 @@
           <div class="goKakuouen-content">
             <p class="goKakuouen-heading1">再受講割引でさらにお得！</p>
             <p class="goKakuouen-heading2">
-              再受講割引 各5000円引き（科目数×5000円）
+              再受講割引
+              <span>各5000円引き（科目数×5000円）</span>
             </p>
             <p class="goKakuouen-text">
               同じ科目・コースの再受講をする場合、各科目につき5000円引きになります。
@@ -56,7 +57,10 @@
             <p class="goKakuouen-heading1">
               若者の国家資格取得を全力サポート！講習料金割引制度！
             </p>
-            <p class="goKakuouen-heading2">若者チャレンジ応援割 5000円引き</p>
+            <p class="goKakuouen-heading2">
+              若者チャレンジ応援割
+              <span>5000円引き</span>
+            </p>
             <p class="goKakuouen-text">
               この制度は、
               <span class="goKakuouen-text-bold">20歳</span>
@@ -81,7 +85,10 @@
             <p class="goKakuouen-heading1">
               女性のキャリアを応援！資格取得やスキルアップを目指す方に割引制度をご用意
             </p>
-            <p class="goKakuouen-heading2">女子応援割 各2000円引き</p>
+            <p class="goKakuouen-heading2">
+              女子応援割
+              <span>各2000円引き</span>
+            </p>
             <p class="goKakuouen-text">
               この制度は、女性が資格取得やスキルアップに挑戦する際、講座料金が割引される魅力的な仕組みです。女性のキャリア形成をサポートし、新たな分野への挑戦やさらなる成長を後押しすることを目的としています。「次のステージに進みたい！」そんな思いを、ぜひこの制度で叶えてみませんか？
               <br />
@@ -102,7 +109,10 @@
             <p class="goKakuouen-heading1">
               60歳以上のシニア向け！資格取得やスキルアップを応援する割引制度
             </p>
-            <p class="goKakuouen-heading2">シニア応援割 各2000円引き</p>
+            <p class="goKakuouen-heading2">
+              シニア応援割
+              <span>各2000円引き</span>
+            </p>
             <p class="goKakuouen-text">
               この制度は、
               <span class="goKakuouen-text-bold">60歳以上</span>
@@ -128,9 +138,11 @@
               仲間と一緒にお得に！団体割引でさらに安く
             </p>
             <p class="goKakuouen-heading2">
-              団体割 （5名以上）全員10%OFF
+              団体割
+              <span>（5名以上）全員10%OFF</span>
               <br />
-              超団体割（10名以上）全員15%OFF
+              超団体割
+              <span>（10名以上）全員15%OFF</span>
             </p>
             <p class="goKakuouen-text">
               ※割引の併用はできません（キャンペーンコードは別）
@@ -303,7 +315,87 @@ query {
     }
 
     .goKakuouen-text {
-      margin: 0 0 16px;
+      margin: 24px 0 16px;
+      color: #000;
+
+      .goKakuouen-text-bold {
+        font-weight: 700;
+      }
+
+      .goKakuouen-text-line {
+        font-weight: 700;
+        background-color: #ff9;
+      }
+    }
+
+    .goKakuouen-blue {
+      background-color: #0095d9;
+      padding: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .goKakuouen-orange {
+      background-color: #ed6c00;
+      padding: 25px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .goKakuouen-wrapper {
+      margin-top: 24px;
+    }
+
+    .goKakuouen-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #000;
+      padding: 12px 20px;
+      border-top: 1px solid #ed6c00;
+      border-bottom: 1px solid #ed6c00;
+      border-left: 7px solid #ed6c00;
+      border-right: 1px solid #ed6c00;
+    }
+
+    .goKakuouen-flex {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 24px;
+    }
+
+    .goKakuouen-heading1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000;
+      margin-bottom: 20px;
+      background: linear-gradient(transparent 60%, #ff9 60%);
+    }
+
+    .goKakuouen-heading2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #000;
+      span {
+        color: red;
+      }
+    }
+
+    .goKakuouen-friend {
+      border-top: 2px solid #ed6c00;
+      border-bottom: 2px solid #ed6c00;
+      font-size: 20px;
+      padding: 9px 10px;
+      margin: 0;
+    }
+
+    .goKakuouen-line-img {
+      max-width: 609px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
     }
   }
 </style>
