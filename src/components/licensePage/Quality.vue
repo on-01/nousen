@@ -126,7 +126,7 @@
               src="../../assets/img/icon/note.svg"
             />
             <p class="workshop-orangeLine__heading">
-              令和8年度 無料体験講習「基礎の基礎」
+              令和8年度上期 無料体験講習「基礎の基礎」
             </p>
             <p class="workshop-orangeLine__title">
               電験三種の合格を目指す皆さまへ！
@@ -138,6 +138,7 @@
               <br />
               <br />
               日時：令和8年4月04日(土) 9:30～12:30
+              <span>【受付終了】</span>
               <br />
               場所：専売ビル３F会議室（定員25名）
               <br />
@@ -147,10 +148,7 @@
             </p>
             <div class="application">
               <div class="experience-link">
-                <a
-                  class="application-link -blue"
-                  href="https://business.form-mailer.jp/fms/d8f3692b263372"
-                >
+                <a class="application-link -blue">
                   無料体験講座（基礎の基礎）お申込み
                   <IconBase class="icon" width="25" height="25">
                     <IconFingerRight />
@@ -158,6 +156,11 @@
                 </a>
               </div>
             </div>
+            <p class="basis-bottom-text">
+              無料体験講習のお申込みは、応募多数のため受付を終了しました。
+              <br />
+              次回は令和8年10月頃を予定しております。
+            </p>
           </div>
         </div>
       </div>
@@ -558,6 +561,7 @@
     }
     span {
       font-weight: 700;
+      color: red;
     }
   }
 
@@ -615,5 +619,14 @@
   }
   .experience-link {
     margin-top: 60px;
+  }
+
+  .basis-bottom-text {
+    color: red;
+    font-size: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 8px;
+    font-weight: 700;
   }
 </style>
