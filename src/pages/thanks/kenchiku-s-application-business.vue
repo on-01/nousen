@@ -92,44 +92,13 @@ query {
     // },
     mounted() {
       // A8ネット 成果タグ
-      // 注文番号を取得（システム側で動的に値を渡してください）
-      // 取得方法の優先順位:
-      // 1. URLパラメータ（?order_number=xxx または ?orderNumber=xxx）
-      // 2. セッションストレージ
-      // 3. ページ内のdata属性（<body data-order-number="xxx">）
-      const urlParams = new URLSearchParams(window.location.search);
-      let orderNumber =
-        urlParams.get("order_number") ||
-        urlParams.get("orderNumber") ||
-        sessionStorage.getItem("orderNumber") ||
-        document.body.getAttribute("data-order-number") ||
-        "";
-
-      // 注文番号が取得できない場合は空文字列（固定値は使用しない）
-      // システム側で必ず注文番号を渡すようにしてください
-
-      // AFI-B用のユーザー識別IDを生成（NG文字を削除）
-      const sanitizeUserId = (str) => {
-        if (!str) return "";
-        // OK文字のみ残す: 英数字（a-z, A-Z, 0-9）と . - _ *
-        // NG文字を削除: 日本語、? ! & "" ' \ / % # + = $ { } [ ] ; : | スペースなど
-        let sanitized = str.replace(/[^a-zA-Z0-9.-_*]/g, "");
-        // 先頭・最後の半角/全角スペースを削除（念のため）
-        sanitized = sanitized.replace(/^[\s\u3000]+|[\s\u3000]+$/g, "");
-        return sanitized;
-      };
-
-      const userId = sanitizeUserId(orderNumber);
-
-      // a8sales.jsを読み込む
       const script1 = document.createElement("script");
       script1.src = "//statics.a8.net/a8sales/a8sales.js";
       script1.onload = () => {
-        // a8sales.js読み込み後にa8sales関数を呼び出す
         if (typeof a8sales === "function") {
           a8sales({
             pid: "s00000027188001",
-            order_number: orderNumber, // システム側で動的に値を渡してください
+            order_number: "",
             currency: "JPY",
             items: [
               {
@@ -143,6 +112,19 @@ query {
         }
       };
       document.body.appendChild(script1);
+
+      // AFI-B用のユーザー識別IDを生成（NG文字を削除）
+      const sanitizeUserId = (str) => {
+        if (!str) return "";
+        // OK文字のみ残す: 英数字（a-z, A-Z, 0-9）と . - _ *
+        // NG文字を削除: 日本語、? ! & "" ' \ / % # + = $ { } [ ] ; : | スペースなど
+        let sanitized = str.replace(/[^a-zA-Z0-9.-_*]/g, "");
+        // 先頭・最後の半角/全角スペースを削除（念のため）
+        sanitized = sanitized.replace(/^[\s\u3000]+|[\s\u3000]+$/g, "");
+        return sanitized;
+      };
+
+      const userId = sanitizeUserId("");
 
       // AFI-B LPCV CV タグ
       if (!window.afblpcvCvConf) {
