@@ -13,10 +13,7 @@
       </IconBase>
     </a>
     <div class="experience-link">
-      <a
-        class="application-link -blue"
-        href="https://business.form-mailer.jp/fms/d8f3692b263372"
-      >
+      <a class="application-link -blue">
         無料体験講座（基礎の基礎）お申込み
         <IconBase class="icon" width="25" height="25">
           <IconFingerRight />
