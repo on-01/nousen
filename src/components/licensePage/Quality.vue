@@ -211,6 +211,7 @@
   .quality-flex {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
   }
   .quality-box {
     width: 30%;

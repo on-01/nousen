@@ -448,5 +448,8 @@
 
   .workshop-orangeLine__text.-red {
     color: red;
+    font-size: 14px;
+    text-indent: -1em;
+    padding-left: 1em;
   }
 </style>
