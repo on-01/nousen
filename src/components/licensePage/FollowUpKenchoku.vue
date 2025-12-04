@@ -92,6 +92,82 @@
               </p>
             </div>
           </div>
+          <div class="follow-bottom">
+            <p class="follow-bottom-title">
+              <span>④</span>
+              合格に直結する【勉強管理システム】
+            </p>
+            <div class="follow-bottom-wrap">
+              <div class="follow-bottom-leftWrap">
+                <img
+                  class="follow-left-img"
+                  src="../../assets/img/license_page/denken3/follow-left2.png"
+                  alt="電験三種 第三種電気主任技術者"
+                />
+              </div>
+              <div class="follow-bottom-rightWrap">
+                <div class="workshop-orangeLine">
+                  <div class="workshop-orangeLine__inner -second">
+                    <p class="workshop-orangeLine__heading">
+                      🔹 勉強管理システムとは？
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      「一人で頑張るだけじゃ続かない…」
+                      <br />
+                      そんなあなたをサポートする、新しい学習スタイルです💡
+                    </p>
+                    <p class="workshop-orangeLine__heading -second">
+                      📅 サポート期間：次の試験日まで
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      日々の勉強習慣を しっかり身につけよう！
+                    </p>
+                    <p class="workshop-orangeLine__heading -second">
+                      💻 能セン勉強管理システムの特徴
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 日々の勉強をルーチン化し、計画的に学習を進められる
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 毎日の勉強時間をスプレッドシートで記録
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 受講前に1週間分の勉強予定を直接入力
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ✅ 毎日事務局が進捗を確認
+                    </p>
+                    <p class="workshop-orangeLine__text -indent2">
+                      ✅
+                      3日以上記録がない場合は、資格取得アドバイザーが担当者（受講生）に連絡しアドバイス。状況によっては担当講師も含めてサポート！
+                    </p>
+                    <p class="workshop-orangeLine__text">
+                      ※利用には Googleアカウント が必要です
+                    </p>
+                    <p class="workshop-orangeLine__text -br">
+                      🎯 一人で悩む必要はありません
+                      <br />
+                      “見守られながら確実に続ける”学習スタイルで、
+                      <br />
+                      能センは
+                      <span>合格まであなたを本気でサポートします💪</span>
+                      <br />
+                      <br />
+                      <span>
+                        希望の方は、お申込みフォームでチェックしてください。
+                      </span>
+                    </p>
+                    <p class="workshop-orangeLine__text -red">
+                      ※
+                      勉強は日々の継続が重要です。途中で続かない方もいますので、
+                      <br />
+                      最後まで取り組む意思のある方はお申込みください
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -164,6 +240,28 @@
       flex-direction: column;
     }
   }
+  .follow-bottom-wrap {
+    display: flex;
+    padding: 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+  }
+
+  .follow-bottom-rightWrap {
+    width: 55%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+
+  .follow-bottom-leftWrap {
+    width: 45%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
 
   .follow-imgWrap {
     width: 40%;
@@ -177,7 +275,7 @@
     }
 
     .img-1 {
-      width: 35%;
+      width: 70%;
     }
 
     .img-2 {
@@ -221,7 +319,136 @@
   .follow-text.-under {
     span {
       font-weight: 500;
-      text-decoration: underline;
+      // text-decoration: underline;
     }
+  }
+
+  .follow-bottom {
+    margin-top: 40px;
+  }
+
+  .follow-bottom-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    background-color: #1262b2;
+    padding: 5px 0;
+    max-width: 940px;
+
+    span {
+      font-size: 26px;
+    }
+  }
+
+  .follow-bottom-img {
+    display: block;
+    margin: 40px auto 0 auto;
+    width: 60%;
+    @media print, screen and (max-width: 1000px) {
+      width: 90%;
+    }
+  }
+
+  .follow-left-img {
+    display: block;
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+
+  .workshop-orangeLine {
+    padding: 0 0 0 30px;
+    @media print, screen and (max-width: 1000px) {
+      padding: 0;
+    }
+  }
+
+  .workshop-orangeLine.-gansho {
+    padding: 0 0 40px;
+  }
+
+  .workshop-orangeLine__inner {
+    margin: 20px auto 40px;
+    padding: 20px;
+    // border: 4px solid #f4891e;
+    border-radius: 12px;
+    max-width: 652px;
+    // min-width: 652px;
+    font-family: メイリオ, sans-serif;
+    font-size: 16px;
+    position: relative;
+  }
+
+  .workshop-orangeLine__inner.-second {
+    margin: 0 auto;
+  }
+
+  .workshop-orangeLine__inner.-gansho {
+    max-width: 708px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    // @media print, screen and (max-width: 1000px) {
+    //   margin-top: 0;
+    // }
+  }
+
+  .workshop-orangeLine__icon {
+    position: absolute;
+    left: -20px;
+    top: -18px;
+    width: 54px;
+  }
+
+  .workshop-orangeLine__heading {
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .workshop-orangeLine__heading.-second {
+    margin-top: 20px;
+  }
+
+  .workshop-orangeLine__heading.-third {
+    margin: 20px 0 10px;
+    padding: 5px 0;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+    padding-left: 20px;
+  }
+
+  .workshop-orangeLine__text {
+    margin: 0;
+    line-height: 1.7;
+    text-align: left;
+    @media print, screen and (max-width: 768px) {
+      text-align: left;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
+  .workshop-orangeLine__text.-indent {
+    padding-left: 9em;
+    text-indent: -9em;
+  }
+
+  .workshop-orangeLine__text.-indent2 {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+  .workshop-orangeLine__text.-br {
+    margin-top: 20px;
+  }
+
+  .workshop-orangeLine__text.-red {
+    color: red;
+    font-size: 14px;
+    text-indent: -1em;
+    padding-left: 1em;
   }
 </style>

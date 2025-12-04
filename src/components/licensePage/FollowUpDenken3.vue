@@ -152,7 +152,7 @@
                       ✅ 追加料金なし ⋯ 何度でも利用OK
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ 1回30分 ⋯ 疑問をピンポイント解決
+                      ✅ 1回30分枠 … 10分でもOK！ピンポイント解決
                     </p>
                     <p class="workshop-orangeLine__text">
                       ✅ 簡単予約 ⋯ 専用ページから日時を選ぶだけ
@@ -240,6 +240,12 @@
                       <span>
                         希望の方は、お申込みフォームでチェックしてください。
                       </span>
+                    </p>
+                    <p class="workshop-orangeLine__text -red">
+                      ※
+                      勉強は日々の継続が重要です。途中で続かない方もいますので、
+                      <br />
+                      最後まで取り組む意思のある方はお申込みください
                     </p>
                   </div>
                 </div>
@@ -538,5 +544,12 @@
 
   .workshop-orangeLine__text.-br {
     margin-top: 20px;
+  }
+
+  .workshop-orangeLine__text.-red {
+    color: red;
+    font-size: 14px;
+    text-indent: -1em;
+    padding-left: 1em;
   }
 </style>
