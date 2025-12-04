@@ -11,11 +11,7 @@
           <p class="quality-topText">人材育成支援コース 対象講座</p>
         </div>
       </a>
-      <p class="quality-mainTitle">
-        【完全攻略】できる
-        <br />
-        ３つのポイント！
-      </p>
+
       <div class="quality-flex">
         <div class="quality-box">
           <div class="quality-header">

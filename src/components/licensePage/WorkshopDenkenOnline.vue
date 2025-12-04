@@ -26,7 +26,7 @@
     <div class="workshop-wrapper">
       <div class="workshop-box">
         <p class="workshop-top -bottom">
-          配信期間 最大18ヶ月 / サポート期間24ヶ月
+          令和8年7月31日まで配信 / サポート期間24ヶ月
         </p>
         <div class="workshop-content">
           <p class="workshop-text -first -blue">科目</p>
