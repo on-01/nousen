@@ -175,6 +175,7 @@
             図表やイラストを豊富に用い、重要事項は赤文字で整理。難しい内容もわかりやすく、短時間で理解できる構成です。
             <br />
             出題頻度の高いテーマを厳選し、合格に直結する要点だけを収録。忙しい方でも、短期間で効果的に実力を高められる内容です。
+            <span>※新刊は令和8年2月中旬頃の発送になります</span>
           </p>
         </div>
         <div class="book-wrap -right">
@@ -206,9 +207,7 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            過去問５年分を進呈（一次・二次共に）
-          </p>
+          <p class="counterplan-text -yellow">過去問５年分を進呈（一次）</p>
           <p class="counterplan-text">
             2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
             <span>過去5年分の過去問題</span>
@@ -314,28 +313,19 @@
           </p>
         </div>
         <div class="counterplan-wrap">
-          <p class="counterplan-head">二次試験対策㊙資料</p>
+          <p class="counterplan-head">過去問7年分</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img5.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            「2級土木施工管理技士の二次試験がどうしても突破できない…」
-          </p>
+          <p class="counterplan-text -yellow">過去問7年分を進呈</p>
           <p class="counterplan-text">
-            そんな悩みを抱える受験者の方に朗報です！
+            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
+            <span>過去7年分の過去問題</span>
+            を提供いたします。
             <br />
-            多くの方がつまずく二次試験。その原因を解決するために、私たちは
-            <br />
-            2級土木施工管理技士 二次試験合格のための極秘資料をご用意しました！
-            <br />
-            この資料には、実践的な解答例 や
-            試験の出題傾向、さらに高得点を狙う記述のポイントを網羅。
-            <br />
-            特に、経験記述の暗記方法やスムーズに書けるコツをわかりやすく解説しています。
-            <br />
-            これを読めば、「なぜ二次試験に通らなかったのか」が明確になり、次の試験で結果を出せる自信が手に入ります！
+            この貴重な教材を試験対策にぜひご活用ください。
           </p>
         </div>
       </div>
@@ -435,6 +425,13 @@
       @media print, screen and (max-width: 1000px) {
         width: 50%;
       }
+    }
+  }
+
+  .book-text {
+    span {
+      font-weight: 700;
+      color: red;
     }
   }
 
