@@ -175,6 +175,7 @@
             図表やイラストを豊富に用い、重要事項は赤文字で整理。難しい内容もわかりやすく、短時間で理解できる構成です。
             <br />
             出題頻度の高いテーマを厳選し、合格に直結する要点だけを収録。忙しい方でも、短期間で効果的に実力を高められる内容です。
+            <br />
             <span>※新刊は令和8年2月中旬頃の発送になります</span>
           </p>
         </div>
@@ -319,14 +320,16 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">過去問7年分を進呈</p>
-          <p class="counterplan-text">
-            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
-            <span>過去7年分の過去問題</span>
-            を提供いたします。
-            <br />
-            この貴重な教材を試験対策にぜひご活用ください。
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">過去問7年分を進呈</p>
+            <p class="counterplan-text">
+              2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
+              <span>過去7年分の過去問題</span>
+              を提供いたします。
+              <br />
+              この貴重な教材を試験対策にぜひご活用ください。
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -516,6 +519,12 @@
     // border-bottom: 2px solid #249ef0;
     text-align: center;
     margin: 40px 0 5px;
+  }
+
+  .counterplan-text-wrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
   }
 
   .counterplan-text {
