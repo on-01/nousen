@@ -31,7 +31,8 @@
           <p class="workshop-text -first">一次コース(2日間/15時間)</p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
           <p class="workshop-text -third">
-            5月3日(土)～4日(日) 9:30～17:00 【終了】
+            5月2日(土)～3日(日)9:30～17:00
+            <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -49,7 +50,8 @@
               10月12日(土)～13日(日)9:30～17:00【終了】
             </p> -->
             <p class="workshop-border -none">
-              10月13日(祝) 9:30～16:00 【終了】
+              10月11日(日)9:30～16:00
+              <span>【受付中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -253,7 +255,7 @@
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            5月2日(金)～12月31日(水)まで
+            5月11日(月)～12月31日(木)まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -273,7 +275,7 @@
               <span>【受付中】</span>
             </p> -->
             <p class="workshop-border -none">
-              9月18日(木)～12月31日(水)まで
+              2月27日(金)～12月31日(木)まで
               <span>【受付中】</span>
             </p>
           </div>
