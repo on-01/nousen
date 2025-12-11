@@ -636,13 +636,19 @@
                 </div>
               </div>
             </div>
-            <div class="careerSupport-flex">
-              <figure class="careerSupport-img">
-                <img
-                  src="../assets/img/front/career7.jpg"
-                  alt="電験三種 講習会 通信講座"
-                />
-              </figure>
+            <div class="careerSupport-flex -middle">
+              <a
+                href="https://denkiworks.com/533/chief-electrical-engineer-v26-t1/?utm_source=affiliates&adgroup=nousen"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <figure class="careerSupport-img">
+                  <img
+                    src="../assets/img/front/career7.jpg"
+                    alt="電験三種 講習会 通信講座"
+                  />
+                </figure>
+              </a>
               <div class="careerSupport-wrap">
                 <p class="careerSupport-title">
                   電気主任技術者の転職はPLEX JOB
@@ -651,9 +657,7 @@
                   <span>電気主任技術者を、もっと活かせる職場があります。</span>
                   <br />
                   Plex
-                  Job（プレックスジョブ）は、電気主任技術者・電気設備保安業に特化した
-                  <br />
-                  無料の転職支援サイトです。
+                  Job（プレックスジョブ）は、電気主任技術者・電気設備保安業に特化した無料の転職支援サイトです。
                   <br />
                   高圧・特高の選任経験が積める求人を多数保有し、業界に詳しい専任コンサルタントが、あなたの希望に沿って最適な求人をご提案します。
                   <br />
@@ -664,6 +668,17 @@
                   ・電験1〜3種歓迎の求人を多数掲載
                   <br />
                   ・高圧・特高選任など希少案件も豊富
+                </p>
+                <p class="careerSupport-text -bold">
+                  技術と経験を次のキャリアにつなげませんんか？
+                  <br />
+                  <a
+                    href="https://denkiworks.com/533/chief-electrical-engineer-v26-t1/?utm_source=affiliates&adgroup=nousen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    👉 [今すぐ無料登録する（1分で完了）]
+                  </a>
                 </p>
               </div>
             </div>
@@ -1971,9 +1986,16 @@ query {
     }
   }
 
+  .careerSupport-flex.-middle {
+    margin-top: 190px;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 220px;
+    }
+  }
+
   .careerSupport-flex.-reverse {
     flex-direction: row-reverse;
-    margin-top: 190px;
+    margin-top: 40px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column-reverse;
       margin-top: 220px;
@@ -2029,7 +2051,7 @@ query {
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    max-width: 380px;
+    max-width: 400px;
   }
   .careerSupport-text {
     margin: 20px auto 0;
@@ -2042,6 +2064,10 @@ query {
       font-weight: 700;
       font-size: 17px;
     }
+  }
+
+  .careerSupport-text.-bold {
+    font-weight: 700;
   }
   .careerSupport-link {
     position: absolute;
