@@ -602,6 +602,11 @@
         </h2>
         <div class="careerSupport">
           <div class="careerSupport-inner">
+            <p class="careerSupport-text -center">
+              能センでは、資格取得後のキャリア支援として、
+              <br />
+              電気主任技術者向けの求人相談サービスを提供しています。
+            </p>
             <div class="careerSupport-flex">
               <figure class="careerSupport-img">
                 <img
@@ -2075,6 +2080,10 @@ query {
     }
   }
 
+  .careerSupport-text.-center {
+    text-align: center;
+    font-weight: 700;
+  }
   .careerSupport-text.-bold {
     font-weight: 700;
   }
