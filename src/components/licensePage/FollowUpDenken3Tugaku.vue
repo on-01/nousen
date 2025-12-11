@@ -111,7 +111,7 @@
           <div class="follow-bottom">
             <p class="follow-bottom-title">
               <span>④</span>
-              担当者向け ログイン週報サービス「能センレポート」
+              担当者向け 講習参加通知サービス「能センレポート」
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
@@ -128,31 +128,26 @@
                       🔹能センレポートとは？
                     </p>
                     <p class="workshop-orangeLine__text">
-                      受講生1週間分のログイン情報を自動で集計し、
-                      <br />
-                      担当者へ毎週メールでお届けする“
-                      <span>ログイン管理の自動化サービス</span>
+                      講習会の出欠情報を自動集計し、講習終了後に担当者へメールで通知する"
+                      <span>講習出欠管理の自動化サービス</span>
                       ”です💡
                     </p>
                     <p class="workshop-orangeLine__heading -second">
                       💻 能センレポートの特徴
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ 1週間分のログイン履歴を自動で集計
+                      ✅ 講習開催後、月曜 10:00 に出欠状況を自動送信
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ 毎週月曜 10:00 にレポートメールを自動送信
+                      ✅ 参加者・欠席者を一覧でわかりやすく表示
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ ログイン者・未ログイン者を一覧表示
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 数名〜数十名までスムーズに管理可能
+                      ✅ 少人数〜数十名規模までスムーズに管理
                     </p>
                     <p class="workshop-orangeLine__text">
                       ✅
                       <span>提出課題の提出状況</span>
-                      もあわせて通知
+                      もあわせて確認可能
                     </p>
                     <p class="workshop-orangeLine__text -br">
                       企業として高額な講座を提供する以上、学習状況の把握と早期フォローは必須。
