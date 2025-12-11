@@ -637,18 +637,18 @@
               </div>
             </div>
             <div class="careerSupport-flex -middle">
-              <a
-                href="https://denkiworks.com/533/chief-electrical-engineer-v26-t1/?utm_source=affiliates&adgroup=nousen"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <figure class="careerSupport-img">
+              <figure class="careerSupport-img">
+                <a
+                  href="https://denkiworks.com/533/chief-electrical-engineer-v26-t1/?utm_source=affiliates&adgroup=nousen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="../assets/img/front/career7.jpg"
                     alt="電験三種 講習会 通信講座"
                   />
-                </figure>
-              </a>
+                </a>
+              </figure>
               <div class="careerSupport-wrap">
                 <p class="careerSupport-title">
                   電気主任技術者の転職はPLEX JOB
