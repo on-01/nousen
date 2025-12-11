@@ -636,6 +636,37 @@
                 </div>
               </div>
             </div>
+            <div class="careerSupport-flex">
+              <figure class="careerSupport-img">
+                <img
+                  src="../assets/img/front/career7.jpg"
+                  alt="電験三種 講習会 通信講座"
+                />
+              </figure>
+              <div class="careerSupport-wrap">
+                <p class="careerSupport-title">
+                  電気主任技術者の転職はPLEX JOB
+                </p>
+                <p class="careerSupport-text">
+                  <span>電気主任技術者を、もっと活かせる職場があります。</span>
+                  <br />
+                  Plex
+                  Job（プレックスジョブ）は、電気主任技術者・電気設備保安業に特化した
+                  <br />
+                  無料の転職支援サイトです。
+                  <br />
+                  高圧・特高の選任経験が積める求人を多数保有し、業界に詳しい専任コンサルタントが、あなたの希望に沿って最適な求人をご提案します。
+                  <br />
+                  <br />
+                  「給料を上げたい」「働き方を改善したい」「長く安心して働きたい」そんな想いに、業界特化のサポートでお応えします。
+                  <br />
+                  <br />
+                  ・電験1〜3種歓迎の求人を多数掲載
+                  <br />
+                  ・高圧・特高選任など希少案件も豊富
+                </p>
+              </div>
+            </div>
             <div class="careerSupport-flex -reverse">
               <figure class="careerSupport-img">
                 <img
