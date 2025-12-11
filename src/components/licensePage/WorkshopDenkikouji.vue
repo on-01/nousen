@@ -197,6 +197,7 @@
 
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
+        <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
           <a
             href="/denkikouji-s-application"
@@ -213,6 +214,9 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </a>
         </div>
+        <p class="exam-link-text">
+          忙しくても少しずつ必要な力を身につけられます！
+        </p>
       </div>
     </div>
 
@@ -419,6 +423,7 @@
     </div>
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
+        <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
           <g-link
             to="/denkikouji-s-application"
@@ -435,6 +440,9 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
+        <p class="exam-link-text">
+          忙しくても少しずつ必要な力を身につけられます！
+        </p>
       </div>
     </div>
     <div class="add">
@@ -1516,6 +1524,12 @@
       justify-content: center;
       row-gap: 25px;
     }
+  }
+
+  .exam-link-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
   }
 
   .application-form-link {

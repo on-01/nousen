@@ -1657,7 +1657,7 @@
   .exam-link-text {
     font-weight: 700;
     font-size: 20px;
-    margin: 0 0 30px;
+    margin: 20px 0;
   }
 
   .exam-link-flex {
