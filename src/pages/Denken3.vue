@@ -1319,7 +1319,7 @@
 
   .exam-link-text {
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0 0;
     font-size: 20px;
   }
   .exam-link,

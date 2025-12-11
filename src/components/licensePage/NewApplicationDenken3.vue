@@ -21,7 +21,7 @@
         </IconBase>
       </a>
     </div> -->
-    <p class="exam-link-text">長期戦の電験三種を、短期合格へ！</p>
+    <p class="exam-link-text-bottom">長期戦の電験三種を、短期合格へ！</p>
 
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
@@ -113,7 +113,13 @@
 
   .exam-link-text {
     font-weight: 700;
-    margin: 0;
+    margin: 0 0 30px;
+    font-size: 20px;
+  }
+
+  .exam-link-text-bottom {
+    font-weight: 700;
+    margin: 40px 0 0;
     font-size: 20px;
   }
 </style>
