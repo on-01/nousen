@@ -1316,6 +1316,12 @@
       padding: 40px 0 0;
     }
   }
+
+  .exam-link-text {
+    font-weight: 700;
+    margin: 0;
+    font-size: 20px;
+  }
   .exam-link,
   .application-form-link,
   .online-link {
