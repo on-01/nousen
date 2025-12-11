@@ -2012,7 +2012,6 @@ query {
     margin-top: 40px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column-reverse;
-      margin-top: 220px;
     }
 
     .careerSupport-img {
@@ -2083,6 +2082,8 @@ query {
   .careerSupport-text.-center {
     text-align: center;
     font-weight: 700;
+    max-width: 100%;
+    margin-bottom: 40px;
   }
   .careerSupport-text.-bold {
     font-weight: 700;
