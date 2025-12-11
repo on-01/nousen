@@ -1991,6 +1991,15 @@ query {
     @media print, screen and (max-width: 1000px) {
       margin-top: 220px;
     }
+
+    .careerSupport-img {
+      a {
+        display: block;
+      }
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .careerSupport-flex.-reverse {
