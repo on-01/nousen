@@ -189,6 +189,9 @@
 
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
+        <p class="exam-link-text">
+          ✅ 82％が結果を出した学習設計で、合格まで伴走
+        </p>
         <div class="exam-link-flex">
           <g-link to="/denken3-application" class="application-form-link">
             お申込みはこちら（個人）
@@ -202,7 +205,7 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
-
+        <p class="exam-link-text">長期戦の電験三種を、短期合格へ！</p>
         <!-- <figure class="credit-image">
                 <img src="../assets/img/common/credit.jpg" />
               </figure> -->
@@ -990,6 +993,12 @@
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 0 0;
     }
+  }
+
+  .exam-link-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
   }
 
   .exam-link-flex {
