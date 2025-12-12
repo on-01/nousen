@@ -1,5 +1,6 @@
 <template>
   <div class="application">
+    <p class="exam-link-text">✅ 82％が結果を出した学習設計で、合格まで伴走</p>
     <a :href="personalFormLink" class="application-link -left">
       {{ personalFormText }}
       <IconBase class="icon" width="25" height="25">
@@ -12,14 +13,16 @@
         <IconFingerRight />
       </IconBase>
     </a>
-    <div class="experience-link">
+    <!-- <div class="experience-link">
       <a class="application-link -blue">
         無料体験講座（基礎の基礎）お申込み
         <IconBase class="icon" width="25" height="25">
           <IconFingerRight />
         </IconBase>
       </a>
-    </div>
+    </div> -->
+    <p class="exam-link-text-bottom">長期戦の電験三種を、短期合格へ！</p>
+
     <p class="fax-link" v-if="faxLink">
       <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
     </p>
@@ -106,5 +109,17 @@
   }
   .experience-link {
     margin-top: 60px;
+  }
+
+  .exam-link-text {
+    font-weight: 700;
+    margin: 0 0 30px;
+    font-size: 20px;
+  }
+
+  .exam-link-text-bottom {
+    font-weight: 700;
+    margin: 40px 0 0;
+    font-size: 20px;
   }
 </style>

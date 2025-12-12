@@ -200,6 +200,7 @@
 
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
+        <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
           <g-link to="/doboku-s-application" class="application-form-link">
             お申込みはこちら（個人）
@@ -213,6 +214,9 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
+        <p class="exam-link-text">
+          忙しくても少しずつ必要な力を身につけられます！
+        </p>
 
         <!-- <figure class="credit-image">
                 <img src="../assets/img/common/credit.jpg" />
@@ -456,6 +460,7 @@
     </div>
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
+        <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
           <g-link to="/doboku-s-application" class="application-form-link">
             お申込みはこちら（個人）
@@ -469,7 +474,9 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>
-
+        <p class="exam-link-text">
+          忙しくても少しずつ必要な力を身につけられます！
+        </p>
         <!-- <figure class="credit-image">
                 <img src="../assets/img/common/credit.jpg" />
               </figure> -->
@@ -757,6 +764,9 @@
                     <br />
                     <span>リマインドメールサービス</span>
                     ：試験の90日前、60日前、30日前、10日前に進捗状況をサポートするメールをお届け
+                    <br />
+                    <span>勉強管理システム</span>
+                    ：日々の学習状況を能セン事務局が管理します
                   </td>
                 </tr>
                 <tr>
@@ -904,6 +914,9 @@
                     <br />
                     <span>リマインドメールサービス</span>
                     ：試験の90日前、60日前、30日前、10日前に進捗状況をサポートするメールをお届け
+                    <br />
+                    <span>勉強管理システム</span>
+                    ：日々の学習状況を能セン事務局が管理します
                   </td>
                 </tr>
                 <tr>
@@ -1645,6 +1658,12 @@
     @media print, screen and (max-width: 1000px) {
       padding: 40px 0 0 0;
     }
+  }
+
+  .exam-link-text {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
   }
 
   .exam-link-flex {
