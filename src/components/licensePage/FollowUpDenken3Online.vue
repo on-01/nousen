@@ -678,7 +678,7 @@
         padding: 20px 0;
       }
       &:before {
-        content: url("../assets/img/icon/finger_top_brown.svg");
+        content: url("../../assets/img/icon/finger_top_brown.svg");
         width: 30px;
         height: 50px;
         display: block;
