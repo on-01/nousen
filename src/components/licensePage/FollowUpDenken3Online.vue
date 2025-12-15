@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="follow-content">
-        <p class="follow-title">勉強フォローアップサービス（無料）</p>
+        <p class="follow-title">勉強フォローアップサービス</p>
         <p class="follow-title-sub">
           <span>
             能センでは、受講中の学習をしっかり支えるために、5つの勉強フォローアップサービスを導入しています。
