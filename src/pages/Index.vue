@@ -607,7 +607,7 @@
               <br />
               電気主任技術者向けの求人相談サービスを提供しています。
             </p>
-            <div class="careerSupport-flex">
+            <!-- <div class="careerSupport-flex">
               <figure class="careerSupport-img">
                 <img
                   src="../assets/img/front/career1.jpg"
@@ -640,7 +640,7 @@
                   </a>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="careerSupport-flex -middle">
               <figure class="careerSupport-img">
                 <a
@@ -1992,9 +1992,9 @@ query {
   }
 
   .careerSupport-flex.-middle {
-    margin-top: 190px;
+    margin-top: 60px;
     @media print, screen and (max-width: 1000px) {
-      margin-top: 220px;
+      margin-top: 0;
     }
 
     .careerSupport-img {
@@ -2069,7 +2069,7 @@ query {
   .careerSupport-text {
     margin: 20px auto 0;
     font-size: 15px;
-    max-width: 400px;
+    max-width: 410px;
     @media print, screen and (max-width: 1000px) {
       max-width: 560px;
     }
