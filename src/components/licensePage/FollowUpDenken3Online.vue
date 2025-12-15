@@ -339,6 +339,10 @@
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 70px;
+    }
   }
   .follow-inner {
     padding: 30px 0;

@@ -1,6 +1,14 @@
 <template>
   <div class="follow">
     <div class="follow-inner">
+      <div class="follow-headline">
+        <p class="follow-headline-title">
+          <img
+            src="../../assets/img/front/reason_main_headline7.svg"
+            alt="電験三種 講習会 通信講座"
+          />
+        </p>
+      </div>
       <div class="follow-content">
         <p class="follow-title">勉強フォローアップサービス</p>
         <div class="follow-wrap">
@@ -186,11 +194,15 @@
   .follow {
     max-width: 1050px;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 220px auto 0;
     padding: 0 24px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 70px;
+    }
   }
   .follow-inner {
     padding: 30px 0;
@@ -198,6 +210,7 @@
   }
 
   .follow-content {
+    margin-top: 50px;
     padding: 20px;
     border: 4px solid #1262b2;
   }
@@ -451,5 +464,76 @@
     font-size: 14px;
     text-indent: -1em;
     padding-left: 1em;
+  }
+  .follow-headline {
+    position: relative;
+    margin-top: -225px;
+    // z-index: -1;
+    @media print, screen and (max-width: 1000px) {
+      margin-top: -55px;
+    }
+    &:before {
+      content: "";
+      // height: 500px;
+      height: 305px;
+      width: 5px;
+      background-color: #000;
+      display: block;
+      position: relative;
+      top: 5px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: -2;
+      @media print, screen and (max-width: 1000px) {
+        // height: 300px;
+        height: 220px;
+      }
+    }
+    &:after {
+      content: "";
+      height: 30px;
+      width: 5px;
+      background-color: #000;
+      display: block;
+      position: absolute;
+      // top: 473px;
+      top: 283px;
+      left: -20px;
+      right: 0;
+      margin: auto;
+      transform: rotate(-45deg);
+      @media print, screen and (max-width: 1000px) {
+        // top: 274px;
+        top: 196px;
+      }
+    }
+    .follow-headline-title {
+      max-width: 330px;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      position: absolute;
+      // top: 200px;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 50px 0;
+      @media print, screen and (max-width: 1000px) {
+        width: 90%;
+        top: 0;
+        max-width: 250px;
+        padding: 20px 0;
+      }
+      &:before {
+        content: url("../../assets/img/icon/finger_top_brown.svg");
+        width: 30px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 10px;
+      }
+    }
   }
 </style>
