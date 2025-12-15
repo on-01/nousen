@@ -4,7 +4,7 @@
       <div class="follow-headline">
         <p class="follow-headline-title">
           <img
-            src="../assets/img/front/reason_main_headline2-2.svg"
+            src="../../assets/img/front/reason_main_headline2-2.svg"
             alt="電験三種 講習会 通信講座"
           />
         </p>
