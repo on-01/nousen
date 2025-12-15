@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.7 62.11">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Meiryo-Bold, Meiryo;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: .07em;
+      }
+
+      .cls-2 {
+        fill: #ed6c00;
+      }
+
+      .cls-3 {
+        fill: #3b241a;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(-.15 19.31)"><tspan class="cls-3"><tspan x="0" y="0">学習が続かないという課題を、</tspan></tspan><tspan class="cls-2"><tspan x="70.62" y="39">仕組みで解決する</tspan></tspan></text>
+</svg>
