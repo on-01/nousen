@@ -3,9 +3,9 @@
     <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
-          令和7年度 下期 電験三種オンライン講座✍️
+          令和8年度〈上期〉 電験三種 通学講座✍️
           <br />
-          内容を見直して、より充実・よりお得に受付中！
+          講座内容を見直し、さらに充実・さらにお得に受付中！
         </p>
         <img
           class="fixed-note-icon"
