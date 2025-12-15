@@ -34,7 +34,7 @@
             <div class="follow-textWrap">
               <p class="follow-heading">
                 <span>①</span>
-                勉強計画を立てて最短合格へ
+                勉強計画表 & 勉強チェックシート（無料）
               </p>
               <p class="follow-text">
                 第三種電気主任技術者の資格取得には長期間の勉強が必要になります。
@@ -63,7 +63,7 @@
             <div class="follow-textWrap">
               <p class="follow-heading">
                 <span>②</span>
-                リマインダーメールサービス
+                リマインダーメールサービス（無料）
               </p>
               <p class="follow-text">
                 試験日までの学習をしっかりサポート！
@@ -99,7 +99,7 @@
             <div class="follow-textWrap">
               <p class="follow-heading">
                 <span>③</span>
-                資格取得アドバイザーの質問サポート
+                資格取得アドバイザーの質問サポート（無料）
               </p>
               <p class="follow-text">
                 学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
@@ -138,7 +138,7 @@
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner">
                     <p class="workshop-orangeLine__heading">
-                      🔹 能センサポとは？
+                      🔹 能センサポとは？（無料）
                     </p>
                     <p class="workshop-orangeLine__text">
                       「わからない…」を、そのままにしない！
@@ -201,7 +201,7 @@
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner -second">
                     <p class="workshop-orangeLine__heading">
-                      🔹 勉強管理システムとは？
+                      🔹 勉強管理システムとは？（税込：550円）
                     </p>
                     <p class="workshop-orangeLine__text">
                       「一人で頑張るだけじゃ続かない…」
