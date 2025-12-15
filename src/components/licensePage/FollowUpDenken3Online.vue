@@ -4,7 +4,7 @@
       <div class="follow-headline">
         <p class="follow-headline-title">
           <img
-            src="../../assets/img/front/reason_main_headline2-2.svg"
+            src="../../assets/img/front/reason_main_headline7.svg"
             alt="電験三種 講習会 通信講座"
           />
         </p>
@@ -334,7 +334,7 @@
   .follow {
     max-width: 1050px;
     background-color: #fff;
-    margin: 0 auto;
+    margin: 220px auto 0;
     padding: 0 24px;
     z-index: 0;
     position: relative;
@@ -346,6 +346,7 @@
   }
 
   .follow-content {
+    margin-top: 50px;
     padding: 20px;
     border: 4px solid #1262b2;
   }
