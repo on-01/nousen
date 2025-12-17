@@ -8,7 +8,7 @@
           <iframe
             width="560"
             height="315"
-            src="https://youtu.be/GlbmItQmSZM?si=gPK8Y3JWHLhlVHSQ"
+            src="https://www.youtube.com/embed/GlbmItQmSZM"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
