@@ -305,12 +305,12 @@
                         希望の方は、お申込みフォームでチェックしてください。
                       </span>
                     </p>
-                    <p class="workshop-orangeLine__text -red">
+                    <!-- <p class="workshop-orangeLine__text -red">
                       ※
                       勉強は日々の継続が重要です。途中で続かない方もいますので、
                       <br />
                       最後まで取り組む意思のある方はお申込みください
-                    </p>
+                    </p> -->
                   </div>
                 </div>
               </div>
