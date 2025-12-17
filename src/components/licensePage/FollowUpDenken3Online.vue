@@ -119,7 +119,7 @@
           <div class="follow-bottom">
             <p class="follow-bottom-title">
               <span>④</span>
-              担当者向け ログイン週報サービス「能センレポート」
+              担当者向け ログイン週報サービス【能センレポート】
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
