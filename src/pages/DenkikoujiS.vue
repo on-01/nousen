@@ -356,7 +356,7 @@
                 </figure>
               </div>
               <NewApplication faxLink="/denki.pdf" />
-              <ContactInfo title="受講に関するご相談は" />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
           </div>
         </header>
@@ -591,11 +591,15 @@
       width: 80%;
     }
   }
+  .exam-link-flex {
+    display: flex;
+    margin: 0 auto;
+  }
   .application-form-link {
     // background-color: #ed6c00;
     background-color: #ff4500;
     box-shadow: 4px 4px 10px rgba(153, 33, 0, 0.3);
-
+    display: block;
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;
