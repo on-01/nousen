@@ -540,7 +540,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="workshop-table workshopTable">
+        <div class="workshop-table workshopTable">
           <div class="workshopTable-content">
             <div class="workshopTable-wrapper">
               <p class="workshopTable-title -orange">通学講座（講習会）</p>
@@ -819,7 +819,7 @@
               </table>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
   </div>
 </template>
