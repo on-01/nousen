@@ -179,6 +179,10 @@
             />
 
             <WorkshopDenkikouji />
+            <NewPvMovieDenkikouji
+              movieTitle="電気工事施工管理技士の講習会動画をご視聴ください"
+              description="合格者を多数輩出！能センの無料動画です！"
+            />
 
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
@@ -452,6 +456,7 @@
   import Explanation from "../components/licensePage/Explanation.vue";
   import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
+  import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -512,6 +517,7 @@
       Explanation,
       ExplanationDenkikouji,
       ScheduleKenchiku,
+      NewPvMovieDenkikouji,
     },
     data() {
       return {
