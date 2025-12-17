@@ -594,6 +594,11 @@
   .exam-link-flex {
     display: flex;
     margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      max-width: 480px;
+      justify-content: center;
+    }
   }
   .application-form-link {
     // background-color: #ed6c00;
