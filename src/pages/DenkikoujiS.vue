@@ -179,6 +179,10 @@
             />
 
             <WorkshopDenkikouji />
+            <NewPvMovieDenkikouji
+              movieTitle="電気工事施工管理技士の講習会動画をご視聴ください"
+              description="合格者を多数輩出！能センの無料動画です！"
+            />
 
             <div class="bg-white">
               <SetCourse2 title="通学＋オンラインセット" />
@@ -352,7 +356,7 @@
                 </figure>
               </div>
               <NewApplication faxLink="/denki.pdf" />
-              <ContactInfo title="受講に関するご相談は" />
+              <ContactInfo title="受講に関するご相談・資料請求は" />
             </div>
           </div>
         </header>
@@ -452,6 +456,7 @@
   import Explanation from "../components/licensePage/Explanation.vue";
   import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
+  import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -512,6 +517,7 @@
       Explanation,
       ExplanationDenkikouji,
       ScheduleKenchiku,
+      NewPvMovieDenkikouji,
     },
     data() {
       return {
@@ -585,11 +591,20 @@
       width: 80%;
     }
   }
+  .exam-link-flex {
+    display: flex;
+    margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      max-width: 480px;
+      justify-content: center;
+    }
+  }
   .application-form-link {
     // background-color: #ed6c00;
     background-color: #ff4500;
     box-shadow: 4px 4px 10px rgba(153, 33, 0, 0.3);
-
+    display: block;
     margin-top: 25px;
     width: 400px;
     padding: 14px 30px;

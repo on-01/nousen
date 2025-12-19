@@ -120,7 +120,7 @@
     padding: 1em 65px;
     border: 6px solid #00a73c;
     @media print, screen and (max-width: 1000px) {
-      padding: 3.38em 62px;
+      padding: 1em 26px;
     }
     .title {
       margin: 0;
