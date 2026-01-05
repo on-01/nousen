@@ -265,7 +265,7 @@
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            4月17日(金)～12月31日(木)まで
+            12月15日まで
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -285,7 +285,7 @@
               <span>【終了】</span>
             </p> -->
             <p class="workshop-border -none">
-              4月3日(金)～12月31日(木)まで
+              12月15日まで
               <span>【受付中】</span>
             </p>
           </div>
