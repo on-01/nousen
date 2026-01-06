@@ -9,7 +9,7 @@
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度前期 / 令和8年度後期<span>【準備中】</span>"
-            title="1・2級電気工事施工管理技士"
+            title="2級電気工事施工管理技士"
             :icon="
               require('../assets/img/icon/qualification/denkikoujisekou.svg')
             "
@@ -468,7 +468,7 @@
     name: "koujishi2",
     metaInfo() {
       return {
-        titleTemplate: "1・2級電気工事施工管理技士 受験対策講習会｜能セン",
+        titleTemplate: "2級電気工事施工管理技士 受験対策講習会｜能セン",
         meta: [
           {
             name: "description",
@@ -478,7 +478,7 @@
           {
             key: `og:title`,
             property: `og:title`,
-            content: `1・2級電気工事施工管理技士 受験対策講習会｜能セン`,
+            content: `2級電気工事施工管理技士 受験対策講習会｜能セン`,
             // content: `1級・2級 電気工事施工管理技士 | ${
             //   this.$static.metadata.siteName
             // }`,

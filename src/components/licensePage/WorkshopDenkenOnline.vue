@@ -8,7 +8,7 @@
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
-          令和7年度 全期間対応！
+          令和8年度 全期間対応！
           <br />
           最新の受験対策講座をお届け
           <br />
@@ -21,56 +21,54 @@
     <p class="workshop-top">
       能センがおすすめするオンライン講座(WEB講座)は、短期間での合格に特化した受験対策講座。
       <br />
-      高性能な動画配信プラットフォームを使い、最新動画をPCやスマホから何回でも視聴可能！
+      高性能な動画配信プラットフォームを使い、最新動画をPC・スマホから24時間視聴可能！
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
-        <p class="workshop-top -bottom">
-          令和8年7月31日まで配信 / サポート期間24ヶ月
-        </p>
+        <p class="workshop-top -bottom">視聴期間18ヶ月 / サポート期間24ヶ月</p>
         <div class="workshop-content">
           <p class="workshop-text -first -blue">科目</p>
-          <p class="workshop-text -third -blue">配信日程</p>
+          <p class="workshop-text -third -blue">視聴期間</p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">基　礎 (約12時間)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">理　論 (約12時間)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力 (約12時間)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械 (約12時間)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規 (約 6時間)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">模擬試験 (各科目約30分)</p>
           <p class="workshop-text even">
-            ご入金後～令和8年7月31日(金)まで
+            配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
           </p>
         </div>
