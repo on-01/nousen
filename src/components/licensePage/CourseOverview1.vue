@@ -132,6 +132,10 @@
             <tr>
               <th>サポート体制</th>
               <td>
+                <p>
+                  ・
+                  <span class="orange">勉強フォローアップサービスあり</span>
+                </p>
                 <p>・能センサポ、提出課題は最大24ヶ月の安心サポート！</p>
                 <p>
                   ・講習会場でのご質問対応。メール・お電話でも対応いたします
@@ -148,10 +152,6 @@
                   ・
                   <span>【🎓 GO!資格 合格応援制度】</span>
                   あり
-                </p>
-                <p>
-                  ・合格に直結する
-                  <span>【勉強管理システム】</span>
                 </p>
               </td>
             </tr>
@@ -328,6 +328,9 @@
     color: red;
   }
 
+  .orange {
+    color: #ff4500;
+  }
   .courseOverview-link {
     text-decoration: none;
     text-decoration-color: #337ab7;
