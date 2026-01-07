@@ -1607,17 +1607,17 @@ query {
   .denkikoujisekou,
   .kankouji {
     // color: #00a73c;
-    span {
-      background-color: #00a73c;
-    }
+    // span {
+    //   background-color: #00a73c;
+    // }
   }
 
   .kenchiku,
   .doboku {
     // color: #ed7d31;
-    span {
-      background-color: #ed7d31;
-    }
+    // span {
+    //   background-color: #ed7d31;
+    // }
   }
   .kyuusui {
     // color: #00afcc;
@@ -2237,7 +2237,9 @@ query {
       opacity: 0;
       animation: fade-in 1s;
 
-      &.item0#{$i} {
+      // item01〜item10 のクラスに対応（10のみゼロ埋めしない）
+      $item-class: if($i < 10, "item0#{$i}", "item#{$i}");
+      &.#{$item-class} {
         animation-delay: #{200ms * $i + $enter-delay};
       }
       @media print, screen and (max-width: 1000px) {
