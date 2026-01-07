@@ -1492,8 +1492,8 @@ query {
   }
   .item06 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 2/2;
-      grid-row: 2/3;
+      grid-column: 1/5;
+      grid-row: 2/2;
       align-self: start;
       -ms-grid-column: 2;
       -ms-grid-row: 2;
@@ -1509,8 +1509,8 @@ query {
   }
   .item07 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 3/4;
-      grid-row: 2/3;
+      grid-column: 2/5;
+      grid-row: 2/2;
       align-self: start;
       -ms-grid-column: 3;
       -ms-grid-row: 2;
@@ -1526,8 +1526,8 @@ query {
   }
   .item08 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 4/4;
-      grid-row: 2/3;
+      grid-column: 3/5;
+      grid-row: 2/2;
       align-self: start;
       -ms-grid-column: 4;
       -ms-grid-row: 2;
@@ -1543,8 +1543,31 @@ query {
   }
   .item09 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 3/4;
-      grid-row: 1/3;
+      grid-column: 4/5;
+      grid-row: 2/2;
+      -ms-grid-column: 3;
+      -ms-grid-row: 1;
+      -ms-grid-row-span: 2;
+      padding-right: 20px;
+    }
+    @media print, screen and (max-width: 1000px) {
+      grid-column: 1/3;
+      grid-row: 1/2;
+      align-self: center;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 2;
+      -ms-grid-row: 1;
+    }
+    img {
+      @media print, screen and (min-width: 1001px) {
+        max-height: 100%;
+      }
+    }
+  }
+  .item10 {
+    @media print, screen and (min-width: 1001px) {
+      grid-column: 5/5;
+      grid-row: 2/2;
       -ms-grid-column: 3;
       -ms-grid-row: 1;
       -ms-grid-row-span: 2;
