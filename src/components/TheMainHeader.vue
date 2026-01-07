@@ -970,6 +970,9 @@
       overflow: hidden;
       box-shadow: 0px 5px 5px 0px #0000005c;
     }
+    @media print, screen and(max-width: 1350px) {
+      height: 284px;
+    }
     @media print, screen and(max-width: 1000px) {
       overflow: hidden;
       height: auto;
