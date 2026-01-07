@@ -1009,7 +1009,8 @@
           margin-top: 40px; //202101
         }
         @media print, screen and(max-width: 1000px) {
-          padding: 0.5em 0;
+          padding: 0.5em 0 0.5em 40px;
+          display: flex;
         }
         &:before {
           position: absolute;
@@ -1022,6 +1023,7 @@
           @media print, screen and(max-width: 1000px) {
             height: 1.2em;
             width: 1.2em;
+            top: 8px;
           }
         }
         &:after {
