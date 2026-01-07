@@ -1545,6 +1545,7 @@ query {
     @media print, screen and (min-width: 1001px) {
       grid-column: 4/5;
       grid-row: 2/2;
+      align-self: start;
       -ms-grid-column: 3;
       -ms-grid-row: 1;
       -ms-grid-row-span: 2;
@@ -1568,6 +1569,7 @@ query {
     @media print, screen and (min-width: 1001px) {
       grid-column: 5/5;
       grid-row: 2/2;
+      align-self: start;
       -ms-grid-column: 3;
       -ms-grid-row: 1;
       -ms-grid-row-span: 2;
