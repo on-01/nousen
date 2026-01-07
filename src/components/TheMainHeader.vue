@@ -554,7 +554,7 @@
           </li>
           <li class="kankouji">
             <p class="title">
-              1・2級
+              1級
               <br class="overdisplay" />
               管工事施工管理技士
             </p>
@@ -597,6 +597,163 @@
               class="application-fax-link"
             >
               FAX用紙 (PDF)
+            </a>
+          </li>
+          <li class="denkikouji">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              電気工事施工管理技士
+            </p>
+            <g-link
+              to="/denkikouji-s-application"
+              class="application-form-link"
+            >
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/denkikouji-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="/doboku_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="/denki.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
+          <li class="kenchiku">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              建築施工管理技士
+            </p>
+            <g-link to="/kenchiku-s-application" class="application-form-link">
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/kenchiku-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="/kenchiku_1_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
+          <li class="doboku">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              土木施工管理技士
+            </p>
+            <g-link to="/doboku-s-application" class="application-form-link">
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/doboku-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="/doboku_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
+          <li class="kankouji">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              管工事施工管理技士
+            </p>
+            <g-link to="/kankouji-s-application" class="application-form-link">
+              お申し込みフォーム
+            </g-link>
+            <br />
+            <a
+              href="/kankouji_1_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF)
+            </a>
+            <br />
+            <a
+              href="/kankouji_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
             </a>
           </li>
         </ul>
@@ -1113,7 +1270,7 @@
       margin-top: 30px;
     }
     ul {
-      max-width: 900px;
+      max-width: 1200px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 30px;
@@ -1122,7 +1279,7 @@
         align-items: flex-start;
         flex-wrap: wrap;
         justify-content: flex-start;
-        max-width: 730px;
+        max-width: 1200px;
         // 最初の行を中央揃えにするために、最初の行の最後のアイテムにmargin-left: autoを設定
         // ただし、折り返し行は左寄せになる
         &::after {
