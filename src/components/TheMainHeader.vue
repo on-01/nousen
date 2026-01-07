@@ -97,36 +97,36 @@
                     電気工事士
                   </li>
                 </g-link> -->
-                <g-link to="/doboku-s">
-                  <li class="doboku">
-                    1・2級
+                <g-link>
+                  <li class="denkikoujisekou">
+                    1級
                     <br class="overdisplay" />
-                    土木施工管理技士
-                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                    電気工事施工管理技士
+                    <!-- <br />
+                    (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/kenchiku-s">
+                <g-link>
                   <li class="kenchiku">
-                    1・2級
+                    1級
                     <br class="overdisplay" />
                     建築施工管理技士
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/kankouji-s">
-                  <li class="kankouji">
-                    1・2級
+                <g-link>
+                  <li class="doboku">
+                    1級
                     <br class="overdisplay" />
-                    管工事施工管理技士
-                    <!-- <br />
-                    (令和６年度準備中) -->
+                    土木施工管理技士
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/denkikouji-s">
-                  <li class="denkikoujisekou">
-                    1・2級
+                <g-link>
+                  <li class="kankouji">
+                    1級
                     <br class="overdisplay" />
-                    電気工事施工管理技士
+                    管工事施工管理技士
                     <!-- <br />
                     (令和６年度準備中) -->
                   </li>
@@ -136,6 +136,40 @@
                     給水装置工事
                     <br class="overdisplay" />
                     主任技術者
+                    <!-- <br />
+                    (令和６年度準備中) -->
+                  </li>
+                </g-link>
+                <g-link to="/denkikouji-s">
+                  <li class="denkikoujisekou">
+                    2級
+                    <br class="overdisplay" />
+                    電気工事施工管理技士
+                    <!-- <br />
+                    (令和６年度準備中) -->
+                  </li>
+                </g-link>
+                <g-link to="/kenchiku-s">
+                  <li class="kenchiku">
+                    2級
+                    <br class="overdisplay" />
+                    建築施工管理技士
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                  </li>
+                </g-link>
+                <g-link to="/doboku-s">
+                  <li class="doboku">
+                    2級
+                    <br class="overdisplay" />
+                    土木施工管理技士
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                  </li>
+                </g-link>
+                <g-link to="/kankouji-s">
+                  <li class="kankouji">
+                    2級
+                    <br class="overdisplay" />
+                    管工事施工管理技士
                     <!-- <br />
                     (令和６年度準備中) -->
                   </li>
