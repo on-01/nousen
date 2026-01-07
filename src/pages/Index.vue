@@ -71,10 +71,10 @@
               </div>
             </div> -->
             <div class="item item02 denkikoujisekou" key="item02">
-              <g-link to="/denkikouji-s">
+              <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
-                1・2級
+                1級
                 <br />
                 電気工事施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -83,20 +83,20 @@
               </g-link>
             </div>
             <div class="item item03 kenchiku" key="item03">
-              <g-link to="/kenchiku-s">
+              <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
-                1・2級
+                1級
                 <br />
                 建築施工管理技士
                 <IconOnline iconClass="online_icon_index" />
               </g-link>
             </div>
             <div class="item item04 doboku" key="item04">
-              <g-link to="/doboku-s">
+              <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
-                1・2級
+                1級
                 <br />
                 土木施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -106,7 +106,7 @@
               <g-link>
                 <!-- <span>施工管理技士</span>
                 <br /> -->
-                1・2級
+                1級
                 <br />
                 管工事施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -114,30 +114,30 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
-            <div class="item item06 contact" key="item06">
+            <!-- <div class="item item06 contact" key="item06">
               <g-link to="/contact">
-                <!-- <span>施工管理技士</span>
-                <br /> -->
+                <span>施工管理技士</span>
+                <br />
                 お問い合わせ
                 <br />
                 資料請求
-                <!-- <IconOnline iconClass="online_icon_index" /> -->
-                <!-- <br /> -->
-                <!-- <span>令和６年度準備中</span> -->
+                <IconOnline iconClass="online_icon_index" />
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
-            </div>
-            <div class="item item07 online" key="item07">
+            </div> -->
+            <!-- <div class="item item07 online" key="item07">
               <g-link to="https://timerex.net/s/a4b3c5d67_73c6/9aab6876/">
-                <!-- <span>施工管理技士</span>
-                <br /> -->
+                <span>施工管理技士</span>
+                <br />
                 <br />
                 オンライン相談
                 <IconOnline iconClass="online_icon_index" />
-                <!-- <br /> -->
-                <!-- <span>令和６年度準備中</span> -->
+                <br />
+                <span>令和６年度準備中</span>
               </g-link>
-            </div>
-            <div class="item item08 kyuusui" key="item08">
+            </div> -->
+            <div class="item item06 kyuusui" key="item06">
               <g-link>
                 <!-- <span>給水装置工事</span>
                 <br /> -->
@@ -149,6 +149,51 @@
                 <!-- <span>令和６年度準備中</span> -->
               </g-link>
             </div>
+            <div class="item item07 denkikoujisekou" key="item07">
+              <g-link to="/denkikouji-s">
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                2級
+                <br />
+                電気工事施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
+                <!-- <span>令和６年度準備中</span> -->
+              </g-link>
+            </div>
+            <div class="item item08 kenchiku" key="item08">
+              <g-link to="/kenchiku-s">
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                2級
+                <br />
+                建築施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+              </g-link>
+            </div>
+            <div class="item item09 doboku" key="item09">
+              <g-link to="/doboku-s">
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                2級
+                <br />
+                土木施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+              </g-link>
+            </div>
+            <div class="item item10 kankouji" key="item10">
+              <g-link>
+                <!-- <span>施工管理技士</span>
+                <br /> -->
+                2級
+                <br />
+                管工事施工管理技士
+                <IconOnline iconClass="online_icon_index" />
+                <!-- <br /> -->
+                <!-- <span>令和６年度準備中</span> -->
+              </g-link>
+            </div>
+
             <!-- <div class="item item09" key="item09">
               <picture>
                 <source
@@ -1323,7 +1368,7 @@ query {
     }
     @media print, screen and (max-width: 1000px) {
       grid-template-columns: 150px 150px;
-      grid-template-rows: 120px 180px 180px 180px 180px; /* 202101 */
+      grid-template-rows: 120px 180px 180px 180px 180px 180px; /* 202101 */
       justify-content: center; /* 横方向は中央に */
     }
   }
@@ -1362,7 +1407,7 @@ query {
   }
   .item01 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 1/2;
+      grid-column: 1/5;
       grid-row: 1/2;
       align-self: end;
       -ms-grid-column: 1;
@@ -1377,7 +1422,7 @@ query {
   }
   .item02 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 2/2;
+      grid-column: 2/5;
       grid-row: 1/2;
       align-self: end;
       -ms-grid-column: 2;
@@ -1395,7 +1440,7 @@ query {
   }
   .item03 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 3/4;
+      grid-column: 3/5;
       grid-row: 1/2;
       align-self: end;
       -ms-grid-column: 3;
@@ -1413,7 +1458,7 @@ query {
   }
   .item04 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 4/4;
+      grid-column: 4/5;
       grid-row: 1/2;
       align-self: end;
       -ms-grid-column: 4;
@@ -1430,9 +1475,9 @@ query {
   }
   .item05 {
     @media print, screen and (min-width: 1001px) {
-      grid-column: 1/2;
-      grid-row: 2/3;
-      align-self: start;
+      grid-column: 5/5;
+      grid-row: 1/2;
+      align-self: end;
       -ms-grid-column: 1;
       -ms-grid-row: 2;
     }
