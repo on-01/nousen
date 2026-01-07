@@ -1556,9 +1556,9 @@ query {
       padding-right: 20px;
     }
     @media print, screen and (max-width: 1000px) {
-      grid-column: 1/3;
-      grid-row: 1/2;
-      align-self: center;
+      grid-column: 1/2;
+      grid-row: 6/6;
+      align-self: auto;
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;
       -ms-grid-row: 1;
@@ -1580,9 +1580,9 @@ query {
       padding-right: 20px;
     }
     @media print, screen and (max-width: 1000px) {
-      grid-column: 1/3;
-      grid-row: 1/2;
-      align-self: center;
+      grid-column: 2/2;
+      grid-row: 6/6;
+      align-self: auto;
       -ms-grid-column: 1;
       -ms-grid-column-span: 2;
       -ms-grid-row: 1;
