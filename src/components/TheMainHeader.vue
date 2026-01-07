@@ -108,7 +108,10 @@
                 </g-link>
                 <g-link>
                   <li class="kenchiku">
-                    1級
+                    <div>
+                      1級
+                      <span>【準備中】</span>
+                    </div>
                     <span>【準備中】</span>
                     <br class="overdisplay" />
                     建築施工管理技士
@@ -117,8 +120,10 @@
                 </g-link>
                 <g-link>
                   <li class="doboku">
-                    1級
-                    <span>【準備中】</span>
+                    <div>
+                      1級
+                      <span>【準備中】</span>
+                    </div>
                     <br class="overdisplay" />
                     土木施工管理技士
 
@@ -145,8 +150,10 @@
                 </g-link>
                 <g-link to="/denkikouji-s">
                   <li class="denkikoujisekou">
-                    2級
-                    <span>【準備中】</span>
+                    <div>
+                      2級
+                      <span>【準備中】</span>
+                    </div>
                     <br class="overdisplay" />
                     電気工事施工管理技士
                     <!-- <br />
