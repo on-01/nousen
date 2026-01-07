@@ -87,6 +87,7 @@
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
+                <span>【準備中】</span>
                 <br />
                 建築施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -97,6 +98,7 @@
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
+                <span>【準備中】</span>
                 <br />
                 土木施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -154,6 +156,7 @@
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 2級
+                <span>【準備中】</span>
                 <br />
                 電気工事施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -1383,7 +1386,7 @@ query {
     }
     span {
       font-size: 15px;
-      color: #fff;
+      color: red;
       padding: 0px 2px;
       @media print, screen and (max-width: 1000px) {
         font-size: 13px;
@@ -2228,7 +2231,7 @@ query {
   // .appear-animation-leave-to {
   //   transform: translateY(0px);
   // }
-  @for $i from 1 through 9 {
+  @for $i from 1 through 10 {
     $enter-delay: 200ms;
     .appear-animation-enter-active {
       opacity: 0;
