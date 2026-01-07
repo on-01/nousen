@@ -111,6 +111,7 @@
                     1級
                     <br class="overdisplay" />
                     建築施工管理技士
+                    <span>【準備中】</span>
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
@@ -119,6 +120,7 @@
                     1級
                     <br class="overdisplay" />
                     土木施工管理技士
+                    <span>【準備中】</span>
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
@@ -145,6 +147,7 @@
                     2級
                     <br class="overdisplay" />
                     電気工事施工管理技士
+                    <span>【準備中】</span>
                     <!-- <br />
                     (令和６年度準備中) -->
                   </li>
@@ -972,7 +975,7 @@
     }
 
     ul {
-      max-width: 690px;
+      max-width: 1150px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 40px; //202101
@@ -986,6 +989,9 @@
         margin-left: 1em;
       }
       li {
+        span {
+          color: red;
+        }
         position: relative; //202101
         text-align: left;
         display: flex;
