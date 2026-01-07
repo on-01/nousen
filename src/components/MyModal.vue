@@ -46,7 +46,7 @@
       background: #fff;
       border-radius: 4px;
       overflow: hidden;
-      max-width: 1000px;
+      max-width: 1240px;
       width: 100%;
       max-height: 90%;
       height: 550px;
