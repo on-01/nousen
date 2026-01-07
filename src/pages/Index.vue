@@ -1558,11 +1558,11 @@ query {
       -ms-grid-column-span: 2;
       -ms-grid-row: 1;
     }
-    img {
-      @media print, screen and (min-width: 1001px) {
-        max-height: 100%;
-      }
-    }
+    // img {
+    //   @media print, screen and (min-width: 1001px) {
+    //     max-height: 100%;
+    //   }
+    // }
   }
   .item10 {
     @media print, screen and (min-width: 1001px) {
@@ -1581,11 +1581,11 @@ query {
       -ms-grid-column-span: 2;
       -ms-grid-row: 1;
     }
-    img {
-      @media print, screen and (min-width: 1001px) {
-        max-height: 100%;
-      }
-    }
+    // img {
+    //   @media print, screen and (min-width: 1001px) {
+    //     max-height: 100%;
+    //   }
+    // }
   }
   .denken {
     // color: #1262b2;
