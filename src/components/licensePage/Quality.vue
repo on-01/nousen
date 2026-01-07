@@ -397,7 +397,7 @@
   .basis-textWrap {
     width: 65%;
     margin-left: 30px;
-    margin-top: 30px;
+    // margin-top: 30px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       margin-left: 0;
