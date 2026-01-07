@@ -990,6 +990,10 @@
         margin-left: 1em;
       }
       li {
+        span {
+          color: red;
+          font-weight: 700;
+        }
         position: relative; //202101
         text-align: left;
         // display: flex;
