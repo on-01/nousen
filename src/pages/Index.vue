@@ -1381,6 +1381,7 @@ query {
     font-size: 15px;
     line-height: 1.5em;
     font-family: メイリオ, sans-serif;
+    white-space: nowrap;
     @media print, screen and (max-width: 1000px) {
       text-align: center;
     }
