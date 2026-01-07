@@ -976,7 +976,7 @@
     }
 
     ul {
-      max-width: 1150px;
+      max-width: 1400px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 40px; //202101
@@ -994,6 +994,7 @@
           color: red;
           font-weight: 700;
         }
+        padding-left: 60px;
         position: relative; //202101
         text-align: left;
         // display: flex;
@@ -1010,7 +1011,7 @@
         &:before {
           position: absolute;
           top: 0;
-          left: 0;
+          left: 0px;
           height: 50px;
           width: 50px;
           display: inline-block;
