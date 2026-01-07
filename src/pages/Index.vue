@@ -1312,8 +1312,8 @@ query {
     display: -ms-grid;
     margin: 0 auto;
     @media print, screen and (min-width: 1001px) {
-      grid-template-columns: 150px 150px 150px 150px;
-      -ms-grid-columns: 150px 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px 150px 150px;
+      -ms-grid-columns: 150px 150px 150px 150px 150px;
       grid-template-rows: 200px 200px;
       -ms-grid-rows: 200px 200px;
       grid-gap: 60px 50px; /* 202101 */
