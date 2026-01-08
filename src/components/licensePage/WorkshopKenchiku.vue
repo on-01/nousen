@@ -832,10 +832,10 @@
                   <th>配信日程</th>
                   <td>
                     一次：5月11日～12月15日まで
-                    <span>【受付中】</span>
+                    <span class="-red">【受付中】</span>
                     <br />
                     二次：2月27日～12月15日まで
-                    <span>【受付中】</span>
+                    <span class="-red">【受付中】</span>
                   </td>
                 </tr>
                 <tr>

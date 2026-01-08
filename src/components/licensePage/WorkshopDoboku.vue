@@ -814,10 +814,10 @@
                   <th>配信日程</th>
                   <td>
                     一次：4月17日～12月15日まで
-                    <span>【受付中】</span>
+                    <span class="-red">【受付中】</span>
                     <br />
                     二次：4月3日～12月15日まで
-                    <span>【受付中】</span>
+                    <span class="-red">【受付中】</span>
                   </td>
                 </tr>
                 <tr>
