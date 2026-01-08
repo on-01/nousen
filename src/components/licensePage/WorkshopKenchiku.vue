@@ -359,7 +359,7 @@
         </p>
         <div class="workshop-content">
           <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
-          <p class="workshop-text -blue">12月15日まで</p>
+          <p class="workshop-text -blue">1月1日～12月15日</p>
         </div>
       </div>
     </div>
