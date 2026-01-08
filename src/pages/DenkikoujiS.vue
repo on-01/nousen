@@ -83,8 +83,8 @@
               altText="電気工事施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd">
-              <ScheduleKenchiku
-                title="令和7年度 電気工事施工管理技士 試験日程"
+              <ScheduleDenkikouji
+                title="令和8年度 電気工事施工管理技士 試験日程"
               />
               <TestOverviewDenkikouji />
 
@@ -455,7 +455,7 @@
   import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   import Explanation from "../components/licensePage/Explanation.vue";
   import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
-  import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
+  import ScheduleDenkikouji from "../components/licensePage/ScheduleDenkikouji.vue";
   import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -516,7 +516,7 @@
       TestOverviewDenkikouji,
       Explanation,
       ExplanationDenkikouji,
-      ScheduleKenchiku,
+      ScheduleDenkikouji,
       NewPvMovieDenkikouji,
     },
     data() {
