@@ -156,8 +156,12 @@
             <tr>
               <th>サポート体制</th>
               <td>
+                <p>
+                  ・
+                  <span class="orange">勉強フォローアップサービスあり</span>
+                </p>
                 <p>・過去に撮影した動画が全て見放題（約54時間）</p>
-                <p>・質問用紙が最大8枚</p>
+                <p>・質問用紙が最大6枚</p>
                 <p>
                   ・能センサポ・質問用紙・提出課題は、最大24ヶ月間サポート！
                 </p>
@@ -170,10 +174,6 @@
                   ・
                   <span>【🎓 GO!資格 合格応援制度】</span>
                   あり
-                </p>
-                <p>
-                  ・合格に直結する
-                  <span>【勉強管理システム】</span>
                 </p>
               </td>
             </tr>
@@ -406,7 +406,9 @@
   .red {
     color: red;
   }
-
+  .orange {
+    color: #ff4500;
+  }
   .courseOverview-link {
     text-decoration: none;
     text-decoration-color: #337ab7;

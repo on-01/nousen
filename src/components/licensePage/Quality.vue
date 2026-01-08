@@ -94,21 +94,36 @@
             />
           </div>
           <div class="basis-textWrap">
-            <p class="basis-head">初学者の方へ</p>
+            <p class="basis-text">
+              電験三種（第三種電気主任技術者）は、
+              <br />
+              「難しそう」「理系じゃないと無理」「数学や物理が不安」
+              <br />
+              と感じて、最初の一歩で止まってしまう方が非常に多い資格です。
+            </p>
+            <p class="basis-head">✅初学者の方へ</p>
             <p class="basis-text">
               ・数学や物理に自信がない、特に文系出身で理系科目が苦手な方
               <br />
               ・電験三種の勉強を始めたいが、どこから手をつければよいかわからない方
               <br />
+              ・いきなり専門用語ばかりで、参考書を開いても理解できない
+              <br />
               ・基礎からしっかりと学び、無理なく理解を深めていきたい方
+              <br />
+              ・独学で挫折した経験があり、基礎からやり直したい方
             </p>
-            <p class="basis-head -bottom">電験三種の試験範囲を知りたい方へ</p>
+            <p class="basis-head -bottom">✅電験三種の試験範囲を知りたい方へ</p>
             <p class="basis-text">
               ・電験三種で出題される科目やその内容について、全体像をつかみたい方
               <br />
               ・各科目の重要ポイントや学習の進め方を知りたい方
               <br />
               ・どのような知識が求められるのか、事前に把握して効率的に勉強したい方
+              <br />
+              本講座では、高校レベルの数学・物理に不安がある方でも理解できるように、
+              <br />
+              電験三種を「超基礎」から丁寧に解説していきます。
             </p>
           </div>
         </div>
@@ -382,7 +397,7 @@
   .basis-textWrap {
     width: 65%;
     margin-left: 30px;
-    margin-top: 30px;
+    // margin-top: 30px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       margin-left: 0;

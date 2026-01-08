@@ -97,36 +97,39 @@
                     電気工事士
                   </li>
                 </g-link> -->
-                <g-link to="/doboku-s">
-                  <li class="doboku">
-                    1・2級
+                <g-link>
+                  <li class="denkikoujisekou">
+                    1級
                     <br class="overdisplay" />
-                    土木施工管理技士
-                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                    電気工事施工管理技士
+                    <!-- <br />
+                    (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/kenchiku-s">
+                <g-link>
                   <li class="kenchiku">
-                    1・2級
+                    1級
+                    <span class="status">【準備中】</span>
                     <br class="overdisplay" />
                     建築施工管理技士
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/kankouji-s">
-                  <li class="kankouji">
-                    1・2級
+                <g-link>
+                  <li class="doboku">
+                    1級
+                    <span class="status">【準備中】</span>
                     <br class="overdisplay" />
-                    管工事施工管理技士
-                    <!-- <br />
-                    (令和６年度準備中) -->
+                    土木施工管理技士
+
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/denkikouji-s">
-                  <li class="denkikoujisekou">
-                    1・2級
+                <g-link>
+                  <li class="kankouji">
+                    1級
                     <br class="overdisplay" />
-                    電気工事施工管理技士
+                    管工事施工管理技士
                     <!-- <br />
                     (令和６年度準備中) -->
                   </li>
@@ -136,6 +139,41 @@
                     給水装置工事
                     <br class="overdisplay" />
                     主任技術者
+                    <!-- <br />
+                    (令和６年度準備中) -->
+                  </li>
+                </g-link>
+                <g-link to="/denkikouji-s">
+                  <li class="denkikoujisekou">
+                    2級
+                    <span class="status">【準備中】</span>
+                    <br class="overdisplay" />
+                    電気工事施工管理技士
+                    <!-- <br />
+                    (令和６年度準備中) -->
+                  </li>
+                </g-link>
+                <g-link to="/kenchiku-s">
+                  <li class="kenchiku">
+                    2級
+                    <br class="overdisplay" />
+                    建築施工管理技士
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                  </li>
+                </g-link>
+                <g-link to="/doboku-s">
+                  <li class="doboku">
+                    2級
+                    <br class="overdisplay" />
+                    土木施工管理技士
+                    <!-- <IconOnline iconClass="online_icon_header" /> -->
+                  </li>
+                </g-link>
+                <g-link to="/kankouji-s">
+                  <li class="kankouji">
+                    2級
+                    <br class="overdisplay" />
+                    管工事施工管理技士
                     <!-- <br />
                     (令和６年度準備中) -->
                   </li>
@@ -325,6 +363,51 @@
               FAX用紙(PDF)
             </a>
           </li>
+          <li class="denkikouji">
+            <p class="title">
+              1級
+              <br class="overdisplay" />
+              電気工事施工管理技士
+            </p>
+            <g-link
+              to="/denkikouji-s-application"
+              class="application-form-link"
+            >
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/denkikouji-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="/doboku_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="/denki.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
             <g-link to="/koujishi-application" class="application-form-link">
@@ -387,7 +470,7 @@
           </li> -->
           <li class="kenchiku">
             <p class="title">
-              1・2級
+              1級
               <br class="overdisplay" />
               建築施工管理技士
             </p>
@@ -427,33 +510,9 @@
               FAX用紙(PDF)
             </a>
           </li>
-          <!-- <li class="kankouji">
-            <p class="title">
-              1・2級<br class="overdisplay" />管工事施工管理技士
-            </p>
-            <g-link to="/kankouji-s-application" class="application-form-link">
-              お申し込みフォーム </g-link
-            ><br />
-            <a
-              href="/kankouji_1_FAX_31year.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="application-fax-link"
-            >
-              FAX用紙 1級(PDF) </a
-            ><br />
-            <a
-              href="/kankouji_2_FAX_31year.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="application-fax-link"
-            >
-              FAX用紙 2級(PDF)
-            </a>
-          </li> -->
           <li class="doboku">
             <p class="title">
-              1・2級
+              1級
               <br class="overdisplay" />
               土木施工管理技士
             </p>
@@ -493,9 +552,56 @@
               FAX用紙(PDF)
             </a>
           </li>
+          <li class="kankouji">
+            <p class="title">
+              1級
+              <br class="overdisplay" />
+              管工事施工管理技士
+            </p>
+            <g-link to="/kankouji-s-application" class="application-form-link">
+              お申し込みフォーム
+            </g-link>
+            <br />
+            <a
+              href="/kankouji_1_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF)
+            </a>
+            <br />
+            <a
+              href="/kankouji_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a>
+          </li>
+          <li class="kyuusui">
+            <p class="title">
+              給水装置工事
+              <br class="overdisplay" />
+              主任技術者
+            </p>
+            <g-link to="/kyuusui-application" class="application-form-link">
+              お申し込みフォーム
+            </g-link>
+            <br />
+            <a
+              href="/kyuusui_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 (PDF)
+            </a>
+          </li>
           <li class="denkikouji">
             <p class="title">
-              1・2級
+              2級
               <br class="overdisplay" />
               電気工事施工管理技士
             </p>
@@ -538,22 +644,118 @@
               FAX用紙(PDF)
             </a>
           </li>
-          <!-- <li class="kyuusui">
+          <li class="kenchiku">
             <p class="title">
-              給水装置工事<br class="overdisplay" />主任技術者
+              2級
+              <br class="overdisplay" />
+              建築施工管理技士
             </p>
-            <g-link to="/kyuusui-application" class="application-form-link">
-              お申し込みフォーム </g-link
-            ><br />
-            <a
-              href="/kyuusui_FAX_31year.pdf"
+            <g-link to="/kenchiku-s-application" class="application-form-link">
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/kenchiku-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="/kenchiku_1_FAX_31year.pdf"
               target="_blank"
               rel="noopener noreferrer"
               class="application-fax-link"
             >
-              FAX用紙 (PDF)
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/c5776c2ddffc7d73ed0ccc030f609bd0/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
             </a>
-          </li> -->
+          </li>
+          <li class="doboku">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              土木施工管理技士
+            </p>
+            <g-link to="/doboku-s-application" class="application-form-link">
+              お申込みフォーム(個人)
+            </g-link>
+            <br />
+            <g-link
+              to="/doboku-s-application-business"
+              class="application-form-link"
+            >
+              お申込みフォーム(法人)
+            </g-link>
+            <br />
+            <!-- <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/9fcc69198e29cbbab99d1754a4a71823/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF) </a
+            ><br />
+            <a
+              href="/doboku_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a> -->
+            <a
+              href="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙(PDF)
+            </a>
+          </li>
+          <li class="kankouji">
+            <p class="title">
+              2級
+              <br class="overdisplay" />
+              管工事施工管理技士
+            </p>
+            <g-link to="/kankouji-s-application" class="application-form-link">
+              お申し込みフォーム
+            </g-link>
+            <br />
+            <a
+              href="/kankouji_1_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 1級(PDF)
+            </a>
+            <br />
+            <a
+              href="/kankouji_2_FAX_31year.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="application-fax-link"
+            >
+              FAX用紙 2級(PDF)
+            </a>
+          </li>
         </ul>
       </div>
       <!-- /default -->
@@ -932,13 +1134,16 @@
       overflow: hidden;
       box-shadow: 0px 5px 5px 0px #0000005c;
     }
+    @media print, screen and(max-width: 1350px) {
+      height: 284px;
+    }
     @media print, screen and(max-width: 1000px) {
       overflow: hidden;
       height: auto;
     }
 
     ul {
-      max-width: 690px;
+      max-width: 1400px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 40px; //202101
@@ -952,9 +1157,15 @@
         margin-left: 1em;
       }
       li {
+        span {
+          color: red;
+          font-weight: 700;
+        }
+        padding-left: 60px;
         position: relative; //202101
         text-align: left;
-        display: flex;
+        // display: flex;
+        // flex-direction: column;
         align-items: center;
         line-height: 1.5em;
         @media print, screen and(min-width: 1001px) {
@@ -962,9 +1173,13 @@
           margin-top: 40px; //202101
         }
         @media print, screen and(max-width: 1000px) {
-          padding: 0.5em 0;
+          padding: 0.5em 0 0.5em 40px;
+          display: flex;
         }
         &:before {
+          position: absolute;
+          top: 0;
+          left: 0px;
           height: 50px;
           width: 50px;
           display: inline-block;
@@ -972,6 +1187,7 @@
           @media print, screen and(max-width: 1000px) {
             height: 1.2em;
             width: 1.2em;
+            top: 8px;
           }
         }
         &:after {
@@ -1054,7 +1270,7 @@
       margin-top: 30px;
     }
     ul {
-      max-width: 900px;
+      max-width: 1200px;
       width: 100%;
       margin: 0 auto;
       padding-bottom: 30px;
@@ -1063,7 +1279,7 @@
         align-items: flex-start;
         flex-wrap: wrap;
         justify-content: flex-start;
-        max-width: 730px;
+        max-width: 1200px;
         // 最初の行を中央揃えにするために、最初の行の最後のアイテムにmargin-left: autoを設定
         // ただし、折り返し行は左寄せになる
         &::after {
