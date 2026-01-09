@@ -259,7 +259,7 @@
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner -second">
                     <p class="workshop-orangeLine__heading">
-                      🔹 勉強管理システムとは？（税込：550円）
+                      🔹 勉強管理システムとは？（税込：1650円）
                     </p>
                     <p class="workshop-orangeLine__text">
                       「一人で頑張るだけじゃ続かない…」
