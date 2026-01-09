@@ -156,7 +156,6 @@
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 2級
-                <span>【準備中】</span>
                 <br />
                 電気工事施工管理技士
                 <IconOnline iconClass="online_icon_index" />

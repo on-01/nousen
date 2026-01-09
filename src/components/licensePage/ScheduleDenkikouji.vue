@@ -42,7 +42,7 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  7月19日(日)
+                  7月12日(日)
                 </p>
                 <p class="schedule-table-padding">10月18日(日)</p>
               </div>
