@@ -146,7 +146,6 @@
                 <g-link to="/denkikouji-s">
                   <li class="denkikoujisekou">
                     2級
-                    <span class="status">【準備中】</span>
                     <br class="overdisplay" />
                     電気工事施工管理技士
                     <!-- <br />
