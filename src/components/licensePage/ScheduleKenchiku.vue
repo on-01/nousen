@@ -98,7 +98,11 @@
                 <p class="schedule-table-padding">6月29日(月)</p>
               </div>
             </td>
-            <td>7月13日(月)～7月27日(月)</td>
+            <td>
+              6月29日(月)～7月27日(月)
+              <br />
+              ≪書面申請≫7月13日(月)から
+            </td>
             <td>11月 8日(日)</td>
             <td class="schedule-padding-none">
               <div>
