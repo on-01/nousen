@@ -97,7 +97,6 @@
               東京建設業協会
             </p>
           </figure>
-          <figure class="support-image"></figure>
         </div>
         <div class="support-notes">
           <p>
@@ -210,6 +209,7 @@
   }
   .support-image {
     width: 30%;
+    max-width: 185px;
     max-height: 292px;
     transform: scale(0.9);
     margin-left: 10px;
