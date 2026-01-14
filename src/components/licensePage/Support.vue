@@ -47,6 +47,8 @@
               育成推進協議会
             </p>
           </figure>
+        </div>
+        <div class="support-flex -bottom">
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_5.jpg"
@@ -58,8 +60,6 @@
               東京建設業協会
             </p>
           </figure>
-        </div>
-        <div class="support-flex -bottom">
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_6.jpg"
@@ -73,7 +73,7 @@
               東京建設業界
             </p>
           </figure>
-          <figure class="support-image">
+          <!-- <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_7.jpg"
               alt="建築施工管理技士 講習会 通信講座 web講座"
@@ -85,7 +85,7 @@
               <br />
               東京建設業協会
             </p>
-          </figure>
+          </figure> -->
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_8.jpg"
