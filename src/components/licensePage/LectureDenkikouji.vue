@@ -1,6 +1,6 @@
 <template>
   <div class="lecture">
-    <div class="lecture-inner">
+    <!-- <div class="lecture-inner">
       <div class="lecture-section">
         <figure class="lecture-image">
           <img :src="imagePath" :alt="altText" />
@@ -38,7 +38,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="exam">
       <p class="exam-title">📚 合格サポートプログラム</p>
