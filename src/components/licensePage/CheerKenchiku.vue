@@ -88,8 +88,8 @@
     },
     data() {
       return {
-        targetDate1: new Date("2025-06-08"),
-        targetDate2: new Date("2025-11-09"),
+        targetDate1: new Date("2026-06-14"),
+        targetDate2: new Date("2026-11-08"),
         today: new Date(),
       };
     },

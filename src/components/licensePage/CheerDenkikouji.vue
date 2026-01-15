@@ -17,7 +17,7 @@
           <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
         </g-link>
       </div> -->
-      <!-- <div class="time">
+      <div class="time">
         <div class="time-inner">
           <div class="time-wrapper">
             <p class="time-heading">次回試験日まで</p>
@@ -45,7 +45,7 @@
             </ul>
           </div>
         </div>
-      </div> -->
+      </div>
 
       <!-- <div class="cheer-topImg">
         <img
@@ -94,8 +94,8 @@
     },
     data() {
       return {
-        targetDate1: new Date("2025-06-08"),
-        targetDate2: new Date("2025-11-09"),
+        targetDate1: new Date("2026-06-14"),
+        targetDate2: new Date("2026-11-08"),
         today: new Date(),
       };
     },
