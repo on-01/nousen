@@ -10,7 +10,7 @@
           <tr>
             <th class="schedule-th -first">等級</th>
             <th class="schedule-th -second">願書発売</th>
-            <th class="schedule-th -third">願書提出</th>
+            <th class="schedule-th -third">受験申請</th>
             <th class="schedule-th -forth">試験日</th>
             <th class="schedule-th -fifth">合格発表日</th>
           </tr>
