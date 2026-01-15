@@ -163,23 +163,19 @@
             src="../../assets/img/license_page/doboku_s/lecture-book3.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="book-text700 -first">【一次コース専用】</p>
+          <p class="book-text700 -first">【一次二次専用】</p>
           <p class="book-text700">
-            ２級土木施工管理技士　要点テキスト　令和8年度版
+            ２級電気工事施工管理技士 完全攻略（オーム社）
           </p>
           <p class="book-text">
-            過去問題と要点解説を一冊にまとめた、効率重視のテキストです。
+            本書は、２級電気工事施工管理技士試験の出題範囲を分野別に整理し、一次・二次検定を一冊で学習できる合格教本です。
             <br />
-            令和8年度試験に対応し、令和3年度からの新制度や令和6年度の新傾向問題（土質工学・構造力学・水理学）を徹底分析。最新の出題傾向を反映しています。
+            試験制度改正にも対応し、重要ポイントを押さえた構成で、独学でも効率よく学習を進められます。
             <br />
-            図表やイラストを豊富に用い、重要事項は赤文字で整理。難しい内容もわかりやすく、短時間で理解できる構成です。
-            <br />
-            出題頻度の高いテーマを厳選し、合格に直結する要点だけを収録。忙しい方でも、短期間で効果的に実力を高められる内容です。
-            <br />
-            <span>※新刊は令和8年2月中旬頃の発送になります</span>
+            基礎から試験レベルまで網羅しており、初受験者から再受験者まで幅広く活用できる定番テキストです！
           </p>
         </div>
-        <div class="book-wrap -right">
+        <!-- <div class="book-wrap -right">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-book5.png"
             alt="土木施工管理技士 講習会 通信講座 web講座"
@@ -198,10 +194,10 @@
             <br />
             <span>※令和8年度更新版は1月中旬の発送になります。</span>
           </p>
-        </div>
+        </div> -->
       </div>
 
-      <p class="counterplan-title -top">第一次検定 試験対策</p>
+      <!-- <p class="counterplan-title -top">第一次検定 試験対策</p>
       <div class="lecture-section -counterplan">
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
@@ -271,8 +267,8 @@
             この予想問題をしっかり解いて、自信を持って試験に臨みましょう。
           </p>
         </div>
-      </div>
-      <p class="counterplan-title">第二次検定 試験対策</p>
+      </div> -->
+      <!-- <p class="counterplan-title">第二次検定 試験対策</p>
       <div class="lecture-section -counterplan2">
         <div class="counterplan-wrap">
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
@@ -333,7 +329,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -387,6 +383,7 @@
     margin-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
 
     @media print, screen and (max-width: 1000px) {
       width: 90%;
