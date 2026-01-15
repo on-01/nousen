@@ -197,6 +197,8 @@
             />
 
             <div class="bg-white">
+              <FollowUpDenkikouji />
+              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -470,6 +472,7 @@
   import ScheduleDenkikouji from "../components/licensePage/ScheduleDenkikouji.vue";
   import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   import LectureDenkikouji from "../components/licensePage/LectureDenkikouji.vue";
+  import FollowUpDenkikouji from "../components/licensePage/FollowUpDenkikouji.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -532,6 +535,7 @@
       ScheduleDenkikouji,
       NewPvMovieDenkikouji,
       LectureDenkikouji,
+      FollowUpDenkikouji,
     },
     data() {
       return {
