@@ -47,6 +47,8 @@
               育成推進協議会
             </p>
           </figure>
+        </div>
+        <div class="support-flex -bottom">
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_5.jpg"
@@ -58,8 +60,6 @@
               東京建設業協会
             </p>
           </figure>
-        </div>
-        <div class="support-flex -bottom">
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_6.jpg"
@@ -73,7 +73,7 @@
               東京建設業界
             </p>
           </figure>
-          <figure class="support-image">
+          <!-- <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_7.jpg"
               alt="土木施工管理技士 講習会 通信講座 web講座"
@@ -85,7 +85,7 @@
               <br />
               東京建設業協会
             </p>
-          </figure>
+          </figure> -->
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_8.jpg"
@@ -97,7 +97,6 @@
               東京建設業協会
             </p>
           </figure>
-          <figure class="support-image"></figure>
         </div>
         <div class="support-notes">
           <p>
@@ -210,6 +209,7 @@
   }
   .support-image {
     width: 30%;
+    max-width: 185px;
     max-height: 292px;
     transform: scale(0.9);
     margin-left: 10px;

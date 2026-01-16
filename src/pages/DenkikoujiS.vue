@@ -184,7 +184,21 @@
               description="合格者を多数輩出！能センの無料動画です！"
             />
 
+            <LectureDenkikouji
+              title="わかりやすい講義を提供します"
+              title2="土木の講師歴３５年以上のスーパー講師！"
+              text="大嶋先生は、長年土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
+                  東京電力で技能訓練センター所長として約４年間勤務後独立し、土木・電気関連の資格書籍の執筆や当センターをはじめとした受験対策講習で多数の講義を担当しています。
+                  難解な内容もわかりやすいソフトな説明で理解させてくれるベテラン講師です。"
+              :imagePath="
+                require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
+              "
+              altText="土木施工管理技士 講習会 通信講座 web講座"
+            />
+
             <div class="bg-white">
+              <FollowUpDenkikouji />
+              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -457,6 +471,9 @@
   import ExplanationDenkikouji from "../components/licensePage/ExplanationDenkikouji.vue";
   import ScheduleDenkikouji from "../components/licensePage/ScheduleDenkikouji.vue";
   import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
+  import LectureDenkikouji from "../components/licensePage/LectureDenkikouji.vue";
+  import FollowUpDenkikouji from "../components/licensePage/FollowUpDenkikouji.vue";
+  import Gansho from "../components/licensePage/Gansho.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -518,6 +535,9 @@
       ExplanationDenkikouji,
       ScheduleDenkikouji,
       NewPvMovieDenkikouji,
+      LectureDenkikouji,
+      FollowUpDenkikouji,
+      Gansho,
     },
     data() {
       return {
