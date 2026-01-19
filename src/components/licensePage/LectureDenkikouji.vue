@@ -160,7 +160,7 @@
       <div class="lecture-section -book">
         <div class="book-wrap -left">
           <img
-            src="../../assets/img/license_page/doboku_s/lecture-book3.jpg"
+            src="../../assets/img/license_page/denkikouji_s/lecture-book1.jpg"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【一次二次専用】</p>
