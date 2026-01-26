@@ -70,6 +70,11 @@
             </div>
           </div>
           <div class="follow-flex">
+            <p class="follow-flex-title">
+              ② メールでサポート
+              <br />
+              ✅リマインダーメールサービス
+            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-2"
@@ -79,29 +84,40 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                <span>②</span>
-                リマインダーメールサービス（無料）
+                🔹 リマインダーメールサービスとは？（無料）
               </p>
               <p class="follow-text">
-                試験日までの学習をしっかりサポート！
+                試験日までの学習を、最後まで迷わず続けられるよう徹底サポート！
                 <br />
-                以下のタイミングで自動メールをお届けします。
-                <br />
-                ・試験の
+                能センの【リマインダーメールサービス】では、試験本番までの重要なタイミングを逃さず、あなたの学習をしっかり支えます。
+              </p>
+              <p class="follow-heading">📩 自動配信スケジュール</p>
+              <p class="follow-text">
+                ✅ 試験の
                 <span>90日・60日・30日・10日前</span>
-                に進捗サポートメールを配信
+                に、学習の進捗を確認できるサポートメールを配信
                 <br />
-                ・【受験申請期間】の
-                <span>開始・締切</span>
-                も自動でお知らせ（申込み忘れを防止）
+                ✅ 見落としがちな
+                <span>受験申請期間の開始・締切</span>
+                も自動でお知らせし、申込み忘れを防止します
                 <br />
-                時期に合わせて、効果的な学習の進め方や目標達成のコツをお伝えします。
                 <br />
-                お申込みは簡単。フォームで「リマインダーメールサービス」を選択！
+                各時期に合わせて、
                 <br />
-                試験本番まで、あなたの学習をしっかりサポートします。
+                「今やるべき学習内容」
                 <br />
-                一緒に合格を目指しましょう！
+                「効率よく得点力を伸ばすポイント」
+                <br />
+                「モチベーションを維持するコツ」
+                <br />
+                など、
+                <span>その時期だからこそ必要なアドバイス</span>
+                をお届けします。
+                <br />
+                <br />
+                試験本番まで、能センがあなたの学習を継続的にサポートします。
+                <br />
+                <span>一歩ずつ、確実に。合格まで一緒に進みましょう。</span>
               </p>
             </div>
           </div>
@@ -136,7 +152,7 @@
           <div class="follow-flex">
             <div class="follow-imgWrap">
               <img
-                class="img-3"
+                class="img-4"
                 src="../../assets/img/license_page/denken3/follow-img5.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
@@ -192,7 +208,7 @@
           <div class="follow-flex">
             <div class="follow-imgWrap">
               <img
-                class="img-3"
+                class="img-6"
                 src="../../assets/img/license_page/denken3/follow-img6.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
@@ -512,6 +528,14 @@
     }
   }
 
+  .follow-flex-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .follow-bottom-wrap {
     display: flex;
     padding: 0 30px;
@@ -550,13 +574,13 @@
     //   width: 70%;
     // }
 
-    // .img-2 {
-    //   width: 55%;
-    // }
+    .img-4 {
+      width: 83%;
+    }
 
-    // .img-3 {
-    //   width: 75%;
-    // }
+    .img-6 {
+      width: 86%;
+    }
   }
 
   .follow-textWrap {
