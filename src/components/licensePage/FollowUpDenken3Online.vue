@@ -24,6 +24,11 @@
         </p>
         <div class="follow-wrap">
           <div class="follow-flex">
+            <p class="follow-flex-title">
+              ① 勉強計画を立てて合格へ！
+              <br />
+              ✅ 勉強計画表・学習管理シート
+            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-1"
@@ -33,22 +38,34 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                <span>①</span>
-                勉強計画表 & 勉強チェックシート（無料）
+                🔹長期間の学習を無理なく継続！ 計画的な勉強で最短合格へ！
               </p>
               <p class="follow-text">
-                第三種電気主任技術者の資格取得には長期間の勉強が必要になります。
+                電験三種の合格には、コツコツとした長期的な学習が欠かせません。
                 <br />
-                能センでは、計画に沿った勉強で最短合格ができるように、二つのシートをお渡ししています。
+                そこで能センでは、計画的に学習を進めて最短での合格を目指せるよう、
                 <br />
-                勉強計画を立てることは、勉強をスムーズに進めるためにとても効果的な方法だと言われています。
+                以下の
+                <span>2つのサポートシート</span>
+                をお渡ししています。
+              </p>
+              <p class="follow-heading">📘 電験三種 勉強計画表</p>
+              <p class="follow-text">
+                ⇒
+                あなたのスケジュールや目標に合わせて、無理なく学習を進められるよう設計されています。
+              </p>
+              <p class="follow-heading">📋 電験三種 学習管理シート</p>
+              <p class="follow-text">
+                ⇒
+                学習の進捗状況や理解度を可視化し、「できた」「わかった」が積み重なる達成感を実感できます。
                 <br />
-                <span>・電験三種 勉強計画表</span>
                 <br />
-                <span>・電験三種 勉強チェックシート</span>
+                勉強計画を立てることで、学習の迷いや不安が減り、モチベーションの維持にもつながります。
                 <br />
-
-                能センの教材、副教材全てが合格へと通じています！
+                そして何より、
+                <span>
+                  能センの教材・副教材・サポート全てが、あなたの合格に直結するよう設計されています！
+                </span>
               </p>
             </div>
           </div>
@@ -120,7 +137,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img4.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
@@ -148,7 +165,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img5.jpg"
+                src="../../assets/img/license_page/denken3/follow-img4.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
@@ -529,17 +546,17 @@
       margin: 0 auto;
     }
 
-    .img-1 {
-      width: 70%;
-    }
+    // .img-1 {
+    //   width: 70%;
+    // }
 
-    .img-2 {
-      width: 55%;
-    }
+    // .img-2 {
+    //   width: 55%;
+    // }
 
-    .img-3 {
-      width: 75%;
-    }
+    // .img-3 {
+    //   width: 75%;
+    // }
   }
 
   .follow-textWrap {
