@@ -116,6 +116,91 @@
               </p>
             </div>
           </div>
+          <div class="follow-flex">
+            <div class="follow-imgWrap">
+              <img
+                class="img-3"
+                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">
+                <span>④</span>
+                資格取得アドバイザーの質問サポート（無料）
+              </p>
+              <p class="follow-text">
+                学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
+                <br />
+                能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
+                <br />
+                また、学習に関する
+                <span>「よくある質問」</span>
+                にお答えし、スムーズに勉強を進められるようサポート！
+                <br />
+                まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
+                <br />
+                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
+              </p>
+            </div>
+          </div>
+          <div class="follow-flex">
+            <div class="follow-imgWrap">
+              <img
+                class="img-3"
+                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">
+                <span>⑤</span>
+                資格取得アドバイザーの質問サポート（無料）
+              </p>
+              <p class="follow-text">
+                学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
+                <br />
+                能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
+                <br />
+                また、学習に関する
+                <span>「よくある質問」</span>
+                にお答えし、スムーズに勉強を進められるようサポート！
+                <br />
+                まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
+                <br />
+                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
+              </p>
+            </div>
+          </div>
+          <div class="follow-flex">
+            <div class="follow-imgWrap">
+              <img
+                class="img-3"
+                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">
+                <span>⑥</span>
+                資格取得アドバイザーの質問サポート（無料）
+              </p>
+              <p class="follow-text">
+                学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
+                <br />
+                能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
+                <br />
+                また、学習に関する
+                <span>「よくある質問」</span>
+                にお答えし、スムーズに勉強を進められるようサポート！
+                <br />
+                まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
+                <br />
+                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
+              </p>
+            </div>
+          </div>
+
           <div class="follow-bottom">
             <p class="follow-bottom-title">
               <span>④</span>
@@ -334,7 +419,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 1050px;
+    max-width: 100%;
     background-color: #fff;
     margin: 220px auto 0;
     padding: 0 24px;
@@ -399,16 +484,20 @@
 
   .follow-wrap {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     @media print, screen and (max-width: 1000px) {
       margin-top: 30px;
     }
   }
 
   .follow-flex {
-    display: flex;
+    display: block;
     margin-top: 40px;
-    @media print, screen and (max-width: 1000px) {
-      flex-direction: column;
+    width: calc((100% - 48px) / 3);
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
     }
   }
 
@@ -436,7 +525,7 @@
   }
 
   .follow-imgWrap {
-    width: 40%;
+    width: 100%;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -460,8 +549,7 @@
   }
 
   .follow-textWrap {
-    width: 60%;
-    max-width: 560px;
+    width: 100%;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       max-width: 100%;
