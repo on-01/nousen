@@ -31,7 +31,7 @@
           <p class="workshop-text -third -blue">視聴期間</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text odd">基　礎 (約12時間)</p>
+          <p class="workshop-text odd">基　礎 (約10時間)</p>
           <p class="workshop-text even">
             配信開始日より18ヶ月間
             <span class="workshop-text-red">【受付中】</span>
