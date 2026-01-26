@@ -636,6 +636,10 @@
 
     .img-6 {
       width: 86%;
+
+      @media print, screen and (max-width: 768px) {
+        width: 50%;
+      }
     }
   }
 
