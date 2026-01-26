@@ -156,6 +156,11 @@
             </div>
           </div>
           <div class="follow-flex">
+            <p class="follow-flex-title">
+              ④ オンラインでサポート
+              <br />
+              ✅ 能センサポ
+            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-4"
@@ -164,22 +169,37 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">
-                <span>④</span>
-                資格取得アドバイザーの質問サポート（無料）
-              </p>
+              <p class="follow-heading">🔹 能センサポとは？（無料）</p>
               <p class="follow-text">
-                学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
+                「わからない…」を、そのままにしない！
                 <br />
-                能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
+                能センサポは、オンラインで講師に直接質問できる
                 <br />
-                また、学習に関する
-                <span>「よくある質問」</span>
-                にお答えし、スムーズに勉強を進められるようサポート！
+                “あなた専用の家庭教師サービス”です。
+              </p>
+              <p class="follow-heading">📅 サポート期間：24か月</p>
+              <p class="follow-text">
+                じっくり学べる2年間、安心してご利用いただけます。
+              </p>
+              <p class="follow-heading">✨ サービスの特長（5つの安心）</p>
+              <p class="follow-text">
+                ✅ 追加料金なし ⋯ 何度でも利用OK
                 <br />
-                まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
+                ✅ 1回30分枠 … 10分でもOK！ピンポイント解決
                 <br />
-                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
+                ✅ 簡単予約 ⋯ 専用ページから日時を選ぶだけ
+                <br />
+                ✅ スケジュール連携 ⋯ Google/Outlookと自動同期
+                <br />
+                ✅ 個別サポート ⋯
+                基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
+                <br />
+                <br />
+                「質問したいのに聞けない」…
+                <br />
+                そんな不安をなくす心強い味方――それが
+                <span>能センサポ</span>
+                です。
               </p>
             </div>
           </div>
@@ -601,7 +621,7 @@
   .follow-heading {
     font-size: 18px;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0 0;
 
     span {
       font-size: 20px;
