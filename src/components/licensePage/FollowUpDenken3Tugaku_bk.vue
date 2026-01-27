@@ -24,280 +24,102 @@
         </p>
         <div class="follow-wrap">
           <div class="follow-flex">
-            <p class="follow-flex-title">
-              ① 勉強計画を立てて合格へ！
-              <br />
-              ✅ 勉強計画表・学習管理シート
-            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-1"
-                src="../../assets/img/license_page/denken3/follow-img1.png"
+                src="../../assets/img/license_page/denken3/follow-img1.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹長期間の学習を無理なく継続！ 計画的な勉強で最短合格へ！
+                <span>①</span>
+                勉強計画表 & 勉強チェックシート（無料）
               </p>
               <p class="follow-text">
-                電験三種の合格には、コツコツとした長期的な学習が欠かせません。
+                第三種電気主任技術者の資格取得には長期間の勉強が必要になります。
                 <br />
-                そこで能センでは、計画的に学習を進めて最短での合格を目指せるよう、
+                能センでは、計画に沿った勉強で最短合格ができるように、二つのシートをお渡ししています。
                 <br />
-                以下の
-                <span>2つのサポートシート</span>
-                をお渡ししています。
-              </p>
-              <p class="follow-heading">📘 電験三種 勉強計画表</p>
-              <p class="follow-text">
-                ⇒
-                あなたのスケジュールや目標に合わせて、無理なく学習を進められるよう設計されています。
-              </p>
-              <p class="follow-heading">📋 電験三種 学習管理シート</p>
-              <p class="follow-text">
-                ⇒
-                学習の進捗状況や理解度を可視化し、「できた」「わかった」が積み重なる達成感を実感できます。
+                勉強計画を立てることは、勉強をスムーズに進めるためにとても効果的な方法だと言われています。
                 <br />
+                <span>・電験三種 勉強計画表</span>
                 <br />
-                勉強計画を立てることで、学習の迷いや不安が減り、モチベーションの維持にもつながります。
+                <span>・電験三種 勉強チェックシート</span>
                 <br />
-                そして何より、
-                <span>
-                  能センの教材・副教材・サポート全てが、あなたの合格に直結するよう設計されています！
-                </span>
+
+                能センの教材、副教材全てが合格へと通じています！
               </p>
             </div>
           </div>
           <div class="follow-flex">
-            <p class="follow-flex-title">
-              ② メールでサポート
-              <br />
-              ✅リマインダーメールサービス
-            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/denken3/follow-img2.jpg"
+                src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹 リマインダーメールサービスとは？（無料）
+                <span>②</span>
+                リマインダーメールサービス（無料）
               </p>
               <p class="follow-text">
-                試験日までの学習を、最後まで迷わず続けられるよう徹底サポート！
+                試験日までの学習をしっかりサポート！
                 <br />
-                能センの【リマインダーメールサービス】では、試験本番までの重要なタイミングを逃さず、あなたの学習をしっかり支えます。
-              </p>
-              <p class="follow-heading">📩 自動配信スケジュール</p>
-              <p class="follow-text">
-                ✅ 試験の
+                以下のタイミングで自動メールをお届けします。
+                <br />
+                ・試験の
                 <span>90日・60日・30日・10日前</span>
-                に、学習の進捗を確認できるサポートメールを配信
+                に進捗サポートメールを配信
                 <br />
-                ✅ 見落としがちな
-                <span>受験申請期間の開始・締切</span>
-                も自動でお知らせし、申込み忘れを防止します
+                ・【受験申請期間】の
+                <span>開始・締切</span>
+                も自動でお知らせ（申込み忘れを防止）
                 <br />
+                時期に合わせて、効果的な学習の進め方や目標達成のコツをお伝えします。
                 <br />
-                各時期に合わせて、
+                お申込みは簡単。フォームで「リマインダーメールサービス」を選択！
                 <br />
-                「今やるべき学習内容」
+                試験本番まで、あなたの学習をしっかりサポートします。
                 <br />
-                「効率よく得点力を伸ばすポイント」
-                <br />
-                「モチベーションを維持するコツ」
-                <br />
-                など、
-                <span>その時期だからこそ必要なアドバイス</span>
-                をお届けします。
-                <br />
-                <br />
-                試験本番まで、能センがあなたの学習を継続的にサポートします。
-                <br />
-                <span>一歩ずつ、確実に。合格まで一緒に進みましょう。</span>
+                一緒に合格を目指しましょう！
               </p>
             </div>
           </div>
           <div class="follow-flex">
-            <p class="follow-flex-title">
-              ③ 資格取得アドバイザー
-              <br />
-              ✅ 質問サポート
-            </p>
             <div class="follow-imgWrap">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img3.png"
+                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹資格取得アドバイザーの質問サポート（無料）
+                <span>③</span>
+                資格取得アドバイザーの質問サポート（無料）
               </p>
               <p class="follow-text">
                 学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
                 <br />
-                <br />
                 能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
                 <br />
-                また、学習に関する 「よくある質問」
+                また、学習に関する
+                <span>「よくある質問」</span>
                 にお答えし、スムーズに勉強を進められるようサポート！
-                <br />
                 <br />
                 まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
                 <br />
-                疑問や不安があれば、お気軽にご相談ください！
-                <span>あなたの合格を全力で応援します！</span>
+                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
               </p>
             </div>
           </div>
-          <div class="follow-flex">
-            <p class="follow-flex-title">
-              ④ オンラインでサポート
-              <br />
-              ✅ 能センサポ
-            </p>
-            <div class="follow-imgWrap">
-              <img
-                class="img-4"
-                src="../../assets/img/license_page/denken3/follow-img5.jpg"
-                alt="電験三種 第三種電気主任技術者"
-              />
-            </div>
-            <div class="follow-textWrap">
-              <p class="follow-heading">🔹 能センサポとは？（無料）</p>
-              <p class="follow-text">
-                「わからない…」を、そのままにしない！
-                <br />
-                能センサポは、オンラインで講師に直接質問できる
-                <br />
-                “あなた専用の家庭教師サービス”です。
-              </p>
-              <p class="follow-heading">📅 サポート期間：24か月</p>
-              <p class="follow-text">
-                じっくり学べる2年間、安心してご利用いただけます。
-              </p>
-              <p class="follow-heading">✨ サービスの特長（5つの安心）</p>
-              <p class="follow-text">
-                ✅ 追加料金なし ⋯ 何度でも利用OK
-                <br />
-                ✅ 1回30分枠 … 10分でもOK！ピンポイント解決
-                <br />
-                ✅ 簡単予約 ⋯ 専用ページから日時を選ぶだけ
-                <br />
-                ✅ スケジュール連携 ⋯ Google/Outlookと自動同期
-                <br />
-                ✅ 個別サポート ⋯
-                基本は1対1。資格取得アドバイザーも加わり、2対1でのサポートも可能
-                <br />
-                <br />
-                「質問したいのに聞けない」…
-                <br />
-                そんな不安をなくす心強い味方――それが
-                <span>能センサポ</span>
-                です。
-              </p>
-            </div>
-          </div>
-          <div class="follow-flex">
-            <p class="follow-flex-title">
-              ⑤ 学習進捗管理サービス
-              <br />
-              ✅能センレポート
-            </p>
-            <div class="follow-imgWrap">
-              <img
-                class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img4.jpg"
-                alt="電験三種 第三種電気主任技術者"
-              />
-            </div>
-            <div class="follow-textWrap">
-              <p class="follow-heading">
-                🔹 能センレポートとは？（担当者向け・月額550円）
-              </p>
-              <p class="follow-text">
-                能センレポートは、受講生1週間分のログイン・動画視聴・課題提出状況を自動集計し、
-                <br />
-                学習が順調かどうかまで判定できる学習進捗管理サービスです。
-              </p>
-              <p class="follow-heading">📅 サポート期間：試験日まで</p>
-              <p class="follow-heading">💻 サービス内容</p>
-              <p class="follow-text">
-                ✅ ログイン・動画視聴・課題提出を自動集計
-                <br />
-                ✅ 視聴率・修了状況をひと目で確認
-                <br />
-                ✅ ログイン／未ログインを一覧表示
-                <br />
-                ✅ 能セン独自の「進捗判定（順調・要注意・要対応）」付き
-                <br />
-                ✅ 毎週レポートを自動配信
-                <br />
-                <br />
-                受講状況を「見える化」することで、学習の停滞を防ぎ、合格までのペース管理を徹底します。
-                <br />
-                <span>
-                  能センが最後まで、合格を見据えた学習管理を行います。
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class="follow-flex">
-            <p class="follow-flex-title">
-              ⑥ 合格に直結する
-              <br />
-              ✅ 勉強管理システム
-            </p>
-            <div class="follow-imgWrap">
-              <img
-                class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.jpg"
-                alt="電験三種 第三種電気主任技術者"
-              />
-            </div>
-            <div class="follow-textWrap">
-              <p class="follow-heading">
-                🔹 勉強管理システムとは？（税込：1650円）
-              </p>
-              <p class="follow-text">
-                「一人で頑張っても、途中で挫折してしまう…」
-                <br />
-                そんなあなたを、とことん管理し、最後までやり抜く力を引き出す新しい学習スタイルです💡
-              </p>
-              <p class="follow-heading">💻 徹底サポート内容</p>
-              <p class="follow-text">
-                ✅ 毎日の勉強を強制ルーチン化、計画的に学習を進められる
-                <br />
-                ✅ 勉強時間をスプレッドシートで毎日記録
-                <br />
-                ✅ 受講前に1週間分の学習予定を事前に入力
-                <br />
-                ✅ 毎日、事務局が進捗をチェック
-                <br />
-                ✅
-                3日以上学習記録が空けば、資格取得アドバイザーが直接連絡！必要に応じて担当講師も巻き込み、徹底的にフォロー
-                <br />
-                <br />
-                🎯 一人で悩む必要なし！
-                <br />
-                “見守られながら、確実に続ける”学習スタイルで、モチベーションも学習効率も最大化。
-                <br />
-                <span>
-                  試験当日まで、能センがあなたの学習を一歩も逃さず伴走します。
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <!-- <div class="follow-bottom">
+          <div class="follow-bottom">
             <p class="follow-bottom-title">
               <span>④</span>
-              担当者向け ログイン週報サービス【能センレポート】
+              担当者向け 講習参加通知サービス【能センレポート】
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
@@ -314,31 +136,26 @@
                       🔹 能センレポートとは？（無料）
                     </p>
                     <p class="workshop-orangeLine__text">
-                      受講生1週間分のログイン情報を自動で集計し、
-                      <br />
-                      担当者へ毎週メールでお届けする“
-                      <span>ログイン管理の自動化サービス</span>
+                      講習会の出欠情報を自動集計し、講習終了後に担当者へメールで通知する"
+                      <span>講習出欠管理の自動化サービス</span>
                       ”です💡
                     </p>
                     <p class="workshop-orangeLine__heading -second">
                       💻 能センレポートの特徴
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ 1週間分のログイン履歴を自動で集計
+                      ✅ 講習開催後、月曜 10:00 に出欠状況を自動送信
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ 毎週月曜 10:00 にレポートメールを自動送信
+                      ✅ 参加者・欠席者を一覧でわかりやすく表示
                     </p>
                     <p class="workshop-orangeLine__text">
-                      ✅ ログイン者・未ログイン者を一覧表示
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 数名〜数十名までスムーズに管理可能
+                      ✅ 少人数〜数十名規模までスムーズに管理
                     </p>
                     <p class="workshop-orangeLine__text">
                       ✅
                       <span>提出課題の提出状況</span>
-                      もあわせて通知
+                      もあわせて確認可能
                     </p>
                     <p class="workshop-orangeLine__text -br">
                       企業として高額な講座を提供する以上、学習状況の把握と早期フォローは必須。
@@ -485,11 +302,17 @@
                         希望の方は、お申込みフォームでチェックしてください。
                       </span>
                     </p>
+                    <!-- <p class="workshop-orangeLine__text -red">
+                      ※
+                      勉強は日々の継続が重要です。途中で続かない方もいますので、
+                      <br />
+                      最後まで取り組む意思のある方はお申込みください
+                    </p> -->
                   </div>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
@@ -506,7 +329,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 100%;
+    max-width: 1050px;
     background-color: #fff;
     margin: 220px auto 0;
     padding: 0 24px;
@@ -571,29 +394,17 @@
 
   .follow-wrap {
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
     @media print, screen and (max-width: 1000px) {
       margin-top: 30px;
     }
   }
 
   .follow-flex {
-    display: block;
+    display: flex;
     margin-top: 40px;
-    width: calc((100% - 48px) / 3);
-    @media print, screen and (max-width: 768px) {
-      width: 100%;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
     }
-  }
-
-  .follow-flex-title {
-    font-size: 24px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1.5;
-    text-align: center;
   }
 
   .follow-bottom-wrap {
@@ -620,7 +431,7 @@
   }
 
   .follow-imgWrap {
-    width: 100%;
+    width: 40%;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
     }
@@ -630,25 +441,22 @@
       margin: 0 auto;
     }
 
-    // .img-1 {
-    //   width: 70%;
-    // }
+    .img-1 {
+      width: 70%;
+    }
 
-    .img-6 {
-      width: 86%;
+    .img-2 {
+      width: 55%;
+    }
 
-      @media print, screen and (max-width: 768px) {
-        width: 50%;
-      }
-
-      @media print, screen and (max-width: 480px) {
-        width: 100%;
-      }
+    .img-3 {
+      width: 75%;
     }
   }
 
   .follow-textWrap {
-    width: 100%;
+    width: 60%;
+    max-width: 560px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       max-width: 100%;
@@ -659,7 +467,7 @@
   .follow-heading {
     font-size: 18px;
     font-weight: 700;
-    margin: 20px 0 0;
+    margin: 0;
 
     span {
       font-size: 20px;
@@ -810,7 +618,6 @@
     text-indent: -1em;
     padding-left: 1em;
   }
-
   .follow-headline {
     position: relative;
     margin-top: -225px;
