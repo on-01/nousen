@@ -719,7 +719,7 @@
 
               <Discount title="🎓 GO!資格 合格応援制度 START！" />
 
-              <Fsc title="持続可能なミライへ" />
+              <!-- <Fsc title="持続可能なミライへ" /> -->
             </div>
 
             <div class="bg-white_type2">
@@ -990,7 +990,7 @@
 
               <Discount title="🎓 GO!資格 合格応援制度 START！" />
 
-              <Fsc title="持続可能なミライへ" />
+              <!-- <Fsc title="持続可能なミライへ" /> -->
             </div>
 
             <div class="bg-white_type2">
