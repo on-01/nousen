@@ -735,7 +735,6 @@
                     ・試験日程一覧
                     <br />
                     ・旧一次テキスト
-                    <span class="-red">(プレゼント)</span>
                     <br />
                     ・旧二次テキスト
                     <span class="-red">(プレゼント)</span>
@@ -888,7 +887,6 @@
                     ・試験日程一覧
                     <br />
                     ・旧一次テキスト
-                    <span class="-red">(プレゼント)</span>
                     <br />
                     ・旧二次テキスト
                     <span class="-red">(プレゼント)</span>
