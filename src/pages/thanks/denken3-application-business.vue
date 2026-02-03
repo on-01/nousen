@@ -4,18 +4,22 @@
       <div class="thanks-inner">
         <p class="thanks-title">お申込み受付いたしました。</p>
         <p class="thanks-text">
-          講座のお申込み、ありがとうございます！
+          お申込みありがとうございます。
           <br />
-          ご入力頂きましたメールアドレス宛に確認メールが自動送信されます。
+          ここから新しい一歩が始まります。目標達成に向けて、
           <br />
-          ※メールが届いていない場合は受付できていない可能性がございます。
-          <br />
-          お問い合せください。
+          最後までしっかりサポートいたします。
           <br />
           <br />
-          能センでは教材発送の梱包に、全て再生紙を使用させていただきます。
+          <span class="thanks-text-bold">📦 教材の発送について</span>
           <br />
-          （教材が少ない場合はレターパック等でお送りいたします）
+          ご入金確認後、
+          <span class="thanks-text-bold-red">2営業日以内に教材を発送</span>
+          いたします。
+          <br />
+          ※ 能センでは、教材発送の梱包に再生紙を使用しております。
+          <br />
+          （教材が少ない場合はレターパック等でお送りいたします。）
         </p>
       </div>
     </div>
@@ -216,6 +220,24 @@ query {
     text-align: center;
     margin: 20px 0 0;
     line-height: 1.5;
+    font-weight: 700;
+  }
+
+  .thanks-text-bold {
+    font-weight: 700;
+  }
+
+  .thanks-text-bold-red {
+    color: red;
+    font-weight: 700;
+  }
+
+  .thanks-text-bold {
+    font-weight: 700;
+  }
+
+  .thanks-text-bold-red {
+    color: red;
     font-weight: 700;
   }
 </style>
