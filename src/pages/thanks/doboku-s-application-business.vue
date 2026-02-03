@@ -217,7 +217,7 @@ query {
   }
 
   .thanks-text {
-    text-align: center;
+    text-align: left;
     margin: 20px auto 0;
     line-height: 1.5;
     font-weight: 700;
