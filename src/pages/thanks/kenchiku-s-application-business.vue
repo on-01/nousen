@@ -102,6 +102,7 @@ query {
         urlParams.get("order_number") ||
         urlParams.get("orderNumber") ||
         sessionStorage.getItem("orderNumber") ||
+        localStorage.getItem("orderNumber") ||
         document.body.getAttribute("data-order-number") ||
         "";
 

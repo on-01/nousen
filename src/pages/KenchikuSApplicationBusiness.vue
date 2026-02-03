@@ -72,6 +72,7 @@ query {
           "-" +
           Math.random().toString(36).substr(2, 9).toUpperCase();
         sessionStorage.setItem("orderNumber", uniqueId);
+        localStorage.setItem("orderNumber", uniqueId);
       }
     },
   };
