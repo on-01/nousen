@@ -218,11 +218,12 @@ query {
 
   .thanks-text {
     text-align: center;
-    margin: 20px 0 0;
+    margin: 20px auto 0;
     line-height: 1.5;
     font-weight: 700;
+    width: 87%;
+    display: block;
   }
-
   .thanks-text-bold {
     font-weight: 700;
   }
