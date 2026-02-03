@@ -632,7 +632,7 @@
       height: 180px;
     }
     @media print, screen and (max-width: 768px) {
-      height: 120px;
+      height: auto;
     }
 
     img {
@@ -654,7 +654,7 @@
       height: 360px;
     }
     @media print, screen and (max-width: 768px) {
-      height: 240px;
+      height: auto;
     }
 
     img {
