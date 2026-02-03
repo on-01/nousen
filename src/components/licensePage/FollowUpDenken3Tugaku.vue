@@ -29,7 +29,7 @@
               <br />
               ✅ 勉強計画表・学習管理シート
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-1"
                 src="../../assets/img/license_page/denken3/follow-img1.png"
@@ -75,7 +75,7 @@
               <br />
               ✅リマインダーメールサービス
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-2"
                 src="../../assets/img/license_page/denken3/follow-img2.jpg"
@@ -127,7 +127,7 @@
               <br />
               ✅ 質問サポート
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img3.png"
@@ -161,7 +161,7 @@
               <br />
               ✅ 能センレポート
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-4"
                 src="../../assets/img/license_page/denken3/follow-img5.jpg"
@@ -198,7 +198,7 @@
               <br />
               ✅ 能センサポ
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img4.jpg"
@@ -251,7 +251,7 @@
               <br />
               ✅ 勉強管理システム
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
                 src="../../assets/img/license_page/denken3/follow-img6.jpg"
@@ -504,7 +504,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 100%;
+    max-width: 90%;
     background-color: #fff;
     margin: 220px auto 0;
     padding: 0 24px;
@@ -514,6 +514,10 @@
 
     @media print, screen and (max-width: 1000px) {
       margin-top: 70px;
+    }
+
+    @media print, screen and (max-width: 768px) {
+      max-width: 100%;
     }
   }
   .follow-inner {
@@ -617,31 +621,48 @@
     }
   }
 
-  .follow-imgWrap {
+  .follow-imgWrap-top {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: 120px;
     }
 
     img {
       display: block;
       margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 360px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: 240px;
     }
 
-    // .img-1 {
-    //   width: 70%;
-    // }
-
-    .img-6 {
-      width: 86%;
-
-      @media print, screen and (max-width: 768px) {
-        width: 50%;
-      }
-
-      @media print, screen and (max-width: 480px) {
-        width: 100%;
-      }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 
@@ -655,7 +676,7 @@
   }
 
   .follow-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin: 20px 0 0;
 
@@ -685,7 +706,7 @@
   }
 
   .follow-bottom-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0 auto;
     color: #fff;
