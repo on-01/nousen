@@ -106,6 +106,17 @@ query {
         document.body.getAttribute("data-order-number") ||
         "";
 
+      if (!orderNumber) {
+        const fallbackId =
+          "ORD-" +
+          Date.now() +
+          "-" +
+          Math.random().toString(36).substr(2, 9).toUpperCase();
+        orderNumber = fallbackId;
+        sessionStorage.setItem("orderNumber", fallbackId);
+        localStorage.setItem("orderNumber", fallbackId);
+      }
+
       // 注文番号が取得できない場合は空文字列（固定値は使用しない）
       // システム側で必ず注文番号を渡すようにしてください
 
