@@ -157,9 +157,9 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ④ 講習参加通知サービス
+              ④ 講習参加通知レポート
               <br />
-              ✅ 能センレポート
+              ✅ 能センレポ
             </p>
             <div class="follow-imgWrap-bottom">
               <img
@@ -194,7 +194,7 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ⑤ オンラインでサポート
+              ⑤ オンラインで質問サポート
               <br />
               ✅ 能センサポ
             </p>
