@@ -40,7 +40,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
+                src="../../assets/img/license_page/denken3/follow-img2.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -76,7 +76,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                src="../../assets/img/license_page/denken3/follow-img3.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -109,7 +109,7 @@
               <div class="follow-bottom-leftWrap">
                 <img
                   class="follow-left-img"
-                  src="../../assets/img/license_page/denken3/follow-left2.png"
+                  src="../../assets/img/license_page/denken3/follow-img6.jpg"
                   alt="電験三種 第三種電気主任技術者"
                 />
               </div>
