@@ -130,7 +130,7 @@
             <div class="follow-imgWrap-top">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img3.png"
+                src="../../assets/img/license_page/denken3/follow-img3.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
@@ -164,7 +164,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-4"
-                src="../../assets/img/license_page/denken3/follow-img5.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-t.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
