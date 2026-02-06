@@ -29,7 +29,7 @@
               <br />
               ✅ 勉強計画表・学習管理シート
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-1"
                 src="../../assets/img/license_page/denken3/follow-img1.png"
@@ -75,7 +75,7 @@
               <br />
               ✅リマインダーメールサービス
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-2"
                 src="../../assets/img/license_page/denken3/follow-img2.jpg"
@@ -127,10 +127,10 @@
               <br />
               ✅ 質問サポート
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-top">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img3.png"
+                src="../../assets/img/license_page/denken3/follow-img3.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
@@ -157,11 +157,11 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ④ オンラインでサポート
+              ④ オンラインで質問サポート
               <br />
               ✅ 能センサポ
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-4"
                 src="../../assets/img/license_page/denken3/follow-img4.jpg"
@@ -205,14 +205,14 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ⑤ 学習進捗管理サービス
+              ⑤ 学習進捗管理レポート
               <br />
-              ✅能センレポート
+              ✅能センレポ
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img5.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
@@ -251,9 +251,9 @@
             <p class="follow-flex-title">
               ⑥ 合格に直結する
               <br />
-              ✅ 勉強管理システム
+              ✅ 勉強管理コーチング
             </p>
-            <div class="follow-imgWrap">
+            <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
                 src="../../assets/img/license_page/denken3/follow-img6.jpg"
@@ -262,34 +262,42 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹 勉強管理システムとは？（税込：1650円）
+                🔹 勉強管理コーチングとは？（2200円）
               </p>
               <p class="follow-text">
                 「一人で頑張っても、途中で挫折してしまう…」
                 <br />
-                そんなあなたを、とことん管理し、最後までやり抜く力を引き出す新しい学習スタイルです💡
+                そんなあなたに、能センが
+                <span>毎日伴走・徹底管理。</span>
+                <br />
+                最後までやり抜く力を引き出す学習コーチングサービスです💡
               </p>
-              <p class="follow-heading">💻 徹底サポート内容</p>
+              <p class="follow-heading">💻 コーチング内容</p>
               <p class="follow-text">
-                ✅ 毎日の勉強を強制ルーチン化、計画的に学習を進められる
+                ✅ 専用スプレッドシートに毎日の勉強内容・勉強時間を記入
                 <br />
-                ✅ 勉強時間をスプレッドシートで毎日記録
+                ✅ 記入された学習記録をもとに、毎日進捗をチェック
                 <br />
-                ✅ 受講前に1週間分の学習予定を事前に入力
+                ✅ 毎日の学習を強制ルーチン化し、計画的に進行
                 <br />
-                ✅ 毎日、事務局が進捗をチェック
+                ✅ 1週間分の学習計画を作成し、迷わずスタート
                 <br />
-                ✅
-                3日以上学習記録が空けば、資格取得アドバイザーが直接連絡！必要に応じて担当講師も巻き込み、徹底的にフォロー
+                ✅ 学習状況に応じて事務局がフィードバック
                 <br />
+                ✅ 学習が止まった場合は、資格取得アドバイザーが直接連絡
                 <br />
-                🎯 一人で悩む必要なし！
+                必要に応じて担当講師も巻き込み、徹底フォロー
+              </p>
+              <p class="follow-heading">🎯 一人で悩む必要はありません</p>
+              <p class="follow-text">
+                “見守られながら、確実に続ける”学習スタイルで、モチベーションと学習効率を最大化。
                 <br />
-                “見守られながら、確実に続ける”学習スタイルで、モチベーションも学習効率も最大化。
+                多くの受講生が本サービスを利用し、学習を継続しています。
                 <br />
-                <span>
-                  試験当日まで、能センがあなたの学習を一歩も逃さず伴走します。
-                </span>
+                試験当日まで、能センがあなたの学習を
+                <span>一歩も逃さず伴走します。</span>
+                <br />
+                ※本サービスの利用にはGoogleアカウント（無料）が必要です
               </p>
             </div>
           </div>
@@ -506,7 +514,7 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 100%;
+    max-width: 90%;
     background-color: #fff;
     margin: 220px auto 0;
     padding: 0 24px;
@@ -516,6 +524,10 @@
 
     @media print, screen and (max-width: 1000px) {
       margin-top: 70px;
+    }
+
+    @media print, screen and (max-width: 768px) {
+      max-width: 100%;
     }
   }
   .follow-inner {
@@ -589,7 +601,7 @@
   }
 
   .follow-flex-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0;
     line-height: 1.5;
@@ -619,31 +631,48 @@
     }
   }
 
-  .follow-imgWrap {
+  .follow-imgWrap-top {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
     img {
       display: block;
       margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
-    // .img-1 {
-    //   width: 70%;
-    // }
-
-    .img-6 {
-      width: 86%;
-
-      @media print, screen and (max-width: 768px) {
-        width: 50%;
-      }
-
-      @media print, screen and (max-width: 480px) {
-        width: 100%;
-      }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 
@@ -657,7 +686,7 @@
   }
 
   .follow-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin: 20px 0 0;
 

@@ -40,7 +40,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/doboku_s/follow-img2.jpg"
+                src="../../assets/img/license_page/denken3/follow-img2.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -76,7 +76,7 @@
             <div class="follow-imgWrap">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/doboku_s/follow-img3.jpg"
+                src="../../assets/img/license_page/denken3/follow-img3.jpg"
                 alt="建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -103,13 +103,13 @@
           <div class="follow-bottom">
             <p class="follow-bottom-title">
               <span>④</span>
-              合格に直結する【勉強管理システム】
+              合格に直結する勉強管理コーチング
             </p>
             <div class="follow-bottom-wrap">
               <div class="follow-bottom-leftWrap">
                 <img
                   class="follow-left-img"
-                  src="../../assets/img/license_page/denken3/follow-left2.png"
+                  src="../../assets/img/license_page/denken3/follow-img6.jpg"
                   alt="電験三種 第三種電気主任技術者"
                 />
               </div>
@@ -117,60 +117,47 @@
                 <div class="workshop-orangeLine">
                   <div class="workshop-orangeLine__inner -second">
                     <p class="workshop-orangeLine__heading">
-                      🔹 勉強管理システムとは？（税込：1650円）
+                      🔹 勉強管理コーチングとは？（2200円）
                     </p>
                     <p class="workshop-orangeLine__text">
-                      「一人で頑張るだけじゃ続かない…」
+                      「一人で頑張っても、途中で挫折してしまう…」
                       <br />
-                      そんなあなたをサポートする、新しい学習スタイルです💡
+                      そんなあなたに、能センが
+                      <span>毎日伴走・徹底管理。</span>
+                      <br />
+                      最後までやり抜く力を引き出す学習コーチングサービスです💡
                     </p>
                     <p class="workshop-orangeLine__heading -second">
-                      📅 サポート期間：次の試験日まで
+                      💻 コーチング内容
                     </p>
                     <p class="workshop-orangeLine__text">
-                      日々の勉強習慣を しっかり身につけよう！
+                      ✅ 専用スプレッドシートに毎日の勉強内容・勉強時間を記入
+                      <br />
+                      ✅ 記入された学習記録をもとに、毎日進捗をチェック
+                      <br />
+                      ✅ 毎日の学習を強制ルーチン化し、計画的に進行
+                      <br />
+                      ✅ 1週間分の学習計画を作成し、迷わずスタート
+                      <br />
+                      ✅ 学習状況に応じて事務局がフィードバック
+                      <br />
+                      ✅ 学習が止まった場合は、資格取得アドバイザーが直接連絡
+                      <br />
+                      必要に応じて担当講師も巻き込み、徹底フォロー
                     </p>
                     <p class="workshop-orangeLine__heading -second">
-                      💻 能セン勉強管理システムの特徴
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 日々の勉強をルーチン化し、計画的に学習を進められる
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 毎日の勉強時間をスプレッドシートで記録
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 受講前に1週間分の勉強予定を直接入力
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 毎日事務局が進捗を確認
-                    </p>
-                    <p class="workshop-orangeLine__text -indent2">
-                      ✅
-                      3日以上記録がない場合は、資格取得アドバイザーが担当者（受講生）に連絡しアドバイス。状況によっては担当講師も含めてサポート！
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ※利用には Googleアカウント が必要です
-                    </p>
-                    <p class="workshop-orangeLine__text -br">
                       🎯 一人で悩む必要はありません
-                      <br />
-                      “見守られながら確実に続ける”学習スタイルで、
-                      <br />
-                      能センは
-                      <span>合格まであなたを本気でサポートします💪</span>
-                      <br />
-                      <br />
-                      <span>
-                        希望の方は、お申込みフォームでチェックしてください。
-                      </span>
                     </p>
-                    <!-- <p class="workshop-orangeLine__text -red">
-                      ※
-                      勉強は日々の継続が重要です。途中で続かない方もいますので、
+                    <p class="workshop-orangeLine__text">
+                      “見守られながら、確実に続ける”学習スタイルで、モチベーションと学習効率を最大化。
                       <br />
-                      最後まで取り組む意思のある方はお申込みください
-                    </p> -->
+                      多くの受講生が本サービスを利用し、学習を継続しています。
+                      <br />
+                      試験当日まで、能センがあなたの学習を
+                      <span>一歩も逃さず伴走します。</span>
+                      <br />
+                      ※本サービスの利用にはGoogleアカウント（無料）が必要です
+                    </p>
                   </div>
                 </div>
               </div>
@@ -292,7 +279,7 @@
     }
 
     .img-2 {
-      width: 55%;
+      width: 75%;
     }
 
     .img-3 {
