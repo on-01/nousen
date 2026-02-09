@@ -27,7 +27,7 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <img src="../assets/img/front/section01/mv.jpg" alt="" />
+          <img src="../assets/img/front/section01/mv_1.jpg" alt="" />
         </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
@@ -267,7 +267,14 @@
             src="https://www.youtube.com/embed/8yHo3GBoZrk?si=0pgT5Zkw8YDRqj4X"
             title="YouTube video player"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
             allowfullscreen
           ></iframe>
         </div>
@@ -591,7 +598,7 @@
                 href="#"
                 @click.prevent="
                   openExternal(
-                    'https://jinjib.co.jp/certification/denken3-osusume'
+                    'https://jinjib.co.jp/certification/denken3-osusume',
                   )
                 "
                 rel="noopener noreferrer"
