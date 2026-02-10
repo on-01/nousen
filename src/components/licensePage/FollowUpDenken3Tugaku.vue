@@ -194,7 +194,7 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ⑤ オンラインで質問サポート
+              ⑤ オンラインサポートサービス
               <br />
               ✅ 能センサポ
             </p>
