@@ -10,10 +10,11 @@
             <iframe
               width="560"
               height="315"
-              :src="`https://www.youtube.com/embed/${movie}`"
+              src="https://www.youtube.com/embed/JdL_ggo2qQU?si=yE0bexnhGa8XVy90"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
           </div>
