@@ -225,7 +225,9 @@
         alt="電験三種 第三種電気主任技術者"
       />
     </div>
-
+    <div class="workshop-advisor-img">
+      <img src="../../assets/img/license_page/denken3/advisor.jpg" alt="" />
+    </div>
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
