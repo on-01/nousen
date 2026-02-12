@@ -1100,6 +1100,14 @@
     color: red;
   }
 
+  .workshop-advisor-img {
+    margin-bottom: 40px;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
   @media print, screen and (max-width: 480px) {
     .workshop-flex {
       img {
