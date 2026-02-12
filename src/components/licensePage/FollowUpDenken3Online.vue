@@ -260,7 +260,7 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹 勉強管理コーチングとは？（2200円）
+                🔹 勉強管理コーチングとは？（3300円）
               </p>
               <p class="follow-text">
                 「一人で頑張っても、途中で挫折してしまう…」
