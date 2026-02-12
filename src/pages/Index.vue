@@ -1279,7 +1279,7 @@ query {
       width: 100%;
       object-fit: cover;
       @media print, screen and (min-width: 1441px) {
-        width: 76%;
+        width: 66%;
         display: block;
         margin: 0 auto;
       }
