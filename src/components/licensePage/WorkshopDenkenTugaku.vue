@@ -1102,6 +1102,8 @@
 
   .workshop-advisor-img {
     margin-bottom: 40px;
+    padding: 0 20px;
+
     img {
       display: block;
       margin: 0 auto;
