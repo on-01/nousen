@@ -225,7 +225,9 @@
         alt="電験三種 第三種電気主任技術者"
       />
     </div>
-
+    <div class="workshop-advisor-img">
+      <img src="../../assets/img/license_page/denken3/advisor.jpg" alt="" />
+    </div>
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
       <br />
@@ -1096,6 +1098,16 @@
 
   .hayaben_red {
     color: red;
+  }
+
+  .workshop-advisor-img {
+    margin-bottom: 40px;
+    padding: 0 20px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   @media print, screen and (max-width: 480px) {

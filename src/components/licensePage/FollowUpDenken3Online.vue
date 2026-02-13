@@ -218,12 +218,10 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹 能センレポートとは？（担当者向け・月額550円）
+                🔹 能センレポとは？（担当者向け・550円）
               </p>
               <p class="follow-text">
-                能センレポートは、受講生1週間分のログイン・動画視聴・課題提出状況を自動集計し、
-                <br />
-                学習が順調かどうかまで判定できる学習進捗管理サービスです。
+                能センレポは、受講生1週間分のログイン・動画視聴・課題提出状況を自動集計し、学習が順調かどうかまで判定できる学習進捗管理サービスです。
               </p>
               <p class="follow-heading">📅 サポート期間：試験日まで</p>
               <p class="follow-heading">💻 サービス内容</p>
@@ -262,7 +260,7 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                🔹 勉強管理コーチングとは？（2200円）
+                🔹 勉強管理コーチングとは？（3300円）
               </p>
               <p class="follow-text">
                 「一人で頑張っても、途中で挫折してしまう…」

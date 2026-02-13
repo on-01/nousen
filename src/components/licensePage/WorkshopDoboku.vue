@@ -181,7 +181,9 @@
         alt="土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
-
+    <div class="workshop-advisor-img">
+      <img src="../../assets/img/license_page/denken3/advisor.jpg" alt="" />
+    </div>
     <p class="workshop-bottom -map">
       ※受検種別に関しましては『土木』を対象にした講習になります。
       <br />
@@ -1724,7 +1726,15 @@
   .hayaben_red {
     color: red;
   }
+  .workshop-advisor-img {
+    margin-bottom: 40px;
+    padding: 0 20px;
 
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
   @media print, screen and (max-width: 480px) {
     .workshop-flex {
       img {
