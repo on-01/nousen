@@ -14,7 +14,7 @@
       </figure>
       <div class="index-topContent">
         <p>
-          <i class="scroll-animation-item">
+          <i>
             必要なことだけ、
             <br />
             「合格」に近づきます。
@@ -53,7 +53,7 @@
       </figure>
       <div class="index-topContent">
         <p>
-          <i class="scroll-animation-item">
+          <i>
             間近で学べる通学講座
             <br />
             いつでも手元でオンライン講座
@@ -111,7 +111,7 @@
       </figure>
       <div class="index-topContent">
         <p>
-          <i class="scroll-animation-item">40年で10万人以上の受講生。</i>
+          <i>40年で10万人以上の受講生。</i>
           <br />
           <span>
             （旧能力開発研修センターとノウハウを全て引き継いだ
@@ -176,7 +176,7 @@
           if (vidDefer[i].getAttribute("data-src")) {
             vidDefer[i].setAttribute(
               "src",
-              vidDefer[i].getAttribute("data-src")
+              vidDefer[i].getAttribute("data-src"),
             );
           }
         }
@@ -192,7 +192,7 @@
               }
             });
           },
-          { threshold: 0.5 }
+          { threshold: 0.5 },
         );
 
         scrollItems.forEach((item) => observer.observe(item));
