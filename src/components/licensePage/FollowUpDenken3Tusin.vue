@@ -205,43 +205,45 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ⑤ 学習進捗管理レポート
+              ⑤ 学習進捗管理システム
               <br />
-              ✅能センレポ
+              ✅勉強管理システム
             </p>
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">
-                🔹 能センレポとは？（担当者向け・550円）
-              </p>
+              <p class="follow-heading">🔹 勉強管理システム（1,650円）</p>
               <p class="follow-text">
-                能センレポは、受講生1週間分のログイン・動画視聴・課題提出状況を自動集計し、学習が順調かどうかまで判定できる学習進捗管理サービスです。
+                コーチングなしで、学習管理の“仕組みのみ”利用したい方向け。
+                <br />
+                自分のペースで学習を可視化・習慣化できるシンプルな管理ツールです。
               </p>
-              <p class="follow-heading">📅 サポート期間：試験日まで</p>
-              <p class="follow-heading">💻 サービス内容</p>
+              <p class="follow-heading">💻 システム内容</p>
               <p class="follow-text">
-                ✅ ログイン・動画視聴・課題提出を自動集計
+                ✅ 専用スプレッドシートで毎日の勉強内容・勉強時間を記録
                 <br />
-                ✅ 視聴率・修了状況をひと目で確認
+                ✅ 学習時間・進捗を自動で見える化
                 <br />
-                ✅ ログイン／未ログインを一覧表示
+                ✅ 目標時間の設定により、学習ペースを管理
                 <br />
-                ✅ 能セン独自の「進捗判定（順調・要注意・要対応）」付き
+                ✅ 日々の記録により、学習の習慣化をサポート
                 <br />
-                ✅ 毎週レポートを自動配信
+                ✅ 自分のペースで継続できる自己管理型システム
+              </p>
+              <p class="follow-heading">🎯 特徴</p>
+              <p class="follow-text">
+                学習を見える化することで、抜けや遅れにすぐ気づけます。日々の記録が習慣化につながり、
                 <br />
+                「やらない日」を防ぎます。シンプルだからこそ続けやすく、結果に直結する学習管理が可能です。
                 <br />
-                受講状況を「見える化」することで、学習の停滞を防ぎ、合格までのペース管理を徹底します。
+                ※本サービスは自己管理型のため、個別フォロー・連絡等はありません
                 <br />
-                <span>
-                  能センが最後まで、合格を見据えた学習管理を行います。
-                </span>
+                ※Googleアカウント（無料）が必要です
               </p>
             </div>
           </div>
