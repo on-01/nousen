@@ -789,7 +789,7 @@
 
             <div class="bg-white">
               <ExamSupportTusin />
-              <FollowUpDenken3 />
+              <FollowUpDenken3Tusin />
             </div>
 
             <div class="bg-white_type2">
@@ -1145,6 +1145,7 @@
   import ExamSupportTusin from "../components/licensePage/ExamSupportTusin.vue";
   import FollowUpDenken3Online from "../components/licensePage/FollowUpDenken3Online.vue";
   import FollowUpDenken3Tugaku from "../components/licensePage/FollowUpDenken3Tugaku.vue";
+  import FollowUpDenken3Tusin from "../components/licensePage/FollowUpDenken3Tusin.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -1235,6 +1236,7 @@
       ExamSupportTusin,
       FollowUpDenken3Online,
       FollowUpDenken3Tugaku,
+      FollowUpDenken3Tusin,
     },
     data() {
       return {
