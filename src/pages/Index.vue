@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
+    <!-- <div id="js-scroll_hidden" class="fixed-note" v-show="isShow">
       <div class="fixed-note-inner">
         <p class="fixed-note-text">
           令和8年度〈上期〉 電験三種 通学講座✍️
@@ -23,7 +23,7 @@
           />
         </button>
       </div>
-    </div>
+    </div> -->
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
@@ -1695,7 +1695,7 @@ query {
   .top-map {
     display: block;
     margin: 80px auto 0 auto;
-    max-width: 1024px;
+    max-width: 924px;
     width: 90%;
     @media print, screen and (max-width: 1000px) {
       margin-top: 20px;
