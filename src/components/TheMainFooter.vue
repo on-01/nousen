@@ -87,14 +87,14 @@
                 />
               </a>
             </div> -->
-            <div class="eco-image">
+            <!-- <div class="eco-image">
               <img
                 src="../assets/img/common/eco.jpg"
                 width="70"
                 height="70"
                 alt="eco"
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
