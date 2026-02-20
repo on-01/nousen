@@ -23,7 +23,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 科目合格率82%以上※
                 <br />
                 合格に特化した教材を使用
@@ -45,7 +45,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 基礎から始める電験三種
                 <br />
                 初心者オススメ基礎講座
@@ -65,7 +65,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 選べる受講スタイル
                 <br />
                 通学・オンライン・通信講座
@@ -216,7 +216,10 @@
     color: red;
     font-family: メイリオ, sans-serif;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
       -1px -1px 0 #000;
   }
 

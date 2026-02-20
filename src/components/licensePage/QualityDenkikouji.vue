@@ -30,7 +30,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 合格者を多数輩出
                 <br />
                 講師が電気のエキスパート！
@@ -53,7 +53,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 効率的な学習方法
                 <br />
                 勉強時間がない方におすすめ！
@@ -76,7 +76,7 @@
           </figure>
           <div class="quality-description">
             <p class="quality-title">
-              <i class="scroll-animation-item">
+              <i>
                 二次試験対策＋添削
                 <br />
                 通学でもオンラインでも！
@@ -122,7 +122,10 @@
     font-size: 28px;
     color: red;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+    text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
       -1px -1px 0 #000;
     font-family: メイリオ, sans-serif;
   }

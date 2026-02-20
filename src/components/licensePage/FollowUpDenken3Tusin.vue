@@ -157,50 +157,13 @@
           </div>
           <div class="follow-flex">
             <p class="follow-flex-title">
-              ④ 講習参加通知レポート
-              <br />
-              ✅ 能センレポ
-            </p>
-            <div class="follow-imgWrap-bottom">
-              <img
-                class="img-4"
-                src="../../assets/img/license_page/denken3/follow-img5-t.jpg"
-                alt="電験三種 第三種電気主任技術者"
-              />
-            </div>
-            <div class="follow-textWrap">
-              <p class="follow-heading">🔹 能センレポとは？（無料）</p>
-              <p class="follow-text">
-                講習会の出欠情報を自動集計し、講習終了後に
-                <span>担当者</span>
-                へメールで通知する" 講習出欠管理の自動化サービス ”です💡
-              </p>
-              <p class="follow-heading">💻 能センレポの特徴</p>
-              <p class="follow-text">
-                ✅ 講習開催後、月曜 10:00 に出欠状況を自動送信
-                <br />
-                ✅ 参加者・欠席者を一覧でわかりやすく表示
-                <br />
-                ✅ 少人数〜数十名規模までスムーズに管理
-                <br />
-                ✅ 提出課題の提出状況もあわせて確認可能
-                <br />
-                <br />
-                企業として高額な講座を提供する以上、学習状況の把握と早期フォローは必須。
-                <span>能センレポ</span>
-                が管理負担を減らし、合格までを効率化します！
-              </p>
-            </div>
-          </div>
-          <div class="follow-flex">
-            <p class="follow-flex-title">
-              ⑤ オンラインサポートサービス
+              ④ オンラインサポートサービス
               <br />
               ✅ 能センサポ
             </p>
             <div class="follow-imgWrap-bottom">
               <img
-                class="img-3"
+                class="img-4"
                 src="../../assets/img/license_page/denken3/follow-img4.jpg"
                 alt="電験三種 第三種電気主任技術者"
               />
@@ -235,9 +198,52 @@
                 「質問したいのに聞けない」…
                 <br />
                 そんな不安をなくす心強い味方――それが
-                <br />
                 <span>能センサポ</span>
                 です。
+              </p>
+            </div>
+          </div>
+          <div class="follow-flex">
+            <p class="follow-flex-title">
+              ⑤ 学習進捗管理システム
+              <br />
+              ✅勉強管理システム
+            </p>
+            <div class="follow-imgWrap-bottom">
+              <img
+                class="img-3"
+                src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">🔹 勉強管理システム（1,650円）</p>
+              <p class="follow-text">
+                コーチングなしで、学習管理の“仕組みのみ”利用したい方向け。
+                <br />
+                自分のペースで学習を可視化・習慣化できるシンプルな管理ツールです。
+              </p>
+              <p class="follow-heading">💻 システム内容</p>
+              <p class="follow-text">
+                ✅ 専用スプレッドシートで毎日の勉強内容・勉強時間を記録
+                <br />
+                ✅ 学習時間・進捗を自動で見える化
+                <br />
+                ✅ 目標時間の設定により、学習ペースを管理
+                <br />
+                ✅ 日々の記録により、学習の習慣化をサポート
+                <br />
+                ✅ 自分のペースで継続できる自己管理型システム
+              </p>
+              <p class="follow-heading">🎯 特徴</p>
+              <p class="follow-text">
+                学習を見える化することで、抜けや遅れにすぐ気づけます。日々の記録が習慣化につながり、
+                <br />
+                「やらない日」を防ぎます。シンプルだからこそ続けやすく、結果に直結する学習管理が可能です。
+                <br />
+                ※本サービスは自己管理型のため、個別フォロー・連絡等はありません
+                <br />
+                ※Googleアカウント（無料）が必要です
               </p>
             </div>
           </div>
@@ -596,7 +602,7 @@
   }
 
   .follow-flex-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0;
     line-height: 1.5;
@@ -711,7 +717,7 @@
   }
 
   .follow-bottom-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     margin: 0 auto;
     color: #fff;

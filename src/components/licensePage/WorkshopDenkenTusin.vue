@@ -8,7 +8,7 @@
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
-          令和7年度 通信6ヶ月コース
+          令和8年度 通信6ヶ月コース
           <br />
           課題提出・質問は 最長24ヶ月 徹底サポート！
           <br />

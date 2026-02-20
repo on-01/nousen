@@ -592,7 +592,7 @@
               </a>
             </figure>
           </div>
-          <div class="public-media-flex -bottom">
+          <div class="public-media-flex">
             <figure>
               <a
                 href="#"
@@ -638,6 +638,20 @@
               >
                 <img
                   src="../assets/img/common/public_media_18.jpg"
+                  alt="ベスト進学ネット"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+            <figure>
+              <a
+                href="#"
+                @click.prevent="openExternal('https://www.plex-job.com/')"
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_19.jpg"
                   alt="ベスト進学ネット"
                   class="public-media-flex-image"
                 />

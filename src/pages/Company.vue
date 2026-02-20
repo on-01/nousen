@@ -670,7 +670,7 @@ query {
   }
 
   .company-image {
-    max-width: 970px;
+    max-width: 870px;
     margin: 0 auto;
   }
   .company-image img {
