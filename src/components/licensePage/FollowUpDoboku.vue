@@ -317,14 +317,14 @@
   .follow {
     max-width: 90%;
     background-color: #fff;
-    margin: 220px auto 0;
-    padding: 0 24px;
+    margin: 0 auto;
+    padding: 220px 24px 0;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
 
     @media print, screen and (max-width: 1000px) {
-      margin-top: 70px;
+      padding-top: 70px;
     }
 
     @media print, screen and (max-width: 768px) {
