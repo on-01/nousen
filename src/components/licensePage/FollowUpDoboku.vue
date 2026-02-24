@@ -22,7 +22,12 @@
         </p>
         <div class="follow-wrap">
           <div class="follow-flex">
-            <div class="follow-imgWrap">
+            <p class="follow-flex-title">
+              ① 勉強計画を立てて合格へ！
+              <br />
+              ✅ 勉強計画表
+            </p>
+            <div class="follow-imgWrap-top">
               <img
                 class="img-1"
                 src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
@@ -30,10 +35,6 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">
-                <span>① 勉強計画を立てて合格へ！</span>
-                ✅ 勉強計画表
-              </p>
               <p class="follow-text">
                 2級建築施工管理技士の合格には、
                 <span>効率的な勉強計画が鍵</span>
