@@ -314,20 +314,24 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 1050px;
+    max-width: 90%;
     background-color: #fff;
-    margin: 0 auto;
-    padding: 220px 0 24px;
+    margin: 220px auto 0;
+    padding: 0 24px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
 
     @media print, screen and (max-width: 1000px) {
-      padding-top: 50px;
+      margin-top: 70px;
+    }
+
+    @media print, screen and (max-width: 768px) {
+      max-width: 100%;
     }
   }
   .follow-inner {
-    padding: 60px 0 30px;
+    padding: 30px 0;
     margin: 0 auto;
   }
 
@@ -361,19 +365,46 @@
     }
   }
 
+  .follow-title-sub {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 60px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
   .follow-wrap {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     @media print, screen and (max-width: 1000px) {
       margin-top: 30px;
     }
   }
 
   .follow-flex {
-    display: flex;
+    display: block;
     margin-top: 40px;
-    @media print, screen and (max-width: 1000px) {
-      flex-direction: column;
+    width: calc((100% - 48px) / 3);
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
     }
+  }
+
+  .follow-flex-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
   }
   .follow-bottom-wrap {
     display: flex;
@@ -399,32 +430,74 @@
   }
 
   .follow-imgWrap {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
     img {
       display: block;
       margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
-    .img-1 {
-      width: 35%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
-    .img-2 {
-      width: 75%;
-    }
-
-    .img-3 {
-      width: 75%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 
   .follow-textWrap {
-    width: 60%;
-    max-width: 560px;
+    width: 100%;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       max-width: 100%;
@@ -433,9 +506,9 @@
   }
 
   .follow-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0 0;
 
     span {
       font-size: 20px;
