@@ -116,7 +116,7 @@
           <span>
             （旧能力開発研修センターとノウハウを全て引き継いだ
             <br />
-            現(株)NOUSENとの累計になります。）
+            資格合格支援スクール【能セン】との累計になります。）
           </span>
         </p>
       </div>
@@ -265,7 +265,7 @@
         font-size: 16px;
       }
       span {
-        font-size: 10px;
+        font-size: 12px;
         display: block;
       }
     }

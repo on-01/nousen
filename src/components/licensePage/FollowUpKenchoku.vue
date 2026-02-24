@@ -11,9 +11,23 @@
       </div>
       <div class="follow-content">
         <p class="follow-title">勉強フォローアップサービス</p>
+        <p class="follow-title-sub">
+          <span>
+            能センでは、受講中の学習をしっかり支えるために、6つの勉強フォローアップサービスを導入しています。
+          </span>
+          <br />
+          学習計画の進捗確認や質問対応など、日々の学びを丁寧にサポート。
+          <br />
+          一人で悩むことなく、安心して学習を続けられる体制です。
+        </p>
         <div class="follow-wrap">
           <div class="follow-flex">
-            <div class="follow-imgWrap">
+            <p class="follow-flex-title">
+              ① 勉強計画を立てて合格へ！
+              <br />
+              ✅ 勉強計画表
+            </p>
+            <div class="follow-imgWrap-top">
               <img
                 class="img-1"
                 src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
@@ -21,23 +35,42 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">
-                <span>①</span>
-                勉強計画表（無料）
-              </p>
               <p class="follow-text">
-                2級建築施工管理技士の試験合格を目指すなら、効率的な勉強計画が成功の鍵を握ります。計画的に学習を進めることで、無駄なく知識を身につけ、最短ルートで合格へと近づくことができます。
+                2級建築施工管理技士の合格には、
+                <span>効率的な勉強計画が鍵</span>
+                です。
                 <br />
-                能センでは、一人ひとりのペースに合わせた
-                <span>「勉強計画表」</span>
-                をご用意。計画に沿って学習することで、迷うことなく着実にステップアップできます。
+                計画的に学習することで、無駄なく知識を身につけ、最短ルートで合格に近づきます。
                 <br />
-                能センの教材・副教材は、合格への最短ルートを考え抜いて作られています。実践力と試験対策を網羅し、確実に力をつけられます！
+                <br />
+                ✅ 一人ひとりに合わせた「勉強計画表」を作成
+                <br />
+                ✅ 計画に沿って進めるだけで迷わず学習できる
+                <br />
+                ✅ 無駄のない効率的な学習で最短ルートを実現
+                <br />
+                ✅ 合格に特化した教材・副教材で実践力を強化
+                <br />
+                <br />
+                <span>
+                  👉 計画 ×
+                  教材で、無駄のない学習を実現し、着実に合格力を高めます
+                </span>
+                <br />
+                <span>
+                  👉
+                  さらに「勉強計画表」は無料進呈。迷わず最後まで学習を進められます
+                </span>
               </p>
             </div>
           </div>
           <div class="follow-flex">
-            <div class="follow-imgWrap">
+            <p class="follow-flex-title">
+              ② メールでサポート
+              <br />
+              ✅リマインダーメールサービス
+            </p>
+            <div class="follow-imgWrap-top">
               <img
                 class="img-2"
                 src="../../assets/img/license_page/denken3/follow-img2.jpg"
@@ -46,34 +79,50 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                <span>②</span>
-                リマインダーメールサービス（無料）
+                🔹 リマインダーメールサービスとは？（無料）
               </p>
               <p class="follow-text">
-                試験日までの学習をしっかりサポート！
+                試験日までの学習を、最後まで迷わず続けられるよう徹底サポート！
                 <br />
-                以下のタイミングで自動メールをお届けします。
-                <br />
-                ・試験の
+                能センの【リマインダーメールサービス】では、試験本番までの重要なタイミングを逃さず、あなたの学習をしっかり支えます。
+              </p>
+              <p class="follow-heading">📩 自動配信スケジュール</p>
+              <p class="follow-text">
+                ✅ 試験の
                 <span>90日・60日・30日・10日前</span>
-                に進捗サポートメールを配信
+                に、学習の進捗を確認できるサポートメールを配信
                 <br />
-                ・【受験申請期間】の
-                <span>開始・締切</span>
-                も自動でお知らせ（申込み忘れを防止）
+                ✅ 見落としがちな
+                <span>受験申請期間の開始・締切</span>
+                も自動でお知らせし、申込み忘れを防止します
                 <br />
-                時期に合わせて、効果的な学習の進め方や目標達成のコツをお伝えします。
                 <br />
-                お申込みは簡単。フォームで「リマインダーメールサービス」を選択！
+                各時期に合わせて、
                 <br />
-                試験本番まで、あなたの学習をしっかりサポートします。
+                「今やるべき学習内容」
                 <br />
-                一緒に合格を目指しましょう！
+                「効率よく得点力を伸ばすポイント」
+                <br />
+                「モチベーションを維持するコツ」
+                <br />
+                など、
+                <span>その時期だからこそ必要なアドバイス</span>
+                をお届けします。
+                <br />
+                <br />
+                試験本番まで、能センがあなたの学習を継続的にサポートします。
+                <br />
+                <span>一歩ずつ、確実に。合格まで一緒に進みましょう。</span>
               </p>
             </div>
           </div>
           <div class="follow-flex">
-            <div class="follow-imgWrap">
+            <p class="follow-flex-title">
+              ③ 資格取得アドバイザー
+              <br />
+              ✅ 質問サポート
+            </p>
+            <div class="follow-imgWrap-top">
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img3.jpg"
@@ -82,85 +131,172 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-heading">
-                <span>③</span>
-                資格取得アドバイザーの質問サポート（無料）
+                🔹資格取得アドバイザーの質問サポート（無料）
               </p>
               <p class="follow-text">
                 学習を進める中で「どこから手をつければいい？」「効率的な勉強方法は？」と迷うことはありませんか？
                 <br />
+                <br />
                 能センでは、学習計画の立て方や勉強の進め方についてのご相談に対応いたします。
                 <br />
-                また、学習に関する
-                <span>「よくある質問」</span>
+                また、学習に関する 「よくある質問」
                 にお答えし、スムーズに勉強を進められるようサポート！
+                <br />
                 <br />
                 まずは能センの教材を活用しながら、計画的に学習を進めてみましょう。
                 <br />
-                疑問や不安があれば、お気軽にご相談ください！あなたの合格を全力で応援します！
+                疑問や不安があれば、お気軽にご相談ください！
+                <span>あなたの合格を全力で応援します！</span>
               </p>
             </div>
           </div>
-          <div class="follow-bottom">
-            <p class="follow-bottom-title">
-              <span>④</span>
-              合格に直結する勉強管理コーチング
+          <div class="follow-flex">
+            <p class="follow-flex-title">
+              ④ 学習進捗管理レポート
+              <br />
+              ✅能センレポ
             </p>
-            <div class="follow-bottom-wrap">
-              <div class="follow-bottom-leftWrap">
-                <img
-                  class="follow-left-img"
-                  src="../../assets/img/license_page/denken3/follow-img6.jpg"
-                  alt="電験三種 第三種電気主任技術者"
-                />
-              </div>
-              <div class="follow-bottom-rightWrap">
-                <div class="workshop-orangeLine">
-                  <div class="workshop-orangeLine__inner -second">
-                    <p class="workshop-orangeLine__heading">
-                      🔹 勉強管理コーチングとは？（3300円）
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      「一人で頑張っても、途中で挫折してしまう…」
-                      <br />
-                      そんなあなたに、能センが
-                      <span>毎日伴走・徹底管理。</span>
-                      <br />
-                      最後までやり抜く力を引き出す学習コーチングサービスです💡
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      💻 コーチング内容
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 専用スプレッドシートに毎日の勉強内容・勉強時間を記入
-                      <br />
-                      ✅ 記入された学習記録をもとに、毎日進捗をチェック
-                      <br />
-                      ✅ 毎日の学習を強制ルーチン化し、計画的に進行
-                      <br />
-                      ✅ 1週間分の学習計画を作成し、迷わずスタート
-                      <br />
-                      ✅ 学習状況に応じて事務局がフィードバック
-                      <br />
-                      ✅ 学習が止まった場合は、資格取得アドバイザーが直接連絡
-                      <br />
-                      必要に応じて担当講師も巻き込み、徹底フォロー
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      🎯 一人で悩む必要はありません
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      “見守られながら、確実に続ける”学習スタイルで、モチベーションと学習効率を最大化。
-                      <br />
-                      多くの受講生が本サービスを利用し、学習を継続しています。
-                      <br />
-                      試験当日まで、能センがあなたの学習を
-                      <span>一歩も逃さず伴走します。</span>
-                      <br />
-                      ※本サービスの利用にはGoogleアカウント（無料）が必要です
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="follow-imgWrap-bottom">
+              <img
+                class="follow-left-img"
+                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">🔹 能センレポとは？（担当者向け）</p>
+              <p class="follow-text">
+                能センレポは、受講生の学習状況や出欠状況を自動で集計し、進捗を可視化する管理サービスです。
+                <br />
+                講習会・オンライン講座それぞれに対応。
+              </p>
+              <p class="follow-heading">📅 サポート期間：試験日まで</p>
+              <p class="follow-heading">💻 オンライン講座用（550円）</p>
+              <p class="follow-text">
+                ✅ ログイン・動画視聴・課題提出を自動集計
+                <br />
+                ✅ 未ログイン・未受講者を一覧で把握
+                <br />
+                ✅ 能セン独自の「進捗判定（順調・要注意・要対応）」付き
+                <br />
+                ✅ 毎週、学習進捗レポートを自動配信
+                <br />
+                <span>
+                  👉
+                  学習の遅れや離脱を早期に発見し、合格までのペース管理を徹底します
+                </span>
+              </p>
+              <p class="follow-heading">📅 講習会用（無料）</p>
+              <p class="follow-text">
+                ✅ 講習会の出欠状況を自動集計
+                <br />
+                ✅ 参加者・欠席者を一覧で表示
+                <br />
+                ✅ 課題の提出状況もあわせて確認可能
+                <br />
+                ✅ 講習開催後、月曜10:00にレポート自動送信
+                <br />
+                <span>
+                  👉
+                  出欠管理の手間を削減し、欠席者への迅速なフォローが可能になります
+                </span>
+              </p>
+              <p class="follow-heading">🎯 導入メリット（共通）</p>
+              <p class="follow-text">
+                受講状況を「見える化」することで、学習の停滞や欠席を防ぎ、合格までの伴走支援を実現します。
+              </p>
+            </div>
+          </div>
+          <div class="follow-flex">
+            <p class="follow-flex-title">
+              ⑤ 学習進捗管理システム
+              <br />
+              ✅勉強管理システム
+            </p>
+            <div class="follow-imgWrap-bottom">
+              <img
+                class="img-3"
+                src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">🔹 勉強管理システム（1,650円）</p>
+              <p class="follow-text">
+                コーチングなしで、学習管理の“仕組みのみ”利用したい方向け。
+                <br />
+                自分のペースで学習を可視化・習慣化できるシンプルな管理ツールです。
+              </p>
+              <p class="follow-heading">💻 システム内容</p>
+              <p class="follow-text">
+                ✅ 専用スプレッドシートで毎日の勉強内容・勉強時間を記録
+                <br />
+                ✅ 学習時間・進捗を自動で見える化
+                <br />
+                ✅ 目標時間の設定により、学習ペースを管理
+                <br />
+                ✅ 日々の記録により、学習の習慣化をサポート
+                <br />
+                ✅ 自分のペースで継続できる自己管理型システム
+              </p>
+              <p class="follow-heading">🎯 特徴</p>
+              <p class="follow-text">
+                学習を見える化することで、抜けや遅れにすぐ気づけます。日々の記録が習慣化につながり、
+                <br />
+                「やらない日」を防ぎます。シンプルだからこそ続けやすく、結果に直結する学習管理が可能です。
+                <br />
+                ※本サービスは自己管理型のため、個別フォロー・連絡等はありません
+                <br />
+                ※Googleアカウント（無料）が必要です
+              </p>
+            </div>
+          </div>
+          <div class="follow-flex">
+            <p class="follow-flex-title">
+              ⑥ 合格に直結する
+              <br />
+              ✅ 勉強管理サポート
+            </p>
+            <div class="follow-imgWrap-bottom">
+              <img
+                class="img-6"
+                src="../../assets/img/license_page/denken3/follow-img6.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">🔹 勉強管理コーチング（3,300円）</p>
+              <p class="follow-text">
+                「一人で頑張っても、途中で挫折してしまう…」
+                <br />
+                そんなあなたに、能センが毎日伴走・徹底管理。
+                <br />
+                最後までやり抜く力を引き出す学習コーチングです💡
+              </p>
+              <p class="follow-heading">💻 サポート内容</p>
+              <p class="follow-text">
+                ✅ 専用スプレッドシートに毎日の勉強内容・勉強時間を記入
+                <br />
+                ✅ 記入された学習記録をもとに、毎日進捗をチェック
+                <br />
+                ✅ 毎日の学習を強制ルーチン化し、計画的に進行
+                <br />
+                ✅ 1週間分の学習計画を作成し、迷わずスタート
+                <br />
+                ✅ 学習状況に応じて事務局がフィードバック
+                <br />
+                ✅ 学習が止まった場合は、資格取得アドバイザーが直接連絡
+                <br />
+                必要に応じて担当講師も巻き込み、徹底フォロー
+              </p>
+              <p class="follow-heading">🎯 一人で悩む必要はありません</p>
+              <p class="follow-text">
+                “見守られながら、確実に続ける” 学習スタイルで、効率よく継続。
+                <br />
+                多くの受講生が本サービスで学習を続けています。
+                <br />
+                ※利用にはGoogleアカウント（無料）が必要です
+              </p>
             </div>
           </div>
         </div>
@@ -179,20 +315,24 @@
 
 <style lang="scss" scoped>
   .follow {
-    max-width: 1050px;
+    max-width: 90%;
     background-color: #fff;
     margin: 0 auto;
-    padding: 220px 0 24px;
+    padding: 220px 24px 0;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
 
     @media print, screen and (max-width: 1000px) {
-      padding-top: 50px;
+      padding-top: 70px;
+    }
+
+    @media print, screen and (max-width: 768px) {
+      max-width: 100%;
     }
   }
   .follow-inner {
-    padding: 60px 0 30px;
+    padding: 30px 0;
     margin: 0 auto;
   }
 
@@ -226,19 +366,46 @@
     }
   }
 
+  .follow-title-sub {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 60px;
+
+    @media print, screen and (max-width: 1000px) {
+      margin-top: 30px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+
   .follow-wrap {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     @media print, screen and (max-width: 1000px) {
       margin-top: 30px;
     }
   }
 
   .follow-flex {
-    display: flex;
+    display: block;
     margin-top: 40px;
-    @media print, screen and (max-width: 1000px) {
-      flex-direction: column;
+    width: calc((100% - 48px) / 3);
+    @media print, screen and (max-width: 768px) {
+      width: 100%;
     }
+  }
+
+  .follow-flex-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
   }
   .follow-bottom-wrap {
     display: flex;
@@ -264,32 +431,74 @@
   }
 
   .follow-imgWrap {
-    width: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
     img {
       display: block;
       margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
-    .img-1 {
-      width: 35%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+  .follow-imgWrap-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+      height: 180px;
+    }
+    @media print, screen and (max-width: 768px) {
+      height: auto;
     }
 
-    .img-2 {
-      width: 75%;
-    }
-
-    .img-3 {
-      width: 75%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
 
   .follow-textWrap {
-    width: 60%;
-    max-width: 560px;
+    width: 100%;
     @media print, screen and (max-width: 1000px) {
       width: 100%;
       max-width: 100%;
@@ -298,9 +507,9 @@
   }
 
   .follow-heading {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    margin: 0;
+    margin: 20px 0 0;
 
     span {
       font-size: 20px;
