@@ -149,81 +149,61 @@
               </p>
             </div>
           </div>
-          <div class="follow-bottom">
-            <p class="follow-bottom-title">
-              <span>④</span>
-              学習進捗管理レポート
+          <div class="follow-flex">
+            <p class="follow-flex-title">
+              ④ 学習進捗管理レポート
+              <br />
+              ✅能センレポ
             </p>
-            <div class="follow-bottom-wrap">
-              <div class="follow-bottom-leftWrap">
-                <img
-                  class="follow-left-img"
-                  src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
-                  alt="電験三種 第三種電気主任技術者"
-                />
-              </div>
-              <div class="follow-bottom-rightWrap">
-                <div class="workshop-orangeLine">
-                  <div class="workshop-orangeLine__inner -second">
-                    <p class="workshop-orangeLine__heading">
-                      ④ 学習進捗管理レポート
-                      <br />
-                      ✅能センレポ
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      🔹 能センレポとは？（担当者向け）
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      能センレポは、受講生の学習状況や出欠状況を自動で集計し、進捗を可視化する管理サービスです。
-                      <br />
-                      講習会・オンライン講座それぞれに対応。
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      📅 サポート期間：試験日まで
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      💻 オンライン講座用（550円）
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ ログイン・動画視聴・課題提出を自動集計
-                      <br />
-                      ✅ 未ログイン・未受講者を一覧で把握
-                      <br />
-                      ✅ 能セン独自の「進捗判定（順調・要注意・要対応）」付き
-                      <br />
-                      ✅ 毎週、学習進捗レポートを自動配信
-                      <br />
-                      <span>
-                        👉
-                        学習の遅れや離脱を早期に発見し、合格までのペース管理を徹底します
-                      </span>
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      📅 講習会用（無料）
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      ✅ 講習会の出欠状況を自動集計
-                      <br />
-                      ✅ 参加者・欠席者を一覧で表示
-                      <br />
-                      ✅ 課題の提出状況もあわせて確認可能
-                      <br />
-                      ✅ 講習開催後、月曜10:00にレポート自動送信
-                      <br />
-                      <span>
-                        👉
-                        出欠管理の手間を削減し、欠席者への迅速なフォローが可能になります
-                      </span>
-                    </p>
-                    <p class="workshop-orangeLine__heading -second">
-                      🎯 導入メリット（共通）
-                    </p>
-                    <p class="workshop-orangeLine__text">
-                      受講状況を「見える化」することで、学習の停滞や欠席を防ぎ、合格までの伴走支援を実現します。
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="follow-imgWrap-bottom">
+              <img
+                class="follow-left-img"
+                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
+                alt="電験三種 第三種電気主任技術者"
+              />
+            </div>
+            <div class="follow-textWrap">
+              <p class="follow-heading">🔹 能センレポとは？（担当者向け）</p>
+              <p class="follow-text">
+                能センレポは、受講生の学習状況や出欠状況を自動で集計し、進捗を可視化する管理サービスです。
+                <br />
+                講習会・オンライン講座それぞれに対応。
+              </p>
+              <p class="follow-heading">📅 サポート期間：試験日まで</p>
+              <p class="follow-heading">💻 オンライン講座用（550円）</p>
+              <p class="follow-text">
+                ✅ ログイン・動画視聴・課題提出を自動集計
+                <br />
+                ✅ 未ログイン・未受講者を一覧で把握
+                <br />
+                ✅ 能セン独自の「進捗判定（順調・要注意・要対応）」付き
+                <br />
+                ✅ 毎週、学習進捗レポートを自動配信
+                <br />
+                <span>
+                  👉
+                  学習の遅れや離脱を早期に発見し、合格までのペース管理を徹底します
+                </span>
+              </p>
+              <p class="follow-heading">📅 講習会用（無料）</p>
+              <p class="follow-text">
+                ✅ 講習会の出欠状況を自動集計
+                <br />
+                ✅ 参加者・欠席者を一覧で表示
+                <br />
+                ✅ 課題の提出状況もあわせて確認可能
+                <br />
+                ✅ 講習開催後、月曜10:00にレポート自動送信
+                <br />
+                <span>
+                  👉
+                  出欠管理の手間を削減し、欠席者への迅速なフォローが可能になります
+                </span>
+              </p>
+              <p class="follow-heading">🎯 導入メリット（共通）</p>
+              <p class="follow-text">
+                受講状況を「見える化」することで、学習の停滞や欠席を防ぎ、合格までの伴走支援を実現します。
+              </p>
             </div>
           </div>
           <div class="follow-flex">
