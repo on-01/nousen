@@ -36,7 +36,7 @@
             </div>
             <div class="follow-textWrap">
               <p class="follow-text">
-                2級建築施工管理技士の合格には、
+                2級電気工事施工管理技士の合格には、
                 <span>効率的な勉強計画が鍵</span>
                 です。
                 <br />
