@@ -198,12 +198,12 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
-          <g-link to="/doboku-s-application" class="application-form-link">
+          <g-link to="/doboku-f-application" class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
-            to="/doboku-s-application-business"
+            to="/doboku-f-application-business"
             class="application-form-link"
           >
             お申込みはこちら（法人）
@@ -329,11 +329,11 @@
         </div>
       </div>
     </div>
-    <img
+    <!-- <img
       class="hayaben"
       src="../../assets/img/license_page/doboku_s/hayaben.jpg"
       alt="土木施工管理技士 講習会 通信講座 web講座"
-    />
+    /> -->
     <!-- <p class="workshop-top">
       ハヤベン（早勉）とは？
       <br />
