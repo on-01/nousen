@@ -322,7 +322,7 @@
               description="合格者を多数輩出！大嶋先生の無料動画です！"
             />
 
-            <Lecture
+            <LectureF
               title="わかりやすい講義を提供します"
               title2="土木の講師歴３５年以上のスーパー講師！"
               text="大嶋先生は、長年土木の建設工事、設備保守に従事し、経験を踏まえて１級土木施工管理技士、電気主任技術者（３～１種）等多くの関連資格を取得。
@@ -336,7 +336,7 @@
             <div class="bg-white">
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
               <!-- <ExamSecond /> -->
-              <FollowUpDoboku />
+              <FollowUpDobokuF />
               <Gansho />
             </div>
 
@@ -485,7 +485,7 @@
 
               <SupportSecond title="ミライを創ろう" />
               <SupportDoboku title="＼＼建設業を応援しよう／／" />
-              <MerumagaDoboku />
+              <MerumagaDobokuF />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -693,7 +693,7 @@
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
-  import Lecture from "../components/licensePage/Lecture.vue";
+  import LectureF from "../components/licensePage/LectureF.vue";
   import CheerDobokuF from "../components/licensePage/CheerDobokuF.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
@@ -721,9 +721,10 @@
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
-  import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
+  import MerumagaDobokuF from "../components/licensePage/MerumagaDobokuF.vue";
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+  import FollowUpDobokuF from "../components/licensePage/FollowUpDobokuF.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -774,7 +775,7 @@
       Support,
       SupportDoboku,
       SupportSecond,
-      Lecture,
+      LectureF,
       CheerDobokuF,
       QualityDoboku,
       // News,
@@ -796,10 +797,10 @@
       ExamDoboku,
       ExamKenchiku,
       ExamSecond,
-      FollowUpDoboku,
+      FollowUpDobokuF,
       TestOverviewDoboku,
       Gansho,
-      MerumagaDoboku,
+      MerumagaDobokuF,
       TimeCountDoboku,
       IconFingerRight,
     },
