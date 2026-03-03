@@ -316,7 +316,7 @@
               "
             />
 
-            <WorkshopDoboku />
+            <WorkshopDobokuF />
             <NewPvMovieDoboku
               movieTitle="土木施工管理技士の講習会動画をご視聴ください"
               description="合格者を多数輩出！大嶋先生の無料動画です！"
@@ -711,7 +711,7 @@
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityDoboku from "../components/licensePage/QualityDoboku.vue";
-  import WorkshopDoboku from "../components/licensePage/WorkshopDoboku.vue";
+  import WorkshopDobokuF from "../components/licensePage/WorkshopDobokuF.vue";
   import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
@@ -791,7 +791,7 @@
       Discount,
       DiscountDoboku,
       SetCourse2,
-      WorkshopDoboku,
+      WorkshopDobokuF,
       ScheduleDoboku,
       ExamDoboku,
       ExamKenchiku,
