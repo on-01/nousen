@@ -3,17 +3,17 @@
     <Layout>
       <div class="doboku">
         <header class="header">
-          <HeroDoboku
+          <HeroDobokuF
             :backImgOver="
               require('../assets/img/license_page/doboku_s/doboku_s_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度前期 / 令和8年度後期"
-            title="2級 土木施工管理技士"
+            title="1級 土木施工管理技士"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
           <!-- <TimeCountDoboku /> -->
-          <CheerDoboku
+          <CheerDobokuF
             text="能センは、<br>
     建設業で働く皆さまを<br>
     応援します！"
@@ -682,7 +682,7 @@
 
 <script>
   // import Hero from "@/components/Hero.vue";
-  import HeroDoboku from "@/components/HeroDoboku.vue";
+  import HeroDobokuF from "@/components/HeroDobokuF.vue";
   import Point from "@/components/licensePage/Point.vue";
   import Explanation from "@/components/licensePage/Explanation.vue";
   import CampaignDoboku from "@/components/licensePage/CampaignDoboku.vue";
@@ -694,7 +694,7 @@
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
   import Lecture from "../components/licensePage/Lecture.vue";
-  import CheerDoboku from "../components/licensePage/CheerDoboku.vue";
+  import CheerDobokuF from "../components/licensePage/CheerDobokuF.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import Venue from "@/components/licensePage/Venue.vue";
@@ -762,7 +762,7 @@
     },
     components: {
       // Hero,
-      HeroDoboku,
+      HeroDobokuF,
       Point,
       Explanation,
       CampaignDoboku,
@@ -775,7 +775,7 @@
       SupportDoboku,
       SupportSecond,
       Lecture,
-      CheerDoboku,
+      CheerDobokuF,
       QualityDoboku,
       // News,
       Info,
