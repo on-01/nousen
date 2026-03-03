@@ -492,14 +492,14 @@
               <div class="exam-link-wrapper -border">
                 <div class="exam-link-flex">
                   <g-link
-                    to="/doboku-s-application"
+                    to="/doboku-f-application"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/doboku-s-application-business"
+                    to="/doboku-f-application-business"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
