@@ -66,11 +66,9 @@
               alt="建築施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
-              ビルドＡＬＬ（2024）
+              ビルドＡＬＬ（2025）
               <br />
               「建設業界を志す学生」
-              <br />
-              東京建設業界
             </p>
           </figure>
           <!-- <figure class="support-image">
