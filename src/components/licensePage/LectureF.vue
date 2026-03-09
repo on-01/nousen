@@ -175,13 +175,11 @@
             図表やイラストを豊富に用い、重要事項は赤文字で整理。難しい内容もわかりやすく、短時間で理解できる構成です。
             <br />
             出題頻度の高いテーマを厳選し、合格に直結する要点だけを収録。忙しい方でも、短期間で効果的に実力を高められる内容です。
-            <br />
-            <span>※新刊は令和8年3月上旬の発送になります</span>
           </p>
         </div>
         <div class="book-wrap -right">
           <img
-            src="../../assets/img/license_page/doboku_s/lecture-book5.png"
+            src="../../assets/img/license_page/doboku_s/lecture-book5.webp"
             alt="土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【二次コース専用】</p>
