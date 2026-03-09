@@ -94,11 +94,10 @@
               </g-link>
             </div>
             <div class="item item04 doboku" key="item04">
-              <g-link>
+              <g-link to="/doboku-f">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
-                <span>【準備中】</span>
                 <br />
                 土木施工管理技士
                 <IconOnline iconClass="online_icon_index" />
