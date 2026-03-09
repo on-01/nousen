@@ -738,7 +738,7 @@
     metaInfo() {
       return {
         titleTemplate:
-          "2級土木施工管理技士 受験対策講習会｜能セン-合格への近道-",
+          "1級土木施工管理技士 受験対策講習会｜能セン-合格への近道-",
         meta: [
           {
             name: "description",
@@ -748,7 +748,7 @@
           {
             key: `og:title`,
             property: `og:title`,
-            content: `2級土木施工管理技士 受験対策講習会｜能セン-合格への近道-`,
+            content: `1級土木施工管理技士 受験対策講習会｜能セン-合格への近道-`,
             // content: `1・2級 土木施工管理技士 | ${
             //   this.$static.metadata.siteName
             // }`,
@@ -756,7 +756,7 @@
           {
             key: `og:url`,
             property: `og:url`,
-            content: `${this.$static.metadata.siteUrl}/doboku-s`,
+            content: `${this.$static.metadata.siteUrl}/doboku-f`,
           },
         ],
       };
