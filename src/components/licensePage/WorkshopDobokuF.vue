@@ -30,7 +30,7 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(2日間/15時間)</p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
-          <p class="workshop-text -third">2026年度 実施なし</p>
+          <p class="workshop-text -third">令和8年度 実施なし</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
@@ -46,7 +46,7 @@
             <!-- <p class="workshop-border">
               8月31日(土)～9月1日(日)9:30～17:00【終了】
             </p> -->
-            <p class="workshop-border -none">2026年度 オンライン講座のみ</p>
+            <p class="workshop-border -none">令和8年度 オンライン講座のみ</p>
           </div>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -260,7 +260,7 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
-          <p class="workshop-text -third">2026年度 配信なし</p>
+          <p class="workshop-text -third">令和8年度 配信なし</p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
