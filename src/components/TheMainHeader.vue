@@ -115,10 +115,9 @@
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link>
+                <g-link to="/doboku-f">
                   <li class="doboku">
                     1級
-                    <span class="status">【準備中】</span>
                     <br class="overdisplay" />
                     土木施工管理技士
 
