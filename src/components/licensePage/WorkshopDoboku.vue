@@ -761,7 +761,8 @@
                 <tr>
                   <th>勉強を続けられる工夫</th>
                   <td>
-                    ・ <span class="-red">勉強フォローアップサービスあり</span>
+                    ・
+                    <span class="-red">勉強フォローアップサービスあり</span>
                     <br />
                     ・講習会場でのご質問対応。メール・お電話でも対応いたします
                     <br />
@@ -918,7 +919,8 @@
                 <tr>
                   <th>勉強を続けられる工夫</th>
                   <td>
-                    ・ <span class="-red">勉強フォローアップサービスあり</span>
+                    ・
+                    <span class="-red">勉強フォローアップサービスあり</span>
                     <br />
                     ・過去に撮影した動画が全て見放題
                     <br />
@@ -929,6 +931,12 @@
                     ・
                     <span>【🎓 GO!資格 合格応援制度】</span>
                     あり
+                    <br />
+                    &emsp;
+                    <br />
+                    &emsp;
+                    <br />
+                    &emsp;
                   </td>
                 </tr>
                 <tr>
@@ -1599,6 +1607,10 @@
   }
 
   .workshopTable-wrapper {
+    width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
     a {
       color: #1da1f2;
     }

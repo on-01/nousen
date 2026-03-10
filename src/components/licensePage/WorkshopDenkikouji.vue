@@ -780,6 +780,12 @@
                     ・
                     <span>【🎓 GO!資格 合格応援制度】</span>
                     あり
+                    <br />
+                    &emsp;
+                    <br />
+                    &emsp;
+                    <br />
+                    &emsp;
                   </td>
                 </tr>
                 <tr>
@@ -1442,6 +1448,10 @@
   }
 
   .workshopTable-wrapper {
+    width: 50%;
+    @media print, screen and (max-width: 1000px) {
+      width: 100%;
+    }
     a {
       color: #1da1f2;
     }
