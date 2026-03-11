@@ -18,7 +18,7 @@
             <ul>
               <li>
                 <div class="time-text">
-                  <p class="text-top">前期(7月)試験</p>
+                  <p class="text-top">一次（７月）試験</p>
                   <p class="text-bottom">{{ targetDateFormatted1 }}まであと</p>
                 </div>
                 <p class="time-day">
@@ -28,7 +28,7 @@
               </li>
               <li>
                 <div class="time-text">
-                  <p class="text-top">後期(10月)試験</p>
+                  <p class="text-top">二次（10月）試験</p>
                   <p class="text-bottom">{{ targetDateFormatted2 }}まであと</p>
                 </div>
                 <p class="time-day">
