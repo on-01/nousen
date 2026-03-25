@@ -34,8 +34,8 @@
   export default {
     data() {
       return {
-        targetDate1: new Date("2025-08-31"),
-        targetDate2: new Date("2026-03-22"),
+        targetDate1: new Date("2026-08-30"),
+        targetDate2: new Date("2027-03-21"),
         today: new Date(),
       };
     },
