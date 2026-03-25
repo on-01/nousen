@@ -177,6 +177,16 @@ query {
         "https://t.afi-b.com/jslib/lpcv.js?cid=cd77d6d9&pid=Q15743i";
       script2.async = true;
       document.body.appendChild(script2);
+
+      // AD TRACK CV タグ
+      // ※ _buyer と _article の値は AD TRACK 担当者から発行された値に変更してください
+      const adtrackCvScript = document.createElement('script');
+      adtrackCvScript.language = 'javascript';
+      adtrackCvScript.src = 'https://ad-track.jp/ad/js/cv.js';
+      adtrackCvScript.onload = function() {
+        adtrack_cv.cv('adm_adtr_xuid', 'https://ad-track.jp/ad', '_buyer=31190&_article=26664&_buid=' + orderNumber + '&key1=');
+      };
+      document.body.appendChild(adtrackCvScript);
     },
   };
 </script>
