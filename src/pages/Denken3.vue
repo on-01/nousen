@@ -9,7 +9,7 @@
               require('../assets/img/license_page/denken3/denken3_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和7年度下期/令和8年度上期"
+            headTitle="令和8年度上期/令和8年度下期"
             title="第三種電気主任技術者"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
@@ -90,7 +90,7 @@
             />
 
             <div class="bg-lightBlue">
-              <Schedule title="令和7年度 第三種電気主任技術者 試験日程" />
+              <Schedule title="令和8年度 第三種電気主任技術者 試験日程" />
               <TestOverview />
               <div class="experience-link">
                 <a

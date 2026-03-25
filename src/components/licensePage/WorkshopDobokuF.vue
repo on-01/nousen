@@ -430,20 +430,7 @@
           ※本講座は、1IDにつき1名様のみ受講可能です
         </p>
       </div>
-      <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">
-          &#x26a0;お申し込みの前にご確認ください
-          <br />
-          ■事前に以下の視聴テストページで映像・音声が再生されるかをご確認ください
-        </p>
-        <p class="workshop-flow-text">
-          <a href="https://deliveru.jp/pretest5/">視聴テストページ</a>
-          <br />
-          画面に表示されるユーザー名およびパスワード欄には「livetest55」と入力してログインしてください。
-          <br />
-          ※当日に視聴できない場合のお問い合わせには対応できないことがございます
-        </p>
-      </div>
+
       <p class="workshop-flow-heading">
         ■推奨環境については、以下をご覧ください
       </p>
