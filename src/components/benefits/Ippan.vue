@@ -3,7 +3,8 @@
     <header class="header">
       <h3 class="title">一般教育訓練給付金</h3>
       <p class="sub-title">
-        資格取得やスキルアップのため、受講費用の一部が給付される制度です。
+        資格取得やスキルアップのために、受講費用の一部が支給される制度です。<br />
+        能センの対象講座を修了し、一定の条件を満たした方は、一般教育訓練給付金を申請できます。
       </p>
       <iframe
         src="https://www.youtube.com/embed/YsTjofwvi1k?si=iDnQtH0oqxoIwIXr"
@@ -153,7 +154,8 @@
     text-align: center;
   }
   .sub-title {
-    font-weight: bold;
+    font-weight: normal;
+    font-family: "メイリオ", sans-serif;
     text-align: center;
   }
 
