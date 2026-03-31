@@ -196,8 +196,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  教育訓練給付金（一般教育訓練）
+                  教育訓練給付金
                 </a>
+                （一般教育訓練）
               </td>
             </tr>
             <tr>
