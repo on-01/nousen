@@ -24,51 +24,61 @@
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          受講料の20％が支給されます
+          受講費用の20％（上限10万円）が支給されます
         </p>
         <p class="point">
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          何度でも利用できます(過去に給付を受けられた方は支給されてから3年以上経過していること)
+          初めて利用する方は、雇用保険の加入期間が1年以上で対象となります
         </p>
         <p class="point">
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          試験の受験有無・合否に関係なく、申請することができます
+          過去に給付を受けたことがある方も、一定の条件を満たせば再度利用できます
         </p>
       </section>
       <section class="section">
         <div class="section-title">
-          <h4 class="section-title-inner">対象者の条件は？</h4>
+          <h4 class="section-title-inner">対象となる方</h4>
         </div>
-        <p>1～3の要件全てに当てはまる方が対象です。</p>
         <dl class="check">
           <dt>
             <IconBase class="icon"><IconCheck /></IconBase>
-            その1
-          </dt>
-          <dd>雇用保険に3年以上加入している</dd>
-        </dl>
-        <p>
-          (※初めて給付を受ける方は1年以上の加入でOK！また、離職者の場合は、退職するまでの雇用保険加入期間が3年以上で、退職の翌日から受講開始までが1年以内の方が対象です。)
-        </p>
-        <dl class="check">
-          <dt>
-            <IconBase class="icon"><IconCheck /></IconBase>
-            その2
+            その1　雇用保険の加入条件を満たしている方
           </dt>
           <dd>
-            受講する講座の課題で定められた基準点以上の成績をクリアすること
+            ・受講開始日時点で、雇用保険の加入期間が<strong>原則3年以上</strong>ある方
+            <br />
+            ・離職中の方は、離職日の翌日から受講開始日までが<strong>1年以内</strong>であること
+            <br />
+            <strong>・初めて教育訓練給付金を利用する方は、加入期間1年以上で可</strong>
+            <br />
+            ※ 受給資格の詳細は、ハローワークで事前照会することができます
           </dd>
         </dl>
         <dl class="check">
           <dt>
             <IconBase class="icon"><IconCheck /></IconBase>
-            その3
+            その2　講座の修了認定基準を満たした方
           </dt>
-          <dd>受講費用を自己負担でお支払いされた方(会社の経費等は対象外)</dd>
+          <dd>
+            給付金の申請には、講座で定める修了認定基準を満たし、修了していることが必要です。
+            <br />
+            修了認定基準は、出席率（視聴率）や修了試験などの客観的な基準に基づいて定められます。
+          </dd>
+        </dl>
+        <dl class="check">
+          <dt>
+            <IconBase class="icon"><IconCheck /></IconBase>
+            その3　受講費用を自己負担で支払った方
+          </dt>
+          <dd>
+            受講費用を本人が自己負担で支払っていることが必要です。
+            <br />
+            会社負担分がある場合は、その分は対象外となります
+          </dd>
         </dl>
       </section>
       <section class="section">
@@ -193,6 +203,7 @@
     }
     dd {
       margin-left: 30px;
+      font-family: "メイリオ", sans-serif;
       @media print, screen and (max-width: 1000px) {
         margin-left: 0px;
       }
