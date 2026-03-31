@@ -241,13 +241,11 @@
               </p>
             </div>
             <div class="workshop-flow-box">
-              <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+              <p class="workshop-flow-heading">■ 高性能な動画配信サイト</p>
               <p class="workshop-flow-text">
-                動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+                専用アプリのインストールは不要で、ブラウザから簡単にご利用いただけます。
                 <br />
-                専用アプリなどをインストールする必要はなく、操作も簡単です。
-                <br />
-                高いセキュリティ性により安心してご利用いただけます。
+                高いセキュリティ性により安心して受講いただけます。
                 <br />
                 ※本講座は、1IDにつき1名様のみ受講可能です
               </p>
