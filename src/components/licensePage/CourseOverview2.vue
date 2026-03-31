@@ -188,6 +188,16 @@
                   人材開発支援助成金
                 </a>
                 （人材育成支援コース）
+                <br />
+                ・
+                <a
+                  class="courseOverview-link"
+                  href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/kyouiku.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  教育訓練給付金（一般教育訓練）
+                </a>
               </td>
             </tr>
             <tr>
