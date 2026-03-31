@@ -403,11 +403,19 @@
         </p>
       </div>
 
-      <p class="workshop-flow-heading">
-        ■推奨環境については、以下をご覧ください
-      </p>
+      <p class="workshop-flow-heading">【動作環境】</p>
       <p class="workshop-flow-text">
-        <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
+        ■ PC<br />
+        ・Windows / Mac（最新OS）<br />
+        ・Google Chrome / Microsoft Edge / Safari / Firefox（各最新版）
+        <br /><br />
+        ■ スマートフォン・タブレット<br />
+        ・Android 8.0以上 / iOS 13以上<br />
+        ・Android：Google Chrome（最新版）<br />
+        ・iPhone / iPad：Safari（最新版）
+        <br /><br />
+        ■ インターネット環境<br />
+        ・安定したインターネット回線（10Mbps以上推奨）
       </p>
     </div>
     <div class="bg-white_type2">
