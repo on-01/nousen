@@ -267,7 +267,7 @@
           <p class="workshop-text -first">二次コース(約5.5時間)</p>
           <div class="workshop-text -third">
             <p class="workshop-border -none">
-              10月15日～12月15日まで          
+              10月13日～12月15日まで
               <span>【受付中】</span>
             </p>
           </div>
@@ -683,7 +683,7 @@
                   <td>
                     一次：5月11日～12月15日まで<span class="-red">【受付中】</span>
                     <br />
-                    二次：10月15日～12月15日まで<span class="-red">【受付中】</span>
+                    二次：10月13日～12月15日まで<span class="-red">【受付中】</span>
                   </td>
                 </tr>
                 <tr>
