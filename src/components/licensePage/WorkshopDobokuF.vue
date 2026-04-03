@@ -419,23 +419,29 @@
         </p>
       </div>
       <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+        <p class="workshop-flow-heading">■ 高性能な動画配信サイト</p>
         <p class="workshop-flow-text">
-          動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+          専用アプリのインストールは不要で、ブラウザから簡単にご利用いただけます。
           <br />
-          専用アプリなどをインストールする必要はなく、操作も簡単です。
-          <br />
-          高いセキュリティ性により安心してご利用いただけます。
+          高いセキュリティ性により安心して受講いただけます。
           <br />
           ※本講座は、1IDにつき1名様のみ受講可能です
         </p>
       </div>
 
-      <p class="workshop-flow-heading">
-        ■推奨環境については、以下をご覧ください
-      </p>
+      <p class="workshop-flow-heading">【動作環境】</p>
       <p class="workshop-flow-text">
-        <a href="https://deliveru.jp/faq/#Q7">推奨環境</a>
+        ■ PC<br />
+        ・Windows / Mac（最新OS）<br />
+        ・Google Chrome / Microsoft Edge / Safari / Firefox（各最新版）
+        <br /><br />
+        ■ スマートフォン・タブレット<br />
+        ・Android 8.0以上 / iOS 13以上<br />
+        ・Android：Google Chrome（最新版）<br />
+        ・iPhone / iPad：Safari（最新版）
+        <br /><br />
+        ■ インターネット環境<br />
+        ・安定したインターネット回線（10Mbps以上推奨）
       </p>
     </div>
     <div class="bg-white_type2">
@@ -704,12 +710,11 @@
                     <br />
                     ・過去問題5年分（二次コースは7年分）
                     <br />
+                    ・解答解説
+                    <br />
                     ・勉強計画表
                     <br />
                     ・試験日程一覧
-                    <br />
-                    ・旧二次テキスト
-                    <span class="-red">(プレゼント)</span>
                   </td>
                 </tr>
                 <tr>
@@ -855,12 +860,11 @@
                     <br />
                     ・過去問題5年分（二次コースは7年分）
                     <br />
+                    ・解答解説
+                    <br />
                     ・勉強計画表
                     <br />
                     ・試験日程一覧
-                    <br />
-                    ・旧二次テキスト
-                    <span class="-red">(プレゼント)</span>
                   </td>
                 </tr>
                 <tr>

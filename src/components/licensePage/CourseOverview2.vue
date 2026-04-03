@@ -188,6 +188,17 @@
                   人材開発支援助成金
                 </a>
                 （人材育成支援コース）
+                <br />
+                ・
+                <a
+                  class="courseOverview-link"
+                  href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/jinzaikaihatsu/kyouiku.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  教育訓練給付金
+                </a>
+                （一般教育訓練）
               </td>
             </tr>
             <tr>
@@ -241,13 +252,11 @@
               </p>
             </div>
             <div class="workshop-flow-box">
-              <p class="workshop-flow-heading">■高性能な動画配信サイト</p>
+              <p class="workshop-flow-heading">■ 高性能な動画配信サイト</p>
               <p class="workshop-flow-text">
-                動画配信にはイベント配信プラットフォーム「Deliveru」を利用します。
+                専用アプリのインストールは不要で、ブラウザから簡単にご利用いただけます。
                 <br />
-                専用アプリなどをインストールする必要はなく、操作も簡単です。
-                <br />
-                高いセキュリティ性により安心してご利用いただけます。
+                高いセキュリティ性により安心して受講いただけます。
                 <br />
                 ※本講座は、1IDにつき1名様のみ受講可能です
               </p>

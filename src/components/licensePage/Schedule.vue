@@ -41,7 +41,7 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  7月16日(木)～8月9日(日)
+                  7月16日(木)～8月09日(日)
                   <br />
                   (25日間)
                 </p>
@@ -53,11 +53,13 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  令和9年2月4日(木)〜2月28日(日)
+                  令和&nbsp;9年2月04日(木)〜2月28日(日)
                   <br />
                   (25日間)
                 </p>
-                <p class="schedule-table-padding">令和9年3月21日(日)</p>
+                <p class="schedule-table-padding">
+                  令和&nbsp;9年&nbsp;3月21日(日)
+                </p>
               </div>
             </td>
           </tr>
@@ -73,7 +75,7 @@
             </td>
             <!-- <td>１１月１３日(月)～１１月３０日(木)</td> -->
             <td>5月18日(月)～6月04日(木)</td>
-            <td>11月9日(月)～11月26日(木)</td>
+            <td>11月09日(月)～11月26日(木)</td>
           </tr>
           <!-- <tr>
             <td

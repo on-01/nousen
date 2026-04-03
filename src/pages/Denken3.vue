@@ -451,7 +451,7 @@
 
           <!-- オンライン講座 -->
           <div v-show="isActiveTop === 3">
-            <quality
+            <QualityDenkenOnline
               text_1="1.講師が執筆したオリジナルテキストを使用。ポイントを絞り、合格点の60点を超える力を的確に身に付けます（目標は80点以上）<br>
                         2.効果的な学習をサポートする副教材も特徴。自宅学習に使える解説付き問題集や、4科目分の添削課題付き。<br>
                         ※過去3年間の集計です（過去最高は95%）"
@@ -1102,6 +1102,7 @@
   import NewLecture from "../components/licensePage/NewLecture.vue";
   import Cheer from "../components/licensePage/Cheer.vue";
   import Quality from "../components/licensePage/Quality.vue";
+  import QualityDenkenOnline from "../components/licensePage/QualityDenkenOnline.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
   import InfoDenken3 from "@/components/licensePage/InfoDenken3.vue";
@@ -1195,6 +1196,7 @@
       NewLecture,
       Cheer,
       Quality,
+      QualityDenkenOnline,
       // News,
       Info,
       InfoDenken3,

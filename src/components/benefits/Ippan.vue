@@ -3,13 +3,23 @@
     <header class="header">
       <h3 class="title">一般教育訓練給付金</h3>
       <p class="sub-title">
-        資格取得やスキルアップのため、受講費用の一部が給付される制度です。
+        資格取得やスキルアップのために、受講費用の一部が支給される制度です。
+        <br />
+        能センの対象講座を修了し、一定の条件を満たした方は、一般教育訓練給付金を申請できます。
       </p>
       <iframe
         src="https://www.youtube.com/embed/YsTjofwvi1k?si=iDnQtH0oqxoIwIXr"
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
@@ -23,51 +33,68 @@
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          受講料の20％が支給されます
+          受講費用の20％（上限10万円）が支給されます
         </p>
         <p class="point">
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          何度でも利用できます(過去に給付を受けられた方は支給されてから3年以上経過していること)
+          初めて利用する方は、雇用保険の加入期間が1年以上で対象となります
         </p>
         <p class="point">
           <IconBase class="icon" width="30" height="30">
             <IconFingerDiagonallyUp />
           </IconBase>
-          試験の受験有無・合否に関係なく、申請することができます
+          過去に給付を受けたことがある方も、一定の条件を満たせば再度利用できます
         </p>
       </section>
       <section class="section">
         <div class="section-title">
-          <h4 class="section-title-inner">対象者の条件は？</h4>
+          <h4 class="section-title-inner">対象となる方</h4>
         </div>
-        <p>1～3の要件全てに当てはまる方が対象です。</p>
+        <p class="check-lead">次の条件をすべて満たす方が対象です。</p>
         <dl class="check">
           <dt>
             <IconBase class="icon"><IconCheck /></IconBase>
-            その1
-          </dt>
-          <dd>雇用保険に3年以上加入している</dd>
-        </dl>
-        <p>
-          (※初めて給付を受ける方は1年以上の加入でOK！また、離職者の場合は、退職するまでの雇用保険加入期間が3年以上で、退職の翌日から受講開始までが1年以内の方が対象です。)
-        </p>
-        <dl class="check">
-          <dt>
-            <IconBase class="icon"><IconCheck /></IconBase>
-            その2
+            その1　雇用保険の加入条件を満たしている方
           </dt>
           <dd>
-            受講する講座の課題で定められた基準点以上の成績をクリアすること
+            ・受講開始日時点で、雇用保険の加入期間が
+            <strong>原則3年以上</strong>
+            ある方
+            <br />
+            ・離職中の方は、離職日の翌日から受講開始日までが
+            <strong>1年以内</strong>
+            であること
+            <br />
+            <strong>
+              ・初めて教育訓練給付金を利用する方は、加入期間1年以上で可
+            </strong>
+            <br />
+            ※ 受給資格の詳細は、ハローワークで事前照会することができます
           </dd>
         </dl>
         <dl class="check">
           <dt>
             <IconBase class="icon"><IconCheck /></IconBase>
-            その3
+            その2　講座の修了認定基準を満たした方
           </dt>
-          <dd>受講費用を自己負担でお支払いされた方(会社の経費等は対象外)</dd>
+          <dd>
+            給付金の申請には、講座で定める修了認定基準を満たし、修了していることが必要です。
+            <br />
+            修了認定基準は、出席率（視聴率）や修了試験などの客観的な基準に基づいて定められます。
+          </dd>
+        </dl>
+        <dl class="check">
+          <dt>
+            <IconBase class="icon"><IconCheck /></IconBase>
+            その3　受講費用を自己負担で支払った方
+          </dt>
+          <dd>
+            受講費用を本人が自己負担で支払っていることが必要です。
+            <br />
+            会社負担分がある場合は、その分は対象外となります。
+          </dd>
         </dl>
       </section>
       <section class="section">
@@ -75,23 +102,14 @@
           <h4 class="section-title-inner">どの講座で利用できるの？</h4>
         </div>
         <p>
-          能センでは下記が対象講座になっています。（令和7年度後期から対応予定）
+          能センでは下記が対象講座になります。（令和７年度後期から対応予定）
         </p>
         <ul class="list">
           <li>
-            第三種電気主任技術者 早期スタート基礎付
-            全科目コース[指定番号：134851010014]
+            第三種電気主任技術者【オンライン全科目】完全制覇コース[指定番号：1322083-2610012-1]
           </li>
           <li>
-            第三種電気主任技術者 基礎付 全科目コース[指定番号：134851220027]
-          </li>
-          <li>
-            第三種電気主任技術者 合格のための受験指導
-            通信講座6ヶ月コース[指定番号：134851110014]
-          </li>
-          <li>
-            第三種電気主任技術者 合格のための受験指導
-            通信講座3ヶ月コース[指定番号 134851910014]
+            第三種電気主任技術者【オンライン4科目】完全制覇コース[指定番号：1322083-2610022-4]
           </li>
         </ul>
       </section>
@@ -100,19 +118,43 @@
           <h4 class="section-title-inner">手続きの流れは？</h4>
         </div>
         <div class="flow">
-          <p>最初に自分と受講講座が制度の対象かを確認します。</p>
-          <p>給付制度を利用したい旨を講座申込書に記載します。</p>
           <p>
-            受講スタート！
+            ご自身が教育訓練給付制度の対象となるか、また受講予定の講座が対象講座かをご確認ください。
             <br />
-            必須課題を期間内に提出、修了課題で基準点(60点)以上の獲得が給付を受ける条件のひとつとなっています。
+            ※ハローワークで事前に「支給要件照会」を行うことができます
           </p>
           <p>
-            無事受講を修了しましたら申請に必要な書類一式をお送りいたします。ハローワークへご提出ください。(※申請可能なのは講座修了日の翌日から1か月以内となります。提出のお忘れにご注意ください)
+            一般教育訓練給付制度を利用される方は、講座申込み時に「申請する」をご選択ください。
           </p>
           <p>
-            申請後、ハローワークから「教育訓練給付金
-            支給・不支給決定通知書」が届きます。1か月以内に入金される予定です。
+            <strong>受講開始</strong>
+            <br />
+            受講開始後は、必須課題を期間内に提出し、能セン所定の修了認定基準を満たしてください。
+            <br />
+            修了課題で基準点（60点）以上を取得することは、給付申請に必要な修了要件のひとつです。
+            <br />
+            なお、基準点に満たなかった場合は、<strong>再提出して基準を満たしていただくことが可能</strong>です。
+            <br />
+            一般教育訓練給付金は、厚生労働大臣指定講座を修了したことが支給要件です。
+          </p>
+          <p>
+            <strong>修了後に必要書類を受け取り、ハローワークへ申請</strong>
+            <br />
+            無事に受講を修了された方には、申請に必要な書類一式をお送りします。
+            <br />
+            講座修了後、必要書類をそろえてハローワークへご提出ください。
+            <br />
+            なお、申請期限は<strong>講座修了日の翌日から1か月以内</strong>ですので、ご注意ください。
+            <br />
+            申請時には、修了証明書、領収書、クレジット払いの場合はクレジット契約証明書などが必要です。
+          </p>
+          <p>
+            <strong>審査・支給決定</strong>
+            <br />
+            申請後、ハローワークの審査を経て、「教育訓練給付金
+            支給・不支給決定通知書」が届きます。
+            <br />
+            支給決定となった場合は、指定したご本人名義の口座へ振り込まれます。
           </p>
         </div>
       </section>
@@ -162,7 +204,8 @@
     text-align: center;
   }
   .sub-title {
-    font-weight: bold;
+    font-weight: normal;
+    font-family: "メイリオ", sans-serif;
     text-align: center;
   }
 
@@ -188,9 +231,14 @@
       vertical-align: bottom;
     }
   }
+  .check-lead {
+    font-family: "メイリオ", sans-serif;
+    font-weight: 400;
+  }
   .check {
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     @media print, screen and (max-width: 1000px) {
       display: block;
     }
@@ -200,6 +248,8 @@
     }
     dd {
       margin-left: 30px;
+      font-family: "メイリオ", sans-serif;
+      font-weight: 400;
       @media print, screen and (max-width: 1000px) {
         margin-left: 0px;
       }
@@ -217,7 +267,9 @@
     }
   }
   .flow {
-    font-weight: bold;
+    font-weight: 400;
+    font-family: "メイリオ", sans-serif;
+
     p {
       margin: 0;
       &:not(:last-child):after {
