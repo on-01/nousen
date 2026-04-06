@@ -30,7 +30,7 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(2日間/15時間)</p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
-          <p class="workshop-text -third">5月4日(土)～5日(日)9:30～17:00
+          <p class="workshop-text -third">5月4日(祝)～5日(祝)9:30～17:00
             <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
