@@ -5,7 +5,7 @@
         <header class="header">
           <HeroDenkikouji
             :backImgOver="
-              require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.jpg')
+              require('../assets/img/license_page/denkikouji_s/denkikouji_s_hero.webp')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度前期 / 令和8年度後期"
