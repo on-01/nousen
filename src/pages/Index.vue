@@ -36,11 +36,7 @@
               alt="電験三種 講習会 通信講座"
             />
           </figure> -->
-          <transition-group
-            v-if="afterImgLoad"
-            appear
-            name="appear-animation"
-            tag="div"
+          <div
             class="qualification-list-wrap"
           >
             <div class="item item01 denken" key="item01">
@@ -213,7 +209,7 @@
                 />
               </picture>
             </div> -->
-          </transition-group>
+          </div>
           <!-- <figure class="top_right">
             <img
               src="../assets/img/common/top-right1.jpg"
@@ -1228,18 +1224,16 @@ query {
     },
     data() {
       return {
-        afterImgLoad: false,
         modal: false,
         isShow: true,
       };
     },
     mounted() {
-      //トップの背景の読み込みが終わってからアニメーションさせる
-      var image = new Image();
-      image.onload = () => {
-        this.afterImgLoad = true;
-      };
-      image.src = require("../assets/img/front/section01/main_background.jpg");
+      // AD TRACK LP タグ
+      const adtrackLpScript = document.createElement('script');
+      adtrackLpScript.language = 'javascript';
+      adtrackLpScript.src = 'https://ad-track.jp/ad/js/lpjs.js';
+      document.body.appendChild(adtrackLpScript);
 
       //スクロールしたらスクロールimg非表示
       window.addEventListener("scroll", this.onScroll);
@@ -2251,37 +2245,6 @@ query {
   // .appear-animation-leave-to {
   //   transform: translateY(0px);
   // }
-  @for $i from 1 through 10 {
-    $enter-delay: 200ms;
-    .appear-animation-enter-active {
-      opacity: 0;
-      animation: fade-in 1s;
-
-      // item01〜item10 のクラスに対応（10のみゼロ埋めしない）
-      $item-class: if($i < 10, "item0#{$i}", "item#{$i}");
-      &.#{$item-class} {
-        animation-delay: #{200ms * $i + $enter-delay};
-      }
-      @media print, screen and (max-width: 1000px) {
-        &.item09 {
-          //スマホのときは「勉強の時間がないという問題を~...を最初に出現させる」
-          animation-delay: 200ms;
-        }
-      }
-    }
-  }
-
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-      transform: translateY(-15px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
   .scroll_top {
     transition: all 0.3s;
     @media print, screen and (min-width: 1000px) {

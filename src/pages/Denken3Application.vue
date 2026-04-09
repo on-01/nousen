@@ -66,12 +66,6 @@ query {
       Hero,
     },
     mounted() {
-      // AD TRACK LP タグ
-      const adtrackLpScript = document.createElement('script');
-      adtrackLpScript.language = 'javascript';
-      adtrackLpScript.src = 'https://ad-track.jp/ad/js/lpjs.js';
-      document.body.appendChild(adtrackLpScript);
-
       // フォーム送信用のユニークIDを生成してセッションストレージに保存
       // サンクスページで注文番号として使用されます
       if (!sessionStorage.getItem("orderNumber")) {
