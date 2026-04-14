@@ -222,7 +222,7 @@
         <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 提出課題</p>
           <img
-            class="counterplan-img -second"
+            class="counterplan-img -denkikouji-exam"
             src="../../assets/img/license_page/denkikouji_s/counterplan-img.webp"
             alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
@@ -365,6 +365,7 @@
     margin-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
 
     @media print, screen and (max-width: 1000px) {
       width: 90%;
@@ -530,6 +531,13 @@
 
   .counterplan-img.-second {
     width: 46%;
+  }
+
+  .counterplan-img.-denkikouji-exam {
+    width: 28%;
+    @media print, screen and (max-width: 1000px) {
+      width: 50%;
+    }
   }
 
   .counterplan-img.-third {
