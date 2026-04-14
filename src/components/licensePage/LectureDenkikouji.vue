@@ -197,22 +197,24 @@
         </div> -->
       </div>
 
-      <!-- <p class="counterplan-title -top">第一次検定 試験対策</p>
-      <div class="lecture-section -counterplan">
+      <p class="counterplan-title -top">第一次検定 試験対策</p>
+      <div class="lecture-section -counterplan2">
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
           <img
-            class="counterplan-img -first"
+            class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">過去問５年分を進呈（一次）</p>
+          <p class="counterplan-text -yellow">過去問5年分を進呈（一次）</p>
           <p class="counterplan-text">
-            2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
-            <span>過去5年分の過去問題</span>
-            を提供いたします。
+            合格をつかむためには、過去問題の演習が欠かせません。
             <br />
-            この貴重な教材を試験対策にぜひご活用ください。
+            能センでは、2級電気工事施工管理技士の第一次検定対策として、過去5年分の過去問題・解答解説を受講生に進呈しています。
+            <br />
+            本試験の出題傾向をつかみ、重要ポイントを押さえながら実践力を高められる教材です。
+            <br />
+            合格に向けて、ぜひフル活用してください。
           </p>
         </div>
         <div class="counterplan-wrap">
@@ -220,7 +222,7 @@
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             100点満点で図書カードをプレゼント！
@@ -228,54 +230,26 @@
           <p class="counterplan-text">
             提出課題 / 解答解説
             <br />
-            ◆ 実力診断として実施してください
-            <br />
-            ◆ 試験時間：50分
-            <br />
-            ◆ 問題数：全20問
-            <br />
-            問題を解きながら、実力をチェックしてみましょう！
-            <br />
-            解答を提出していただいたうえで、見事全問正解された方には、
-            <span>【図書カード】</span>
-            をプレゼントいたします！
-          </p>
-        </div>
-        <div class="counterplan-wrap">
-          <p class="counterplan-head">一次検定 予想模擬試験</p>
-          <img
-            class="counterplan-img -third"
-            src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
-          />
-          <p class="counterplan-text -yellow">
-            一次試験の総仕上げ【予想模擬試験】
-          </p>
-          <p class="counterplan-text">
-            模擬試験/解答解説
-            <br />
             ◆ 学習の総仕上げとして実施してください
             <br />
             ◆ 試験時間：130分
             <br />
             ◆ 問題数：全61問
             <br />
-            最新の本試験出題傾向を徹底分析した一次試験対策の予想問題を、解答解説付きでご提供します。
+            本番を意識して取り組みながら、現在の力をチェックしてみましょう。
             <br />
-            一次試験完全突破を目指す最終ステージの模擬試験です！
-            <br />
-            この予想問題をしっかり解いて、自信を持って試験に臨みましょう。
+            解答をご提出いただき、見事100点満点だった方には、図書カードをプレゼントいたします。
           </p>
         </div>
-      </div> -->
-      <!-- <p class="counterplan-title">第二次検定 試験対策</p>
+      </div>
+      <p class="counterplan-title">第二次検定 試験対策</p>
       <div class="lecture-section -counterplan2">
         <div class="counterplan-wrap">
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
             class="counterplan-img -first"
             src="../../assets/img/license_page/doboku_s/counterplan-img4.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             専門講師が記述式の第二次検定を添削指導します！
@@ -312,24 +286,26 @@
           </p>
         </div>
         <div class="counterplan-wrap">
-          <p class="counterplan-head">過去問7年分</p>
+          <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
-            <p class="counterplan-text -yellow">過去問7年分を進呈</p>
+            <p class="counterplan-text -yellow">過去問5年分を進呈（二次）</p>
             <p class="counterplan-text">
-              2級土木施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
-              <span>過去7年分の過去問題</span>
-              を提供いたします。
+              2級電気工事施工管理技士の合格には、過去問題の演習がとても重要です。
               <br />
-              この貴重な教材を試験対策にぜひご活用ください。
+              過去問に取り組むことで、出題傾向や重要ポイントが見えてきて、実践力も着実に身についていきます。
+              <br />
+              能センでは、受講者の皆様に過去5年分の過去問題・解答解説を進呈しています。
+              <br />
+              合格に向けた学習に、ぜひお役立てください。
             </p>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
