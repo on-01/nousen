@@ -210,7 +210,9 @@
           <p class="counterplan-text">
             合格をつかむためには、過去問題の演習が欠かせません。
             <br />
-            能センでは、2級電気工事施工管理技士の第一次検定対策として、過去5年分の過去問題・解答解説を受講生に進呈しています。
+            能センでは、2級電気工事施工管理技士の第一次検定対策として、
+            <span>過去5年分の過去問題・解答解説</span>
+            を受講生に進呈しています。
             <br />
             本試験の出題傾向をつかみ、重要ポイントを押さえながら実践力を高められる教材です。
             <br />
@@ -221,7 +223,7 @@
           <p class="counterplan-head">一次検定 提出課題</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
+            src="../../assets/img/license_page/denkikouji_s/counterplan-img.webp"
             alt="電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
@@ -238,7 +240,9 @@
             <br />
             本番を意識して取り組みながら、現在の力をチェックしてみましょう。
             <br />
-            解答をご提出いただき、見事100点満点だった方には、図書カードをプレゼントいたします。
+            解答をご提出いただき、見事100点満点だった方には、
+            <span>図書カード</span>
+            をプレゼントいたします。
           </p>
         </div>
       </div>
@@ -299,7 +303,9 @@
               <br />
               過去問に取り組むことで、出題傾向や重要ポイントが見えてきて、実践力も着実に身についていきます。
               <br />
-              能センでは、受講者の皆様に過去5年分の過去問題・解答解説を進呈しています。
+              能センでは、受講者の皆様に
+              <span>過去5年分の過去問題・解答解説</span>
+              を進呈しています。
               <br />
               合格に向けた学習に、ぜひお役立てください。
             </p>
@@ -359,7 +365,6 @@
     margin-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: center;
 
     @media print, screen and (max-width: 1000px) {
       width: 90%;
