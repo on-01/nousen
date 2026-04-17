@@ -345,7 +345,7 @@
               "
             />
 
-            <WorkshopKenchiku />
+            <WorkshopKenchikuF />
 
             <NewPvMovieKenchiku
               :movie="$static.kenchikuOnline.mediaYoutube"
@@ -767,8 +767,6 @@
   import DiscountKenchiku from "../components/licensePage/DiscountKenchiku.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
-  import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
-  import WorkshopKenchiku from "../components/licensePage/WorkshopKenchiku.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
@@ -779,6 +777,7 @@
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import StudyKenchiku from "../components/licensePage/StudyKenchiku.vue";
+  import WorkshopKenchikuF from "../components/licensePage/WorkshopKenchikuF.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -845,7 +844,7 @@
       Fsc,
       SetCourse2,
       QualityKenchiku,
-      WorkshopKenchiku,
+      WorkshopKenchikuF,
       ScheduleKenchiku,
       ExamKenchiku,
       FollowUpKenchoku,
