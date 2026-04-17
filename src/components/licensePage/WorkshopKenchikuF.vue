@@ -1,6 +1,6 @@
 <template>
   <div class="workshop">
-    <p class="workshop-title">２級建築施工管理技士 通学講座(講習会)</p>
+    <p class="workshop-title">１級建築施工管理技士 通学講座(講習会)</p>
     <div class="workshop-topImg">
       <img
         src="../../assets/img/license_page/workshop-img1.jpg"
@@ -212,7 +212,7 @@
     </div>
 
     <p class="workshop-title -bottom">
-      ２級建築施工管理技士 オンライン通信講座(WEB講座)
+      １級建築施工管理技士 オンライン通信講座(WEB講座)
     </p>
     <div class="workshop-flex-img">
       <div>
@@ -694,7 +694,7 @@
                 <tr>
                   <th>教材/資料</th>
                   <td>
-                    ・２級建築施工管理技士 第一次・第二次検定合格ガイド
+                    ・１級建築施工管理技士 第一次・第二次検定合格ガイド
                     <br />
                     ・合格への学習ガイダンス
                     <br />
@@ -841,7 +841,7 @@
                 <tr>
                   <th>教材/資料</th>
                   <td>
-                    ・２級建築施工管理技士 第一次・第二次検定合格ガイド
+                    ・１級建築施工管理技士 第一次・第二次検定合格ガイド
                     <br />
                     ・合格への学習ガイダンス
                     <br />
