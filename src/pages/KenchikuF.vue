@@ -358,7 +358,7 @@
               description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
             />
 
-            <LectureKenchiku
+            <LectureKenchikuF
               title="井岡先生の講習がスゴイ！"
               text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
                 その後独立して１級建築士事務所を設立し現在に至る。
@@ -749,7 +749,7 @@
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
   import SupportSecond from "../components/licensePage/SupportSecond.vue";
-  import LectureKenchiku from "../components/licensePage/LectureKenchiku.vue";
+  import LectureKenchikuF from "../components/licensePage/LectureKenchikuF.vue";
   import CheerKenchikuF from "../components/licensePage/CheerKenchikuF.vue";
   // import News from "@/components/licensePage/News.vue";
   import Info from "@/components/licensePage/Info.vue";
@@ -828,7 +828,7 @@
       Support,
       SupportSecond,
       SupportSecondKenchiku,
-      LectureKenchiku,
+      LectureKenchikuF,
       Discount,
       DiscountKenchiku,
       CheerKenchikuF,

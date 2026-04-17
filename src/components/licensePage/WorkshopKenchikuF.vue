@@ -190,12 +190,12 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <div class="exam-link-flex">
-          <g-link to="/kenchiku-s-application" class="application-form-link">
+          <g-link to="/kenchiku-f-application" class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
-            to="/kenchiku-s-application-business"
+            to="/kenchiku-f-application-business"
             class="application-form-link"
           >
             お申込みはこちら（法人）
@@ -551,7 +551,9 @@
             <br />
             <br />
             ▶
-            <span>試験に出るポイントを絞り込み、問題演習を多く取り入れながら、重要用語・頻出事項・管理の考え方まで丁寧に解説します。</span>
+            <span>
+              試験に出るポイントを絞り込み、問題演習を多く取り入れながら、重要用語・頻出事項・管理の考え方まで丁寧に解説します。
+            </span>
             <br />
             1級第一次検定合格を目指す方はもちろん、第二次検定も見据えて早めに実力を固めたい方にもおすすめの講座です。
           </p>
@@ -581,7 +583,9 @@
             <br />
             <br />
             ▶
-            <span>二次試験では、現場経験を踏まえた記述力に加え、施工計画・施工図・材料・品質に関する理解も重要になります。</span>
+            <span>
+              二次試験では、現場経験を踏まえた記述力に加え、施工計画・施工図・材料・品質に関する理解も重要になります。
+            </span>
             <br />
             そのため能センでは、記述式問題の対策と知識問題の対策を両方行い、本試験で得点できる答案作成力を養います。
             <br />
