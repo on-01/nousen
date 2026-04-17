@@ -405,7 +405,7 @@
 
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
-              <FollowUpKenchoku />
+              <FollowUpKenchokuF />
               <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
@@ -551,7 +551,7 @@
 
               <SupportSecondKenchiku title="ミライを創ろう" />
               <Support title="＼＼建設業を応援しよう／／" />
-              <MerumagaKenchiku />
+              <MerumagaKenchikuF />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
@@ -771,10 +771,10 @@
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
-  import FollowUpKenchoku from "../components/licensePage/FollowUpKenchoku.vue";
+  import FollowUpKenchokuF from "../components/licensePage/FollowUpKenchokuF.vue";
   import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
-  import MerumagaKenchiku from "../components/licensePage/MerumagaKenchiku.vue";
+  import MerumagaKenchikuF from "../components/licensePage/MerumagaKenchikuF.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import StudyKenchiku from "../components/licensePage/StudyKenchiku.vue";
@@ -848,10 +848,10 @@
       WorkshopKenchikuF,
       ScheduleKenchiku,
       ExamKenchiku,
-      FollowUpKenchoku,
+      FollowUpKenchokuF,
       TestOverviewKenchiku,
       Gansho,
-      MerumagaKenchiku,
+      MerumagaKenchikuF,
       TimeCountKenchiku,
       IconFingerRight,
       StudyKenchiku,
