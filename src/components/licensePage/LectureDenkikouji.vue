@@ -284,9 +284,6 @@
             <span>・料金：3,800円（税込4,180円）</span>
             <br />
             <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
-            <br />
-            &emsp;土木・鋼構造物塗装・薬液注入の全種別対応。
-            <br />
           </p>
         </div>
         <div class="counterplan-wrap">
