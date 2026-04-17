@@ -28,9 +28,9 @@
       <p class="sub-title">
         <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
         | -->
-        <p href="https://kenchiku.nouryoku.com/">通学講座</p>
+        <a>通学講座</a>
         |
-        <p href="https://kenchiku-online.nouryoku.com/">オンライン講座</p>
+        <a>オンライン講座</a>
         <!-- |
         <a href="https://t.kouza.nouryoku.com/">通信講座</a> -->
       </p>
@@ -151,7 +151,8 @@
       ::v-deep span {
         color: red;
       }
-      a {
+      a,
+      p {
         text-decoration: underline;
       }
     }
