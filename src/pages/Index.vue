@@ -81,7 +81,6 @@
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
-                <span>【準備中】</span>
                 <br />
                 建築施工管理技士
                 <IconOnline iconClass="online_icon_index" />
