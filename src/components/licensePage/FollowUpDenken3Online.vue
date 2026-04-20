@@ -223,7 +223,7 @@
               <p class="follow-text">
                 能センレポは、受講生のログイン・動画視聴・課題提出状況を自動集計し、学習が順調かどうかまで判定できる学習進捗管理サービスです。
               </p>
-              <p class="follow-heading">📅 サポート期間：後期試験日まで</p>
+              <p class="follow-heading">📅 サポート期間：試験日まで</p>
               <p class="follow-heading">💻 サービス内容</p>
               <p class="follow-text">
                 ✅ ログイン・動画視聴・課題提出を自動集計

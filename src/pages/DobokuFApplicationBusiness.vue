@@ -2,7 +2,7 @@
   <Layout>
     <div class="doboku-s-application">
       <header class="header">
-        <Hero title="1級•2級施工管理技士<br>講座お申込み" color="#ed7d31" />
+        <Hero title="1級土木施工管理技士<br>講座お申込み" color="#ed7d31" />
       </header>
       <div class="contents">
         <iframe
@@ -37,18 +37,18 @@ query {
     metaInfo() {
       return {
         titleTemplate:
-          "1・2級土木施工管理技士お申込みフォーム（法人用）｜能セン-合格への近道-",
+          "1級土木施工管理技士お申込みフォーム（法人用）｜能セン-合格への近道-",
         meta: [
           {
             name: "description",
             content:
-              "能セン受験対策講習会「1・2級施工管理技士」の法人用お申込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。",
+              "能セン受験対策講習会「1級土木施工管理技士」の法人用お申込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。",
           },
           {
             key: `og:title`,
             property: `og:title`,
             // content: `1・2級 土木施工管理技士講習お申し込み | ${this.$static.metadata.siteName}`,
-            content: `1・2級土木施工管理技士お申込みフォーム（法人用）｜能セン-合格への近道-`,
+            content: `1級土木施工管理技士お申込みフォーム（法人用）｜能セン-合格への近道-`,
           },
           {
             key: `og:url`,
