@@ -206,7 +206,7 @@
       <div class="lecture-section -book">
         <div class="book-wrap -left">
           <img
-            src="../../assets/img/license_page/kenchiku_s/lecture-book1.png"
+            src="../../assets/img/license_page/kenchiku_s/lecture-book3.webp"
             alt="建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【一次・二次コース】</p>
@@ -364,9 +364,6 @@
             <span>・料金：3,800円（税込4,180円）</span>
             <br />
             <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
-            <br />
-            &emsp;建築・躯体・仕上げの全種別対応。
-            <br />
           </p>
         </div>
         <div class="counterplan-wrap">
