@@ -106,10 +106,9 @@
                     (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link>
+                <g-link to="/kenchiku-f">
                   <li class="kenchiku">
                     1級
-                    <span class="status">【準備中】</span>
                     <br class="overdisplay" />
                     建築施工管理技士
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
@@ -902,7 +901,9 @@
     width: 100%;
     left: 0;
     background-color: #fff;
-    transition: height, opacity 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
+    transition:
+      height,
+      opacity 0.3s cubic-bezier(0.35, 0.13, 0.35, 0.88);
     z-index: 0;
     opacity: 1;
     @media print, screen and(min-width: 1001px) {

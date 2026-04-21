@@ -2,10 +2,7 @@
   <Layout>
     <div class="denkikouji-s-application">
       <header class="header">
-        <Hero
-          title="1級•2級電気工事施工管理技士<br>講座お申込み"
-          color="#00a73c"
-        />
+        <Hero title="2級電気工事施工管理技士<br>講座お申込み" color="#00a73c" />
       </header>
       <div class="contents">
         <iframe
@@ -40,18 +37,18 @@ query {
     metaInfo() {
       return {
         titleTemplate:
-          "1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-",
+          "2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-",
         meta: [
           {
             name: "description",
             content:
-              "能セン受験対策講習会「1・2級電気工事施工管理技士」のお申し込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。",
+              "能セン受験対策講習会「2級電気工事施工管理技士」のお申し込みフォームです。通学講座、オンライン講座共にこちらのフォームからお申込み頂けます。経験豊富な講師陣のポイントを絞った的確な講義をぜひ一度ご体験ください。",
           },
           {
             key: `og:title`,
             property: `og:title`,
             // content: `1級・2級 電気工事施工管理技士講習お申し込み | ${this.$static.metadata.siteName}`,
-            content: `1・2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-`,
+            content: `2級電気工事施工管理技士お申し込みフォーム｜能セン-合格への近道-`,
           },
           {
             key: `og:url`,

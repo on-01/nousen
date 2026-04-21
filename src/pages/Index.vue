@@ -36,9 +36,7 @@
               alt="電験三種 講習会 通信講座"
             />
           </figure> -->
-          <div
-            class="qualification-list-wrap"
-          >
+          <div class="qualification-list-wrap">
             <div class="item item01 denken" key="item01">
               <g-link to="/denken3">
                 <!-- <span>電験</span>
@@ -79,11 +77,10 @@
               </g-link>
             </div>
             <div class="item item03 kenchiku" key="item03">
-              <g-link>
+              <g-link to="/kenchiku-f">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
-                <span>【準備中】</span>
                 <br />
                 建築施工管理技士
                 <IconOnline iconClass="online_icon_index" />
@@ -1230,9 +1227,9 @@ query {
     },
     mounted() {
       // AD TRACK LP タグ
-      const adtrackLpScript = document.createElement('script');
-      adtrackLpScript.language = 'javascript';
-      adtrackLpScript.src = 'https://ad-track.jp/ad/js/lpjs.js';
+      const adtrackLpScript = document.createElement("script");
+      adtrackLpScript.language = "javascript";
+      adtrackLpScript.src = "https://ad-track.jp/ad/js/lpjs.js";
       document.body.appendChild(adtrackLpScript);
 
       //スクロールしたらスクロールimg非表示
