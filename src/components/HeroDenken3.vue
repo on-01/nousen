@@ -83,6 +83,7 @@
   }
   .hero-inner {
     height: 470px;
+    background-color: #fff;
     background-position: center;
     background-size: cover;
     position: relative;
