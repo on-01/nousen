@@ -170,7 +170,7 @@
                 <br />
                 講習会・オンライン講座それぞれに対応。
               </p>
-              <p class="follow-heading">📅 サポート期間：下期試験日まで</p>
+              <p class="follow-heading">📅 サポート期間：試験日まで</p>
               <p class="follow-heading">💻 オンライン講座用（1,650円／人）</p>
               <p class="follow-text">
                 ✅ ログイン・動画視聴・課題提出を自動集計
@@ -184,7 +184,7 @@
                 👉
                 学習の遅れや離脱を早期に発見し、合格までのペース管理を徹底します
               </p>
-              <p class="follow-heading">📅 講習会用（無料）</p>
+              <p class="follow-heading">📅 講習会用（1,100円／人）</p>
               <p class="follow-text">
                 ✅ 講習会の出欠状況を自動集計
                 <br />
@@ -194,8 +194,7 @@
                 <br />
                 ✅ 講習開催後、月曜10:00にレポート自動送信
                 <br />
-                👉
-                出欠管理の手間を削減し、欠席者への迅速なフォローが可能になります
+                📄 修了証を発行します（所定の日数を受講した方）
               </p>
               <p class="follow-heading">🎯 導入メリット（共通）</p>
               <p class="follow-text">
@@ -263,7 +262,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">🔹 勉強管理コーチング（4,400円）</p>
+              <p class="follow-heading">🔹 勉強管理コーチング（5,500円）</p>
               <p class="follow-text">
                 「一人で頑張っても、途中で挫折してしまう…」
                 <br />
