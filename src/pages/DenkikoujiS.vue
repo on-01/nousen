@@ -21,7 +21,7 @@
             :imagePath="
               require('../assets/img/license_page/denkikouji_s/denkikouji_s_cheer.jpg')
             "
-            altText="電気工事施工管理技士 講習会 通信講座 web講座"
+            altText="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <!-- <Hero
           :backImgOver="
@@ -80,7 +80,7 @@
               :imagePath="
                 require('../assets/img/license_page/denkikouji_s/denkikouji_explain.jpg')
               "
-              altText="電気工事施工管理技士 講習会 通信講座 web講座"
+              altText="2級電気工事施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd">
               <ScheduleDenkikouji
@@ -193,7 +193,7 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
-              altText="土木施工管理技士 講習会 通信講座 web講座"
+              altText="2級電気工事施工管理技士 講習会 通信講座 web講座"
             />
 
             <div class="bg-white">

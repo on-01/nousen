@@ -99,7 +99,7 @@
           <li>
             <img
               src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg"
-              alt="電験三種 第三種電気主任技術者"
+              alt="1級建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="exam-textWrap">
               <p class="exam-head">
@@ -121,7 +121,7 @@
           <li>
             <img
               src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg"
-              alt="電験三種 第三種電気主任技術者"
+              alt="1級建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="exam-textWrap">
               <p class="exam-head">
@@ -144,7 +144,7 @@
           <li>
             <img
               src="../../assets/img/license_page/denken3/denken3_exam_8.png"
-              alt="電験三種 第三種電気主任技術者"
+              alt="1級建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="exam-textWrap">
               <p class="exam-head">Program③｜提出課題と終了試験で実力を可視化</p>
@@ -161,7 +161,7 @@
           <li>
             <img
               src="../../assets/img/license_page/denken3/denken3_exam_9.png"
-              alt="電験三種 第三種電気主任技術者"
+              alt="1級建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="exam-textWrap">
               <p class="exam-head">

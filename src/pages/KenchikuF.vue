@@ -21,7 +21,7 @@
             :imagePath="
               require('../assets/img/license_page/kenchiku_s/kenchiku_point3.jpg')
             "
-            altText="建築施工管理技士 講習会 通信講座 web講座"
+            altText="1級建築施工管理技士 講習会 通信講座 web講座"
           />
 
           <!-- トップ部分タブ切り替え -->
@@ -54,7 +54,7 @@
               :imagePath="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_explain.jpg')
               "
-              altText="建築施工管理技士 講習会 通信講座 web講座"
+              altText="1級建築施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleKenchiku title="令和8年度 建築施工管理技士 試験日程" />
@@ -368,7 +368,7 @@
               :imagePath="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture.jpg')
               "
-              altText="建築施工管理技士 講習会 通信講座 web講座"
+              altText="1級建築施工管理技士 講習会 通信講座 web講座"
               title4="伊東先生の丁寧な講義で合格へ"
               text3="現役の専門学校講師である伊東先生の講義は、試験対策の知識やポイント・技術を教えるのと同時に、現場で経験した内容もわかりやすく説明します。
                 1級建築士・1級建築施工管理技士の資格を持ち、「建築材料」「建築施工」「建築製図II」が得意分野です。
@@ -376,7 +376,7 @@
               :imagePath3="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
               "
-              altText3="建築施工管理技士 講習会 通信講座 web講座"
+              altText3="1級建築施工管理技士 講習会 通信講座 web講座"
               teacher="井岡和雄 先生"
               profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
@@ -392,15 +392,15 @@
               :imageBook1="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_1.jpg')
               "
-              altBook1="建築施工管理技士 講習会 通信講座 web講座"
+              altBook1="1級建築施工管理技士 講習会 通信講座 web講座"
               :imageBook2="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_2.jpg')
               "
-              altBook2="建築施工管理技士 講習会 通信講座 web講座"
+              altBook2="1級建築施工管理技士 講習会 通信講座 web講座"
               :imageBook3="
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
               "
-              altBook3="建築施工管理技士 講習会 通信講座 web講座"
+              altBook3="1級建築施工管理技士 講習会 通信講座 web講座"
             />
 
             <div class="bg-white">

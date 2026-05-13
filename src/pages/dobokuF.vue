@@ -20,7 +20,7 @@
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
             "
-            altText="土木施工管理技士 講習会 通信講座 web講座"
+            altText="1級土木施工管理技士 講習会 通信講座 web講座"
           />
 
           <!-- トップ部分タブ切り替え -->
@@ -54,7 +54,7 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
               "
-              altText="土木施工管理技士 講習会 通信講座 web講座"
+              altText="1級土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleDoboku title="令和8年度 土木施工管理技士 試験日程" />
@@ -331,7 +331,7 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
-              altText="土木施工管理技士 講習会 通信講座 web講座"
+              altText="1級土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-white">
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->

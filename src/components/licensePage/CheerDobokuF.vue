@@ -7,7 +7,7 @@
           <p class="cheer-line"></p>
         </div>
         <figure class="cheer-image">
-          <g-image :src="imagePath" :alt="altText" />
+          <g-image :src="imagePath" alt="1級土木施工管理技士 講習会 通信講座 web講座" />
         </figure>
       </div>
 
