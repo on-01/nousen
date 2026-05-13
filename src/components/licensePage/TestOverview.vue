@@ -555,7 +555,7 @@
           また、移動負担の軽減や効率的な学習法の普及により、以前より合格しやすい傾向が見られるようになってきました。
         </p>
       </div>
-      <p class="test-heading">試験実地機関（試験お問い合わせ先）</p>
+      <p class="test-heading">試験実施機関（試験お問い合わせ先）</p>
       <div class="test-wrap -white">
         <p class="test-text -fz18">一般財団法人 電気技術者試験センター</p>
         <p class="test-text">
