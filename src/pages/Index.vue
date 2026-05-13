@@ -734,7 +734,7 @@
                   ・高圧・特高選任など希少案件も豊富
                 </p>
                 <p class="careerSupport-text -bold">
-                  技術と経験を次のキャリアにつなげませんんか？
+                  技術と経験を次のキャリアにつなげませんか？
                   <br />
                   <a
                     href="https://denkiworks.com/533/chief-electrical-engineer-v26-t1/?utm_source=affiliates&adgroup=nousen"
