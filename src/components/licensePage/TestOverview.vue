@@ -414,7 +414,7 @@
           </tr>
           <tr>
             <th class="test-table-left">試験時間</th>
-            <td class="test-table-right">60分</td>
+            <td class="test-table-right">65分</td>
           </tr>
           <tr>
             <th class="test-table-left">問題数・配点</th>
