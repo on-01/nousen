@@ -60,7 +60,7 @@
               <ScheduleDoboku title="令和8年度 土木施工管理技士 試験日程" />
               <TestOverviewDoboku />
 
-              <!-- <QualityDoboku
+              <!-- <QualityDobokuF
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -149,7 +149,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -162,7 +162,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -177,7 +177,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -190,7 +190,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -267,7 +267,7 @@
             <!-- <div class="bg-white_type2">
               <Discount title="合格応援割START！" />
 
-              <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecondDobokuF title="＼＼建設業を応援しよう／／" />
 
               <Fsc title="持続可能なミライへ" />
 
@@ -299,7 +299,7 @@
           </div>
           <!-- 講座情報 -->
           <div v-show="isActiveTop === 2">
-            <QualityDoboku
+            <QualityDobokuF
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -357,7 +357,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -370,7 +370,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -385,7 +385,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -398,7 +398,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -423,7 +423,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -441,7 +441,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="1級土木施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -451,7 +451,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="1級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -469,7 +469,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="1級土木施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -481,10 +481,10 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDoboku title="🎓 GO!資格 合格応援制度 START！" />
+              <DiscountDobokuF title="🎓 GO!資格 合格応援制度 START！" />
 
-              <SupportSecond title="ミライを創ろう" />
-              <SupportDoboku title="＼＼建設業を応援しよう／／" />
+              <SupportSecondDobokuF title="ミライを創ろう" />
+              <SupportDobokuF title="＼＼建設業を応援しよう／／" />
               <MerumagaDobokuF />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
@@ -692,7 +692,7 @@
   import NewPvMovieDoboku from "../components/licensePage/NewPvMovieDoboku.vue";
   import Method from "../components/licensePage/Method.vue";
   import Support from "../components/licensePage/Support.vue";
-  import SupportSecond from "../components/licensePage/SupportSecond.vue";
+  import SupportSecondDobokuF from "../components/licensePage/SupportSecondDobokuF.vue";
   import LectureF from "../components/licensePage/LectureF.vue";
   import CheerDobokuF from "../components/licensePage/CheerDobokuF.vue";
   // import News from "@/components/licensePage/News.vue";
@@ -710,13 +710,13 @@
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
-  import QualityDoboku from "../components/licensePage/QualityDoboku.vue";
+  import QualityDobokuF from "../components/licensePage/QualityDobokuF.vue";
   import WorkshopDobokuF from "../components/licensePage/WorkshopDobokuF.vue";
   import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
-  import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
-  import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
+  import SupportDobokuF from "../components/licensePage/SupportDobokuF.vue";
+  import DiscountDobokuF from "../components/licensePage/DiscountDobokuF.vue";
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
@@ -773,11 +773,11 @@
       NewPvMovieDoboku,
       Method,
       Support,
-      SupportDoboku,
-      SupportSecond,
+      SupportDobokuF,
+      SupportSecondDobokuF,
       LectureF,
       CheerDobokuF,
-      QualityDoboku,
+      QualityDobokuF,
       // News,
       Info,
       Venue,
@@ -790,7 +790,7 @@
       ContactInfo,
       Fsc,
       Discount,
-      DiscountDoboku,
+      DiscountDobokuF,
       SetCourse2,
       WorkshopDobokuF,
       ScheduleDoboku,

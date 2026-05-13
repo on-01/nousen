@@ -68,7 +68,7 @@
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/doboku_lecture2.jpg"
-            alt="土木施工管理技士 講習会 通信講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
         <div class="lecture-description">
@@ -207,7 +207,7 @@
         <div class="book-wrap -left">
           <img
             src="../../assets/img/license_page/kenchiku_s/lecture-book3.webp"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【一次・二次コース】</p>
           <p class="book-text700">
@@ -224,7 +224,7 @@
         <div class="book-wrap -right">
           <img
             src="../../assets/img/license_page/kenchiku_s/lecture-book2.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">🎁 旧版テキストを無料プレゼント！</p>
           <p class="book-text">
@@ -260,7 +260,7 @@
           <img
             class="counterplan-img -first"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             過去問５年分を進呈（一次コース）
@@ -278,7 +278,7 @@
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/kenchiku_s/counterplan-img1.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             １級に対応したスーパー問題集！！
@@ -304,7 +304,7 @@
           <img
             class="counterplan-img -third"
             src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             一次試験の総仕上げ【予想模擬試験】
@@ -333,7 +333,7 @@
           <img
             class="counterplan-img -first"
             src="../../assets/img/license_page/kenchiku_s/counterplan-img2.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             専門講師が記述式の第二次検定を添削指導します！
@@ -371,7 +371,7 @@
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="建築施工管理技士 講習会 通信講座 web講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             過去問５年分を進呈（二次コース）

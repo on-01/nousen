@@ -13,7 +13,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_1.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               みんなの建設業Q&A
@@ -24,7 +24,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               建設業ウェルカム
@@ -37,7 +37,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_3.png"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               建設産業ガイドブック
@@ -52,7 +52,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_5.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               建設業の働き方改革
@@ -63,7 +63,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_6.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               ビルドＡＬＬ（2025）
@@ -74,7 +74,7 @@
           <!-- <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_7.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               ビルドＡＬＬ（2024）
@@ -87,7 +87,7 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_8.jpg"
-              alt="土木施工管理技士 講習会 通信講座 web講座"
+              alt="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <p class="support-text">
               災害対策ハンドブック

@@ -5,7 +5,7 @@
         <p class="follow-headline-title">
           <img
             src="../../assets/img/front/reason_main_headline7.svg"
-            alt="電験三種 講習会 通信講座"
+            alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
         </p>
       </div>
@@ -31,7 +31,7 @@
               <img
                 class="img-1"
                 src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
-                alt="建築施工管理技士 講習会 通信講座 web講座"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">
@@ -74,7 +74,7 @@
               <img
                 class="img-2"
                 src="../../assets/img/license_page/denken3/follow-img2.jpg"
-                alt="建築施工管理技士 講習会 通信講座 web講座"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">
@@ -126,7 +126,7 @@
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img3.jpg"
-                alt="建築施工管理技士 講習会 通信講座 web講座"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">
@@ -160,7 +160,7 @@
               <img
                 class="follow-left-img"
                 src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">
@@ -214,7 +214,7 @@
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">
@@ -258,7 +258,7 @@
               <img
                 class="img-6"
                 src="../../assets/img/license_page/denken3/follow-img6.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
             <div class="follow-textWrap">

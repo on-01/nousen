@@ -60,7 +60,7 @@
               <ScheduleKenchiku title="令和8年度 建築施工管理技士 試験日程" />
               <TestOverviewKenchiku />
 
-              <!-- <QualityKenchiku
+              <!-- <QualityKenchikuF
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -78,7 +78,7 @@
               "
             /> -->
 
-              <!-- <Support title="＼＼建設業を応援しよう／／" /> -->
+              <!-- <SupportKenchikuF title="＼＼建設業を応援しよう／／" /> -->
 
               <!-- <PvMovie
             :movie="$static.kenchikuOnline.mediaYoutube"
@@ -150,7 +150,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="建築施工管理技士 講座 講習会"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -163,7 +163,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="建築施工管理技士 講座 講習会"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -178,7 +178,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="建築施工管理技士 講座 講習会"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -191,7 +191,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="建築施工管理技士 講座 講習会"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -297,7 +297,7 @@
             <!-- <div class="bg-white_type2">
               <Discount title="合格応援割START！" />
 
-              <SupportSecond title="＼＼建設業を応援しよう／／" />
+              <SupportSecondKenchikuF title="＼＼建設業を応援しよう／／" />
 
               <Fsc title="持続可能なミライへ" />
 
@@ -328,7 +328,7 @@
 
           <!-- 講座情報 -->
           <div v-show="isActiveTop === 2">
-            <QualityKenchiku
+            <QualityKenchikuF
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
@@ -423,7 +423,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -436,7 +436,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -451,7 +451,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -464,7 +464,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -489,7 +489,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_1.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -507,7 +507,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_1.jpg"
-                          alt="建築施工管理技士 講習会 通信講座 web講座"
+                          alt="1級建築施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -517,7 +517,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_2.jpg"
-                            alt="建築施工管理技士 講習会 通信講座 web講座"
+                            alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -535,7 +535,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/kenchiku_s/kenchiku_voice_comment_2.jpg"
-                          alt="建築施工管理技士 講習会 通信講座 web講座"
+                          alt="1級建築施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -547,10 +547,10 @@
             <!-- <Campaign day="2" date="7/22(月)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountKenchiku title="🎓 GO!資格 合格応援制度 START！" />
+              <DiscountKenchikuF title="🎓 GO!資格 合格応援制度 START！" />
 
               <SupportSecondKenchiku title="ミライを創ろう" />
-              <Support title="＼＼建設業を応援しよう／／" />
+              <SupportKenchikuF title="＼＼建設業を応援しよう／／" />
               <MerumagaKenchikuF />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
@@ -747,8 +747,8 @@
   import Linelink from "@/components/licensePage/Linelink.vue";
   import NewPvMovieKenchiku from "../components/licensePage/NewPvMovieKenchiku.vue";
   import Method from "../components/licensePage/Method.vue";
-  import Support from "../components/licensePage/Support.vue";
-  import SupportSecond from "../components/licensePage/SupportSecond.vue";
+  import SupportKenchikuF from "../components/licensePage/SupportKenchikuF.vue";
+  import SupportSecondKenchikuF from "../components/licensePage/SupportSecondKenchikuF.vue";
   import LectureKenchikuF from "../components/licensePage/LectureKenchikuF.vue";
   import CheerKenchikuF from "../components/licensePage/CheerKenchikuF.vue";
   // import News from "@/components/licensePage/News.vue";
@@ -764,10 +764,10 @@
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Discount from "../components/licensePage/Discount.vue";
-  import DiscountKenchiku from "../components/licensePage/DiscountKenchiku.vue";
+  import DiscountKenchikuF from "../components/licensePage/DiscountKenchikuF.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
-  import QualityKenchiku from "../components/licensePage/QualityKenchiku.vue";
+  import QualityKenchikuF from "../components/licensePage/QualityKenchikuF.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
@@ -825,12 +825,12 @@
       Linelink,
       NewPvMovieKenchiku,
       Method,
-      Support,
-      SupportSecond,
+      SupportKenchikuF,
+      SupportSecondKenchikuF,
       SupportSecondKenchiku,
       LectureKenchikuF,
       Discount,
-      DiscountKenchiku,
+      DiscountKenchikuF,
       CheerKenchikuF,
       // News,
       Info,
@@ -844,7 +844,7 @@
       ContactInfo,
       Fsc,
       SetCourse2,
-      QualityKenchiku,
+      QualityKenchikuF,
       WorkshopKenchikuF,
       ScheduleKenchiku,
       ExamKenchiku,

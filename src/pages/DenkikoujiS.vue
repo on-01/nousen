@@ -215,7 +215,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -228,7 +228,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -243,7 +243,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -256,7 +256,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -281,7 +281,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -299,7 +299,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                          alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -309,7 +309,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                            alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                            alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -327,7 +327,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                          alt="電気工事施工管理技士 講習会 通信講座 web講座"
+                          alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -339,10 +339,10 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDoboku title="🎓 GO!資格 合格応援制度 START！" />
+              <DiscountDenkikouji title="🎓 GO!資格 合格応援制度 START！" />
 
-              <SupportSecond title="ミライを創ろう" />
-              <SupportDoboku title="＼＼建設業を応援しよう／／" />
+              <SupportSecondDenkikouji title="ミライを創ろう" />
+              <SupportDenkikouji title="＼＼建設業を応援しよう／／" />
               <MerumagaDenkikouji />
 
               <!-- <Fsc title="持続可能なミライへ" /> -->
@@ -460,9 +460,9 @@
   import QualityDenkikouji from "../components/licensePage/QualityDenkikouji.vue";
   import Linelink from "../components/licensePage/Linelink.vue";
   import WorkshopDenkikouji from "../components/licensePage/WorkshopDenkikouji.vue";
-  import DiscountDoboku from "../components/licensePage/DiscountDoboku.vue";
-  import SupportSecond from "../components/licensePage/SupportSecond.vue";
-  import SupportDoboku from "../components/licensePage/SupportDoboku.vue";
+  import DiscountDenkikouji from "../components/licensePage/DiscountDenkikouji.vue";
+  import SupportSecondDenkikouji from "../components/licensePage/SupportSecondDenkikouji.vue";
+  import SupportDenkikouji from "../components/licensePage/SupportDenkikouji.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
@@ -524,9 +524,9 @@
       QualityDenkikouji,
       Linelink,
       WorkshopDenkikouji,
-      DiscountDoboku,
-      SupportSecond,
-      SupportDoboku,
+      DiscountDenkikouji,
+      SupportSecondDenkikouji,
+      SupportDenkikouji,
       MerumagaDenkikouji,
       NewApplication,
       SetCourse2,

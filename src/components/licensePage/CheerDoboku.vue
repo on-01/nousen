@@ -44,7 +44,7 @@
       <div class="cheer-topImg">
         <img
           src="../../assets/img/license_page/doboku_s/doboku_cheer_1.jpg"
-          alt="２級土木施工管理技士 講習会 通信講座 web講座"
+          alt="2級土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
 

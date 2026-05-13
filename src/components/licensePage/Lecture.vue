@@ -16,7 +16,7 @@
         <figure class="lecture-image">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-image.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
         <div class="lecture-description">
@@ -161,7 +161,7 @@
         <div class="book-wrap -left">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-book3.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【一次コース専用】</p>
           <p class="book-text700">
@@ -182,7 +182,7 @@
         <div class="book-wrap -right">
           <img
             src="../../assets/img/license_page/doboku_s/lecture-book5.png"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">【二次コース専用】</p>
           <p class="book-text700">
@@ -208,7 +208,7 @@
           <img
             class="counterplan-img -first"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">過去問５年分を進呈（一次）</p>
           <p class="counterplan-text">
@@ -224,7 +224,7 @@
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             100点満点で図書カードをプレゼント！
@@ -248,7 +248,7 @@
           <img
             class="counterplan-img -third"
             src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             一次試験の総仕上げ【予想模擬試験】
@@ -277,7 +277,7 @@
           <img
             class="counterplan-img -first"
             src="../../assets/img/license_page/doboku_s/counterplan-img4.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
             専門講師が記述式の第二次検定を添削指導します！
@@ -318,7 +318,7 @@
           <img
             class="counterplan-img -second"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
-            alt="土木施工管理技士 講習会 通信講座 web講座"
+            alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
             <p class="counterplan-text -yellow">過去問7年分を進呈</p>

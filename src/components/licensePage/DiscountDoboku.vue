@@ -5,7 +5,7 @@
       <figure class="discount-image">
         <img
           src="../../assets/img/license_page/discount.jpeg"
-          alt="土木施工管理技士 講習会 通信講座 web講座"
+          alt="2級土木施工管理技士 講習会 通信講座 web講座"
         />
       </figure>
       <div class="discount-note">
