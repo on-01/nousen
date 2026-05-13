@@ -52,14 +52,14 @@
           <p class="workshop-text odd">理　論　　(2日/15時間)</p>
           <p class="workshop-text even">
             4/18(土)・19(日) 9:30～17:00
-            <span class="workshop-text-red">【受付中】</span>
+            <span class="workshop-text-bold">【終了】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力　　(2日/15時間)</p>
           <p class="workshop-text even">
             5/16(土)・17(日) 9:30～17:00
-            <span class="workshop-text-red">【受付中】</span>
+            <span class="workshop-text-bold">【終了】</span>
           </p>
         </div>
         <div class="workshop-content">
