@@ -4,11 +4,11 @@
     <div class="workshop-topImg">
       <img
         src="../../assets/img/license_page/workshop-img1.jpg"
-        alt="土木施工管理技士 講習会 通信講座 web講座"
+        alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
       <img
         src="../../assets/img/license_page/workshop-img2.jpg"
-        alt="土木施工管理技士 講習会 通信講座 web講座"
+        alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
     <p class="workshop-top">
@@ -129,7 +129,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/ocha-img.jpg"
-        alt="土木施工管理技士 講習会 通信講座 web講座"
+        alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
       <div class="ocha-content">
         <p class="ocha-text">
@@ -172,7 +172,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/venue-map.jpg"
-        alt="土木施工管理技士 講習会 通信講座 web講座"
+        alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
     <div class="workshop-advisor-img">
@@ -229,7 +229,7 @@
         <img
           class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-pc2.jpg"
-          alt="土木施工管理技士 講習会 通信講座 web講座"
+          alt="1級土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
       <div>
@@ -237,7 +237,7 @@
         <img
           class="flex-img -right"
           src="../../assets/img/license_page/doboku_s/doboku-sp2.jpg"
-          alt="土木施工管理技士 講習会 通信講座 web講座"
+          alt="1級土木施工管理技士 講習会 通信講座 web講座"
         />
       </div>
     </div>
@@ -332,7 +332,7 @@
     <!-- <img
       class="hayaben"
       src="../../assets/img/license_page/doboku_s/hayaben.jpg"
-      alt="土木施工管理技士 講習会 通信講座 web講座"
+      alt="1級土木施工管理技士 講習会 通信講座 web講座"
     /> -->
     <!-- <p class="workshop-top">
       ハヤベン（早勉）とは？
@@ -393,7 +393,7 @@
         <img
           class="workshop-completionImage"
           src="../../assets/img/license_page/doboku_s/doboku_completion.png"
-          alt="土木施工管理技士 講習会 通信講座 web講座"
+          alt="1級土木施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
           視聴率100%で修了証が発行！
@@ -610,7 +610,7 @@
             <figure class="add-flexImg">
               <img
                 src="../../assets/img/license_page/otoriyose.jpg"
-                alt="土木施工管理技士 講習会 通信講座 web講座"
+                alt="1級土木施工管理技士 講習会 通信講座 web講座"
               />
             </figure>
             <div class="add-flexTextWrap">

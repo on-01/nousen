@@ -5,7 +5,7 @@
         <header class="header">
           <HeroDoboku
             :backImgOver="
-              require('../assets/img/license_page/doboku_s/doboku_s_hero.jpg')
+              require('../assets/img/license_page/doboku_s/doboku_s_hero.webp')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度前期 / 令和8年度後期"
@@ -20,7 +20,7 @@
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
             "
-            altText="土木施工管理技士 講習会 通信講座 web講座"
+            altText="2級土木施工管理技士 講習会 通信講座 web講座"
           />
 
           <!-- トップ部分タブ切り替え -->
@@ -54,7 +54,7 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_explain.jpg')
               "
-              altText="土木施工管理技士 講習会 通信講座 web講座"
+              altText="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleDoboku title="令和8年度 土木施工管理技士 試験日程" />
@@ -149,7 +149,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -162,7 +162,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -177,7 +177,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -190,7 +190,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講座 講習会"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -331,7 +331,7 @@
               :imagePath="
                 require('../assets/img/license_page/doboku_s/doboku_lecture.jpg')
               "
-              altText="土木施工管理技士 講習会 通信講座 web講座"
+              altText="2級土木施工管理技士 講習会 通信講座 web講座"
             />
             <div class="bg-white">
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
@@ -357,7 +357,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -370,7 +370,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -385,7 +385,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -398,7 +398,7 @@
                         <figure>
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -423,7 +423,7 @@
                         <figure v-on:click="toggleVoice(1)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -441,7 +441,7 @@
                       <div v-show="isVoice === 1" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_1.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="2級土木施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>
@@ -451,7 +451,7 @@
                         <figure v-on:click="toggleVoice(2)" class="-sp-none">
                           <img
                             src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                            alt="土木施工管理技士 講習会 通信講座 web講座"
+                            alt="2級土木施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
                         <p>
@@ -469,7 +469,7 @@
                       <div v-show="isVoice === 2" class="voice-upImage">
                         <img
                           src="../assets/img/license_page/doboku_s/doboku_voice_comment_2.jpg"
-                          alt="土木施工管理技士 講習会 通信講座 web講座"
+                          alt="2級土木施工管理技士 講習会 通信講座 web講座"
                         />
                       </div>
                     </div>

@@ -25,7 +25,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_1"
-              alt="建築施工管理技士 講習会 通信講座 web講座"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">
@@ -48,7 +48,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_2"
-              alt="建築施工管理技士 講習会 通信講座 web講座"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">
@@ -71,7 +71,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_3"
-              alt="建築施工管理技士 講習会 通信講座 web講座"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">

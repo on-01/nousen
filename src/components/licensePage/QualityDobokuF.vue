@@ -25,7 +25,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_1"
-              alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
+              alt="1級土木施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">
@@ -33,7 +33,7 @@
               <i>
                 合格者を多数輩出
                 <br />
-                講師が電気のエキスパート！
+                講師が土木のエキスパート！
               </i>
             </p>
             <p class="quality-line"></p>
@@ -48,7 +48,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_2"
-              alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
+              alt="1級土木施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">
@@ -71,7 +71,7 @@
           <figure class="quality-image">
             <img
               :src="imagePath_3"
-              alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
+              alt="1級土木施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <div class="quality-description">
@@ -109,7 +109,6 @@
     width: 100%;
     font-family: "メイリオ", sans-serif;
     padding: 20px 0 50px;
-    background-color: #fff7d5;
     // padding: 20px 0 110px;
   }
   .quality-wrap {

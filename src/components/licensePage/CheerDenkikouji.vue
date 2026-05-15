@@ -7,7 +7,7 @@
           <p class="cheer-line"></p>
         </div>
         <figure class="cheer-image">
-          <g-image :src="imagePath" :alt="altText" />
+          <g-image :src="imagePath" alt="2級電気工事施工管理技士 講習会 通信講座 web講座" />
         </figure>
       </div>
 
@@ -50,7 +50,7 @@
       <!-- <div class="cheer-topImg">
         <img
           src="../../assets/img/license_page/kenchiku_s/kenchiku_cheer_1.jpg"
-          alt="２級建築施工管理技士 講習会 通信講座 web講座"
+          alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
         />
       </div> -->
 

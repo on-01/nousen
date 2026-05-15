@@ -13,19 +13,19 @@
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_1.jpg"
-              alt="みんなの建設業Q&A50"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_2.png"
-              alt="建設業ウエルカム"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
           <figure class="support-image">
             <img
               src="../../assets/img/license_page/support_3.png"
-              alt="建設産業ガイドブック"
+              alt="2級建築施工管理技士 講習会 通信講座 web講座"
             />
           </figure>
         </div>
@@ -54,7 +54,7 @@
         <figure class="support-figure">
           <img
             src="../../assets/img/license_page/support_4.jpg"
-            alt="1級建築施工管理技士 講習会 通信講座 web講座"
+            alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
         <div class="support-notes -second">
@@ -116,9 +116,10 @@
     background-color: #1262b2;
     padding: 1rem;
     text-align: center;
+    margin: 0;
+    // box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     margin: 0 auto;
     max-width: 1038px;
-    // box-shadow: 0px 5px 1px rgba(161, 73, 0, 1);
     position: relative;
     @media print, screen and (max-width: 560px) {
       font-size: 16px;
@@ -127,8 +128,8 @@
   .support {
     margin: 0 auto;
     padding: 1em 4rem 2rem;
-    max-width: 942px;
     // max-width: 1170px;
+    max-width: 942px;
     background-color: white;
     @media print, screen and (max-width: 1000px) {
       padding: 1rem 2rem;
@@ -231,8 +232,8 @@
   .support-notes.-second {
     max-width: 620px;
     p {
-      margin: 0;
       white-space: nowrap;
+      margin: 0;
       @media print, screen and (max-width: 768px) {
         white-space: normal;
       }
