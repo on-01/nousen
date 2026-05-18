@@ -837,6 +837,9 @@
       max-width: 840px;
       margin-left: auto;
     }
+    @media print, screen and(min-width: 1780px) {
+      max-width: 1000px;
+    }
   }
   .pagelink-title-session {
     cursor: pointer;
