@@ -229,14 +229,14 @@
 
   .index-title {
     font-size: 27px;
-    color: #ed6c00;
+    color: #1262b2;
     letter-spacing: 0.2em;
     position: relative;
     text-align: center;
     font-weight: 700;
 
     span {
-      color: #ed6c00;
+      color: #1262b2;
       font-size: 45px;
     }
   }
