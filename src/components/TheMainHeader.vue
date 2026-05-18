@@ -833,7 +833,7 @@
     @media print, screen and(min-width: 1001px) {
       justify-content: space-between;
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       max-width: 840px;
       margin-left: auto;
     }
