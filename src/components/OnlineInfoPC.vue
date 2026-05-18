@@ -21,7 +21,7 @@
   /* 202101　オンライン案内　↓ */
   .online_infomation {
     display: none;
-    @media print, screen and(min-width: 1601px) {
+    @media print, screen and(min-width: 1440px) {
       background: #1262b2;
       color: #fff;
       font-weight: bold;
@@ -49,7 +49,7 @@
       line-height: 2.5em;
       font-size: 13px;
       font-family: メイリオ, sans-serif;
-      @media print, screen and(min-width: 1601px) {
+      @media print, screen and(min-width: 1440px) {
         font-size: 16px;
       }
       @media print, screen and(min-width: 1780px) {
