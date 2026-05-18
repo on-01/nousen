@@ -35,9 +35,11 @@
       outline: 1px solid rgb(255, 255, 255);
       outline-offset: -4px;
     }
+    @media print, screen and(min-width: 1599px) {
+      top: 2rem;
+    }
     @media print, screen and(min-width: 1780px) {
       width: 450px;
-      top: 2rem;
       left: 210px;
       outline: 1px solid rgb(255, 255, 255);
       outline-offset: -6px;

@@ -834,7 +834,6 @@
       justify-content: space-between;
       display: flex;
       flex-wrap: nowrap;
-      max-width: 840px;
       margin-left: auto;
     }
     @media print, screen and(min-width: 1780px) {
