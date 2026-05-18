@@ -854,6 +854,9 @@
     position: relative;
     font-family: メイリオ, sans-serif;
     // margin: 0 10px;
+    @media print, screen and(min-width: 1001px) {
+      white-space: nowrap;
+    }
     p {
       display: inline-block;
       margin: 0 0;

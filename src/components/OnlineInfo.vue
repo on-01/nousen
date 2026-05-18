@@ -21,7 +21,7 @@
   /* 202101　オンライン案内　↓ */
   .online_infomation {
     display: none;
-    @media print, screen and(min-width: 1080px) {
+    @media print, screen and(min-width: 1000px) {
       background: #1262b2;
       color: #fff;
       font-weight: bold;
@@ -29,20 +29,35 @@
       text-align: center;
       display: block;
       position: absolute;
-      left: 0;
-      top: -4rem;
-      width: 245px;
+      left: 3rem;
+      top: -3rem;
+      width: 190px;
       outline: 1px solid rgb(255, 255, 255);
       outline-offset: -4px;
     }
+    @media print, screen and(min-width: 1080px) {
+      font-size: 12px;
+      width: 245px;
+      left: 100px;
+    }
     @media print, screen and(min-width: 1440px) {
+      font-size: 12px;
+      left: -150px;
+      top: -1rem;
+      width: 300px;
       display: none;
+    }
+    @media print, screen and(min-width: 1535px) {
+      left: -200px;
     }
     & p {
       margin: 0;
       line-height: 2.5em;
       font-size: 13px;
       font-family: メイリオ, sans-serif;
+      @media print, screen and(min-width: 1440px) {
+        font-size: 16px;
+      }
     }
   }
 
