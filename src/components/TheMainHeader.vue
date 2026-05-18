@@ -209,6 +209,15 @@
               target="_blank"
               rel="noopener noreferrer"
             >
+              <p>能センブログ</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
+            <g-link
+              to="https://nousen.blog/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p>能センSHOP</p>
             </g-link>
           </div>
