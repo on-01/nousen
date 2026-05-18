@@ -40,13 +40,13 @@
       width: 245px;
       left: 100px;
     }
-    @media print, screen and(min-width: 1440px) {
-      font-size: 12px;
-      left: -150px;
-      top: -1rem;
-      width: 300px;
-      display: none;
-    }
+    // @media print, screen and(min-width: 1440px) {
+    //   font-size: 12px;
+    //   left: -150px;
+    //   top: -1rem;
+    //   width: 300px;
+    //   display: none;
+    // }
     @media print, screen and(min-width: 1535px) {
       left: -200px;
     }
