@@ -21,7 +21,7 @@
   /* 202101　オンライン案内　↓ */
   .online_infomation {
     display: none;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       background: #1262b2;
       color: #fff;
       font-weight: bold;
@@ -52,7 +52,7 @@
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: none;
     }
     & p {
@@ -62,13 +62,13 @@
   }
   .sp_none {
     display: none;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: block;
     }
   }
   .pc_none {
     display: block;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: none;
     }
   }

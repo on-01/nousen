@@ -61,7 +61,7 @@
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: none;
     }
     & p {
