@@ -27,7 +27,7 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <img src="../assets/img/front/section01/mv_1.jpg" alt="" />
+          <img src="../assets/img/front/section01/mv_1.webp" alt="" />
         </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">

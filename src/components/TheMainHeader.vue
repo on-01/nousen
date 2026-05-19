@@ -209,6 +209,15 @@
               target="_blank"
               rel="noopener noreferrer"
             >
+              <p>能センブログ</p>
+            </g-link>
+          </div>
+          <div class="pagelink-title">
+            <g-link
+              to="https://nousen.blog/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p>能センSHOP</p>
             </g-link>
           </div>
@@ -667,10 +676,10 @@
     // max-width: 150px;
     position: relative;
     transition: max-width 0.3s ease-in-out;
-    @media print, screen and(min-width: 1200px) {
+    @media print, screen and(min-width: 1270px) {
       max-width: 200px;
     }
-    @media print, screen and(max-width: 1200px) {
+    @media print, screen and(max-width: 1270px) {
       max-width: 90px;
     }
     .logo-inner {
@@ -824,9 +833,11 @@
     @media print, screen and(min-width: 1001px) {
       justify-content: space-between;
       display: flex;
-      flex-wrap: wrap;
-      max-width: 840px;
+      flex-wrap: nowrap;
       margin-left: auto;
+    }
+    @media print, screen and(min-width: 1780px) {
+      max-width: 1000px;
     }
   }
   .pagelink-title-session {
@@ -842,6 +853,9 @@
     position: relative;
     font-family: メイリオ, sans-serif;
     // margin: 0 10px;
+    @media print, screen and(min-width: 1001px) {
+      white-space: nowrap;
+    }
     p {
       display: inline-block;
       margin: 0 0;

@@ -124,37 +124,55 @@
           </figure>
         </div>
         <div class="banner">
-          <div class="column">
-            <a href="https://www.tokyo-cci.or.jp/" target="_blank">
+          <div class="banner-row">
+            <div class="column">
+              <a href="https://www.tokyo-cci.or.jp/" target="_blank">
+                <g-image
+                  src="../assets/img/common/banner1.jpg"
+                  alt="バナー 東京商工会議所"
+                  width="200px"
+                />
+              </a>
+              <a href="http://www.nerima-sanren.jp/" target="_blank">
+                <g-image
+                  src="../assets/img/common/banner5.jpg"
+                  alt="バナー 練馬産業連合会"
+                  width="200px"
+                />
+              </a>
+              <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
+                <g-image
+                  src="../assets/img/common/banner3.jpg"
+                  alt="料金相場.jp"
+                  width="200px"
+                  class="banner3"
+                />
+              </a> -->
+            </div>
+            <a href="https://www.birumen-navi.com/" target="_blank">
               <g-image
-                src="../assets/img/common/banner1.jpg"
-                alt="バナー 東京商工会議所"
-                width="200px"
+                src="../assets/img/common/banner2.jpg"
+                alt="バナー ビルメン転職ナビ 電験転職ナビ 施工管理転職ナビ"
+                width="140px"
               />
             </a>
-            <a href="http://www.nerima-sanren.jp/" target="_blank">
-              <g-image
-                src="../assets/img/common/banner5.jpg"
-                alt="バナー 練馬産業連合会"
-                width="200px"
-              />
-            </a>
-            <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
-              <g-image
-                src="../assets/img/common/banner3.jpg"
-                alt="料金相場.jp"
-                width="200px"
-                class="banner3"
-              />
-            </a> -->
           </div>
-          <a href="https://www.birumen-navi.com/" target="_blank">
-            <g-image
-              src="../assets/img/common/banner2.jpg"
-              alt="バナー ビルメン転職ナビ 電験転職ナビ 施工管理転職ナビ"
-              width="140px"
-            />
-          </a>
+          <div class="banner-row banner-row--bottom">
+            <a href="https://www.mlit.go.jp/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner6.webp"
+                alt="バナー 国土交通省"
+                width="200px"
+              />
+            </a>
+            <a href="https://www.mhlw.go.jp/index.html" target="_blank">
+              <g-image
+                src="../assets/img/common/banner7.webp"
+                alt="バナー 厚生労働省"
+                width="200px"
+              />
+            </a>
+          </div>
         </div>
       </div>
 
@@ -393,8 +411,7 @@
   }
   .banner {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
     width: 100%;
     @media print, screen and(min-width: 1001px) {
       max-width: 40%;
@@ -406,6 +423,19 @@
       @media print, screen and(max-width: 1000px) {
         max-width: 160px;
       }
+    }
+  }
+
+  .banner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .banner-row--bottom {
+    margin-top: 10px;
+    @media print, screen and(max-width: 1000px) {
+      flex-direction: column;
     }
   }
 

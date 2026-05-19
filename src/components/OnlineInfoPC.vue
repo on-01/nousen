@@ -21,7 +21,7 @@
   /* 202101　オンライン案内　↓ */
   .online_infomation {
     display: none;
-    @media print, screen and(min-width: 1440px) {
+    @media print, screen and(min-width: 1601px) {
       background: #1262b2;
       color: #fff;
       font-weight: bold;
@@ -35,9 +35,8 @@
       outline: 1px solid rgb(255, 255, 255);
       outline-offset: -4px;
     }
-    @media print, screen and(min-width: 1660px) {
+    @media print, screen and(min-width: 1780px) {
       width: 450px;
-      top: 2rem;
       left: 210px;
       outline: 1px solid rgb(255, 255, 255);
       outline-offset: -6px;
@@ -47,10 +46,10 @@
       line-height: 2.5em;
       font-size: 13px;
       font-family: メイリオ, sans-serif;
-      @media print, screen and(min-width: 1440px) {
+      @media print, screen and(min-width: 1601px) {
         font-size: 16px;
       }
-      @media print, screen and(min-width: 1660px) {
+      @media print, screen and(min-width: 1780px) {
         font-size: 23px;
       }
     }
@@ -62,7 +61,7 @@
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1100px) {
       display: none;
     }
     & p {
@@ -72,13 +71,13 @@
   }
   .sp_none {
     display: none;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1100px) {
       display: block;
     }
   }
   .pc_none {
     display: block;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: none;
     }
   }
