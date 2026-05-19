@@ -71,13 +71,13 @@
   }
   .sp_none {
     display: none;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: block;
     }
   }
   .pc_none {
     display: block;
-    @media print, screen and(min-width: 1000px) {
+    @media print, screen and(min-width: 1024px) {
       display: none;
     }
   }
