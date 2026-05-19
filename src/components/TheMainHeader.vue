@@ -209,7 +209,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>能センブログ</p>
+              <p>能センSHOP</p>
             </g-link>
           </div>
           <div class="pagelink-title">
@@ -218,7 +218,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>能センSHOP</p>
+              <p>能センブログ</p>
             </g-link>
           </div>
           <!-- <div class="pagelink-title">
