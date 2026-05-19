@@ -676,10 +676,10 @@
     // max-width: 150px;
     position: relative;
     transition: max-width 0.3s ease-in-out;
-    @media print, screen and(min-width: 1200px) {
+    @media print, screen and(min-width: 1270px) {
       max-width: 200px;
     }
-    @media print, screen and(max-width: 1200px) {
+    @media print, screen and(max-width: 1270px) {
       max-width: 90px;
     }
     .logo-inner {
