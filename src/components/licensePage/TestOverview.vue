@@ -14,7 +14,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -130,7 +130,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -207,7 +207,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -255,7 +255,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
