@@ -102,6 +102,21 @@
       </div>
     </div>
 
+    <div class="workshop-checklist">
+      <p class="workshop-bottom">
+        <b>✅受講料にはすべて含まれています</b><br />
+        教材費・添削費・送料込み
+      </p>
+      <p class="workshop-bottom">
+        <b>✅欠席時も安心</b><br />
+        欠席した場合は、オンライン講座へ無料で振替できます
+      </p>
+      <p class="workshop-bottom">
+        <b>✅法人申込にも対応</b><br />
+        請求書払い・法人申込に対応しています
+      </p>
+    </div>
+
     <p class="workshop-bottom -yellow">
       <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
