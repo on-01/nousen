@@ -14,7 +14,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -130,7 +130,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -207,7 +207,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -255,7 +255,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            一般社団法人電気技術者試験センター
+            一般財団法人電気技術者試験センター
           </a>
         </p>
       </div>
@@ -284,7 +284,7 @@
           <p class="test-text">：PC上で五肢択一方式</p>
         </div>
         <p class="test-text">
-          試験期間内（25日間）に実地します。科目ごとに別日で受験することが可能です。
+          試験期間内（25日間）に実施します。科目ごとに別日で受験することが可能です。
           <br />
           <span>【CBT試験時間】</span>
           <br />

@@ -58,7 +58,7 @@
             />
             <div class="bg-lightBlue -pd100">
               <ScheduleKenchiku title="令和8年度 建築施工管理技士 試験日程" />
-              <TestOverviewKenchiku />
+              <TestOverviewKenchiku1 />
 
               <!-- <QualityKenchikuF
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
@@ -772,7 +772,7 @@
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
   import FollowUpKenchokuF from "../components/licensePage/FollowUpKenchokuF.vue";
-  import TestOverviewKenchiku from "../components/licensePage/TestOverviewKenchiku.vue";
+  import TestOverviewKenchiku1 from "../components/licensePage/TestOverviewKenchiku1.vue";
   import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaKenchikuF from "../components/licensePage/MerumagaKenchikuF.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
@@ -849,7 +849,7 @@
       ScheduleKenchiku,
       ExamKenchiku,
       FollowUpKenchokuF,
-      TestOverviewKenchiku,
+      TestOverviewKenchiku1,
       Gansho,
       MerumagaKenchikuF,
       TimeCountKenchiku,

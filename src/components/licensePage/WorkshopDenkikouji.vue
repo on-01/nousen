@@ -12,9 +12,9 @@
       />
     </div>
     <p class="workshop-top">
-      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
+      お仕事で忙しく、何日も通学することが難しい方でも、短期間で効率よく学べる通学講習会です。
       <br />
-      経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
+      経験豊富な講師陣による、ポイントを絞った的確な講義をぜひご体験ください。
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
@@ -98,6 +98,14 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="workshop-checklist">
+      <div class="workshop-checklist__inner">
+        <p><b>✅受講料にはすべて含まれています</b><br />教材費・添削費・送料込み</p>
+        <p><b>✅欠席時も安心</b><br />欠席した場合は、オンライン講座へ無料で振替できます</p>
+        <p><b>✅法人申込にも対応</b><br />請求書払い・法人申込に対応しています</p>
       </div>
     </div>
 
@@ -1036,6 +1044,19 @@
     // @media print, screen and (max-width: 1024px) {
     //   border-left: solid 1px;
     // }
+  }
+
+  .workshop-checklist {
+    padding: 20px 40px 10px;
+    text-align: center;
+  }
+  .workshop-checklist__inner {
+    display: inline-block;
+    text-align: left;
+    p {
+      margin: 0 0 10px;
+      line-height: 1.6;
+    }
   }
 
   .workshop-bottom {

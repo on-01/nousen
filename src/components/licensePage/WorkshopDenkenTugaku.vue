@@ -23,11 +23,6 @@
         </p>
       </div>
     </div>
-    <p class="workshop-top">
-      お仕事等で忙しく何日も通う事が困難な方でも、短期間で効率よく学べる通学講習会です。
-      <br />
-      経験豊富な講師陣のポイントを絞った的確な講義を是非ご体験ください！
-    </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
         <div class="workshop-content">
