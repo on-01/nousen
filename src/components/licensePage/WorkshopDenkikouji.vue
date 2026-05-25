@@ -109,12 +109,6 @@
       </div>
     </div>
 
-    <p class="workshop-bottom -yellow">
-      <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
-    </p>
-    <p class="workshop-bottom">
-      ※仕事や体調不良などで欠席した場合はオンライン講座に無料振替ができます
-    </p>
     <!-- <p class="workshop-bottom -leftText">
       <span>【締め切りについて】</span>
       <br />
