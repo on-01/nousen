@@ -60,6 +60,7 @@ query {
     // },
     metaInfo() {
       return {
+        htmlAttrs: { lang: 'ja' },
         link: [
           {
             key: `canonical`,
@@ -72,6 +73,7 @@ query {
           },
         ],
         meta: [
+          { charset: 'utf-8' },
           { key: `og:locale`, property: `og:locale`, content: `ja_JP` },
           { key: `og:type`, property: `og:type`, content: `website` },
           {
