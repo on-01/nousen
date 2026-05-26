@@ -1071,6 +1071,8 @@
     display: flex;
     gap: 16px;
     justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
   }
   .check-card {
     flex: 1;
@@ -1087,7 +1089,7 @@
     width: 44px;
     height: 44px;
     min-width: 44px;
-    background: #1b3f73;
+    background: #1262b2;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1101,7 +1103,7 @@
     font-size: 14px;
     margin: 0 0 4px;
     line-height: 1.4;
-    color: #222;
+    color: #1262b2;
   }
   .check-card__desc {
     font-size: 12px;
