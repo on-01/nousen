@@ -109,8 +109,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
           </div>
           <div class="check-card__body">
-            <p class="check-card__title">受講料にはすべて含まれています</p>
-            <p class="check-card__desc">教材費・添削費・送料込み</p>
+            <p class="check-card__title">受講料に含まれています</p>
+            <p class="check-card__desc">教材費・送料込み</p>
+            <p class="check-card__desc">※二次コース・セットコースは添削費込み</p>
           </div>
         </div>
         <div class="check-card">
@@ -127,7 +128,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
           </div>
           <div class="check-card__body">
-            <p class="check-card__title">法人申込にも対応</p>
+            <p class="check-card__title">法人申込に対応</p>
             <p class="check-card__desc">請求書払い・法人申込に対応しています</p>
           </div>
         </div>
@@ -1224,7 +1225,7 @@
   .check-card {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 14px;
     background: #fff;
     border: 1px solid #dde3ea;
@@ -1241,19 +1242,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
   }
   .check-card__body {
     flex: 1;
   }
   .check-card__title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 4px;
     line-height: 1.4;
     color: #1262b2;
   }
   .check-card__desc {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     color: #555;
     line-height: 1.5;
