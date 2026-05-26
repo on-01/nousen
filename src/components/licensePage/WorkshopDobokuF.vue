@@ -12,9 +12,9 @@
       />
     </div>
     <p class="workshop-top">
-      お仕事で忙しく、何日も通学することが難しい方でも、短期間で効率よく学べる通学講習会です。
+      短期間でポイントを押さえて学べる通学講習会です。
       <br />
-      経験豊富な講師陣による、ポイントを絞った的確な講義をぜひご体験ください。
+      経験豊富な講師による、わかりやすい講義で合格をサポートします。
     </p>
     <div class="workshop-wrapper">
       <div class="workshop-box">
@@ -98,9 +98,33 @@
 
     <div class="workshop-checklist">
       <div class="workshop-checklist__inner">
-        <p><b>✅受講料にはすべて含まれています</b><br />教材費・添削費・送料込み</p>
-        <p><b>✅欠席時も安心</b><br />欠席した場合は、オンライン講座へ無料で振替できます</p>
-        <p><b>✅法人申込にも対応</b><br />請求書払い・法人申込に対応しています</p>
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">受講料にはすべて含まれています</p>
+            <p class="check-card__desc">教材費・添削費・送料込み</p>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">欠席時も安心</p>
+            <p class="check-card__desc">欠席した場合は、オンライン講座へ無料で振替できます</p>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">法人申込にも対応</p>
+            <p class="check-card__desc">請求書払い・法人申込に対応しています</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1177,15 +1201,48 @@
 
   .workshop-checklist {
     padding: 20px 40px 10px;
-    text-align: center;
   }
   .workshop-checklist__inner {
-    display: inline-block;
-    text-align: left;
-    p {
-      margin: 0 0 10px;
-      line-height: 1.6;
-    }
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  .check-card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border: 1px solid #dde3ea;
+    border-radius: 8px;
+    padding: 16px 18px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  }
+  .check-card__icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    background: #1b3f73;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .check-card__body {
+    flex: 1;
+  }
+  .check-card__title {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 4px;
+    line-height: 1.4;
+    color: #222;
+  }
+  .check-card__desc {
+    font-size: 12px;
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
   }
 
   .workshop-bottom {
