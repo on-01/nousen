@@ -1221,6 +1221,9 @@
     justify-content: center;
     max-width: 980px;
     margin: 0 auto;
+    @media print, screen and (max-width: 768px) {
+      flex-direction: column;
+    }
   }
   .check-card {
     flex: 1;
