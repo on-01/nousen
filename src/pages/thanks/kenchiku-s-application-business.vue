@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="thanks">
+    <div class="thanks" translate="no">
       <div class="thanks-inner">
         <p class="thanks-title">お申込み受付いたしました。</p>
         <p class="thanks-text">
@@ -58,6 +58,10 @@ query {
             key: `og:url`,
             property: `og:url`,
             content: `${this.$static.metadata.siteUrl}/guide`,
+          },
+          {
+            name: "google",
+            content: "notranslate",
           },
         ],
       };
