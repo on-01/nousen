@@ -120,7 +120,7 @@
             <p class="follow-flex-title">
               ③ 資格取得アドバイザー
               <br />
-              ✅ 質問サポート
+              ✅質問サポート 最大50回まで無料
             </p>
             <div class="follow-imgWrap-top">
               <img
