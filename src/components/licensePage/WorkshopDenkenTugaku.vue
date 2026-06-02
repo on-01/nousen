@@ -3,7 +3,7 @@
     <p class="workshop-title">第三種電気主任技術者 通学講座(講習会)</p>
     <div class="workshop-topImg">
       <img
-        src="../../assets/img/license_page/workshop-img1.jpg"
+        src="../../assets/img/license_page/workshop-img1.webp"
         alt="電験三種 第三種電気主任技術者"
       />
       <div class="workshop-topImg-text">

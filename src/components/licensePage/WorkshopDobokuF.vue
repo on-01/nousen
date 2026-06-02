@@ -3,11 +3,11 @@
     <p class="workshop-title">1級土木施工管理技士 通学講座(講習会)</p>
     <div class="workshop-topImg">
       <img
-        src="../../assets/img/license_page/workshop-img1.jpg"
+        src="../../assets/img/license_page/workshop-img1.webp"
         alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
       <img
-        src="../../assets/img/license_page/workshop-img2.jpg"
+        src="../../assets/img/license_page/workshop-img2.webp"
         alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
