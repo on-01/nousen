@@ -64,7 +64,7 @@
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
-                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.webp')
               "
               text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"
@@ -303,7 +303,7 @@
               text_1="多くの合格者を輩出したベテラン講師陣が担当します。試験に出る範囲のポイントを絞った講義が特徴です。<br>
                     難解な内容もわかりやすいソフトな説明で理解することができます。"
               :imagePath_1="
-                require('../assets/img/license_page/doboku_s/doboku_quality_1.jpg')
+                require('../assets/img/license_page/doboku_s/doboku_quality_1.webp')
               "
               text_2="【一次】選択問題のある科目はより効率的な学習方法を伝授。「どこを優先的に覚え、何を関連付けて理解すべきか」を指導。<br>
                       【二次】工事件名の記述方法から、使うべき専門用語、文章の簡潔なまとめ方、得点アップ方法など、記述のテクニックを徹底解説。"

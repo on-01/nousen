@@ -14,7 +14,7 @@
       <p class="quality-mainTitle">
         短期間で合格する
         <br />
-        3つのポイント！！
+        3つのポイント！
       </p>
       <div class="quality-flex">
         <div class="quality-box">
