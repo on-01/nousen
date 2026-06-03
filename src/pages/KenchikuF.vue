@@ -149,7 +149,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_3.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -162,7 +162,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_2.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -177,7 +177,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_1.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -190,7 +190,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_4.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -422,7 +422,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_3.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_3.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -435,7 +435,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_2.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_2.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -450,7 +450,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_1.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_1.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
@@ -463,7 +463,7 @@
                       <div class="voice-box">
                         <figure>
                           <img
-                            src="../assets/img/license_page/denken3/denken3_voice_4.jpg"
+                            src="../assets/img/license_page/denken3/denken3_voice_4.webp"
                             alt="1級建築施工管理技士 講習会 通信講座 web講座"
                           />
                         </figure>
