@@ -3,11 +3,11 @@
     <p class="workshop-title">1級土木施工管理技士 通学講座(講習会)</p>
     <div class="workshop-topImg">
       <img
-        src="../../assets/img/license_page/workshop-img1.jpg"
+        src="../../assets/img/license_page/workshop-img1.webp"
         alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
       <img
-        src="../../assets/img/license_page/workshop-img2.jpg"
+        src="../../assets/img/license_page/workshop-img2.webp"
         alt="1級土木施工管理技士 講習会 通信講座 web講座"
       />
     </div>
@@ -122,8 +122,8 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
           </div>
           <div class="check-card__body">
-            <p class="check-card__title">法人申込に対応</p>
-            <p class="check-card__desc">請求書払い・法人申込に対応しています</p>
+            <p class="check-card__title">お支払い方法も安心</p>
+            <p class="check-card__desc">クレジットカード払い・請求書払い・法人申込に対応しています</p>
           </div>
         </div>
       </div>
@@ -731,7 +731,7 @@
                   <td>
                     ・1級土木施工管理技士 第二次検定対策テキスト
                     <br />
-                    ・合格への学習ガイダンス
+                    ・合格への学習ロードマップ
                     <br />
                     ・経験記述の添削（1回分 別途追加可能）
                     <br />
@@ -873,7 +873,7 @@
                   <td>
                     ・1級土木施工管理技士 第二次検定対策テキスト
                     <br />
-                    ・合格への学習ガイダンス
+                    ・合格への学習ロードマップ
                     <br />
                     ・経験記述の添削（1回分 別途追加可能）
                     <br />
