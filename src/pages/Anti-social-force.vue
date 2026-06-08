@@ -4,7 +4,7 @@
       <Hero backImgOver="" backImgUnder="" title="反社会的勢力排除宣言" />
       <div class="anti-img">
         <img
-          src="../assets/img/license_page/anti.jpg"
+          src="../assets/img/license_page/anti.webp"
           alt="反社会的勢力排除宣言"
         />
       </div>
