@@ -53,7 +53,7 @@
         </div>
         <figure class="support-figure">
           <img
-            src="../../assets/img/license_page/support_4.jpg"
+            src="../../assets/img/license_page/support_4.webp"
             alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
         </figure>
