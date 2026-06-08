@@ -1241,7 +1241,7 @@
   .check-card__desc {
     font-size: 14px;
     margin: 0;
-    color: #555;
+    color: #000;
     line-height: 1.5;
   }
 
