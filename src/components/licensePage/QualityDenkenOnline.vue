@@ -61,9 +61,9 @@
           <div class="quality-description">
             <p class="quality-title">
               <i>
-                選べる受講スタイル
+                AIティーチングアシスタント
                 <br />
-                通学・オンライン・通信講座
+                講義内容の理解をサポート
               </i>
             </p>
             <p class="quality-line"></p>
