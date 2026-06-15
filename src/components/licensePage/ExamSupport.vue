@@ -11,7 +11,7 @@
       <ul>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_campaign_3.jpg"
+            src="../../assets/img/license_page/denken3/denken3_campaign_3.webp"
             alt="電験三種 第三種電気主任技術者"
           />
           <div class="exam-textWrap">
