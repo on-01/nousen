@@ -1,7 +1,6 @@
 <template>
   <Layout>
     <div class="privacy">
-      <Hero backImgOver="" backImgUnder="" title="反社会的勢力排除宣言" />
       <div class="anti-img">
         <img
           src="../assets/img/license_page/anti.webp"
@@ -105,7 +104,6 @@ query {
 </static-query>
 
 <script>
-  import Hero from "@/components/Hero.vue";
   export default {
     metaInfo() {
       return {
@@ -130,16 +128,17 @@ query {
         ],
       };
     },
-    components: {
-      Hero,
-    },
   };
 </script>
 
 <style lang="scss" scoped>
   .privacy {
+    padding-top: 150px;
     padding-bottom: 100px;
     background: #ebf7ff;
+    @media print, screen and (max-width: 980px) {
+      padding-top: 100px;
+    }
   }
   .contents {
     max-width: 970px;

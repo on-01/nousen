@@ -61,7 +61,7 @@
           <p class="workshop-text odd">機　械　　(2日/15時間)</p>
           <p class="workshop-text even">
             6/13(土)・14(日) 9:30～17:00
-            <span class="workshop-text-red">【受付中】</span>
+            <span class="workshop-text-bold">【終了】</span>
           </p>
         </div>
         <div class="workshop-content">
