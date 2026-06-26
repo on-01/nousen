@@ -207,7 +207,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">過去問５年分を進呈（一次）</p>
@@ -317,7 +317,7 @@
           <p class="counterplan-head">過去問7年分</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img1-7.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
