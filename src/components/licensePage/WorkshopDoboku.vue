@@ -365,6 +365,41 @@
         </div>
       </div>
     </div>
+
+    <div class="workshop-checklist">
+      <div class="workshop-checklist__inner">
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">受講料に含まれています</p>
+            <p class="check-card__desc">教材費・送料込み</p>
+            <p class="check-card__desc">※二次コース・セットコースは添削費込み</p>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">いつでも自宅で受講可能</p>
+            <p class="check-card__desc">PC・スマホでオンライン受講できます</p>
+            <p class="check-card__desc">配信期間中は何度でも繰り返し視聴できます</p>
+          </div>
+        </div>
+        <div class="check-card">
+          <div class="check-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <div class="check-card__body">
+            <p class="check-card__title">お支払い方法も安心</p>
+            <p class="check-card__desc">クレジットカード払い・請求書払い・法人申込に対応しています</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <img
       class="hayaben"
       src="../../assets/img/license_page/doboku_s/hayaben.jpg"
@@ -729,6 +764,8 @@
                     <br />
                     ・過去問題5年分（二次コースは7年分）
                     <br />
+                    ・過去問題 解答解説
+                    <br />
                     ・勉強計画表
                     <br />
                     ・試験日程一覧
@@ -878,6 +915,8 @@
                     ・経験記述の添削（1回分 別途追加可能）
                     <br />
                     ・過去問題5年分（二次コースは7年分）
+                    <br />
+                    ・過去問題 解答解説
                     <br />
                     ・勉強計画表
                     <br />

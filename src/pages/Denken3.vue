@@ -143,7 +143,7 @@
               "
               text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
               :imagePath_3="
-                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+                require('../assets/img/license_page/denken3/denken3_quality_5.webp')
               "
             />
             <WorkshopDenkenTugaku />
@@ -464,7 +464,7 @@
               "
               text_3="講義内容や資料をもとに、要点整理・専門用語の説明・補足資料などをAIに質問できます。<br>復習や苦手分野の確認にご活用ください。<br><br>※AIの回答は参考情報です。"
               :imagePath_3="
-                require('../assets/img/license_page/denken3/denken3_quality_4.webp')
+                require('../assets/img/license_page/denken3/denken3_quality_5.webp')
               "
             />
 
@@ -780,7 +780,7 @@
               "
               text_3="受講生のライフスタイルに合った講座を選ぶことができます。【通学】【オンライン】【通信】講座。通学にオンライン講座を追加（70%割引）などバリエーションは豊富です。どの講座も合格に特化した教材を使用します。"
               :imagePath_3="
-                require('../assets/img/license_page/denken3/denken3_quality_4.jpg')
+                require('../assets/img/license_page/denken3/denken3_quality_5.webp')
               "
             />
 

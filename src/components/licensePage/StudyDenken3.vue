@@ -120,7 +120,7 @@
         <div class="test-img -bottom">
           <img
             class="flex-img -right"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
             alt="電験三種 第三種電気主任技術者"
           />
         </div>
