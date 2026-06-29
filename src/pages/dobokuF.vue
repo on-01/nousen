@@ -337,7 +337,6 @@
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
               <!-- <ExamSecond /> -->
               <FollowUpDobokuF />
-              <Gansho />
             </div>
 
             <div class="bg-white">
@@ -720,7 +719,6 @@
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
-  import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaDobokuF from "../components/licensePage/MerumagaDobokuF.vue";
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
@@ -799,7 +797,6 @@
       ExamSecond,
       FollowUpDobokuF,
       TestOverviewDoboku,
-      Gansho,
       MerumagaDobokuF,
       TimeCountDoboku,
       IconFingerRight,

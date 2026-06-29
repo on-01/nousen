@@ -406,7 +406,6 @@
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
               <FollowUpKenchokuF />
-              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -773,7 +772,6 @@
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
   import FollowUpKenchokuF from "../components/licensePage/FollowUpKenchokuF.vue";
   import TestOverviewKenchiku1 from "../components/licensePage/TestOverviewKenchiku1.vue";
-  import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaKenchikuF from "../components/licensePage/MerumagaKenchikuF.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
@@ -850,7 +848,6 @@
       ExamKenchiku,
       FollowUpKenchokuF,
       TestOverviewKenchiku1,
-      Gansho,
       MerumagaKenchikuF,
       TimeCountKenchiku,
       IconFingerRight,
