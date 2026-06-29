@@ -16,8 +16,8 @@
 
           <CheerKenchikuF
             text="能センは、<br>
-              建設業で働く皆さまを<br>
-              応援します！"
+              建設業で働く皆さまの<br>
+              資格取得を応援します！"
             :imagePath="
               require('../assets/img/license_page/kenchiku_s/kenchiku_point3.jpg')
             "
