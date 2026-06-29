@@ -344,6 +344,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopKenchiku />
 
@@ -777,6 +778,7 @@
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import StudyKenchiku from "../components/licensePage/StudyKenchiku.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -852,6 +854,7 @@
       TimeCountKenchiku,
       IconFingerRight,
       StudyKenchiku,
+      GanshoTop,
     },
     data() {
       return {

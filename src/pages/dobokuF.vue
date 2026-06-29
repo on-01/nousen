@@ -315,6 +315,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopDobokuF />
             <NewPvMovieDoboku
@@ -723,6 +724,7 @@
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import FollowUpDobokuF from "../components/licensePage/FollowUpDobokuF.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -800,6 +802,7 @@
       MerumagaDobokuF,
       TimeCountDoboku,
       IconFingerRight,
+      GanshoTop,
     },
     data() {
       return {

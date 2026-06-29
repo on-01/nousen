@@ -177,6 +177,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopDenkikouji />
             <NewPvMovieDenkikouji
@@ -472,6 +473,7 @@
   import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   import LectureDenkikouji from "../components/licensePage/LectureDenkikouji.vue";
   import FollowUpDenkikouji from "../components/licensePage/FollowUpDenkikouji.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -535,6 +537,7 @@
       NewPvMovieDenkikouji,
       LectureDenkikouji,
       FollowUpDenkikouji,
+      GanshoTop,
     },
     data() {
       return {
