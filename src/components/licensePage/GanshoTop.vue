@@ -23,10 +23,10 @@
   .gansho {
     max-width: 768px;
     margin: 0 auto;
-    padding: 50px 24px 80px;
     z-index: 0;
     position: relative;
     font-family: "メイリオ", sans-serif;
+    background-color: #fff7d5;
   }
 
   .gansho-contents {

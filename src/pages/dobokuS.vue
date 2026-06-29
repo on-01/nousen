@@ -315,7 +315,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
-
+            <GanshoTop />
             <WorkshopDoboku />
             <NewPvMovieDoboku
               movieTitle="土木施工管理技士の講習会動画をご視聴ください"
@@ -722,6 +722,7 @@
   import MerumagaDoboku from "../components/licensePage/MerumagaDoboku.vue";
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -799,6 +800,7 @@
       MerumagaDoboku,
       TimeCountDoboku,
       IconFingerRight,
+      GanshoTop,
     },
     data() {
       return {
