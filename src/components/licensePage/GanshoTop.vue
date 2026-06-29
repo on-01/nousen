@@ -36,14 +36,14 @@
     background-color: #ffffff;
     padding: 24px 0 12px 24px;
     display: flex;
-  }
-
-  .gansho-contents {
     img {
       display: block;
       width: 44%;
       object-fit: contain;
     }
+  }
+
+  .gansho-contents {
     .gansho-title {
       position: relative;
       margin: 0;
