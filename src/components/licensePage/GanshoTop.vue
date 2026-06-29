@@ -26,25 +26,30 @@
     max-width: 450px;
     margin: 0 auto;
     z-index: 0;
+    padding-bottom: 50px;
     position: relative;
     font-family: "メイリオ", sans-serif;
     background-color: #fff7d5;
-    display: flex;
   }
 
   .gansho-wrapper {
     background-color: #ffffff;
-    padding: 24px;
+    padding: 24px 0 12px 24px;
+    display: flex;
   }
 
   .gansho-contents {
     img {
       display: block;
+      width: 44%;
+      object-fit: contain;
     }
     .gansho-title {
       position: relative;
       margin: 0;
       color: #1262b2;
+      font-weight: 700;
+      font-size: 18px;
 
       ::after {
         position: absolute;
@@ -57,10 +62,12 @@
 
     .gansho-text {
       margin: 0;
+      font-size: 15px;
     }
 
     .gansho-bottom {
       margin: 0;
+      font-size: 15px;
     }
   }
 </style>
