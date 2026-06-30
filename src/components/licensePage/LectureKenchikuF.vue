@@ -262,15 +262,14 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
             alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            過去問５年分を進呈（一次コース）
-          </p>
+          <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
           <p class="counterplan-text">
-            1級建築施工管理技士の試験に合格するためには、過去問題を解くことが非常に重要です。そのため、受講者の皆様には
-            <span>過去5年分の過去問題</span>
-            を提供いたします。
+            1級建築施工管理技士の合格を目指すうえで、過去問題の演習は欠かせません。
             <br />
-            この貴重な教材を試験対策にぜひご活用ください。
+            能センでは、過去5年分の過去問題・解答解説を受講生に進呈しています。
+            <br />
+            <br />
+            本試験の出題傾向をつかみ、重要ポイントを確認しながら実践力を高められる教材です。
           </p>
         </div>
         <div class="counterplan-wrap">
