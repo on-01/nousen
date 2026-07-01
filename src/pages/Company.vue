@@ -987,43 +987,59 @@ query {
 
   .last-message-flex.-bottom {
     justify-content: center;
+    background-color: #ebf7ff;
+    padding: 0 20px 40px;
     @media print, screen and (max-width: 1000px) {
       margin-top: 40px;
     }
 
     .last-message-flex-box {
+      background-color: #fff;
+      padding: 1em 4rem 2rem;
+      max-width: 942px;
+      width: 100%;
+      @media print, screen and (max-width: 1000px) {
+        padding: 1rem 2rem;
+        width: 100%;
+      }
       img {
-        width: 80%;
+        width: 60%;
+        display: block;
+        margin: 20px auto 10px;
         @media print, screen and (max-width: 1000px) {
-          width: 63%;
+          width: 80%;
         }
       }
     }
 
-    .last-message-flexText-bold {
-      font-size: 17px;
-      @media print, screen and (max-width: 1000px) {
-        font-size: 15px;
+    .last-message-flexTitle {
+      font-size: 28px;
+      background-color: #1262b2;
+      padding: 1rem;
+      max-width: 1038px;
+      width: 100%;
+      border: none;
+      @media print, screen and (max-width: 570px) {
+        font-size: 20px;
+        padding: 0.5rem;
       }
     }
 
-    .last-message-flexTitle {
-      background-color: #1262b2;
-      padding: 10px 90px;
-      @media print, screen and (max-width: 1000px) {
-        padding: 0 40px;
-      }
-      @media print, screen and (max-width: 570px) {
-        padding: 0 20px;
+    .last-message-flexText {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.8;
+      text-align: left;
+      margin: 10px 0 0;
+      @media print, screen and (max-width: 560px) {
+        font-size: 14px;
+        line-height: 1.6;
       }
     }
+
     .red {
       color: red;
-    }
-    .last-message-flexText.-center {
-      text-align: left;
-      margin: 10px auto 0;
-      max-width: 500px;
+      font-weight: 700;
     }
   }
 
