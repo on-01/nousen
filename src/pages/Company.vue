@@ -8,7 +8,7 @@
       />
 
       <figure class="company-image">
-        <img src="../assets/img/company/company_message3.jpg" />
+        <img src="../assets/img/company/company_message3.webp" />
       </figure>
       <figure class="company-image">
         <img src="../assets/img/company/company_message4.png" />
@@ -195,7 +195,8 @@
             <dl>
               <dt>2026年3月</dt>
               <dd>
-                米国 Amazon.com の教育プログラム「Amazon Career Choice」教育パートナーに選定
+                米国 Amazon.com の教育プログラム「Amazon Career
+                Choice」教育パートナーに選定
               </dd>
             </dl>
           </div>
