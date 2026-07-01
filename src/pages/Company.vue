@@ -308,31 +308,33 @@
             </div> -->
           </div>
           <div class="last-message-flex -bottom">
+            <p class="last-message-flexTitle">
+              ミライを創ろう【創業支援制度】
+            </p>
             <div class="last-message-flex-box">
-              <p class="last-message-flexTitle">
-                ミライを創ろう【創業支援制度】
-              </p>
               <img
                 src="../assets/img/license_page/support_4.webp"
                 alt="ミライを創ろう【創業支援制度】"
               />
-              <p class="last-message-flexText">
-                能センでは、建設業の発展を支援するため、創業支援制度として、
-                <br />
-                創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
-                <br />
-                <span class="red">受講料を20％割引</span>でご提供いたします。
-                <br />
-                特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
-              </p>
-              <p class="last-message-flexText">
-                能センは、建設業の発展に微力ながら尽力してまいります。
-              </p>
-              <p class="last-message-flexText">
-                ※創業日・開業日から数えて2年以内の事業者が対象になります。
-                <br />
-                ※他の割引とは併用できません。
-              </p>
+              <div class="support-notes">
+                <p class="last-message-flexText">
+                  能センでは、建設業の発展を支援するため、創業支援制度として、
+                  <br />
+                  創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
+                  <br />
+                  <span class="red">受講料を20％割引</span>でご提供いたします。
+                  <br />
+                  特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
+                </p>
+                <p class="last-message-flexText -strong">
+                  能センは、建設業の発展に微力ながら尽力してまいります。
+                </p>
+                <p class="last-message-flexText -notes">
+                  ※創業日・開業日から数えて2年以内の事業者が対象になります。
+                  <br />
+                  ※他の割引とは併用できません。
+                </p>
+              </div>
             </div>
           </div>
           <!-- <div class="last-message-flex -bottom">
@@ -986,11 +988,27 @@ query {
   }
 
   .last-message-flex.-bottom {
-    justify-content: center;
-    background-color: #ebf7ff;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
     padding: 0 20px 40px;
-    @media print, screen and (max-width: 1000px) {
-      margin-top: 40px;
+    margin-top: 40px;
+
+    .last-message-flexTitle {
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+      background-color: #1262b2;
+      padding: 1rem;
+      text-align: center;
+      width: 100%;
+      max-width: 1038px;
+      border: none;
+      margin: 0 auto;
+      @media print, screen and (max-width: 570px) {
+        font-size: 20px;
+        padding: 0.5rem;
+      }
     }
 
     .last-message-flex-box {
@@ -1000,7 +1018,6 @@ query {
       width: 100%;
       @media print, screen and (max-width: 1000px) {
         padding: 1rem 2rem;
-        width: 100%;
       }
       img {
         width: 60%;
@@ -1012,17 +1029,9 @@ query {
       }
     }
 
-    .last-message-flexTitle {
-      font-size: 28px;
-      background-color: #1262b2;
-      padding: 1rem;
-      max-width: 1038px;
-      width: 100%;
-      border: none;
-      @media print, screen and (max-width: 570px) {
-        font-size: 20px;
-        padding: 0.5rem;
-      }
+    .support-notes {
+      max-width: 620px;
+      margin: 10px auto 0;
     }
 
     .last-message-flexText {
@@ -1034,6 +1043,16 @@ query {
       @media print, screen and (max-width: 560px) {
         font-size: 14px;
         line-height: 1.6;
+      }
+
+      &.-strong {
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      &.-notes {
+        font-size: 14px;
+        font-weight: 500;
       }
     }
 
