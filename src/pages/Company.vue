@@ -310,6 +310,34 @@
           <div class="last-message-flex -bottom">
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">
+                ミライを創ろう【創業支援制度】
+              </p>
+              <img
+                src="../assets/img/license_page/support_4.webp"
+                alt="ミライを創ろう【創業支援制度】"
+              />
+              <p class="last-message-flexText">
+                能センでは、建設業の発展を支援するため、創業支援制度として、
+                <br />
+                創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
+                <br />
+                <span class="red">受講料を20％割引</span>でご提供いたします。
+                <br />
+                特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
+              </p>
+              <p class="last-message-flexText">
+                能センは、建設業の発展に微力ながら尽力してまいります。
+              </p>
+              <p class="last-message-flexText">
+                ※創業日・開業日から数えて2年以内の事業者が対象になります。
+                <br />
+                ※他の割引とは併用できません。
+              </p>
+            </div>
+          </div>
+          <!-- <div class="last-message-flex -bottom">
+            <div class="last-message-flex-box">
+              <p class="last-message-flexTitle">
                 建設業の発展と新規企業の成長をサポート！
               </p>
               <img
@@ -329,12 +357,6 @@
                 でご提供します。
               </p>
               <p class="last-message-flexText -center">
-                <!-- <span>対象者:&nbsp;</span>
-                創業2年以内の個人事業主および法人企業の従業員様
-                <br />
-                <span>割引率:&nbsp;</span>
-                受講料20％割引
-                <br /> -->
                 <span>必要事項:&nbsp;</span>
                 特に提出書類は不要ですが、以下の情報が必要となります。
               </p>
@@ -349,7 +371,7 @@
                 皆様の挑戦を、私たちも全力でサポートさせていただきます。
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="btn__apply __bottom">
