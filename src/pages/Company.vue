@@ -322,18 +322,23 @@
                   <br />
                   創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
                   <br />
-                  <span class="red">受講料を20％割引</span>でご提供いたします。
+                  受講料を20％割引でご提供いたします。
                   <br />
                   特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
                 </p>
-                <p class="last-message-flexText -strong">
-                  能センは、建設業の発展に微力ながら尽力してまいります。
-                </p>
-                <p class="last-message-flexText -notes">
-                  ※創業日・開業日から数えて2年以内の事業者が対象になります。
+                <br />
+                <div class="support-center">
+                  <p class="last-message-flexText -strong">
+                    能センは、建設業の発展に微力ながら尽力してまいります。
+                  </p>
                   <br />
-                  ※他の割引とは併用できません。
-                </p>
+                  <p class="last-message-flexText -notes">
+                    ※創業日・開業日から数えて2年以内の事業者が対象になります。
+                  </p>
+                  <p class="last-message-flexText -notes">
+                    ※他の割引とは併用できません。
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -1032,6 +1037,10 @@ query {
     .support-notes {
       max-width: 620px;
       margin: 10px auto 0;
+    }
+
+    .support-center {
+      display: inline-block;
     }
 
     .last-message-flexText {
