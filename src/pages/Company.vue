@@ -307,17 +307,18 @@
               </p>
             </div> -->
           </div>
-          <div class="last-message-flex -bottom">
-            <p class="last-message-flexTitle">
-              ミライを創ろう【創業支援制度】
-            </p>
-            <div class="last-message-flex-box">
-              <img
-                src="../assets/img/license_page/support_4.webp"
-                alt="ミライを創ろう【創業支援制度】"
-              />
-              <div class="support-notes">
-                <p class="last-message-flexText">
+          <div class="support-wrap -second">
+            <p class="support-title">ミライを創ろう【創業支援制度】</p>
+            <div class="support">
+              <div class="support-description -second"></div>
+              <figure class="support-figure">
+                <img
+                  src="../assets/img/license_page/support_4.webp"
+                  alt="ミライを創ろう【創業支援制度】"
+                />
+              </figure>
+              <div class="support-notes -second">
+                <p>
                   能センでは、建設業の発展を支援するため、創業支援制度として、
                   <br />
                   創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
@@ -327,17 +328,13 @@
                   特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
                 </p>
                 <br />
-                <div class="support-center">
-                  <p class="last-message-flexText -strong">
+                <div class="center">
+                  <p class="strong">
                     能センは、建設業の発展に微力ながら尽力してまいります。
                   </p>
                   <br />
-                  <p class="last-message-flexText -notes">
-                    ※創業日・開業日から数えて2年以内の事業者が対象になります。
-                  </p>
-                  <p class="last-message-flexText -notes">
-                    ※他の割引とは併用できません。
-                  </p>
+                  <p>※創業日・開業日から数えて2年以内の事業者が対象になります。</p>
+                  <p>※他の割引とは併用できません。</p>
                 </div>
               </div>
             </div>
@@ -992,82 +989,88 @@ query {
     }
   }
 
-  .last-message-flex.-bottom {
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 0 20px 40px;
-    margin-top: 40px;
-
-    .last-message-flexTitle {
-      font-size: 28px;
-      font-weight: 700;
-      color: #fff;
-      background-color: #1262b2;
-      padding: 1rem;
-      text-align: center;
-      width: 100%;
-      max-width: 1038px;
-      border: none;
-      margin: 0 auto;
-      @media print, screen and (max-width: 570px) {
-        font-size: 20px;
-        padding: 0.5rem;
-      }
+  .support-wrap {
+    max-width: 100%;
+    width: 100%;
+    font-family: "Meiryo", sans-serif;
+    background-color: #fff;
+    margin: 20px auto 0;
+    z-index: 0;
+    position: relative;
+  }
+  .support-wrap.-second {
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  .support-title {
+    line-height: 1.3;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1262b2;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1038px;
+    position: relative;
+    @media print, screen and (max-width: 560px) {
+      font-size: 16px;
     }
-
-    .last-message-flex-box {
-      background-color: #fff;
-      padding: 1em 4rem 2rem;
-      max-width: 942px;
-      width: 100%;
-      @media print, screen and (max-width: 1000px) {
-        padding: 1rem 2rem;
-      }
-      img {
-        width: 60%;
-        display: block;
-        margin: 20px auto 10px;
-        @media print, screen and (max-width: 1000px) {
-          width: 80%;
-        }
-      }
+  }
+  .support {
+    margin: 0 auto;
+    padding: 1em 4rem 2rem;
+    max-width: 942px;
+    background-color: white;
+    @media print, screen and (max-width: 1000px) {
+      padding: 1rem 2rem;
     }
-
-    .support-notes {
-      max-width: 620px;
-      margin: 10px auto 0;
+  }
+  .support-description.-second {
+    font-size: 22px;
+    padding-bottom: 20px;
+    @media print, screen and (max-width: 560px) {
+      font-size: 18px;
+      padding-bottom: 10px;
     }
-
-    .support-center {
-      display: inline-block;
+  }
+  .support-figure {
+    width: 60%;
+    margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      width: 80%;
     }
-
-    .last-message-flexText {
+  }
+  .support-notes {
+    margin: 30px auto 0;
+    text-align: center;
+    max-width: 700px;
+    p {
       font-size: 16px;
       font-weight: 500;
       line-height: 1.8;
       text-align: left;
-      margin: 10px 0 0;
       @media print, screen and (max-width: 560px) {
         font-size: 14px;
         line-height: 1.6;
       }
-
-      &.-strong {
-        font-size: 18px;
-        font-weight: 700;
-      }
-
-      &.-notes {
-        font-size: 14px;
-        font-weight: 500;
-      }
     }
-
-    .red {
-      color: red;
+    .strong {
+      font-size: 18px;
       font-weight: 700;
+    }
+    .center {
+      display: inline-block;
+    }
+  }
+  .support-notes.-second {
+    max-width: 620px;
+    p {
+      white-space: nowrap;
+      margin: 0;
+      @media print, screen and (max-width: 768px) {
+        white-space: normal;
+      }
     }
   }
 
