@@ -167,9 +167,9 @@
   }
 
   .cheer-title {
-    font-size: 48px;
+    font-size: 46px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 28px;

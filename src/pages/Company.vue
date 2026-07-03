@@ -8,7 +8,7 @@
       />
 
       <figure class="company-image">
-        <img src="../assets/img/company/company_message3.jpg" />
+        <img src="../assets/img/company/company_message3.webp" />
       </figure>
       <figure class="company-image">
         <img src="../assets/img/company/company_message4.png" />
@@ -195,7 +195,8 @@
             <dl>
               <dt>2026年3月</dt>
               <dd>
-                米国 Amazon.com の教育プログラム「Amazon Career Choice」教育パートナーに選定
+                米国 Amazon.com の教育プログラム「Amazon Career
+                Choice」教育パートナーに選定
               </dd>
             </dl>
           </div>
@@ -306,7 +307,39 @@
               </p>
             </div> -->
           </div>
-          <div class="last-message-flex -bottom">
+          <div class="support-wrap -second">
+            <p class="support-title">ミライを創ろう【創業支援制度】</p>
+            <div class="support">
+              <div class="support-description -second"></div>
+              <figure class="support-figure">
+                <img
+                  src="../assets/img/license_page/support_4.webp"
+                  alt="ミライを創ろう【創業支援制度】"
+                />
+              </figure>
+              <div class="support-notes -second">
+                <p>
+                  能センでは、建設業の発展を支援するため、創業支援制度として、
+                  <br />
+                  創業2年以内の個人事業主様、または創業2年以内の法人企業に所属する従業員様を対象に、
+                  <br />
+                  受講料を20％割引でご提供いたします。
+                  <br />
+                  特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名の確認が必要になります。
+                </p>
+                <br />
+                <div class="center">
+                  <p class="strong">
+                    能センは、建設業の発展に微力ながら尽力してまいります。
+                  </p>
+                  <br />
+                  <p>※創業日・開業日から数えて2年以内の事業者が対象になります。</p>
+                  <p>※他の割引とは併用できません。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="last-message-flex -bottom">
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">
                 建設業の発展と新規企業の成長をサポート！
@@ -328,12 +361,6 @@
                 でご提供します。
               </p>
               <p class="last-message-flexText -center">
-                <!-- <span>対象者:&nbsp;</span>
-                創業2年以内の個人事業主および法人企業の従業員様
-                <br />
-                <span>割引率:&nbsp;</span>
-                受講料20％割引
-                <br /> -->
                 <span>必要事項:&nbsp;</span>
                 特に提出書類は不要ですが、以下の情報が必要となります。
               </p>
@@ -348,7 +375,7 @@
                 皆様の挑戦を、私たちも全力でサポートさせていただきます。
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="btn__apply __bottom">
@@ -962,45 +989,88 @@ query {
     }
   }
 
-  .last-message-flex.-bottom {
-    justify-content: center;
+  .support-wrap {
+    max-width: 100%;
+    width: 100%;
+    font-family: "Meiryo", sans-serif;
+    background-color: #fff;
+    margin: 20px auto 0;
+    z-index: 0;
+    position: relative;
+  }
+  .support-wrap.-second {
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  .support-title {
+    line-height: 1.3;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1262b2;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1038px;
+    position: relative;
+    @media print, screen and (max-width: 560px) {
+      font-size: 16px;
+    }
+  }
+  .support {
+    margin: 0 auto;
+    padding: 1em 4rem 2rem;
+    max-width: 942px;
+    background-color: white;
     @media print, screen and (max-width: 1000px) {
-      margin-top: 40px;
+      padding: 1rem 2rem;
     }
-
-    .last-message-flex-box {
-      img {
-        width: 80%;
-        @media print, screen and (max-width: 1000px) {
-          width: 63%;
-        }
-      }
+  }
+  .support-description.-second {
+    font-size: 22px;
+    padding-bottom: 20px;
+    @media print, screen and (max-width: 560px) {
+      font-size: 18px;
+      padding-bottom: 10px;
     }
-
-    .last-message-flexText-bold {
-      font-size: 17px;
-      @media print, screen and (max-width: 1000px) {
-        font-size: 15px;
-      }
+  }
+  .support-figure {
+    width: 60%;
+    margin: 0 auto;
+    @media print, screen and (max-width: 1000px) {
+      width: 80%;
     }
-
-    .last-message-flexTitle {
-      background-color: #ed6c00;
-      padding: 10px 90px 10px 100px;
-      @media print, screen and (max-width: 1000px) {
-        padding: 0 40px;
-      }
-      @media print, screen and (max-width: 570px) {
-        padding: 0 20px;
-      }
-    }
-    .red {
-      color: red;
-    }
-    .last-message-flexText.-center {
+  }
+  .support-notes {
+    margin: 30px auto 0;
+    text-align: center;
+    max-width: 700px;
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.8;
       text-align: left;
-      margin: 10px auto 0;
-      max-width: 500px;
+      @media print, screen and (max-width: 560px) {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    }
+    .strong {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .center {
+      display: inline-block;
+    }
+  }
+  .support-notes.-second {
+    max-width: 620px;
+    p {
+      white-space: nowrap;
+      margin: 0;
+      @media print, screen and (max-width: 768px) {
+        white-space: normal;
+      }
     }
   }
 

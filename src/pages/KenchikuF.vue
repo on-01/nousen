@@ -16,8 +16,8 @@
 
           <CheerKenchikuF
             text="能センは、<br>
-              建設業で働く皆さまを<br>
-              応援します！"
+              建設業で働く皆さまの<br>
+              資格取得を応援します！"
             :imagePath="
               require('../assets/img/license_page/kenchiku_s/kenchiku_point3.jpg')
             "
@@ -344,6 +344,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopKenchikuF />
 
@@ -406,7 +407,6 @@
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
               <FollowUpKenchokuF />
-              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -773,12 +773,12 @@
   import SupportSecondKenchiku from "../components/licensePage/SupportSecondKenchiku.vue";
   import FollowUpKenchokuF from "../components/licensePage/FollowUpKenchokuF.vue";
   import TestOverviewKenchiku1 from "../components/licensePage/TestOverviewKenchiku1.vue";
-  import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaKenchikuF from "../components/licensePage/MerumagaKenchikuF.vue";
   import TimeCountKenchiku from "../components/licensePage/TimeCountKenchiku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import StudyKenchiku from "../components/licensePage/StudyKenchiku.vue";
   import WorkshopKenchikuF from "../components/licensePage/WorkshopKenchikuF.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -850,11 +850,11 @@
       ExamKenchiku,
       FollowUpKenchokuF,
       TestOverviewKenchiku1,
-      Gansho,
       MerumagaKenchikuF,
       TimeCountKenchiku,
       IconFingerRight,
       StudyKenchiku,
+      GanshoTop,
     },
     data() {
       return {

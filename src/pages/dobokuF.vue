@@ -15,8 +15,8 @@
           <!-- <TimeCountDoboku /> -->
           <CheerDobokuF
             text="能センは、<br>
-    建設業で働く皆さまを<br>
-    応援します！"
+    建設業で働く皆さまの<br>
+    資格取得を応援します！"
             :imagePath="
               require('../assets/img/license_page/doboku_s/doboku_point2.jpg')
             "
@@ -315,6 +315,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopDobokuF />
             <NewPvMovieDoboku
@@ -337,7 +338,6 @@
               <!-- <ExamDoboku title="一次検定完全攻略！予想模擬試験" /> -->
               <!-- <ExamSecond /> -->
               <FollowUpDobokuF />
-              <Gansho />
             </div>
 
             <div class="bg-white">
@@ -720,11 +720,11 @@
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
-  import Gansho from "../components/licensePage/Gansho.vue";
   import MerumagaDobokuF from "../components/licensePage/MerumagaDobokuF.vue";
   import TimeCountDoboku from "../components/licensePage/TimeCountDoboku.vue";
   import IconFingerRight from "@/components/icons/IconFingerRight.vue";
   import FollowUpDobokuF from "../components/licensePage/FollowUpDobokuF.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
 
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
@@ -799,10 +799,10 @@
       ExamSecond,
       FollowUpDobokuF,
       TestOverviewDoboku,
-      Gansho,
       MerumagaDobokuF,
       TimeCountDoboku,
       IconFingerRight,
+      GanshoTop,
     },
     data() {
       return {

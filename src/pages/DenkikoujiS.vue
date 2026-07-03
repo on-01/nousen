@@ -16,8 +16,8 @@
           />
           <CheerDenkikouji
             text="能センは、<br>
-              建設業で働く皆さまを<br>
-              応援します！"
+              建設業で働く皆さまの<br>
+              資格取得を応援します！"
             :imagePath="
               require('../assets/img/license_page/denkikouji_s/denkikouji_s_cheer.jpg')
             "
@@ -177,6 +177,7 @@
                 require('../assets/img/license_page/doboku_s/doboku_quality_3.webp')
               "
             />
+            <GanshoTop />
 
             <WorkshopDenkikouji />
             <NewPvMovieDenkikouji
@@ -198,7 +199,6 @@
 
             <div class="bg-white">
               <FollowUpDenkikouji />
-              <Gansho />
               <SetCourse2 title="通学＋オンラインセット" />
             </div>
 
@@ -473,7 +473,7 @@
   import NewPvMovieDenkikouji from "../components/licensePage/NewPvMovieDenkikouji.vue";
   import LectureDenkikouji from "../components/licensePage/LectureDenkikouji.vue";
   import FollowUpDenkikouji from "../components/licensePage/FollowUpDenkikouji.vue";
-  import Gansho from "../components/licensePage/Gansho.vue";
+  import GanshoTop from "../components/licensePage/GanshoTop.vue";
   const options = {
     //contentfulのエディタで設定したassetへのリンクを変換
     renderNode: {
@@ -537,7 +537,7 @@
       NewPvMovieDenkikouji,
       LectureDenkikouji,
       FollowUpDenkikouji,
-      Gansho,
+      GanshoTop,
     },
     data() {
       return {
