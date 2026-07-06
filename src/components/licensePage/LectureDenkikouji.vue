@@ -204,15 +204,17 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
-          <p class="counterplan-text">
-            2級電気工事施工管理技士の合格を目指すうえで、過去問題の演習は欠かせません。
-            <br />
-            能センでは、過去5年分の過去問題・解答解説を受講生に進呈しています。
-            <br />
-            <br />
-            本試験の出題傾向をつかみ、重要ポイントを確認しながら実践力を高められる教材です。
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
+            <p class="counterplan-text">
+              2級電気工事施工管理技士の合格を目指すうえで、過去問題の演習は欠かせません。
+              <br />
+              能センでは、過去5年分の過去問題・解答解説を受講生に進呈しています。
+              <br />
+              <br />
+              本試験の出題傾向をつかみ、重要ポイントを確認しながら実践力を高められる教材です。
+            </p>
+          </div>
         </div>
         <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 提出課題</p>
@@ -221,24 +223,26 @@
             src="../../assets/img/license_page/denkikouji_s/counterplan-img.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            100点満点で図書カードをプレゼント！
-          </p>
-          <p class="counterplan-text">
-            提出課題 / 解答解説
-            <br />
-            ◆ 実力診断としてご活用ください
-            <br />
-            ◆ 試験時間：50分
-            <br />
-            ◆ 問題数：全20問
-            <br />
-            問題を解きながら、現在の実力をチェックしてみましょう。
-            <br />
-            解答をご提出いただき、全問正解された方には
-            <span>【図書カード】</span>
-            をプレゼントいたします。
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">
+              100点満点で図書カードをプレゼント！
+            </p>
+            <p class="counterplan-text">
+              提出課題 / 解答解説
+              <br />
+              ◆ 実力診断としてご活用ください
+              <br />
+              ◆ 試験時間：50分
+              <br />
+              ◆ 問題数：全20問
+              <br />
+              問題を解きながら、現在の実力をチェックしてみましょう。
+              <br />
+              解答をご提出いただき、全問正解された方には
+              <span>【図書カード】</span>
+              をプレゼントいたします。
+            </p>
+          </div>
         </div>
       </div>
       <p class="counterplan-title">第二次検定 試験対策</p>
