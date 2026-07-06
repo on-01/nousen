@@ -246,11 +246,11 @@
                 環境への配慮～持続可能なミライへ～
               </p>
               <img
-                src="../assets/img/common/social_image2.jpg"
+                src="../assets/img/common/social_image.webp"
                 alt="環境への配慮～持続可能なミライへ～"
               />
               <p class="last-message-flexText-bold">
-                能センでは、すべてのプリントや資料に
+                能センでは、プリントや資料に
                 <br />
                 FSC認証を受けたエコペーパーを使用しております。
               </p>
