@@ -250,36 +250,38 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img4.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            専門講師が記述式の第二次検定を添削指導します！
-          </p>
-          <p class="counterplan-text">
-            <span>二次コースの特長</span>
-            <br />
-            <span>&emsp;・講座料金に添削1回分が含まれる</span>
-            <br />
-            &emsp;追加添削は1回2,750円（税込）。
-            <br />
-            <span>&emsp;・専用プリントで簡単対応</span>
-            <br />
-            &emsp;指定テンプレートに記述して提出。
-            <br />
-            <span>&emsp;・最短1日でフィードバック</span>
-            <br />
-            &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。
-            <br />
-            他社では添削費用が別途かかる場合も。PDF提出なら
-            <span>最短1日</span>
-            で返却可能です。
-          </p>
-          <p class="counterplan-text -yellow">経験記述添削のみのサービス</p>
-          <p class="counterplan-text">
-            講座なしで添削を希望する方向け。
-            <br />
-            <span>・料金：3,800円（税込4,180円）</span>
-            <br />
-            <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">
+              専門講師が記述式の第二次検定を添削指導します！
+            </p>
+            <p class="counterplan-text">
+              <span>二次コースの特長</span>
+              <br />
+              <span>&emsp;・講座料金に添削1回分が含まれる</span>
+              <br />
+              &emsp;追加添削は1回2,750円（税込）。
+              <br />
+              <span>&emsp;・専用プリントで簡単対応</span>
+              <br />
+              &emsp;指定テンプレートに記述して提出。
+              <br />
+              <span>&emsp;・最短1日でフィードバック</span>
+              <br />
+              &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。
+              <br />
+              他社では添削費用が別途かかる場合も。PDF提出なら
+              <span>最短1日</span>
+              で返却可能です。
+            </p>
+            <p class="counterplan-text -yellow">経験記述添削のみのサービス</p>
+            <p class="counterplan-text">
+              講座なしで添削を希望する方向け。
+              <br />
+              <span>・料金：3,800円（税込4,180円）</span>
+              <br />
+              <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
+            </p>
+          </div>
         </div>
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
