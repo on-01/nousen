@@ -7,6 +7,7 @@
           書面申請が必要な受講生には、
           <br />
           <span class="gansho-text-blue">願書の取り寄せ・記入方法サポート</span>
+          。
           <br />
           受験区分の確認や、記入時に迷いやすい項目もわかりやすくご案内します。
         </p>
@@ -35,7 +36,7 @@
   }
 
   .gansho-wrapper {
-    max-width: 450px;
+    max-width: 500px;
     margin: 0 auto;
     background-color: #ffffff;
     padding: 24px 0 12px 24px;
