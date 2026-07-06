@@ -214,7 +214,7 @@
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
-                src="../assets/img/common/social_image1-1.jpg"
+                src="../assets/img/common/social_image2.webp"
                 alt="「こどもの未来応援基金への寄付」"
               />
               <p class="last-message-flexText-bold">
