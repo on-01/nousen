@@ -76,8 +76,9 @@
     }
 
     .gansho-bottom {
-      margin: 0;
+      margin: 20px 0 0;
       font-size: 15px;
+      color: #666;
     }
   }
 </style>
