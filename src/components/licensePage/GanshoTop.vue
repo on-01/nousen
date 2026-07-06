@@ -23,8 +23,6 @@
 
 <style lang="scss" scoped>
   .gansho {
-    max-width: 450px;
-    margin: 0 auto;
     z-index: 0;
     padding-bottom: 50px;
     position: relative;
@@ -33,6 +31,8 @@
   }
 
   .gansho-wrapper {
+    max-width: 450px;
+    margin: 0 auto;
     background-color: #ffffff;
     padding: 24px 0 12px 24px;
     display: flex;
