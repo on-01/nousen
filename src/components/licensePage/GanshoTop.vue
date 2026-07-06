@@ -4,7 +4,11 @@
       <div class="gansho-contents">
         <p class="gansho-title">願書取り寄せ・記入サポート</p>
         <p class="gansho-text">
-          書面申請が必要な受講生には、願書の取り寄せ・記入方法をサポートします。
+          書面申請が必要な受講生には、
+          <br />
+          <span class="gansho-text-blue">願書の取り寄せ・記入方法サポート</span>
+          <br />
+          受験区分の確認や、記入時に迷いやすい項目もわかりやすくご案内します。
         </p>
         <p class="gansho-bottom">※一部の申請区分が対象です。</p>
       </div>
@@ -63,6 +67,11 @@
     .gansho-text {
       margin: 0;
       font-size: 15px;
+    }
+
+    .gansho-text-blue {
+      color: #399fec;
+      font-weight: 700;
     }
 
     .gansho-bottom {
