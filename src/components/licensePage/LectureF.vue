@@ -277,7 +277,7 @@
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img4.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img4.webp"
             alt="1級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
