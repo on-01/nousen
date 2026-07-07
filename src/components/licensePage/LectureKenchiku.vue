@@ -273,32 +273,6 @@
           </p>
         </div>
         <div class="counterplan-wrap">
-          <p class="counterplan-head">オリジナル問題集</p>
-          <img
-            class="counterplan-img -second"
-            src="../../assets/img/license_page/kenchiku_s/counterplan-img1.jpg"
-            alt="2級建築施工管理技士 講習会 通信講座 web講座"
-          />
-          <p class="counterplan-text -yellow">
-            １・２級に対応したスーパー問題集！！
-          </p>
-          <p class="counterplan-text">
-            一次試験に出る重要ポイントのみを集めた能センオリジナルの問題集です。
-            <br />
-            第一編【建築学】
-            <br />
-            第二編【建築設備・外溝・契約関連】
-            <br />
-            第三編【施工共通（躯体）】
-            <br />
-            第四編【施工共通（仕上げ）】
-            <br />
-            第五編【施工管理】
-            <br />
-            第六編【法規】
-          </p>
-        </div>
-        <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 予想模擬試験</p>
           <img
             class="counterplan-img -third"
@@ -529,6 +503,12 @@
       flex-direction: column;
       width: 90%;
       margin: 0 auto;
+    }
+    .counterplan-wrap {
+      width: calc(100% / 2);
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
     }
   }
 
