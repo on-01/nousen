@@ -214,7 +214,7 @@
             <div class="last-message-flex-box">
               <p class="last-message-flexTitle">こどもの未来応援基金への寄付</p>
               <img
-                src="../assets/img/common/social_image1-1.jpg"
+                src="../assets/img/common/social_image2.webp"
                 alt="「こどもの未来応援基金への寄付」"
               />
               <p class="last-message-flexText-bold">
@@ -246,11 +246,11 @@
                 環境への配慮～持続可能なミライへ～
               </p>
               <img
-                src="../assets/img/common/social_image2.jpg"
+                src="../assets/img/common/social_image.webp"
                 alt="環境への配慮～持続可能なミライへ～"
               />
               <p class="last-message-flexText-bold">
-                能センでは、すべてのプリントや資料に
+                能センでは、プリントや資料に
                 <br />
                 FSC認証を受けたエコペーパーを使用しております。
               </p>

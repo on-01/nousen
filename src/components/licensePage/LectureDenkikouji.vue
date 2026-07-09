@@ -204,15 +204,17 @@
             src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
-          <p class="counterplan-text">
-            2級電気工事施工管理技士の合格を目指すうえで、過去問題の演習は欠かせません。
-            <br />
-            能センでは、過去5年分の過去問題・解答解説を受講生に進呈しています。
-            <br />
-            <br />
-            本試験の出題傾向をつかみ、重要ポイントを確認しながら実践力を高められる教材です。
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
+            <p class="counterplan-text">
+              2級電気工事施工管理技士の合格を目指すうえで、過去問題の演習は欠かせません。
+              <br />
+              能センでは、過去5年分の過去問題・解答解説を受講生に進呈しています。
+              <br />
+              <br />
+              本試験の出題傾向をつかみ、重要ポイントを確認しながら実践力を高められる教材です。
+            </p>
+          </div>
         </div>
         <div class="counterplan-wrap">
           <p class="counterplan-head">一次検定 提出課題</p>
@@ -221,24 +223,26 @@
             src="../../assets/img/license_page/denkikouji_s/counterplan-img.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            100点満点で図書カードをプレゼント！
-          </p>
-          <p class="counterplan-text">
-            提出課題 / 解答解説
-            <br />
-            ◆ 実力診断としてご活用ください
-            <br />
-            ◆ 試験時間：50分
-            <br />
-            ◆ 問題数：全20問
-            <br />
-            問題を解きながら、現在の実力をチェックしてみましょう。
-            <br />
-            解答をご提出いただき、全問正解された方には
-            <span>【図書カード】</span>
-            をプレゼントいたします。
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">
+              100点満点で図書カードをプレゼント！
+            </p>
+            <p class="counterplan-text">
+              提出課題 / 解答解説
+              <br />
+              ◆ 実力診断としてご活用ください
+              <br />
+              ◆ 試験時間：50分
+              <br />
+              ◆ 問題数：全20問
+              <br />
+              問題を解きながら、現在の実力をチェックしてみましょう。
+              <br />
+              解答をご提出いただき、全問正解された方には
+              <span>【図書カード】</span>
+              をプレゼントいたします。
+            </p>
+          </div>
         </div>
       </div>
       <p class="counterplan-title">第二次検定 試験対策</p>
@@ -247,39 +251,41 @@
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img4.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img4.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
-          <p class="counterplan-text -yellow">
-            専門講師が記述式の第二次検定を添削指導します！
-          </p>
-          <p class="counterplan-text">
-            <span>二次コースの特長</span>
-            <br />
-            <span>&emsp;・講座料金に添削1回分が含まれる</span>
-            <br />
-            &emsp;追加添削は1回2,750円（税込）。
-            <br />
-            <span>&emsp;・専用プリントで簡単対応</span>
-            <br />
-            &emsp;指定テンプレートに記述して提出。
-            <br />
-            <span>&emsp;・最短1日でフィードバック</span>
-            <br />
-            &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。
-            <br />
-            他社では添削費用が別途かかる場合も。PDF提出なら
-            <span>最短1日</span>
-            で返却可能です。
-          </p>
-          <p class="counterplan-text -yellow">経験記述添削のみのサービス</p>
-          <p class="counterplan-text">
-            講座なしで添削を希望する方向け。
-            <br />
-            <span>・料金：3,800円（税込4,180円）</span>
-            <br />
-            <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
-          </p>
+          <div class="counterplan-text-wrap">
+            <p class="counterplan-text -yellow">
+              専門講師が記述式の第二次検定を添削指導します！
+            </p>
+            <p class="counterplan-text">
+              <span>二次コースの特長</span>
+              <br />
+              <span>&emsp;・講座料金に添削1回分が含まれる</span>
+              <br />
+              &emsp;追加添削は1回2,750円（税込）。
+              <br />
+              <span>&emsp;・専用プリントで簡単対応</span>
+              <br />
+              &emsp;指定テンプレートに記述して提出。
+              <br />
+              <span>&emsp;・最短1日でフィードバック</span>
+              <br />
+              &emsp;丁寧な修正とアドバイスで効率的に高得点を狙えます。
+              <br />
+              他社では添削費用が別途かかる場合も。PDF提出なら
+              <span>最短1日</span>
+              で返却可能です。
+            </p>
+            <p class="counterplan-text -yellow">経験記述添削のみのサービス</p>
+            <p class="counterplan-text">
+              講座なしで添削を希望する方向け。
+              <br />
+              <span>・料金：3,800円（税込4,180円）</span>
+              <br />
+              <span>&emsp;・内容：添削1回＋二次試験対応テキスト</span>
+            </p>
+          </div>
         </div>
         <div class="counterplan-wrap">
           <p class="counterplan-head">過去問5年分</p>
