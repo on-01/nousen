@@ -511,6 +511,12 @@
         width: 100%;
       }
     }
+    .counterplan-img.-first {
+      width: 63%;
+    }
+    .counterplan-img.-third {
+      width: 63%;
+    }
   }
 
   .lecture-section.-counterplan2 {
