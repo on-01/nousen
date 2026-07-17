@@ -350,19 +350,9 @@
               <br class="overdisplay" />
               電気工事施工管理技士
             </p>
-            <g-link
-              to="/denkikouji-s-application"
-              class="application-form-link"
-            >
-              お申込みフォーム(個人)
-            </g-link>
+            <span class="application-form-link">お申込みフォーム(個人)</span>
             <br />
-            <g-link
-              to="/denkikouji-s-application-business"
-              class="application-form-link"
-            >
-              お申込みフォーム(法人)
-            </g-link>
+            <span class="application-form-link">お申込みフォーム(法人)</span>
           </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
@@ -430,12 +420,12 @@
               <br class="overdisplay" />
               建築施工管理技士
             </p>
-            <g-link to="/kenchiku-s-application" class="application-form-link">
+            <g-link to="/kenchiku-f-application" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/kenchiku-s-application-business"
+              to="/kenchiku-f-application-business"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -447,12 +437,12 @@
               <br class="overdisplay" />
               土木施工管理技士
             </p>
-            <g-link to="/doboku-s-application" class="application-form-link">
+            <g-link to="/doboku-f-application" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/doboku-s-application-business"
+              to="/doboku-f-application-business"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -464,9 +454,7 @@
               <br class="overdisplay" />
               管工事施工管理技士
             </p>
-            <g-link to="/kankouji-s-application" class="application-form-link">
-              お申し込みフォーム
-            </g-link>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
           <li class="kyuusui">
             <p class="title">
@@ -474,9 +462,7 @@
               <br class="overdisplay" />
               主任技術者
             </p>
-            <g-link to="/kyuusui-application" class="application-form-link">
-              お申し込みフォーム
-            </g-link>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
           <li class="denkikouji">
             <p class="title">
@@ -538,9 +524,7 @@
               <br class="overdisplay" />
               管工事施工管理技士
             </p>
-            <g-link to="/kankouji-s-application" class="application-form-link">
-              お申し込みフォーム
-            </g-link>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
         </ul>
       </div>

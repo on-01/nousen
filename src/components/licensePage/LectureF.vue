@@ -248,7 +248,7 @@
           <p class="counterplan-head">一次検定 予想模擬試験</p>
           <img
             class="counterplan-img -third"
-            src="../../assets/img/license_page/doboku_s/counterplan-img3.jpg"
+            src="../../assets/img/license_page/doboku_s/counterplan-img3-1kyu.webp"
             alt="1級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
