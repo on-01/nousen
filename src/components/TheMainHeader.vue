@@ -350,6 +350,9 @@
               <br class="overdisplay" />
               電気工事施工管理技士
             </p>
+            <span class="application-form-link">お申込みフォーム(個人)</span>
+            <br />
+            <span class="application-form-link">お申込みフォーム(法人)</span>
           </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
@@ -451,6 +454,7 @@
               <br class="overdisplay" />
               管工事施工管理技士
             </p>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
           <li class="kyuusui">
             <p class="title">
@@ -458,6 +462,7 @@
               <br class="overdisplay" />
               主任技術者
             </p>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
           <li class="denkikouji">
             <p class="title">
@@ -519,6 +524,7 @@
               <br class="overdisplay" />
               管工事施工管理技士
             </p>
+            <span class="application-form-link">お申し込みフォーム</span>
           </li>
         </ul>
       </div>
