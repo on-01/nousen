@@ -349,17 +349,17 @@
             <WorkshopKenchikuF />
 
             <NewPvMovieKenchiku
-              :movie="$static.kenchikuOnline.mediaYoutube"
+              movie="obcX0wJgGfk"
               :image="
                 $static.kenchikuOnline.mediaImg
                   ? $static.kenchikuOnline.mediaImg.file.url
                   : ''
               "
               movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
-              description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
+              description="合格者を多数輩出した伊東先生による１級建築施工の無料動画になります。"
             />
 
-            <LectureKenchikuF
+            <!-- <LectureKenchikuF
               title="井岡先生の講習がスゴイ！"
               text="関西地区で長年ゼネコン企業に勤務されて施工管理や設計監理業務に携わり、各種の建築関連資格を取得。
                 その後独立して１級建築士事務所を設立し現在に至る。
@@ -402,7 +402,7 @@
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture_book_3.jpg')
               "
               altBook3="1級建築施工管理技士 講習会 通信講座 web講座"
-            />
+            /> -->
 
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
