@@ -612,7 +612,7 @@
   }
 
   .counterplan-img.-third {
-    width: 51%;
+    width: 57%;
   }
 
   .lecture-image {
