@@ -603,12 +603,16 @@
     margin-top: 20px;
   }
 
+  .counterplan-img.-first {
+    width: 63%;
+  }
+
   .counterplan-img.-second {
     width: 51%;
   }
 
   .counterplan-img.-third {
-    width: 94%;
+    width: 57%;
   }
 
   .lecture-image {

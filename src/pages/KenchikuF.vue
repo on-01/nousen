@@ -349,14 +349,14 @@
             <WorkshopKenchikuF />
 
             <NewPvMovieKenchiku
-              :movie="$static.kenchikuOnline.mediaYoutube"
+              movie="obcX0wJgGfk"
               :image="
                 $static.kenchikuOnline.mediaImg
                   ? $static.kenchikuOnline.mediaImg.file.url
                   : ''
               "
               movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
-              description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
+              description="合格者を多数輩出した伊東先生による１級建築施工の無料動画になります。"
             />
 
             <LectureKenchikuF
