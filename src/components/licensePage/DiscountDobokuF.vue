@@ -1,112 +1,126 @@
 <template>
   <div class="discount">
     <div class="discount-inner">
-      <p class="discount-title">{{ title }}</p>
-      <figure class="discount-image">
-        <img
-          src="../../assets/img/license_page/discount.jpeg"
-          alt="1級土木施工管理技士 講習会 通信講座 web講座"
-        />
-      </figure>
-      <div class="discount-note">
-        <p class="fw700">🎓 GO!資格 合格応援制度とは？</p>
-        <p>
-          資格取得を目指すあなたを全力でサポートするための特別プログラムです。
-        </p>
-        <p>
-          学習を続けるモチベーションを保ちながら、合格を確実に引き寄せるための“応援特典”をご用意しました！
-        </p>
-        <p>※本制度は一定の条件を設けております。</p>
+      <div class="discount-header">
+        <div class="discount-header-text">
+          <span class="discount-badge">🎓 GO!資格 合格応援制度</span>
+          <p class="discount-title">
+            学びたい気持ちを、<br />
+            6つの割引で応援。
+          </p>
+        </div>
+        <figure class="discount-image">
+          <img
+            src="../../assets/img/license_page/discount.jpeg"
+            alt="1級土木施工管理技士 講習会 通信講座 web講座"
+          />
+          <span class="discount-image-badge">
+            団体のお申込みなら<br />
+            <span class="discount-image-badge-strong">最大15%OFF</span>
+          </span>
+        </figure>
       </div>
-      <div class="discount-flex">
-        <p class="discount-flex-left">
-          再受講割引
-          <span class="arrow">▶︎</span>
-        </p>
-        <p class="discount-flex-right">
-          受講料
-          <br />
-          各
-          <span>5000</span>
-          円割引！
-          <br />
-        </p>
-      </div>
-      <div class="wrapper">
-        <div class="discount-flex">
-          <div class="discount-flex-left">
-            若チャレ割
-            <br />
-            <p class="discount-small">（若者チャレンジ応援割！20歳以下）</p>
-            <span class="arrow -waka">▶︎</span>
+
+      <p class="discount-section-title">
+        <span class="discount-bar"></span>
+        あなたに合う割引をチェック
+      </p>
+
+      <div class="discount-grid">
+        <div class="discount-card-wrap">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">01</span>
+              再受講割
+            </p>
+            <p class="discount-card-desc">同じ科目・コースの再受講</p>
+            <p class="discount-card-price">
+              各<span>5,000</span>円<em>OFF</em>
+            </p>
           </div>
-          <p class="discount-flex-right">
-            受講料
-            <br />
-            <span>5000</span>
-            円割引！
-          </p>
         </div>
-        <div class="discount-flex -nomt">
-          <p class="discount-flex-left -sp">
-            女子応援割
-            <span class="arrow">▶︎</span>
-          </p>
-          <p class="discount-flex-right">
-            受講料
-            <br />
-            <span>2000</span>
-            円割引！
-          </p>
-        </div>
-        <div class="discount-flex -nomt">
-          <div class="discount-flex-left">
-            シニア応援割
-            <br />
-            <p class="discount-small">（60歳以上対象）</p>
-            <span class="arrow -waka">▶︎</span>
+        <div class="discount-card-wrap">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">02</span>
+              若チャレ割
+            </p>
+            <p class="discount-card-desc">20歳以下</p>
+            <p class="discount-card-price">
+              各<span>5,000</span>円<em>OFF</em>
+            </p>
           </div>
-          <p class="discount-flex-right">
-            受講料
-            <br />
-            <span>2000</span>
-            円割引！
-          </p>
+        </div>
+        <div class="discount-card-wrap">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">03</span>
+              女子応援割
+            </p>
+            <p class="discount-card-desc">女性の受講を応援</p>
+            <p class="discount-card-price">
+              各<span>2,000</span>円<em>OFF</em>
+            </p>
+          </div>
+        </div>
+        <div class="discount-card-wrap">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">04</span>
+              シニア応援割
+            </p>
+            <p class="discount-card-desc">60歳以上</p>
+            <p class="discount-card-price">
+              各<span>2,000</span>円<em>OFF</em>
+            </p>
+          </div>
+        </div>
+        <div class="discount-card-wrap -group">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">05</span>
+              団体割
+            </p>
+            <p class="discount-card-desc">5名以上</p>
+            <p class="discount-card-price">
+              全員<span>10%</span><em>OFF</em>
+            </p>
+          </div>
+        </div>
+        <div class="discount-card-wrap -groupMax">
+          <span class="discount-card-bar"></span>
+          <div class="discount-card">
+            <p class="discount-card-title">
+              <span class="discount-number">06</span>
+              超団体割
+            </p>
+            <p class="discount-card-desc">10名以上</p>
+            <p class="discount-card-price">
+              全員<span>15%</span><em>OFF</em>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="wrapper">
-        <div class="discount-flex">
-          <p class="discount-flex-left -sp">
-            団体割
-            <br />
-            <span class="number">（5名以上）</span>
-            <span class="arrow">▶︎</span>
-          </p>
-          <p class="discount-flex-right">
-            受講料
-            <br />
-            <span>全員10%OFF</span>
-          </p>
-        </div>
-        <div class="discount-flex -nomt">
-          <p class="discount-flex-left -sp">
-            超団体割
-            <br />
-            <span class="number">（10名以上）</span>
-            <span class="arrow">▶︎</span>
-          </p>
-          <p class="discount-flex-right">
-            受講料
-            <br />
-            <span>全員15%OFF</span>
-          </p>
-        </div>
-      </div>
+
       <div class="discount-note">
-        <p>※割引の併用はできません（キャンペーンコードは別）</p>
-        <p>※再受講割引は過去に受講された方（同じ科目が対象）</p>
-        <p>※団体割は新規のお申込みが対象になります</p>
-        <p>※経験記述の添削のみは対象外になります</p>
+        <div class="discount-note-head">
+          <p class="discount-note-title">❗ 割引利用時のご注意</p>
+          <g-link to="/go-kakuouen" class="discount-detail-link">
+            詳しい利用条件を見る
+            <span class="arrow">→</span>
+          </g-link>
+        </div>
+        <ul>
+          <li>割引の併用不可（キャンペーンコードは別）</li>
+          <li>再受講割引は、同じ科目・コースが対象</li>
+          <li>団体割は新規のお申込みが対象</li>
+          <li>経験記述の添削のみは対象外</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -124,150 +138,260 @@
   .discount {
     max-width: 1070px;
     width: 100%;
-    background-color: #1da1f2;
     margin: 0 auto;
-    z-index: 0;
-    position: relative;
     font-family: "Meiryo", sans-serif;
   }
   .discount-inner {
-    padding: 40px 190px;
+    background: #fff;
+    border-radius: 24px;
+    padding: 24px;
   }
-  .discount-title {
-    line-height: 1.3;
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    text-shadow: 5px 5px 5px #000;
-  }
-  .discount-image {
-    margin: 30px auto;
-  }
-  .discount-image img {
-    margin: 0 auto;
-    display: block;
-  }
-  .discount-flex {
+  .discount-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background: #1262b2;
+    border-radius: 20px;
+    padding: 28px 32px;
+    color: #fff;
+  }
+  .discount-header-text {
+    flex: 1;
+  }
+  .discount-badge {
+    display: inline-block;
     background: #fff;
-    border-radius: 16px;
-    padding: 12px 24px;
-    margin-top: 20px;
-  }
-
-  .discount-flex.-nomt {
-    margin-top: 0;
-  }
-
-  .discount-flex-left {
-    width: 50%;
-    font-size: 28px;
+    color: #1262b2;
     font-weight: 700;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 14px;
+  }
+  .discount-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .discount-image {
     position: relative;
+    flex-shrink: 0;
     margin: 0;
   }
-  .number {
-    font-size: 24px;
+  .discount-image img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 16px;
+    display: block;
   }
-  .discount-flex-left .arrow {
-    color: #ed6c00;
-    font-size: 18px;
+  .discount-image-badge {
     position: absolute;
-    right: 0;
-  }
-  .discount-flex-left .arrow.-waka {
-    top: 25px;
-  }
-  .discount-flex-left br {
-    display: none;
-  }
-  .discount-flex-right {
-    width: 50%;
-    font-size: 20px;
-    color: red;
+    right: -10px;
+    bottom: -14px;
+    background: #ed6c00;
+    color: #fff;
+    font-size: 11px;
     font-weight: 700;
-    padding-left: 4%;
+    line-height: 1.4;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+  }
+  .discount-image-badge-strong {
+    font-size: 15px;
+  }
+  .discount-section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #005a9e;
+    margin: 28px 0 16px;
+  }
+  .discount-bar {
+    display: inline-block;
+    width: 8px;
+    height: 22px;
+    background: #249ef0;
+    border-radius: 4px;
+  }
+  .discount-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .discount-card-wrap {
+    display: flex;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+  }
+  .discount-card-bar {
+    width: 8px;
+    flex-shrink: 0;
+    background: #249ef0;
+    border-radius: 16px 0 0 16px;
+  }
+  .discount-card {
+    flex: 1;
+    min-width: 0;
+    background: #fff;
+    border: 2px solid #249ef0;
+    border-left: none;
+    border-radius: 0 16px 16px 0;
+    padding: 20px;
+  }
+  .discount-card-wrap.-group .discount-card-bar {
+    background: #f4891e;
+  }
+  .discount-card-wrap.-group .discount-card {
+    border-color: #f4891e;
+  }
+  .discount-card-wrap.-group .discount-number {
+    background: #fdeee0;
+    color: #f4891e;
+  }
+  .discount-card-wrap.-groupMax .discount-card-bar {
+    background: #ed6c00;
+  }
+  .discount-card-wrap.-groupMax .discount-card {
+    border-color: #ed6c00;
+    background: #fdeee0;
+  }
+  .discount-card-wrap.-groupMax .discount-number {
+    background: #fff;
+    color: #ed6c00;
+  }
+  .discount-card-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0 0 6px;
+  }
+  .discount-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #eaf7ff;
+    color: #005a9e;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .discount-card-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px;
+  }
+  .discount-card-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff0000;
     margin: 0;
   }
-  .discount-flex-right span {
-    font-size: 44px;
+  .discount-card-price span {
+    font-size: 36px;
+    margin: 0 2px;
+  }
+  .discount-card-price em {
+    font-style: normal;
+    font-size: 16px;
   }
   .discount-note {
-    background: #fff;
-    border-radius: 20px;
-    padding: 12px;
-    margin-top: 30px;
+    background: #eaf7ff;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-top: 24px;
   }
-
-  .discount-note p {
-    font-size: 16px;
-    line-height: 1.8;
-    margin: 0;
+  .discount-note-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
   }
-
-  .fw700 {
+  .discount-note-title {
     font-weight: 700;
-  }
-
-  .discount-small {
+    color: #1a1a1a;
     margin: 0;
-    font-size: 16px;
+  }
+  .discount-note ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+  .discount-note li {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.8;
+  }
+  .discount-detail-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #1262b2;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 18px;
+    white-space: nowrap;
+  }
+  .discount-detail-link .arrow {
+    margin-left: 6px;
   }
 
   @media print, screen and (max-width: 1000px) {
     .discount-inner {
-      padding: 40px;
+      padding: 16px;
     }
-    .discount-small {
-      font-size: 12px;
+    .discount-header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+    }
+    .discount-image {
+      align-self: center;
     }
   }
 
   @media print, screen and (max-width: 768px) {
     .discount-title {
-      font-size: 36px;
-    }
-
-    .discount-inner {
-      padding: 12px;
-    }
-
-    .discount-flex {
-      padding: 12px;
-    }
-    .discount-flex-left {
       font-size: 22px;
     }
-    .number {
-      font-size: 22px;
-    }
-    .discount-flex-left .arrow {
+    .discount-badge {
       font-size: 12px;
     }
-
-    .discount-flex-left.-sp .arrow {
-      top: 24px;
+    .discount-grid {
+      grid-template-columns: 1fr;
     }
-    .discount-flex-left br {
-      display: block;
+    .discount-note-head {
+      flex-direction: column;
+      align-items: flex-start;
     }
-    .discount-flex-right {
-      font-size: 12px;
-      padding-left: 2%;
+    .discount-detail-link {
+      width: 100%;
+      padding: 10px;
     }
-    .discount-flex-right span {
+    .discount-image img {
+      width: 160px;
+      height: 100px;
+    }
+    .discount-card-price span {
       font-size: 28px;
     }
-    .discount-note p {
-      font-size: 12px;
-    }
-  }
-
-  .wrapper {
-    background: #fff;
-    border-radius: 16px;
   }
 </style>
