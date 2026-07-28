@@ -109,17 +109,20 @@
 
       <div class="discount-note">
         <div class="discount-note-head">
-          <p class="discount-note-title">❗ 割引利用時のご注意</p>
+          <p class="discount-note-title">
+            <span class="discount-note-icon">!</span>
+            割引利用時のご注意
+          </p>
           <g-link to="/go-kakuouen" class="discount-detail-link">
             詳しい利用条件を見る
             <span class="arrow">→</span>
           </g-link>
         </div>
         <ul>
-          <li>割引の併用不可（キャンペーンコードは別）</li>
-          <li>再受講割引は、同じ科目・コースが対象</li>
-          <li>団体割は新規のお申込みが対象</li>
-          <li>模擬試験は再受講割引の対象外</li>
+          <li class="-blue">割引の併用不可（キャンペーンコードは別）</li>
+          <li class="-blue">再受講割引は、同じ科目・コースが対象</li>
+          <li class="-orange">団体割は新規のお申込みが対象</li>
+          <li class="-orange">模擬試験は再受講割引の対象外</li>
         </ul>
       </div>
     </div>
@@ -148,10 +151,10 @@
   }
   .discount-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 24px;
-    background: #1262b2;
+    background: linear-gradient(90deg, #1262b2, #249ef0);
     border-radius: 20px;
     padding: 28px 32px;
     color: #fff;
@@ -161,8 +164,8 @@
   }
   .discount-badge {
     display: inline-block;
-    background: #fff;
-    color: #1262b2;
+    background: #6ec6f2;
+    color: #fff;
     font-weight: 700;
     font-size: 14px;
     padding: 6px 16px;
@@ -170,7 +173,7 @@
     margin-bottom: 14px;
   }
   .discount-title {
-    font-size: 30px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;
@@ -189,27 +192,28 @@
   }
   .discount-image-badge {
     position: absolute;
-    right: -10px;
-    bottom: -14px;
-    background: #ed6c00;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background: linear-gradient(90deg, #ed6c00, #f4891e);
     color: #fff;
     font-size: 11px;
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
-    padding: 8px 12px;
-    border-radius: 12px;
+    padding: 8px 18px;
+    border-radius: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     white-space: nowrap;
   }
   .discount-image-badge-strong {
-    font-size: 15px;
+    font-size: 20px;
   }
   .discount-section-title {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     color: #005a9e;
     margin: 28px 0 16px;
@@ -271,7 +275,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     color: #1a1a1a;
     margin: 0 0 6px;
@@ -280,17 +284,18 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     background: #eaf7ff;
     color: #005a9e;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
     flex-shrink: 0;
   }
   .discount-card-desc {
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;
     color: #666;
     margin: 0 0 12px;
   }
@@ -323,31 +328,66 @@
     flex-wrap: wrap;
   }
   .discount-note-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
     font-weight: 700;
     color: #1a1a1a;
     margin: 0;
   }
+  .discount-note-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #249ef0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
   .discount-note ul {
     margin: 0;
-    padding-left: 18px;
+    padding-left: 0;
+    list-style: none;
   }
   .discount-note li {
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 700;
     color: #555;
     line-height: 1.8;
+    padding-left: 20px;
+    position: relative;
+  }
+  .discount-note li::before {
+    content: "・";
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+  }
+  .discount-note li.-blue::before {
+    color: #249ef0;
+  }
+  .discount-note li.-orange::before {
+    color: #ed6c00;
   }
   .discount-detail-link {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #1262b2;
+    background: #249ef0;
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
-    border-radius: 10px;
+    font-size: 20px;
+    border-radius: 40px;
     text-decoration: none;
     text-align: center;
-    padding: 8px 18px;
+    padding: 8px 40px;
     white-space: nowrap;
   }
   .discount-detail-link .arrow {
@@ -359,21 +399,26 @@
       padding: 16px;
     }
     .discount-header {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 24px;
-    }
-    .discount-image {
-      align-self: center;
+      padding: 20px;
+      gap: 16px;
     }
   }
 
   @media print, screen and (max-width: 768px) {
+    .discount-inner {
+      padding: 16px 20px;
+    }
+    .discount-header {
+      gap: 10px;
+      padding: 16px;
+    }
     .discount-title {
-      font-size: 22px;
+      font-size: 20px;
     }
     .discount-badge {
-      font-size: 12px;
+      font-size: 11px;
+      padding: 4px 10px;
+      margin-bottom: 8px;
     }
     .discount-grid {
       grid-template-columns: 1fr;
@@ -387,8 +432,15 @@
       padding: 10px;
     }
     .discount-image img {
-      width: 160px;
-      height: 100px;
+      width: 96px;
+      height: 64px;
+    }
+    .discount-image-badge {
+      font-size: 9px;
+      padding: 5px 8px;
+    }
+    .discount-image-badge-strong {
+      font-size: 11px;
     }
     .discount-card-price span {
       font-size: 28px;
