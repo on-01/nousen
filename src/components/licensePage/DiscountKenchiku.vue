@@ -164,10 +164,10 @@
   }
   .discount-badge {
     display: inline-block;
-    background: #6ec6f2;
+    background: rgba(69, 154, 216, 0.5);
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     padding: 6px 16px;
     border-radius: 20px;
     margin-bottom: 14px;
@@ -221,7 +221,7 @@
   .discount-bar {
     display: inline-block;
     width: 8px;
-    height: 22px;
+    height: 28px;
     background: #249ef0;
     border-radius: 4px;
   }
@@ -384,6 +384,7 @@
     color: #fff;
     font-weight: 700;
     font-size: 20px;
+    line-height: 1;
     border-radius: 40px;
     text-decoration: none;
     text-align: center;
