@@ -445,6 +445,7 @@
       order: 3;
       width: 100%;
       padding: 10px;
+      margin-top: 16px;
       box-sizing: border-box;
     }
     .discount-image img {
