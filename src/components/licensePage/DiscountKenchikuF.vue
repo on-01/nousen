@@ -169,7 +169,7 @@
     font-weight: 700;
     font-size: 18px;
     padding: 6px 16px;
-    border-radius: 20px;
+    border-radius: 40px;
     margin-bottom: 14px;
   }
   .discount-title {
@@ -355,17 +355,18 @@
     list-style: none;
   }
   .discount-note li {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 700;
     color: #555;
     line-height: 1.8;
-    padding-left: 20px;
-    position: relative;
   }
   .discount-note li::before {
     content: "・";
-    position: absolute;
-    left: 0;
+    display: inline-block;
+    width: 20px;
+    flex-shrink: 0;
     font-size: 22px;
     line-height: 1;
     font-weight: 700;
@@ -388,7 +389,7 @@
     border-radius: 40px;
     text-decoration: none;
     text-align: center;
-    padding: 8px 40px;
+    padding: 20px 40px;
     white-space: nowrap;
   }
   .discount-detail-link .arrow {
