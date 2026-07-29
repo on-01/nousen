@@ -425,13 +425,27 @@
     .discount-grid {
       grid-template-columns: 1fr;
     }
-    .discount-note-head {
+    .discount-section-title {
+      font-size: 20px;
+    }
+    .discount-note {
+      display: flex;
       flex-direction: column;
-      align-items: flex-start;
+    }
+    .discount-note-head {
+      display: contents;
+    }
+    .discount-note-title {
+      order: 1;
+    }
+    .discount-note ul {
+      order: 2;
     }
     .discount-detail-link {
+      order: 3;
       width: 100%;
       padding: 10px;
+      box-sizing: border-box;
     }
     .discount-image img {
       width: 96px;
