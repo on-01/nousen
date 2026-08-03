@@ -222,7 +222,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">🔹 勉強管理システム（1,650円）</p>
+              <p class="follow-heading">🔹 勉強管理システム（1,980円）</p>
               <p class="follow-text">
                 コーチングなしで、学習管理の“仕組みのみ”利用したい方向け。
                 <br />
@@ -266,7 +266,7 @@
               />
             </div>
             <div class="follow-textWrap">
-              <p class="follow-heading">🔹 勉強管理コーチング（5,500円）</p>
+              <p class="follow-heading">🔹 勉強管理コーチング（6,980円）</p>
               <p class="follow-text">
                 「一人で頑張っても、途中で挫折してしまう…」
                 <br />
