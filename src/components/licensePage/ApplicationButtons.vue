@@ -15,7 +15,11 @@
       class="app-btn app-btn--business"
     >
       <span class="app-btn__icon">
-        <IconBase width="24" height="24"><IconBuilding /></IconBase>
+        <img
+          class="app-btn__building-icon"
+          src="../../assets/img/icon/building.svg"
+          alt=""
+        />
       </span>
       <span class="app-btn__text">法人で申し込む</span>
       <span class="app-btn__arrow">
@@ -28,7 +32,6 @@
 <script>
   import IconBase from "@/components/IconBase.vue";
   import IconWrite from "@/components/icons/IconWrite.vue";
-  import IconBuilding from "@/components/icons/IconBuilding.vue";
   import IconArrowRight from "@/components/icons/IconArrowRight.vue";
 
   export default {
@@ -46,7 +49,6 @@
     components: {
       IconBase,
       IconWrite,
-      IconBuilding,
       IconArrowRight,
     },
   };
@@ -106,6 +108,11 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+  }
+
+  .app-btn__building-icon {
+    width: 22px;
+    height: 24px;
   }
 
   .app-btn__text {
