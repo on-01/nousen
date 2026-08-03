@@ -225,19 +225,10 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
-        <div class="exam-link-flex">
-          <g-link to="/kenchiku-s-application" class="application-form-link">
-            お申込みはこちら（個人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link
-            to="/kenchiku-s-application-business"
-            class="application-form-link"
-          >
-            お申込みはこちら（法人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-        </div>
+        <ApplicationButtons
+          personLink="/kenchiku-s-application"
+          businessLink="/kenchiku-s-application-business"
+        />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！
         </p>
@@ -505,19 +496,10 @@
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
-        <div class="exam-link-flex">
-          <g-link to="/kenchiku-s-application" class="application-form-link">
-            お申込みはこちら（個人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-          <g-link
-            to="/kenchiku-s-application-business"
-            class="application-form-link"
-          >
-            お申込みはこちら（法人）
-            <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-          </g-link>
-        </div>
+        <ApplicationButtons
+          personLink="/kenchiku-s-application"
+          businessLink="/kenchiku-s-application-business"
+        />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！
         </p>
@@ -1032,6 +1014,15 @@
     </div>
   </div>
 </template>
+
+<script>
+  import ApplicationButtons from "@/components/licensePage/ApplicationButtons.vue";
+  export default {
+    components: {
+      ApplicationButtons,
+    },
+  };
+</script>
 
 <style lang="scss" scoped>
   .workshop {
