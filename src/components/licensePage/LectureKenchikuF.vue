@@ -223,7 +223,7 @@
         </div>
         <div class="book-wrap -right">
           <img
-            src="../../assets/img/license_page/kenchiku_s/lecture-book2.jpg"
+            src="../../assets/img/license_page/kenchiku_s/lecture-book2.webp"
             alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="book-text700 -first">🎁 旧版テキストを無料プレゼント！</p>
