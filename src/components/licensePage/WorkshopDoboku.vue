@@ -426,7 +426,7 @@
       </div>
     </div>
     <p class="workshop-bottom -yellow">
-      <span>最新＋過去動画で最大34時間分の視聴ができる！</span>
+      <span>最新＋過去動画で最大35時間分の視聴ができる！</span>
     </p>
     <p class="workshop-bottom -yellow">
       <span>配信終了日まで何回でも視聴可能です。</span>
