@@ -644,7 +644,25 @@
               >
                 <img
                   src="../assets/img/common/public_media_19.jpg"
-                  alt="ベスト進学ネット"
+                  alt="プレックスジョブ"
+                  class="public-media-flex-image"
+                />
+              </a>
+            </figure>
+          </div>
+          <div class="public-media-flex">
+            <figure>
+              <a
+                href="#"
+                @click.prevent="
+                  openExternal('https://general-contractor-blog.com/')
+                "
+                rel="noopener noreferrer"
+                class="public-media-flex-image-link"
+              >
+                <img
+                  src="../assets/img/common/public_media_20.jpg"
+                  alt="現場監督のたまり場"
                   class="public-media-flex-image"
                 />
               </a>
