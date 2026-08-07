@@ -556,22 +556,10 @@
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
               <div class="exam-link-wrapper -border">
-                <div class="exam-link-flex">
-                  <g-link
-                    to="/kenchiku-f-application"
-                    class="application-form-link"
-                  >
-                    お申込みはこちら（個人）
-                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                  </g-link>
-                  <g-link
-                    to="/kenchiku-f-application-business"
-                    class="application-form-link"
-                  >
-                    お申込みはこちら（法人）
-                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                  </g-link>
-                </div>
+                <ApplicationButtons
+                  personLink="/kenchiku-f-application"
+                  businessLink="/kenchiku-f-application-business"
+                />
 
                 <figure class="credit-image">
                   <img src="../assets/img/common/credit.jpg" />
@@ -757,6 +745,7 @@
   import VenueAddMap from "@/components/licensePage/VenueAddMap.vue";
   import Application from "@/components/licensePage/Application.vue";
   import NewApplication from "@/components/licensePage/NewApplication.vue";
+  import ApplicationButtons from "@/components/licensePage/ApplicationButtons.vue";
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
   import IconArrowRight from "@/components/icons/IconArrowRight.vue";
@@ -838,6 +827,7 @@
       VenueAddMap,
       Application,
       NewApplication,
+      ApplicationButtons,
       IconBase,
       IconDoubleArrowRight,
       IconArrowRight,

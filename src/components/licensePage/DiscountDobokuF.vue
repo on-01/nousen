@@ -139,7 +139,7 @@
 
 <style lang="scss" scoped>
   .discount {
-    max-width: 1070px;
+    max-width: 970px;
     width: 100%;
     margin: 0 auto;
     font-family: "Meiryo", sans-serif;
@@ -173,7 +173,7 @@
     margin-bottom: 14px;
   }
   .discount-title {
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;
@@ -359,7 +359,7 @@
     align-items: center;
     font-size: 16px;
     font-weight: 700;
-    color: #555;
+    color: #000;
     line-height: 1.8;
   }
   .discount-note li::before {

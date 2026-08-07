@@ -348,22 +348,10 @@
               <!-- <Fsc title="持続可能なミライへ" /> -->
 
               <div class="exam-link-wrapper -border">
-                <div class="exam-link-flex">
-                  <g-link
-                    to="/denkikouji-s-application"
-                    class="application-form-link"
-                  >
-                    お申込みはこちら（個人）
-                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                  </g-link>
-                  <g-link
-                    to="/denkikouji-s-application-business"
-                    class="application-form-link"
-                  >
-                    お申込みはこちら（法人）
-                    <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
-                  </g-link>
-                </div>
+                <ApplicationButtons
+                  personLink="/denkikouji-s-application"
+                  businessLink="/denkikouji-s-application-business"
+                />
 
                 <figure class="credit-image">
                   <img src="../assets/img/common/credit.jpg" />
@@ -465,6 +453,7 @@
   import SupportDenkikouji from "../components/licensePage/SupportDenkikouji.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
   import NewApplication from "../components/licensePage/NewApplication.vue";
+  import ApplicationButtons from "../components/licensePage/ApplicationButtons.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import TestOverviewDenkikouji from "../components/licensePage/TestOverviewDenkikouji.vue";
   import Explanation from "../components/licensePage/Explanation.vue";
@@ -529,6 +518,7 @@
       SupportDenkikouji,
       MerumagaDenkikouji,
       NewApplication,
+      ApplicationButtons,
       SetCourse2,
       TestOverviewDenkikouji,
       Explanation,
