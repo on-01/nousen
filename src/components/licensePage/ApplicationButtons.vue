@@ -2,11 +2,11 @@
   <div class="application-buttons">
     <g-link :to="personLink" class="app-btn app-btn--person">
       <span class="app-btn__icon">
-        <IconBase width="24" height="24"><IconWrite /></IconBase>
+        <IconBase width="32" height="32"><IconWrite /></IconBase>
       </span>
       <span class="app-btn__text">個人で申し込む</span>
       <span class="app-btn__arrow">
-        <IconBase width="16" height="16"><IconArrowRight /></IconBase>
+        <IconBase width="18" height="18"><IconArrowRight /></IconBase>
       </span>
     </g-link>
     <g-link
@@ -23,7 +23,7 @@
       </span>
       <span class="app-btn__text">法人で申し込む</span>
       <span class="app-btn__arrow">
-        <IconBase width="16" height="16"><IconArrowRight /></IconBase>
+        <IconBase width="18" height="18"><IconArrowRight /></IconBase>
       </span>
     </g-link>
   </div>
@@ -67,14 +67,14 @@
   .app-btn {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     width: 370px;
     max-width: 100%;
-    padding: 14px 22px;
+    padding: 16px 22px;
     border-radius: 10px;
     color: #fff;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "メイリオ", sans-serif;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     text-decoration: none;
@@ -111,8 +111,8 @@
   }
 
   .app-btn__building-icon {
-    width: 22px;
-    height: 24px;
+    width: 29px;
+    height: 32px;
   }
 
   .app-btn__text {

@@ -9,7 +9,7 @@
       </p>
       <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" />
       <div class="contactInfo-link -tel">
-        <a href="tel:012054728">
+        <a href="tel:0120547284">
           <img src="../../assets/img/icon/contactInfo_tel.svg" />
         </a>
       </div>

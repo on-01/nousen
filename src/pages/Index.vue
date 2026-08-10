@@ -680,7 +680,7 @@
             </figure>
           </div>
           <div class="public-media-flex">
-            <figure>
+            <figure class="-double">
               <a
                 href="https://general-contractor-blog.com/"
                 target="_blank"
@@ -2645,6 +2645,10 @@ query {
     display: flex;
     justify-content: center;
   }
+  .public-media-flex figure.-double {
+    width: 47%;
+    justify-content: flex-start;
+  }
   .public-media-flex figure a {
     position: relative;
     z-index: 1;
@@ -2654,6 +2658,11 @@ query {
     width: 80%;
     display: block;
     margin: auto;
+  }
+
+  .public-media-flex figure.-double .public-media-flex-image {
+    width: 100%;
+    margin: 0;
   }
 
   .public-media-flex-image.-type2 {
@@ -2671,10 +2680,18 @@ query {
       width: 50%;
       margin: 12px 0;
     }
+    .public-media-flex figure.-double {
+      width: 100%;
+      justify-content: flex-start;
+    }
     .public-media-flex-image {
       width: 80%;
       display: block;
       margin: auto;
+    }
+    .public-media-flex figure.-double .public-media-flex-image {
+      width: 100%;
+      margin: 0;
     }
 
     .public-media-flex-image.-type1 {

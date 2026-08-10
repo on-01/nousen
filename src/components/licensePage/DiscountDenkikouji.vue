@@ -147,7 +147,7 @@
   .discount-inner {
     background: #fff;
     border-radius: 24px;
-    padding: 24px;
+    padding: 42px;
   }
   .discount-header {
     display: flex;
@@ -173,7 +173,7 @@
     margin-bottom: 14px;
   }
   .discount-title {
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;

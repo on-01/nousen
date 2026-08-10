@@ -196,11 +196,11 @@
         <p class="test-text">
           2級建築施工管理技士技術検定の受験申請は、
           <a
-            href="https://www.fcip-shiken.jp/ken1/index.html"
+            href="https://www.fcip-shiken.jp/ken2/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >
-            公益財団法人建設業振興基金
+            一般財団法人建設業振興基金
           </a>
           が実施しており、毎年一定の期間に申し込みを受け付けています。
           <br />
