@@ -2647,6 +2647,7 @@ query {
   }
   .public-media-flex figure.-double {
     width: 66.66%;
+    justify-content: flex-start;
   }
   .public-media-flex figure a {
     position: relative;
@@ -2657,6 +2658,11 @@ query {
     width: 80%;
     display: block;
     margin: auto;
+  }
+
+  .public-media-flex figure.-double .public-media-flex-image {
+    width: 100%;
+    margin: 0;
   }
 
   .public-media-flex-image.-type2 {
@@ -2676,11 +2682,16 @@ query {
     }
     .public-media-flex figure.-double {
       width: 100%;
+      justify-content: flex-start;
     }
     .public-media-flex-image {
       width: 80%;
       display: block;
       margin: auto;
+    }
+    .public-media-flex figure.-double .public-media-flex-image {
+      width: 100%;
+      margin: 0;
     }
 
     .public-media-flex-image.-type1 {
