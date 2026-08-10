@@ -517,6 +517,7 @@
               <a
                 href="https://ecnavi.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://ecnavi.jp/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -559,6 +560,7 @@
               <a
                 href="https://sakufuri.jp/media/"
                 target="_blank"
+                @click.prevent="openExternal('https://sakufuri.jp/media/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -573,6 +575,7 @@
               <a
                 href="https://shop.deliveru.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://shop.deliveru.jp/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -589,6 +592,11 @@
               <a
                 href="https://jinjib.co.jp/certification/denken3-osusume"
                 target="_blank"
+                @click.prevent="
+                  openExternal(
+                    'https://jinjib.co.jp/certification/denken3-osusume',
+                  )
+                "
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -603,6 +611,9 @@
               <a
                 href="https://gooschool.jp/online/denken-tsushin/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://gooschool.jp/online/denken-tsushin/')
+                "
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -617,6 +628,9 @@
               <a
                 href="https://www.best-shingaku.net/etc/school20441/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://www.best-shingaku.net/etc/school20441/')
+                "
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -631,6 +645,7 @@
               <a
                 href="https://www.plex-job.com/"
                 target="_blank"
+                @click.prevent="openExternal('https://www.plex-job.com/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -647,6 +662,9 @@
               <a
                 href="https://general-contractor-blog.com/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://general-contractor-blog.com/')
+                "
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -1269,6 +1287,9 @@ query {
       },
       closeModal() {
         this.modal = false;
+      },
+      openExternal(url) {
+        window.open(url, "_blank");
       },
       // youtubeInit() {
       //   var vidDefer = document.getElementsByTagName('iframe');
