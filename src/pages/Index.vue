@@ -515,8 +515,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="openExternal('https://ecnavi.jp/')"
+                href="https://ecnavi.jp/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -557,8 +557,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="openExternal('https://sakufuri.jp/media/')"
+                href="https://sakufuri.jp/media/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -571,8 +571,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="openExternal('https://shop.deliveru.jp/')"
+                href="https://shop.deliveru.jp/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -587,12 +587,8 @@
           <div class="public-media-flex">
             <figure>
               <a
-                href="#"
-                @click.prevent="
-                  openExternal(
-                    'https://jinjib.co.jp/certification/denken3-osusume',
-                  )
-                "
+                href="https://jinjib.co.jp/certification/denken3-osusume"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -605,10 +601,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="
-                  openExternal('https://gooschool.jp/online/denken-tsushin/')
-                "
+                href="https://gooschool.jp/online/denken-tsushin/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -621,10 +615,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="
-                  openExternal('https://www.best-shingaku.net/etc/school20441/')
-                "
+                href="https://www.best-shingaku.net/etc/school20441/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -637,8 +629,8 @@
             </figure>
             <figure>
               <a
-                href="#"
-                @click.prevent="openExternal('https://www.plex-job.com/')"
+                href="https://www.plex-job.com/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -653,10 +645,8 @@
           <div class="public-media-flex">
             <figure>
               <a
-                href="#"
-                @click.prevent="
-                  openExternal('https://general-contractor-blog.com/')
-                "
+                href="https://general-contractor-blog.com/"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
               >
@@ -1288,9 +1278,6 @@ query {
       //     }
       //   }
       // },
-      openExternal(url) {
-        window.open(url, "_blank");
-      },
     },
   };
 </script>
