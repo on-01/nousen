@@ -680,7 +680,7 @@
             </figure>
           </div>
           <div class="public-media-flex">
-            <figure>
+            <figure class="-double">
               <a
                 href="https://general-contractor-blog.com/"
                 target="_blank"
@@ -2645,6 +2645,9 @@ query {
     display: flex;
     justify-content: center;
   }
+  .public-media-flex figure.-double {
+    width: 66.66%;
+  }
   .public-media-flex figure a {
     position: relative;
     z-index: 1;
@@ -2670,6 +2673,9 @@ query {
     .public-media-flex figure {
       width: 50%;
       margin: 12px 0;
+    }
+    .public-media-flex figure.-double {
+      width: 100%;
     }
     .public-media-flex-image {
       width: 80%;
