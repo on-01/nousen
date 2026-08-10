@@ -2646,7 +2646,7 @@ query {
     justify-content: center;
   }
   .public-media-flex figure.-double {
-    width: 66.66%;
+    width: 47%;
     justify-content: flex-start;
   }
   .public-media-flex figure a {
