@@ -70,11 +70,11 @@
     gap: 10px;
     width: 370px;
     max-width: 100%;
-    padding: 14px 22px;
+    padding: 23px 22px;
     border-radius: 10px;
     color: #fff;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     font-family: "メイリオ", sans-serif;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     text-decoration: none;
