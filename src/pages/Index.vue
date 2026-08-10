@@ -376,6 +376,7 @@
               <a
                 href="https://www.kentsu.co.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://www.kentsu.co.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -389,6 +390,7 @@
               <a
                 href="https://www.ohmsha.co.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://www.ohmsha.co.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -402,6 +404,7 @@
               <a
                 href="https://kigyo.gmo/"
                 target="_blank"
+                @click.prevent="openExternal('https://kigyo.gmo/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -415,6 +418,11 @@
               <a
                 href="https://www.innovations-i.com/release/1497812.html"
                 target="_blank"
+                @click.prevent="
+                  openExternal(
+                    'https://www.innovations-i.com/release/1497812.html',
+                  )
+                "
                 rel="noopener noreferrer"
               >
                 <img
@@ -437,6 +445,7 @@
               <a
                 href="https://context-japan.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://context-japan.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -450,6 +459,7 @@
               <a
                 href="https://news.mynavi.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://news.mynavi.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -463,6 +473,9 @@
               <a
                 href="https://context-japan.co.jp/ryokin/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://context-japan.co.jp/ryokin/')
+                "
                 rel="noopener noreferrer"
               >
                 <img
@@ -478,6 +491,9 @@
               <a
                 href="https://denkikoujishi-goukaku.com/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://denkikoujishi-goukaku.com/')
+                "
                 rel="noopener noreferrer"
               >
                 <img
@@ -491,6 +507,7 @@
               <a
                 href="https://x-work.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://x-work.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -504,6 +521,7 @@
               <a
                 href="https://shikakutimes.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://shikakutimes.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -515,7 +533,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://ecnavi.jp/"
+                target="_blank"
                 @click.prevent="openExternal('https://ecnavi.jp/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
@@ -533,6 +552,9 @@
               <a
                 href="https://www.iid.co.jp/contents-education/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://www.iid.co.jp/contents-education/')
+                "
                 rel="noopener noreferrer"
               >
                 <img
@@ -546,6 +568,7 @@
               <a
                 href="https://www.brush-up.jp/"
                 target="_blank"
+                @click.prevent="openExternal('https://www.brush-up.jp/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -557,7 +580,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://sakufuri.jp/media/"
+                target="_blank"
                 @click.prevent="openExternal('https://sakufuri.jp/media/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
@@ -571,7 +595,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://shop.deliveru.jp/"
+                target="_blank"
                 @click.prevent="openExternal('https://shop.deliveru.jp/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
@@ -587,7 +612,8 @@
           <div class="public-media-flex">
             <figure>
               <a
-                href="#"
+                href="https://jinjib.co.jp/certification/denken3-osusume"
+                target="_blank"
                 @click.prevent="
                   openExternal(
                     'https://jinjib.co.jp/certification/denken3-osusume',
@@ -605,7 +631,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://gooschool.jp/online/denken-tsushin/"
+                target="_blank"
                 @click.prevent="
                   openExternal('https://gooschool.jp/online/denken-tsushin/')
                 "
@@ -621,7 +648,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://www.best-shingaku.net/etc/school20441/"
+                target="_blank"
                 @click.prevent="
                   openExternal('https://www.best-shingaku.net/etc/school20441/')
                 "
@@ -637,7 +665,8 @@
             </figure>
             <figure>
               <a
-                href="#"
+                href="https://www.plex-job.com/"
+                target="_blank"
                 @click.prevent="openExternal('https://www.plex-job.com/')"
                 rel="noopener noreferrer"
                 class="public-media-flex-image-link"
@@ -653,7 +682,8 @@
           <div class="public-media-flex">
             <figure>
               <a
-                href="#"
+                href="https://general-contractor-blog.com/"
+                target="_blank"
                 @click.prevent="
                   openExternal('https://general-contractor-blog.com/')
                 "
@@ -1280,6 +1310,9 @@ query {
       closeModal() {
         this.modal = false;
       },
+      openExternal(url) {
+        window.open(url, "_blank");
+      },
       // youtubeInit() {
       //   var vidDefer = document.getElementsByTagName('iframe');
       //   for (var i = 0; i <script vidDefer.length; i++) {
@@ -1288,9 +1321,6 @@ query {
       //     }
       //   }
       // },
-      openExternal(url) {
-        window.open(url, "_blank");
-      },
     },
   };
 </script>
