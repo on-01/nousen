@@ -1351,6 +1351,10 @@
     padding: 7px 30px;
   }
   .application-form-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 73px;
     // background-color: #ed6c00;
     // background-color: #ff4500;
     background-color: #1262b2;
@@ -1364,6 +1368,10 @@
 
     @media print, screen and (max-width: 480px) {
       width: 90%;
+    }
+
+    @media print, screen and (max-width: 370px) {
+      min-height: auto;
     }
   }
   .online-link {

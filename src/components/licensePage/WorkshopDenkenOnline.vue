@@ -1092,6 +1092,10 @@
   }
 
   .application-form-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 73px;
     background-color: #1262b2;
     box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
@@ -1103,6 +1107,10 @@
 
     @media print, screen and (max-width: 480px) {
       width: 90%;
+    }
+
+    @media print, screen and (max-width: 370px) {
+      min-height: auto;
     }
   }
 
