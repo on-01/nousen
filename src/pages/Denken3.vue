@@ -441,7 +441,9 @@
               <CourseOverview1 title="通 学 講 座" />
               <Merumaga />
               <NewApplicationDenken3
+                personalFormText="お申込みはこちら（個人）"
                 personalFormLink="/denken3-application"
+                businessFormText="お申込みはこちら（法人）"
                 businessFormLink="/denken3-application-business"
                 faxLink="/denken.pdf"
               />
@@ -1354,7 +1356,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 73px;
+    min-height: 82px;
     // background-color: #ed6c00;
     // background-color: #ff4500;
     background-color: #1262b2;

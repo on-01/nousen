@@ -69,7 +69,7 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    min-height: 73px;
+    min-height: 82px;
     margin: 0 auto;
     color: #fff;
     max-width: 400px;
