@@ -477,12 +477,30 @@
             </th>
           </tr>
           <tr>
+            <td>令和７年(下期)</td>
+            <td>24,176人</td>
+            <td>
+              13.1%
+              <br />
+              (3,164人)
+            </td>
+          </tr>
+          <tr>
+            <td>令和７年(上期)</td>
+            <td>24,766人</td>
+            <td>
+              12.9%
+              <br />
+              (3,201人)
+            </td>
+          </tr>
+          <tr>
             <td>令和６年(上期)</td>
             <td>25,416人</td>
             <td>
               16.0%
               <br />
-              (4,604人)
+              (4,064人)
             </td>
           </tr>
           <tr>
@@ -550,9 +568,18 @@
           </tr>
         </table>
         <p class="test-text -mt20">
-          CBT試験の導入により、試験日を柔軟に選べるなど受験環境が改善され、自分のペースで準備できるようになりました。
+          出典：一般財団法人 電気技術者試験センター「第三種電気主任技術者試験の試験結果と推移」
           <br />
-          また、移動負担の軽減や効率的な学習法の普及により、以前より合格しやすい傾向が見られるようになってきました。
+          <a
+            href="https://www.shiken.or.jp/chief/third/result/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.shiken.or.jp/chief/third/result/
+          </a>
+        </p>
+        <p class="test-text -mt20">
+          CBT試験の導入により、試験日を柔軟に選べるなど受験環境が改善され、自分のペースで準備できるようになりました。
         </p>
       </div>
       <p class="test-heading">試験実施機関（試験お問い合わせ先）</p>
