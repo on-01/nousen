@@ -1,20 +1,18 @@
 <template>
   <div class="application">
     <p class="exam-link-text">✅ 82％が結果を出した学習設計で、合格まで伴走</p>
-    <div class="application-buttons">
-      <a :href="personalFormLink" class="application-link -left">
-        {{ personalFormText }}
-        <IconBase class="icon" width="25" height="25">
-          <IconFingerRight />
-        </IconBase>
-      </a>
-      <a :href="businessFormLink" class="application-link -right">
-        {{ businessFormText }}
-        <IconBase class="icon" width="25" height="25">
-          <IconFingerRight />
-        </IconBase>
-      </a>
-    </div>
+    <a :href="personalFormLink" class="application-link -left">
+      {{ personalFormText }}
+      <IconBase class="icon" width="25" height="25">
+        <IconFingerRight />
+      </IconBase>
+    </a>
+    <a :href="businessFormLink" class="application-link -right">
+      {{ businessFormText }}
+      <IconBase class="icon" width="25" height="25">
+        <IconFingerRight />
+      </IconBase>
+    </a>
     <!-- <div class="experience-link">
       <a class="application-link -blue">
         無料体験講座（基礎の基礎）お申込み
@@ -66,20 +64,13 @@
       font-size: 16px;
     }
   }
-  .application-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 8px;
-    @media print, screen and (max-width: 1000px) {
-      gap: 0;
-    }
-  }
   .application-link {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    min-height: 73px;
+    margin: 0 auto;
     color: #fff;
     max-width: 400px;
     width: 100%;
@@ -93,6 +84,7 @@
     border-radius: 10px;
     @media print, screen and (max-width: 1000px) {
       display: block;
+      min-height: auto;
       margin: 0 auto;
       margin-top: 20px;
       padding: 10px;
@@ -105,11 +97,13 @@
   }
 
   .application-link.-right {
+    margin-left: 0.5%;
     @media print, screen and (max-width: 1000px) {
       margin-left: auto;
     }
   }
   .application-link.-left {
+    margin-right: 0.5%;
     @media print, screen and (max-width: 1000px) {
       margin-right: auto;
     }
