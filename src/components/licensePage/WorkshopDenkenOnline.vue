@@ -4,7 +4,7 @@
     <div class="workshop-topImg">
       <img
         src="../../assets/img/license_page/denken3/denken3_courseOverview_5.jpg"
-        alt="パソコンで電験三種オンライン講座を受講するイメージ"
+        alt=""
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
