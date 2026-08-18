@@ -4,7 +4,7 @@
     <div class="workshop-topImg">
       <img
         src="../../assets/img/license_page/denken3/denken3_courseOverview_5.jpg"
-        alt="電験三種 第三種電気主任技術者"
+        alt="パソコンで電験三種オンライン講座を受講するイメージ"
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
@@ -130,7 +130,7 @@
             <figure class="online-flex-image">
               <img
                 src="../../assets/img/license_page/denken3/denken3_completion.png"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種オンライン講座の修了証見本"
               />
             </figure>
             <div class="online-flex-description">
@@ -217,7 +217,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/ocha-img.jpg"
-        alt="電験三種 第三種電気主任技術者"
+        alt="講習会で配布される「おーいお茶」のイメージ"
       />
       <div class="ocha-content">
         <p class="ocha-text">
@@ -258,7 +258,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/venue-map2.jpg"
-        alt="電験三種 第三種電気主任技術者"
+        alt="電験三種通学講座会場「専売ビル」の周辺地図"
       />
     </div> -->
 

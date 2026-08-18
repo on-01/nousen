@@ -14,7 +14,10 @@
             <span>1</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_1" alt="電験三種 第三種電気主任技術者" />
+            <img
+              :src="imagePath_1"
+              alt="能センの電験三種講座で使用する基礎・理論・電力・機械・法規の教材"
+            />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -35,7 +38,10 @@
           </div>
           <figure class="quality-image">
             <a href="https://denken.nouryoku.com/kiso-kouza?_fsi=18qTQM4E">
-              <img :src="imagePath_2" alt="電験三種 第三種電気主任技術者" />
+              <img
+                :src="imagePath_2"
+                alt="電験三種「電気数学の基礎」基礎講座の詳細を見る"
+              />
             </a>
           </figure>
           <div class="quality-description">
@@ -56,7 +62,7 @@
             <span>3</span>
           </div>
           <figure class="quality-image">
-            <img :src="imagePath_3" alt="電験三種 第三種電気主任技術者" />
+            <img :src="imagePath_3" alt="" />
           </figure>
           <div class="quality-description">
             <p class="quality-title">
@@ -75,7 +81,7 @@
         <img
           class="flex-img -right"
           src="../../assets/img/license_page/denken3/denken3_quality_kokuban.jpg"
-          alt="電験三種 第三種電気主任技術者"
+          alt="電験三種基礎講座の黒板を使った解説イメージ"
         />
       </div> -->
       <div class="quality-basis">
@@ -85,7 +91,7 @@
             <img
               class="flex-img -right"
               src="../../assets/img/license_page/denken3/denken3_quality_basis.jpg"
-              alt="電験三種 第三種電気主任技術者"
+              alt="電験三種基礎講座の電気数学教材サンプル"
             />
           </div>
           <div class="basis-textWrap">
@@ -130,6 +136,7 @@
             <img
               class="workshop-orangeLine__icon"
               src="../../assets/img/icon/note.svg"
+              alt=""
             />
             <p class="workshop-orangeLine__heading">
               令和8年度上期 無料体験講習「基礎の基礎」

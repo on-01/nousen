@@ -12,7 +12,7 @@
         <figure class="discount-image">
           <img
             src="../../assets/img/license_page/discount.jpeg"
-            alt="電験三種 第三種電気主任技術者"
+            alt=""
           />
           <span class="discount-image-badge">
             団体のお申込みなら<br />

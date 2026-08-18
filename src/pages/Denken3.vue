@@ -68,7 +68,7 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 第三種電気主任技術者"
+              altText="変電設備の前に立つ電気技術者のイメージ"
             />
             <SpExplanation
               title="電験三種（第三種電気主任技術者）とは"
@@ -79,7 +79,7 @@
               :imagePath="
                 require('../assets/img/license_page/denken3/denken3_explain.jpg')
               "
-              altText="電験三種 第三種電気主任技術者"
+              altText="変電設備の前に立つ電気技術者のイメージ"
             />
 
             <div class="bg-lightBlue">
@@ -181,10 +181,10 @@
               :imageBook3="
                 require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')
               "
-              altText="電験三種 第三種電気主任技術者"
-              altBook1="電験三種 第三種電気主任技術者"
-              altBook2="電験三種 第三種電気主任技術者"
-              altBook3="電験三種 第三種電気主任技術者"
+              altText="電験三種講師 大嶋輝夫"
+              altBook1="著書『続・電気技術者のための失敗100選-対策編-』（オーム社）の書影"
+              altBook2="著書『電験二種二次試験「機械・制御」精選問題』（オーム社）の書影"
+              altBook3="著書『これからスタート！１級電気施工』（電気書院）の書影"
             />
 
             <div class="bg-white">
@@ -209,7 +209,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_3.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -222,7 +222,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_2.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -237,7 +237,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_1.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -250,7 +250,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_4.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -275,7 +275,7 @@
                           <figure v-on:click="toggleVoice(1)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種基礎講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -290,7 +290,7 @@
                         <div v-show="isVoice === 1" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種基礎講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -300,7 +300,7 @@
                           <figure v-on:click="toggleVoice(2)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種理論講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -312,7 +312,7 @@
                         <div v-show="isVoice === 2" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種理論講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -322,7 +322,7 @@
                           <figure v-on:click="toggleVoice(3)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種電力講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -336,7 +336,7 @@
                         <div v-show="isVoice === 3" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種電力講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -346,7 +346,7 @@
                           <figure v-on:click="toggleVoice(4)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種機械講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -362,7 +362,7 @@
                         <div v-show="isVoice === 4" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種機械講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -372,7 +372,7 @@
                           <figure v-on:click="toggleVoice(5)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種法規講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -386,7 +386,7 @@
                         <div v-show="isVoice === 5" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種法規講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -504,10 +504,10 @@
               :imageBook3="
                 require('../assets/img/license_page/denken3/denken3_lecture_book_3.jpg')
               "
-              altText="電験三種 第三種電気主任技術者"
-              altBook1="電験三種 第三種電気主任技術者"
-              altBook2="電験三種 第三種電気主任技術者"
-              altBook3="電験三種 第三種電気主任技術者"
+              altText="電験三種講師 大嶋輝夫"
+              altBook1="著書『続・電気技術者のための失敗100選-対策編-』（オーム社）の書影"
+              altBook2="著書『電験二種二次試験「機械・制御」精選問題』（オーム社）の書影"
+              altBook3="著書『これからスタート！１級電気施工』（電気書院）の書影"
             />
 
             <div class="bg-white">
@@ -531,7 +531,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_3.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -544,7 +544,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_2.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -559,7 +559,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_1.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -572,7 +572,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_4.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -590,7 +590,7 @@
                           <figure v-on:click="toggleVoice(1)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種基礎講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -605,7 +605,7 @@
                         <div v-show="isVoice === 1" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種基礎講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -615,7 +615,7 @@
                           <figure v-on:click="toggleVoice(2)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種理論講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -627,7 +627,7 @@
                         <div v-show="isVoice === 2" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種理論講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -637,7 +637,7 @@
                           <figure v-on:click="toggleVoice(3)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種電力講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -651,7 +651,7 @@
                         <div v-show="isVoice === 3" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種電力講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -661,7 +661,7 @@
                           <figure v-on:click="toggleVoice(4)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種機械講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -677,7 +677,7 @@
                         <div v-show="isVoice === 4" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種機械講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -687,7 +687,7 @@
                           <figure v-on:click="toggleVoice(5)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種法規講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -701,7 +701,7 @@
                         <div v-show="isVoice === 5" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種法規講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -802,7 +802,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_3.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -815,7 +815,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_2.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -830,7 +830,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_1.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -843,7 +843,7 @@
                           <figure>
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_4.webp"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt=""
                             />
                           </figure>
                           <p>
@@ -861,7 +861,7 @@
                           <figure v-on:click="toggleVoice(1)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種基礎講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -876,7 +876,7 @@
                         <div v-show="isVoice === 1" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_1.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種基礎講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -886,7 +886,7 @@
                           <figure v-on:click="toggleVoice(2)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種理論講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -898,7 +898,7 @@
                         <div v-show="isVoice === 2" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_2.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種理論講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -908,7 +908,7 @@
                           <figure v-on:click="toggleVoice(3)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種電力講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -922,7 +922,7 @@
                         <div v-show="isVoice === 3" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_3.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種電力講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -932,7 +932,7 @@
                           <figure v-on:click="toggleVoice(4)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種機械講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -948,7 +948,7 @@
                         <div v-show="isVoice === 4" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_4.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種機械講座の受講者アンケート"
                           />
                         </div>
                       </div>
@@ -958,7 +958,7 @@
                           <figure v-on:click="toggleVoice(5)" class="-sp-none">
                             <img
                               src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                              alt="電験三種 第三種電気主任技術者"
+                              alt="電験三種法規講座の受講者アンケート"
                             />
                           </figure>
                           <p>
@@ -972,7 +972,7 @@
                         <div v-show="isVoice === 5" class="voice-upImage">
                           <img
                             src="../assets/img/license_page/denken3/denken3_voice_comment_5.jpg"
-                            alt="電験三種 第三種電気主任技術者"
+                            alt="電験三種法規講座の受講者アンケート"
                           />
                         </div>
                       </div>

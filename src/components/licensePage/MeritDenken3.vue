@@ -131,7 +131,7 @@
           >
             <img
               src="../../assets/img/front/career5.jpg"
-              alt="電験三種 第三種電気主任技術者"
+              alt="転職支援サービスMyStyle転職の広告バナー"
             />
           </a>
           <a
@@ -142,7 +142,7 @@
           >
             <img
               src="../../assets/img/front/career6.jpg"
-              alt="電験三種 第三種電気主任技術者"
+              alt="転職支援サービスMyStyle転職のロゴ画像"
             />
           </a>
         </div>

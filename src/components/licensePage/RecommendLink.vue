@@ -1,7 +1,7 @@
 <template>
   <div class="contactInfo">
     <div class="contactInfo-inner">
-      <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" />
+      <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" alt="" />
       <p class="recommend-heding">
         受験初めての方、試験情報など知りたい方はこちらのサイトをオススメします。
       </p>

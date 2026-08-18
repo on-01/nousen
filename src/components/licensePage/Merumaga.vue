@@ -27,7 +27,7 @@
         <div class="merumaga-form">
           <img
             src="../../assets/img/license_page/merumaga-img.jpg"
-            alt="電験三種 第三種電気主任技術者"
+            alt=""
           />
           <form
             ref="mlForm"
