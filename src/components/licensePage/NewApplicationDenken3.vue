@@ -65,6 +65,11 @@
     }
   }
   .application-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 82px;
     margin: 0 auto;
     color: #fff;
     max-width: 400px;
@@ -79,6 +84,7 @@
     border-radius: 10px;
     @media print, screen and (max-width: 1000px) {
       display: block;
+      min-height: auto;
       margin: 0 auto;
       margin-top: 20px;
       padding: 10px;

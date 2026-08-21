@@ -27,7 +27,7 @@
           <img
             class="flex-img -right"
             src="../../assets/img/license_page/denken3/denken3_study_1.jpg"
-            alt="電験三種 第三種電気主任技術者"
+            alt=""
           />
         </div>
         <p class="test-text -mt20">
@@ -121,7 +121,7 @@
           <img
             class="flex-img -right"
             src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
-            alt="電験三種 第三種電気主任技術者"
+            alt="過去問5年分プレゼントキャンペーンの案内バナー画像"
           />
         </div>
         <p class="test-text -mt20">

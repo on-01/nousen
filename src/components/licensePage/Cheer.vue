@@ -8,7 +8,7 @@
       <div class="cheer-topImg">
         <img
           src="../../assets/img/license_page/denken3/denken3_cheer_1.jpg"
-          alt="電験三種 第三種電気主任技術者"
+          alt="能センの電験三種講座：科目合格率82％、受講生満足度97％"
         />
       </div>
       <div class="experience-link">

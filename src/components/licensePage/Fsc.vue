@@ -6,7 +6,7 @@
           <img
             class="fsc-flex-image"
             src="../../assets/img/license_page/denken3/fsc.png"
-            alt="電験三種 第三種電気主任技術者"
+            alt="FSC認証を受けた、適切に管理された森林のイメージ写真"
           />
         </div>
         <div class="fsc-flex-right">

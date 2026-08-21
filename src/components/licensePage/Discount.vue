@@ -12,7 +12,7 @@
         <figure class="discount-image">
           <img
             src="../../assets/img/license_page/discount.jpeg"
-            alt="電験三種 第三種電気主任技術者"
+            alt=""
           />
           <span class="discount-image-badge">
             団体のお申込みなら<br />
@@ -139,7 +139,7 @@
 
 <style lang="scss" scoped>
   .discount {
-    max-width: 970px;
+    max-width: 870px;
     width: 100%;
     margin: 0 auto;
     font-family: "Meiryo", sans-serif;
@@ -173,7 +173,7 @@
     margin-bottom: 14px;
   }
   .discount-title {
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
     line-height: 1.4;
     margin: 0;

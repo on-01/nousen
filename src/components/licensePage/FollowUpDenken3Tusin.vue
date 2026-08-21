@@ -5,7 +5,7 @@
         <p class="follow-headline-title">
           <img
             src="../../assets/img/front/reason_main_headline7.svg"
-            alt="電験三種 講習会 通信講座"
+            alt="電験三種通信講座のフォローアップサービス見出し「学習が続かないという課題を、仕組みで解決する」"
           />
         </p>
       </div>
@@ -33,7 +33,7 @@
               <img
                 class="img-1"
                 src="../../assets/img/license_page/denken3/follow-img1.png"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種の勉強計画表と学習管理シート"
               />
             </div>
             <div class="follow-textWrap">
@@ -79,7 +79,7 @@
               <img
                 class="img-2"
                 src="../../assets/img/license_page/denken3/follow-img2.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種のリマインダーメールサービス"
               />
             </div>
             <div class="follow-textWrap">
@@ -131,7 +131,7 @@
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img3.webp"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種講座の資格取得アドバイザーによる質問サポート"
               />
             </div>
             <div class="follow-textWrap">
@@ -170,7 +170,7 @@
               <img
                 class="img-4"
                 src="../../assets/img/license_page/denken3/follow-img4.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種のオンライン質問サポート「能センサポ」"
               />
             </div>
             <div class="follow-textWrap">
@@ -218,7 +218,7 @@
               <img
                 class="img-3"
                 src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種通信講座の勉強管理システム（自己管理型の学習進捗管理ツール）"
               />
             </div>
             <div class="follow-textWrap">
@@ -262,7 +262,7 @@
               <img
                 class="img-6"
                 src="../../assets/img/license_page/denken3/follow-img6.jpg"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種講座の勉強管理コーチング"
               />
             </div>
             <div class="follow-textWrap">

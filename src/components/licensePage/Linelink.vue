@@ -3,7 +3,7 @@
       <div class="line-inner">
           <figure class="line-image">
               <a href="https://line.me/R/ti/p/@947ygtge">
-                  <img src="../../assets/img/license_page/line.jpg">
+                  <img src="../../assets/img/license_page/line.jpg" alt="能セン公式LINEアカウントの友だち追加案内">
               </a>
           </figure>
           <p class="line-text" v-html="text"></p>

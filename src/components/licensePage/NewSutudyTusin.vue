@@ -40,6 +40,7 @@
           <img
             class="workshop-orangeLine__icon"
             src="../../assets/img/icon/note.svg"
+            alt=""
           />
           <p class="workshop-orangeLine__heading">
             【オンライン講座へ変更可能】

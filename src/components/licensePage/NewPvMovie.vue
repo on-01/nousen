@@ -19,7 +19,7 @@
             ></iframe>
           </div>
           <div class="pv-img" v-if="!movie && image">
-            <img :src="image" alt="" />
+            <img :src="image" :alt="movieTitle" />
           </div>
         </div>
         <div class="pv-content">
@@ -37,7 +37,7 @@
             ></iframe>
           </div>
           <div class="pv-img" v-if="!movie && image">
-            <img :src="image" alt="" />
+            <img :src="image" :alt="movieTitle" />
           </div>
         </div>
       </div>

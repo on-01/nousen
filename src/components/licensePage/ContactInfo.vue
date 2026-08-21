@@ -7,10 +7,10 @@
         <br />
         お気軽にお問い合わせください。
       </p>
-      <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" />
+      <img class="contactInfo-icon" src="../../assets/img/icon/note.svg" alt="" />
       <div class="contactInfo-link -tel">
         <a href="tel:0120547284">
-          <img src="../../assets/img/icon/contactInfo_tel.svg" />
+          <img src="../../assets/img/icon/contactInfo_tel.svg" alt="" />
         </a>
       </div>
       <div class="contactInfo-link">

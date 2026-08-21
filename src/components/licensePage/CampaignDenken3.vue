@@ -6,7 +6,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_1.jpg"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種通学講座「早割キャンペーン」の筆文字ロゴ"
           />
         </figure>
         <div class="campaign-description">
@@ -29,7 +29,7 @@
         <figure class="campaign-image">
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_2.jpg"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種受講特典で進呈される専門誌『新電気』の表紙"
           />
         </figure>
         <div class="campaign-description">

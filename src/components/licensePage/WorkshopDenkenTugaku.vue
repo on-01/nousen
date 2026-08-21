@@ -4,7 +4,7 @@
     <div class="workshop-topImg">
       <img
         src="../../assets/img/license_page/workshop-img1-1.webp"
-        alt="電験三種 第三種電気主任技術者"
+        alt="電験三種通学講座の授業イメージ"
       />
       <div class="workshop-topImg-text">
         <p class="workshop-topImg-text-top">
@@ -176,7 +176,7 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/ocha-img.jpg"
-        alt="電験三種 第三種電気主任技術者"
+        alt="講習会で配布される「おーいお茶」のイメージ"
       />
       <div class="ocha-content">
         <p class="ocha-text">
@@ -217,11 +217,14 @@
       <img
         class="address-map-img"
         src="../../assets/img/license_page/venue-map2.jpg"
-        alt="電験三種 第三種電気主任技術者"
+        alt="電験三種通学講座会場「専売ビル」の周辺地図"
       />
     </div>
     <div class="workshop-advisor-img">
-      <img src="../../assets/img/license_page/denken3/advisor.jpg" alt="" />
+      <img
+        src="../../assets/img/license_page/denken3/advisor.jpg"
+        alt="電験三種通学講座は講習中、資格取得アドバイザーが常駐して学習相談に対応"
+      />
     </div>
     <p class="workshop-bottom -map -left">
       <b>📷写真撮影について</b>
@@ -1050,6 +1053,10 @@
   }
 
   .application-form-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 82px;
     background-color: #1262b2;
     box-shadow: 4px 4px 10px rgba(0, 47, 77, 0.3);
     margin-top: 25px;
@@ -1061,6 +1068,10 @@
 
     @media print, screen and (max-width: 480px) {
       width: 90%;
+    }
+
+    @media print, screen and (max-width: 370px) {
+      min-height: auto;
     }
   }
 

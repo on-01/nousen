@@ -12,7 +12,7 @@
         <li>
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_3.webp"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種の過去15年分本試験問題データ資料"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
@@ -43,7 +43,7 @@
         <li>
           <img
             src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種本試験の出題傾向分析資料"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
@@ -66,7 +66,7 @@
         <li>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_12.webp"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種講座の提出課題と修了試験"
           />
           <div class="exam-textWrap">
             <p class="exam-head">Program③｜提出課題と修了試験で実力を可視化</p>
@@ -82,7 +82,7 @@
               <p class="exam-head">提出課題の添削例</p>
               <img
                 src="../../assets/img/license_page/denken3/denken3_exam_10.png"
-                alt="電験三種 第三種電気主任技術者"
+                alt="電験三種講座の提出課題の添削例"
               />
               <p class="exam-text -bottom">
                 ご提出いただいた課題は、専門講師が一つひとつ丁寧にチェックし、赤ペンで的確なアドバイスを書き込みます。
@@ -95,7 +95,7 @@
         <li>
           <img
             src="../../assets/img/license_page/denken3/denken3_exam_11.png"
-            alt="電験三種 第三種電気主任技術者"
+            alt="電験三種通信講座の質問用紙"
           />
           <div class="exam-textWrap">
             <p class="exam-head">Program④｜質問用紙で質問できる</p>
