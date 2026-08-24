@@ -243,7 +243,7 @@
           <br />
           短期間、短時間の研修が可能です。
           <br />
-          <g-link to="/contact" class="more-link">
+          <g-link to="/contact/" class="more-link">
             お見積もり・お問い合わせ
             <IconBase class="icon" width="25" height="25">
               <IconFingerRight />

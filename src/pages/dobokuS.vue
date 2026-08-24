@@ -274,14 +274,14 @@
               <div class="exam-link-wrapper">
                 <div class="exam-link-flex">
                   <g-link
-                    to="/doboku-s-application"
+                    to="/doboku-s-application/"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/doboku-s-application-business"
+                    to="/doboku-s-application-business/"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
@@ -490,8 +490,8 @@
 
               <div class="exam-link-wrapper -border">
                 <ApplicationButtons
-                  personLink="/doboku-s-application"
-                  businessLink="/doboku-s-application-business"
+                  personLink="/doboku-s-application/"
+                  businessLink="/doboku-s-application-business/"
                 />
 
                 <figure class="credit-image">
@@ -548,8 +548,8 @@
                   :cpds="richtextToHTML($static.doboku1.cpds)"
                 />
                 <NewApplication
-                  personalFormLink="/doboku-s-application"
-                  businessFormLink="/doboku-s-application-business"
+                  personalFormLink="/doboku-s-application/"
+                  businessFormLink="/doboku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />
               </div>
@@ -573,8 +573,8 @@
                   :cpds="richtextToHTML($static.doboku2.cpds)"
                 />
                 <NewApplication
-                  personalFormLink="/doboku-s-application"
-                  businessFormLink="/doboku-s-application-business"
+                  personalFormLink="/doboku-s-application/"
+                  businessFormLink="/doboku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />
               </div>
@@ -588,9 +588,9 @@
                 />
                 <NewApplication
                   personalFormText="オンライン講座へのお申込み（個人）"
-                  personalFormLink="/doboku-s-application"
+                  personalFormLink="/doboku-s-application/"
                   businessFormText="オンライン講座へのお申込み（法人）"
-                  businessFormLink="/doboku-s-application-business"
+                  businessFormLink="/doboku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />
               </div>

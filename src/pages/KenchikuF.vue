@@ -304,14 +304,14 @@
               <div class="exam-link-wrapper">
                 <div class="exam-link-flex">
                   <g-link
-                    to="/kenchiku-s-application"
+                    to="/kenchiku-s-application/"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/kenchiku-s-application-business"
+                    to="/kenchiku-s-application-business/"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
@@ -557,8 +557,8 @@
 
               <div class="exam-link-wrapper -border">
                 <ApplicationButtons
-                  personLink="/kenchiku-f-application"
-                  businessLink="/kenchiku-f-application-business"
+                  personLink="/kenchiku-f-application/"
+                  businessLink="/kenchiku-f-application-business/"
                 />
 
                 <figure class="credit-image">
@@ -615,8 +615,8 @@
                   :cpds="richtextToHTML($static.kenchiku1.cpds)"
                 />
                 <NewApplication
-                  personalFormLink="/kenchiku-s-application"
-                  businessFormLink="/kenchiku-s-application-business"
+                  personalFormLink="/kenchiku-s-application/"
+                  businessFormLink="/kenchiku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
                 />
               </div>
@@ -640,8 +640,8 @@
                   :cpds="richtextToHTML($static.kenchiku2.cpds)"
                 />
                 <NewApplication
-                  personalFormLink="/kenchiku-s-application"
-                  businessFormLink="/kenchiku-s-application-business"
+                  personalFormLink="/kenchiku-s-application/"
+                  businessFormLink="/kenchiku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/4m5KWk5u9RGvf4AiAeeDFh/b1ab241d1fea2beb4748784ba06ad2c4/__________________FAX.pdf"
                 />
               </div>

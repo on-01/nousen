@@ -46,7 +46,7 @@
             </a>
           </div>
           <div class="contact item">
-            <g-link to="/contact" target="_blank" rel="noopener noreferrer">
+            <g-link to="/contact/" target="_blank" rel="noopener noreferrer">
               <img
                 class="h14"
                 src="../assets/img/common/contact2.svg"
@@ -75,7 +75,7 @@
             <p>講座一覧</p>
             <div class="rolldown">
               <ul>
-                <g-link to="/denken3">
+                <g-link to="/denken3/">
                   <li class="denken">
                     第三種
                     <br class="overdisplay" />
@@ -83,14 +83,14 @@
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <!-- <g-link to="/koujishi1">
+                <!-- <g-link to="/koujishi1/">
                   <li class="denkikouji">
                     第一種
                     <br class="overdisplay" />
                     電気工事士
                   </li>
                 </g-link> -->
-                <!-- <g-link to="/koujishi2">
+                <!-- <g-link to="/koujishi2/">
                   <li class="denkikouji">
                     第二種
                     <br class="overdisplay" />
@@ -106,7 +106,7 @@
                     (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/kenchiku-f">
+                <g-link to="/kenchiku-f/">
                   <li class="kenchiku">
                     1級
                     <br class="overdisplay" />
@@ -114,7 +114,7 @@
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/doboku-f">
+                <g-link to="/doboku-f/">
                   <li class="doboku">
                     1級
                     <br class="overdisplay" />
@@ -132,7 +132,7 @@
                     (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/kyuusui">
+                <g-link to="/kyuusui/">
                   <li class="kyuusui">
                     給水装置工事
                     <br class="overdisplay" />
@@ -141,7 +141,7 @@
                     (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/denkikouji-s">
+                <g-link to="/denkikouji-s/">
                   <li class="denkikoujisekou">
                     2級
                     <br class="overdisplay" />
@@ -150,7 +150,7 @@
                     (令和６年度準備中) -->
                   </li>
                 </g-link>
-                <g-link to="/kenchiku-s">
+                <g-link to="/kenchiku-s/">
                   <li class="kenchiku">
                     2級
                     <br class="overdisplay" />
@@ -158,7 +158,7 @@
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/doboku-s">
+                <g-link to="/doboku-s/">
                   <li class="doboku">
                     2級
                     <br class="overdisplay" />
@@ -166,7 +166,7 @@
                     <!-- <IconOnline iconClass="online_icon_header" /> -->
                   </li>
                 </g-link>
-                <g-link to="/kankouji-s">
+                <g-link to="/kankouji-s/">
                   <li class="kankouji">
                     2級
                     <br class="overdisplay" />
@@ -179,27 +179,27 @@
             </div>
           </div>
           <!-- <div class="pagelink-title">
-            <g-link to="/licenses">
+            <g-link to="/licenses/">
               <p>試験概要</p>
             </g-link>
           </div> -->
           <div class="pagelink-title">
-            <g-link to="/teachers">
+            <g-link to="/teachers/">
               <p>信頼の講師陣</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/faq">
+            <g-link to="/faq/">
               <p>よくある質問</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/go-kakuouen">
+            <g-link to="/go-kakuouen/">
               <p>🎓 GO!資格 合格応援制度</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/private-lecture">
+            <g-link to="/private-lecture/">
               <p>出張講習のすすめ</p>
             </g-link>
           </div>
@@ -239,7 +239,7 @@
               alt="講習会お申し込み"
             />
           </a>
-          <g-link to="/contact" target="_blank" rel="noopener noreferrer">
+          <g-link to="/contact/" target="_blank" rel="noopener noreferrer">
             <img
               src="../assets/img/common/toggle_menu/contact_button2.svg"
               alt="お問い合わせ"
@@ -248,12 +248,12 @@
         </section>
         <section class="navi-inner nav-inner03 underdisplay">
           <div class="pagelink-title">
-            <g-link to="/company">
+            <g-link to="/company/">
               <p>会社概要</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/benefits">
+            <g-link to="/benefits/">
               <p>給付・助成金制度</p>
             </g-link>
           </div>
@@ -263,17 +263,17 @@
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/guide">
+            <g-link to="/guide/">
               <p>特定商取引法に基づく表記</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/privacy">
+            <g-link to="/privacy/">
               <p>プライバシーポリシー</p>
             </g-link>
           </div>
           <div class="pagelink-title">
-            <g-link to="/anti-social-force">
+            <g-link to="/anti-social-force/">
               <p>反社会的勢力排除宣言</p>
             </g-link>
           </div>
@@ -333,12 +333,12 @@
               <br class="overdisplay" />
               電気主任技術者
             </p>
-            <g-link to="/denken3-application" class="application-form-link">
+            <g-link to="/denken3-application/" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/denken3-application-business"
+              to="/denken3-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -356,7 +356,7 @@
           </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
-            <g-link to="/koujishi-application" class="application-form-link">
+            <g-link to="/koujishi-application/" class="application-form-link">
               お申し込みフォーム </g-link
             ><br />
             <a
@@ -374,7 +374,7 @@
               <br class="overdisplay" />
               電気工事士
             </p>
-            <g-link to="/koujishi-application" class="application-form-link">
+            <g-link to="/koujishi-application/" class="application-form-link">
               お申し込みフォーム
             </g-link>
             <br />
@@ -392,7 +392,7 @@
               1・2級<br class="overdisplay" />電気工事施工管理技士
             </p>
             <g-link
-              to="/denkikouji-s-application"
+              to="/denkikouji-s-application/"
               class="application-form-link"
             >
               お申し込みフォーム </g-link
@@ -420,12 +420,12 @@
               <br class="overdisplay" />
               建築施工管理技士
             </p>
-            <g-link to="/kenchiku-f-application" class="application-form-link">
+            <g-link to="/kenchiku-f-application/" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/kenchiku-f-application-business"
+              to="/kenchiku-f-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -437,12 +437,12 @@
               <br class="overdisplay" />
               土木施工管理技士
             </p>
-            <g-link to="/doboku-f-application" class="application-form-link">
+            <g-link to="/doboku-f-application/" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/doboku-f-application-business"
+              to="/doboku-f-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -471,14 +471,14 @@
               電気工事施工管理技士
             </p>
             <g-link
-              to="/denkikouji-s-application"
+              to="/denkikouji-s-application/"
               class="application-form-link"
             >
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/denkikouji-s-application-business"
+              to="/denkikouji-s-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -490,12 +490,12 @@
               <br class="overdisplay" />
               建築施工管理技士
             </p>
-            <g-link to="/kenchiku-s-application" class="application-form-link">
+            <g-link to="/kenchiku-s-application/" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/kenchiku-s-application-business"
+              to="/kenchiku-s-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)
@@ -507,12 +507,12 @@
               <br class="overdisplay" />
               土木施工管理技士
             </p>
-            <g-link to="/doboku-s-application" class="application-form-link">
+            <g-link to="/doboku-s-application/" class="application-form-link">
               お申込みフォーム(個人)
             </g-link>
             <br />
             <g-link
-              to="/doboku-s-application-business"
+              to="/doboku-s-application-business/"
               class="application-form-link"
             >
               お申込みフォーム(法人)

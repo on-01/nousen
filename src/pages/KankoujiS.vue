@@ -69,7 +69,7 @@
             :cpds="richtextToHTML($static.kankouji1.cpds)"
           />
           <!-- <Application
-            formLink="/kankouji-s-application"
+            formLink="/kankouji-s-application/"
             faxLink="/kankouji_1_FAX_31year.pdf"
           /> -->
         </div>
@@ -93,7 +93,7 @@
             :cpds="richtextToHTML($static.kankouji2.cpds)"
           />
           <!-- <Application
-            formLink="/kankouji-s-application"
+            formLink="/kankouji-s-application/"
             faxLink="/kankouji_2_FAX_31year.pdf"
           /> -->
         </div>

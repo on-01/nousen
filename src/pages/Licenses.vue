@@ -59,7 +59,7 @@
           ]"
           :attention="richtextToHTML($static.denken.attention)"
           :memo="$static.denken.memo"
-          LicensePageLink="/denken3"
+          LicensePageLink="/denken3/"
         />
       </div>
 
@@ -109,9 +109,9 @@
           ]"
           :attention="richtextToHTML($static.denkikoujisekou.attention)"
           :memo="$static.denkikoujisekou.memo"
-          LicensePageLink="/denkikouji-s"
+          LicensePageLink="/denkikouji-s/"
         />
-        <!-- applicationLink="/denkikouji-s-application" -->
+        <!-- applicationLink="/denkikouji-s-application/" -->
       </div>
       <div class="licenses-contents">
         <License
@@ -158,7 +158,7 @@
           ]"
           :attention="richtextToHTML($static.kenchiku.attention)"
           :memo="$static.kenchiku.memo"
-          LicensePageLink="/kenchiku-s"
+          LicensePageLink="/kenchiku-s/"
         />
       </div>
       <div class="licenses-contents">
@@ -206,9 +206,9 @@
           ]"
           :attention="richtextToHTML($static.kankouji.attention)"
           :memo="$static.kankouji.memo"
-          LicensePageLink="/kankouji-s"
+          LicensePageLink="/kankouji-s/"
         />
-        <!-- applicationLink="/kankouji-s-application" -->
+        <!-- applicationLink="/kankouji-s-application/" -->
       </div>
       <div class="licenses-contents">
         <License
@@ -255,7 +255,7 @@
           ]"
           :attention="richtextToHTML($static.doboku.attention)"
           :memo="$static.doboku.memo"
-          LicensePageLink="/doboku-s"
+          LicensePageLink="/doboku-s/"
         />
       </div>
       <div class="licenses-contents">
@@ -298,9 +298,9 @@
           ]"
           :attention="richtextToHTML($static.kyuusui.attention)"
           :memo="$static.kyuusui.memo"
-          LicensePageLink="/kyuusui"
+          LicensePageLink="/kyuusui/"
         />
-        <!-- applicationLink="/kyuusui-application" -->
+        <!-- applicationLink="/kyuusui-application/" -->
       </div>
     </div>
   </Layout>
@@ -502,10 +502,10 @@ export default {
       //     ]"
       //     :attention="richtextToHTML($static.koujishi1.attention)"
       //     :memo="$static.koujishi1.memo"
-      //     LicensePageLink="/koujishi1"
+      //     LicensePageLink="/koujishi1/"
       //   />
       //   <!-- ↑の属性に追加で有効化される。 -->
-      //   <!-- applicationLink="/koujishi-application" -->
+      //   <!-- applicationLink="/koujishi-application/" -->
       // </div>
       // <div class="licenses-contents">
       //   <License
@@ -552,8 +552,8 @@ export default {
       //     ]"
       //     :attention="richtextToHTML($static.koujishi2.attention)"
       //     :memo="$static.koujishi2.memo"
-      //     LicensePageLink="/koujishi2"
-      //     applicationLink="/koujishi-application"
+      //     LicensePageLink="/koujishi2/"
+      //     applicationLink="/koujishi-application/"
       //   />
       // </div>
 

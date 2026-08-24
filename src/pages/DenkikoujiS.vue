@@ -349,8 +349,8 @@
 
               <div class="exam-link-wrapper -border">
                 <ApplicationButtons
-                  personLink="/denkikouji-s-application"
-                  businessLink="/denkikouji-s-application-business"
+                  personLink="/denkikouji-s-application/"
+                  businessLink="/denkikouji-s-application-business/"
                 />
 
                 <figure class="credit-image">

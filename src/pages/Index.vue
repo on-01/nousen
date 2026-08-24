@@ -38,7 +38,7 @@
           </figure> -->
           <div class="qualification-list-wrap">
             <div class="item item01 denken" key="item01">
-              <g-link to="/denken3">
+              <g-link to="/denken3/">
                 <!-- <span>電験</span>
                 <br /> -->
                 第三種
@@ -77,7 +77,7 @@
               </g-link>
             </div>
             <div class="item item03 kenchiku" key="item03">
-              <g-link to="/kenchiku-f">
+              <g-link to="/kenchiku-f/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
@@ -87,7 +87,7 @@
               </g-link>
             </div>
             <div class="item item04 doboku" key="item04">
-              <g-link to="/doboku-f">
+              <g-link to="/doboku-f/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 1級
@@ -109,7 +109,7 @@
               </g-link>
             </div>
             <!-- <div class="item item06 contact" key="item06">
-              <g-link to="/contact">
+              <g-link to="/contact/">
                 <span>施工管理技士</span>
                 <br />
                 お問い合わせ
@@ -144,7 +144,7 @@
               </g-link>
             </div>
             <div class="item item07 denkikoujisekou" key="item07">
-              <g-link to="/denkikouji-s">
+              <g-link to="/denkikouji-s/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 2級
@@ -156,7 +156,7 @@
               </g-link>
             </div>
             <div class="item item08 kenchiku" key="item08">
-              <g-link to="/kenchiku-s">
+              <g-link to="/kenchiku-s/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 2級
@@ -166,7 +166,7 @@
               </g-link>
             </div>
             <div class="item item09 doboku" key="item09">
-              <g-link to="/doboku-s">
+              <g-link to="/doboku-s/">
                 <!-- <span>施工管理技士</span>
                 <br /> -->
                 2級
@@ -223,7 +223,7 @@
           alt=""
         />
         <div class="more_qualification">
-          <!-- <g-link to="/licenses">
+          <!-- <g-link to="/licenses/">
             資格一覧はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link> -->
@@ -990,7 +990,7 @@
               <br class="overdisplay" />
               電気主任技術者
             </p>
-            <g-link to="/denken3-application" class="application-form-link">
+            <g-link to="/denken3-application/" class="application-form-link">
               お申し込みフォーム
             </g-link>
             <br />
@@ -1021,7 +1021,7 @@
           </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
-            <g-link to="/koujishi-application" class="application-form-link">
+            <g-link to="/koujishi-application/" class="application-form-link">
               お申し込みフォーム </g-link
             ><br />
             <a
@@ -1039,7 +1039,7 @@
               <br class="overdisplay" />
               電気工事士
             </p>
-            <g-link to="/koujishi-application" class="application-form-link">
+            <g-link to="/koujishi-application/" class="application-form-link">
               お申し込みフォーム
             </g-link>
             <br />
@@ -1057,7 +1057,7 @@
               1・2級<br class="overdisplay" />電気工事施工管理技士
             </p>
             <g-link
-              to="/denkikouji-s-application"
+              to="/denkikouji-s-application/"
               class="application-form-link"
             >
               お申し込みフォーム </g-link
@@ -1085,7 +1085,7 @@
               <br class="overdisplay" />
               建築施工管理技士
             </p>
-            <g-link to="/kenchiku-s-application" class="application-form-link">
+            <g-link to="/kenchiku-s-application/" class="application-form-link">
               お申し込みフォーム
             </g-link>
             <br />
@@ -1118,7 +1118,7 @@
             <p class="title">
               1・2級<br class="overdisplay" />管工事施工管理技士
             </p>
-            <g-link to="/kankouji-s-application" class="application-form-link">
+            <g-link to="/kankouji-s-application/" class="application-form-link">
               お申し込みフォーム </g-link
             ><br />
             <a
@@ -1144,7 +1144,7 @@
               <br class="overdisplay" />
               土木施工管理技士
             </p>
-            <g-link to="/doboku-s-application" class="application-form-link">
+            <g-link to="/doboku-s-application/" class="application-form-link">
               お申し込みフォーム
             </g-link>
             <br />
@@ -1177,7 +1177,7 @@
             <p class="title">
               給水装置工事<br class="overdisplay" />主任技術者
             </p>
-            <g-link to="/kyuusui-application" class="application-form-link">
+            <g-link to="/kyuusui-application/" class="application-form-link">
               お申し込みフォーム </g-link
             ><br />
             <a

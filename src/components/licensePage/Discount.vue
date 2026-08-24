@@ -113,7 +113,7 @@
             <span class="discount-note-icon">!</span>
             割引利用時のご注意
           </p>
-          <g-link to="/go-kakuouen" class="discount-detail-link">
+          <g-link to="/go-kakuouen/" class="discount-detail-link">
             詳しい利用条件を見る
             <span class="arrow">→</span>
           </g-link>
