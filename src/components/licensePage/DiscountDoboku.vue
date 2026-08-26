@@ -113,7 +113,7 @@
             <span class="discount-note-icon">!</span>
             割引利用時のご注意
           </p>
-          <g-link to="/go-kakuouen" class="discount-detail-link">
+          <g-link to="/go-kakuouen/" class="discount-detail-link">
             詳しい利用条件を見る
             <span class="arrow">→</span>
           </g-link>
@@ -139,7 +139,7 @@
 
 <style lang="scss" scoped>
   .discount {
-    max-width: 870px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     font-family: "Meiryo", sans-serif;
@@ -147,7 +147,7 @@
   .discount-inner {
     background: #fff;
     border-radius: 24px;
-    padding: 42px;
+    padding: 24px;
   }
   .discount-header {
     display: flex;

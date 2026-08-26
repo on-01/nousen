@@ -226,8 +226,8 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <ApplicationButtons
-          personLink="/kenchiku-s-application"
-          businessLink="/kenchiku-s-application-business"
+          personLink="/kenchiku-s-application/"
+          businessLink="/kenchiku-s-application-business/"
         />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！
@@ -243,7 +243,7 @@
     </p>
     <div class="workshop-flex-img">
       <div>
-        <p class="workshop-flex-text">自宅はPCで大画面視聴</p>
+        <p class="workshop-flex-text">自宅ではPCで大画面視聴</p>
         <img
           class="flex-img"
           src="../../assets/img/license_page/doboku_s/doboku-pc3-1.jpg"
@@ -497,8 +497,8 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <ApplicationButtons
-          personLink="/kenchiku-s-application"
-          businessLink="/kenchiku-s-application-business"
+          personLink="/kenchiku-s-application/"
+          businessLink="/kenchiku-s-application-business/"
         />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！
@@ -579,7 +579,7 @@
             <br />
             <span>✅共通工事</span>
             <br />
-            【外溝工事】【設備工事】【測量・積算】
+            【外構工事】【設備工事】【測量・積算】
             <br />
             <br />
             <span>✅躯体工事</span>
@@ -744,7 +744,7 @@
                   <td>
                     ・学習と範囲別の課題に取り組み実力をつける
                     <br />
-                    ・合格点の60点を超える力を身につける
+                    ・合格基準の60％以上を目指す力を身につける
                   </td>
                 </tr>
                 <tr>
@@ -795,7 +795,7 @@
                     <br />
                     ・メール・お電話でも質問対応
                     <br />
-                    ・当日欠席してオンライン通信講座に無料振替
+                    ・当日欠席してもオンライン通信講座に無料振替
                     <br />
                     ・万が一不合格の場合は
                     <span>再受講割引が適用</span>
@@ -872,7 +872,7 @@
                   <td>
                     PC、タブレット、スマホ
                     <br />
-                    インターネット接続環境があれば、いつでも、どこでも、何度でも最良の講義が受講できます。
+                    インターネット接続環境があれば、いつでも、どこでも、何度でも講義を受講できます。
                   </td>
                 </tr>
                 <tr>
@@ -894,7 +894,7 @@
                   <td>
                     ・学習と範囲別の課題に取り組み実力をつける
                     <br />
-                    ・合格点の60点を超える力を身につける
+                    ・合格基準の60％以上を目指す力を身につける
                   </td>
                 </tr>
                 <tr>

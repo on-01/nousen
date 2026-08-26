@@ -42,10 +42,10 @@
           <div class="wrapper-information">
             <div class="information">
               <p class="information_list">
-                <g-link to="/company">会社概要</g-link>
+                <g-link to="/company/">会社概要</g-link>
               </p>
               <p class="information_list">
-                <g-link to="/benefits">給付・助成金制度</g-link>
+                <g-link to="/benefits/">給付・助成金制度</g-link>
               </p>
               <p class="information_list">
                 <g-link to="https://nousen.blog/oshiharaihouhou/">
@@ -53,13 +53,13 @@
                 </g-link>
               </p>
               <p class="information_list">
-                <g-link to="/guide">特定商取引法に基づく表記</g-link>
+                <g-link to="/guide/">特定商取引法に基づく表記</g-link>
               </p>
               <p class="information_list">
-                <g-link to="/privacy">プライバシーポリシー</g-link>
+                <g-link to="/privacy/">プライバシーポリシー</g-link>
               </p>
               <p class="information_list">
-                <g-link to="/anti-social-force">反社会的勢力排除宣言</g-link>
+                <g-link to="/anti-social-force/">反社会的勢力排除宣言</g-link>
               </p>
               <p class="information_list">
                 <g-link to="https://nousen.blog/koushiuketuke/">

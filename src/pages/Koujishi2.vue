@@ -27,7 +27,7 @@
             受験資格や試験日の確認はこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
-          <g-link to="/koujishi-application" class="application-form-link">
+          <g-link to="/koujishi-application/" class="application-form-link">
             お申込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
@@ -56,7 +56,7 @@
             :cpds="richtextToHTML($static.contentfulQualification.cpds)"
           />
           <Application
-            formLink="/koujishi-application"
+            formLink="/koujishi-application/"
             faxLink="/2_denki_FAX_2022year.pdf"
           />
         </div>

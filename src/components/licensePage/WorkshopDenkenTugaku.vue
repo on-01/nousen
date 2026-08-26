@@ -242,12 +242,12 @@
           ✅ 82％が結果を出した学習設計で、合格まで伴走
         </p>
         <div class="exam-link-flex">
-          <g-link to="/denken3-application" class="application-form-link">
+          <g-link to="/denken3-application/" class="application-form-link">
             お申込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
-            to="/denken3-application-business"
+            to="/denken3-application-business/"
             class="application-form-link"
           >
             お申込みはこちら（法人）

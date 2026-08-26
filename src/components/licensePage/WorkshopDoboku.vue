@@ -231,8 +231,8 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <ApplicationButtons
-          personLink="/doboku-s-application"
-          businessLink="/doboku-s-application-business"
+          personLink="/doboku-s-application/"
+          businessLink="/doboku-s-application-business/"
         />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！
@@ -502,8 +502,8 @@
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
         <ApplicationButtons
-          personLink="/doboku-s-application"
-          businessLink="/doboku-s-application-business"
+          personLink="/doboku-s-application/"
+          businessLink="/doboku-s-application-business/"
         />
         <p class="exam-link-text">
           忙しくても少しずつ必要な力を身につけられます！

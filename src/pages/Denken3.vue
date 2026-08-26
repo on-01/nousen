@@ -409,14 +409,14 @@
                 </p>
                 <div class="exam-link-flex">
                   <g-link
-                    to="/denken3-application"
+                    to="/denken3-application/"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/denken3-application-business"
+                    to="/denken3-application-business/"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
@@ -435,9 +435,9 @@
               <Merumaga />
               <NewApplicationDenken3
                 personalFormText="お申込みはこちら（個人）"
-                personalFormLink="/denken3-application"
+                personalFormLink="/denken3-application/"
                 businessFormText="お申込みはこちら（法人）"
-                businessFormLink="/denken3-application-business"
+                businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />
@@ -724,14 +724,14 @@
                 </p>
                 <div class="exam-link-flex">
                   <g-link
-                    to="/denken3-application"
+                    to="/denken3-application/"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/denken3-application-business"
+                    to="/denken3-application-business/"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
@@ -751,9 +751,9 @@
               <Merumaga />
               <NewApplicationDenken3
                 personalFormText="お申込みはこちら（個人）"
-                personalFormLink="/denken3-application"
+                personalFormLink="/denken3-application/"
                 businessFormText="お申込みはこちら（法人）"
-                businessFormLink="/denken3-application-business"
+                businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />
@@ -995,14 +995,14 @@
                 </p>
                 <div class="exam-link-flex">
                   <g-link
-                    to="/denken3-application"
+                    to="/denken3-application/"
                     class="application-form-link"
                   >
                     お申込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
-                    to="/denken3-application-business"
+                    to="/denken3-application-business/"
                     class="application-form-link"
                   >
                     お申込みはこちら（法人）
@@ -1021,9 +1021,9 @@
               <Merumaga />
               <NewApplicationDenken3
                 personalFormText="お申込みはこちら（個人）"
-                personalFormLink="/denken3-application"
+                personalFormLink="/denken3-application/"
                 businessFormText="お申込みはこちら（法人）"
-                businessFormLink="/denken3-application-business"
+                businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />
               <ContactInfo title="受講に関するご相談・資料請求は" />

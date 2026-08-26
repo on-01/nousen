@@ -52,7 +52,7 @@
             :cpds="richtextToHTML($static.contentfulQualification.cpds)"
           />
           <!-- <Application
-            formLink="/koujishi-application"
+            formLink="/koujishi-application/"
             faxLink="/1_denki_FAX_31year.pdf"
           /> -->
         </div>
