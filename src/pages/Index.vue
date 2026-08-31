@@ -833,6 +833,7 @@
               <a
                 href="https://www.birumen-navi.com/"
                 target="_blank"
+                @click.prevent="openExternal('https://www.birumen-navi.com/')"
                 rel="noopener noreferrer"
               >
                 <img
@@ -843,6 +844,9 @@
               <a
                 href="https://www.birumenjob-navi.com/"
                 target="_blank"
+                @click.prevent="
+                  openExternal('https://www.birumenjob-navi.com/')
+                "
                 rel="noopener noreferrer"
               >
                 <img
