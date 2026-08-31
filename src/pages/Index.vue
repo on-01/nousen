@@ -2201,7 +2201,7 @@ query {
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-    margin-top: 30px;
+    margin-top: 64px;
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
       row-gap: 20px;
