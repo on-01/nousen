@@ -421,13 +421,13 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    @media print, screen and(max-width: 1000px) {
+      flex-direction: column;
+    }
   }
 
   .banner-row--bottom {
     margin-top: 10px;
-    @media print, screen and(max-width: 1000px) {
-      flex-direction: column;
-    }
   }
 
   .line-link {
