@@ -829,6 +829,28 @@
               <br />
               ・独自のワークシートで自己理解を深め、理想のキャリア像を明確に。自信を持って強みを伝えられるようサポートします
             </p>
+            <div class="birumenBanner">
+              <a
+                href="https://www.birumen-navi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/front/career8.png"
+                  alt="ビルメン転職ナビエージェント"
+                />
+              </a>
+              <a
+                href="https://www.birumenjob-navi.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/front/career9.webp"
+                  alt="ビルメン転職ナビ"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -2167,6 +2189,30 @@ query {
 
     span {
       font-weight: 700;
+    }
+  }
+
+  .birumenBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 30px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      width: 300px;
+      max-width: 100%;
+      @media print, screen and (max-width: 1000px) {
+        width: 260px;
+      }
     }
   }
 
