@@ -9,7 +9,7 @@
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度前期 / 令和8年度後期"
-            title="1級 建築施工管理技士"
+            title="1級建築施工管理技士｜試験・講座情報"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
           <!-- <TimeCountKenchiku /> -->

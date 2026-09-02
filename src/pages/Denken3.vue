@@ -10,7 +10,7 @@
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
             headTitle="令和8年度上期/令和8年度下期"
-            title="第三種電気主任技術者"
+            title="電験三種（第三種電気主任技術者）｜試験・講座情報"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
           <TimeCount />

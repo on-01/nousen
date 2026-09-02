@@ -27,7 +27,12 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <img src="../assets/img/front/section01/mv_1.webp" alt="" />
+          <h1>
+            <img
+              src="../assets/img/front/section01/mv_1.webp"
+              alt="能セン合格への道｜勉強の時間がない資格取得を目指すあなたを、合格へ"
+            />
+          </h1>
         </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
@@ -1353,6 +1358,9 @@ query {
 
 <style lang="scss" scoped>
   .top-mv {
+    h1 {
+      margin: 0;
+    }
     img {
       width: 100%;
       object-fit: cover;

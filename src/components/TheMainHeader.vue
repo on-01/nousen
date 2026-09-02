@@ -11,7 +11,7 @@
       <div class="logo">
         <div class="logo-inner">
           <g-link to="/">
-            <h1 class="main-header-title">
+            <p class="main-header-title">
               <img
                 src="../assets/img/common/main_logo.svg"
                 alt="能セン 合格への近道"
@@ -19,7 +19,7 @@
                 height="93"
                 decoding="async"
               />
-            </h1>
+            </p>
           </g-link>
         </div>
       </div>
