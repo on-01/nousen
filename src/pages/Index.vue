@@ -27,12 +27,13 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <h1>
-            <img
-              src="../assets/img/front/section01/mv_1.webp"
-              alt="能セン合格への道｜勉強の時間がない資格取得を目指すあなたを、合格へ"
-            />
+          <h1 class="visually-hidden">
+            能セン合格への道｜勉強の時間がない資格取得を目指すあなたを、合格へ
           </h1>
+          <img
+            src="../assets/img/front/section01/mv_1.webp"
+            alt="能セン合格への道"
+          />
         </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
@@ -1357,10 +1358,18 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
   .top-mv {
-    h1 {
-      margin: 0;
-    }
     img {
       width: 100%;
       object-fit: cover;
