@@ -27,7 +27,13 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <img src="../assets/img/front/section01/mv_1.webp" alt="" />
+          <h1 class="visually-hidden">
+            能セン合格への道｜勉強の時間がない資格取得を目指すあなたを、合格へ
+          </h1>
+          <img
+            src="../assets/img/front/section01/mv_1.webp"
+            alt="能セン合格への道"
+          />
         </div>
         <div class="qualification-list-wrapper">
           <!-- <figure class="top_left">
@@ -829,6 +835,32 @@
               <br />
               ・独自のワークシートで自己理解を深め、理想のキャリア像を明確に。自信を持って強みを伝えられるようサポートします
             </p>
+            <div class="birumenBanner">
+              <a
+                href="https://www.birumen-navi.com/"
+                target="_blank"
+                @click.prevent="openExternal('https://www.birumen-navi.com/')"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/front/career8.png"
+                  alt="ビルメン転職ナビエージェント"
+                />
+              </a>
+              <a
+                href="https://www.birumenjob-navi.com/"
+                target="_blank"
+                @click.prevent="
+                  openExternal('https://www.birumenjob-navi.com/')
+                "
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../assets/img/front/career9.webp"
+                  alt="ビルメン転職ナビ"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -1326,6 +1358,17 @@ query {
 </script>
 
 <style lang="scss" scoped>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
   .top-mv {
     img {
       width: 100%;
@@ -2167,6 +2210,30 @@ query {
 
     span {
       font-weight: 700;
+    }
+  }
+
+  .birumenBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 64px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      width: 300px;
+      max-width: 100%;
+      @media print, screen and (max-width: 1000px) {
+        width: 260px;
+      }
     }
   }
 

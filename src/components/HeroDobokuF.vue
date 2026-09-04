@@ -18,7 +18,7 @@
         <img :src="icon" alt="" />
       </div>
       <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
-      <h2 class="title" v-html="title"></h2>
+      <h1 class="title" v-html="title"></h1>
       <p class="title -orange">
         合格まで伴走支援！
         <br />
@@ -134,6 +134,7 @@
       }
       @media print, screen and (max-width: 414px) {
         font-size: 16px;
+        white-space: normal;
       }
     }
     .sub-title {

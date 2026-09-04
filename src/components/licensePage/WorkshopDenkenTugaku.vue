@@ -68,7 +68,7 @@
           <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             7/11(土) 9:30～17:00
-            <span class="workshop-text-red">【受付中】</span>
+            <span class="workshop-text-bold">【終了】</span>
           </p>
         </div>
         <div class="workshop-content">
@@ -81,7 +81,7 @@
           </p>
           <p class="workshop-text even">
             7/12(日) 9:30～17:00
-            <span class="workshop-text-red">【受付終了】</span>
+            <span class="workshop-text-bold">【終了】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
             <br />

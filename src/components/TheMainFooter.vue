@@ -125,37 +125,28 @@
         </div>
         <div class="banner">
           <div class="banner-row">
-            <div class="column">
-              <a href="https://www.tokyo-cci.or.jp/" target="_blank">
-                <g-image
-                  src="../assets/img/common/banner1.jpg"
-                  alt="バナー 東京商工会議所"
-                  width="200px"
-                />
-              </a>
-              <a href="http://www.nerima-sanren.jp/" target="_blank">
-                <g-image
-                  src="../assets/img/common/banner5.jpg"
-                  alt="バナー 練馬産業連合会"
-                  width="200px"
-                />
-              </a>
-              <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
-                <g-image
-                  src="../assets/img/common/banner3.jpg"
-                  alt="料金相場.jp"
-                  width="200px"
-                  class="banner3"
-                />
-              </a> -->
-            </div>
-            <a href="https://www.birumen-navi.com/" target="_blank">
+            <a href="https://www.tokyo-cci.or.jp/" target="_blank">
               <g-image
-                src="../assets/img/common/banner2.jpg"
-                alt="バナー ビルメン転職ナビ 電験転職ナビ 施工管理転職ナビ"
-                width="140px"
+                src="../assets/img/common/banner1.jpg"
+                alt="バナー 東京商工会議所"
+                width="200px"
               />
             </a>
+            <a href="http://www.nerima-sanren.jp/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner5.jpg"
+                alt="バナー 練馬産業連合会"
+                width="200px"
+              />
+            </a>
+            <!-- <a href="https://context-japan.co.jp/ryokin/" target="_blank">
+              <g-image
+                src="../assets/img/common/banner3.jpg"
+                alt="料金相場.jp"
+                width="200px"
+                class="banner3"
+              />
+            </a> -->
           </div>
           <div class="banner-row banner-row--bottom">
             <a href="https://www.mlit.go.jp/" target="_blank">
@@ -430,22 +421,17 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-
-  .banner-row--bottom {
-    margin-top: 10px;
     @media print, screen and(max-width: 1000px) {
       flex-direction: column;
     }
   }
 
-  .line-link {
-    margin-top: 20px;
+  .banner-row--bottom {
+    margin-top: 10px;
   }
 
-  .column {
-    display: flex;
-    flex-direction: column;
+  .line-link {
+    margin-top: 20px;
   }
 
   .banner3 {
