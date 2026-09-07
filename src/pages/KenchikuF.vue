@@ -547,8 +547,6 @@
             <!-- <Campaign day="2" date="7/22(月)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountKenchikuF title="🎓 GO!資格 合格応援制度 START！" />
-
               <SupportSecondKenchiku title="ミライを創ろう" />
               <SupportKenchikuF title="＼＼建設業を応援しよう／／" />
               <MerumagaKenchikuF />
@@ -753,7 +751,6 @@
   import { documentToHtmlString } from "../../node_modules/@contentful/rich-text-html-renderer";
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Discount from "../components/licensePage/Discount.vue";
-  import DiscountKenchikuF from "../components/licensePage/DiscountKenchikuF.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import SetCourse2 from "../components/licensePage/SetCourse2.vue";
   import QualityKenchikuF from "../components/licensePage/QualityKenchikuF.vue";
@@ -819,7 +816,6 @@
       SupportSecondKenchiku,
       LectureKenchikuF,
       Discount,
-      DiscountKenchikuF,
       CheerKenchikuF,
       // News,
       Info,

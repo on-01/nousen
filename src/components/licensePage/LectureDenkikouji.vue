@@ -529,9 +529,9 @@
   }
 
   .counterplan-img.-denkikouji-exam {
-    width: 93%;
+    width: 60%;
     @media print, screen and (max-width: 1000px) {
-      width: 93%;
+      width: 60%;
     }
   }
 
