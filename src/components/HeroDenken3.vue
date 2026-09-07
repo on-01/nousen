@@ -119,10 +119,10 @@
     background-color: #fff;
     border-radius: 8px;
     color: #000;
-    padding: 0.8em 65px;
+    padding: 0.8em 32.5px;
     border: 6px solid #1262b2;
     @media print, screen and (max-width: 1000px) {
-      padding: 1em;
+      padding: 1em 0.5em;
     }
     .title {
       margin: 0;
@@ -185,7 +185,7 @@
     }
     .title-wrapper {
       top: 60%;
-      padding: 1rem 62px;
+      padding: 1rem 31px;
     }
   }
 
