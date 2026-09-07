@@ -130,7 +130,7 @@
             rel="noopener noreferrer"
           >
             <img
-              src="../../assets/img/front/career5.jpg"
+              src="../../assets/img/license_page/denken3/denken3_mystyle_left.webp"
               alt="転職支援サービスMyStyle転職の広告バナー"
             />
           </a>
@@ -141,7 +141,7 @@
             rel="noopener noreferrer"
           >
             <img
-              src="../../assets/img/front/career6.jpg"
+              src="../../assets/img/license_page/denken3/denken3_mystyle_right.webp"
               alt="転職支援サービスMyStyle転職のロゴ画像"
             />
           </a>
