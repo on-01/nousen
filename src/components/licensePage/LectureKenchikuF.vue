@@ -345,7 +345,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1-5.webp"
+            src="../../assets/img/license_page/doboku_s/niji_kakomon.webp"
             alt="1級建築施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">

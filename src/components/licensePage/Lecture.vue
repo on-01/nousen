@@ -553,7 +553,7 @@
   }
 
   .counterplan-img.-second {
-    width: 46%;
+    width: 93%;
   }
 
   .counterplan-img.-third {
