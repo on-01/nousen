@@ -207,7 +207,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
+            src="../../assets/img/license_page/doboku_s/ichiji_kakomon.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
