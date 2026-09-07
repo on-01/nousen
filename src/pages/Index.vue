@@ -1278,7 +1278,7 @@ query {
     },
     metaInfo() {
       return {
-        titleTemplate: `能セン｜合格への近道 受験対策講習会`,
+        titleTemplate: `資格合格支援スクール【能セン】｜建設・電気・設備系の資格講座`,
         meta: [
           {
             name: "description",
@@ -1289,7 +1289,7 @@ query {
             key: `og:title`,
             property: `og:title`,
             // content: `TOP | ${this.$static.metadata.siteName}`,
-            content: `能セン｜合格への近道 受験対策講習会`,
+            content: `資格合格支援スクール【能セン】｜建設・電気・設備系の資格講座`,
           },
           {
             key: `og:url`,
