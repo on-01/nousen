@@ -28,7 +28,7 @@
       <p class="sub-title">
         <!-- <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
         | -->
-        <a>通学講座</a>
+        <a href="https://denkisekou.nouryoku.com/">通学講座</a>
         |
         <a>オンライン講座</a>
         <!-- |
