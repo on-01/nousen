@@ -220,7 +220,7 @@
           <p class="counterplan-head">一次検定 提出課題</p>
           <img
             class="counterplan-img -denkikouji-exam"
-            src="../../assets/img/license_page/denkikouji_s/counterplan-img.webp"
+            src="../../assets/img/license_page/denkikouji_s/ichiji_teishutsu_kadai.webp"
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">

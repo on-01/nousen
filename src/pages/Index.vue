@@ -1369,6 +1369,7 @@ query {
     padding: 0 20px;
     @media print, screen and (max-width: 1000px) {
       font-size: 16px;
+      margin-top: 16px;
       margin-bottom: 10px;
     }
   }
