@@ -481,8 +481,6 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDobokuF title="🎓 GO!資格 合格応援制度 START！" />
-
               <SupportSecondDobokuF title="ミライを創ろう" />
               <SupportDobokuF title="＼＼建設業を応援しよう／／" />
               <MerumagaDobokuF />
@@ -705,7 +703,6 @@
   import ExamDoboku from "../components/licensePage/ExamDoboku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
   import SupportDobokuF from "../components/licensePage/SupportDobokuF.vue";
-  import DiscountDobokuF from "../components/licensePage/DiscountDobokuF.vue";
   import ExamSecond from "../components/licensePage/ExamSecond.vue";
   import FollowUpDoboku from "../components/licensePage/FollowUpDoboku.vue";
   import TestOverviewDoboku from "../components/licensePage/TestOverviewDoboku.vue";
@@ -780,7 +777,6 @@
       ContactInfo,
       Fsc,
       Discount,
-      DiscountDobokuF,
       SetCourse2,
       WorkshopDobokuF,
       ScheduleDoboku,

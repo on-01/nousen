@@ -24,7 +24,7 @@
         <div class="test-img">
           <img
             class="flex-img -right"
-            src="../../assets/img/license_page/denken3/denken3_study_1.jpg"
+            src="../../assets/img/license_page/denken3/denken3_study_new.webp"
             alt=""
           />
         </div>

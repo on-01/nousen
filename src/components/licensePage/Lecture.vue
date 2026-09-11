@@ -207,7 +207,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
+            src="../../assets/img/license_page/doboku_s/ichiji_kakomon.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
@@ -224,7 +224,7 @@
           <p class="counterplan-head">一次検定 提出課題</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img2.jpg"
+            src="../../assets/img/license_page/doboku_s/ichiji_teishutsu_kadai.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
@@ -248,7 +248,7 @@
           <p class="counterplan-head">一次検定 予想模擬試験</p>
           <img
             class="counterplan-img -third"
-            src="../../assets/img/license_page/doboku_s/counterplan-img3-2kyu.webp"
+            src="../../assets/img/license_page/doboku_s/ichiji_mogi_2kyu.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
@@ -277,7 +277,7 @@
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img4.webp"
+            src="../../assets/img/license_page/doboku_s/keikenkijutsu_tensaku.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
@@ -320,7 +320,7 @@
           <p class="counterplan-head">過去問7年分</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1-7.webp"
+            src="../../assets/img/license_page/doboku_s/doboku_niji_kakomon7.webp"
             alt="2級土木施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
@@ -553,7 +553,7 @@
   }
 
   .counterplan-img.-second {
-    width: 46%;
+    width: 93%;
   }
 
   .counterplan-img.-third {

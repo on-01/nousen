@@ -339,8 +339,6 @@
             <!-- <CampaignDoboku day="2" date="7/15(祝)" /> -->
 
             <div class="bg-white_type2">
-              <DiscountDenkikouji title="🎓 GO!資格 合格応援制度 START！" />
-
               <SupportSecondDenkikouji title="ミライを創ろう" />
               <SupportDenkikouji title="＼＼建設業を応援しよう／／" />
               <MerumagaDenkikouji />
@@ -448,7 +446,6 @@
   import QualityDenkikouji from "../components/licensePage/QualityDenkikouji.vue";
   import Linelink from "../components/licensePage/Linelink.vue";
   import WorkshopDenkikouji from "../components/licensePage/WorkshopDenkikouji.vue";
-  import DiscountDenkikouji from "../components/licensePage/DiscountDenkikouji.vue";
   import SupportSecondDenkikouji from "../components/licensePage/SupportSecondDenkikouji.vue";
   import SupportDenkikouji from "../components/licensePage/SupportDenkikouji.vue";
   import MerumagaDenkikouji from "../components/licensePage/MerumagaDenkikouji.vue";
@@ -513,7 +510,6 @@
       QualityDenkikouji,
       Linelink,
       WorkshopDenkikouji,
-      DiscountDenkikouji,
       SupportSecondDenkikouji,
       SupportDenkikouji,
       MerumagaDenkikouji,

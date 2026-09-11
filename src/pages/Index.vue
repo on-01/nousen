@@ -27,8 +27,8 @@
     <div class="home">
       <section class="section01 hero-inner">
         <div class="top-mv">
-          <h1 class="visually-hidden">
-            能セン合格への道｜勉強の時間がない資格取得を目指すあなたを、合格へ
+          <h1 class="top-mv-title">
+            建設・電気・設備系の資格講座｜資格合格支援スクール 能セン
           </h1>
           <img
             src="../assets/img/front/section01/mv_1.webp"
@@ -1278,7 +1278,7 @@ query {
     },
     metaInfo() {
       return {
-        titleTemplate: `能セン｜合格への近道 受験対策講習会`,
+        titleTemplate: `資格合格支援スクール【能セン】｜建設・電気・設備系の資格講座`,
         meta: [
           {
             name: "description",
@@ -1289,7 +1289,7 @@ query {
             key: `og:title`,
             property: `og:title`,
             // content: `TOP | ${this.$static.metadata.siteName}`,
-            content: `能セン｜合格への近道 受験対策講習会`,
+            content: `資格合格支援スクール【能セン】｜建設・電気・設備系の資格講座`,
           },
           {
             key: `og:url`,
@@ -1358,16 +1358,20 @@ query {
 </script>
 
 <style lang="scss" scoped>
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
+  .top-mv-title {
+    text-align: center;
+    font-family: "メイリオ", sans-serif;
+    font-weight: 700;
+    color: #1262b2;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 0 auto 16px;
+    padding: 0 20px;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 10px;
+    }
   }
   .top-mv {
     img {

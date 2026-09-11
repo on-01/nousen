@@ -497,6 +497,9 @@
         ・安定したインターネット回線（10Mbps以上推奨）
       </p>
     </div>
+
+    <DiscountDobokuF title="🎓 GO!資格 合格応援制度 START！" />
+
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <p class="exam-link-text">✅ 建設業の資格を短期間で確実に合格へ</p>
@@ -998,9 +1001,11 @@
 
 <script>
   import ApplicationButtons from "@/components/licensePage/ApplicationButtons.vue";
+  import DiscountDobokuF from "@/components/licensePage/DiscountDobokuF.vue";
   export default {
     components: {
       ApplicationButtons,
+      DiscountDobokuF,
     },
   };
 </script>

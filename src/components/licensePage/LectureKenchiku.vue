@@ -259,7 +259,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
+            src="../../assets/img/license_page/doboku_s/ichiji_kakomon.webp"
             alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">過去問５年分を進呈（第一次検定）</p>
@@ -276,7 +276,7 @@
           <p class="counterplan-head">一次検定 予想模擬試験</p>
           <img
             class="counterplan-img -third"
-            src="../../assets/img/license_page/kenchiku_s/counterplan-img3-2kyu.webp"
+            src="../../assets/img/license_page/kenchiku_s/ichiji_mogi_2kyu.webp"
             alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
           <p class="counterplan-text -yellow">
@@ -305,7 +305,7 @@
           <p class="counterplan-head">最短１日！ 施工経験記述の通信添削</p>
           <img
             class="counterplan-img -first"
-            src="../../assets/img/license_page/doboku_s/counterplan-img4.webp"
+            src="../../assets/img/license_page/doboku_s/keikenkijutsu_tensaku.webp"
             alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">
@@ -348,7 +348,7 @@
           <p class="counterplan-head">過去問5年分</p>
           <img
             class="counterplan-img -second"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1-5.webp"
+            src="../../assets/img/license_page/doboku_s/niji_kakomon.webp"
             alt="2級建築施工管理技士 講習会 通信講座 web講座"
           />
           <div class="counterplan-text-wrap">

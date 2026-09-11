@@ -67,7 +67,7 @@
                     <span style='font-weight: 700;'>能センでは、仕事と両立しながら効率よく合格を目指せる、<br>
                       通学・オンライン・通信講座をご用意しています。</span>"
               :imagePath="
-                require('../assets/img/license_page/denken3/denken3_explain.jpg')
+                require('../assets/img/license_page/denken3/denken3_explain_new.webp')
               "
               altText="変電設備の前に立つ電気技術者のイメージ"
             />
@@ -79,7 +79,7 @@
                     <span style='font-weight: 700;'>能センでは、仕事と両立しながら効率よく合格を目指せる、<br>
                       通学・オンライン・通信講座をご用意しています。</span>"
               :imagePath="
-                require('../assets/img/license_page/denken3/denken3_explain.jpg')
+                require('../assets/img/license_page/denken3/denken3_explain_new.webp')
               "
               altText="変電設備の前に立つ電気技術者のイメージ"
             />
