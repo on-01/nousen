@@ -142,6 +142,7 @@
               "
             />
             <WorkshopDenkenTugaku />
+            <Discount title="🎓 GO!資格 合格応援制度 START！" />
             <NewSutudy />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
@@ -399,8 +400,6 @@
 
               <!-- <CampaignDenken3 date="３月１５日（金）" /> -->
 
-              <Discount title="🎓 GO!資格 合格応援制度 START！" />
-
               <!-- <Fsc title="持続可能なミライへ" /> -->
             </div>
 
@@ -466,7 +465,9 @@
             />
 
             <WorkshopDenkenOnline />
-            <Discount title="🎓 GO!資格 合格応援制度 START！" />
+            <div class="bg-white">
+              <Discount title="🎓 GO!資格 合格応援制度 START！" />
+            </div>
             <NewSutudyOnline />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
