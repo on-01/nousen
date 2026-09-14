@@ -142,7 +142,6 @@
               "
             />
             <WorkshopDenkenTugaku />
-            <Discount title="🎓 GO!資格 合格応援制度 START！" />
             <NewSutudy />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
@@ -465,9 +464,6 @@
             />
 
             <WorkshopDenkenOnline />
-            <div class="bg-white">
-              <Discount title="🎓 GO!資格 合格応援制度 START！" />
-            </div>
             <NewSutudyOnline />
             <NewPvMovie
               :movie="$static.online.mediaYoutube"
@@ -985,8 +981,6 @@
 
               <!-- <CampaignDenken3 date="３月１５日（金）" /> -->
 
-              <Discount title="🎓 GO!資格 合格応援制度 START！" />
-
               <!-- <Fsc title="持続可能なミライへ" /> -->
             </div>
 
@@ -1121,7 +1115,6 @@
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Exam from "../components/licensePage/Exam.vue";
   import SetCourse from "../components/licensePage/SetCourse.vue";
-  import Discount from "../components/licensePage/Discount.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
   import RecommendLink from "../components/licensePage/RecommendLink.vue";
@@ -1213,7 +1206,6 @@
       ContactInfo,
       Exam,
       SetCourse,
-      Discount,
       Blog,
       Fsc,
       RecommendLink,

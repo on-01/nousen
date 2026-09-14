@@ -183,6 +183,8 @@
       </div>
     </div>
 
+    <Discount title="🎓 GO!資格 合格応援制度 START！" />
+
     <!-- <p class="workshop-bottom -yellow">
       <span>当日欠席しても安心！オンライン講座に無料振替OK！</span>
     </p>
@@ -300,12 +302,14 @@
 <script>
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+  import Discount from "@/components/licensePage/Discount.vue";
 
   export default {
     name: "WorkshopDenkenTugaku",
     components: {
       IconBase,
       IconDoubleArrowRight,
+      Discount,
     },
   };
 </script>

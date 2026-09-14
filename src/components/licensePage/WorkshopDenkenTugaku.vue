@@ -236,6 +236,8 @@
       皆さまの投稿は、これから学ぶ方々への励みにもなります！
     </p>
 
+    <Discount title="🎓 GO!資格 合格応援制度 START！" />
+
     <div class="bg-white_type2">
       <div class="exam-link-wrapper">
         <p class="exam-link-text">
@@ -266,12 +268,14 @@
 <script>
   import IconBase from "@/components/IconBase.vue";
   import IconDoubleArrowRight from "@/components/icons/IconDoubleArrowRight.vue";
+  import Discount from "@/components/licensePage/Discount.vue";
 
   export default {
     name: "WorkshopDenkenTugaku",
     components: {
       IconBase,
       IconDoubleArrowRight,
+      Discount,
     },
   };
 </script>
