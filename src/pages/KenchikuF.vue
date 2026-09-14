@@ -779,6 +779,13 @@
       return {
         titleTemplate:
           "1級建築施工管理技士 受験対策講習会｜能セン-合格への近道-",
+        link: [
+          {
+            key: `canonical`,
+            rel: `canonical`,
+            href: `${this.$static.metadata.siteUrl}/kenchiku-f/`,
+          },
+        ],
         meta: [
           {
             name: "description",
@@ -796,7 +803,7 @@
           {
             key: `og:url`,
             property: `og:url`,
-            content: `${this.$static.metadata.siteUrl}/kenchiku-s`,
+            content: `${this.$static.metadata.siteUrl}/kenchiku-f`,
           },
         ],
       };

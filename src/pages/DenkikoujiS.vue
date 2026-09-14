@@ -472,6 +472,13 @@
     metaInfo() {
       return {
         titleTemplate: "2級電気工事施工管理技士 受験対策講習会｜能セン",
+        link: [
+          {
+            key: `canonical`,
+            rel: `canonical`,
+            href: `${this.$static.metadata.siteUrl}/denkikouji-s/`,
+          },
+        ],
         meta: [
           {
             name: "description",

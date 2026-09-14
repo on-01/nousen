@@ -1149,6 +1149,13 @@
     metaInfo() {
       return {
         titleTemplate: "電験三種（第三種電気主任技術者）受験対策講習会｜能セン",
+        link: [
+          {
+            key: `canonical`,
+            rel: `canonical`,
+            href: `${this.$static.metadata.siteUrl}/denken3/`,
+          },
+        ],
         meta: [
           {
             name: "description",

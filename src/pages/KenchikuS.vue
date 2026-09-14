@@ -779,6 +779,13 @@
       return {
         titleTemplate:
           "2級建築施工管理技士 受験対策講習会｜能セン-合格への近道-",
+        link: [
+          {
+            key: `canonical`,
+            rel: `canonical`,
+            href: `${this.$static.metadata.siteUrl}/kenchiku-s/`,
+          },
+        ],
         meta: [
           {
             name: "description",
