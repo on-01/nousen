@@ -191,6 +191,11 @@ query {
         adtrack_cv.cv('adm_adtr_xuid', 'https://ad-track.jp/ad', '_buyer=31190&_article=26664&_buid=' + orderNumber + '&key1=');
       };
       document.body.appendChild(adtrackCvScript);
+
+      // Tokubell Conversion Tag
+      if (typeof window.__trackConversion === "function") {
+        window.__trackConversion();
+      }
     },
   };
 </script>
