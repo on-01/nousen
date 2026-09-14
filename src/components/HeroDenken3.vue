@@ -203,7 +203,7 @@
     box-sizing: border-box;
     white-space: nowrap;
     flex: 0 1 auto;
-    padding: 4px 26px;
+    padding: 0px 26px;
     border: 2px solid #1262b2;
     border-radius: 6px;
     background-color: #fff;
@@ -215,15 +215,15 @@
     transition: background-color 0.2s, color 0.2s;
     @media print, screen and (max-width: 1000px) {
       font-size: 12px;
-      padding: 6px 10px;
+      padding: 0px 10px;
     }
     @media print, screen and (max-width: 560px) {
       font-size: 9px;
-      padding: 4px 6px;
+      padding: 0px 6px;
     }
     @media print, screen and (max-width: 370px) {
       font-size: 8px;
-      padding: 3px 5px;
+      padding: 0px 5px;
     }
     &:hover {
       background-color: #1262b2;
@@ -252,6 +252,7 @@
     .title-wrapper {
       top: 60%;
       padding: 1rem 31px;
+      margin-top: 20px;
     }
   }
 
