@@ -725,13 +725,6 @@
       return {
         titleTemplate:
           "1級土木施工管理技士 受験対策講習会｜能セン-合格への近道-",
-        link: [
-          {
-            key: `canonical`,
-            rel: `canonical`,
-            href: `${this.$static.metadata.siteUrl}/doboku-f/`,
-          },
-        ],
         meta: [
           {
             name: "description",
