@@ -59,13 +59,18 @@ query {
     //   };
     // },
     metaInfo() {
+      const path = this.$route && this.$route.path ? this.$route.path : "";
+      const canonicalHref =
+        path && path !== "/"
+          ? `${this.$static.metadata.siteUrl}${path}`
+          : this.$static.metadata.siteUrl;
       return {
         htmlAttrs: { lang: 'ja' },
         link: [
           {
             key: `canonical`,
             rel: `canonical`,
-            href: this.$static.metadata.siteUrl,
+            href: canonicalHref,
           },
           {
             rel: "stylesheet",

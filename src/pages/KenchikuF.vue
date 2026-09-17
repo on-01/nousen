@@ -796,7 +796,7 @@
           {
             key: `og:url`,
             property: `og:url`,
-            content: `${this.$static.metadata.siteUrl}/kenchiku-s`,
+            content: `${this.$static.metadata.siteUrl}/kenchiku-f`,
           },
         ],
       };

@@ -91,6 +91,9 @@
   .time-wrapper {
     background-color: #1262b2;
     padding: 10px;
+    @media print, screen and (max-width: 980px) {
+      margin-top: 42px;
+    }
   }
 
   .time-heading {

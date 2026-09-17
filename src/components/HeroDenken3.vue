@@ -24,17 +24,30 @@
         <br />
         確かな成果を、確実に
       </p>
-      <p class="sub-title -link">
-        <a href="https://denken.nouryoku.com/kiso-kouza">基礎講座</a>
-        |
-        <a href="https://denken.nouryoku.com/denken3-tuugaku">通学講座</a>
-        |
-        <a href="https://taiken.nouryoku.com/">無料体験講座</a>
-        <br />
-        <a href="https://denken.nouryoku.com/online">オンライン講座</a>
-        |
-        <a href="https://t.kouza.nouryoku.com/">通信講座</a>
-      </p>
+      <div class="link-buttons">
+        <div class="link-row">
+          <a class="link-button" href="https://denken.nouryoku.com/kiso-kouza">
+            基礎講座<span class="arrow">＞</span>
+          </a>
+          <a
+            class="link-button"
+            href="https://denken.nouryoku.com/denken3-tuugaku"
+          >
+            通学講座<span class="arrow">＞</span>
+          </a>
+          <a class="link-button" href="https://taiken.nouryoku.com/">
+            無料体験講座<span class="arrow">＞</span>
+          </a>
+        </div>
+        <div class="link-row">
+          <a class="link-button" href="https://denken.nouryoku.com/online">
+            オンライン講座<span class="arrow">＞</span>
+          </a>
+          <a class="link-button" href="https://t.kouza.nouryoku.com/">
+            通信講座<span class="arrow">＞</span>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -154,18 +167,71 @@
         color: red;
       }
     }
-    .sub-title.-link {
-      font-size: 18px;
-      @media print, screen and (max-width: 1000px) {
-        font-size: 15px;
-      }
-      @media print, screen and (max-width: 560px) {
-        font-size: 12px;
-      }
-    }
   }
   .sub-title a {
     text-decoration-line: underline;
+  }
+  .link-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    white-space: normal;
+    @media print, screen and (max-width: 1000px) {
+      gap: 6px;
+      margin-top: 10px;
+    }
+  }
+  .link-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    @media print, screen and (max-width: 1000px) {
+      gap: 6px;
+    }
+    @media print, screen and (max-width: 560px) {
+      gap: 3px;
+    }
+  }
+  .link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    flex: 0 1 auto;
+    padding: 0px 26px;
+    border: 2px solid #1262b2;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #1262b2;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "メイリオ", sans-serif;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s;
+    @media print, screen and (max-width: 1000px) {
+      font-size: 12px;
+      padding: 0px 10px;
+    }
+    @media print, screen and (max-width: 560px) {
+      font-size: 9px;
+      padding: 0px 6px;
+    }
+    @media print, screen and (max-width: 370px) {
+      font-size: 8px;
+      padding: 0px 5px;
+    }
+    &:hover {
+      background-color: #1262b2;
+      color: #fff;
+    }
+  }
+  .link-button .arrow {
+    font-weight: 700;
   }
   .icon {
     width: 80px;
@@ -186,6 +252,7 @@
     .title-wrapper {
       top: 60%;
       padding: 1rem 31px;
+      margin-top: 20px;
     }
   }
 
