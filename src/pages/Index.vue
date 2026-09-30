@@ -874,7 +874,9 @@
                 <p class="careerSupport-title -small">
                   ビルメン・電験・施工管理技士の転職なら
                   <br />
-                  【ビルメン転職ナビ】【ビルメン転職ナビエージェント】
+                  【ビルメン転職ナビ】
+                  <br />
+                  【ビルメン転職ナビエージェント】
                 </p>
                 <p class="careerSupport-text">
                   内藤一水社では、ビルメンテナンス業界を中心に、電験・施工管理など、建設・設備業界に特化した以下2つのサイトを運営しています。
@@ -2251,10 +2253,15 @@ query {
   }
 
   .careerSupport-flex.-birumen {
+    flex-direction: row-reverse;
     margin-top: 64px;
+    @media print, screen and (max-width: 1000px) {
+      flex-direction: column-reverse;
+    }
 
     .careerSupport-img {
       max-width: 450px;
+      margin: 0 auto;
       @media print, screen and (max-width: 1000px) {
         width: 100%;
       }
@@ -2309,8 +2316,7 @@ query {
     max-width: 400px;
   }
   .careerSupport-title.-small {
-    font-size: 18px;
-    max-width: 480px;
+    font-size: 20px;
   }
   .careerSupport-text {
     margin: 20px auto 0;
