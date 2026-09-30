@@ -835,31 +835,64 @@
               <br />
               ・独自のワークシートで自己理解を深め、理想のキャリア像を明確に。自信を持って強みを伝えられるようサポートします
             </p>
-            <div class="birumenBanner">
-              <a
-                href="https://www.birumen-navi.com/"
-                target="_blank"
-                @click.prevent="openExternal('https://www.birumen-navi.com/')"
-                rel="noopener noreferrer"
-              >
+            <div class="careerSupport-flex -birumen">
+              <figure class="careerSupport-img">
                 <img
-                  src="../assets/img/front/career8.png"
-                  alt="ビルメン転職ナビエージェント"
+                  src="../assets/img/front/career10.webp"
+                  alt="ビルメン転職ナビエージェントとビルメン転職ナビ、あなたに合うのはどっち？"
                 />
-              </a>
-              <a
-                href="https://www.birumenjob-navi.com/"
-                target="_blank"
-                @click.prevent="
-                  openExternal('https://www.birumenjob-navi.com/')
-                "
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="../assets/img/front/career9.webp"
-                  alt="ビルメン転職ナビ"
-                />
-              </a>
+                <div class="birumenBanner">
+                  <a
+                    href="https://www.birumen-navi.com/"
+                    target="_blank"
+                    @click.prevent="
+                      openExternal('https://www.birumen-navi.com/')
+                    "
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="../assets/img/front/career8.png"
+                      alt="ビルメン転職ナビエージェント"
+                    />
+                  </a>
+                  <a
+                    href="https://www.birumenjob-navi.com/"
+                    target="_blank"
+                    @click.prevent="
+                      openExternal('https://www.birumenjob-navi.com/')
+                    "
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="../assets/img/front/career9.webp"
+                      alt="ビルメン転職ナビ"
+                    />
+                  </a>
+                </div>
+              </figure>
+              <div class="careerSupport-wrap">
+                <p class="careerSupport-title -small">
+                  ビルメン・電験・施工管理技士の転職なら
+                  <br />
+                  【ビルメン転職ナビ】【ビルメン転職ナビエージェント】
+                </p>
+                <p class="careerSupport-text">
+                  内藤一水社では、ビルメンテナンス業界を中心に、電験・施工管理など、建設・設備業界に特化した以下2つのサイトを運営しています。
+                </p>
+                <p class="careerSupport-text">
+                  <span>【ビルメン転職ナビ】</span>
+                  <br />
+                  ビル設備管理、清掃、電気主任技術者、電気工事士、施工管理などの求人を掲載。希望の求人を自分で探して、企業へ直接応募できます。
+                </p>
+                <p class="careerSupport-text">
+                  <span>【ビルメン転職ナビエージェント】</span>
+                  <br />
+                  ビルメンテナンスはもちろん、電気主任技術者・電気工事士・施工管理などの転職をサポート。業界特化の転職コンサルタントが求人紹介から応募書類作成、面接、入社までをサポート。
+                </p>
+                <p class="careerSupport-text">
+                  自分で求人を探したい方は「ビルメン転職ナビ」、転職のプロに相談したい方は「ビルメン転職ナビエージェント」をご利用ください。
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -2217,27 +2250,34 @@ query {
     }
   }
 
+  .careerSupport-flex.-birumen {
+    margin-top: 64px;
+
+    .careerSupport-img {
+      max-width: 450px;
+      @media print, screen and (max-width: 1000px) {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
   .birumenBanner {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    margin-top: 64px;
+    justify-content: space-between;
+    column-gap: 16px;
+    margin-top: 20px;
     @media print, screen and (max-width: 1000px) {
-      flex-direction: column;
-      row-gap: 20px;
+      justify-content: center;
     }
 
     a {
       display: block;
-    }
-
-    img {
-      width: 300px;
-      max-width: 100%;
-      @media print, screen and (max-width: 1000px) {
-        width: 260px;
-      }
+      width: 50%;
+      max-width: 220px;
     }
   }
 
@@ -2267,6 +2307,10 @@ query {
     font-weight: 700;
     text-align: center;
     max-width: 400px;
+  }
+  .careerSupport-title.-small {
+    font-size: 18px;
+    max-width: 480px;
   }
   .careerSupport-text {
     margin: 20px auto 0;
