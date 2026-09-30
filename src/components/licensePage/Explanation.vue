@@ -1,7 +1,7 @@
 <template>
   <div class="explanation">
     <div class="explanation-inner">
-      <p class="explanation-title">{{ title }}</p>
+      <component :is="titleTag" class="explanation-title">{{ title }}</component>
       <p class="explanation-line"></p>
       <div class="explanation-flex">
         <figure class="explanation-image">
@@ -17,6 +17,10 @@
   export default {
     props: {
       title: String,
+      titleTag: {
+        type: String,
+        default: "p",
+      },
       text: String,
       imagePath: String,
       altText: String,

@@ -133,15 +133,15 @@
           試験範囲や合格基準は同じため、自分が解きやすい方式を選びましょう。
         </p>
       </div>
-      <p class="test-heading">受験資格・試験地</p>
+      <h2 class="test-heading">受験資格・試験地</h2>
       <div class="test-wrap -white">
-        <p class="test-index">受験資格</p>
+        <h3 class="test-index">受験資格</h3>
         <p class="test-text">
           受験資格はございません。年齢、学歴などの制限はなく、どなたでも受験できます。
           <br />
           受験資格がないので誰でもチャレンジできますが、電気・電力に関する専門的な知識を身につけなければいけないので、難易度は高めの試験と言えます。
         </p>
-        <p class="test-index -mt20">試験地（試験場所）</p>
+        <h3 class="test-index -mt20">試験地（試験場所）</h3>
         <p class="test-text">
           筆記試験：全国47都道府県で実施（試験地は選べるが、試験会場は選べません）
           <br />
@@ -414,9 +414,9 @@
           </tr>
         </table>
       </div>
-      <p class="test-heading">合格基準・難易度</p>
+      <h2 class="test-heading">合格基準・難易度</h2>
       <div class="test-wrap -white">
-        <p class="test-index">合格基準</p>
+        <h3 class="test-index">合格基準</h3>
         <p class="test-text">
           <span>各科目ともに原則６０点（※１）</span>
           <br />
@@ -436,7 +436,7 @@
             一般財団法人電気技術者試験センター　合格者受験番号検索
           </a>
         </p>
-        <p class="test-index -mt20">難易度</p>
+        <h3 class="test-index -mt20">難易度</h3>
         <p class="test-text">
           <span>電験三種は難易度の高い国家試験です。令和7年度の4科目合格率は、上期12.9％、下期13.1％でした。近年の合格率は試験回によって変動しています。</span>
           <br />

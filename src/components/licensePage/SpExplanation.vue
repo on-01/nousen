@@ -1,7 +1,7 @@
 <template>
     <div class="sp_explanation">
         <div class="sp_explanation-inner">
-        <p class="sp_explanation-title">{{ title }}</p>
+        <h2 class="sp_explanation-title">{{ title }}</h2>
         <p class="sp_explanation-line"></p>
         <figure class="sp_explanation-image">
             <g-image :src="imagePath" :alt="altText" />

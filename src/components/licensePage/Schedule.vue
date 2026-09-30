@@ -1,6 +1,6 @@
 <template>
   <div class="schedule">
-    <p class="schedule-title">{{ title }}</p>
+    <h2 class="schedule-title">{{ title }}</h2>
     <div class="schedule-inner">
       <!-- <div class="schedule-line"></div> -->
       <!-- <p class="schedule-tableTitle">
