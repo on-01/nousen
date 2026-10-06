@@ -1633,7 +1633,6 @@
     background-color: #ebf7ff;
     width: 100%;
     padding: 40px 0;
-    margin-bottom: 60px;
 
     @media print, screen and (max-width: 1170px) {
       margin-bottom: 20px;
