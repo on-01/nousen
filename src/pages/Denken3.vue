@@ -9,7 +9,7 @@
               require('../assets/img/license_page/denken3/denken3_hero.jpg')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和8年度上期/令和8年度下期"
+            headTitle="令和8年度下期/令和9年度上期"
             title="第三種電気主任技術者<br>受験対策講座・試験情報"
             :icon="require('../assets/img/icon/qualification/denken.svg')"
           />
@@ -1633,7 +1633,6 @@
     background-color: #ebf7ff;
     width: 100%;
     padding: 40px 0;
-    margin-bottom: 60px;
 
     @media print, screen and (max-width: 1170px) {
       margin-bottom: 20px;

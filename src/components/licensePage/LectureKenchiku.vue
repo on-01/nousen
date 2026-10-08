@@ -1,7 +1,7 @@
 <template>
   <div class="lecture">
     <div class="lecture-inner">
-      <div class="lecture-section">
+      <!-- <div class="lecture-section">
         <figure class="lecture-image">
           <g-image :src="imagePath" :alt="altText" />
         </figure>
@@ -11,7 +11,7 @@
           <p class="lecture-bold" v-html="bold"></p>
           <p class="lecture-text">{{ text }}</p>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="lecture-section -bottom">
         <div class="lecture-book-images">
           <figure class="lecture-book-image">
