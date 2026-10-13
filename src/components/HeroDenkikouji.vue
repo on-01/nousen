@@ -195,10 +195,10 @@
     white-space: nowrap;
     flex: 0 1 auto;
     padding: 0px 26px;
-    border: 2px solid #00a73c;
+    border: 2px solid #1262b2;
     border-radius: 6px;
     background-color: #fff;
-    color: #00a73c;
+    color: #1262b2;
     font-weight: 700;
     font-size: 20px;
     font-family: "メイリオ", sans-serif;
@@ -217,7 +217,7 @@
       padding: 0px 5px;
     }
     &:hover {
-      background-color: #00a73c;
+      background-color: #1262b2;
       color: #fff;
     }
   }
