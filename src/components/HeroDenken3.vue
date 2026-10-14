@@ -1,270 +1,67 @@
 <template>
-  <section :class="['hero', { 'no-pic': !backImgOver }]">
-    <!-- 使用方法
-    <Hero :backImgOver="require('../assets/hero.jpg')" :backImgUnder="require('../assets/hero_sp.jpg')" title="タイトル" />
-    -->
-    <div
-      v-if="backImgOver"
-      class="hero-inner over-display"
-      :style="{ 'background-image': `url(${backImgOver})` }"
-    ></div>
-    <div
-      v-if="backImgUnder"
-      class="hero-inner under-display"
-      :style="{ 'background-image': `url(${backImgUnder})` }"
-    ></div>
-    <div class="title-wrapper" :style="styles">
-      <div v-if="icon" class="icon">
-        <img :src="icon" alt="" />
-      </div>
-      <p v-if="headTitle" class="sub-title" v-html="headTitle"></p>
-      <h1 class="title" v-html="title"></h1>
-      <p class="title -orange">
-        合格まで伴走支援！
-        <br />
-        確かな成果を、確実に
-      </p>
-      <div class="link-buttons">
-        <div class="link-row">
-          <a class="link-button" href="https://denken.nouryoku.com/kiso-kouza">
-            基礎講座<span class="arrow">＞</span>
-          </a>
-          <a
-            class="link-button"
-            href="https://denken.nouryoku.com/denken3-tuugaku"
-          >
-            通学講座<span class="arrow">＞</span>
-          </a>
-          <a class="link-button" href="https://taiken.nouryoku.com/">
-            無料体験講座<span class="arrow">＞</span>
-          </a>
-        </div>
-        <div class="link-row">
-          <a class="link-button" href="https://denken.nouryoku.com/online">
-            オンライン講座<span class="arrow">＞</span>
-          </a>
-          <a class="link-button" href="https://t.kouza.nouryoku.com/">
-            通信講座<span class="arrow">＞</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <HeroLicense
+    :backImgOver="backImgOver"
+    :title="title"
+    :headTitle="headTitle"
+    :icon="icon"
+    color="#1262b2"
+    :buttons="buttons"
+  />
 </template>
 
 <script>
-  // @ is an alias to /src
+  import HeroLicense from "@/components/HeroLicense.vue";
 
   export default {
     name: "hero",
-    components: {},
+    components: { HeroLicense },
     props: {
       backImgOver: String,
-      backImgUnder: String,
+      backImgUnder: String, // SP は背景画像を使わないため未使用
       title: String,
-      // subTitle: String,
       headTitle: String,
-      color: {},
       icon: String,
     },
-    computed: {
-      // バインドするスタイルを生成
-      // styles () {
-      //   return {
-      //     '--color': this.color
-      //   }
-      // }
-      styles() {
-        return {
-          "background-color": this.color,
-        };
-      },
+    data() {
+      return {
+        // PC 表示時の行ごとのボタン（href なしはリンク未設定）
+        buttons: [
+          [
+            {
+              label: "基礎講座",
+              note: "はじめての方に",
+              href: "https://denken.nouryoku.com/kiso-kouza",
+              icon: "book",
+            },
+            {
+              label: "通学講座",
+              note: "対面でしっかり学ぶ",
+              href: "https://denken.nouryoku.com/denken3-tuugaku",
+              icon: "classroom",
+            },
+            {
+              label: "無料体験講座",
+              note: "まずは気軽に",
+              href: "https://taiken.nouryoku.com/",
+              icon: "trial",
+            },
+          ],
+          [
+            {
+              label: "オンライン講座",
+              note: "いつでも・どこでも学べる",
+              href: "https://denken.nouryoku.com/online",
+              icon: "online",
+            },
+            {
+              label: "通信講座",
+              note: "自分のペースで学べる",
+              href: "https://t.kouza.nouryoku.com/",
+              icon: "correspondence",
+            },
+          ],
+        ],
+      };
     },
   };
 </script>
-
-<style scoped lang="scss">
-  .hero {
-    position: relative;
-    &.no-pic {
-      //背景画像がない場合は余白つける
-      padding: 150px 0;
-      @media print, screen and (max-width: 980px) {
-        padding: 100px 0;
-      }
-    }
-  }
-  .hero-inner {
-    height: 470px;
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    @media print, screen and (max-width: 980px) {
-      height: 375px;
-    }
-    &.over-display {
-      @media print, screen and (max-width: 980px) {
-        display: none;
-      }
-    }
-    &.under-display {
-      @media print, screen and (min-width: 981px) {
-        display: none;
-      }
-    }
-  }
-  .-red {
-    color: red;
-    font-weight: 700;
-  }
-  .-orange {
-    color: #ff4500;
-    font-weight: 700;
-  }
-
-  .title-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    background-color: #fff;
-    border-radius: 8px;
-    color: #000;
-    padding: 0.8em 32.5px;
-    border: 6px solid #1262b2;
-    @media print, screen and (max-width: 1000px) {
-      padding: 1em 0.5em;
-    }
-    .title {
-      margin: 0;
-      letter-spacing: 0.3em;
-      font-size: 24px;
-      font-family: "メイリオ", sans-serif;
-      text-align: center;
-      @media print, screen and (max-width: 1000px) {
-        font-size: 15px;
-      }
-      @media print, screen and (max-width: 414px) {
-        white-space: normal;
-      }
-    }
-    .sub-title {
-      margin: 0;
-      letter-spacing: 0.1em;
-      font-size: 22px;
-      font-family: "メイリオ", sans-serif;
-      font-weight: 600;
-      text-align: center;
-      @media print, screen and (max-width: 1000px) {
-        font-size: 15px;
-      }
-      @media print, screen and (max-width: 560px) {
-        font-size: 12px;
-      }
-      ::v-deep span {
-        color: red;
-      }
-    }
-  }
-  .sub-title a {
-    text-decoration-line: underline;
-  }
-  .link-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 16px;
-    white-space: normal;
-    @media print, screen and (max-width: 1000px) {
-      gap: 6px;
-      margin-top: 10px;
-    }
-  }
-  .link-row {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 10px;
-    @media print, screen and (max-width: 1000px) {
-      gap: 6px;
-    }
-    @media print, screen and (max-width: 560px) {
-      gap: 3px;
-    }
-  }
-  .link-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    box-sizing: border-box;
-    white-space: nowrap;
-    flex: 0 1 auto;
-    padding: 0px 26px;
-    border: 2px solid #1262b2;
-    border-radius: 6px;
-    background-color: #fff;
-    color: #1262b2;
-    font-weight: 700;
-    font-size: 20px;
-    font-family: "メイリオ", sans-serif;
-    text-decoration: none;
-    transition: background-color 0.2s, color 0.2s;
-    @media print, screen and (max-width: 1000px) {
-      font-size: 12px;
-      padding: 0px 10px;
-    }
-    @media print, screen and (max-width: 560px) {
-      font-size: 9px;
-      padding: 0px 6px;
-    }
-    @media print, screen and (max-width: 370px) {
-      font-size: 8px;
-      padding: 0px 5px;
-    }
-    &:hover {
-      background-color: #1262b2;
-      color: #fff;
-    }
-  }
-  .link-button .arrow {
-    font-weight: 700;
-  }
-  .icon {
-    width: 80px;
-    position: absolute;
-    top: -40px;
-    left: -40px;
-    @media print, screen and (max-width: 414px) {
-      width: 40px;
-      top: -20px;
-      left: -20px;
-    }
-  }
-
-  @media print, screen and (max-width: 980px) {
-    .hero-inner {
-      height: 265px;
-    }
-    .title-wrapper {
-      top: 60%;
-      padding: 1rem 31px;
-      margin-top: 20px;
-    }
-  }
-
-  .-sp-none {
-    @media print, screen and (max-width: 767px) {
-      display: none;
-    }
-  }
-  .-pc-none {
-    display: none;
-    @media print, screen and (max-width: 767px) {
-      display: inline-block;
-    }
-  }
-</style>
