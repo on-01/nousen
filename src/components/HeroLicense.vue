@@ -166,7 +166,7 @@
     border: 5px solid;
     border-radius: 10px;
     color: #1a1a1a;
-    padding: 22px 40px 26px;
+    padding: 22px 4px 26px;
     text-align: center;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "游ゴシック体",
       YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
@@ -178,12 +178,12 @@
       transform: none;
       white-space: normal;
       max-width: 600px;
-      margin: 50px auto 30px;
+      margin: 50px auto 0;
       padding: 18px 14px 18px;
       border-width: 4px;
     }
     @media print, screen and (max-width: 640px) {
-      margin: 45px 12px 30px;
+      margin: 45px 12px 0;
       padding: 18px 8px;
     }
   }
