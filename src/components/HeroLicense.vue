@@ -53,10 +53,15 @@
               aria-hidden="true"
             >
               <template v-if="button.icon === 'classroom'">
-                <rect x="9" y="3" width="13" height="10" rx="1" fill="none" stroke-width="1.8" />
-                <path d="M12 7.5l3 2 4-4" fill="none" stroke-width="1.6" />
-                <circle cx="5" cy="7.5" r="2.4" />
-                <path d="M1.5 21v-6a3 3 0 0 1 3-3H8l3.6-2.4 1.1 1.6L9 14.6V21z" />
+                <rect x="9.5" y="1.5" width="13" height="9" rx="0.8" fill="none" stroke-width="1.6" />
+                <circle cx="4.5" cy="3.6" r="2.1" />
+                <path d="M1.5 13V8.6A2.4 2.4 0 0 1 3.9 6.2h2.4l3.5-2.3.9 1.4-3.5 2.6V13z" />
+                <circle cx="5" cy="16.6" r="1.9" />
+                <path d="M1.7 23a3.3 3.3 0 0 1 6.6 0z" />
+                <circle cx="12" cy="16.6" r="1.9" />
+                <path d="M8.7 23a3.3 3.3 0 0 1 6.6 0z" />
+                <circle cx="19" cy="16.6" r="1.9" />
+                <path d="M15.7 23a3.3 3.3 0 0 1 6.6 0z" />
               </template>
               <template v-else-if="button.icon === 'online'">
                 <rect x="4" y="4.5" width="16" height="11.5" rx="1" fill="none" stroke-width="1.8" />
@@ -130,6 +135,8 @@
 <style scoped lang="scss">
   .hero {
     position: relative;
+    // SP で背景画像が非表示になっても親（.header）の背景色が透けないように
+    background-color: #fff;
     &.no-pic {
       //背景画像がない場合は余白つける
       padding: 150px 0;
