@@ -58,6 +58,10 @@
 <style scoped lang="scss">
   .hero {
     position: relative;
+    &:not(.no-pic) {
+      // SP で背景画像が非表示になっても親（.header）の背景色が透けないように
+      background-color: #fff;
+    }
     &.no-pic {
       //背景画像がない場合は余白つける
       padding: 150px 0;
