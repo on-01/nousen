@@ -33,42 +33,42 @@
           <p class="workshop-text odd">基礎の基礎(1日/3.0時間)</p>
           <p class="workshop-text even">
             4/03(土) 9:30～12:30
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">基　礎　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             4/04(日) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">理　論　　(2日/15時間)</p>
           <p class="workshop-text even">
             4/17(土)・18(日) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力　　(2日/15時間)</p>
           <p class="workshop-text even">
             5/15(土)・16(日) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械　　(2日/15時間)</p>
           <p class="workshop-text even">
             6/12(土)・13(日) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
             7/03(土) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
@@ -81,7 +81,7 @@
           </p>
           <p class="workshop-text even">
             7/04(日) 9:30～17:00
-            <span class="workshop-text-bold">【準備中】</span>
+            <span class="workshop-text-red">【準備中】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
             <br />
