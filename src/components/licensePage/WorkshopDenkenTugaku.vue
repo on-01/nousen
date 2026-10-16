@@ -17,7 +17,7 @@
           圧倒的わかりやすさで合格を掴み取れ！
         </p>
         <p class="workshop-topImg-text-bottom">
-          令和8年度上期 筆記・CBT試験日対応の通学講座。
+          令和9年度上期 筆記・CBT試験日対応の通学講座。
           <br />
           受講生が業務の多忙さによる時間的制約の中で、最小限の努力で最大の結果（合格）を得るための通学講座をご提供いたします。
         </p>
@@ -32,43 +32,43 @@
         <div class="workshop-content">
           <p class="workshop-text odd">基礎の基礎(1日/3.0時間)</p>
           <p class="workshop-text even">
-            4月4日(土) 9:30～12:30
-            <span class="workshop-text-bold">【終了】</span>
+            4/03(土) 9:30～12:30
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">基　礎　　(1日/7.5時間)</p>
           <p class="workshop-text even">
-            4月5日(日) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            4/04(日) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">理　論　　(2日/15時間)</p>
           <p class="workshop-text even">
-            4/18(土)・19(日) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            4/17(土)・18(日) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">電　力　　(2日/15時間)</p>
           <p class="workshop-text even">
-            5/16(土)・17(日) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            5/15(土)・16(日) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">機　械　　(2日/15時間)</p>
           <p class="workshop-text even">
-            6/13(土)・14(日) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            6/12(土)・13(日) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
           <p class="workshop-text odd">法　規　　(1日/7.5時間)</p>
           <p class="workshop-text even">
-            7/11(土) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            7/03(土) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
@@ -80,8 +80,8 @@
             30分程度の解答解説講習
           </p>
           <p class="workshop-text even">
-            7/12(日) 9:30～17:00
-            <span class="workshop-text-bold">【終了】</span>
+            7/04(日) 9:30～17:00
+            <span class="workshop-text-bold">【準備中】</span>
             <br />
             理論 9:30～11:20　電力 11:30～13:00
             <br />
