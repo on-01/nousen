@@ -192,10 +192,16 @@
     position: absolute;
     top: -40px;
     left: -40px;
+    // SP は枠の左右余白が狭いので、画面外にはみ出さないよう内側に寄せる
+    @media print, screen and (max-width: 980px) {
+      width: 56px;
+      top: -28px;
+      left: -12px;
+    }
     @media print, screen and (max-width: 414px) {
       width: 40px;
       top: -20px;
-      left: -20px;
+      left: -10px;
     }
     img {
       display: block;
