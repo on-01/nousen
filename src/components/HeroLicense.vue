@@ -17,7 +17,7 @@
       :style="{ 'background-image': `url(${backImgOver})` }"
     ></div>
     <div class="title-wrapper" :style="{ 'border-color': color }">
-      <div v-if="icon" class="icon" :style="{ 'background-color': color }">
+      <div v-if="icon" class="icon">
         <img :src="icon" alt="" />
       </div>
       <p v-if="headTitle" class="head-title" v-html="headTitle"></p>
@@ -155,6 +155,10 @@
       display: none;
     }
   }
+  // 電験三種のみ背景画像を高めに表示
+  .denken3 .hero-inner {
+    height: 500px;
+  }
 
   .title-wrapper {
     position: absolute;
@@ -188,29 +192,29 @@
     }
   }
   .icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 10px;
+    width: 80px;
     position: absolute;
-    top: -28px;
-    left: -28px;
-    overflow: hidden;
+    top: -40px;
+    left: -40px;
+    // SP は枠の左右余白が狭いので、画面外にはみ出さないよう内側に寄せる
     @media print, screen and (max-width: 980px) {
-      width: 44px;
-      height: 44px;
-      border-radius: 8px;
-      top: -20px;
+      width: 56px;
+      top: -28px;
       left: -12px;
+    }
+    @media print, screen and (max-width: 414px) {
+      width: 40px;
+      top: -20px;
+      left: -10px;
     }
     img {
       display: block;
       width: 100%;
-      height: 100%;
     }
   }
   .head-title {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.05em;
     line-height: 1.5;
