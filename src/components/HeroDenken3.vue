@@ -1,5 +1,6 @@
 <template>
   <HeroLicense
+    class="denken3"
     :backImgOver="backImgOver"
     :title="title"
     :headTitle="headTitle"

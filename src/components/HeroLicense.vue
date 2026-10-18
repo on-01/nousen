@@ -155,6 +155,10 @@
       display: none;
     }
   }
+  // 電験三種のみ背景画像を高めに表示
+  .denken3 .hero-inner {
+    height: 500px;
+  }
 
   .title-wrapper {
     position: absolute;
