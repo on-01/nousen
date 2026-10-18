@@ -17,7 +17,7 @@
       :style="{ 'background-image': `url(${backImgOver})` }"
     ></div>
     <div class="title-wrapper" :style="{ 'border-color': color }">
-      <div v-if="icon" class="icon" :style="{ 'background-color': color }">
+      <div v-if="icon" class="icon">
         <img :src="icon" alt="" />
       </div>
       <p v-if="headTitle" class="head-title" v-html="headTitle"></p>
@@ -188,24 +188,18 @@
     }
   }
   .icon {
-    width: 64px;
-    height: 64px;
-    border-radius: 10px;
+    width: 80px;
     position: absolute;
-    top: -28px;
-    left: -28px;
-    overflow: hidden;
-    @media print, screen and (max-width: 980px) {
-      width: 44px;
-      height: 44px;
-      border-radius: 8px;
+    top: -40px;
+    left: -40px;
+    @media print, screen and (max-width: 414px) {
+      width: 40px;
       top: -20px;
-      left: -12px;
+      left: -20px;
     }
     img {
       display: block;
       width: 100%;
-      height: 100%;
     }
   }
   .head-title {
