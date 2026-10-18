@@ -210,7 +210,7 @@
   }
   .head-title {
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.05em;
     line-height: 1.5;
