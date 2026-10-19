@@ -278,7 +278,10 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
-          <p class="workshop-text -third">令和8年度 配信なし</p>
+          <p class="workshop-text -third">
+            3月01日～11月30日まで
+            <span>【準備中】</span>
+          </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
           </p> -->
@@ -296,8 +299,8 @@
               <span>【終了】</span>
             </p> -->
             <p class="workshop-border -none">
-              4月3日～12月15日まで
-              <span>【受付中】</span>
+              3月01日～11月30日まで
+              <span>【準備中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -339,9 +342,9 @@
               (税込33,000円)
             </p>
             <p class="workshop-text -ryoukin">
-              17,000円
+              18,000円
               <br />
-              (税込18,700円)
+              (税込19,800円)
             </p>
           </div>
         </div>
@@ -852,10 +855,11 @@
                 <tr>
                   <th>配信日程</th>
                   <td>
-                    一次：令和8年度 配信なし
+                    一次：3月01日～11月30日まで
+                    <span class="-red">【準備中】</span>
                     <br />
-                    二次：4月3日～12月15日まで
-                    <span class="-red">【受付中】</span>
+                    二次：3月01日～11月30日まで
+                    <span class="-red">【準備中】</span>
                   </td>
                 </tr>
                 <tr>
@@ -877,7 +881,7 @@
                     <br />
                     30,000円（税込33,000円）：一次コース
                     <br />
-                    17,000円（税込18,700円）：二次コース
+                    18,000円（税込19,800円）：二次コース
                   </td>
                 </tr>
                 <tr>
