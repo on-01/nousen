@@ -8,7 +8,7 @@
               require('../assets/img/license_page/doboku_s/doboku_f_hero.webp')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和8年度 二次試験対策"
+            headTitle="令和9年度 第一次検定 / 第二次検定"
             title="1級土木施工管理技士<br>試験・講座情報"
             :icon="require('../assets/img/icon/qualification/doboku.svg')"
           />
