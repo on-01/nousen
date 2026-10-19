@@ -82,6 +82,10 @@
                   <del>134,200円</del>
                   ▶️【セット割】129,800円：【４科目】完全制覇セット（８日間）
                 </p>
+                <p class="courseOverview-td-text">
+                  <del>26,400円</del>
+                  ▶️【セット割】19,800円：【４科目】予想模擬試験セット（１日間）
+                </p>
                 <p>
                   <span class="red courseOverview-td-text">【無料】</span>
                   ：
