@@ -136,48 +136,15 @@
         <p class="basis-bottom">
           「数学が苦手でも大丈夫！電験三種の全体像を基礎から学ぼう」
         </p>
-        <div class="workshop-orangeLine">
-          <div class="workshop-orangeLine__inner">
+        <div class="taiken-banner">
+          <a href="https://taiken.nouryoku.com/">
             <img
-              class="workshop-orangeLine__icon"
-              src="../../assets/img/icon/note.svg"
-              alt=""
+              src="../../assets/img/license_page/denken3/denken3_taiken_banner.webp"
+              alt="電験三種 無料体験講習"
+              width="867"
+              height="453"
             />
-            <p class="workshop-orangeLine__heading">
-              令和8年度下期 無料体験講習「基礎の基礎」
-            </p>
-            <p class="workshop-orangeLine__title">
-              電験三種の合格を目指す皆さまへ！
-            </p>
-            <p class="workshop-orangeLine__text">
-              これから勉強を始める方も、基礎を固め直したい方も大歓迎！
-              <br />
-              受験成功への第一歩として、無料体験講習を開催します！
-              <br />
-              <br />
-              日時：令和8年12月06日(日) 9:30～12:30
-              <span>【受付中】</span>
-              <br />
-              場所：専売ビル３F会議室（定員25名）
-              <br />
-              費用：無料
-              <br />
-              持ち物：筆記用具・電卓（やる気もぜひ！）
-            </p>
-            <div class="application">
-              <div class="experience-link">
-                <a
-                  class="application-link -blue"
-                  href="https://business.form-mailer.jp/fms/d8f3692b263372"
-                >
-                  無料体験講座（基礎の基礎）お申込み
-                  <IconBase class="icon" width="25" height="25">
-                    <IconFingerRight />
-                  </IconBase>
-                </a>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -439,6 +406,23 @@
     }
     @media print, screen and (max-width: 480px) {
       font-size: 14px;
+    }
+  }
+
+  .taiken-banner {
+    max-width: 708px;
+    margin: 40px auto;
+    a {
+      display: block;
+      transition: opacity 0.3s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
   }
 
