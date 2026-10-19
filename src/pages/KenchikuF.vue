@@ -134,7 +134,7 @@
             />
 
             <div class="bg-white">
-              <SetCourse2 title="通学＋オンラインセット" />
+              <SetCourse2F title="通学＋オンラインセット" />
             </div>
 
             <section class="voice">
@@ -407,7 +407,7 @@
             <div class="bg-white">
               <!-- <ExamKenchiku /> -->
               <FollowUpKenchokuF />
-              <SetCourse2 title="通学＋オンラインセット" />
+              <SetCourse2F title="通学＋オンラインセット" />
             </div>
 
             <section class="voice">
@@ -752,7 +752,7 @@
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
-  import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import SetCourse2F from "../components/licensePage/SetCourse2F.vue";
   import QualityKenchikuF from "../components/licensePage/QualityKenchikuF.vue";
   import ScheduleKenchiku from "../components/licensePage/ScheduleKenchiku.vue";
   import ExamKenchiku from "../components/licensePage/ExamKenchiku.vue";
@@ -829,7 +829,7 @@
       IconArrowRight,
       ContactInfo,
       Fsc,
-      SetCourse2,
+      SetCourse2F,
       QualityKenchikuF,
       WorkshopKenchikuF,
       ScheduleKenchiku,

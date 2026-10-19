@@ -133,7 +133,7 @@
             />
 
             <div class="bg-white">
-              <SetCourse2 title="通学＋オンラインセット" />
+              <SetCourse2F title="通学＋オンラインセット" />
             </div>
 
             <section class="voice">
@@ -341,7 +341,7 @@
             </div>
 
             <div class="bg-white">
-              <SetCourse2 title="通学＋オンラインセット" />
+              <SetCourse2F title="通学＋オンラインセット" />
             </div>
 
             <section class="voice">
@@ -696,7 +696,7 @@
   import ContactInfo from "../components/licensePage/ContactInfo.vue";
   import Discount from "../components/licensePage/Discount.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
-  import SetCourse2 from "../components/licensePage/SetCourse2.vue";
+  import SetCourse2F from "../components/licensePage/SetCourse2F.vue";
   import QualityDobokuF from "../components/licensePage/QualityDobokuF.vue";
   import WorkshopDobokuF from "../components/licensePage/WorkshopDobokuF.vue";
   import ScheduleDoboku from "../components/licensePage/ScheduleDoboku.vue";
@@ -777,7 +777,7 @@
       ContactInfo,
       Fsc,
       Discount,
-      SetCourse2,
+      SetCourse2F,
       WorkshopDobokuF,
       ScheduleDoboku,
       ExamDoboku,
