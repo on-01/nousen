@@ -217,7 +217,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img5-tu.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-tu.webp"
                 alt="電験三種通信講座の勉強管理システム（自己管理型の学習進捗管理ツール）"
               />
             </div>
@@ -261,7 +261,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.jpg"
+                src="../../assets/img/license_page/denken3/follow-img6.webp"
                 alt="電験三種講座の勉強管理コーチング"
               />
             </div>

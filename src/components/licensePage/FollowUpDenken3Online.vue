@@ -258,7 +258,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.jpg"
+                src="../../assets/img/license_page/denken3/follow-img6.webp"
                 alt="電験三種講座の勉強管理コーチング"
               />
             </div>
