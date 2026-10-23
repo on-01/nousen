@@ -322,6 +322,26 @@
       opacity: 0.8;
     }
   }
+  // 電験三種はボタン数が多いため PC のボタン幅を詰める
+  @media print, screen and (min-width: 981px) {
+    .denken3 {
+      .link-button {
+        width: 205px;
+        margin: 0 5px;
+        padding: 8px 6px 8px 10px;
+      }
+      .link-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 7px;
+      }
+      .link-arrow {
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+      }
+    }
+  }
   .link-icon {
     flex: 0 0 auto;
     width: 32px;

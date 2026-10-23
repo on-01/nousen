@@ -139,7 +139,7 @@
 
 <style lang="scss" scoped>
   .discount {
-    max-width: 800px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
     font-family: "Meiryo", sans-serif;
