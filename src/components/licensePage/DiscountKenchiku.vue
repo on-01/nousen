@@ -162,7 +162,7 @@
       linear-gradient(120deg, #0f56a8 0%, #1a75cf 55%, #2b93e6 100%);
     background-size: 12px 12px, 100% 100%;
     border-radius: 20px;
-    padding: 20px 20px 20px 28px;
+    padding: 20px 20px 56px 28px;
     color: #fff;
   }
   .discount-header-text {
@@ -182,7 +182,7 @@
     margin-bottom: 14px;
   }
   .discount-title {
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: 0.02em;
@@ -209,8 +209,9 @@
   }
   .discount-image-badge {
     position: absolute;
-    left: -14px;
-    bottom: 10px;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
     background: linear-gradient(180deg, #f7931e, #ed6c00);
     border: 2px solid #fff;
     color: #fff;
@@ -344,7 +345,6 @@
     }
     .discount-card {
       border-color: #f4a14e;
-      background: linear-gradient(180deg, #fff 0%, #fff4e8 100%);
     }
     .discount-number {
       background: linear-gradient(180deg, #f7a54a, #ed6c00);
@@ -355,7 +355,6 @@
   }
   .discount-card-wrap.-groupMax .discount-card {
     border-color: #ed6c00;
-    background: linear-gradient(180deg, #fff8f0 0%, #fde6cc 100%);
   }
 
   .discount-note {
@@ -446,7 +445,7 @@
       padding: 16px;
     }
     .discount-header {
-      padding: 18px 16px 18px 20px;
+      padding: 18px 16px 56px 20px;
       gap: 16px;
     }
   }
@@ -457,7 +456,7 @@
     }
     .discount-header {
       gap: 10px;
-      padding: 14px 12px 14px 14px;
+      padding: 14px 12px 36px 14px;
       border-radius: 14px;
     }
     .discount-title {
@@ -476,8 +475,7 @@
       border-radius: 10px;
     }
     .discount-image-badge {
-      left: -8px;
-      bottom: 6px;
+      bottom: -22px;
       font-size: 8px;
       padding: 3px 8px 4px;
       border-radius: 8px;
