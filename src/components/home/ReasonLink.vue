@@ -241,7 +241,7 @@
     display: block;
     color: #fff;
     text-align: center;
-    padding: 10px 3em;
+    padding: 16px 3em;
     font-weight: bold;
     margin: 24px 0;
     font-size: 20px;
