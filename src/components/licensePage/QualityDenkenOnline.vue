@@ -132,7 +132,7 @@
           「数学が苦手でも大丈夫！電験三種の全体像を基礎から学ぼう」
         </p>
         <div class="taiken-banner">
-          <a href="https://taiken.nouryoku.com/">
+          <a href="https://taiken.nouryoku.com/" target="_blank" rel="noopener">
             <img
               src="../../assets/img/license_page/denken3/denken3_taiken_banner.webp"
               alt="電験三種 無料体験講習"
@@ -303,7 +303,7 @@
   }
 
   .quality-basis {
-    padding: 30px 50px;
+    padding: 16px 24px;
     background-color: #fff;
     margin-top: 40px;
     border: solid 4px #1262b2;
