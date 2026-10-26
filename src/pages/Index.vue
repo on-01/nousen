@@ -290,7 +290,7 @@
       <section class="voice">
         <div class="voice-image">
           <img
-            src="../assets/img/front/voice-img.jpg"
+            src="../assets/img/front/voice-img.webp"
             alt="電験三種 講習会 通信講座"
           />
         </div>
