@@ -261,7 +261,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.webp"
+                src="../../assets/img/license_page/denken3/follow-img6-coaching.webp"
                 alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
