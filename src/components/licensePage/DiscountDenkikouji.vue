@@ -15,7 +15,7 @@
             alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
           />
           <span class="discount-image-badge">
-            団体のお申込みなら<br />
+            団体のお申し込みなら<br />
             <span class="discount-image-badge-strong">最大15%OFF</span>
           </span>
         </figure>
@@ -121,7 +121,7 @@
         <ul>
           <li class="-blue">割引の併用不可（キャンペーンコードは別）</li>
           <li class="-blue">再受講割引は、同じ科目・コースが対象</li>
-          <li class="-orange">団体割は新規のお申込みが対象</li>
+          <li class="-orange">団体割は新規のお申し込みが対象</li>
           <li class="-orange">経験記述の添削のみは対象外</li>
         </ul>
       </div>

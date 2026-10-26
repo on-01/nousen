@@ -413,14 +413,14 @@
                     to="/denken3-application/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（個人）
+                    お申し込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
                     to="/denken3-application-business/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（法人）
+                    お申し込みはこちら（法人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                 </div>
@@ -435,9 +435,9 @@
               <CourseOverview1 title="通 学 講 座" />
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="お申込みはこちら（個人）"
+                personalFormText="お申し込みはこちら（個人）"
                 personalFormLink="/denken3-application/"
-                businessFormText="お申込みはこちら（法人）"
+                businessFormText="お申し込みはこちら（法人）"
                 businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />
@@ -726,14 +726,14 @@
                     to="/denken3-application/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（個人）
+                    お申し込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
                     to="/denken3-application-business/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（法人）
+                    お申し込みはこちら（法人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                 </div>
@@ -749,9 +749,9 @@
 
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="お申込みはこちら（個人）"
+                personalFormText="お申し込みはこちら（個人）"
                 personalFormLink="/denken3-application/"
-                businessFormText="お申込みはこちら（法人）"
+                businessFormText="お申し込みはこちら（法人）"
                 businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />
@@ -995,14 +995,14 @@
                     to="/denken3-application/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（個人）
+                    お申し込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
                     to="/denken3-application-business/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（法人）
+                    お申し込みはこちら（法人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                 </div>
@@ -1017,9 +1017,9 @@
               <CourseOverview3 title="通 信 講 座" />
               <Merumaga />
               <NewApplicationDenken3
-                personalFormText="お申込みはこちら（個人）"
+                personalFormText="お申し込みはこちら（個人）"
                 personalFormLink="/denken3-application/"
-                businessFormText="お申込みはこちら（法人）"
+                businessFormText="お申し込みはこちら（法人）"
                 businessFormLink="/denken3-application-business/"
                 faxLink="/denken.pdf"
               />

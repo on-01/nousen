@@ -277,14 +277,14 @@
                     to="/doboku-s-application/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（個人）
+                    お申し込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
                     to="/doboku-s-application-business/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（法人）
+                    お申し込みはこちら（法人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                 </div>
@@ -585,9 +585,9 @@
                   :apply="richtextToHTML($static.dobokuOnline.apply)"
                 />
                 <NewApplication
-                  personalFormText="オンライン講座へのお申込み（個人）"
+                  personalFormText="オンライン講座へのお申し込み（個人）"
                   personalFormLink="/doboku-s-application/"
-                  businessFormText="オンライン講座へのお申込み（法人）"
+                  businessFormText="オンライン講座へのお申し込み（法人）"
                   businessFormLink="/doboku-s-application-business/"
                   faxLink="https://assets.ctfassets.net/smbvwwns0c77/7LbRQTOY4f0eTu4qFlnIBC/3b7b0bf112e2c69cce90f28d787db6ee/__________________FAX.pdf"
                 />

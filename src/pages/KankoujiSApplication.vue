@@ -3,7 +3,7 @@
     <div class="kankouji-s-application">
       <header class="header">
         <Hero
-          title="1級•2級管工事施工管理技士<br>講座お申込み"
+          title="1級•2級管工事施工管理技士<br>講座お申し込み"
           color="#00a73c"
         />
       </header>

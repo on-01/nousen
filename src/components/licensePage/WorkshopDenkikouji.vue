@@ -435,7 +435,7 @@
       <div class="workshop-flow-box">
         <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
         <p class="workshop-flow-text">
-          1.&nbsp;お申込みフォームまたはFAXでお申し込み
+          1.&nbsp;お申し込みフォームまたはFAXでお申し込み
           <br />
           2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
           <br />

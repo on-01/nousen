@@ -473,7 +473,7 @@
       <div class="workshop-flow-box">
         <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
         <p class="workshop-flow-text">
-          1.&nbsp;お申込みフォームまたはFAXでお申し込み
+          1.&nbsp;お申し込みフォームまたはFAXでお申し込み
           <br />
           2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
           <br />
@@ -653,7 +653,7 @@
                 <br />
                 ・２種類ありますので、申込みの際にお間違えのない様にして下さい
                 <br />
-                ・願書提出期日2日前までに講座をお申込みの方が対象です
+                ・願書提出期日2日前までに講座をお申し込みの方が対象です
               </p>
               <p class="add-flexText -bold">
                 ※

@@ -41,7 +41,7 @@
               <img
                 class="h18"
                 src="../assets/img/common/session2.svg"
-                alt="講座お申込み"
+                alt="講座お申し込み"
               />
             </a>
           </div>
@@ -324,7 +324,7 @@
       <!-- default スロットコンテンツ -->
       <div class="modal-application">
         <div class="form item">
-          <img src="../assets/img/common/session.svg" alt="講座お申込み" />
+          <img src="../assets/img/common/session.svg" alt="講座お申し込み" />
         </div>
         <ul>
           <li class="denken">
@@ -334,14 +334,14 @@
               電気主任技術者
             </p>
             <g-link to="/denken3-application/" class="application-form-link">
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/denken3-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="denkikouji">
@@ -350,9 +350,9 @@
               <br class="overdisplay" />
               電気工事施工管理技士
             </p>
-            <span class="application-form-link">お申込みフォーム(個人)</span>
+            <span class="application-form-link">お申し込みフォーム(個人)</span>
             <br />
-            <span class="application-form-link">お申込みフォーム(法人)</span>
+            <span class="application-form-link">お申し込みフォーム(法人)</span>
           </li>
           <!-- <li class="denkikouji">
             <p class="title">第一種<br class="overdisplay" />電気工事士</p>
@@ -421,14 +421,14 @@
               建築施工管理技士
             </p>
             <g-link to="/kenchiku-f-application/" class="application-form-link">
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/kenchiku-f-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="doboku">
@@ -438,14 +438,14 @@
               土木施工管理技士
             </p>
             <g-link to="/doboku-f-application/" class="application-form-link">
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/doboku-f-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="kankouji">
@@ -474,14 +474,14 @@
               to="/denkikouji-s-application/"
               class="application-form-link"
             >
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/denkikouji-s-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="kenchiku">
@@ -491,14 +491,14 @@
               建築施工管理技士
             </p>
             <g-link to="/kenchiku-s-application/" class="application-form-link">
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/kenchiku-s-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="doboku">
@@ -508,14 +508,14 @@
               土木施工管理技士
             </p>
             <g-link to="/doboku-s-application/" class="application-form-link">
-              お申込みフォーム(個人)
+              お申し込みフォーム(個人)
             </g-link>
             <br />
             <g-link
               to="/doboku-s-application-business/"
               class="application-form-link"
             >
-              お申込みフォーム(法人)
+              お申し込みフォーム(法人)
             </g-link>
           </li>
           <li class="kankouji">

@@ -15,7 +15,7 @@
     </a>
     <!-- <div class="experience-link">
       <a class="application-link -blue">
-        無料体験講座（基礎の基礎）お申込み
+        無料体験講座（基礎の基礎）お申し込み
         <IconBase class="icon" width="25" height="25">
           <IconFingerRight />
         </IconBase>
@@ -24,7 +24,7 @@
     <p class="exam-link-text-bottom">長期戦の電験三種を、短期合格へ！</p>
 
     <p class="fax-link" v-if="faxLink">
-      <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
+      <a :href="faxLink" target="_blank">FAXお申し込み用紙(PDF)</a>
     </p>
   </div>
 </template>
@@ -36,11 +36,11 @@
     props: {
       personalFormText: {
         type: String,
-        default: "講習会へのお申込み（個人）",
+        default: "講習会へのお申し込み（個人）",
       },
       businessFormText: {
         type: String,
-        default: "講習会へのお申込み（法人）",
+        default: "講習会へのお申し込み（法人）",
       },
       personalFormLink: String,
       businessFormLink: String,
