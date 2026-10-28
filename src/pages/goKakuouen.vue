@@ -216,7 +216,7 @@
       <div class="goKakuouen-flex">
         <div class="goKakuouen-content">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img8.png"
+            src="../assets/img/common/social_image.webp"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">環境への配慮～持続可能なミライへ～</p>
@@ -234,7 +234,7 @@
         </div>
         <div class="goKakuouen-content">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img9.jpg"
+            src="../assets/img/common/social_image2.webp"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">こどもの未来応援基金への寄付</p>

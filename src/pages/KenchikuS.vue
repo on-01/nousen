@@ -349,6 +349,7 @@
             <WorkshopKenchiku />
 
             <NewPvMovieKenchiku
+              class="-noPaddingBottom"
               :movie="$static.kenchikuOnline.mediaYoutube"
               :image="
                 $static.kenchikuOnline.mediaImg

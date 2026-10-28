@@ -55,6 +55,10 @@
     }
   }
 
+  .-noPaddingBottom .pv {
+    padding-bottom: 0;
+  }
+
   .pv-title {
     line-height: 1.3;
     font-size: 28px;
