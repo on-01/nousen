@@ -8,7 +8,7 @@
               require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero3.webp')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和8年度前期 / 令和8年度後期"
+            headTitle="令和9年度 前期 / 後期"
             title="2級建築施工管理技士<br>試験・講座情報"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
