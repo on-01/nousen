@@ -1,10 +1,6 @@
 <template>
   <div class="quality">
     <div class="quality-wrap">
-      <div class="quality-topTextWrap">
-        <p class="quality-topText">人材開発支援助成金</p>
-        <p class="quality-topText">人材育成支援コース 対象講座</p>
-      </div>
       <p class="quality-mainTitle">
         短期間で合格する
         <br />

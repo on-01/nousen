@@ -103,7 +103,7 @@
     position: relative;
   }
   .support-wrap.-second {
-    margin-top: 50px;
+    margin-top: 25px;
     background-color: #ebf7ff;
   }
   // .support-wrap p {
