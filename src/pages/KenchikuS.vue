@@ -378,6 +378,8 @@
                 require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
               "
               altText3="2級建築施工管理技士 講習会 通信講座 web講座"
+              movie="obcX0wJgGfk"
+              movieDescription="合格者を多数輩出した伊東先生による１級建築施工の無料動画になります。"
               teacher="井岡和雄 先生"
               profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
@@ -1156,7 +1158,7 @@
   .bg-white_type2 {
     // background-color: #ffffff;
     background-color: #ebf7ff;
-    padding-top: 60px;
+    padding-top: 25px;
     padding-bottom: 85px;
   }
 
