@@ -59,7 +59,7 @@
           class="application-link -blue -mr"
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
-          無料体験講座　お申込み
+          無料体験講座　お申し込み
           <IconBase class="icon" width="25" height="25">
             <IconFingerRight />
           </IconBase>

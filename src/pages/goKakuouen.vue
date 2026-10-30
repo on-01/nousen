@@ -4,7 +4,7 @@
       <h2>🎓 GO!資格 合格応援制度</h2>
       <img
         class="goKakuouen-top-img"
-        src="../assets/img/gokakuouen/gokakuouen_top.jpg"
+        src="../assets/img/gokakuouen/gokakuouen_top.webp"
         alt="GO!資格 合格応援制度"
       />
       <p class="goKakuouen-text">
@@ -27,7 +27,7 @@
         <p class="goKakuouen-title">再受講割引</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img1.jpg"
+            src="../assets/img/gokakuouen/gokakuouen_img1.webp"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
@@ -54,7 +54,7 @@
         <p class="goKakuouen-title">若チャレ割</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img2.jpg"
+            src="../assets/img/gokakuouen/gokakuouen_img2.webp"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
@@ -82,7 +82,7 @@
         <p class="goKakuouen-title">女子応援割</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img3.jpeg"
+            src="../assets/img/gokakuouen/gokakuouen_img3.webp"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
@@ -106,7 +106,7 @@
         <p class="goKakuouen-title">シニア応援割</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img4.jpg"
+            src="../assets/img/gokakuouen/gokakuouen_img4.webp"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
@@ -134,7 +134,7 @@
         <p class="goKakuouen-title">団体割・超団体割</p>
         <div class="goKakuouen-flex">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img5.jpg"
+            src="../assets/img/gokakuouen/gokakuouen_img5.webp"
             alt="GO!資格 合格応援制度"
           />
           <div class="goKakuouen-content">
@@ -151,7 +151,7 @@
             <p class="goKakuouen-text">
               ※割引の併用はできません（キャンペーンコードは別）
               <br />
-              ※団体割は新規のお申込みが対象になります
+              ※団体割は新規のお申し込みが対象になります
             </p>
           </div>
         </div>
@@ -216,7 +216,7 @@
       <div class="goKakuouen-flex">
         <div class="goKakuouen-content">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img8.png"
+            src="../assets/img/common/social_image.webp"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">環境への配慮～持続可能なミライへ～</p>
@@ -234,7 +234,7 @@
         </div>
         <div class="goKakuouen-content">
           <img
-            src="../assets/img/gokakuouen/gokakuouen_img9.jpg"
+            src="../assets/img/common/social_image2.webp"
             alt="資格で未来を切り開く。能センは挑戦を応援します！"
           />
           <p class="goKakuouen-heading3">こどもの未来応援基金への寄付</p>

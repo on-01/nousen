@@ -7,14 +7,12 @@
         <br />
         より合格に近づきたい方におすすめのプランです！
       </p>
-      <div class="setCourse-explanation">
-        <p>
-          例えば「通学講座にオンライン講座を追加」の場合、
-          <i>オンライン講座の受講料は７０％割引。</i>
-          <br />
-          共通のテキストを使用し、講義内容も同じなので、会場で学んだ内容を繰り返し復習できます。
-        </p>
-      </div>
+      <figure class="setCourse-image">
+        <img
+          src="../../assets/img/license_page/setcourse_online70.webp"
+          alt="通学＋オンラインセット 共通のテキスト・同じ講義内容で追加する講座が70%割引"
+        />
+      </figure>
       <p class="setCourse-price">料金</p>
       <div class="setCourse-menu">
         <p><span>セット</span></p>
@@ -82,52 +80,15 @@
     padding-top: 10px;
     margin: 0;
   }
-  .setCourse-explanation {
-    padding: 30px 10px;
-    font-size: 18px;
-    border: 4px solid #000;
+  .setCourse-image {
+    max-width: 700px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 24px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    max-width: 830px;
-    width: 100%;
-    line-height: 2em;
-    @media print, screen and (max-width: 1000px) {
-      padding: 10px 20px;
-      font-size: 16px;
-      width: auto;
-    }
-    @media print, screen and (max-width: 767px) {
-      text-align: left;
-      padding: 10px 15px 10px 20px;
-    }
-    &:before {
-      content: url("../../assets/img/icon/finger_diagonallyright_orange.svg");
-      position: absolute;
-      left: -10px;
-      top: -20px;
-      width: 20px;
-      height: 25px;
+    img {
       display: block;
-      background-color: #fff;
-      padding: 8px 3px;
-    }
-    p {
-      margin: 0;
-    }
-  }
-  .setCourse-explanation::v-deep i {
-    background: -webkit-linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background: -moz-linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background: linear-gradient(to right, #f4b073 50%, transparent 50%);
-    background-repeat: no-repeat;
-    background-size: 200% 1em;
-    background-position: 100% 0.5em;
-    transition: background-position 0.5s ease-in-out;
-    &.is-show {
-      background-position: 0% 0;
+      width: 100%;
+      height: auto;
     }
   }
   .setCourse-price {

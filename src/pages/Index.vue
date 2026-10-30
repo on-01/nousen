@@ -225,7 +225,7 @@
         </div> -->
         <img
           class="top-map"
-          src="../assets/img/front/section01/top-map.png"
+          src="../assets/img/front/section01/top-map.webp"
           alt=""
         />
         <div class="more_qualification">
@@ -290,7 +290,7 @@
       <section class="voice">
         <div class="voice-image">
           <img
-            src="../assets/img/front/voice-img.jpg"
+            src="../assets/img/front/voice-img.webp"
             alt="電験三種 講習会 通信講座"
           />
         </div>
@@ -1013,7 +1013,7 @@
 
         <div class="btn__apply __bottom">
           <a @click="openModal">
-            <span>お申込みはこちら</span>
+            <span>お申し込みはこちら</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -1829,8 +1829,8 @@ query {
   .top-map {
     display: block;
     margin: 80px auto 0 auto;
-    max-width: 924px;
-    width: 90%;
+    max-width: 1100px;
+    width: 95%;
     @media print, screen and (max-width: 1000px) {
       margin-top: 20px;
     }

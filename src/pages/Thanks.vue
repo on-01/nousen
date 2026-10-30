@@ -2,9 +2,9 @@
   <Layout>
     <div class="thanks">
       <div class="thanks-inner">
-        <p class="thanks-title">お申込み受付いたしました。</p>
+        <p class="thanks-title">お申し込み受付いたしました。</p>
         <p class="thanks-text">
-          講座のお申込み、ありがとうございます！
+          講座のお申し込み、ありがとうございます！
           <br />
           ご入力頂きましたメールアドレス宛に確認メールが自動送信されます。
           <br />
@@ -38,7 +38,7 @@ query {
   export default {
     metaInfo() {
       return {
-        titleTemplate: "お申込み受付いたしました。｜能セン-合格への近道-",
+        titleTemplate: "お申し込み受付いたしました。｜能セン-合格への近道-",
         meta: [
           {
             name: "description",
@@ -48,7 +48,7 @@ query {
           {
             key: `og:title`,
             property: `og:title`,
-            content: `お申込み受付いたしました。｜能セン-合格への近道-`,
+            content: `お申し込み受付いたしました。｜能セン-合格への近道-`,
           },
           {
             key: `og:url`,

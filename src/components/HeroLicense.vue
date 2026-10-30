@@ -155,6 +155,13 @@
       display: none;
     }
   }
+  // 電験三種は枠の左右余白を詰める（PC）
+  @media print, screen and (min-width: 981px) {
+    .denken3 .title-wrapper {
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+  }
   // 電験三種のみ背景画像を高めに表示
   .denken3 .hero-inner {
     height: 500px;
@@ -170,7 +177,7 @@
     border: 5px solid;
     border-radius: 10px;
     color: #1a1a1a;
-    padding: 22px 4px 26px;
+    padding: 22px 24px 26px;
     text-align: center;
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "游ゴシック体",
       YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
@@ -322,11 +329,15 @@
       opacity: 0.8;
     }
   }
+  // 電験三種は矢印なし
+  .denken3 .link-arrow {
+    display: none;
+  }
   // 電験三種はボタン数が多いため PC のボタン幅を詰める
   @media print, screen and (min-width: 981px) {
     .denken3 {
       .link-button {
-        width: 205px;
+        width: 190px;
         margin: 0 5px;
         padding: 8px 6px 8px 10px;
       }
@@ -334,11 +345,6 @@
         width: 30px;
         height: 30px;
         margin-right: 7px;
-      }
-      .link-arrow {
-        width: 16px;
-        height: 16px;
-        margin-left: 2px;
       }
     }
   }

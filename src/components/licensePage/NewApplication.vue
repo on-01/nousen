@@ -13,7 +13,7 @@
       </IconBase>
     </a> -->
     <p class="fax-link" v-if="faxLink">
-      <a :href="faxLink" target="_blank">FAXお申込み用紙(PDF)</a>
+      <a :href="faxLink" target="_blank">FAXお申し込み用紙(PDF)</a>
     </p>
   </div>
 </template>
@@ -25,11 +25,11 @@
     props: {
       personalFormText: {
         type: String,
-        default: "講習会へのお申込み（個人）",
+        default: "講習会へのお申し込み（個人）",
       },
       businessFormText: {
         type: String,
-        default: "講習会へのお申込み（法人）",
+        default: "講習会へのお申し込み（法人）",
       },
       personalFormLink: String,
       businessFormLink: String,

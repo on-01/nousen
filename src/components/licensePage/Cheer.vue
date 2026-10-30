@@ -16,7 +16,7 @@
           class="application-link -blue -mr"
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
-          無料体験講座　お申込み
+          無料体験講座　お申し込み
           <IconBase class="icon" width="25" height="25">
             <IconFingerRight />
           </IconBase>
@@ -41,13 +41,13 @@
         <div class="exam-link-wrapper">
           <div class="exam-link-flex">
             <g-link to="/denken3-application/" class="application-form-link">
-              お申込みはこちら（個人）
+              お申し込みはこちら（個人）
             </g-link>
             <g-link
               to="/denken3-application-business/"
               class="application-form-link"
             >
-              お申込みはこちら（法人）
+              お申し込みはこちら（法人）
             </g-link>
           </div>
         </div>

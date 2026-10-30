@@ -14,7 +14,7 @@
           <br />
           最大500問の演習で実力養成！
           <br />
-          過去10年分の試験問題で総仕上げ！
+          過去15年分の試験問題で総仕上げ！
         </p>
         <p class="workshop-topImg-text-bottom">
           ※動画講義は基礎講座のみ。その他の科目は教材と通信添削で学習
@@ -196,14 +196,14 @@
         </p>
         <div class="exam-link-flex">
           <g-link to="/denken3-application/" class="application-form-link">
-            お申込みはこちら（個人）
+            お申し込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
             to="/denken3-application-business/"
             class="application-form-link"
           >
-            お申込みはこちら（法人）
+            お申し込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>

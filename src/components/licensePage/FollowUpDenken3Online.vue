@@ -32,7 +32,7 @@
             <div class="follow-imgWrap-top">
               <img
                 class="img-1"
-                src="../../assets/img/license_page/denken3/follow-img1.png"
+                src="../../assets/img/license_page/denken3/follow-img1.webp"
                 alt="電験三種の勉強計画表と学習管理シート"
               />
             </div>
@@ -78,7 +78,7 @@
             <div class="follow-imgWrap-top">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/denken3/follow-img2.jpg"
+                src="../../assets/img/license_page/denken3/follow-img2.webp"
                 alt="電験三種のリマインダーメールサービス"
               />
             </div>
@@ -169,7 +169,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-4"
-                src="../../assets/img/license_page/denken3/follow-img4.jpg"
+                src="../../assets/img/license_page/denken3/follow-img4.webp"
                 alt="電験三種のオンライン質問サポート「能センサポ」"
               />
             </div>
@@ -217,7 +217,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-3"
-                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-o.webp"
                 alt="電験三種オンライン講座の学習進捗管理レポート「能センレポ」"
               />
             </div>
@@ -258,7 +258,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.webp"
+                src="../../assets/img/license_page/denken3/follow-img6-support.webp"
                 alt="電験三種講座の勉強管理コーチング"
               />
             </div>
@@ -494,7 +494,7 @@
                       <br />
                       <br />
                       <span>
-                        希望の方は、お申込みフォームでチェックしてください。
+                        希望の方は、お申し込みフォームでチェックしてください。
                       </span>
                     </p>
                   </div>

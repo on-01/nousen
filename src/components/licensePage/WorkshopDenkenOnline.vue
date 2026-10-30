@@ -81,21 +81,21 @@
             <p class="workshop-text -ryoukin">
               <span>【セット】</span>
               <br />
-              ✅【全科目】完全制覇セット(約54時間)▶️ 【セット割】133,000円
+              <span>✅【全科目】完全制覇セット(約54時間)▶️ 【セット割】133,000円</span>
               <br />
               学習内容：基礎・理論・電力・機械・法規・模擬試験
               <br />
               基礎講座から法規、模擬試験までが全てセットになったコース
               <br />
               <br />
-              ✅【４科目】完全制覇セット(約48時間)▶️ 【セット割】122,100円
+              <span>✅【４科目】完全制覇セット(約48時間)▶️ 【セット割】122,100円</span>
               <br />
               学習内容：理論・電力・機械・法規・模擬試験
               <br />
               基礎の土台ができている方に向けた４科目セット＋模擬試験
               <br />
               <br />
-              ✅【４科目】予想模擬試験セット(1日)▶️ 【セット割】19,800円
+              <span>✅【４科目】予想模擬試験セット(1日)▶️ 【セット割】19,800円</span>
               <br />
               学習内容：模擬試験（理論・電力・機械・法規）
               <br />
@@ -163,7 +163,7 @@
                 【お申し込みから受講までの流れ】
               </p>
               <p class="workshop-flow-text">
-                1.&nbsp;お申込みは、申込フォームまたはFAX
+                1.&nbsp;お申し込みは、申込フォームまたはFAX
                 <br />
                 2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
                 <br />
@@ -288,14 +288,14 @@
         </p>
         <div class="exam-link-flex">
           <g-link to="/denken3-application/" class="application-form-link">
-            お申込みはこちら（個人）
+            お申し込みはこちら（個人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link
             to="/denken3-application-business/"
             class="application-form-link"
           >
-            お申込みはこちら（法人）
+            お申し込みはこちら（法人）
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>

@@ -28,7 +28,7 @@
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
           <g-link to="/koujishi-application/" class="application-form-link">
-            お申込みはこちら
+            お申し込みはこちら
             <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
           </g-link>
         </div>

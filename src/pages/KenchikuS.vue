@@ -8,7 +8,7 @@
               require('../assets/img/license_page/kenchiku_s/kenchiku_s_hero3.webp')
             "
             :backImgUnder="require('../assets/img/license_page/bg_white.jpg')"
-            headTitle="令和8年度前期 / 令和8年度後期"
+            headTitle="令和9年度 前期 / 後期"
             title="2級建築施工管理技士<br>試験・講座情報"
             :icon="require('../assets/img/icon/qualification/kenchiku.svg')"
           />
@@ -307,14 +307,14 @@
                     to="/kenchiku-s-application/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（個人）
+                    お申し込みはこちら（個人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                   <g-link
                     to="/kenchiku-s-application-business/"
                     class="application-form-link"
                   >
-                    お申込みはこちら（法人）
+                    お申し込みはこちら（法人）
                     <IconBase class="icon"><IconDoubleArrowRight /></IconBase>
                   </g-link>
                 </div>
@@ -349,6 +349,7 @@
             <WorkshopKenchiku />
 
             <NewPvMovieKenchiku
+              class="-noPaddingBottom"
               :movie="$static.kenchikuOnline.mediaYoutube"
               :image="
                 $static.kenchikuOnline.mediaImg
@@ -375,9 +376,11 @@
                 1級建築士・1級建築施工管理技士の資格を持ち、「建築材料」「建築施工」「建築製図II」が得意分野です。
                 質問なども丁寧に対応いたします。"
               :imagePath3="
-                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.webp')
               "
               altText3="2級建築施工管理技士 講習会 通信講座 web講座"
+              movie="obcX0wJgGfk"
+              movieDescription="合格者を多数輩出した伊東先生による１級建築施工の無料動画になります。"
               teacher="井岡和雄 先生"
               profile="＜プロフィール＞<br>
                     関西大学工学部建築学科卒業<br>
@@ -1156,7 +1159,7 @@
   .bg-white_type2 {
     // background-color: #ffffff;
     background-color: #ebf7ff;
-    padding-top: 60px;
+    padding-top: 25px;
     padding-bottom: 85px;
   }
 

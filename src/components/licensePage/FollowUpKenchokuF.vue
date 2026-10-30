@@ -30,7 +30,7 @@
             <div class="follow-imgWrap-top">
               <img
                 class="img-1"
-                src="../../assets/img/license_page/doboku_s/follow-img1.jpg"
+                src="../../assets/img/license_page/doboku_s/follow-img1.webp"
                 alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -73,7 +73,7 @@
             <div class="follow-imgWrap-top">
               <img
                 class="img-2"
-                src="../../assets/img/license_page/denken3/follow-img2.jpg"
+                src="../../assets/img/license_page/denken3/follow-img2.webp"
                 alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -164,7 +164,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="follow-left-img"
-                src="../../assets/img/license_page/denken3/follow-img5-o.jpg"
+                src="../../assets/img/license_page/denken3/follow-img5-sekou.webp"
                 alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>
@@ -261,7 +261,7 @@
             <div class="follow-imgWrap-bottom">
               <img
                 class="img-6"
-                src="../../assets/img/license_page/denken3/follow-img6.webp"
+                src="../../assets/img/license_page/denken3/follow-img6-support.webp"
                 alt="1級建築施工管理技士 講習会 通信講座 web講座"
               />
             </div>

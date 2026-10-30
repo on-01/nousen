@@ -467,37 +467,37 @@
       <div class="workshop-flow-box">
         <p class="workshop-flow-heading">【お申し込みから受講までの流れ】</p>
         <p class="workshop-flow-text">
-          1.&nbsp;お申込みフォームまたはFAXでお申し込み
+          STEP 1｜お申し込み
           <br />
-          2.&nbsp;受講料のお支払い後、ログイン情報が記載された詳細メールが届きます
+          お申し込みフォームまたはFAXからお申し込みください。
+          <br /><br />
+          STEP 2｜受講案内メールの送付
           <br />
-          3.&nbsp;詳細メールに記載されたURLから動画配信サイトにアクセスして講座を受講
+          ご入金確認後、ログイン情報と受講URLをメールでお送りします。
+          <br /><br />
+          STEP 3｜受講開始
+          <br />
+          メールに記載されたURLから動画配信サイトにアクセスし、受講開始！
         </p>
       </div>
       <div class="workshop-flow-box">
-        <p class="workshop-flow-heading">■ 高性能な動画配信サイト</p>
+        <p class="workshop-flow-heading">【動画配信システム（UIshare）】</p>
         <p class="workshop-flow-text">
-          専用アプリのインストールは不要で、ブラウザから簡単にご利用いただけます。
+          専用アプリ不要！パソコン・スマートフォン・タブレットのブラウザから、安心・簡単に受講できます。
           <br />
-          高いセキュリティ性により安心して受講いただけます。
-          <br />
-          ※本講座は、1IDにつき1名様のみ受講可能です
+          ※1IDにつき1名様のみ受講可能です。
         </p>
       </div>
 
       <p class="workshop-flow-heading">【動作環境】</p>
       <p class="workshop-flow-text">
-        ■ PC<br />
-        ・Windows / Mac（最新OS）<br />
-        ・Google Chrome / Microsoft Edge / Safari / Firefox（各最新版）
+        ■ パソコン<br />
+        Windows / Mac（最新OS）<br />
+        Chrome / Edge / Safari / Firefox（各最新版）
         <br /><br />
         ■ スマートフォン・タブレット<br />
-        ・Android 8.0以上 / iOS 13以上<br />
-        ・Android：Google Chrome（最新版）<br />
-        ・iPhone / iPad：Safari（最新版）
-        <br /><br />
-        ■ インターネット環境<br />
-        ・安定したインターネット回線（10Mbps以上推奨）
+        Android 8.0以上：Chrome（最新版）<br />
+        iOS 13以上：Safari（最新版）
       </p>
     </div>
 
@@ -670,7 +670,7 @@
                 <br />
                 ・２種類ありますので、申込みの際にお間違えのない様にして下さい
                 <br />
-                ・願書提出期日2日前までに講座をお申込みの方が対象です
+                ・願書提出期日2日前までに講座をお申し込みの方が対象です
               </p>
               <p class="add-flexText -bold">
                 ※

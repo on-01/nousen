@@ -29,6 +29,20 @@
           <p class="lecture-profile" v-html="profile"></p>
         </div>
       </div> -->
+      <div class="lecture-movie-wrap" v-if="movie">
+        <p class="lecture-movie-description">{{ movieDescription }}</p>
+        <div class="lecture-movie">
+          <iframe
+            width="560"
+            height="315"
+            :src="`https://www.youtube.com/embed/${movie}`"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
       <div class="lecture-section">
         <figure class="lecture-image">
           <g-image :src="imagePath3" :alt="altText3" />
@@ -393,6 +407,8 @@
       altBook1: String,
       altBook2: String,
       altBook3: String,
+      movie: String,
+      movieDescription: String,
     },
   };
 </script>
@@ -409,6 +425,38 @@
     width: 100%;
     padding: 30px 0 0;
     margin: 0 auto;
+  }
+
+  .lecture-movie-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 3em 5rem;
+    @media print, screen and (max-width: 1001px) {
+      width: 90%;
+      padding: 0rem 0rem 2rem;
+    }
+  }
+  .lecture-movie-description {
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    @media print, screen and (max-width: 560px) {
+      font-size: 16px;
+    }
+  }
+  .lecture-movie {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-top: 56.25%;
+  }
+  .lecture-movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .lecture-section {
