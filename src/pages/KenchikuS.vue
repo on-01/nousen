@@ -376,7 +376,7 @@
                 1級建築士・1級建築施工管理技士の資格を持ち、「建築材料」「建築施工」「建築製図II」が得意分野です。
                 質問なども丁寧に対応いたします。"
               :imagePath3="
-                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.png')
+                require('../assets/img/license_page/kenchiku_s/kenchiku_lecture2.webp')
               "
               altText3="2級建築施工管理技士 講習会 通信講座 web講座"
               movie="obcX0wJgGfk"
