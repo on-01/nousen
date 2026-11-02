@@ -29,13 +29,11 @@
           [
             {
               label: "通学講座",
-              note: "対面でしっかり学ぶ",
               href: "https://d-koushuu.nouryoku.com/",
               icon: "classroom",
             },
             {
               label: "オンライン講座",
-              note: "いつでも・どこでも学べる",
               href: "https://doboku-online.nouryoku.com/",
               icon: "online",
             },
