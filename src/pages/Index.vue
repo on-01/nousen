@@ -1829,7 +1829,7 @@ query {
   .top-map {
     display: block;
     margin: 80px auto 0 auto;
-    max-width: 1100px;
+    max-width: 1000px;
     width: 95%;
     @media print, screen and (max-width: 1000px) {
       margin-top: 20px;
