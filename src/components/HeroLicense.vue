@@ -44,6 +44,7 @@
             :href="button.href"
             :style="{ 'background-color': color }"
           >
+            <span class="link-side">
             <svg
               class="link-icon"
               viewBox="0 0 24 24"
@@ -95,10 +96,13 @@
                 <path d="M10 11v7.5l5.8-3.75z" />
               </template>
             </svg>
+            </span>
             <span class="link-label">{{ button.label }}</span>
-            <svg class="link-arrow" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" />
-            </svg>
+            <span class="link-side link-side-right">
+              <svg class="link-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" />
+              </svg>
+            </span>
           </a>
         </div>
       </div>
@@ -330,6 +334,16 @@
   .denken3 .link-arrow {
     display: none;
   }
+  // 電験三種は矢印がないため、アイコン側と右側の空きを同じ幅にして講座名をボタン全体の中央に置く
+  // （幅が足りない場合はアイコンに重ならないよう講座名が右へずれる）
+  .denken3 {
+    .link-side {
+      flex: 1 1 0;
+    }
+    .link-label {
+      flex: 0 1 auto;
+    }
+  }
   // 電験三種はボタン数が多いため PC のボタン幅を詰める
   @media print, screen and (min-width: 981px) {
     .denken3 {
@@ -357,6 +371,14 @@
     }
   }
   // 講座名はアイコンと矢印の間で中央寄せ
+  .link-side {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .link-side-right {
+    justify-content: flex-end;
+  }
   .link-label {
     flex: 1 1 auto;
     min-width: 0;
