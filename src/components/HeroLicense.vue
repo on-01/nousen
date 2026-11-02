@@ -42,7 +42,7 @@
             :key="button.label"
             class="link-button"
             :href="button.href"
-            :style="{ 'background-color': color }"
+            :style="{ 'background-color': buttonColor || color }"
           >
             <span class="link-side">
             <svg
@@ -119,6 +119,8 @@
       headTitle: String,
       icon: String,
       color: String,
+      // ボタンだけ別色にしたい場合に指定（未指定なら color と同じ）
+      buttonColor: String,
       buttons: {
         type: Array,
         default: () => [],

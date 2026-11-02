@@ -5,6 +5,7 @@
     :headTitle="headTitle"
     :icon="icon"
     color="#ed7d31"
+    buttonColor="#C45100"
     :buttons="buttons"
   />
 </template>
