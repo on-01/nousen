@@ -387,7 +387,7 @@
 
     <img
       class="hayaben"
-      src="../../assets/img/license_page/doboku_s/hayaben.jpg"
+      src="../../assets/img/license_page/doboku_s/hayaben.webp"
       alt="2級建築施工管理技士 講習会 通信講座 web講座"
     />
     <p class="workshop-top">
@@ -1843,7 +1843,7 @@
   }
 
   .hayaben {
-    max-width: 350px;
+    max-width: 420px;
     margin: 40px auto 0 auto;
     display: block;
   }
