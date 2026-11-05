@@ -17,7 +17,7 @@
           href="https://business.form-mailer.jp/fms/d8f3692b263372"
         >
           無料体験講座　お申し込み
-          <IconBase class="icon" width="25" height="25">
+          <IconBase class="icon" width="28" height="28">
             <IconFingerRight />
           </IconBase>
         </a>
@@ -26,7 +26,7 @@
           href="https://business.form-mailer.jp/fms/e72637ff291274"
         >
           お問い合わせ / 資料請求
-          <IconBase class="icon" width="25" height="25">
+          <IconBase class="icon" width="28" height="28">
             <IconFingerRight />
           </IconBase>
         </a>
@@ -155,7 +155,8 @@
     color: #fff;
     max-width: 400px;
     width: 100%;
-    padding: 20px 50px;
+    padding: 24px 60px;
+    font-size: 1.15em;
     text-align: center;
     background-color: #ed6c00;
     border: 3px solid #ed6c00;
@@ -168,7 +169,8 @@
       display: block;
       margin: 0 auto;
       margin-top: 20px;
-      padding: 10px;
+      padding: 14px 10px;
+      font-size: 1.1em;
       width: 90%;
     }
   }

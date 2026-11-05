@@ -29,13 +29,11 @@
           [
             {
               label: "通学講座",
-              note: "対面でしっかり学ぶ",
               href: "https://denkisekou.nouryoku.com/",
               icon: "classroom",
             },
             {
               label: "オンライン講座",
-              note: "いつでも・どこでも学べる",
               icon: "online",
             },
           ],

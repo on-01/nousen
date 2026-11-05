@@ -1,9 +1,9 @@
 <template>
-  <section v-if="movie || image">
+  <section v-if="movie || image || showTitleOnly">
     <div class="pv-wrap">
       <p class="pv-title">{{ movieTitle }}</p>
       <div class="pv">
-        <p class="pv-description">{{ description }}</p>
+        <p class="pv-description" v-if="description">{{ description }}</p>
         <div class="pv-movie" v-if="movie">
           <!-- <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${movie}`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
           <iframe
@@ -31,6 +31,7 @@
       image: String,
       description: String,
       movieTitle: String,
+      showTitleOnly: Boolean,
     },
   };
 </script>

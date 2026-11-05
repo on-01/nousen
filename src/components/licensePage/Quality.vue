@@ -95,8 +95,8 @@
           <div class="basis-img">
             <img
               class="flex-img -right"
-              src="../../assets/img/license_page/denken3/denken3_quality_basis.jpg"
-              alt="電験三種基礎講座の電気数学教材サンプル"
+              src="../../assets/img/license_page/denken3/denken3_quality_drill.webp"
+              alt="能センドリル200問 電験三種 基礎計算トレーニング"
             />
           </div>
           <div class="basis-textWrap">

@@ -5,6 +5,7 @@
     :headTitle="headTitle"
     :icon="icon"
     color="#ed7d31"
+    buttonColor="#C45100"
     :buttons="buttons"
   />
 </template>
@@ -29,12 +30,10 @@
           [
             {
               label: "通学講座",
-              note: "対面でしっかり学ぶ",
               icon: "classroom",
             },
             {
               label: "オンライン講座",
-              note: "いつでも・どこでも学べる",
               icon: "online",
             },
           ],

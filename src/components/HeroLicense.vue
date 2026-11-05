@@ -6,7 +6,7 @@
       headTitle="令和8年度前期 / 令和8年度後期"
       title="資格名<br>試験・講座情報"
       color="#ed7d31"
-      :buttons="[[{ label: '通学講座', note: '対面でしっかり学ぶ', href: '...', icon: 'classroom' }]]"
+      :buttons="[[{ label: '通学講座', href: '...', icon: 'classroom' }]]"
     />
     buttons は PC 表示時の行ごとの配列。icon は classroom / online / book / trial / correspondence
     SP は背景画像を出さず、白背景の上に枠を通常フローで配置する
@@ -42,8 +42,9 @@
             :key="button.label"
             class="link-button"
             :href="button.href"
-            :style="{ 'background-color': color }"
+            :style="{ 'background-color': buttonColor || color }"
           >
+            <span class="link-side">
             <svg
               class="link-icon"
               viewBox="0 0 24 24"
@@ -95,13 +96,13 @@
                 <path d="M10 11v7.5l5.8-3.75z" />
               </template>
             </svg>
-            <span class="link-text">
-              <span class="link-label">{{ button.label }}</span>
-              <span v-if="button.note" class="link-note">{{ button.note }}</span>
             </span>
-            <svg class="link-arrow" viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" />
-            </svg>
+            <span class="link-label">{{ button.label }}</span>
+            <span class="link-side link-side-right">
+              <svg class="link-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" />
+              </svg>
+            </span>
           </a>
         </div>
       </div>
@@ -118,6 +119,8 @@
       headTitle: String,
       icon: String,
       color: String,
+      // ボタンだけ別色にしたい場合に指定（未指定なら color と同じ）
+      buttonColor: String,
       buttons: {
         type: Array,
         default: () => [],
@@ -333,6 +336,16 @@
   .denken3 .link-arrow {
     display: none;
   }
+  // 電験三種は矢印がないため、アイコン側と右側の空きを同じ幅にして講座名をボタン全体の中央に置く
+  // （幅が足りない場合はアイコンに重ならないよう講座名が右へずれる）
+  .denken3 {
+    .link-side {
+      flex: 1 1 0;
+    }
+    .link-label {
+      flex: 0 1 auto;
+    }
+  }
   // 電験三種はボタン数が多いため PC のボタン幅を詰める
   @media print, screen and (min-width: 981px) {
     .denken3 {
@@ -359,13 +372,19 @@
       margin-right: 5px;
     }
   }
-  .link-text {
-    flex: 1 1 auto;
+  // 講座名はアイコンと矢印の間で中央寄せ
+  .link-side {
+    flex: 0 0 auto;
     display: flex;
-    flex-direction: column;
-    min-width: 0;
+    align-items: center;
+  }
+  .link-side-right {
+    justify-content: flex-end;
   }
   .link-label {
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.3;
@@ -374,22 +393,6 @@
     }
     @media print, screen and (max-width: 374px) {
       font-size: 13px;
-    }
-  }
-  .link-note {
-    margin-top: 2px;
-    font-size: 11px;
-    line-height: 1.3;
-    white-space: nowrap;
-    @media print, screen and (max-width: 980px) {
-      font-size: 10px;
-    }
-    @media print, screen and (max-width: 414px) {
-      font-size: 9px;
-      letter-spacing: -0.02em;
-    }
-    @media print, screen and (max-width: 374px) {
-      white-space: normal;
     }
   }
   .link-arrow {

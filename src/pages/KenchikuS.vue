@@ -350,14 +350,8 @@
 
             <NewPvMovieKenchiku
               class="-noPaddingBottom"
-              :movie="$static.kenchikuOnline.mediaYoutube"
-              :image="
-                $static.kenchikuOnline.mediaImg
-                  ? $static.kenchikuOnline.mediaImg.file.url
-                  : ''
-              "
+              showTitleOnly
               movieTitle="支持率No.1 建築施工の講習会動画をご視聴ください"
-              description="合格者を多数輩出した井岡先生による１級建築施工の無料動画になります。"
             />
 
             <LectureKenchiku

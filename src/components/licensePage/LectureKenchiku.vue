@@ -1,6 +1,6 @@
 <template>
   <div class="lecture">
-    <div class="lecture-inner">
+    <div class="lecture-inner -noPaddingTop">
       <!-- <div class="lecture-section">
         <figure class="lecture-image">
           <g-image :src="imagePath" :alt="altText" />
@@ -425,6 +425,14 @@
     width: 100%;
     padding: 30px 0 0;
     margin: 0 auto;
+    &.-noPaddingTop {
+      padding-top: 0;
+      // 子要素の上マージンが外にはみ出し下地が見えるのを防ぐ
+      .lecture-movie-description {
+        margin-top: 0;
+        padding-top: 1em;
+      }
+    }
   }
 
   .lecture-movie-wrap {
