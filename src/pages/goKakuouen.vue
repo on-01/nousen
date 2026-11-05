@@ -184,31 +184,6 @@
         <br />
         ※他の割引と併用可能です。
       </p>
-      <!-- 建設業 創業支援制度 -->
-      <h3 class="goKakuouen-orange">建設業 創業支援制度</h3>
-      <img
-        class="goKakuouen-startup-img"
-        src="../assets/img/gokakuouen/gokakuouen_img7.jpg"
-        alt="建設業 創業支援制度"
-      />
-      <p class="goKakuouen-text">
-        能センでは建設業発展のため、創業支援として
-        <br />
-        創業２年以内の個人事業主、及び法人企業従業員様全ての方を対象に、
-        <br />
-        受講料を２０％割引でご提供いたします。
-        <br />
-        特に提出書類はございませんが、本社住所・代表電話番号・代表者氏名が必要になります。
-        <br />
-        <br />
-        <span class="goKakuouen-text-line">
-          能センは建設業の発展に微力ながら尽力させていただきます！
-        </span>
-        <br />
-        <br />
-        ※創業日から数えて２年以内の企業が対象になります
-        ※他の割引とは併用できません
-      </p>
       <!-- 資格で未来を切り開く。能センは挑戦を応援します！ -->
       <h3 class="goKakuouen-blue">
         資格で未来を切り開く。能センは挑戦を応援します！
