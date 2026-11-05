@@ -22,7 +22,7 @@
         <br />
         各割引プランの詳細については、ぜひ以下をご覧ください。あなたにぴったりのプランがきっと見つかります！
       </p>
-      <h3 class="goKakuouen-blue">🎓 GO!資格 合格応援制度</h3>
+      <h3 class="goKakuouen-blue -navy">🎓 GO!資格 合格応援制度</h3>
       <div class="goKakuouen-wrapper">
         <p class="goKakuouen-title">再受講割引</p>
         <div class="goKakuouen-flex">
@@ -353,6 +353,10 @@ query {
       font-weight: 700;
       color: #fff;
       margin: 40px 0;
+    }
+
+    .goKakuouen-blue.-navy {
+      background-color: #1262b2;
     }
 
     .goKakuouen-orange {
