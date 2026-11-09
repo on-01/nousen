@@ -6,7 +6,7 @@
         <ul>
           <li>
             <div class="time-text">
-              <p class="text-top">上期(8月)試験</p>
+              <p class="text-top">下期(3月)試験</p>
               <p class="text-bottom">{{ targetDateFormatted1 }}まであと</p>
             </div>
             <p class="time-day">
@@ -16,7 +16,7 @@
           </li>
           <li>
             <div class="time-text">
-              <p class="text-top">下期(3月)試験</p>
+              <p class="text-top">上期(8月)試験</p>
               <p class="text-bottom">{{ targetDateFormatted2 }}まであと</p>
             </div>
             <p class="time-day">
@@ -31,42 +31,59 @@
 </template>
 
 <script>
+  const ONE_DAY = 1000 * 60 * 60 * 24;
+
+  // 日付のみ（時刻を切り捨てた0時）に揃える
+  const startOfDay = (date) =>
+    new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
   export default {
     data() {
       return {
-        targetDate1: new Date("2026-08-30"),
-        targetDate2: new Date("2027-03-21"),
-        today: new Date(),
+        // 左：下期(3月)試験 / 右：上期(8月)試験
+        targetDate1: new Date(2027, 2, 21), // 2027年3月21日
+        targetDate2: new Date(2027, 7, 29), // 2027年8月29日
+        today: startOfDay(new Date()),
+        timer: null,
       };
     },
     computed: {
       remainingDays1() {
-        const diffTime = this.targetDate1 - this.today;
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-        return diffDays >= 0 ? diffDays : 0;
+        return this.calcRemainingDays(this.targetDate1);
       },
       remainingDays2() {
-        const diffTime = this.targetDate2 - this.today;
-        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-        return diffDays >= 0 ? diffDays : 0;
+        return this.calcRemainingDays(this.targetDate2);
       },
       targetDateFormatted1() {
-        const year = this.targetDate1.getFullYear();
-        const month = this.targetDate1.getMonth() + 1;
-        const day = this.targetDate1.getDate();
-        return `${year}年${month}月${day}日`;
+        return this.formatDate(this.targetDate1);
       },
       targetDateFormatted2() {
-        const year = this.targetDate2.getFullYear();
-        const month = this.targetDate2.getMonth() + 1;
-        const day = this.targetDate2.getDate();
-        return `${year}年${month}月${day}日`;
+        return this.formatDate(this.targetDate2);
+      },
+    },
+    methods: {
+      calcRemainingDays(target) {
+        const diffDays = Math.round((target - this.today) / ONE_DAY);
+        return diffDays >= 0 ? diffDays : 0;
+      },
+      formatDate(date) {
+        return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+      },
+      updateToday() {
+        const now = startOfDay(new Date());
+        if (now.getTime() !== this.today.getTime()) {
+          this.today = now;
+        }
       },
     },
     mounted() {
-      setInterval(() => {
-        this.today = new Date();
-      }, 1000 * 60 * 60);
+      // 静的ビルド時の日付ではなく、閲覧時の日付で再計算する
+      this.today = startOfDay(new Date());
+      // ページを開いたまま日付が変わった場合も反映
+      this.timer = setInterval(this.updateToday, 1000 * 60);
+    },
+    beforeDestroy() {
+      clearInterval(this.timer);
     },
   };
 </script>
