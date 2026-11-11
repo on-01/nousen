@@ -96,7 +96,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            src="../../assets/img/license_page/denken3/denken3_moshi.webp"
             alt="電験三種講座の予想模擬試験とポイント解説資料"
           />
           <div class="exam-textWrap">
@@ -113,7 +113,7 @@
               <br />
               ・最新傾向を反映した実践的な予想問題
               <br />
-              ・オンライン講座では、過去2年分の模試も受験可能
+              ・オンライン講座では、過去3年分の模試も受験可能
               <br />
               ・本番前の実力チェック・総仕上げに最適
               <br />
