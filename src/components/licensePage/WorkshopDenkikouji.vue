@@ -416,7 +416,7 @@
       <div class="workshop-completionWrap">
         <img
           class="workshop-completionImage"
-          src="../../assets/img/license_page/denkikouji_s/denkikouji_completion.png"
+          src="../../assets/img/license_page/completion.webp"
           alt="2級電気工事施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">

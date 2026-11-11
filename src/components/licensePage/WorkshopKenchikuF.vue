@@ -439,7 +439,7 @@
       <div class="workshop-completionWrap">
         <img
           class="workshop-completionImage"
-          src="../../assets/img/license_page/kenchiku_s/kenchiku_completion.png"
+          src="../../assets/img/license_page/completion.webp"
           alt="1級建築施工管理技士 講習会 通信講座 web講座"
         />
         <p class="workshop-completionText">
