@@ -138,13 +138,13 @@
           <div class="online-flex">
             <figure class="online-flex-image">
               <img
-                src="../../assets/img/license_page/denken3/denken3_completion.png"
+                src="../../assets/img/license_page/completion.webp"
                 alt="電験三種オンライン講座の修了証見本"
               />
             </figure>
             <div class="online-flex-description">
               <p>
-                視聴率95%以上で修了証が発行！
+                視聴率100%で修了証が発行！
                 <br />
                 会社で提出が必要な方や
                 <br />

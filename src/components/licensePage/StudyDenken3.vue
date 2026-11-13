@@ -128,8 +128,8 @@
         <div class="test-img -bottom">
           <img
             class="flex-img -right"
-            src="../../assets/img/license_page/doboku_s/counterplan-img1.webp"
-            alt="過去問5年分プレゼントキャンペーンの案内バナー画像"
+            src="../../assets/img/license_page/denken3/denken3_kakomon15.webp"
+            alt="過去15年分の本試験問題で合格力を徹底強化"
           />
         </div>
         <p class="test-text -mt20">

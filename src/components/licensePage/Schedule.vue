@@ -11,8 +11,8 @@
           <tr>
             <th class="schedule-th -first">項目</th>
             <!-- <th class="schedule-th -second">令和５年度 下期試験</th> -->
-            <th class="schedule-th -forth">令和8年度 上期試験</th>
-            <th class="schedule-th -third">令和8年度 下期試験</th>
+            <th class="schedule-th -forth">令和8年度 下期試験</th>
+            <th class="schedule-th -third">令和9年度 上期試験</th>
           </tr>
           <tr>
             <td class="schedule-td-border-none schedule-padding-none">
@@ -41,18 +41,6 @@
                 <p
                   class="schedule-td-flex-right-top schedule-table-padding-type2"
                 >
-                  7月16日(木)～8月09日(日)
-                  <br />
-                  (25日間)
-                </p>
-                <p class="schedule-table-padding">8月30日(日)</p>
-              </div>
-            </td>
-            <td class="schedule-padding-none">
-              <div>
-                <p
-                  class="schedule-td-flex-right-top schedule-table-padding-type2"
-                >
                   令和&nbsp;9年2月04日(木)〜2月28日(日)
                   <br />
                   (25日間)
@@ -60,6 +48,18 @@
                 <p class="schedule-table-padding">
                   令和&nbsp;9年&nbsp;3月21日(日)
                 </p>
+              </div>
+            </td>
+            <td class="schedule-padding-none">
+              <div>
+                <p
+                  class="schedule-td-flex-right-top schedule-table-padding-type2"
+                >
+                  7月20日(火)〜8月13日(金)
+                  <br />
+                  (25日間)
+                </p>
+                <p class="schedule-table-padding">8月29日(日)</p>
               </div>
             </td>
           </tr>
@@ -74,8 +74,8 @@
               に同じです。
             </td>
             <!-- <td>１１月１３日(月)～１１月３０日(木)</td> -->
-            <td>5月18日(月)～6月04日(木)</td>
             <td>11月09日(月)～11月26日(木)</td>
+            <td>5月17日(月)～6月3日(木)</td>
           </tr>
           <!-- <tr>
             <td

@@ -11,7 +11,7 @@
       <ul>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_campaign_3.webp"
+            src="../../assets/img/license_page/denken3/denken3_kakomon15.webp"
             alt="電験三種の過去15年分本試験問題データ資料"
           />
           <div class="exam-textWrap">
@@ -42,7 +42,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_campaign_4.jpg"
+            src="../../assets/img/license_page/denken3/denken3_bunseki.webp"
             alt="電験三種本試験の出題傾向分析資料"
           />
           <div class="exam-textWrap">
@@ -50,33 +50,35 @@
               Program②｜出題傾向を分析し、効率的な学習を実現
             </p>
             <p class="exam-text">
-              合格への近道は、「どこが出やすいか」を知ることから始まります。
+              合格への近道は、<strong>「どこが出やすいか」を知ること</strong>から始まります。
               <br />
-              本プログラムでは、過去10回分の本試験問題をもとに、出題傾向・出題形式の特徴を徹底分析。
+              本プログラムでは、過去10回分の本試験問題をもとに、科目ごと・分野ごとの出題傾向を分析。
               <br />
-              科目ごと・分野ごとに出題内容を分類し、どこを重点的に学ぶべきかが一目でわかる資料をご提供します。
+              出題状況を各科目1～2ページの一覧表にわかりやすく整理しています。
               <br />
-              これにより、限られた時間でも効率よく合格に近づく戦略的な学習が可能になります。
+              頻出分野がひと目でわかるため、重点的に学ぶべき内容を把握でき、限られた時間でも効率よく試験対策を進められます。
               <br />
               <br />
-              独学では見えづらい「試験の傾向」をつかみ、確実に得点源を増やしましょう。
+              試験の傾向をつかみ、得点力アップにつなげましょう！
             </p>
           </div>
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_12.webp"
+            src="../../assets/img/license_page/denken3/denken3_teishutsu.webp"
             alt="電験三種講座の提出課題と修了試験"
           />
           <div class="exam-textWrap">
             <p class="exam-head">Program③｜提出課題と修了試験で実力を可視化</p>
             <p class="exam-text">
-              本プログラムでは、全4科目分の提出課題および修了試験問題（通信講座）を通じて、学習の到達度を客観的に評価することが可能です。
+              学習の成果を確認することは、合格への大切なステップです。
               <br />
-              これらの課題・試験問題は、各科目の理解度や知識の深さを測るように設計されており、ご自身の弱点や改善点を明確に把握できます。
+              本プログラムでは、全4科目の提出課題と修了試験（通信講座）を通じて、学習の理解度や到達度を確認できます。
+              <br />
+              課題や試験に取り組むことで、自分の弱点や理解が不足している分野を把握し、重点的な復習につなげられます。
               <br />
               <br />
-              学習の進捗を確認しながら、着実に力をつけていける内容となっており、効果的な学習計画の立案にも役立つ構成です。
+              学習の進捗を確認しながら、着実に実力を高め、合格へと近づきましょう！
             </p>
             <div class="exam-textWrapBottom">
               <p class="exam-head">提出課題の添削例</p>
@@ -94,7 +96,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_exam_8.png"
+            src="../../assets/img/license_page/denken3/denken3_moshi.webp"
             alt="電験三種講座の予想模擬試験とポイント解説資料"
           />
           <div class="exam-textWrap">
@@ -111,7 +113,7 @@
               <br />
               ・最新傾向を反映した実践的な予想問題
               <br />
-              ・オンライン講座では、過去2年分の模試も受験可能
+              ・オンライン講座では、過去3年分の模試も受験可能
               <br />
               ・本番前の実力チェック・総仕上げに最適
               <br />
