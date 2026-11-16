@@ -132,28 +132,28 @@
       </div>
     </div>
 
+    <div class="workshop-completion">
+      <div class="workshop-completionWrap">
+        <img
+          class="workshop-completionImage"
+          src="../../assets/img/license_page/completion.webp"
+          alt="電験三種オンライン講座の修了証見本"
+        />
+        <p class="workshop-completionText">
+          視聴率100%で修了証が発行！
+          <br />
+          会社で提出が必要な方や
+          <br />
+          勉強のモチベーションUPに、
+          <br />
+          修了証を手に入れましょう！
+        </p>
+      </div>
+    </div>
+
     <div class="courseOverview">
       <div class="courseOverview-inner">
         <div class="courseOverview-content">
-          <div class="online-flex">
-            <figure class="online-flex-image">
-              <img
-                src="../../assets/img/license_page/completion.webp"
-                alt="電験三種オンライン講座の修了証見本"
-              />
-            </figure>
-            <div class="online-flex-description">
-              <p>
-                視聴率100%で修了証が発行！
-                <br />
-                会社で提出が必要な方や
-                <br />
-                勉強のモチベーションUPに、
-                <br />
-                修了証を手に入れましょう！
-              </p>
-            </div>
-          </div>
           <!-- <p class="courseOverview-text -type4">
             ※令和６年度に撮影した動画になります。
           </p> -->
@@ -1174,7 +1174,7 @@
     margin: 0;
   }
   .courseOverview-inner {
-    padding: 60px 40px 40px;
+    padding: 0 40px 40px;
   }
   .courseOverview-content {
     margin: 0 auto;
@@ -1286,7 +1286,7 @@
     }
     .courseOverview-inner {
       max-width: 100%;
-      padding: 40px 16px;
+      padding: 0 16px 40px;
     }
     // .courseOverview-icon {
     //     top: -15px;
