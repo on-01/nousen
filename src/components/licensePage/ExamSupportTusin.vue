@@ -176,24 +176,16 @@
     @media print, screen and (max-width: 1000px) {
       flex-direction: column;
     }
-    img {
+    > img {
       width: 40%;
-      object-fit: cover;
-      height: 308px;
+      height: auto;
+      flex-shrink: 0;
+      align-self: flex-start;
       @media print, screen and (max-width: 1000px) {
         width: 100%;
-        height: auto;
         display: block;
         margin-bottom: 20px;
       }
-    }
-  }
-
-  li:nth-child(4) img {
-    margin: 0 auto;
-    width: 20%;
-    @media print, screen and (max-width: 1000px) {
-      width: 50%;
     }
   }
 
