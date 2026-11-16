@@ -1150,7 +1150,7 @@
     metaInfo() {
       return {
         titleTemplate:
-          "第三種電気主任技術者の受験対策講座｜通学・オンライン・通信｜能セン",
+          "電験三種（第三種電気主任技術者）講座｜通学・オンライン・通信｜能セン",
         meta: [
           {
             key: "description",
@@ -1161,7 +1161,7 @@
           {
             key: `og:title`,
             property: `og:title`,
-            content: `第三種電気主任技術者の受験対策講座｜通学・オンライン・通信｜能セン`,
+            content: `電験三種（第三種電気主任技術者）講座｜通学・オンライン・通信｜能セン`,
             // content: `第三種電気主任技術者（電験三種） | ${
             //   this.$static.metadata.siteName
             // }`,
