@@ -111,7 +111,6 @@
 
               <MeritDenken3 />
               <StudyDenken3 />
-              <RecommendLink />
 
               <div style="padding-bottom: 100px">
                 <ContactInfo title="受講に関するご相談は" />
@@ -1118,7 +1117,6 @@
   import SetCourse from "../components/licensePage/SetCourse.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
-  import RecommendLink from "../components/licensePage/RecommendLink.vue";
   import TestOverview from "../components/licensePage/TestOverview.vue";
   import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
   import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
@@ -1211,7 +1209,6 @@
       SetCourse,
       Blog,
       Fsc,
-      RecommendLink,
       TestOverview,
       StudyDenken3,
       MeritDenken3,
