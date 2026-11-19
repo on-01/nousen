@@ -280,7 +280,7 @@
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
             5月11日～12月15日まで
-            <span>【受付中】</span>
+            <span>【準備中】</span>
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -300,7 +300,7 @@
             </p> -->
             <p class="workshop-border -none">
               2月27日～12月15日まで
-              <span>【受付中】</span>
+              <span>【準備中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -342,9 +342,9 @@
               (税込33,000円)
             </p>
             <p class="workshop-text -ryoukin">
-              17,000円
+              18,000円
               <br />
-              (税込18,700円)
+              (税込19,800円)
             </p>
           </div>
         </div>
@@ -896,7 +896,7 @@
                     <br />
                     30,000円（税込33,000円）：一次コース
                     <br />
-                    17,000円（税込18,700円）：二次コース
+                    18,000円（税込19,800円）：二次コース
                   </td>
                 </tr>
                 <tr>
