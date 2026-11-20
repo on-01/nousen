@@ -111,7 +111,6 @@
 
               <MeritDenken3 />
               <StudyDenken3 />
-              <RecommendLink />
 
               <div style="padding-bottom: 100px">
                 <ContactInfo title="受講に関するご相談は" />
@@ -1118,7 +1117,6 @@
   import SetCourse from "../components/licensePage/SetCourse.vue";
   import Blog from "../components/licensePage/Blog.vue";
   import Fsc from "../components/licensePage/Fsc.vue";
-  import RecommendLink from "../components/licensePage/RecommendLink.vue";
   import TestOverview from "../components/licensePage/TestOverview.vue";
   import StudyDenken3 from "../components/licensePage/StudyDenken3.vue";
   import MeritDenken3 from "../components/licensePage/MeritDenken3.vue";
@@ -1150,7 +1148,7 @@
     metaInfo() {
       return {
         titleTemplate:
-          "第三種電気主任技術者の受験対策講座｜通学・オンライン・通信｜能セン",
+          "電験三種（第三種電気主任技術者）講座｜通学・オンライン・通信｜能セン",
         meta: [
           {
             key: "description",
@@ -1161,7 +1159,7 @@
           {
             key: `og:title`,
             property: `og:title`,
-            content: `第三種電気主任技術者の受験対策講座｜通学・オンライン・通信｜能セン`,
+            content: `電験三種（第三種電気主任技術者）講座｜通学・オンライン・通信｜能セン`,
             // content: `第三種電気主任技術者（電験三種） | ${
             //   this.$static.metadata.siteName
             // }`,
@@ -1211,7 +1209,6 @@
       SetCourse,
       Blog,
       Fsc,
-      RecommendLink,
       TestOverview,
       StudyDenken3,
       MeritDenken3,

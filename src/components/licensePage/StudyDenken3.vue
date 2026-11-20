@@ -145,7 +145,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            電験三種　過去問無料ダウンロード完全版
+            電験三種（第三種電気主任技術者）の過去問・解答・解説PDF
           </a>
         </p>
       </div>

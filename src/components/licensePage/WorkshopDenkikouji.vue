@@ -275,7 +275,7 @@
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <p class="workshop-text -third">
             5月11日～12月15日まで         
-            <span>【受付中】</span>
+            <span>【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
@@ -283,7 +283,7 @@
           <div class="workshop-text -third">
             <p class="workshop-border -none">
               10月13日～12月15日まで
-              <span>【受付中】</span>
+              <span>【準備中】</span>
             </p>
           </div>
         </div>
@@ -311,9 +311,9 @@
               (税込33,000円)
             </p>
             <p class="workshop-text -ryoukin">
-              17,000円
+              18,000円
               <br />
-              (税込18,700円)
+              (税込19,800円)
             </p>
           </div>
         </div>
@@ -746,7 +746,7 @@
                     <br />
                     31,000円（税込34,100円）：一次コース
                     <br />
-                    16,500円（税込18,150円）：二次コース
+                    18,000円（税込19,800円）：二次コース
                   </td>
                 </tr>
                 <tr>

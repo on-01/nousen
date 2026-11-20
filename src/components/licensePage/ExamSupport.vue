@@ -213,13 +213,15 @@
       flex-direction: column;
     }
     > img {
-      width: 40%;
+      width: 36%;
       height: auto;
       flex-shrink: 0;
       align-self: flex-start;
       @media print, screen and (max-width: 1000px) {
-        width: 100%;
+        width: 90%;
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
       }
     }
