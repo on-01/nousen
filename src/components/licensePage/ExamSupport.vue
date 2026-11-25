@@ -11,8 +11,8 @@
       <ul>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_kakomon15.webp"
-            alt="電験三種の過去15年分本試験問題データ資料"
+            src="../../assets/img/license_page/denken3/denken3_kakomon18.webp"
+            alt="電験三種の過去18年分本試験問題データ資料"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
