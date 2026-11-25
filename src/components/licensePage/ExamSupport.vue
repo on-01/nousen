@@ -64,7 +64,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_teishutsu.webp"
+            src="../../assets/img/license_page/denken3/denken3_teishutsu2.webp"
             alt="電験三種講座の提出課題と修了試験"
           />
           <div class="exam-textWrap">
