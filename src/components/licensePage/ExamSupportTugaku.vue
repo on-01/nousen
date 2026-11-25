@@ -95,7 +95,7 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_moshi.webp"
+            src="../../assets/img/license_page/denken3/denken3_moshi2.webp"
             alt="電験三種講座の予想模擬試験とポイント解説資料"
           />
           <div class="exam-textWrap">
