@@ -11,12 +11,30 @@
       <ul>
         <li>
           <img
+            src="../../assets/img/license_page/denken3/denken3_1nichi1mon.webp"
+            alt="電験三種1日1問 理論・電力・機械・法規の学習冊子"
+          />
+          <div class="exam-textWrap">
+            <p class="exam-head">
+              Program①｜「電験三種1日1問」で4科目の基礎を固めよう！
+            </p>
+            <p class="exam-text">
+              「電験三種1日1問」は、<strong>理論・電力・機械・法規の全4冊</strong>からなる能センオリジナルの学習冊子です。各冊30問、合計120問の四択問題を収録しています。
+              <br />
+              <br />
+              <strong>1問の目安は5～10分。</strong>
+              忙しい日も、短い時間で取り組めます。まずは自分で解き、巻末の解答・解説で考え方を確認します。間違えた問題や答えに迷った問題は「要復習」にチェックを入れ、翌日に解き直しましょう。
+            </p>
+          </div>
+        </li>
+        <li>
+          <img
             src="../../assets/img/license_page/denken3/denken3_kakomon18.webp"
             alt="電験三種の過去18年分本試験問題データ資料"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
-              Program①｜過去18年分の本試験問題で、合格力を徹底強化！
+              Program②｜過去18年分の本試験問題で、合格力を徹底強化！
             </p>
             <p class="exam-text">
               電験三種の過去18年分（平成21年度～令和8年度）の本試験問題を、解答・解説付きでお届けします。
@@ -46,7 +64,7 @@
           />
           <div class="exam-textWrap">
             <p class="exam-head">
-              Program②｜出題傾向を分析し、効率的な学習を実現
+              Program③｜出題傾向を分析し、効率的な学習を実現
             </p>
             <p class="exam-text">
               合格への近道は、<strong>「どこが出やすいか」を知ること</strong>から始まります。
@@ -68,7 +86,7 @@
             alt="電験三種講座の提出課題と修了試験"
           />
           <div class="exam-textWrap">
-            <p class="exam-head">Program③｜提出課題と修了試験で実力を可視化</p>
+            <p class="exam-head">Program④｜提出課題と修了試験で実力を可視化</p>
             <p class="exam-text">
               学習の成果を確認することは、合格への大切なステップです。
               <br />
@@ -100,7 +118,7 @@
           />
           <div class="exam-textWrap">
             <p class="exam-head">
-              Program④｜最新の予想模擬試験＋ポイント解説で総仕上げ
+              Program⑤｜最新の予想模擬試験＋ポイント解説で総仕上げ
             </p>
             <p class="exam-text">
               試験本番を想定した最新の予想模擬試験（全4科目対応）で、合格への最終確認を行います。
