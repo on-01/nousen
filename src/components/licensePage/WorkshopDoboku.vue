@@ -429,17 +429,17 @@
     <div class="hayaben-box">
       <p class="hayaben-title">ハヤベン（早勉）とは？</p>
       <div class="hayaben-body">
-        <p class="hayaben-lead">
-          本講座の開講前から、
-          <br class="hayaben-sp" />
-          前年度の講義動画で予習できる、
-          <br />
-          <b class="hayaben_red">無料の先行学習特典</b>
-          です。
-        </p>
-      </div>
-      <div class="hayaben-body">
-        <p class="hayaben-condition">対象者・視聴開始条件：要確認</p>
+        <div class="hayaben-inner">
+          <p class="hayaben-lead">
+            本講座の開講前から、
+            <br class="hayaben-sp" />
+            前年度の講義動画で予習できる、
+            <br />
+            <b class="hayaben_red">無料の先行学習特典</b>
+            です。
+          </p>
+          <p class="hayaben-condition">対象者・視聴開始条件：要確認</p>
+        </div>
       </div>
       <table class="hayaben-table">
         <tr>
@@ -1880,6 +1880,8 @@
   }
 
   .hayaben {
+    // 画面幅に合わせて縮小（左右20pxの余白を確保）
+    width: calc(100% - 40px);
     max-width: 420px;
     margin: 40px auto 0 auto;
     display: block;
@@ -1895,6 +1897,9 @@
     padding: 0 20px;
     line-height: 1.6;
     color: #1a1a1a;
+    b {
+      font-weight: 700;
+    }
   }
   .hayaben-title {
     margin: 0 0 12px;
@@ -1906,7 +1911,15 @@
   .hayaben-body {
     text-align: center;
   }
-  .hayaben-lead,
+  // 説明文と条件の枠を左端で揃える
+  .hayaben-inner {
+    display: inline-block;
+    text-align: left;
+  }
+  .hayaben-lead {
+    margin: 0;
+    font-size: 17px;
+  }
   .hayaben-note {
     display: inline-block;
     margin: 0;
@@ -1920,7 +1933,7 @@
     border: 1px dashed #999;
     color: #555;
     font-size: 14px;
-    text-align: left;
+    font-weight: 600;
   }
   .hayaben-sp {
     display: none;
