@@ -426,41 +426,47 @@
       src="../../assets/img/license_page/doboku_s/hayaben.webp"
       alt="2級土木施工管理技士 講習会 通信講座 web講座"
     />
-    <p class="workshop-top">
-      ハヤベン（早勉）とは？
-      <br />
-      <br />
-      本講座の開講前に、前年度の講義動画を特別公開！
-      <br />
-      スタート前に予習できる、
-      <span class="hayaben_red">無料の先行学習特典</span>
-      です。
-      <br />
-      <br />
-      施工管理技士試験は、早めの準備が合格のカギ。
-      <br />
-      本講座の前から動き出すことで、ライバルに差をつけることができます。
-      <br />
-      <br />
-      段取りの良さが結果を変える――それがハヤベンです。
-    </p>
-    <div class="workshop-wrapper">
-      <div class="workshop-box">
-        <p class="workshop-heading -blue -bottom">
-          ハヤベンの特典（昨年の動画無料視聴）
+    <div class="hayaben-box">
+      <p class="hayaben-title">ハヤベン（早勉）とは？</p>
+      <div class="hayaben-body">
+        <p class="hayaben-lead">
+          本講座の開講前から、
+          <br class="hayaben-sp" />
+          前年度の講義動画で予習できる、
+          <br />
+          <b class="hayaben_red">無料の先行学習特典</b>
+          です。
         </p>
-        <div class="workshop-content">
-          <p class="workshop-text -blue">一次 (約12時間) / 二次 (約5時間)</p>
-          <p class="workshop-text -blue">1月1日～12月15日</p>
-        </div>
+      </div>
+      <table class="hayaben-table">
+        <tr>
+          <th>前年度の講義動画</th>
+          <th>視聴期間</th>
+        </tr>
+        <tr>
+          <td>
+            一次（約12時間）
+            <br />
+            二次（約5.5時間）
+          </td>
+          <td>
+            <b>
+              1月1日～
+              <br class="hayaben-sp" />
+              11月30日
+            </b>
+          </td>
+        </tr>
+      </table>
+      <p class="hayaben-total">
+        最新年度＋前年度の講義動画
+        <br />
+        <b>合計 約35時間</b>
+      </p>
+      <div class="hayaben-body">
+        <p class="hayaben-note">視聴期間中は何度でも繰り返し視聴できます。</p>
       </div>
     </div>
-    <p class="workshop-bottom -yellow">
-      <span>最新＋過去動画で最大35時間分の視聴ができる！</span>
-    </p>
-    <p class="workshop-bottom -yellow">
-      <span>配信終了日まで何回でも視聴可能です。</span>
-    </p>
     <!-- <p class="workshop-bottom">※昨年度の動画は無料で配信いたします</p> -->
 
     <div class="workshop-orangeLine">
@@ -1876,6 +1882,95 @@
 
   .hayaben_red {
     color: red;
+  }
+  // ハヤベン案内（見出し・合計は中央、本文は左揃え）
+  .hayaben-box {
+    max-width: 640px;
+    margin: 20px auto 40px;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #1a1a1a;
+  }
+  .hayaben-title {
+    margin: 0 0 12px;
+    text-align: center;
+    color: #1262b2;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .hayaben-body {
+    text-align: center;
+  }
+  .hayaben-lead,
+  .hayaben-note {
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    font-size: 17px;
+  }
+  .hayaben-sp {
+    display: none;
+  }
+  .hayaben-table {
+    width: 100%;
+    margin: 20px 0 0;
+    border-collapse: collapse;
+    font-size: 17px;
+    th,
+    td {
+      width: 50%;
+      border: 1px solid #1262b2;
+      padding: 10px 8px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    th {
+      background-color: #1262b2;
+      color: #fff;
+      font-weight: 700;
+    }
+    td {
+      background-color: #fff;
+    }
+  }
+  .hayaben-total {
+    margin: 20px 0 12px;
+    text-align: center;
+    font-size: 17px;
+    b {
+      display: block;
+      color: #1262b2;
+      font-size: 28px;
+      line-height: 1.3;
+    }
+  }
+  @media print, screen and (max-width: 560px) {
+    .hayaben-box {
+      padding: 0 16px;
+    }
+    .hayaben-title {
+      font-size: 20px;
+    }
+    .hayaben-lead,
+    .hayaben-note {
+      font-size: 15px;
+    }
+    .hayaben-sp {
+      display: inline;
+    }
+    .hayaben-table {
+      font-size: 14px;
+      th,
+      td {
+        padding: 8px 4px;
+      }
+    }
+    .hayaben-total {
+      font-size: 15px;
+      b {
+        font-size: 24px;
+      }
+    }
   }
   .workshop-advisor-img {
     margin-bottom: 40px;
