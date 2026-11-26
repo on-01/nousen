@@ -466,6 +466,7 @@
         最新年度＋前年度の講義動画
         <br />
         <b>合計 約35時間</b>
+        <span class="hayaben-total-note">※対象コースは要確認</span>
       </p>
       <div class="hayaben-body">
         <p class="hayaben-note">視聴期間中は何度でも繰り返し視聴できます。</p>
@@ -1973,6 +1974,13 @@
       line-height: 1.3;
     }
   }
+  .hayaben-total-note {
+    display: block;
+    margin-top: 2px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+  }
   @media print, screen and (max-width: 560px) {
     .hayaben-box {
       padding: 0 16px;
@@ -2002,6 +2010,9 @@
       b {
         font-size: 24px;
       }
+    }
+    .hayaben-total-note {
+      font-size: 12px;
     }
   }
   .workshop-advisor-img {
