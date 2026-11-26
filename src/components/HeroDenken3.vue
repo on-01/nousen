@@ -55,6 +55,13 @@
               href: "https://t.kouza.nouryoku.com/",
               icon: "correspondence",
             },
+            {
+              label: "過去問・解説",
+              sub: "無料PDF",
+              href: "https://nousen.blog/denken-kakomondl/",
+              icon: "document",
+              outline: true,
+            },
           ],
         ],
       };
