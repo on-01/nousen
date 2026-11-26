@@ -109,14 +109,9 @@
   .quality-mainTitle {
     font-weight: bold;
     text-align: center;
-    font-size: 28px;
-    color: red;
+    font-size: 32px;
+    color: #1262b2;
     margin-bottom: 30px;
-    text-shadow:
-      1px 1px 0 #000,
-      -1px 1px 0 #000,
-      1px -1px 0 #000,
-      -1px -1px 0 #000;
     font-family: メイリオ, sans-serif;
   }
 
@@ -231,7 +226,7 @@
       width: 90%;
     }
     .quality-mainTitle {
-      font-size: 20px;
+      font-size: 24px;
       margin-bottom: 0;
     }
 
