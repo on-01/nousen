@@ -438,6 +438,9 @@
           です。
         </p>
       </div>
+      <div class="hayaben-body">
+        <p class="hayaben-condition">対象者・視聴開始条件：要確認</p>
+      </div>
       <table class="hayaben-table">
         <tr>
           <th>前年度の講義動画</th>
@@ -445,9 +448,11 @@
         </tr>
         <tr>
           <td>
-            一次（約12時間）
-            <br />
-            二次（約5.5時間）
+            <b>
+              一次（約12時間）
+              <br />
+              二次（約5.5時間）
+            </b>
           </td>
           <td>
             <b>
@@ -1908,6 +1913,15 @@
     text-align: left;
     font-size: 17px;
   }
+  .hayaben-condition {
+    display: inline-block;
+    margin: 12px 0 0;
+    padding: 4px 10px;
+    border: 1px dashed #999;
+    color: #555;
+    font-size: 14px;
+    text-align: left;
+  }
   .hayaben-sp {
     display: none;
   }
@@ -1954,6 +1968,9 @@
     .hayaben-lead,
     .hayaben-note {
       font-size: 15px;
+    }
+    .hayaben-condition {
+      font-size: 12px;
     }
     .hayaben-sp {
       display: inline;
