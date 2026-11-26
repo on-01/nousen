@@ -298,11 +298,18 @@
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(約12時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              一次コース
+              <br />
+              (約12時間)
+            </span>
+          </p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            4月17日～11月30日まで
-            <span>【準備中】</span>
+            <b class="workshop-date">4月27日～11月30日</b>
+            <br />
+            <span>【受付中】</span>
           </p>
           <!-- <p class="workshop-text">
             土木一般 / 専門土木 / 法規 / 共通工学 / 施工管理法
@@ -310,7 +317,13 @@
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(約5.5時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              二次コース
+              <br />
+              (約5.5時間)
+            </span>
+          </p>
           <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(約12時間)</p>
             <p class="workshop-border -none">二次コース(約5時間)</p>
@@ -321,8 +334,9 @@
               <span>【終了】</span>
             </p> -->
             <p class="workshop-border -none">
-              4月3日～11月30日まで
-              <span>【準備中】</span>
+              <b class="workshop-date">3月01日～11月30日</b>
+              <br />
+              <span>【受付中】</span>
             </p>
           </div>
           <!-- <p class="workshop-text">
@@ -871,10 +885,10 @@
                 <tr>
                   <th>配信日程</th>
                   <td>
-                    一次：4月17日～11月30日まで
+                    一次：4月27日～11月30日まで
                     <span class="-red">【受付中】</span>
                     <br />
-                    二次：4月3日～11月30日まで
+                    二次：3月01日～11月30日まで
                     <span class="-red">【受付中】</span>
                   </td>
                 </tr>
