@@ -274,7 +274,7 @@
         <div class="workshop-content">
           <p class="workshop-text -first">一次コース(約12時間)</p>
           <p class="workshop-text -third">
-            5月11日～12月15日まで         
+            5月11日～11月30日まで         
             <span>【準備中】</span>
           </p>
         </div>
@@ -282,7 +282,7 @@
           <p class="workshop-text -first">二次コース(約5.5時間)</p>
           <div class="workshop-text -third">
             <p class="workshop-border -none">
-              10月13日～12月15日まで
+              10月13日～11月30日まで
               <span>【準備中】</span>
             </p>
           </div>
@@ -722,9 +722,9 @@
                 <tr>
                   <th>配信日程</th>
                   <td>
-                    一次：5月11日～12月15日まで<span class="-red">【受付中】</span>
+                    一次：5月11日～11月30日まで<span class="-red">【受付中】</span>
                     <br />
-                    二次：10月13日～12月15日まで<span class="-red">【受付中】</span>
+                    二次：10月13日～11月30日まで<span class="-red">【受付中】</span>
                   </td>
                 </tr>
                 <tr>
