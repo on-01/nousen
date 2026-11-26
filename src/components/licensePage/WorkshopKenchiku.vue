@@ -28,10 +28,18 @@
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(2日間/15時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              一次コース
+              <br />
+              (2日間/15時間)
+            </span>
+          </p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
           <p class="workshop-text -third">
-            5月2日(土)～3日(日)9:30～17:00
+            <b class="workshop-date">5月2日(土)～3日(日)</b>
+            <br />
+            9:30～17:00
             <span style="font-weight: 700; color: inherit;">【終了】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -40,7 +48,13 @@
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(1日/6.5時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              二次コース
+              <br />
+              (1日/6.5時間)
+            </span>
+          </p>
           <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(2日間)</p>
             <p class="workshop-border -none">二次コース(1日)</p>
@@ -50,7 +64,9 @@
               10月12日(土)～13日(日)9:30～17:00【終了】
             </p> -->
             <p class="workshop-border -none">
-              10月11日(日)9:30～16:00
+              <b class="workshop-date">10月11日(日)</b>
+              <br />
+              9:30～16:00
               <span>【受付中】</span>
             </p>
           </div>
@@ -1189,6 +1205,16 @@
     // display: flex;
     // flex-direction: column;
     border-left: none;
+  }
+
+  // コース名（上段）と時間数（下段）の2段表示
+  .workshop-text .workshop-course {
+    color: inherit;
+    font-weight: inherit;
+  }
+  .workshop-date {
+    color: #000;
+    font-weight: 700;
   }
 
   .workshop-border {
