@@ -247,6 +247,7 @@
   @media print, screen and (max-width: 560px) {
     .quality-mainTitle {
       font-size: 24px;
+      line-height: 1.5;
     }
     .quality-mainTitle br {
       display: block;
