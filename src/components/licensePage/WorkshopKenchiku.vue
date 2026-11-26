@@ -1910,7 +1910,7 @@
     margin: 20px auto 40px;
     padding: 0 20px;
     line-height: 1.6;
-    color: #1a1a1a;
+    color: #000;
     b {
       font-weight: 700;
     }
@@ -1946,8 +1946,8 @@
     display: inline-block;
     margin: 12px 0 0;
     padding: 4px 10px;
-    border: 1px dashed #999;
-    color: #555;
+    border: 1px dashed #000;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
   }
@@ -1991,7 +1991,7 @@
   .hayaben-total-note {
     display: block;
     margin-top: 2px;
-    color: #555;
+    color: #000;
     font-size: 14px;
     font-weight: 600;
   }
