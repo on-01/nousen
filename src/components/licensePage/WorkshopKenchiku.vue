@@ -429,8 +429,7 @@
             <br class="hayaben-sp" />
             前年度の講義動画で予習できる、
             <br />
-            <b class="hayaben_red">無料の先行学習特典</b>
-            です。
+            <b class="hayaben_red">無料の先行学習特典</b>です。
           </p>
           <p class="hayaben-condition">対象者・視聴開始条件：要確認</p>
         </div>
@@ -1933,12 +1932,14 @@
   .hayaben-lead {
     margin: 0;
     font-size: 17px;
+    font-weight: 700;
   }
   .hayaben-note {
     display: inline-block;
     margin: 0;
     text-align: left;
     font-size: 17px;
+    font-weight: 700;
   }
   .hayaben-condition {
     display: inline-block;
@@ -1978,6 +1979,7 @@
     margin: 20px 0 12px;
     text-align: center;
     font-size: 17px;
+    font-weight: 700;
     b {
       display: block;
       color: #1262b2;
