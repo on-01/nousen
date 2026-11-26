@@ -289,17 +289,31 @@
           <p class="workshop-text -third -yellow">配信日程</p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(約12時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              一次コース
+              <br />
+              (約12時間)
+            </span>
+          </p>
           <p class="workshop-text -third">
-            5月11日～11月30日まで         
+            <b class="workshop-date">5月11日～11月30日まで</b>
+            <br />
             <span>【準備中】</span>
           </p>
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(約5.5時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              二次コース
+              <br />
+              (約5.5時間)
+            </span>
+          </p>
           <div class="workshop-text -third">
             <p class="workshop-border -none">
-              10月13日～11月30日まで
+              <b class="workshop-date">10月13日～11月30日まで</b>
+              <br />
               <span>【準備中】</span>
             </p>
           </div>
