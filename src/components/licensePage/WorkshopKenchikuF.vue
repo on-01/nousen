@@ -28,7 +28,13 @@
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(2日間/15時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              一次コース
+              <br />
+              (2日間/15時間)
+            </span>
+          </p>
           <!-- <p class="workshop-text -second">一次コース(2日間)</p> -->
           <p class="workshop-text -third">令和9年度 オンライン講座のみ</p>
           <!-- <p class="workshop-text">
@@ -37,7 +43,13 @@
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(1日/6.5時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              二次コース
+              <br />
+              (1日/6.5時間)
+            </span>
+          </p>
           <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(2日間)</p>
             <p class="workshop-border -none">二次コース(1日)</p>
@@ -267,10 +279,17 @@
           </p> -->
         </div>
         <div class="workshop-content">
-          <p class="workshop-text -first">一次コース(約12時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              一次コース
+              <br />
+              (約12時間)
+            </span>
+          </p>
           <!-- <p class="workshop-text -second">一次コース(約12時間)</p> -->
           <p class="workshop-text -third">
-            3月01日～11月30日まで
+            <b class="workshop-date">3月01日～11月30日まで</b>
+            <br />
             <span>【準備中】</span>
           </p>
           <!-- <p class="workshop-text">
@@ -279,7 +298,13 @@
         </div>
         <!-- <p class="workshop-heading -bottom">後期(定員30名)</p> -->
         <div class="workshop-content">
-          <p class="workshop-text -first">二次コース(約5.5時間)</p>
+          <p class="workshop-text -first">
+            <span class="workshop-course">
+              二次コース
+              <br />
+              (約5.5時間)
+            </span>
+          </p>
           <!-- <div class="workshop-text -second">
             <p class="workshop-border">一次コース(約12時間)</p>
             <p class="workshop-border -none">二次コース(約5時間)</p>
@@ -290,7 +315,8 @@
               <span>【受付中】</span>
             </p> -->
             <p class="workshop-border -none">
-              3月01日～11月30日まで
+              <b class="workshop-date">3月01日～11月30日まで</b>
+              <br />
               <span>【準備中】</span>
             </p>
           </div>
@@ -1174,6 +1200,16 @@
     // display: flex;
     // flex-direction: column;
     border-left: none;
+  }
+
+  // コース名（上段）と時間数（下段）の2段表示
+  .workshop-text .workshop-course {
+    color: inherit;
+    font-weight: inherit;
+  }
+  .workshop-date {
+    color: #000;
+    font-weight: 700;
   }
 
   .workshop-border {

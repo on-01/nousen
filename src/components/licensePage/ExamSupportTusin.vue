@@ -11,32 +11,49 @@
       <ul>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_kakomon15.webp"
-            alt="電験三種の過去15年分本試験問題データ資料"
+            src="../../assets/img/license_page/denken3/denken3_1nichi1mon.webp"
+            alt="電験三種1日1問 理論・電力・機械・法規の学習冊子"
           />
           <div class="exam-textWrap">
             <p class="exam-head">
-              Program①｜過去15年分の本試験データで“合格力”を徹底養成！
+              Program①｜「電験三種1日1問」で4科目の基礎を固めよう！
             </p>
             <p class="exam-text">
-              電験三種の合格には、本試験を知り尽くすことが欠かせません。
-              <br />
-              本プログラムでは、過去15年分の本試験問題をまとめてご提供します。
-              <br />
-              通学・オンライン・通信、すべての受講生が対象です。
-              <br />
-              実際の出題形式・難易度を体感しながら学ぶことで、
-              <br />
-              <span>✅出題傾向の把握</span>
-              <br />
-              <span>✅頻出分野の分析</span>
-              <br />
-              <span>✅実戦的な対応力の強化</span>
-              <br />
-              を実現。合格へとつながる確かな学習が可能になります。
+              「電験三種1日1問」は、<strong>理論・電力・機械・法規の全4冊</strong>からなる能センオリジナルの学習冊子です。各冊30問、合計120問の四択問題を収録しています。
               <br />
               <br />
-              ※情報量が多いため（理論P461／電力P380／機械P456／法規P350）、環境に配慮しPDF形式でお送りします
+              <strong>1問の目安は5～10分。</strong>
+              忙しい日も、短い時間で取り組めます。まずは自分で解き、巻末の解答・解説で考え方を確認します。間違えた問題や答えに迷った問題は「要復習」にチェックを入れ、翌日に解き直しましょう。
+            </p>
+          </div>
+        </li>
+        <li>
+          <img
+            src="../../assets/img/license_page/denken3/denken3_kakomon18.webp"
+            alt="電験三種の過去18年分本試験問題データ資料"
+          />
+          <div class="exam-textWrap">
+            <p class="exam-head">
+              Program②｜過去18年分の本試験問題で、合格力を徹底強化！
+            </p>
+            <p class="exam-text">
+              電験三種の過去18年分（平成21年度～令和8年度）の本試験問題を、解答・解説付きでお届けします。
+              <br />
+              <br />
+              <span>✅ 出題傾向をつかむ</span>
+              <br />
+              実際の問題を解きながら、科目ごとの出題形式や難易度に慣れることができます。
+              <br />
+              <span>✅ 頻出分野を見極める</span>
+              <br />
+              複数の年度で繰り返し出題されるテーマを把握し、重点的に復習できます。
+              <br />
+              <span>✅ 実戦力を磨く</span>
+              <br />
+              本番を想定して時間を計り、問題を解く順番や時間配分を練習できます。間違えた問題は、解説を読んで解き方を確認できます。
+              <br />
+              <br />
+              ※環境に配慮し、教材はPDF形式でご提供します。
             </p>
           </div>
         </li>
@@ -47,7 +64,7 @@
           />
           <div class="exam-textWrap">
             <p class="exam-head">
-              Program②｜出題傾向を分析し、効率的な学習を実現
+              Program③｜出題傾向を分析し、効率的な学習を実現
             </p>
             <p class="exam-text">
               合格への近道は、<strong>「どこが出やすいか」を知ること</strong>から始まります。
@@ -65,11 +82,11 @@
         </li>
         <li>
           <img
-            src="../../assets/img/license_page/denken3/denken3_teishutsu.webp"
+            src="../../assets/img/license_page/denken3/denken3_teishutsu2.webp"
             alt="電験三種講座の提出課題と修了試験"
           />
           <div class="exam-textWrap">
-            <p class="exam-head">Program③｜提出課題と修了試験で実力を可視化</p>
+            <p class="exam-head">Program④｜提出課題と修了試験で実力を可視化</p>
             <p class="exam-text">
               学習の成果を確認することは、合格への大切なステップです。
               <br />
@@ -100,7 +117,7 @@
             alt="電験三種通信講座の質問用紙"
           />
           <div class="exam-textWrap">
-            <p class="exam-head">Program④｜質問用紙で質問できる</p>
+            <p class="exam-head">Program⑤｜質問用紙で質問できる</p>
             <p class="exam-text">
               学習中に「計算式の途中が分からない」「テキストのどこを確認すればよいか分からない」といった疑問が生じても安心です。
               <br />

@@ -8,7 +8,8 @@
       color="#ed7d31"
       :buttons="[[{ label: '通学講座', href: '...', icon: 'classroom' }]]"
     />
-    buttons は PC 表示時の行ごとの配列。icon は classroom / online / book / trial / correspondence
+    buttons は PC 表示時の行ごとの配列。icon は classroom / online / book / trial / correspondence / document
+    sub: ラベル下の小さい文字、outline: true で白背景・枠線のボタン
     SP は背景画像を出さず、白背景の上に枠を通常フローで配置する
     -->
     <div
@@ -40,9 +41,13 @@
           <a
             v-for="button in row"
             :key="button.label"
-            class="link-button"
+            :class="['link-button', { '-outline': button.outline }]"
             :href="button.href"
-            :style="{ 'background-color': buttonColor || color }"
+            :style="
+              button.outline
+                ? { color: buttonColor || color, 'border-color': buttonColor || color }
+                : { 'background-color': buttonColor || color }
+            "
           >
             <span class="link-side">
             <svg
@@ -95,9 +100,22 @@
                 <path d="M14 2v5h5" fill="none" stroke-width="1.8" />
                 <path d="M10 11v7.5l5.8-3.75z" />
               </template>
+              <template v-else-if="button.icon === 'document'">
+                <path
+                  d="M5 2h9.5L19 6.5V22H5z"
+                  fill="none"
+                  stroke-width="1.8"
+                  stroke-linejoin="round"
+                />
+                <path d="M14 2v5h5" fill="none" stroke-width="1.8" />
+                <path d="M8.5 12h7M8.5 15.5h7M8.5 19h4.5" fill="none" stroke-width="1.6" />
+              </template>
             </svg>
             </span>
-            <span class="link-label">{{ button.label }}</span>
+            <span class="link-label">
+              {{ button.label }}
+              <span v-if="button.sub" class="link-sub">{{ button.sub }}</span>
+            </span>
             <span class="link-side link-side-right">
               <svg class="link-arrow" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.6" />
@@ -331,6 +349,11 @@
     &[href]:hover {
       opacity: 0.8;
     }
+    // 白背景・枠線のボタン（文字・枠の色は style で指定）
+    &.-outline {
+      background-color: #fff;
+      border: 2px solid;
+    }
   }
   // 電験三種は矢印なし
   .denken3 .link-arrow {
@@ -393,6 +416,23 @@
     }
     @media print, screen and (max-width: 374px) {
       font-size: 13px;
+    }
+  }
+  .link-sub {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2;
+    @media print, screen and (max-width: 980px) {
+      font-size: 10px;
+    }
+  }
+  // サブテキスト付きボタンは SP で文字が窮屈にならないようアイコンを小さく
+  @media print, screen and (max-width: 980px) {
+    .-outline .link-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 3px;
     }
   }
   .link-arrow {

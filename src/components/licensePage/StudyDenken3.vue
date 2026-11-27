@@ -128,8 +128,8 @@
         <div class="test-img -bottom">
           <img
             class="flex-img -right"
-            src="../../assets/img/license_page/denken3/denken3_kakomon15.webp"
-            alt="過去15年分の本試験問題で合格力を徹底強化"
+            src="../../assets/img/license_page/denken3/denken3_kakomon18.webp"
+            alt="過去18年分の本試験問題で合格力を徹底強化"
           />
         </div>
         <p class="test-text -mt20">
